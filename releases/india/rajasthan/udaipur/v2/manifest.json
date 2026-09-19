@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.0",
+  "city_pack_version": "v2",
+  "city_id": "udaipur",
+  "city_name": "Udaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "generated_at": "2026-09-19T12:32:05.166502+00:00",
+  "source_versions": {
+    "wikivoyage": "114",
+    "wikidata": "90",
+    "openstreetmap": "516",
+    "overture": "14114"
+  },
+  "counts": {
+    "total_raw_candidates": 14834,
+    "accepted": 2870,
+    "rejected": 7066,
+    "quarantined": 4275,
+    "duplicate_merges": 623,
+    "with_images": 44,
+    "with_opening_hours": 31,
+    "with_wikidata": 104,
+    "by_tier": {
+      "core_destination": 150,
+      "support": 1017,
+      "recommended": 449,
+      "discovery": 1254
+    },
+    "by_tier_stats": {
+      "core_destination": {
+        "count": 150,
+        "with_wikidata": 84,
+        "with_wikipedia": 43,
+        "with_image": 35,
+        "with_hours": 6,
+        "with_website": 97,
+        "multi_source": 52
+      },
+      "recommended": {
+        "count": 449,
+        "with_wikidata": 5,
+        "with_wikipedia": 5,
+        "with_image": 3,
+        "with_hours": 20,
+        "with_website": 421,
+        "multi_source": 87
+      },
+      "discovery": {
+        "count": 1254,
+        "with_wikidata": 6,
+        "with_wikipedia": 1,
+        "with_image": 5,
+        "with_hours": 0,
+        "with_website": 1215,
+        "multi_source": 64
+      },
+      "support": {
+        "count": 1017,
+        "with_wikidata": 9,
+        "with_wikipedia": 0,
+        "with_image": 1,
+        "with_hours": 5,
+        "with_website": 992,
+        "multi_source": 179
+      }
+    },
+    "by_category": {
+      "heritage": 94,
+      "nature": 25,
+      "religious": 44,
+      "park": 24,
+      "museum": 16,
+      "hotel": 1012,
+      "food": 319,
+      "cafe": 71,
+      "arts_culture": 19,
+      "experience": 1208,
+      "shopping": 33,
+      "transport": 5
+    }
+  },
+  "checksums": {
+    "city.json": "a7bc8b85ae7c3847db05b52cd281d321b99ed578927bcf3d8f07a5e10438a2e9",
+    "places.json": "cdb6c766cecfc170281062fd4364395b4dd2b46ac87da8e9d0096f94817cee1e",
+    "places.jsonl": "6d92eae0c4cbce1c9d601032218167243e3497d357fdb114cb12f6ee535e4b8a",
+    "places.parquet": "fbc68f4b67673159b3525b2eee9e8523beb586e186002d46a2a781d6c4ad2eb8",
+    "image_manifest.json": "02bb4ff6ba2dddb6c73ee8a97fc403c1b0ac9122789d6d299418fd37f8b30309",
+    "source_manifest.json": "2199481a58136ff2388e738bf2cf7154407bbf1937ae56defb9a3f7f8d4ebd68",
+    "license_manifest.json": "279aaed5cb77c47b82c9fb7c2c0f1db4e41da1c6bba78b99c742758b643cfa8b",
+    "yatracanvas.db": "e2d0b113fa6eda4b103ad5c1b3650847e8841b8a3cd0c76453a29ec5d6eb23f7"
+  }
+}

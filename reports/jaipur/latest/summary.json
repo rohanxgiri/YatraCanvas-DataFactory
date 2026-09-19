@@ -1,0 +1,84 @@
+{
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "version": "v3",
+  "total_raw_candidates": 66111,
+  "sources_count": {
+    "wikivoyage": 135,
+    "wikidata": 52,
+    "openstreetmap": 1092,
+    "overture": 64832
+  },
+  "accepted_places": 10034,
+  "rejected_places": 37024,
+  "quarantined_places": 17992,
+  "duplicate_merges": 1060,
+  "by_tier": {
+    "core_destination": 79,
+    "support": 2047,
+    "discovery": 6263,
+    "recommended": 1645
+  },
+  "by_tier_stats": {
+    "core_destination": {
+      "count": 79,
+      "with_wikidata": 52,
+      "with_wikipedia": 24,
+      "with_image": 36,
+      "with_hours": 16,
+      "with_website": 30,
+      "multi_source": 42
+    },
+    "recommended": {
+      "count": 1645,
+      "with_wikidata": 1,
+      "with_wikipedia": 1,
+      "with_image": 1,
+      "with_hours": 90,
+      "with_website": 1408,
+      "multi_source": 392
+    },
+    "discovery": {
+      "count": 6263,
+      "with_wikidata": 8,
+      "with_wikipedia": 4,
+      "with_image": 2,
+      "with_hours": 8,
+      "with_website": 6242,
+      "multi_source": 19
+    },
+    "support": {
+      "count": 2047,
+      "with_wikidata": 12,
+      "with_wikipedia": 3,
+      "with_image": 3,
+      "with_hours": 10,
+      "with_website": 1993,
+      "multi_source": 298
+    }
+  },
+  "image_coverage_pct": 0.4,
+  "with_images_count": 42,
+  "opening_hours_coverage_pct": 1.2,
+  "with_opening_hours_count": 124,
+  "wikidata_coverage_pct": 0.7,
+  "with_wikidata_count": 73,
+  "category_breakdown": {
+    "heritage": 206,
+    "hotel": 2001,
+    "experience": 6145,
+    "transport": 46,
+    "nature": 25,
+    "park": 122,
+    "religious": 163,
+    "food": 831,
+    "cafe": 257,
+    "viewpoint": 2,
+    "museum": 40,
+    "arts_culture": 68,
+    "shopping": 119,
+    "entertainment": 9
+  },
+  "generated_at": "2026-09-19T13:50:16.360287+00:00"
+}

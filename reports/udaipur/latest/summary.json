@@ -1,0 +1,82 @@
+{
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "version": "v3",
+  "total_raw_candidates": 14833,
+  "sources_count": {
+    "wikivoyage": 113,
+    "wikidata": 90,
+    "openstreetmap": 516,
+    "overture": 14114
+  },
+  "accepted_places": 2837,
+  "rejected_places": 7066,
+  "quarantined_places": 4405,
+  "duplicate_merges": 525,
+  "by_tier": {
+    "core_destination": 65,
+    "discovery": 1202,
+    "support": 1092,
+    "recommended": 478
+  },
+  "by_tier_stats": {
+    "core_destination": {
+      "count": 65,
+      "with_wikidata": 55,
+      "with_wikipedia": 39,
+      "with_image": 44,
+      "with_hours": 6,
+      "with_website": 28,
+      "multi_source": 34
+    },
+    "recommended": {
+      "count": 478,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 27,
+      "with_website": 418,
+      "multi_source": 115
+    },
+    "discovery": {
+      "count": 1202,
+      "with_wikidata": 1,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 0,
+      "with_website": 1198,
+      "multi_source": 5
+    },
+    "support": {
+      "count": 1092,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 5,
+      "with_website": 1072,
+      "multi_source": 152
+    }
+  },
+  "image_coverage_pct": 1.6,
+  "with_images_count": 44,
+  "opening_hours_coverage_pct": 1.3,
+  "with_opening_hours_count": 38,
+  "wikidata_coverage_pct": 2.0,
+  "with_wikidata_count": 56,
+  "category_breakdown": {
+    "heritage": 69,
+    "religious": 42,
+    "nature": 20,
+    "park": 24,
+    "museum": 17,
+    "hotel": 1085,
+    "food": 305,
+    "cafe": 74,
+    "shopping": 34,
+    "experience": 1141,
+    "arts_culture": 19,
+    "transport": 7
+  },
+  "generated_at": "2026-09-19T13:42:30.333834+00:00"
+}

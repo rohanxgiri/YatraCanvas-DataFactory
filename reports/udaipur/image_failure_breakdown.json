@@ -1,0 +1,160 @@
+{
+  "city": "udaipur",
+  "total_core_destinations": 65,
+  "core_with_image": 44,
+  "core_missing_image": 21,
+  "failure_reasons_summary": {
+    "wikipedia_no_image": 8,
+    "no_P18": 8,
+    "no_wikidata": 5
+  },
+  "failed_destinations": [
+    {
+      "id": "yc_in_rj_udaipur_doodh_talai_lake",
+      "name": "Doodh Talai Lake",
+      "category": "nature",
+      "wikidata_id": "Q23808172",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_udaipur_ambamata_temple",
+      "name": "Ambamata Temple",
+      "category": "religious",
+      "wikidata_id": "Q24931106",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_udaipur_swaroop_sagar_lake",
+      "name": "Swaroop Sagar Lake",
+      "category": "nature",
+      "wikidata_id": "Q30624169",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_udaipur_sajjangarh_wildlife_sanctuary",
+      "name": "Sajjangarh Wildlife Sanctuary",
+      "category": "heritage",
+      "wikidata_id": "Q65068086",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_udaipur_rang_sagar_lake",
+      "name": "Rang Sagar Lake",
+      "category": "nature",
+      "wikidata_id": "Q65122610",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_udaipur_bohra_ganesh_temple",
+      "name": "Bohra Ganesh Temple",
+      "category": "religious",
+      "wikidata_id": "Q24931320",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_udaipur_gupteshwar_mahadev_udaipur",
+      "name": "Gupteshwar Mahadev, Udaipur",
+      "category": "religious",
+      "wikidata_id": "Q38251576",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_udaipur_sanchareswar_mahadev_temple",
+      "name": "Sanchareswar Mahadev Temple",
+      "category": "religious",
+      "wikidata_id": "Q85799496",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_udaipur_gypsy_child_lake_hostel_udaipur",
+      "name": "Gypsy Child Lake Hostel Udaipur",
+      "category": "nature",
+      "wikidata_id": "Q111113072",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_udaipur_the_new_lake_front",
+      "name": "The New Lake Front",
+      "category": "nature",
+      "wikidata_id": "Q111113083",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_udaipur_the_royal_lake_view_villa",
+      "name": "The Royal Lake View Villa",
+      "category": "nature",
+      "wikidata_id": "Q111113115",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_udaipur_jagat_niwas_palace",
+      "name": "Jagat Niwas Palace",
+      "category": "heritage",
+      "wikidata_id": "Q111402018",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_udaipur_the_leela_palace_udaipur",
+      "name": "The Leela Palace Udaipur",
+      "category": "heritage",
+      "wikidata_id": "Q111402027",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_udaipur_rampratap_palace_by_fateh_collection",
+      "name": "Rampratap Palace by Fateh Collection",
+      "category": "heritage",
+      "wikidata_id": "Q111402028",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_udaipur_shiv_temple_group_ahar",
+      "name": "Shiv Temple group, Ahar",
+      "category": "religious",
+      "wikidata_id": "Q97119628",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_udaipur_collection_o_69982_arawali_palace",
+      "name": "Collection O 69982 Arawali Palace",
+      "category": "heritage",
+      "wikidata_id": "Q111067086",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_udaipur_kishan_pol",
+      "name": "Kishan Pol",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_udaipur_daiji_bridge_pol",
+      "name": "Daiji Bridge Pol",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_udaipur_moti_magri_memorial",
+      "name": "Moti Magri Memorial",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_udaipur_rk_circle",
+      "name": "RK circle",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_udaipur_delhi_gate",
+      "name": "Delhi Gate",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    }
+  ]
+}

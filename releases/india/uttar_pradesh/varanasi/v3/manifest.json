@@ -1,0 +1,102 @@
+{
+  "schema_version": "3.0",
+  "city_pack_version": "v3",
+  "city_id": "varanasi",
+  "city_name": "Varanasi",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "generated_at": "2026-09-19T15:10:37.980983+00:00",
+  "pipeline_health": "PASS",
+  "data_quality": "WARN",
+  "source_coverage": "PASS",
+  "source_versions": {
+    "wikivoyage": "98",
+    "wikidata": "91",
+    "openstreetmap": "877",
+    "overture": "18669"
+  },
+  "counts": {
+    "total_raw_candidates": 19735,
+    "accepted": 2933,
+    "rejected": 10616,
+    "quarantined": 5518,
+    "duplicate_merges": 668,
+    "with_images": 96,
+    "with_opening_hours": 40,
+    "with_wikidata": 78,
+    "category_conflicts": 58409,
+    "entity_conflicts": 3,
+    "alias_conflicts": 0,
+    "image_conflicts": 0,
+    "coordinate_conflicts": 378,
+    "by_tier": {
+      "core_destination": 133,
+      "support": 882,
+      "discovery": 1387,
+      "recommended": 531
+    },
+    "by_tier_stats": {
+      "core_destination": {
+        "count": 133,
+        "with_wikidata": 74,
+        "with_wikipedia": 61,
+        "with_image": 94,
+        "with_hours": 3,
+        "with_website": 35,
+        "multi_source": 73
+      },
+      "recommended": {
+        "count": 531,
+        "with_wikidata": 1,
+        "with_wikipedia": 2,
+        "with_image": 1,
+        "with_hours": 23,
+        "with_website": 410,
+        "multi_source": 171
+      },
+      "discovery": {
+        "count": 1387,
+        "with_wikidata": 2,
+        "with_wikipedia": 0,
+        "with_image": 0,
+        "with_hours": 5,
+        "with_website": 1376,
+        "multi_source": 14
+      },
+      "support": {
+        "count": 882,
+        "with_wikidata": 1,
+        "with_wikipedia": 1,
+        "with_image": 1,
+        "with_hours": 9,
+        "with_website": 835,
+        "multi_source": 144
+      }
+    },
+    "by_category": {
+      "heritage": 125,
+      "religious": 143,
+      "museum": 9,
+      "transport": 15,
+      "nature": 11,
+      "park": 33,
+      "experience": 1362,
+      "cafe": 74,
+      "hotel": 867,
+      "shopping": 29,
+      "food": 257,
+      "entertainment": 3,
+      "arts_culture": 5
+    }
+  },
+  "checksums": {
+    "city.json": "f5585964702d831ceea50c403aa1da16398bfd0a2a9a597d7fd9c923d60934bb",
+    "places.json": "90e550fdd049bf04cb75d1c5f8a119878798b926c6c128867cc15d9859029b74",
+    "places.jsonl": "c564e2db399c41e32584bfbf339885eb098d0e860140ba9a6382b9abb654f47b",
+    "places.parquet": "7cf8a1e151a5a1273a7fb91b290cafe057384e2bf680def317b1d64469257fca",
+    "image_manifest.json": "fefd792866ebf70bafd3b262634b86a1889cae8841d7e09bf4f2c19a41a8d2ad",
+    "source_manifest.json": "42679cc6768c17fe6523d9746a5ed15f072acdd316cf877484d5476e7ad429ce",
+    "license_manifest.json": "ca96986da832c97a64b35585bf73b8e29dac70466f7089e7c5863a953ee6857d",
+    "yatracanvas.db": "5e11e813c3ce89cfb05e33a3676f1392745b59611d28b1d84b98db8811fc4681"
+  }
+}

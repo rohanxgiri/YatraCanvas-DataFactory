@@ -1,0 +1,287 @@
+{
+  "city": "varanasi",
+  "total_core_destinations": 133,
+  "core_with_image": 94,
+  "core_missing_image": 39,
+  "failure_reasons_summary": {
+    "no_wikidata": 28,
+    "no_P18": 6,
+    "wikipedia_no_image": 4,
+    "commons_category_empty": 1
+  },
+  "failed_destinations": [
+    {
+      "id": "yc_in_up_varanasi_varanasi_port",
+      "name": "Varanasi Port",
+      "category": "heritage",
+      "wikidata_id": "Q41631084",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_up_varanasi_mahatma_gandhi_kashi_vidyapeeth",
+      "name": "Mahatma Gandhi Kashi Vidyapeeth",
+      "category": "heritage",
+      "wikidata_id": "Q5628071",
+      "failure_reason": "commons_category_empty"
+    },
+    {
+      "id": "yc_in_up_varanasi_kachhua_sanctuary",
+      "name": "Kachhua Sanctuary",
+      "category": "heritage",
+      "wikidata_id": "Q6344663",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_up_varanasi_rajghat_besant_school",
+      "name": "Rajghat Besant School",
+      "category": "nature",
+      "wikidata_id": "Q7286119",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_up_varanasi_manikarnikeswarar_temple",
+      "name": "Manikarnikeswarar Temple",
+      "category": "religious",
+      "wikidata_id": "Q16920245",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_up_varanasi_w_h_smith_memorial_school",
+      "name": "W. H. Smith Memorial School",
+      "category": "heritage",
+      "wikidata_id": "Q24906786",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_up_varanasi_backpackers_park",
+      "name": "Backpackers Park",
+      "category": "park",
+      "wikidata_id": "Q111110647",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_up_varanasi_shree_ganesha_palace",
+      "name": "Shree Ganesha Palace",
+      "category": "heritage",
+      "wikidata_id": "Q111861483",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_up_varanasi_ganj_e_shaheedan_mosque",
+      "name": "Ganj-e-Shaheedan Mosque",
+      "category": "religious",
+      "wikidata_id": "Q5521331",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_up_varanasi_hdfc_bank_orderly_bazaar_varanasi_branch",
+      "name": "HDFC Bank Orderly Bazaar varanasi branch",
+      "category": "heritage",
+      "wikidata_id": "Q66640421",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_up_varanasi_hdfc_bank_nichibagh_branch",
+      "name": "HDFC Bank Nichibagh branch",
+      "category": "park",
+      "wikidata_id": "Q66655184",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_up_varanasi_kiran_center",
+      "name": "Kiran Center",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_rana_ghat",
+      "name": "Rana Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_kedar_ghat",
+      "name": "Kedar Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_gauri_matha_temple",
+      "name": "Gauri Matha Temple",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_tulsi_manas_temple",
+      "name": "Tulsi Manas Temple",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_kriti_gallery",
+      "name": "Kriti Gallery",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_manasarowa_ghat",
+      "name": "Manasarowa Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_karnataka_ghat",
+      "name": "Karnataka Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_sankatha_ghat",
+      "name": "Sankatha Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_anandamayee_ghat",
+      "name": "Anandamayee Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_darbhanga_ghat",
+      "name": "Darbhanga Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_gaay_ghat",
+      "name": "Gaay Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_jatar_ghat",
+      "name": "Jatar Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_mahanirvani_ghat",
+      "name": "Mahanirvani Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_nandeshwar_ghat",
+      "name": "Nandeshwar Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_niranjani_ghat",
+      "name": "Niranjani Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_naya_ghat",
+      "name": "Naya Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_panchkot_ghat",
+      "name": "Panchkot Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_kschemeschwar_ghat",
+      "name": "Kschemeschwar Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_aghoreshwar_bhagwam_ram_ghat",
+      "name": "Aghoreshwar Bhagwam Ram Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_gola_ghat",
+      "name": "Gola Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_janki_ghat",
+      "name": "janki ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_flower_market",
+      "name": "Flower market",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_shri_guru_ravidass_gate",
+      "name": "Shri Guru Ravidass Gate",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_chet_singh_ghat",
+      "name": "Chet Singh Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_morvi_hostel_gate",
+      "name": "MORVI HOSTEL GATE",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_handicraft_museum",
+      "name": "Handicraft museum",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_lanka_gate",
+      "name": "Lanka Gate",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    }
+  ]
+}

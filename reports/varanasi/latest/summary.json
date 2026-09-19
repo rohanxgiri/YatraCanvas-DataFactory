@@ -1,0 +1,83 @@
+{
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "version": "v3",
+  "total_raw_candidates": 19735,
+  "sources_count": {
+    "wikivoyage": 98,
+    "wikidata": 91,
+    "openstreetmap": 877,
+    "overture": 18669
+  },
+  "accepted_places": 2933,
+  "rejected_places": 10616,
+  "quarantined_places": 5518,
+  "duplicate_merges": 668,
+  "by_tier": {
+    "core_destination": 133,
+    "support": 882,
+    "discovery": 1387,
+    "recommended": 531
+  },
+  "by_tier_stats": {
+    "core_destination": {
+      "count": 133,
+      "with_wikidata": 74,
+      "with_wikipedia": 61,
+      "with_image": 94,
+      "with_hours": 3,
+      "with_website": 35,
+      "multi_source": 73
+    },
+    "recommended": {
+      "count": 531,
+      "with_wikidata": 1,
+      "with_wikipedia": 2,
+      "with_image": 1,
+      "with_hours": 23,
+      "with_website": 410,
+      "multi_source": 171
+    },
+    "discovery": {
+      "count": 1387,
+      "with_wikidata": 2,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 5,
+      "with_website": 1376,
+      "multi_source": 14
+    },
+    "support": {
+      "count": 882,
+      "with_wikidata": 1,
+      "with_wikipedia": 1,
+      "with_image": 1,
+      "with_hours": 9,
+      "with_website": 835,
+      "multi_source": 144
+    }
+  },
+  "image_coverage_pct": 3.3,
+  "with_images_count": 96,
+  "opening_hours_coverage_pct": 1.4,
+  "with_opening_hours_count": 40,
+  "wikidata_coverage_pct": 2.7,
+  "with_wikidata_count": 78,
+  "category_breakdown": {
+    "heritage": 125,
+    "religious": 143,
+    "museum": 9,
+    "transport": 15,
+    "nature": 11,
+    "park": 33,
+    "experience": 1362,
+    "cafe": 74,
+    "hotel": 867,
+    "shopping": 29,
+    "food": 257,
+    "entertainment": 3,
+    "arts_culture": 5
+  },
+  "generated_at": "2026-09-19T15:10:37.980983+00:00"
+}

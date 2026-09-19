@@ -1,0 +1,114 @@
+# YatraCanvas Planning Defaults (Heuristic Visit Times, Tags, Tourism Priority)
+
+category_defaults:
+  heritage:
+    recommended_visit_minutes: 90
+    tourism_priority: 0.85
+    family_friendly: true
+    best_time: "morning"
+    subcategories:
+      fort:
+        recommended_visit_minutes: 150
+        tourism_priority: 0.95
+        tags: ["architecture", "history", "panoramic_views", "unesco_heritage", "photography"]
+      palace:
+        recommended_visit_minutes: 120
+        tourism_priority: 0.95
+        tags: ["royal", "architecture", "history", "museum", "photography"]
+      historical_monument:
+        recommended_visit_minutes: 60
+        tourism_priority: 0.80
+        tags: ["history", "monument", "architecture"]
+      stepwell:
+        recommended_visit_minutes: 45
+        tourism_priority: 0.75
+        tags: ["architecture", "ancient_engineering", "photography"]
+      gate:
+        recommended_visit_minutes: 20
+        tourism_priority: 0.60
+        tags: ["historic_gate", "walled_city", "landmark"]
+
+  museum:
+    recommended_visit_minutes: 90
+    tourism_priority: 0.80
+    family_friendly: true
+    best_time: "afternoon"
+    tags: ["culture", "education", "indoor", "history"]
+
+  religious:
+    recommended_visit_minutes: 45
+    tourism_priority: 0.70
+    family_friendly: true
+    best_time: "morning"
+    tags: ["spiritual", "sacred", "architecture", "serene"]
+
+  nature:
+    recommended_visit_minutes: 60
+    tourism_priority: 0.70
+    family_friendly: true
+    best_time: "evening"
+    tags: ["nature", "scenic", "relaxing"]
+
+  park:
+    recommended_visit_minutes: 45
+    tourism_priority: 0.65
+    family_friendly: true
+    best_time: "evening"
+    tags: ["green_space", "outdoors", "walk"]
+
+  viewpoint:
+    recommended_visit_minutes: 45
+    tourism_priority: 0.80
+    family_friendly: true
+    best_time: "sunset"
+    tags: ["sunset", "cityscape", "photography", "panoramic_views"]
+
+  food:
+    recommended_visit_minutes: 60
+    tourism_priority: 0.60
+    family_friendly: true
+    best_time: "dinner"
+    tags: ["culinary", "dining", "local_flavours"]
+
+  cafe:
+    recommended_visit_minutes: 45
+    tourism_priority: 0.55
+    family_friendly: true
+    best_time: "afternoon"
+    tags: ["coffee", "chill", "hangout"]
+
+  shopping:
+    recommended_visit_minutes: 90
+    tourism_priority: 0.70
+    family_friendly: true
+    best_time: "evening"
+    tags: ["bazaar", "shopping", "handicrafts", "local_culture"]
+
+  arts_culture:
+    recommended_visit_minutes: 60
+    tourism_priority: 0.70
+    family_friendly: true
+    best_time: "evening"
+    tags: ["arts", "exhibition", "culture"]
+
+  hotel:
+    recommended_visit_minutes: 0
+    tourism_priority: 0.40
+    family_friendly: true
+    best_time: "all_day"
+    tags: ["stay", "hospitality"]
+
+  transport:
+    recommended_visit_minutes: 30
+    tourism_priority: 0.35
+    family_friendly: true
+    best_time: "all_day"
+    tags: ["transit", "connectivity"]
+
+# Fallback default
+default_fallback:
+  recommended_visit_minutes: 45
+  tourism_priority: 0.50
+  family_friendly: true
+  best_time: "all_day"
+  tags: ["travel", "point_of_interest"]

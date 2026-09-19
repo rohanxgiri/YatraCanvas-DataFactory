@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "city_pack_version": "v1",
+  "city_id": "varanasi",
+  "city_name": "Varanasi",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "generated_at": "2026-09-19T10:28:42.947410+00:00",
+  "source_versions": {
+    "overture": "latest (S3 GeoParquet)",
+    "osm": "Overpass Live API (ODbL)",
+    "wikidata": "Wikidata API (CC0)",
+    "wikimedia": "Wikimedia Commons API"
+  },
+  "counts": {
+    "total_raw_candidates": 19546,
+    "accepted": 6729,
+    "rejected": 10616,
+    "quarantined": 1646,
+    "duplicate_merges": 555,
+    "with_images": 8,
+    "with_opening_hours": 25,
+    "with_wikidata": 8,
+    "by_category": {
+      "heritage": 255,
+      "museum": 29,
+      "cafe": 176,
+      "religious": 489,
+      "hotel": 1218,
+      "experience": 3623,
+      "food": 774,
+      "park": 59,
+      "shopping": 56,
+      "transport": 37,
+      "arts_culture": 10,
+      "nature": 2,
+      "entertainment": 1
+    }
+  },
+  "checksums": {
+    "city.json": "e8e30d67e7bcd339b0d240dbaeb2627062af55b1a8919e8d8fa2c156d23ac789",
+    "places.json": "6f91e3713ce43d1e4ebb072b93efd0265b9b574cd36a842503440c67f7773813",
+    "places.jsonl": "80defeab96a2fd3c1c71da539ec63adba70df8eadcf6b256e930c07a19d3bc95",
+    "places.parquet": "140445c8811f377767d6f119ec3af64ba57d99d9a38cfc4e6400e7f150c8f590",
+    "images_manifest.json": "67571aeec5fcee33caa1dce7519372ce4c2acb2be2b714aead8545b227985c24",
+    "sources.json": "293b8598cdbd8b38f48a550f304b5fab0820255789841be39f4c893da8113e57",
+    "yatracanvas.db": "ea36df524ab4ee14028883acfb2c6457b5fcf0d4d329c26609d31efdaf7ff394"
+  }
+}

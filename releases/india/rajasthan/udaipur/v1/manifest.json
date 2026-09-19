@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "city_pack_version": "v1",
+  "city_id": "udaipur",
+  "city_name": "Udaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "generated_at": "2026-09-19T10:10:40.302452+00:00",
+  "source_versions": {
+    "overture": "latest (S3 GeoParquet)",
+    "osm": "Overpass Live API (ODbL)",
+    "wikidata": "Wikidata API (CC0)",
+    "wikimedia": "Wikimedia Commons API"
+  },
+  "counts": {
+    "total_raw_candidates": 14630,
+    "accepted": 6135,
+    "rejected": 7066,
+    "quarantined": 989,
+    "duplicate_merges": 440,
+    "with_images": 8,
+    "with_opening_hours": 28,
+    "with_wikidata": 11,
+    "by_category": {
+      "nature": 31,
+      "museum": 28,
+      "religious": 255,
+      "heritage": 194,
+      "hotel": 1532,
+      "food": 863,
+      "cafe": 229,
+      "experience": 2830,
+      "park": 68,
+      "shopping": 61,
+      "arts_culture": 31,
+      "transport": 13
+    }
+  },
+  "checksums": {
+    "city.json": "fc67b890d8dff49b96cff69fd13f9324cdf96ccbdb4d8308d5c2334f758e2c9e",
+    "places.json": "0e983ba3b8f3607dcbc15abeaaf108b8829eaa43625051daa86130a4bdd4f469",
+    "places.jsonl": "053db3e8555c6cd54bc9d67e025abd48567c8ec6a5203de914592c76947878f8",
+    "places.parquet": "9414d7a93cd9f0b47594967e968a5ec0b26605a173b9671b39f046e9d01c3e63",
+    "images_manifest.json": "305a41072bdb5703cb58b08fd8d71b2ebc6c008b8bf1b6499d80855ab06a3125",
+    "sources.json": "293b8598cdbd8b38f48a550f304b5fab0820255789841be39f4c893da8113e57",
+    "yatracanvas.db": "c0a895cc070a7b65243ebc78eb9871dc8f640035c0142cda769d6f5f2f61650a"
+  }
+}

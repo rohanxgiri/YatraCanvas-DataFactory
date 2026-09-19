@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "city_pack_version": "v1",
+  "city_id": "jaipur",
+  "city_name": "Jaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "generated_at": "2026-09-19T10:00:33.537997+00:00",
+  "source_versions": {
+    "overture": "latest (S3 GeoParquet)",
+    "osm": "Overpass Live API (ODbL)",
+    "wikidata": "Wikidata API (CC0)",
+    "wikimedia": "Wikimedia Commons API"
+  },
+  "counts": {
+    "total_raw_candidates": 65924,
+    "accepted": 24220,
+    "rejected": 37024,
+    "quarantined": 3677,
+    "duplicate_merges": 1002,
+    "with_images": 16,
+    "with_opening_hours": 68,
+    "with_wikidata": 19,
+    "by_category": {
+      "heritage": 704,
+      "park": 291,
+      "museum": 83,
+      "hotel": 2946,
+      "cafe": 874,
+      "food": 2612,
+      "experience": 15335,
+      "religious": 880,
+      "nature": 16,
+      "viewpoint": 2,
+      "arts_culture": 104,
+      "shopping": 282,
+      "transport": 91
+    }
+  },
+  "checksums": {
+    "city.json": "ca7ff80e751989f51111c970ce77c2870106b7714a2b1f4e17aecdf041a77d55",
+    "places.json": "10febb3a6562e6952be61382098683c2bbc75f3f31ed2f79aca320449a074124",
+    "places.jsonl": "0bb972fcc5bb1e865575128a45acdd1cd74266ae9c42493026d1f0d76f64ed98",
+    "places.parquet": "ceeba4f6629dd0039e45e2133b3a94d4a062a40215fb2e819011c39b88f267d2",
+    "images_manifest.json": "b563575d647c53b03c5385b29531c8dc7ba728f12f805322de434cfff798e78c",
+    "sources.json": "293b8598cdbd8b38f48a550f304b5fab0820255789841be39f4c893da8113e57",
+    "yatracanvas.db": "8e851a1d09ec713cfd8543bcf23369dbfe4dda1bf973bd5f3b5ffa2f3f570b1d"
+  }
+}

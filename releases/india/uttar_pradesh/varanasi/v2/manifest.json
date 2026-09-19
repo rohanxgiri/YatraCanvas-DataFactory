@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.0",
+  "city_pack_version": "v2",
+  "city_id": "varanasi",
+  "city_name": "Varanasi",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "generated_at": "2026-09-19T12:30:49.596135+00:00",
+  "source_versions": {
+    "wikivoyage": "98",
+    "wikidata": "91",
+    "openstreetmap": "877",
+    "overture": "18669"
+  },
+  "counts": {
+    "total_raw_candidates": 19735,
+    "accepted": 2901,
+    "rejected": 10616,
+    "quarantined": 5441,
+    "duplicate_merges": 777,
+    "with_images": 90,
+    "with_opening_hours": 24,
+    "with_wikidata": 124,
+    "by_tier": {
+      "core_destination": 172,
+      "support": 833,
+      "discovery": 1455,
+      "recommended": 441
+    },
+    "by_tier_stats": {
+      "core_destination": {
+        "count": 172,
+        "with_wikidata": 90,
+        "with_wikipedia": 69,
+        "with_image": 69,
+        "with_hours": 3,
+        "with_website": 80,
+        "multi_source": 89
+      },
+      "recommended": {
+        "count": 441,
+        "with_wikidata": 9,
+        "with_wikipedia": 8,
+        "with_image": 9,
+        "with_hours": 13,
+        "with_website": 389,
+        "multi_source": 97
+      },
+      "discovery": {
+        "count": 1455,
+        "with_wikidata": 3,
+        "with_wikipedia": 3,
+        "with_image": 3,
+        "with_hours": 1,
+        "with_website": 1383,
+        "multi_source": 110
+      },
+      "support": {
+        "count": 833,
+        "with_wikidata": 22,
+        "with_wikipedia": 8,
+        "with_image": 9,
+        "with_hours": 7,
+        "with_website": 783,
+        "multi_source": 161
+      }
+    },
+    "by_category": {
+      "heritage": 121,
+      "religious": 144,
+      "museum": 11,
+      "transport": 15,
+      "nature": 11,
+      "park": 30,
+      "experience": 1393,
+      "cafe": 66,
+      "hotel": 818,
+      "food": 255,
+      "entertainment": 3,
+      "arts_culture": 6,
+      "shopping": 28
+    }
+  },
+  "checksums": {
+    "city.json": "3c58c64c9f7356ca80c4ca52853d174d94da0ca3bb6d7f129b453f21805c081d",
+    "places.json": "45f5d5080a3fafef6d3e3c981675a9b389008789fd624bf1f882faed90c8db5a",
+    "places.jsonl": "0e1a8fd42e840e8b8e4790d42d2da494cdfbf6505e5c2a14c87cca4735e0d45b",
+    "places.parquet": "2ef181d975aa7829430f91186a1070286b9b69f1c80ff1613acca931f3e4178d",
+    "image_manifest.json": "c0a2381c8fb9cbea755eaee7a0e866fed33c2279ea07cab4d64b42f898d86959",
+    "source_manifest.json": "dc5fd9517c0ad219abd6cae5a8375aa3c061835e1cefd3333c51587eae0c2bde",
+    "license_manifest.json": "279aaed5cb77c47b82c9fb7c2c0f1db4e41da1c6bba78b99c742758b643cfa8b",
+    "yatracanvas.db": "2124b525be6b72ddc164bd9d915a5f405a3a73f1472d0c77a45c2174bc823491"
+  }
+}

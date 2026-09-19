@@ -1,0 +1,47 @@
+{
+  "city": "jaipur",
+  "total_core_destinations": 79,
+  "with_wikidata": 52,
+  "with_wikipedia": 24,
+  "with_wikivoyage": 9,
+  "with_osm_travel": 47,
+  "supported_only_by_overture": 3,
+  "travel_relevance_distribution": {
+    "0.0-0.2": 0,
+    "0.2-0.4": 1,
+    "0.4-0.6": 40,
+    "0.6-0.8": 15,
+    "0.8-1.0": 23
+  },
+  "categories": {
+    "heritage": 56,
+    "nature": 15,
+    "park": 3,
+    "museum": 3,
+    "religious": 1,
+    "viewpoint": 1
+  },
+  "subcategories": {
+    "heritage/attraction": 35,
+    "nature/lake": 15,
+    "heritage/historical_monument": 15,
+    "park/garden": 3,
+    "museum/history_museum": 3,
+    "heritage/gate": 3,
+    "heritage/monument": 1,
+    "religious/place_of_worship": 1,
+    "viewpoint/scenic_viewpoint": 1,
+    "heritage/palace": 1,
+    "heritage/fort": 1
+  },
+  "source_combinations": {
+    "openstreetmap,overture": 37,
+    "wikidata": 22,
+    "openstreetmap": 7,
+    "wikivoyage": 6,
+    "overture": 3,
+    "openstreetmap,overture,wikivoyage": 2,
+    "overture,wikidata": 1,
+    "openstreetmap,wikivoyage": 1
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Overture Maps Places",
+    "type": "bulk_places",
+    "license": "CDLA Permissive 2.0"
+  },
+  {
+    "name": "OpenStreetMap",
+    "type": "enrichment_crosscheck",
+    "license": "ODbL 1.0"
+  },
+  {
+    "name": "Wikidata",
+    "type": "structured_knowledge",
+    "license": "CC0 1.0"
+  },
+  {
+    "name": "Wikimedia Commons",
+    "type": "media",
+    "license": "Creative Commons / Public Domain"
+  }
+]
