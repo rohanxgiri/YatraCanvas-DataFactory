@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YatraCanvas City Pack Report - Panjim</title>
+    <style>
+        :root {
+            --primary: #2b6cb0;
+            --bg: #f7fafc;
+            --card-bg: #ffffff;
+            --text: #2d3748;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 30px 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1150px; margin: 0 auto; }
+        .header {
+            background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .header h1 { margin: 0 0 8px 0; font-size: 2rem; }
+        .header p { margin: 0; opacity: 0.9; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .stat-value { font-size: 1.8rem; font-weight: 700; color: #1a365d; }
+        .stat-label { font-size: 0.85rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px; }
+        .tier-card { border-left: 4px solid #3182ce; }
+        .tier-core { border-left-color: #e53e3e; }
+        .tier-rec { border-left-color: #dd6b20; }
+        .tier-disc { border-left-color: #3182ce; }
+        .tier-supp { border-left-color: #718096; }
+        .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
+        .badge-core { background: #fed7d7; color: #9b2c2c; }
+        .badge-rec { background: #feebc8; color: #7b341e; }
+        .badge-primary { background: #e2e8f0; color: #2d3748; }
+        .badge-success { background: #c6f6d5; color: #22543d; }
+        .badge-gray { background: #edf2f7; color: #718096; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; background: white; border-radius: 8px; overflow: hidden; }
+        th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        th { background: #edf2f7; color: #4a5568; font-weight: 600; }
+        .section-title { font-size: 1.25rem; font-weight: 700; margin: 30px 0 15px 0; color: #1a365d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>YatraCanvas City Pack: Panjim</h1>
+            <p>Goa, India • Open Data Architecture v2.0</p>
+        </div>
+
+        <div class="section-title">Coverage By Place Tier</div>
+        <div class="stats-grid">
+            <div class="stat-card tier-core">
+                <div class="stat-value">60</div>
+                <div class="stat-label">Core Destinations</div>
+                <small>Images: 50 • Wiki: 54 • Hours: 2</small>
+            </div>
+            <div class="stat-card tier-rec">
+                <div class="stat-value">952</div>
+                <div class="stat-label">Recommended Places</div>
+                <small>Images: 0 • Wiki: 0 • Hours: 89</small>
+            </div>
+            <div class="stat-card tier-disc">
+                <div class="stat-value">989</div>
+                <div class="stat-label">Discovery Places</div>
+                <small>Long-tail food & shops</small>
+            </div>
+            <div class="stat-card tier-supp">
+                <div class="stat-value">1752</div>
+                <div class="stat-label">Support / Transit</div>
+                <small>Hotels, stations & hubs</small>
+            </div>
+        </div>
+
+        <div class="section-title">Top Verified Destinations</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Tier</th>
+                    <th>Category</th>
+                    <th>Relevance</th>
+                    <th>Quality</th>
+                    <th>Exact Image</th>
+                    <th>Wikidata QID</th>
+                    <th>Opening Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td><strong>Calangute</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q861976" target="_blank">Q861976</a></td>
+            <td>24/7</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Goa University</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.93</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q5575117" target="_blank">Q5575117</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Baga</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.93</td>
+            <td><span class="badge badge-success">✓ CC BY 2.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q4841379" target="_blank">Q4841379</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Fontainhas</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.93</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q5465121" target="_blank">Q5465121</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Ribandar</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.89</td>
+            <td><span class="badge badge-success">✓ CC BY 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q7322219" target="_blank">Q7322219</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Miramar</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.89</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 2.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q6872686" target="_blank">Q6872686</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Shanta Durga Temple</strong><br><small style="color:#666;">place_of_worship</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">religious</span></td>
+            <td>1.00</td>
+            <td>0.89</td>
+            <td><span class="badge badge-success">✓ CC BY 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q7489022" target="_blank">Q7489022</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Museum of Goa</strong><br><small style="color:#666;">history_museum</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">museum</span></td>
+            <td>1.00</td>
+            <td>0.85</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q24942720" target="_blank">Q24942720</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Museum of Christian Art</strong><br><small style="color:#666;">history_museum</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">museum</span></td>
+            <td>1.00</td>
+            <td>0.77</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q6940795" target="_blank">Q6940795</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Fort Aguada</strong><br><small style="color:#666;">fort</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.95</td>
+            <td>0.86</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q4991900" target="_blank">Q4991900</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Azad Maidan (Goa)</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.95</td>
+            <td>0.86</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q4832042" target="_blank">Q4832042</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Divar</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.95</td>
+            <td>0.75</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q5283830" target="_blank">Q5283830</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Goa Science Centre</strong><br><small style="color:#666;">history_museum</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">museum</span></td>
+            <td>0.95</td>
+            <td>0.87</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 2.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q5575103" target="_blank">Q5575103</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Goa State Museum</strong><br><small style="color:#666;">history_museum</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">museum</span></td>
+            <td>0.95</td>
+            <td>0.83</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 2.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q5575115" target="_blank">Q5575115</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Church of Our Lady of the Rosary</strong><br><small style="color:#666;">place_of_worship</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">religious</span></td>
+            <td>0.95</td>
+            <td>0.75</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q20047855" target="_blank">Q20047855</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+            </tbody>
+        </table>
+
+        <div class="section-title">Category Breakdown</div>
+        <div style="display:flex; flex-wrap:wrap; gap:10px;">
+            <div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">1751</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">hotel</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">969</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">experience</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">716</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">food</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">114</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">cafe</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">65</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">heritage</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">54</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">shopping</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">48</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">religious</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">11</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">park</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">11</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">arts_culture</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">10</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">museum</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">2</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">viewpoint</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">1</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">entertainment</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">1</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">transport</div></div>
+        </div>
+    </div>
+</body>
+</html>
