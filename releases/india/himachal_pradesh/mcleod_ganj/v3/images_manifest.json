@@ -1,0 +1,1258 @@
+{
+  "yc_in_hp_mcleod_ganj_dharamshala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:56:25.861029+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_dharamshala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_dharamshala/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_norbulingka_institute": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Deden_Tsuglakhang_01.jpg",
+      "original_file": "Deden Tsuglakhang 01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 1280,
+      "height": 853,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:09.121888+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_norbulingka_institute/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_norbulingka_institute/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_tibet_museum": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tibet_Museum_(Dharamsala).jpg",
+      "original_file": "Tibet Museum (Dharamsala).jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4613,
+      "height": 3096,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:56:35.569063+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_tibet_museum/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibet_museum/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:BirG028-Dharamsala.jpg",
+        "original_file": "BirG028-Dharamsala.jpg",
+        "author": "Wojciech Kocot",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": null,
+        "width": 6016,
+        "height": 4016,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:56:39.675110+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_tibet_museum_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibet_museum_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:BirG038-Dharamsala.jpg",
+        "original_file": "BirG038-Dharamsala.jpg",
+        "author": "Wojciech Kocot",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": null,
+        "width": 6016,
+        "height": 4016,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:56:42.743643+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_tibet_museum_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibet_museum_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_tibetan_childrens_villages": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_children_school_in_Dharamkot_Himachal_Pradesh_India.jpg",
+      "original_file": "A children school in Dharamkot Himachal Pradesh India.jpg",
+      "author": "Anne-Mette Jensen from London, UK",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 1848,
+      "height": 1224,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:56:45.213388+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_tibetan_childrens_villages/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibetan_childrens_villages/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:14th_Dalai_Lama_of_Tibet_and_the_Flag_of_Tibet_in_1994_(cropped).jpg",
+        "original_file": "14th Dalai Lama of Tibet and the Flag of Tibet in 1994 (cropped).jpg",
+        "author": "John Hill",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": null,
+        "width": 497,
+        "height": 834,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:56:47.118592+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_tibetan_childrens_villages_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibetan_childrens_villages_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:14th_Dalai_Lama.jpg",
+        "original_file": "14th Dalai Lama.jpg",
+        "author": "John Hill",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": null,
+        "width": 753,
+        "height": 1080,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:56:48.903699+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_tibetan_childrens_villages_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibetan_childrens_villages_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_tibetan_delek_hospital": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tibetan_Delek_Hospital.jpg",
+      "original_file": "Tibetan Delek Hospital.jpg",
+      "author": "Derek Blackadder",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 1544,
+      "height": 1024,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:56:51.460577+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_tibetan_delek_hospital/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibetan_delek_hospital/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:CIMG0938.JPG",
+        "original_file": "CIMG0938.JPG",
+        "author": "https://picasaweb.google.com/oldfartscampingclub",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": null,
+        "width": 640,
+        "height": 480,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:56:54.023041+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_tibetan_delek_hospital_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibetan_delek_hospital_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Inauguration_of_backup_generator_at_Tibetan_Delek_Hospital_(2008).jpg",
+        "original_file": "Inauguration of backup generator at Tibetan Delek Hospital (2008).jpg",
+        "author": "https://picasaweb.google.com/oldfartscampingclub (error 404 on 31 Jan 2022)",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": null,
+        "width": 1600,
+        "height": 1200,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:56:56.211328+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_tibetan_delek_hospital_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibetan_delek_hospital_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_sacred_heart_high_school": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Sr._Sec._School,_Sidhpur.jpg",
+      "original_file": "Sacred Heart Sr. Sec. School, Sidhpur.jpg",
+      "author": "Shashwat Mahajan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 960,
+      "height": 496,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:56:57.960074+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_sacred_heart_high_school/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_sacred_heart_high_school/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_library_of_tibetan_works_and_archives": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Library_of_Tibetan_Works_and_Archives,_Dharamsala.jpg",
+      "original_file": "Library of Tibetan Works and Archives, Dharamsala.jpg",
+      "author": "evanosherow",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": null,
+      "width": 800,
+      "height": 600,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:00.184088+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_library_of_tibetan_works_and_archives/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_library_of_tibetan_works_and_archives/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Books07.jpg",
+        "original_file": "Books07.jpg",
+        "author": "Sanghee01",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": null,
+        "width": 207,
+        "height": 298,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:57:02.137850+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_library_of_tibetan_works_and_archives_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_library_of_tibetan_works_and_archives_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Gang_Kyi_Chuten.jpg",
+        "original_file": "Gang Kyi Chuten.jpg",
+        "author": "Evan Osherow",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": null,
+        "width": 800,
+        "height": 600,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:57:03.805709+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_library_of_tibetan_works_and_archives_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_library_of_tibetan_works_and_archives_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_namgyal_monastery": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lama_Dance,_Dharamsala,_India.jpg",
+      "original_file": "Lama Dance, Dharamsala, India.jpg",
+      "author": "John Hill",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": null,
+      "width": 1440,
+      "height": 976,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:06.218678+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_namgyal_monastery/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_namgyal_monastery/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:8O3temple-icon1.jpg",
+        "original_file": "8O3temple-icon1.jpg",
+        "author": "Liz Highleyman",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": null,
+        "width": 948,
+        "height": 1280,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:57:09.344356+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_namgyal_monastery_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_namgyal_monastery_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Architectural_Detail_-_Tsuglagkhang_Complex_-_McLeod_Ganj_-_Himachal_Pradesh_-_India_-_01_-_Copy_(26698795951).jpg",
+        "original_file": "Architectural Detail - Tsuglagkhang Complex - McLeod Ganj - Himachal Pradesh - India - 01 - Copy (26698795951).jpg",
+        "author": "Adam Jones from Kelowna, BC, Canada",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": null,
+        "width": 3648,
+        "height": 2736,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:57:12.025468+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_namgyal_monastery_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_namgyal_monastery_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_gaggal_airport": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kangra_Airport_Terminal.jpg",
+      "original_file": "Kangra Airport Terminal.jpg",
+      "author": "FaramRK",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4032,
+      "height": 3024,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:14.811170+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_gaggal_airport/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_gaggal_airport/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_himachal_pradesh_cricket_association_stadium": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_Cricket_Stadium_Landscape.jpg",
+      "original_file": "Dharamshala Cricket Stadium Landscape.jpg",
+      "author": "TheSereneRebel",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2340,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:17.845748+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_himachal_pradesh_cricket_association_stadium/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_himachal_pradesh_cricket_association_stadium/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_dharamkot": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamkot_in_Dharamsala.jpg",
+      "original_file": "Dharamkot in Dharamsala.jpg",
+      "author": "Dave Kleinschmidt",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 1024,
+      "height": 768,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:19.836910+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_dharamkot/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_dharamkot/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_indrahar_pass": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Looking_up_to_the_Indrahar_Pass_(22356846090).jpg",
+      "original_file": "Looking up to the Indrahar Pass (22356846090).jpg",
+      "author": "Ashish Gupta from Noida, India",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": null,
+      "width": 2449,
+      "height": 1633,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:21.986072+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_indrahar_pass/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_indrahar_pass/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_st_john_in_the_wilderness_church": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Stjohnswilderness.JPG",
+      "original_file": "Stjohnswilderness.JPG",
+      "author": "Lewesian1982 (talk)",
+      "license": "Public domain",
+      "license_url": "",
+      "attribution": null,
+      "width": 960,
+      "height": 1280,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:24.433212+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_st_john_in_the_wilderness_church/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_st_john_in_the_wilderness_church/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_tushita_meditation_centre": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tushita.jpg",
+      "original_file": "Tushita.jpg",
+      "author": "Jaypee",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 2700,
+      "height": 1800,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:28.037559+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_tushita_meditation_centre/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tushita_meditation_centre/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_triund": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Triund_(22356802630).jpg",
+      "original_file": "Triund (22356802630).jpg",
+      "author": "Ashish Gupta from Noida, India",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": null,
+      "width": 2449,
+      "height": 1633,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:30.298756+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_triund/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_triund/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:\"Best_View_Cafe\"_above_McLeod_Ganj,_with_a_view_of_Dhauladhar_Range_of_Himalayas.jpg",
+        "original_file": "\"Best View Cafe\" above McLeod Ganj, with a view of Dhauladhar Range of Himalayas.jpg",
+        "author": "Edward Crompton",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": null,
+        "width": 800,
+        "height": 600,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:57:32.751173+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_triund_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_triund_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:A_green_carpet_on_the_top_of_triund.jpg",
+        "original_file": "A green carpet on the top of triund.jpg",
+        "author": "Narinder Kumar",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": null,
+        "width": 5184,
+        "height": 3456,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:57:35.431235+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_triund_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_triund_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_lha_charitable_trust": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:12a_(13708278564).jpg",
+      "original_file": "12a (13708278564).jpg",
+      "author": "Lha Socialwork from Dharamsala H.P, India",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution": null,
+      "width": 1096,
+      "height": 768,
+      "match_method": "commons_category",
+      "match_confidence": 0.85,
+      "downloaded_at": "2026-09-19T19:57:39.104392+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_lha_charitable_trust/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_lha_charitable_trust/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_jama_masjid_dharamshala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_Masjid.JPG",
+      "original_file": "Dharamshala Masjid.JPG",
+      "author": "Masjid,Dharamshala,HimachlPradesh",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": null,
+      "width": 3008,
+      "height": 2000,
+      "match_method": "commons_category",
+      "match_confidence": 0.85,
+      "downloaded_at": "2026-09-19T19:57:42.218789+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_jama_masjid_dharamshala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_jama_masjid_dharamshala/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_international_sahaja_public_school": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:1989_Dharamsala_school.jpg",
+      "original_file": "1989 Dharamsala school.jpg",
+      "author": "Jasmindawes",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": null,
+      "width": 1920,
+      "height": 1080,
+      "match_method": "commons_category",
+      "match_confidence": 0.85,
+      "downloaded_at": "2026-09-19T19:57:44.760903+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_international_sahaja_public_school/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_international_sahaja_public_school/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_nechung_monastery_dharamsala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamsala-Nechung-Tempel_des_Staatsorakels-08-tiefe_Trompeten-Dungchen-gje.jpg",
+      "original_file": "Dharamsala-Nechung-Tempel des Staatsorakels-08-tiefe Trompeten-Dungchen-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 5184,
+      "height": 3456,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:48.425210+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_nechung_monastery_dharamsala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_nechung_monastery_dharamsala/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Dharamsala-Nechung-Tempel_des_Staatsorakels-02-gje.jpg",
+        "original_file": "Dharamsala-Nechung-Tempel des Staatsorakels-02-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": null,
+        "width": 5184,
+        "height": 3456,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:57:52.433018+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_nechung_monastery_dharamsala_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_nechung_monastery_dharamsala_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Dharamsala-Nechung-Tempel_des_Staatsorakels-04-gje.jpg",
+        "original_file": "Dharamsala-Nechung-Tempel des Staatsorakels-04-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": null,
+        "width": 5184,
+        "height": 3456,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:57:55.267177+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_nechung_monastery_dharamsala_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_nechung_monastery_dharamsala_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_khanyara_rock_inscription_kangra_valley": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:0051423_Kanihara_rock_inscriptions,_Kangra_Valley_Himachal_Pradesh_037.jpg",
+      "original_file": "0051423 Kanihara rock inscriptions, Kangra Valley Himachal Pradesh 037.jpg",
+      "author": "Ms Sarah Welch",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution": null,
+      "width": 4624,
+      "height": 3468,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:57:58.372231+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_khanyara_rock_inscription_kangra_valley/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_khanyara_rock_inscription_kangra_valley/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:0051423_Kanihara_rock_inscriptions,_Kangra_Valley_Himachal_Pradesh_004.jpg",
+        "original_file": "0051423 Kanihara rock inscriptions, Kangra Valley Himachal Pradesh 004.jpg",
+        "author": "Ms Sarah Welch",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": null,
+        "width": 4000,
+        "height": 3000,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:58:02.157372+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_khanyara_rock_inscription_kangra_valley_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_khanyara_rock_inscription_kangra_valley_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:0051423_Kanihara_rock_inscriptions,_Kangra_Valley_Himachal_Pradesh_015.jpg",
+        "original_file": "0051423 Kanihara rock inscriptions, Kangra Valley Himachal Pradesh 015.jpg",
+        "author": "Ms Sarah Welch",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": null,
+        "width": 4624,
+        "height": 3468,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:58:05.669073+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_khanyara_rock_inscription_kangra_valley_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_khanyara_rock_inscription_kangra_valley_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_tomb_of_james_bruce_8th_earl_of_elgin": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lord_Elgin's_Tomb_01.JPG",
+      "original_file": "Lord Elgin's Tomb 01.JPG",
+      "author": "Ashish3724",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": null,
+      "width": 3000,
+      "height": 4000,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:58:09.142457+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_tomb_of_james_bruce_8th_earl_of_elgin/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tomb_of_james_bruce_8th_earl_of_elgin/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Dharamsala_2012_James_Bruce_memorial.jpg",
+        "original_file": "Dharamsala 2012 James Bruce memorial.jpg",
+        "author": "Benevixit55",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": null,
+        "width": 2048,
+        "height": 1536,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:58:12.038814+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_tomb_of_james_bruce_8th_earl_of_elgin_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tomb_of_james_bruce_8th_earl_of_elgin_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Dharamsala-St_John_in_the_Wilderness-06-Grabdenkmal_James_Bruce-gje.jpg",
+        "original_file": "Dharamsala-St John in the Wilderness-06-Grabdenkmal James Bruce-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": null,
+        "width": 3456,
+        "height": 5184,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:58:15.415445+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_tomb_of_james_bruce_8th_earl_of_elgin_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tomb_of_james_bruce_8th_earl_of_elgin_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_bhagsu_nag_temple_waterbody": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bhagsu_temple_in_Dharamsala.jpg",
+      "original_file": "Bhagsu temple in Dharamsala.jpg",
+      "author": "Kiran Jonnalagadda from Bangalore, India",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 3264,
+      "height": 2448,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:58:17.998119+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_bhagsu_nag_temple_waterbody/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_bhagsu_nag_temple_waterbody/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_moon_peak": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:\"Best_View_Cafe\"_above_McLeod_Ganj,_with_a_view_of_Dhauladhar_Range_of_Himalayas.jpg",
+      "original_file": "\"Best View Cafe\" above McLeod Ganj, with a view of Dhauladhar Range of Himalayas.jpg",
+      "author": "Edward Crompton",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 800,
+      "height": 600,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:58:18.813918+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_moon_peak/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_moon_peak/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:After_the_overnight_snowfall_(22356836830).jpg",
+        "original_file": "After the overnight snowfall (22356836830).jpg",
+        "author": "Ashish Gupta from Noida, India",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": null,
+        "width": 2309,
+        "height": 1299,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:58:21.785185+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_moon_peak_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_moon_peak_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Arnav_Gupta_Jungle_Hut_DSC00469.jpg",
+        "original_file": "Arnav Gupta Jungle Hut DSC00469.jpg",
+        "author": "Arnav Gupta",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": null,
+        "width": 2592,
+        "height": 1944,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:58:24.213940+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_moon_peak_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_moon_peak_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_dal_lake": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beauty_of_Dal_Lake_in_Himachal.jpg",
+      "original_file": "Beauty of Dal Lake in Himachal.jpg",
+      "author": "Missyadav25",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution": null,
+      "width": 4032,
+      "height": 3024,
+      "match_method": "commons_category",
+      "match_confidence": 0.85,
+      "downloaded_at": "2026-09-19T19:58:28.087469+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_dal_lake/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_dal_lake/thumbnail.webp"
+    },
+    "gallery": [
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Beauty_of_Dal_Lake,_Dharmshala.jpg",
+        "original_file": "Beauty of Dal Lake, Dharmshala.jpg",
+        "author": "AyuBansal",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": null,
+        "width": 1040,
+        "height": 780,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:58:31.690892+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_dal_lake_g1/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_dal_lake_g1/thumbnail.webp"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Dal_lake_dharamshala.jpg",
+        "original_file": "Dal lake dharamshala.jpg",
+        "author": "Officialkt",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": null,
+        "width": 4224,
+        "height": 2368,
+        "match_method": "commons_category_gallery",
+        "match_confidence": 0.8,
+        "downloaded_at": "2026-09-19T19:58:35.568186+00:00",
+        "local_path": "images/yc_in_hp_mcleod_ganj_dal_lake_g2/primary.webp",
+        "thumbnail_path": "images/yc_in_hp_mcleod_ganj_dal_lake_g2/thumbnail.webp"
+      }
+    ]
+  },
+  "yc_in_hp_mcleod_ganj_tibetan_institute_of_performing_arts": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Panoramic_view_from_the_Tibetan_Institute_of_Performing_Arts,_just_above_Dharamsala.jpg",
+      "original_file": "Panoramic view from the Tibetan Institute of Performing Arts, just above Dharamsala.jpg",
+      "author": "Dave 'Coconuts' Kleinschmidt",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 10612,
+      "height": 1852,
+      "match_method": "commons_exact_name_search",
+      "match_confidence": 0.75,
+      "downloaded_at": "2026-09-19T19:58:42.080163+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_tibetan_institute_of_performing_arts/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibetan_institute_of_performing_arts/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_jama_masjid_dharamsala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_Masjid.JPG",
+      "original_file": "Dharamshala Masjid.JPG",
+      "author": "Masjid,Dharamshala,HimachlPradesh",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": null,
+      "width": 3008,
+      "height": 2000,
+      "match_method": "commons_category",
+      "match_confidence": 0.85,
+      "downloaded_at": "2026-09-19T19:58:44.492037+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_jama_masjid_dharamsala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_jama_masjid_dharamsala/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_men_tsee_khang_museum": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Men-tsee-khang.jpg",
+      "original_file": "Men-tsee-khang.jpg",
+      "author": "Liz Highleyman",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": null,
+      "width": 1280,
+      "height": 939,
+      "match_method": "commons_alt_name_search",
+      "match_confidence": 0.7,
+      "downloaded_at": "2026-09-19T19:58:56.119289+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_men_tsee_khang_museum/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_men_tsee_khang_museum/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_tibetan_institute_of_performing_arts_tipa": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Panoramic_view_from_the_Tibetan_Institute_of_Performing_Arts,_just_above_Dharamsala.jpg",
+      "original_file": "Panoramic view from the Tibetan Institute of Performing Arts, just above Dharamsala.jpg",
+      "author": "Dave 'Coconuts' Kleinschmidt",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 10612,
+      "height": 1852,
+      "match_method": "commons_alt_name_search",
+      "match_confidence": 0.7,
+      "downloaded_at": "2026-09-19T19:59:00.617101+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_tibetan_institute_of_performing_arts_tipa/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_tibetan_institute_of_performing_arts_tipa/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_bhagsu_naag_temple": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bhagsu_temple_in_Dharamsala.jpg",
+      "original_file": "Bhagsu temple in Dharamsala.jpg",
+      "author": "Kiran Jonnalagadda from Bangalore, India",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 3264,
+      "height": 2448,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:08.164491+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_bhagsu_naag_temple/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_bhagsu_naag_temple/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_shiva_cafe": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shiva_cafe.jpg",
+      "original_file": "Shiva cafe.jpg",
+      "author": "KUMAR2912",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 1920,
+      "match_method": "commons_exact_name_search",
+      "match_confidence": 0.75,
+      "downloaded_at": "2026-09-19T19:59:12.549578+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_shiva_cafe/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_shiva_cafe/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_nechung_monastery": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamsala-Nechung-Tempel_des_Staatsorakels-08-tiefe_Trompeten-Dungchen-gje.jpg",
+      "original_file": "Dharamsala-Nechung-Tempel des Staatsorakels-08-tiefe Trompeten-Dungchen-gje.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 5184,
+      "height": 3456,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:21.292991+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_nechung_monastery/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_nechung_monastery/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_temple": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bhagsu_temple_in_Dharamsala.jpg",
+      "original_file": "Bhagsu temple in Dharamsala.jpg",
+      "author": "Kiran Jonnalagadda from Bangalore, India",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 3264,
+      "height": 2448,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:30.566956+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_temple/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_temple/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_hotels_in_mcleodganj_dharamshala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:34.208744+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_hotels_in_mcleodganj_dharamshala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_hotels_in_mcleodganj_dharamshala/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_sdm_office_dharamshala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:35.972557+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_sdm_office_dharamshala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_sdm_office_dharamshala/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_the_kashmir_house_dharamshala_hptdc": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:37.548674+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_the_kashmir_house_dharamshala_hptdc/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_the_kashmir_house_dharamshala_hptdc/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_jk_hotel_cafe_dharamshala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:39.249693+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_jk_hotel_cafe_dharamshala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_jk_hotel_cafe_dharamshala/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_vishal_manhas": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:40.747950+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_vishal_manhas/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_vishal_manhas/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_dharamshala_taxi_service": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:42.471590+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_dharamshala_taxi_service/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_dharamshala_taxi_service/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_dharamshalaairport": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:44.176905+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_dharamshalaairport/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_dharamshalaairport/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_the_ortus_residency_dharamshala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:45.653047+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_the_ortus_residency_dharamshala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_the_ortus_residency_dharamshala/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_kareri_lake_dharamshala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:47.187613+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_kareri_lake_dharamshala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_kareri_lake_dharamshala/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_klein_tibet": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tibetan_Delek_Hospital.jpg",
+      "original_file": "Tibetan Delek Hospital.jpg",
+      "author": "Derek Blackadder",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 1544,
+      "height": 1024,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:48.575439+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_klein_tibet/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_klein_tibet/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_kids_mart_dharamshala": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:50.090205+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_kids_mart_dharamshala/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_kids_mart_dharamshala/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_norbulingka_monastery": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Deden_Tsuglakhang_01.jpg",
+      "original_file": "Deden Tsuglakhang 01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4844,
+      "height": 3230,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:52.195237+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_norbulingka_monastery/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_norbulingka_monastery/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_bhasunath_mandir": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bhagsu_temple_in_Dharamsala.jpg",
+      "original_file": "Bhagsu temple in Dharamsala.jpg",
+      "author": "Kiran Jonnalagadda from Bangalore, India",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": null,
+      "width": 3264,
+      "height": 2448,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:54.009710+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_bhasunath_mandir/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_bhasunath_mandir/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_dharamshala_timeliners": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:55.571624+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_dharamshala_timeliners/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_dharamshala_timeliners/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_hp_mcleod_ganj_dharamshala_smart_city_limited_dscl": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg",
+      "original_file": "Dharamshala 03 (Cropped).jpg",
+      "author": "Amit Phulera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": null,
+      "width": 4160,
+      "height": 2073,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-09-19T19:59:57.194950+00:00",
+      "local_path": "images/yc_in_hp_mcleod_ganj_dharamshala_smart_city_limited_dscl/primary.webp",
+      "thumbnail_path": "images/yc_in_hp_mcleod_ganj_dharamshala_smart_city_limited_dscl/thumbnail.webp"
+    },
+    "gallery": []
+  }
+}

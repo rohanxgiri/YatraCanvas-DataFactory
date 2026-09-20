@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YatraCanvas City Pack Report - Manali</title>
+    <style>
+        :root {
+            --primary: #2b6cb0;
+            --bg: #f7fafc;
+            --card-bg: #ffffff;
+            --text: #2d3748;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 30px 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1150px; margin: 0 auto; }
+        .header {
+            background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .header h1 { margin: 0 0 8px 0; font-size: 2rem; }
+        .header p { margin: 0; opacity: 0.9; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .stat-value { font-size: 1.8rem; font-weight: 700; color: #1a365d; }
+        .stat-label { font-size: 0.85rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px; }
+        .tier-card { border-left: 4px solid #3182ce; }
+        .tier-core { border-left-color: #e53e3e; }
+        .tier-rec { border-left-color: #dd6b20; }
+        .tier-disc { border-left-color: #3182ce; }
+        .tier-supp { border-left-color: #718096; }
+        .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
+        .badge-core { background: #fed7d7; color: #9b2c2c; }
+        .badge-rec { background: #feebc8; color: #7b341e; }
+        .badge-primary { background: #e2e8f0; color: #2d3748; }
+        .badge-success { background: #c6f6d5; color: #22543d; }
+        .badge-gray { background: #edf2f7; color: #718096; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; background: white; border-radius: 8px; overflow: hidden; }
+        th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        th { background: #edf2f7; color: #4a5568; font-weight: 600; }
+        .section-title { font-size: 1.25rem; font-weight: 700; margin: 30px 0 15px 0; color: #1a365d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>YatraCanvas City Pack: Manali</h1>
+            <p>Himachal Pradesh, India • Open Data Architecture v2.0</p>
+        </div>
+
+        <div class="section-title">Coverage By Place Tier</div>
+        <div class="stats-grid">
+            <div class="stat-card tier-core">
+                <div class="stat-value">13</div>
+                <div class="stat-label">Core Destinations</div>
+                <small>Images: 11 • Wiki: 7 • Hours: 1</small>
+            </div>
+            <div class="stat-card tier-rec">
+                <div class="stat-value">147</div>
+                <div class="stat-label">Recommended Places</div>
+                <small>Images: 0 • Wiki: 0 • Hours: 7</small>
+            </div>
+            <div class="stat-card tier-disc">
+                <div class="stat-value">264</div>
+                <div class="stat-label">Discovery Places</div>
+                <small>Long-tail food & shops</small>
+            </div>
+            <div class="stat-card tier-supp">
+                <div class="stat-value">1278</div>
+                <div class="stat-label">Support / Transit</div>
+                <small>Hotels, stations & hubs</small>
+            </div>
+        </div>
+
+        <div class="section-title">Top Verified Destinations</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Tier</th>
+                    <th>Category</th>
+                    <th>Relevance</th>
+                    <th>Quality</th>
+                    <th>Exact Image</th>
+                    <th>Wikidata QID</th>
+                    <th>Opening Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td><strong>Manali</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.93</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q83443" target="_blank">Q83443</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Bhrigu Lake</strong><br><small style="color:#666;">lake</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">nature</span></td>
+            <td>0.95</td>
+            <td>0.82</td>
+            <td><span class="badge badge-success">✓ CC BY 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q4902074" target="_blank">Q4902074</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Hidimba Devi Temple, Dhungri Manali</strong><br><small style="color:#666;">place_of_worship</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">religious</span></td>
+            <td>0.90</td>
+            <td>0.81</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q15223867" target="_blank">Q15223867</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Leh–Manali Highway</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.85</td>
+            <td>0.73</td>
+            <td><span class="badge badge-success">✓ CC BY 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q251599" target="_blank">Q251599</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>National Highway 3</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.85</td>
+            <td>0.73</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q25203039" target="_blank">Q25203039</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Miniature Siva Temple, Jagatsukh</strong><br><small style="color:#666;">place_of_worship</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">religious</span></td>
+            <td>0.85</td>
+            <td>0.90</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q56985696" target="_blank">Q56985696</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Tourist locations in Manali</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.70</td>
+            <td>0.65</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q3632315" target="_blank">Q3632315</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Old Manali</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.60</td>
+            <td>0.73</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><span class="badge badge-gray">None</span></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Museum of Himachal Culture & Folk Arts</strong><br><small style="color:#666;">history_museum</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">museum</span></td>
+            <td>0.60</td>
+            <td>0.78</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><span class="badge badge-gray">None</span></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Vashist Hot Water Springs and Temple</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.55</td>
+            <td>0.68</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><span class="badge badge-gray">None</span></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Kartik Temple</strong><br><small style="color:#666;">historical_monument</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.55</td>
+            <td>0.68</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><span class="badge badge-gray">None</span></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Great Hadimba Weavers welfare</strong><br><small style="color:#666;">historical_monument</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.45</td>
+            <td>0.58</td>
+            <td><span class="badge badge-gray">None</span></td>
+            <td><span class="badge badge-gray">None</span></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Studio Manali</strong><br><small style="color:#666;">history_museum</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">museum</span></td>
+            <td>0.40</td>
+            <td>0.53</td>
+            <td><span class="badge badge-gray">None</span></td>
+            <td><span class="badge badge-gray">None</span></td>
+            <td>Mo-Fr 11:00-17:00</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Solang Valley</strong><br><small style="color:#666;">hotel</small></td>
+            <td><span class="badge badge-gray">support</span></td>
+            <td><span class="badge badge-primary">hotel</span></td>
+            <td>0.55</td>
+            <td>0.73</td>
+            <td><span class="badge badge-success">✓ CC BY 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q12069422" target="_blank">Q12069422</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>WelcomHeritage Urvashi's Retreat</strong><br><small style="color:#666;">hotel</small></td>
+            <td><span class="badge badge-gray">support</span></td>
+            <td><span class="badge badge-primary">hotel</span></td>
+            <td>0.40</td>
+            <td>0.65</td>
+            <td><span class="badge badge-gray">None</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q111861905" target="_blank">Q111861905</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+            </tbody>
+        </table>
+
+        <div class="section-title">Category Breakdown</div>
+        <div style="display:flex; flex-wrap:wrap; gap:10px;">
+            <div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">1278</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">hotel</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">269</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">experience</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">65</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">cafe</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">53</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">food</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">11</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">heritage</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">10</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">religious</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">6</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">nature</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">5</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">park</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">3</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">museum</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">1</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">viewpoint</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">1</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">shopping</div></div>
+        </div>
+    </div>
+</body>
+</html>

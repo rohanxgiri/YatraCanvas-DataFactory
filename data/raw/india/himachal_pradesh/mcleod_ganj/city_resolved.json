@@ -1,0 +1,32 @@
+{
+  "id": "mcleod_ganj",
+  "name": "Mcleod Ganj",
+  "state": "Himachal Pradesh",
+  "country": "India",
+  "iso_country": "IN",
+  "center": [
+    32.235267,
+    76.326238
+  ],
+  "bbox": [
+    76.246238,
+    32.155267,
+    76.406238,
+    32.315267
+  ],
+  "alternate_names": [
+    "Dharamshala",
+    "Kangra",
+    "Himachal Pradesh",
+    "176200",
+    "India"
+  ],
+  "timezone": "Asia/Kolkata",
+  "osm_place_id": 212812210,
+  "geonames_id": null,
+  "wikidata_id": null,
+  "dataset_version": "3.0.0",
+  "generated_at": "2026-09-19T19:52:55.684881+00:00",
+  "resolution_source": "nominatim_osm",
+  "resolution_confidence": 0.9
+}
