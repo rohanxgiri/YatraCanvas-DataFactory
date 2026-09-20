@@ -1,0 +1,87 @@
+{
+  "city": "Gulmarg",
+  "state": "Jammu And Kashmir",
+  "country": "India",
+  "version": "v3",
+  "sources": {
+    "openstreetmap": {
+      "raw_candidates": 49,
+      "matched_into_canonical": 13,
+      "released": 13,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "overture": {
+      "raw_candidates": 368,
+      "matched_into_canonical": 76,
+      "released": 76,
+      "merged": 45,
+      "quarantined": 0,
+      "rejected": 149,
+      "top_rejection_reasons": {
+        "blocked_category:travel_service": 37,
+        "blocked_category:bank_or_credit_union": 18,
+        "blocked_category:corporate_or_business_office": 10,
+        "blocked_category:fashion_and_apparel_store": 9,
+        "blocked_category:place_of_learning": 8
+      },
+      "top_quarantine_reasons": {}
+    },
+    "wikivoyage": {
+      "raw_candidates": 10,
+      "matched_into_canonical": 7,
+      "released": 7,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "wikidata": {
+      "raw_candidates": 7,
+      "matched_into_canonical": 6,
+      "released": 6,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "unknown": {
+      "raw_candidates": 155,
+      "matched_into_canonical": 0,
+      "released": 0,
+      "merged": 0,
+      "quarantined": 155,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {
+        "low_quality_score:0.285<0.3": 47,
+        "low_quality_score:0.248<0.3": 42,
+        "low_quality_score:0.24<0.3": 30,
+        "low_quality_score:0.21<0.3": 25,
+        "duplicate_canonical_id": 6
+      }
+    }
+  },
+  "high_value_travel_survival": {
+    "wikivoyage_see_do": {
+      "total_raw": 6,
+      "released": 5,
+      "survival_pct": 83.3
+    },
+    "wikidata_attractions": {
+      "total_raw": 7,
+      "released": 6,
+      "survival_pct": 85.7
+    },
+    "osm_tourism_historic": {
+      "total_raw": 27,
+      "released": 4,
+      "survival_pct": 14.8
+    }
+  }
+}

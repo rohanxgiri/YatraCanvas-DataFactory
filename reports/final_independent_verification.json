@@ -1,0 +1,3239 @@
+{
+  "jaipur": {
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "sampled_count": 105,
+    "status_counts": {
+      "SUPPORTED": 79,
+      "VERIFIED": 19,
+      "UNVERIFIED": 7,
+      "CONFLICT": 0
+    },
+    "conflict_counts": {},
+    "tier_metrics": {
+      "recommended": {
+        "total": 47,
+        "verified": 46,
+        "conflict": 0
+      },
+      "discovery": {
+        "total": 33,
+        "verified": 28,
+        "conflict": 0
+      },
+      "core_destination": {
+        "total": 20,
+        "verified": 20,
+        "conflict": 0
+      },
+      "support": {
+        "total": 5,
+        "verified": 4,
+        "conflict": 0
+      }
+    },
+    "category_metrics": {
+      "cafe": {
+        "total": 10,
+        "verified": 10,
+        "conflict": 0
+      },
+      "experience": {
+        "total": 20,
+        "verified": 16,
+        "conflict": 0
+      },
+      "food": {
+        "total": 12,
+        "verified": 12,
+        "conflict": 0
+      },
+      "shopping": {
+        "total": 10,
+        "verified": 10,
+        "conflict": 0
+      },
+      "heritage": {
+        "total": 14,
+        "verified": 14,
+        "conflict": 0
+      },
+      "museum": {
+        "total": 10,
+        "verified": 9,
+        "conflict": 0
+      },
+      "nature": {
+        "total": 3,
+        "verified": 3,
+        "conflict": 0
+      },
+      "arts_culture": {
+        "total": 1,
+        "verified": 1,
+        "conflict": 0
+      },
+      "religious": {
+        "total": 10,
+        "verified": 10,
+        "conflict": 0
+      },
+      "park": {
+        "total": 10,
+        "verified": 9,
+        "conflict": 0
+      },
+      "hotel": {
+        "total": 5,
+        "verified": 4,
+        "conflict": 0
+      }
+    },
+    "search_spot": {
+      "total_evaluated": 75,
+      "relevant_count": 75,
+      "partially_relevant_count": 0,
+      "irrelevant_count": 0,
+      "unverified_count": 0,
+      "relevance_pct": 100.0,
+      "queries": [
+        {
+          "query": "cafe",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_gvd_sonis_cafe",
+              "name": "GVD Soni's Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 620.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_poppin_organic_cafe",
+              "name": "Poppin Organic Cafe\u0301",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_charis_cafe",
+              "name": "Charis cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_cafe_bae",
+              "name": "Cafe\u0301 BAE",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_the_tattoo_cafe",
+              "name": "The Tattoo Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "coffee",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_nothing_before_coffee",
+              "name": "NOTHING BEFORE COFFEE",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_curious_life_coffee_roasters_red",
+              "name": "Curious Life Coffee Roasters: RED",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 540.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_coffee_dose",
+              "name": "Coffee Dose",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 515.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_coffee_break",
+              "name": "Coffee Break",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 510.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_lets_brew_coffee",
+              "name": "Let's Brew Coffee",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 510.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "restaurant",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_peacock_rooftop_restaurant",
+              "name": "Peacock Rooftop Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_tvg_amer_restaurant",
+              "name": "TVG AMER RESTAURANT",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_ganesh_restaurant",
+              "name": "Ganesh Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_mohan_restaurant",
+              "name": "Mohan Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_midtown_multi_cuisine_restaurant",
+              "name": "Midtown multi cuisine restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "temple",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_temple",
+              "name": "Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 620.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_shani_temple",
+              "name": "Shani Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 620.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_shree_laxmi_narayan_temple",
+              "name": "Shree Laxmi Narayan Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 575.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_maalmaleshwar_temple",
+              "name": "Maalmaleshwar Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 570.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_khole_ke_hanuman_ji_temple",
+              "name": "Khole Ke Hanuman Ji Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 510.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "mosque",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_madina_masjid",
+              "name": "Madina Masjid",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_hazrat_gatte_wale_baba_rehmatullah_aleh",
+              "name": "Hazrat Gatte Wale Baba Rehmatullah Aleh",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_jama_masjid_jaipur",
+              "name": "Jama Masjid Jaipur",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_dargha_ajmer_sharif",
+              "name": "Dargha Ajmer Sharif",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_hazrat_khwaja_khan_muhammad_khan_rampuri_shaheb_dargah",
+              "name": "Hazrat khwaja khan muhammad khan rampuri shaheb dargah",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "museum",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+              "name": "Alice Garg Seashell Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 570.0,
+              "raw_upstream_tag": "museum",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_makrana_moorti_museum",
+              "name": "Makrana Moorti Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_jaipur_wax_museum",
+              "name": "Jaipur Wax Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 510.0,
+              "raw_upstream_tag": "museum",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_rohit_jangid_artist_museum",
+              "name": "rohit jangid artist museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_triveni_moorti_museum",
+              "name": "Triveni Moorti Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "fort",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_moti_doongri_fort",
+              "name": "Moti Doongri Fort",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 510.0,
+              "raw_upstream_tag": "fort",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_lohaghar_fort",
+              "name": "LohaGhar Fort",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_amber_fort",
+              "name": "Amber Fort",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 455.0,
+              "raw_upstream_tag": "viewpoint",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_nahargarh_fort",
+              "name": "Nahargarh Fort",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 450.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_jaigarh_fort",
+              "name": "Jaigarh Fort",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 450.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "palace",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_stay_simple_king_palace",
+              "name": "Stay Simple King Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_sunny_palace_marriage_garden",
+              "name": "Sunny Palace Marriage Garden",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 540.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_jaipur_palace",
+              "name": "Jaipur Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_delhi_novelties_gift_palace",
+              "name": "Delhi Novelties Gift Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_the_print_palace",
+              "name": "The Print Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "heritage",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_jantar_mantar",
+              "name": "Jantar Mantar",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 430.0,
+              "raw_upstream_tag": "information",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_hawa_mahal",
+              "name": "Hawa Mahal",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 370.0,
+              "raw_upstream_tag": "attraction",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_moti_dungri_mandir",
+              "name": "Moti Dungri Mandir",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_anokhi_museum_of_hand_printing",
+              "name": "Anokhi Museum of Hand Printing",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_albert_hall_museum",
+              "name": "Albert Hall Museum",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": "museum",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "park",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_chatkazz_raja_park",
+              "name": "Chatkazz Raja Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 575.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_kanak_vrindawan_park_jaipur",
+              "name": "Kanak Vrindawan Park , Jaipur",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 540.0,
+              "raw_upstream_tag": "picnic_site",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_agilus_diagnostics_bani_park",
+              "name": "Agilus Diagnostics - Bani Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 515.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_the_sleep_company_experience_store_raja_park",
+              "name": "The Sleep Company Experience Store - Raja Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 515.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_keventers_world_trade_park",
+              "name": "Keventers World Trade Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "garden",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_garden_to_soothe_the_earth",
+              "name": "Garden to soothe the earth",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_ajmera_garden",
+              "name": "Ajmera Garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": "garden",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_the_timber_garden",
+              "name": "The Timber Garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_spot_on_40453_the_host_garden",
+              "name": "SPOT ON 40453 The Host Garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_jamuna_garden",
+              "name": "Jamuna Garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "lake",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_bank_of_india_mansarovar_branch",
+              "name": "Bank Of India Mansarovar branch",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_allahabad_bank_mansarovar_branch",
+              "name": "Allahabad Bank Mansarovar branch",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_bank_of_baroda_mansarovar_branch",
+              "name": "Bank Of Baroda, Mansarovar Branch",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_icici_bank_limited_jaipur_mansarovar_branch",
+              "name": "ICICI Bank Limited, Jaipur, Mansarovar branch",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_icici_bank_limited_jaipur_tps_mansarovar_branch",
+              "name": "ICICI Bank Limited, Jaipur Tps Mansarovar branch",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "market",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_jayanti_market",
+              "name": "Jayanti Market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 575.0,
+              "raw_upstream_tag": "marketplace",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_thursday_farmers_market",
+              "name": "Thursday Farmers Market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 510.0,
+              "raw_upstream_tag": "marketplace",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_friday_farmers_market",
+              "name": "Friday Farmers Market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 510.0,
+              "raw_upstream_tag": "marketplace",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_subway_jda_market",
+              "name": "Subway JDA Market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_rajasthan_organic_fresh_farmer_market",
+              "name": "Rajasthan organic fresh farmer market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "shopping",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_satkar_shopping_center",
+              "name": "Satkar Shopping Center",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 540.0,
+              "raw_upstream_tag": "marketplace",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_weblot_online_shopping_store",
+              "name": "Weblot Online Shopping Store",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 480.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_garg_jewellers",
+              "name": "Garg Jewellers",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 375.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_shahanshan_enterprises",
+              "name": "Shahanshan Enterprises",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 375.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_hb_enterprises",
+              "name": "HB Enterprises",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "railway station",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_jaipur_railway_station",
+              "name": "Railway station",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 690.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_jaipur_railway_station",
+              "name": "Jaipur Railway Station",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 645.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_gandhinagar_railway_station",
+              "name": "Gandhinagar Railway Station",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 640.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_durgapura_railway_station_jaipur",
+              "name": "Durgapura Railway Station, Jaipur",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 550.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_jaipur_daher_ke_balaji_rly_stn",
+              "name": "Daher Ke Balaji Rly. STN.",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 460.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        }
+      ]
+    },
+    "discovery_spot": {
+      "eligible_total": 269,
+      "sampled_count": 20,
+      "genuine_poi_count": 20,
+      "leaked_generic_count": 0,
+      "relevance_pct": 100.0,
+      "candidates": [
+        {
+          "place_id": "yc_in_rj_jaipur_sahu_ki_chai",
+          "name": "Sahu Ki Chai",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_cafe_coffee_day",
+          "name": "Cafe Coffee Day",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.2,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_trend",
+          "name": "TREND",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_adinath_park",
+          "name": "Adinath Park",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_nandan_kadan",
+          "name": "Nandan Kadan",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_khaddewala_park",
+          "name": "Khaddewala Park",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_tapri",
+          "name": "Tapri",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_ram_mandir",
+          "name": "Ram Mandir",
+          "category": "religious",
+          "primary_entity_type": "religious_site",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_hazrat_gatte_wale_baba_rehmatullah_aleh",
+          "name": "Hazrat Gatte Wale Baba Rehmatullah Aleh",
+          "category": "religious",
+          "primary_entity_type": "religious_site",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_cafe_bae",
+          "name": "Cafe\u0301 BAE",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.2,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_starbucks",
+          "name": "Starbucks",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.2,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_khatu_shyam_mandir",
+          "name": "Khatu Shyam Mandir",
+          "category": "religious",
+          "primary_entity_type": "religious_site",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_girnar_park",
+          "name": "Girnar Park",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_krishna_vatika",
+          "name": "Krishna Vatika",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_mf_bangles",
+          "name": "MF Bangles",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_poppin_organic_cafe",
+          "name": "Poppin Organic Cafe\u0301",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.2,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_dwarkadas_park",
+          "name": "dwarkadas park",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_elephant_village",
+          "name": "Elephant Village",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_ajmera_garden",
+          "name": "Ajmera Garden",
+          "category": "park",
+          "primary_entity_type": "garden",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_ls_bangles",
+          "name": "Ls Bangles",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        }
+      ]
+    },
+    "verdict": "READY_FOR_INTEGRATION",
+    "sample_path": "reports/final_verification/jaipur/sample.json",
+    "results_path": "reports/final_verification/jaipur/results.json"
+  },
+  "udaipur": {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "sampled_count": 100,
+    "status_counts": {
+      "SUPPORTED": 72,
+      "VERIFIED": 19,
+      "UNVERIFIED": 9,
+      "CONFLICT": 0
+    },
+    "conflict_counts": {},
+    "tier_metrics": {
+      "discovery": {
+        "total": 33,
+        "verified": 29,
+        "conflict": 0
+      },
+      "core_destination": {
+        "total": 23,
+        "verified": 23,
+        "conflict": 0
+      },
+      "recommended": {
+        "total": 39,
+        "verified": 37,
+        "conflict": 0
+      },
+      "support": {
+        "total": 5,
+        "verified": 2,
+        "conflict": 0
+      }
+    },
+    "category_metrics": {
+      "experience": {
+        "total": 19,
+        "verified": 15,
+        "conflict": 0
+      },
+      "heritage": {
+        "total": 12,
+        "verified": 12,
+        "conflict": 0
+      },
+      "museum": {
+        "total": 10,
+        "verified": 10,
+        "conflict": 0
+      },
+      "religious": {
+        "total": 10,
+        "verified": 10,
+        "conflict": 0
+      },
+      "park": {
+        "total": 10,
+        "verified": 10,
+        "conflict": 0
+      },
+      "cafe": {
+        "total": 10,
+        "verified": 9,
+        "conflict": 0
+      },
+      "arts_culture": {
+        "total": 1,
+        "verified": 1,
+        "conflict": 0
+      },
+      "food": {
+        "total": 10,
+        "verified": 10,
+        "conflict": 0
+      },
+      "nature": {
+        "total": 3,
+        "verified": 3,
+        "conflict": 0
+      },
+      "shopping": {
+        "total": 10,
+        "verified": 9,
+        "conflict": 0
+      },
+      "hotel": {
+        "total": 5,
+        "verified": 2,
+        "conflict": 0
+      }
+    },
+    "search_spot": {
+      "total_evaluated": 75,
+      "relevant_count": 75,
+      "partially_relevant_count": 0,
+      "irrelevant_count": 0,
+      "unverified_count": 0,
+      "relevance_pct": 100.0,
+      "queries": [
+        {
+          "query": "cafe",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_109_cafe",
+              "name": "109 Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 690.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_cool_cafe",
+              "name": "Cool cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_backyard_cafe",
+              "name": "Backyard Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_cafe_namaste_natural_city_view",
+              "name": "Cafe\u0301 Namaste & Natural City View",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_udai_art_cafe",
+              "name": "udai art cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "coffee",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_jheels_ginger_coffee_bar_bakery",
+              "name": "Jheel's Ginger Coffee Bar & Bakery",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 540.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_nothing_before_coffee",
+              "name": "Nothing Before Coffee",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 510.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_coffee_house_harigarh",
+              "name": "Coffee House - HariGarh",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_nothing_before_coffee_sardarpur_udaipur",
+              "name": "Nothing Before Coffee - Sardarpur, Udaipur",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 480.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_babbuz_coffee_cafe_cafe_co_working_space",
+              "name": "Babbuz Coffee Cafe- cafe & co-working space",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 480.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "restaurant",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_jhumar_lake_view_restaurant",
+              "name": "Jhumar Lake-View Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_nagar_restaurant",
+              "name": "Nagar Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_udaipur_traditional_restaurant",
+              "name": "Udaipur Traditional restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_chirag_roof_top_restaurant",
+              "name": "Chirag Roof Top Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_candle_light_restaurant",
+              "name": "Candle light restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "temple",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_ambamata_temple",
+              "name": "Ambamata Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 545.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_pala_ganesh_temple",
+              "name": "Pala Ganesh Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 540.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_temple_shree_sardar_swarup_shyam_ji",
+              "name": "Temple Shree Sardar Swarup Shyam Ji",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 540.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_jagdish_temple_udaipur",
+              "name": "Jagdish Temple, Udaipur",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_shri_manshapurna_karni_mata_temple",
+              "name": "Shri Manshapurna Karni Mata Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 510.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "mosque",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_masjid_mahawat_wadi",
+              "name": "masjid mahawat wadi",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_jagdish_temple_udaipur",
+              "name": "Jagdish Temple, Udaipur",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 340.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_roman_catholic_diocese_of_udaipur",
+              "name": "Roman Catholic Diocese of Udaipur",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 340.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_jag_mandir",
+              "name": "Jag Mandir",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 340.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_karni_mata_udaipur",
+              "name": "Karni Mata, Udaipur",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 340.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "museum",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_ahar_museum",
+              "name": "Ahar Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_vintage_and_classic_car_museum",
+              "name": "Vintage and Classic Car Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_pratap_gaurav_kendra_rashtriya_tirth",
+              "name": "Pratap Gaurav Kendra Rashtriya Tirth",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 370.0,
+              "raw_upstream_tag": "museum",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_maha_rana_museum",
+              "name": "Maha Rana Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 390.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_ali_baba_art_and_craft_museum",
+              "name": "Ali Baba Art and Craft Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 390.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "fort",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_jagmandir_palace",
+              "name": "Jagmandir Palace",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 370.0,
+              "raw_upstream_tag": "castle",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_fateh_garh_udaipur",
+              "name": "Fateh Garh, Udaipur",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_sajjangarh",
+              "name": "Sajjangarh",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 310.0,
+              "raw_upstream_tag": "zoo",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_sajjangarh_wildlife_sanctuary",
+              "name": "Sajjangarh Wildlife Sanctuary",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 250.0,
+              "raw_upstream_tag": "nature_reserve",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_udaipur",
+              "name": "Udaipur",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 180.0,
+              "raw_upstream_tag": "hotel",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "palace",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_lake_palace",
+              "name": "Lake Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 570.0,
+              "raw_upstream_tag": "hotel",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_fairmont_udaipur_palace",
+              "name": "Fairmont Udaipur Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_spot_on_36507_laxmi_palace",
+              "name": "SPOT ON 36507 Laxmi Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_picture_palace_udaipur",
+              "name": "Picture Palace Udaipur",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 480.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_taj_fateh_prakash_palace",
+              "name": "Taj Fateh Prakash Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 455.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "heritage",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_city_palace_udaipur",
+              "name": "City Palace, Udaipur",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 430.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_bagore_ki_haveli",
+              "name": "Bagore-ki-Haveli",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 430.0,
+              "raw_upstream_tag": "castle",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_udaipur",
+              "name": "Udaipur",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": "hotel",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_lake_palace",
+              "name": "Lake Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 370.0,
+              "raw_upstream_tag": "hotel",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_bharatiya_lok_kala_mandal",
+              "name": "Bharatiya Lok Kala Mandal",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "park",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_sajjangarh_biological_park",
+              "name": "Sajjangarh Biological Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 570.0,
+              "raw_upstream_tag": "zoo",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_pratap_park",
+              "name": "Pratap Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": "park",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_agasthyavanam_biological_park",
+              "name": "Agasthyavanam Biological Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_marvel_water_park",
+              "name": "Marvel Water Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": "water_park",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_vakao_theme_park",
+              "name": "VAKAO Theme Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "garden",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_rajiv_gandhi_garden",
+              "name": "Rajiv Gandhi Garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": "attraction",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_ambrai_villa_4_bhk_swimming_pool_garden",
+              "name": "Ambrai Villa - 4 bhk Swimming Pool, Garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_hill_garden_retreat",
+              "name": "Hill Garden Retreat",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 480.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_pratap_park",
+              "name": "Pratap Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 370.0,
+              "raw_upstream_tag": "park",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_sajjangarh_biological_park",
+              "name": "Sajjangarh Biological Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 370.0,
+              "raw_upstream_tag": "zoo",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "lake",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_lake_pichola",
+              "name": "Lake Pichola",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 570.0,
+              "raw_upstream_tag": "hostel",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_fateh_sagar_lake",
+              "name": "Fateh Sagar Lake",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_doodh_talai_lake",
+              "name": "Doodh Talai Lake",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_swaroop_sagar_lake",
+              "name": "Swaroop Sagar Lake",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_rang_sagar_lake",
+              "name": "Rang Sagar Lake",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "market",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_spice_market",
+              "name": "Spice market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 510.0,
+              "raw_upstream_tag": "marketplace",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_hashil_market",
+              "name": "Hashil Market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 390.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_shree_ji_handicrafts",
+              "name": "Shree JI Handicrafts",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_shreenath_cutlery_handicrafts",
+              "name": "Shreenath Cutlery Handicrafts",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_shree_ji_glass_handicrafts",
+              "name": "Shree Ji Glass & Handicrafts",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "shopping",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_shree_ji_handicrafts",
+              "name": "Shree JI Handicrafts",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_leena_jewellers",
+              "name": "Leena Jewellers",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_spice_market",
+              "name": "Spice market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 370.0,
+              "raw_upstream_tag": "marketplace",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_navya_enterprises",
+              "name": "Navya Enterprises",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_al_azeen_enterprises",
+              "name": "Al Azeen Enterprises",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "railway station",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_rj_udaipur_sg_boutique_stay_near_railway_station",
+              "name": "SG Boutique Stay (Near Railway Station)",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 580.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_udaipur_private_taxi_service_taxi_service_udaipur_airport_taxi_sightseeing_taxi_udaipur",
+              "name": "Udaipur Private Taxi Service | Taxi Service | Udaipur Airport Taxi | Sightseeing Taxi Udaipur",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 400.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_udaipur_private_day_tours_taxicab_service_in_udaipur_udaipur_sightseeing_taxi_udaipur_airport_taxi",
+              "name": "Udaipur Private Day Tours - Taxi/Cab Service in Udaipur | Udaipur Sightseeing Taxi | Udaipur Airport Taxi",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 400.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_udaipur_taxi_taxi_in_udaipur_udaipur_airport_taxi_udaipur_taxi_services",
+              "name": "Udaipur Taxi | Taxi in Udaipur | Udaipur Airport Taxi | Udaipur Taxi Services",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 400.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_rj_udaipur_holiday_junction",
+              "name": "Holiday Junction",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 400.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        }
+      ]
+    },
+    "discovery_spot": {
+      "eligible_total": 46,
+      "sampled_count": 20,
+      "genuine_poi_count": 20,
+      "leaked_generic_count": 0,
+      "relevance_pct": 100.0,
+      "candidates": [
+        {
+          "place_id": "yc_in_rj_udaipur_indian_handicraft_exporter",
+          "name": "Indian Handicraft Exporter",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_cafe_namaste_natural_city_view",
+          "name": "Cafe\u0301 Namaste & Natural City View",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_tapri_satsang",
+          "name": "Tapri Satsang",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.2,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_temple_shree_sardar_swarup_shyam_ji",
+          "name": "Temple Shree Sardar Swarup Shyam Ji",
+          "category": "religious",
+          "primary_entity_type": "religious_site",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_barkat_colony_park",
+          "name": "Barkat Colony Park",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "discovery",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_shri_manshapurna_karni_mata_temple",
+          "name": "Shri Manshapurna Karni Mata Temple",
+          "category": "religious",
+          "primary_entity_type": "religious_site",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_the_little_prince",
+          "name": "The Little Prince",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_cafe_satori",
+          "name": "Cafe Satori",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_a_one_drycleaners",
+          "name": "A One Drycleaners",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_backyard_cafe",
+          "name": "Backyard Cafe",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_vasant_vihar_park",
+          "name": "vasant vihar park",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_the_bake_affair",
+          "name": "The Bake Affair",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.2,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_udai_apartment",
+          "name": "Udai Apartment",
+          "category": "heritage",
+          "primary_entity_type": "monument",
+          "tier": "discovery",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_mahip_india",
+          "name": "Mahip India",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_cafe_la_comida",
+          "name": "cafe\u0301 la comida",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_udaipur_hanuman_ghat_mandir",
+          "name": "Udaipur Hanuman Ghat Mandir",
+          "category": "religious",
+          "primary_entity_type": "religious_site",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_foodiz",
+          "name": "Foodiz",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_brew_villa",
+          "name": "Brew Villa",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_tapri_niwas",
+          "name": "Tapri Niwas",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.2,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_shree_ji_handicrafts",
+          "name": "Shree JI Handicrafts",
+          "category": "shopping",
+          "primary_entity_type": "market",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        }
+      ]
+    },
+    "verdict": "READY_FOR_INTEGRATION",
+    "sample_path": "reports/final_verification/udaipur/sample.json",
+    "results_path": "reports/final_verification/udaipur/results.json"
+  },
+  "varanasi": {
+    "city": "Varanasi",
+    "state": "Uttar_pradesh",
+    "sampled_count": 98,
+    "status_counts": {
+      "VERIFIED": 25,
+      "SUPPORTED": 62,
+      "UNVERIFIED": 10,
+      "CONFLICT": 1
+    },
+    "conflict_counts": {
+      "category": 1,
+      "entity_type": 1
+    },
+    "tier_metrics": {
+      "core_destination": {
+        "total": 25,
+        "verified": 24,
+        "conflict": 1
+      },
+      "recommended": {
+        "total": 41,
+        "verified": 39,
+        "conflict": 0
+      },
+      "discovery": {
+        "total": 27,
+        "verified": 19,
+        "conflict": 0
+      },
+      "support": {
+        "total": 5,
+        "verified": 5,
+        "conflict": 0
+      }
+    },
+    "category_metrics": {
+      "heritage": {
+        "total": 11,
+        "verified": 11,
+        "conflict": 0
+      },
+      "shopping": {
+        "total": 10,
+        "verified": 5,
+        "conflict": 0
+      },
+      "experience": {
+        "total": 19,
+        "verified": 14,
+        "conflict": 0
+      },
+      "park": {
+        "total": 10,
+        "verified": 9,
+        "conflict": 1
+      },
+      "museum": {
+        "total": 8,
+        "verified": 8,
+        "conflict": 0
+      },
+      "nature": {
+        "total": 4,
+        "verified": 4,
+        "conflict": 0
+      },
+      "cafe": {
+        "total": 10,
+        "verified": 10,
+        "conflict": 0
+      },
+      "hotel": {
+        "total": 4,
+        "verified": 4,
+        "conflict": 0
+      },
+      "religious": {
+        "total": 10,
+        "verified": 10,
+        "conflict": 0
+      },
+      "food": {
+        "total": 11,
+        "verified": 11,
+        "conflict": 0
+      },
+      "transport": {
+        "total": 1,
+        "verified": 1,
+        "conflict": 0
+      }
+    },
+    "search_spot": {
+      "total_evaluated": 75,
+      "relevant_count": 75,
+      "partially_relevant_count": 0,
+      "irrelevant_count": 0,
+      "unverified_count": 0,
+      "relevance_pct": 100.0,
+      "queries": [
+        {
+          "query": "cafe",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_terracotta_cafe",
+              "name": "Terracotta Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_lucys_heritage_cafe",
+              "name": "Lucy's Heritage Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_ashish_cafe",
+              "name": "Ashish Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_the_coffee_cafe",
+              "name": "The Coffee Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_shiva_cafe_german_bakery",
+              "name": "Shiva cafe & German bakery",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 540.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "coffee",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_the_coffee_cafe",
+              "name": "The Coffee Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 540.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_cafe_coffee_day",
+              "name": "Cafe Coffee Day",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 480.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_karan_swedish_bakery_and_coffee_shop",
+              "name": "Karan Swedish bakery and coffee shop",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 480.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_terracotta_cafe",
+              "name": "Terracotta Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_lucys_heritage_cafe",
+              "name": "Lucy's Heritage Cafe",
+              "category": "cafe",
+              "primary_entity_type": "cafe",
+              "search_score": 370.0,
+              "raw_upstream_tag": "cafe",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "restaurant",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_shiva_restaurant",
+              "name": "Shiva Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 690.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_raw_and_vegan_restaurant",
+              "name": "Raw and Vegan Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 690.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_am_2_pm_restaurant",
+              "name": "AM 2 PM Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_phulwari_restaurant",
+              "name": "Phulwari Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_singhs_delight_restaurant",
+              "name": "Singh's Delight Restaurant",
+              "category": "food",
+              "primary_entity_type": "restaurant",
+              "search_score": 570.0,
+              "raw_upstream_tag": "restaurant",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "temple",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_chinese_temple",
+              "name": "Chinese Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 570.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_kardmeshwar_temple",
+              "name": "Kardmeshwar Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 570.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_aditaya_temple",
+              "name": "Aditaya Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_koria_temple",
+              "name": "Koria Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 570.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_new_vishwanath_temple",
+              "name": "New Vishwanath Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 540.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "mosque",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_alamgir_mosque",
+              "name": "Alamgir Mosque",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 540.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_ganj_e_shaheedan_mosque",
+              "name": "Ganj-e-Shaheedan Mosque",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 480.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_sheikh_maqbool_ahmad_salafi_fans_page",
+              "name": "Sheikh Maqbool Ahmad Salafi Fan's Page",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_nepali_mandir",
+              "name": "Nepali Mandir",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 340.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_new_vishwanath_temple",
+              "name": "New Vishwanath Temple",
+              "category": "religious",
+              "primary_entity_type": "religious_site",
+              "search_score": 340.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "museum",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_sarnath_museum",
+              "name": "Sarnath Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 570.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_handicraft_museum",
+              "name": "Handicraft museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 570.0,
+              "raw_upstream_tag": "museum",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_japanese_art_museum",
+              "name": "Japanese Art Museum",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_kiran_center",
+              "name": "Kiran Center",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 370.0,
+              "raw_upstream_tag": "museum",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_kriti_gallery",
+              "name": "Kriti Gallery",
+              "category": "museum",
+              "primary_entity_type": "museum",
+              "search_score": 370.0,
+              "raw_upstream_tag": "museum",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "fort",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_ramnagar_fort",
+              "name": "Ramnagar Fort",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 450.0,
+              "raw_upstream_tag": "museum",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_chet_singh_ghat",
+              "name": "Chet Singh Ghat",
+              "category": "heritage",
+              "primary_entity_type": "monument",
+              "search_score": 240.0,
+              "raw_upstream_tag": "attraction",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_varanasi",
+              "name": "Varanasi",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 180.0,
+              "raw_upstream_tag": "hotel",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_banaras_hindu_university",
+              "name": "Banaras Hindu University",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 180.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_chaukhandi_stupa",
+              "name": "Chaukhandi Stupa",
+              "category": "heritage",
+              "primary_entity_type": "monument",
+              "search_score": 180.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "palace",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_stainless_steel_palace",
+              "name": "Stainless Steel Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_arman_handicraft_gift_and_toys_palace",
+              "name": "Arman Handicraft Gift and Toys Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_spot_on_46701_siddharth_palace",
+              "name": "SPOT ON 46701 Siddharth Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_brijrama_palace_varanasi",
+              "name": "BrijRama Palace Varanasi",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 420.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_shree_ganesha_palace",
+              "name": "Shree Ganesha Palace",
+              "category": "heritage",
+              "primary_entity_type": "palace",
+              "search_score": 390.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "heritage",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_varanasi",
+              "name": "Varanasi",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": "hotel",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_banaras_hindu_university",
+              "name": "Banaras Hindu University",
+              "category": "heritage",
+              "primary_entity_type": "historic_site",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_chaukhandi_stupa",
+              "name": "Chaukhandi Stupa",
+              "category": "heritage",
+              "primary_entity_type": "monument",
+              "search_score": 370.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_dhamek_stupa",
+              "name": "Dhamek Stupa",
+              "category": "heritage",
+              "primary_entity_type": "monument",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_ramnagar_fort",
+              "name": "Ramnagar Fort",
+              "category": "heritage",
+              "primary_entity_type": "fort",
+              "search_score": 370.0,
+              "raw_upstream_tag": "museum",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "park",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_sarnath_deer_park",
+              "name": "Sarnath Deer Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_backpackers_park",
+              "name": "Backpackers Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_park",
+              "name": "Park",
+              "category": "park",
+              "primary_entity_type": "park",
+              "search_score": 500.0,
+              "raw_upstream_tag": "park",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_colony_park",
+              "name": "Colony Park",
+              "category": "park",
+              "primary_entity_type": "park",
+              "search_score": 500.0,
+              "raw_upstream_tag": "park",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_sri_nagar_park",
+              "name": "Sri Nagar Park",
+              "category": "park",
+              "primary_entity_type": "park",
+              "search_score": 450.0,
+              "raw_upstream_tag": "park",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "garden",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_block_c_garden",
+              "name": "Block C Garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 570.0,
+              "raw_upstream_tag": "garden",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_private_garden",
+              "name": "private garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": "garden",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_prince_garden",
+              "name": "Prince garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_sarnath_deer_park",
+              "name": "Sarnath Deer Park",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_madhuban_garden",
+              "name": "Madhuban Garden",
+              "category": "park",
+              "primary_entity_type": "garden",
+              "search_score": 390.0,
+              "raw_upstream_tag": "park",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "lake",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_dashashwamedh_ghat",
+              "name": "Dashashwamedh Ghat",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_scindia_ghat",
+              "name": "Scindia Ghat",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": "attraction",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_lalita_ghat",
+              "name": "Lalita Ghat",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": "attraction",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_manikarnika_ghat",
+              "name": "Manikarnika Ghat",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": "attraction",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_assi_ghat",
+              "name": "Assi Ghat",
+              "category": "nature",
+              "primary_entity_type": "lake",
+              "search_score": 370.0,
+              "raw_upstream_tag": "place_of_worship",
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "market",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_vegitable_market",
+              "name": "Vegitable Market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 510.0,
+              "raw_upstream_tag": "marketplace",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_omar_market",
+              "name": "Omar Market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 510.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_sustainable_flea_market_by_scrapshala",
+              "name": "Sustainable flea market by Scrapshala",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 480.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_gowdalia_chowk",
+              "name": "Gowdalia Chowk",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_continental_tyres_tyre_emporium",
+              "name": "Continental Tyres - Tyre Emporium",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "shopping",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_gowdalia_chowk",
+              "name": "Gowdalia Chowk",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_naqi_textiles",
+              "name": "Naqi textiles",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_vegitable_market",
+              "name": "Vegitable Market",
+              "category": "shopping",
+              "primary_entity_type": "market",
+              "search_score": 370.0,
+              "raw_upstream_tag": "marketplace",
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_adidas_store",
+              "name": "adidas Store",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 375.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_vaibhav_laxmi_hardware_and_tools",
+              "name": "Vaibhav Laxmi Hardware and Tools",
+              "category": "shopping",
+              "primary_entity_type": "shop",
+              "search_score": 370.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        },
+        {
+          "query": "railway station",
+          "results_count": 5,
+          "results": [
+            {
+              "place_id": "yc_in_up_varanasi_varanasi_junction",
+              "name": "Varanasi Junction",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 460.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_pandit_deen_dayal_upadhyaya_junction",
+              "name": "Pandit Deen Dayal Upadhyaya Junction",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 400.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_varanasi_airport_cab",
+              "name": "Varanasi Airport Cab",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 400.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_kgissc",
+              "name": "KGIssc",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 400.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            },
+            {
+              "place_id": "yc_in_up_varanasi_varanasi_tour_and_travel_varanasi_tour_package_best_travel_agency_in_varanasi_taxi_service_in_varanasi_airport_cab",
+              "name": "Varanasi Tour and Travel - Varanasi Tour Package | Best Travel Agency in Varanasi | Taxi service in Varanasi | Airport Cab",
+              "category": "transport",
+              "primary_entity_type": "railway_station",
+              "search_score": 400.0,
+              "raw_upstream_tag": null,
+              "relevance": "relevant"
+            }
+          ]
+        }
+      ]
+    },
+    "discovery_spot": {
+      "eligible_total": 96,
+      "sampled_count": 20,
+      "genuine_poi_count": 20,
+      "leaked_generic_count": 0,
+      "relevance_pct": 100.0,
+      "candidates": [
+        {
+          "place_id": "yc_in_up_varanasi_apna_banaras",
+          "name": "Apna Banaras",
+          "category": "heritage",
+          "primary_entity_type": "monument",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_lassi",
+          "name": "Lassi",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_gowdalia_chowk",
+          "name": "Gowdalia Chowk",
+          "category": "shopping",
+          "primary_entity_type": "market",
+          "tier": "recommended",
+          "travel_relevance_score": 0.35,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_ashapur",
+          "name": "Ashapur",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_ratnakar_park",
+          "name": "Ratnakar Park",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_ka_art_gallery",
+          "name": "KA art gallery",
+          "category": "arts_culture",
+          "primary_entity_type": "arts_venue",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_boto_gard",
+          "name": "BOTO GARD",
+          "category": "park",
+          "primary_entity_type": "garden",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_the_cambodian_buddhist_monastery",
+          "name": "The Cambodian Buddhist Monastery",
+          "category": "religious",
+          "primary_entity_type": "religious_site",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_shiva_cafe_german_bakery",
+          "name": "Shiva cafe & German bakery",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_akash_ganga_complex",
+          "name": "Akash Ganga Complex",
+          "category": "heritage",
+          "primary_entity_type": "monument",
+          "tier": "discovery",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_vishwanath_misthan_bhandar",
+          "name": "Vishwanath Misthan Bhandar",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "discovery",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_shree_shiv_mahavir_mandir",
+          "name": "Shree Shiv Mahavir Mandir",
+          "category": "religious",
+          "primary_entity_type": "religious_site",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_jcb_raj_sons_auto_pvt_ltd",
+          "name": "JCB - Raj Sons Auto Pvt Ltd",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_shaheed_udhyan_park",
+          "name": "Shaheed Udhyan Park",
+          "category": "park",
+          "primary_entity_type": "park",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_blue_lassi_shop",
+          "name": "Blue Lassi Shop",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "discovery",
+          "travel_relevance_score": 0.2,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_canteeen_1",
+          "name": "canteeen 1",
+          "category": "cafe",
+          "primary_entity_type": "cafe",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_gmcha_a_block_garden",
+          "name": "GMCHA A BLOCK GARDEN",
+          "category": "park",
+          "primary_entity_type": "garden",
+          "tier": "recommended",
+          "travel_relevance_score": 0.1,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_dr_lal_pathlabs_patient_service_radiology_centre",
+          "name": "Dr Lal Pathlabs - Patient Service & Radiology Centre",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_sarnath_temple_varanasi",
+          "name": "Sarnath Temple, Varanasi",
+          "category": "religious",
+          "primary_entity_type": "religious_site",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        },
+        {
+          "place_id": "yc_in_up_varanasi_raju_thandai_ghar",
+          "name": "Raju Thandai Ghar",
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "tier": "recommended",
+          "travel_relevance_score": 0.15,
+          "judgment": "relevant",
+          "leak_reason": null
+        }
+      ]
+    },
+    "verdict": "READY_WITH_MINOR_WARNINGS",
+    "sample_path": "reports/final_verification/varanasi/sample.json",
+    "results_path": "reports/final_verification/varanasi/results.json"
+  }
+}

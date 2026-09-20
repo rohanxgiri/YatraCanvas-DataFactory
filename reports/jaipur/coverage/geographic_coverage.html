@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geographic Coverage & Spatial Density — Jaipur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-blue: #38bdf8;
+            --accent-green: #34d399;
+            --accent-amber: #fbbf24;
+            --accent-red: #f87171;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            padding: 32px 24px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header { margin-bottom: 32px; border-bottom: 1px solid var(--border-color); padding-bottom: 20px; }
+        h1 { font-size: 28px; font-weight: 700; color: var(--text-primary); }
+        .subtitle { color: var(--text-secondary); margin-top: 4px; font-size: 14px; }
+        .grid-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            backdrop-filter: blur(8px);
+        }
+        .stat-label { font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; }
+        .stat-val { font-size: 28px; font-weight: 700; margin-top: 6px; color: var(--text-primary); }
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            backdrop-filter: blur(8px);
+            margin-bottom: 32px;
+        }
+        .card-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; color: var(--accent-blue); }
+        .spatial-grid {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 6px;
+            max-width: 600px;
+            margin: 20px auto;
+            aspect-ratio: 1;
+        }
+        .grid-cell {
+            border: 1px solid;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.15s ease;
+        }
+        .grid-cell:hover { transform: scale(1.08); z-index: 10; }
+        .cell-count { font-size: 12px; font-weight: 600; color: var(--text-primary); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; }
+        th { padding: 12px 14px; border-bottom: 2px solid var(--border-color); color: var(--text-secondary); font-weight: 600; font-size: 12px; text-transform: uppercase; }
+        td { padding: 12px 14px; border-bottom: 1px solid var(--border-color); }
+        tr:hover { background: rgba(255, 255, 255, 0.02); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Geographic Coverage & Spatial Distribution: Jaipur</h1>
+            <p class="subtitle">Auditing spatial distribution across an 8x8 bounding box grid to detect spatial clustering, coverage gaps, and peripheral POIs.</p>
+        </header>
+
+        <div class="grid-stats">
+            <div class="stat-card">
+                <div class="stat-label">Grid Dimensions</div>
+                <div class="stat-val">8x8 (64 cells)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Occupied Cells</div>
+                <div class="stat-val" style="color: var(--accent-green);">59 / 64</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Max Cell POIs</div>
+                <div class="stat-val" style="color: var(--accent-blue);">1,699</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Top 10% Concentration</div>
+                <div class="stat-val" style="color: var(--accent-green);">64.7%</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Spatial Density Grid Map (8x8) — North at Top</div>
+            <div class="spatial-grid">
+                
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (7,0): 1 POIs | discovery:1">
+                <span class="cell-count">1</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (7,1): 1 POIs | discovery:1">
+                <span class="cell-count">1</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(255, 255, 255, 0.02); border-color: rgba(255, 255, 255, 0.04);" title="Cell (7,2): 0 POIs | ">
+                <span class="cell-count">0</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (7,3): 11 POIs | discovery:7, support:4">
+                <span class="cell-count">11</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (7,4): 2 POIs | discovery:1, support:1">
+                <span class="cell-count">2</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (7,5): 1 POIs | discovery:1">
+                <span class="cell-count">1</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (7,6): 12 POIs | support:9, recommended:3">
+                <span class="cell-count">12</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (7,7): 6 POIs | discovery:1, recommended:2, support:3">
+                <span class="cell-count">6</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(255, 255, 255, 0.02); border-color: rgba(255, 255, 255, 0.04);" title="Cell (6,0): 0 POIs | ">
+                <span class="cell-count">0</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (6,1): 1 POIs | support:1">
+                <span class="cell-count">1</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (6,2): 2 POIs | discovery:2">
+                <span class="cell-count">2</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (6,3): 25 POIs | recommended:4, discovery:16, support:5">
+                <span class="cell-count">25</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (6,4): 13 POIs | support:3, recommended:1, discovery:9">
+                <span class="cell-count">13</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (6,5): 3 POIs | recommended:1, discovery:2">
+                <span class="cell-count">3</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.08); border-color: rgba(56, 189, 248, 0.4);" title="Cell (6,6): 69 POIs | support:38, discovery:21, recommended:10">
+                <span class="cell-count">69</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (6,7): 2 POIs | discovery:1, support:1">
+                <span class="cell-count">2</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (5,0): 1 POIs | discovery:1">
+                <span class="cell-count">1</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (5,1): 8 POIs | discovery:7, recommended:1">
+                <span class="cell-count">8</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.07); border-color: rgba(56, 189, 248, 0.4);" title="Cell (5,2): 31 POIs | recommended:7, discovery:19, support:5">
+                <span class="cell-count">31</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.20); border-color: rgba(56, 189, 248, 0.4);" title="Cell (5,3): 305 POIs | support:32, recommended:39, discovery:234">
+                <span class="cell-count">305</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (5,4): 22 POIs | recommended:2, discovery:20">
+                <span class="cell-count">22</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.09); border-color: rgba(56, 189, 248, 0.4);" title="Cell (5,5): 80 POIs | core_destination:16, recommended:22, support:21, discovery:21">
+                <span class="cell-count">80</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.07); border-color: rgba(56, 189, 248, 0.4);" title="Cell (5,6): 48 POIs | discovery:22, core_destination:1, support:22, recommended:3">
+                <span class="cell-count">48</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (5,7): 3 POIs | discovery:2, support:1">
+                <span class="cell-count">3</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (4,0): 9 POIs | core_destination:1, discovery:7, recommended:1">
+                <span class="cell-count">9</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.07); border-color: rgba(56, 189, 248, 0.4);" title="Cell (4,1): 37 POIs | recommended:6, discovery:26, support:5">
+                <span class="cell-count">37</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.20); border-color: rgba(56, 189, 248, 0.4);" title="Cell (4,2): 309 POIs | support:59, recommended:43, discovery:207">
+                <span class="cell-count">309</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.30); border-color: rgba(56, 189, 248, 0.4);" title="Cell (4,3): 497 POIs | support:87, recommended:64, discovery:346">
+                <span class="cell-count">497</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.66); border-color: rgba(56, 189, 248, 0.4);" title="Cell (4,4): 1210 POIs | core_destination:13, recommended:212, support:333, discovery:652">
+                <span class="cell-count">1210</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.21); border-color: rgba(56, 189, 248, 0.4);" title="Cell (4,5): 311 POIs | core_destination:3, support:95, recommended:87, discovery:126">
+                <span class="cell-count">311</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (4,6): 8 POIs | recommended:1, discovery:4, support:3">
+                <span class="cell-count">8</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (4,7): 5 POIs | recommended:2, discovery:3">
+                <span class="cell-count">5</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (3,0): 2 POIs | core_destination:1, discovery:1">
+                <span class="cell-count">2</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (3,1): 21 POIs | support:6, discovery:14, recommended:1">
+                <span class="cell-count">21</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.41); border-color: rgba(56, 189, 248, 0.4);" title="Cell (3,2): 720 POIs | core_destination:2, support:111, recommended:126, discovery:481">
+                <span class="cell-count">720</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.56); border-color: rgba(56, 189, 248, 0.4);" title="Cell (3,3): 1010 POIs | core_destination:2, support:216, discovery:636, recommended:156">
+                <span class="cell-count">1010</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.90); border-color: rgba(56, 189, 248, 0.4);" title="Cell (3,4): 1699 POIs | core_destination:13, support:344, discovery:975, recommended:367">
+                <span class="cell-count">1699</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.21); border-color: rgba(56, 189, 248, 0.4);" title="Cell (3,5): 328 POIs | core_destination:7, support:48, recommended:58, discovery:215">
+                <span class="cell-count">328</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.08); border-color: rgba(56, 189, 248, 0.4);" title="Cell (3,6): 58 POIs | support:19, discovery:24, recommended:15">
+                <span class="cell-count">58</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (3,7): 8 POIs | discovery:5, support:2, recommended:1">
+                <span class="cell-count">8</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (2,0): 10 POIs | support:5, recommended:1, discovery:4">
+                <span class="cell-count">10</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.09); border-color: rgba(56, 189, 248, 0.4);" title="Cell (2,1): 71 POIs | discovery:47, recommended:6, support:18">
+                <span class="cell-count">71</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.10); border-color: rgba(56, 189, 248, 0.4);" title="Cell (2,2): 108 POIs | support:24, core_destination:1, recommended:11, discovery:72">
+                <span class="cell-count">108</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.48); border-color: rgba(56, 189, 248, 0.4);" title="Cell (2,3): 862 POIs | core_destination:12, support:118, recommended:172, discovery:560">
+                <span class="cell-count">862</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.55); border-color: rgba(56, 189, 248, 0.4);" title="Cell (2,4): 1002 POIs | core_destination:4, support:200, recommended:185, discovery:613">
+                <span class="cell-count">1002</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.08); border-color: rgba(56, 189, 248, 0.4);" title="Cell (2,5): 69 POIs | recommended:8, discovery:49, support:12">
+                <span class="cell-count">69</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (2,6): 17 POIs | support:4, recommended:6, discovery:7">
+                <span class="cell-count">17</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (2,7): 6 POIs | discovery:3, support:2, recommended:1">
+                <span class="cell-count">6</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (1,0): 2 POIs | recommended:1, discovery:1">
+                <span class="cell-count">2</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (1,1): 7 POIs | discovery:2, recommended:1, support:4">
+                <span class="cell-count">7</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (1,2): 19 POIs | support:3, discovery:16">
+                <span class="cell-count">19</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.15); border-color: rgba(56, 189, 248, 0.4);" title="Cell (1,3): 199 POIs | core_destination:3, support:28, recommended:28, discovery:140">
+                <span class="cell-count">199</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.23); border-color: rgba(56, 189, 248, 0.4);" title="Cell (1,4): 368 POIs | support:91, recommended:48, discovery:229">
+                <span class="cell-count">368</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.16); border-color: rgba(56, 189, 248, 0.4);" title="Cell (1,5): 213 POIs | discovery:124, support:45, recommended:44">
+                <span class="cell-count">213</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (1,6): 14 POIs | discovery:8, recommended:4, support:2">
+                <span class="cell-count">14</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (1,7): 1 POIs | discovery:1">
+                <span class="cell-count">1</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(255, 255, 255, 0.02); border-color: rgba(255, 255, 255, 0.04);" title="Cell (0,0): 0 POIs | ">
+                <span class="cell-count">0</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (0,1): 1 POIs | discovery:1">
+                <span class="cell-count">1</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(255, 255, 255, 0.02); border-color: rgba(255, 255, 255, 0.04);" title="Cell (0,2): 0 POIs | ">
+                <span class="cell-count">0</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.4);" title="Cell (0,3): 9 POIs | support:3, discovery:6">
+                <span class="cell-count">9</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.08); border-color: rgba(56, 189, 248, 0.4);" title="Cell (0,4): 52 POIs | support:13, core_destination:1, discovery:31, recommended:7">
+                <span class="cell-count">52</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.12); border-color: rgba(56, 189, 248, 0.4);" title="Cell (0,5): 134 POIs | support:28, discovery:88, recommended:18">
+                <span class="cell-count">134</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(56, 189, 248, 0.06); border-color: rgba(56, 189, 248, 0.4);" title="Cell (0,6): 11 POIs | recommended:4, discovery:6, support:1">
+                <span class="cell-count">11</span>
+            </div>
+            
+            <div class="grid-cell" style="background-color: rgba(255, 255, 255, 0.02); border-color: rgba(255, 255, 255, 0.04);" title="Cell (0,7): 0 POIs | ">
+                <span class="cell-count">0</span>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>

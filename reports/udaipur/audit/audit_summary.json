@@ -1,0 +1,3097 @@
+{
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "version": "v3",
+  "readiness_status": "READY",
+  "category_coverage": {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "version": "v3",
+    "summary": {
+      "total_raw_candidates": 14311,
+      "total_unique_places": 7245,
+      "total_released_places": 2861,
+      "total_quarantined_places": 4384,
+      "total_rejected_places": 7066,
+      "duplicate_merges": 522,
+      "overall_retention_rate_pct": 39.5
+    },
+    "categories": {
+      "hotel": {
+        "raw_candidates": 1112,
+        "unique_after_dedup": 1110,
+        "released": 1110,
+        "quarantined": 0,
+        "rejected": 2,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "support": 1110
+        },
+        "subcategories": {
+          "hotel": {
+            "released": 1009,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "guest_house": {
+            "released": 9,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "hostel": {
+            "released": 24,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "resort": {
+            "released": 68,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "rejected": {
+            "released": 0,
+            "quarantined": 0,
+            "rejected": 2
+          }
+        }
+      },
+      "experience": {
+        "raw_candidates": 1078,
+        "unique_after_dedup": 1078,
+        "released": 1078,
+        "quarantined": 0,
+        "rejected": 0,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "discovery": 1066,
+          "recommended": 12
+        },
+        "subcategories": {
+          "general_poi": {
+            "released": 1078,
+            "quarantined": 0,
+            "rejected": 0
+          }
+        }
+      },
+      "food": {
+        "raw_candidates": 496,
+        "unique_after_dedup": 316,
+        "released": 316,
+        "quarantined": 0,
+        "rejected": 180,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "recommended": 303,
+          "discovery": 13
+        },
+        "subcategories": {
+          "restaurant": {
+            "released": 307,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "bakery": {
+            "released": 9,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "rejected": {
+            "released": 0,
+            "quarantined": 0,
+            "rejected": 180
+          }
+        }
+      },
+      "shopping": {
+        "raw_candidates": 1820,
+        "unique_after_dedup": 94,
+        "released": 94,
+        "quarantined": 0,
+        "rejected": 1726,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "recommended": 58,
+          "discovery": 36
+        },
+        "subcategories": {
+          "bazaar": {
+            "released": 18,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "shop": {
+            "released": 60,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "shopping_mall": {
+            "released": 16,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "rejected": {
+            "released": 0,
+            "quarantined": 0,
+            "rejected": 1726
+          }
+        }
+      },
+      "cafe": {
+        "raw_candidates": 69,
+        "unique_after_dedup": 69,
+        "released": 69,
+        "quarantined": 0,
+        "rejected": 0,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "recommended": 69
+        },
+        "subcategories": {
+          "coffee_shop": {
+            "released": 69,
+            "quarantined": 0,
+            "rejected": 0
+          }
+        }
+      },
+      "heritage": {
+        "raw_candidates": 68,
+        "unique_after_dedup": 68,
+        "released": 68,
+        "quarantined": 0,
+        "rejected": 0,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "core_destination": 34,
+          "discovery": 33,
+          "recommended": 1
+        },
+        "subcategories": {
+          "attraction": {
+            "released": 15,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "palace": {
+            "released": 10,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "monument": {
+            "released": 10,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "historical_monument": {
+            "released": 25,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "ruin": {
+            "released": 3,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "fort": {
+            "released": 2,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "gate": {
+            "released": 3,
+            "quarantined": 0,
+            "rejected": 0
+          }
+        }
+      },
+      "religious": {
+        "raw_candidates": 42,
+        "unique_after_dedup": 42,
+        "released": 42,
+        "quarantined": 0,
+        "rejected": 0,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "core_destination": 12,
+          "recommended": 30
+        },
+        "subcategories": {
+          "place_of_worship": {
+            "released": 16,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "hindu_temple": {
+            "released": 23,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "gurudwara": {
+            "released": 1,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "church": {
+            "released": 1,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "mosque": {
+            "released": 1,
+            "quarantined": 0,
+            "rejected": 0
+          }
+        }
+      },
+      "park": {
+        "raw_candidates": 27,
+        "unique_after_dedup": 22,
+        "released": 22,
+        "quarantined": 0,
+        "rejected": 5,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "core_destination": 5,
+          "recommended": 16,
+          "discovery": 1
+        },
+        "subcategories": {
+          "garden": {
+            "released": 12,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "urban_park": {
+            "released": 10,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "rejected": {
+            "released": 0,
+            "quarantined": 0,
+            "rejected": 5
+          }
+        }
+      },
+      "nature": {
+        "raw_candidates": 19,
+        "unique_after_dedup": 19,
+        "released": 19,
+        "quarantined": 0,
+        "rejected": 0,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "core_destination": 9,
+          "discovery": 10
+        },
+        "subcategories": {
+          "lake": {
+            "released": 19,
+            "quarantined": 0,
+            "rejected": 0
+          }
+        }
+      },
+      "arts_culture": {
+        "raw_candidates": 19,
+        "unique_after_dedup": 19,
+        "released": 19,
+        "quarantined": 0,
+        "rejected": 0,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "recommended": 19
+        },
+        "subcategories": {
+          "art_gallery": {
+            "released": 19,
+            "quarantined": 0,
+            "rejected": 0
+          }
+        }
+      },
+      "museum": {
+        "raw_candidates": 18,
+        "unique_after_dedup": 17,
+        "released": 17,
+        "quarantined": 0,
+        "rejected": 1,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "core_destination": 3,
+          "discovery": 14
+        },
+        "subcategories": {
+          "history_museum": {
+            "released": 6,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "heritage_museum": {
+            "released": 11,
+            "quarantined": 0,
+            "rejected": 0
+          },
+          "rejected": {
+            "released": 0,
+            "quarantined": 0,
+            "rejected": 1
+          }
+        }
+      },
+      "transport": {
+        "raw_candidates": 7,
+        "unique_after_dedup": 7,
+        "released": 7,
+        "quarantined": 0,
+        "rejected": 0,
+        "retention_rate_pct": 100.0,
+        "tiers": {
+          "support": 7
+        },
+        "subcategories": {
+          "station": {
+            "released": 7,
+            "quarantined": 0,
+            "rejected": 0
+          }
+        }
+      },
+      "unknown": {
+        "raw_candidates": 4390,
+        "unique_after_dedup": 4384,
+        "released": 0,
+        "quarantined": 4384,
+        "rejected": 6,
+        "retention_rate_pct": 0.0,
+        "tiers": {},
+        "subcategories": {
+          "general": {
+            "released": 0,
+            "quarantined": 4384,
+            "rejected": 0
+          },
+          "rejected": {
+            "released": 0,
+            "quarantined": 0,
+            "rejected": 6
+          }
+        }
+      },
+      "rejected_other": {
+        "raw_candidates": 5146,
+        "unique_after_dedup": 0,
+        "released": 0,
+        "quarantined": 0,
+        "rejected": 5146,
+        "retention_rate_pct": 0.0,
+        "tiers": {},
+        "subcategories": {
+          "rejected": {
+            "released": 0,
+            "quarantined": 0,
+            "rejected": 5146
+          }
+        }
+      }
+    }
+  },
+  "source_recall": {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "version": "v3",
+    "sources": {
+      "openstreetmap": {
+        "raw_candidates": 516,
+        "matched_into_canonical": 237,
+        "released": 237,
+        "merged": 0,
+        "quarantined": 0,
+        "rejected": 1,
+        "top_rejection_reasons": {
+          "blocked_name_pattern": 1
+        },
+        "top_quarantine_reasons": {}
+      },
+      "overture": {
+        "raw_candidates": 14114,
+        "matched_into_canonical": 2803,
+        "released": 2803,
+        "merged": 522,
+        "quarantined": 0,
+        "rejected": 7065,
+        "top_rejection_reasons": {
+          "blocked_category:fashion_and_apparel_store": 860,
+          "blocked_category:hardware_home_and_garden_store": 411,
+          "blocked_category:event_or_party_service": 322,
+          "blocked_category:professional_service": 289,
+          "blocked_category:bank_or_credit_union": 278
+        },
+        "top_quarantine_reasons": {}
+      },
+      "wikivoyage": {
+        "raw_candidates": 113,
+        "matched_into_canonical": 17,
+        "released": 17,
+        "merged": 0,
+        "quarantined": 0,
+        "rejected": 0,
+        "top_rejection_reasons": {},
+        "top_quarantine_reasons": {}
+      },
+      "wikidata": {
+        "raw_candidates": 90,
+        "matched_into_canonical": 80,
+        "released": 80,
+        "merged": 0,
+        "quarantined": 0,
+        "rejected": 0,
+        "top_rejection_reasons": {},
+        "top_quarantine_reasons": {}
+      },
+      "unknown": {
+        "raw_candidates": 4384,
+        "matched_into_canonical": 0,
+        "released": 0,
+        "merged": 0,
+        "quarantined": 4384,
+        "rejected": 0,
+        "top_rejection_reasons": {},
+        "top_quarantine_reasons": {
+          "low_quality_score:0.285<0.3": 2165,
+          "low_quality_score:0.248<0.3": 1005,
+          "low_quality_score:0.21<0.3": 437,
+          "duplicate_canonical_id": 314,
+          "coordinates_outside_city_boundary": 199
+        }
+      }
+    },
+    "high_value_travel_survival": {
+      "wikivoyage_see_do": {
+        "total_raw": 31,
+        "released": 11,
+        "survival_pct": 35.5
+      },
+      "wikidata_attractions": {
+        "total_raw": 90,
+        "released": 79,
+        "survival_pct": 87.8
+      },
+      "osm_tourism_historic": {
+        "total_raw": 314,
+        "released": 237,
+        "survival_pct": 75.5
+      }
+    }
+  },
+  "high_value_missing": {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "version": "v3",
+    "summary": {
+      "wikivoyage_total_see_do": 31,
+      "wikivoyage_missing_count": 20,
+      "wikidata_total_attractions": 90,
+      "wikidata_missing_count": 2,
+      "by_outcome": {
+        "coordinate_problem": 20,
+        "pipeline_bug": 2
+      }
+    },
+    "missing_wikivoyage_listings": [
+      {
+        "name": "Amar Vilas",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_amar_vilas",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Badi Mahal",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_badi_mahal",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Durbar Hall",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_durbar_hall",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Fatehprakash Palace",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_fatehprakash_palace",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Krishna Vilas",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_krishna_vilas",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Manak Mahal",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_manak_mahal",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Mor Chowk",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_mor_chowk",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Rang Bhawan",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_rang_bhawan",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Sheesh Mahal",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_sheesh_mahal",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Zenana Mahal",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_zenana_mahal",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Nehru Garden",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_nehru_garden",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Aapni Dhani",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_aapni_dhani",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Dharohar Dance Show @ Bagore-ki-Haveli",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_dharohar_dance_show_bagore_ki_haveli",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Puppet Show @ Bharatiya Lok Kala Mandal",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_puppet_show_bharatiya_lok_kala_mandal",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Shilpgram",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_shilpgram",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Art of Bicycle Trips",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_art_of_bicycle_trips",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Udaipur Ropeway",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_udaipur_ropeway",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Bindaas",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_bindaas",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Princess Trails",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_princess_trails",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      },
+      {
+        "name": "Animal Aid Unlimited",
+        "source": "wikivoyage",
+        "source_id": "wv_udaipur_animal_aid_unlimited",
+        "wikidata_id": null,
+        "coordinates": [
+          null,
+          null
+        ],
+        "outcome": "coordinate_problem",
+        "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+      }
+    ],
+    "missing_wikidata_attractions": [
+      {
+        "name": "Udaipur City railway station",
+        "source": "wikidata",
+        "source_id": "Q12416268",
+        "wikidata_id": "Q12416268",
+        "description": "railway station in udaipur, rajasthan, india",
+        "coordinates": [
+          24.566862,
+          73.699632
+        ],
+        "outcome": "pipeline_bug",
+        "details": "Quarantined: ['semantic_conflict:transport_classified_as_heritage'] (Entity desc: 'railway station in udaipur, rajasthan, india')"
+      },
+      {
+        "name": "Rana Pratap Nagar Railway Station",
+        "source": "wikidata",
+        "source_id": "Q24946736",
+        "wikidata_id": "Q24946736",
+        "description": "railway station in rajasthan, india",
+        "coordinates": [
+          24.582417,
+          73.728056
+        ],
+        "outcome": "pipeline_bug",
+        "details": "Quarantined: ['semantic_conflict:transport_classified_as_heritage'] (Entity desc: 'railway station in rajasthan, india')"
+      }
+    ]
+  },
+  "search_benchmark": {
+    "city": "Udaipur",
+    "version": "v3",
+    "summary": {
+      "total_benchmark_queries": 18,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "average_category_precision_pct": 100.0,
+      "category_search_precision_pct": 100.0,
+      "name_search_precision_pct": 100.0,
+      "exact_place_tests_count": 10,
+      "exact_place_resolution_rate_pct": 100.0,
+      "total_quarantined_leakage": 0,
+      "total_duplicate_leakage": 0,
+      "search_status": "READY"
+    },
+    "query_benchmarks": [
+      {
+        "query": "cafe",
+        "expected_categories": [
+          "cafe"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "recommended": 10
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "109 Cafe",
+            "category": "cafe",
+            "tier": "recommended",
+            "rank": 704.0,
+            "score": 690.0
+          },
+          {
+            "name": "Cool cafe",
+            "category": "cafe",
+            "tier": "recommended",
+            "rank": 582.75,
+            "score": 570.0
+          },
+          {
+            "name": "Backyard Cafe",
+            "category": "cafe",
+            "tier": "recommended",
+            "rank": 582.75,
+            "score": 570.0
+          }
+        ]
+      },
+      {
+        "query": "coffee",
+        "expected_categories": [
+          "cafe"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "recommended": 10
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Jheel's Ginger Coffee Bar & Bakery",
+            "category": "cafe",
+            "tier": "recommended",
+            "rank": 552.75,
+            "score": 540.0
+          },
+          {
+            "name": "Nothing Before Coffee",
+            "category": "cafe",
+            "tier": "recommended",
+            "rank": 522.75,
+            "score": 510.0
+          },
+          {
+            "name": "Coffee House - HariGarh",
+            "category": "cafe",
+            "tier": "recommended",
+            "rank": 520.25,
+            "score": 510.0
+          }
+        ]
+      },
+      {
+        "query": "restaurant",
+        "expected_categories": [
+          "food"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "recommended": 10
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Jhumar Lake-View Restaurant",
+            "category": "food",
+            "tier": "recommended",
+            "rank": 584.0,
+            "score": 570.0
+          },
+          {
+            "name": "Nagar Restaurant",
+            "category": "food",
+            "tier": "recommended",
+            "rank": 584.0,
+            "score": 570.0
+          },
+          {
+            "name": "Udaipur Traditional restaurant",
+            "category": "food",
+            "tier": "recommended",
+            "rank": 582.75,
+            "score": 570.0
+          }
+        ]
+      },
+      {
+        "query": "food",
+        "expected_categories": [
+          "food",
+          "cafe"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "recommended": 10
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Shiv Sagar Fast Food and Cafe",
+            "category": "food",
+            "tier": "recommended",
+            "rank": 551.5,
+            "score": 540.0
+          },
+          {
+            "name": "Pandit Pav Bhaji and Fast Food",
+            "category": "food",
+            "tier": "recommended",
+            "rank": 520.25,
+            "score": 510.0
+          },
+          {
+            "name": "Vaidehi Food Plaza",
+            "category": "food",
+            "tier": "recommended",
+            "rank": 495.25,
+            "score": 485.0
+          }
+        ]
+      },
+      {
+        "query": "temple",
+        "expected_categories": [
+          "religious"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "core_destination": 5,
+          "recommended": 5
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Ambamata Temple",
+            "category": "religious",
+            "tier": "core_destination",
+            "rank": 576.75,
+            "score": 545.0
+          },
+          {
+            "name": "Pala Ganesh Temple",
+            "category": "religious",
+            "tier": "core_destination",
+            "rank": 576.25,
+            "score": 540.0
+          },
+          {
+            "name": "Temple Shree Sardar Swarup Shyam Ji",
+            "category": "religious",
+            "tier": "recommended",
+            "rank": 551.5,
+            "score": 540.0
+          }
+        ]
+      },
+      {
+        "query": "mosque",
+        "expected_categories": [
+          "religious"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "recommended": 1,
+          "core_destination": 9
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "masjid mahawat wadi",
+            "category": "religious",
+            "tier": "recommended",
+            "rank": 381.5,
+            "score": 370.0
+          },
+          {
+            "name": "Jagdish Temple, Udaipur",
+            "category": "religious",
+            "tier": "core_destination",
+            "rank": 380.0,
+            "score": 340.0
+          },
+          {
+            "name": "Roman Catholic Diocese of Udaipur",
+            "category": "religious",
+            "tier": "core_destination",
+            "rank": 377.5,
+            "score": 340.0
+          }
+        ]
+      },
+      {
+        "query": "museum",
+        "expected_categories": [
+          "museum"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "core_destination": 3,
+          "discovery": 7
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Ahar Museum",
+            "category": "museum",
+            "tier": "core_destination",
+            "rank": 597.25,
+            "score": 570.0
+          },
+          {
+            "name": "Vintage and Classic Car Museum",
+            "category": "museum",
+            "tier": "core_destination",
+            "rank": 550.0,
+            "score": 510.0
+          },
+          {
+            "name": "Pratap Gaurav Kendra Rashtriya Tirth",
+            "category": "museum",
+            "tier": "core_destination",
+            "rank": 399.75,
+            "score": 370.0
+          }
+        ]
+      },
+      {
+        "query": "fort",
+        "expected_categories": [
+          "heritage"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "core_destination": 9,
+          "discovery": 1
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Jagmandir Palace",
+            "category": "heritage",
+            "tier": "core_destination",
+            "rank": 398.5,
+            "score": 370.0
+          },
+          {
+            "name": "Fateh Garh, Udaipur",
+            "category": "heritage",
+            "tier": "discovery",
+            "rank": 375.75,
+            "score": 370.0
+          },
+          {
+            "name": "Sajjangarh",
+            "category": "heritage",
+            "tier": "core_destination",
+            "rank": 345.0,
+            "score": 310.0
+          }
+        ]
+      },
+      {
+        "query": "palace",
+        "expected_categories": [
+          "heritage"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "core_destination": 6,
+          "discovery": 3,
+          "recommended": 1
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Lake Palace",
+            "category": "heritage",
+            "tier": "core_destination",
+            "rank": 610.0,
+            "score": 570.0
+          },
+          {
+            "name": "Fairmont Udaipur Palace",
+            "category": "heritage",
+            "tier": "discovery",
+            "rank": 515.75,
+            "score": 510.0
+          },
+          {
+            "name": "SPOT ON 36507 Laxmi Palace",
+            "category": "heritage",
+            "tier": "discovery",
+            "rank": 515.75,
+            "score": 510.0
+          }
+        ]
+      },
+      {
+        "query": "heritage",
+        "expected_categories": [
+          "heritage",
+          "museum"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "core_destination": 10
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "City Palace, Udaipur",
+            "category": "heritage",
+            "tier": "core_destination",
+            "rank": 470.0,
+            "score": 430.0
+          },
+          {
+            "name": "Bagore-ki-Haveli",
+            "category": "heritage",
+            "tier": "core_destination",
+            "rank": 470.0,
+            "score": 430.0
+          },
+          {
+            "name": "Udaipur",
+            "category": "heritage",
+            "tier": "core_destination",
+            "rank": 410.0,
+            "score": 370.0
+          }
+        ]
+      },
+      {
+        "query": "park",
+        "expected_categories": [
+          "park"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "core_destination": 4,
+          "recommended": 6
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Sajjangarh Biological Park",
+            "category": "park",
+            "tier": "core_destination",
+            "rank": 608.75,
+            "score": 570.0
+          },
+          {
+            "name": "Pratap Park",
+            "category": "park",
+            "tier": "core_destination",
+            "rank": 548.75,
+            "score": 510.0
+          },
+          {
+            "name": "Agasthyavanam Biological Park",
+            "category": "park",
+            "tier": "core_destination",
+            "rank": 546.25,
+            "score": 510.0
+          }
+        ]
+      },
+      {
+        "query": "garden",
+        "expected_categories": [
+          "park"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "core_destination": 5,
+          "recommended": 5
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Rajiv Gandhi Garden",
+            "category": "park",
+            "tier": "core_destination",
+            "rank": 548.75,
+            "score": 510.0
+          },
+          {
+            "name": "Ambrai Villa - 4 bhk Swimming Pool, Garden",
+            "category": "park",
+            "tier": "recommended",
+            "rank": 520.25,
+            "score": 510.0
+          },
+          {
+            "name": "Hill Garden Retreat",
+            "category": "park",
+            "tier": "recommended",
+            "rank": 490.25,
+            "score": 480.0
+          }
+        ]
+      },
+      {
+        "query": "lake",
+        "expected_categories": [
+          "nature"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "core_destination": 7,
+          "discovery": 3
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Lake Pichola",
+            "category": "nature",
+            "tier": "core_destination",
+            "rank": 607.5,
+            "score": 570.0
+          },
+          {
+            "name": "Fateh Sagar Lake",
+            "category": "nature",
+            "tier": "core_destination",
+            "rank": 550.0,
+            "score": 510.0
+          },
+          {
+            "name": "Doodh Talai Lake",
+            "category": "nature",
+            "tier": "core_destination",
+            "rank": 545.5,
+            "score": 510.0
+          }
+        ]
+      },
+      {
+        "query": "market",
+        "expected_categories": [
+          "shopping"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "recommended": 10
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Spice market",
+            "category": "shopping",
+            "tier": "recommended",
+            "rank": 520.25,
+            "score": 510.0
+          },
+          {
+            "name": "Hashil Market",
+            "category": "shopping",
+            "tier": "recommended",
+            "rank": 400.25,
+            "score": 390.0
+          },
+          {
+            "name": "Shree JI Handicrafts",
+            "category": "shopping",
+            "tier": "recommended",
+            "rank": 381.5,
+            "score": 370.0
+          }
+        ]
+      },
+      {
+        "query": "shopping",
+        "expected_categories": [
+          "shopping"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "recommended": 10
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Shree JI Handicrafts",
+            "category": "shopping",
+            "tier": "recommended",
+            "rank": 381.5,
+            "score": 370.0
+          },
+          {
+            "name": "Leena Jewellers",
+            "category": "shopping",
+            "tier": "recommended",
+            "rank": 381.5,
+            "score": 370.0
+          },
+          {
+            "name": "Spice market",
+            "category": "shopping",
+            "tier": "recommended",
+            "rank": 380.25,
+            "score": 370.0
+          }
+        ]
+      },
+      {
+        "query": "art",
+        "expected_categories": [
+          "arts_culture",
+          "museum"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "recommended": 10
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Locky Art School and Gallery",
+            "category": "arts_culture",
+            "tier": "recommended",
+            "rank": 551.5,
+            "score": 540.0
+          },
+          {
+            "name": "Art Stone Gallery",
+            "category": "arts_culture",
+            "tier": "recommended",
+            "rank": 525.25,
+            "score": 515.0
+          },
+          {
+            "name": "Pacific Art",
+            "category": "arts_culture",
+            "tier": "recommended",
+            "rank": 520.25,
+            "score": 510.0
+          }
+        ]
+      },
+      {
+        "query": "railway station",
+        "expected_categories": [
+          "transport"
+        ],
+        "result_count": 7,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 7,
+        "tiers_represented": {
+          "support": 7
+        },
+        "unique_places": 7,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "SG Boutique Stay (Near Railway Station)",
+            "category": "transport",
+            "tier": "support",
+            "rank": 588.75,
+            "score": 580.0
+          },
+          {
+            "name": "Udaipur Private Taxi Service | Taxi Service | Udaipur Airport Taxi | Sightseeing Taxi Udaipur",
+            "category": "transport",
+            "tier": "support",
+            "rank": 408.75,
+            "score": 400.0
+          },
+          {
+            "name": "Udaipur Private Day Tours - Taxi/Cab Service in Udaipur | Udaipur Sightseeing Taxi | Udaipur Airport Taxi",
+            "category": "transport",
+            "tier": "support",
+            "rank": 408.75,
+            "score": 400.0
+          }
+        ]
+      },
+      {
+        "query": "hotel",
+        "expected_categories": [
+          "hotel"
+        ],
+        "result_count": 10,
+        "category_precision_pct": 100.0,
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "matching_top_results": 10,
+        "tiers_represented": {
+          "support": 10
+        },
+        "unique_places": 10,
+        "duplicate_results": 0,
+        "quarantined_leakage": 0,
+        "sample_results": [
+          {
+            "name": "Hotel Laxmi Palace",
+            "category": "hotel",
+            "tier": "support",
+            "rank": 631.25,
+            "score": 620.0
+          },
+          {
+            "name": "Hotel Lakend",
+            "category": "hotel",
+            "tier": "support",
+            "rank": 589.0,
+            "score": 570.0
+          },
+          {
+            "name": "Hotel Lake Star",
+            "category": "hotel",
+            "tier": "support",
+            "rank": 587.75,
+            "score": 570.0
+          }
+        ]
+      }
+    ],
+    "exact_place_tests": [
+      {
+        "place_id": "yc_in_rj_udaipur_udaipur",
+        "name": "Udaipur",
+        "alt_name": "Zostel Udaipur",
+        "name_hi": "उदयपुर",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      },
+      {
+        "place_id": "yc_in_rj_udaipur_lake_palace",
+        "name": "Lake Palace",
+        "alt_name": "Taj Lake Palace",
+        "name_hi": "लेक पैलेस",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      },
+      {
+        "place_id": "yc_in_rj_udaipur_bharatiya_lok_kala_mandal",
+        "name": "Bharatiya Lok Kala Mandal",
+        "alt_name": "Bharatiya Lok Kala Museum",
+        "name_hi": "भारतीय लोक कला मंडल",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      },
+      {
+        "place_id": "yc_in_rj_udaipur_lake_pichola",
+        "name": "Lake Pichola",
+        "alt_name": "Pichola Lake",
+        "name_hi": "पिछोला झील",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      },
+      {
+        "place_id": "yc_in_rj_udaipur_jag_mandir",
+        "name": "Jag Mandir",
+        "alt_name": "Jag Mandir Palace Hotel",
+        "name_hi": "जग मंदिर",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      },
+      {
+        "place_id": "yc_in_rj_udaipur_bagore_ki_haveli",
+        "name": "Bagore-ki-Haveli",
+        "alt_name": "Bagore Ki Haveli",
+        "name_hi": "बागोर की हवेली",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      },
+      {
+        "place_id": "yc_in_rj_udaipur_gulab_bagh_and_zoo",
+        "name": "Gulab Bagh and Zoo",
+        "alt_name": "Udairpur Zoo",
+        "name_hi": "गुलाब बगीचा और चिड़ियाघर",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      },
+      {
+        "place_id": "yc_in_rj_udaipur_pala_ganesh_temple",
+        "name": "Pala Ganesh Temple",
+        "alt_name": "Pala Ganesh Ji Temple",
+        "name_hi": "पाल गणेश मंदिर्",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      },
+      {
+        "place_id": "yc_in_rj_udaipur_doodh_talai_lake",
+        "name": "Doodh Talai Lake",
+        "alt_name": "Doodh Talai",
+        "name_hi": "दूध तलाई झील",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      },
+      {
+        "place_id": "yc_in_rj_udaipur_ambamata_temple",
+        "name": "Ambamata Temple",
+        "alt_name": "Ambamata temple (Amba Mata)",
+        "name_hi": "अंबामाता मांदिर",
+        "resolved_by_name": true,
+        "resolved_by_alt": true,
+        "resolved_by_hi": true,
+        "all_resolved_to_same_entity": true
+      }
+    ],
+    "discovery_candidates_sample": [
+      {
+        "name": "Barkat Colony Park",
+        "category": "park",
+        "primary_entity_type": "park",
+        "discovery_score": 0.371,
+        "quality_overall": 0.477,
+        "travel_relevance_score": 0.1,
+        "address": "Sector 12, Barkat Colony, Hiran Magri"
+      },
+      {
+        "name": "Udai Apartment",
+        "category": "heritage",
+        "primary_entity_type": "monument",
+        "discovery_score": 0.368,
+        "quality_overall": 0.47,
+        "travel_relevance_score": 0.1,
+        "address": "100 Feet Rd"
+      },
+      {
+        "name": "A.L store Udaipur",
+        "category": "shopping",
+        "primary_entity_type": "shop",
+        "discovery_score": 0.0,
+        "quality_overall": 0.57,
+        "travel_relevance_score": 0.15,
+        "address": "10-A, New fatehpura Opposite Saheliyo ki Badi,Saheli Marg. Udaipur"
+      },
+      {
+        "name": "Ratna Stationery Store",
+        "category": "shopping",
+        "primary_entity_type": "shop",
+        "discovery_score": 0.0,
+        "quality_overall": 0.508,
+        "travel_relevance_score": 0.1,
+        "address": "97, Dhanmandi Rd"
+      },
+      {
+        "name": "StayVista at Prakriti Farms | Premium Villa with Private Pool",
+        "category": "experience",
+        "primary_entity_type": "experience",
+        "discovery_score": 0.0,
+        "quality_overall": 0.423,
+        "travel_relevance_score": 0.05,
+        "address": "Farm No 1C, Prakriti Farm, Village Sisarma"
+      },
+      {
+        "name": "Fairmont Udaipur Palace",
+        "category": "heritage",
+        "primary_entity_type": "palace",
+        "discovery_score": 0.0,
+        "quality_overall": 0.423,
+        "travel_relevance_score": 0.05,
+        "address": "Next to HP Gas Godown, Seesarma"
+      },
+      {
+        "name": "Castle Oodeypore A Boutique stay Udaipur",
+        "category": "experience",
+        "primary_entity_type": "experience",
+        "discovery_score": 0.0,
+        "quality_overall": 0.423,
+        "travel_relevance_score": 0.05,
+        "address": "Castle oodeypore | House No 1 Bujra"
+      },
+      {
+        "name": "IndianOil",
+        "category": "experience",
+        "primary_entity_type": "experience",
+        "discovery_score": 0.0,
+        "quality_overall": 0.423,
+        "travel_relevance_score": 0.05,
+        "address": "Jhadol Road Sisarma,Nh58"
+      },
+      {
+        "name": "Shree Utsav Icecream",
+        "category": "experience",
+        "primary_entity_type": "experience",
+        "discovery_score": 0.0,
+        "quality_overall": 0.423,
+        "travel_relevance_score": 0.05,
+        "address": "14, Near Vijay Petrol Pump , Opposite Town Hall "
+      },
+      {
+        "name": "qalaaudaipur",
+        "category": "experience",
+        "primary_entity_type": "experience",
+        "discovery_score": 0.0,
+        "quality_overall": 0.423,
+        "travel_relevance_score": 0.05,
+        "address": "Brahampol gate, brahampol haveli"
+      }
+    ]
+  },
+  "geographic_coverage": {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "version": "v3",
+    "grid_dimensions": "8x8 (64 cells)",
+    "bounding_box": {
+      "min_lon": 73.63346,
+      "min_lat": 24.50584,
+      "max_lon": 73.79346,
+      "max_lat": 24.66584
+    },
+    "summary": {
+      "total_released_places": 2861,
+      "places_within_grid": 2820,
+      "places_outside_grid": 41,
+      "total_grid_cells": 64,
+      "non_empty_cells": 57,
+      "empty_cells": 7,
+      "max_cell_density": 403,
+      "top_10_pct_cells_concentration_pct": 56.9,
+      "suspicious_concentration_detected": false,
+      "coverage_warning": null
+    },
+    "cells": {
+      "cell_0_0": {
+        "row": 0,
+        "col": 0,
+        "bounds": {
+          "min_lat": 24.5058,
+          "max_lat": 24.5258,
+          "min_lon": 73.6335,
+          "max_lon": 73.6535
+        },
+        "total_pois": 2,
+        "tiers": {
+          "support": 2
+        },
+        "top_categories": {
+          "hotel": 2
+        }
+      },
+      "cell_0_1": {
+        "row": 0,
+        "col": 1,
+        "bounds": {
+          "min_lat": 24.5058,
+          "max_lat": 24.5258,
+          "min_lon": 73.6535,
+          "max_lon": 73.6735
+        },
+        "total_pois": 11,
+        "tiers": {
+          "discovery": 6,
+          "support": 5
+        },
+        "top_categories": {
+          "experience": 6,
+          "hotel": 5
+        }
+      },
+      "cell_0_2": {
+        "row": 0,
+        "col": 2,
+        "bounds": {
+          "min_lat": 24.5058,
+          "max_lat": 24.5258,
+          "min_lon": 73.6735,
+          "max_lon": 73.6935
+        },
+        "total_pois": 10,
+        "tiers": {
+          "discovery": 5,
+          "support": 4,
+          "recommended": 1
+        },
+        "top_categories": {
+          "experience": 5,
+          "hotel": 4,
+          "food": 1
+        }
+      },
+      "cell_0_3": {
+        "row": 0,
+        "col": 3,
+        "bounds": {
+          "min_lat": 24.5058,
+          "max_lat": 24.5258,
+          "min_lon": 73.6935,
+          "max_lon": 73.7135
+        },
+        "total_pois": 1,
+        "tiers": {
+          "recommended": 1
+        },
+        "top_categories": {
+          "religious": 1
+        }
+      },
+      "cell_0_4": {
+        "row": 0,
+        "col": 4,
+        "bounds": {
+          "min_lat": 24.5058,
+          "max_lat": 24.5258,
+          "min_lon": 73.7135,
+          "max_lon": 73.7335
+        },
+        "total_pois": 1,
+        "tiers": {
+          "recommended": 1
+        },
+        "top_categories": {
+          "food": 1
+        }
+      },
+      "cell_0_5": {
+        "row": 0,
+        "col": 5,
+        "bounds": {
+          "min_lat": 24.5058,
+          "max_lat": 24.5258,
+          "min_lon": 73.7335,
+          "max_lon": 73.7535
+        },
+        "total_pois": 3,
+        "tiers": {
+          "core_destination": 1,
+          "discovery": 2
+        },
+        "top_categories": {
+          "experience": 2,
+          "religious": 1
+        }
+      },
+      "cell_0_6": {
+        "row": 0,
+        "col": 6,
+        "bounds": {
+          "min_lat": 24.5058,
+          "max_lat": 24.5258,
+          "min_lon": 73.7535,
+          "max_lon": 73.7735
+        },
+        "total_pois": 9,
+        "tiers": {
+          "discovery": 8,
+          "support": 1
+        },
+        "top_categories": {
+          "experience": 8,
+          "hotel": 1
+        }
+      },
+      "cell_0_7": {
+        "row": 0,
+        "col": 7,
+        "bounds": {
+          "min_lat": 24.5058,
+          "max_lat": 24.5258,
+          "min_lon": 73.7735,
+          "max_lon": 73.7935
+        },
+        "total_pois": 2,
+        "tiers": {
+          "support": 2
+        },
+        "top_categories": {
+          "hotel": 2
+        }
+      },
+      "cell_1_0": {
+        "row": 1,
+        "col": 0,
+        "bounds": {
+          "min_lat": 24.5258,
+          "max_lat": 24.5458,
+          "min_lon": 73.6335,
+          "max_lon": 73.6535
+        },
+        "total_pois": 2,
+        "tiers": {
+          "support": 2
+        },
+        "top_categories": {
+          "hotel": 2
+        }
+      },
+      "cell_1_1": {
+        "row": 1,
+        "col": 1,
+        "bounds": {
+          "min_lat": 24.5258,
+          "max_lat": 24.5458,
+          "min_lon": 73.6535,
+          "max_lon": 73.6735
+        },
+        "total_pois": 5,
+        "tiers": {
+          "support": 5
+        },
+        "top_categories": {
+          "hotel": 5
+        }
+      },
+      "cell_1_2": {
+        "row": 1,
+        "col": 2,
+        "bounds": {
+          "min_lat": 24.5258,
+          "max_lat": 24.5458,
+          "min_lon": 73.6735,
+          "max_lon": 73.6935
+        },
+        "total_pois": 65,
+        "tiers": {
+          "support": 35,
+          "recommended": 6,
+          "discovery": 24
+        },
+        "top_categories": {
+          "hotel": 35,
+          "experience": 22,
+          "food": 3
+        }
+      },
+      "cell_1_3": {
+        "row": 1,
+        "col": 3,
+        "bounds": {
+          "min_lat": 24.5258,
+          "max_lat": 24.5458,
+          "min_lon": 73.6935,
+          "max_lon": 73.7135
+        },
+        "total_pois": 57,
+        "tiers": {
+          "discovery": 24,
+          "support": 26,
+          "recommended": 7
+        },
+        "top_categories": {
+          "hotel": 26,
+          "experience": 22,
+          "food": 5
+        }
+      },
+      "cell_1_4": {
+        "row": 1,
+        "col": 4,
+        "bounds": {
+          "min_lat": 24.5258,
+          "max_lat": 24.5458,
+          "min_lon": 73.7135,
+          "max_lon": 73.7335
+        },
+        "total_pois": 6,
+        "tiers": {
+          "support": 4,
+          "recommended": 2
+        },
+        "top_categories": {
+          "hotel": 4,
+          "religious": 1,
+          "food": 1
+        }
+      },
+      "cell_1_5": {
+        "row": 1,
+        "col": 5,
+        "bounds": {
+          "min_lat": 24.5258,
+          "max_lat": 24.5458,
+          "min_lon": 73.7335,
+          "max_lon": 73.7535
+        },
+        "total_pois": 3,
+        "tiers": {
+          "core_destination": 1,
+          "support": 2
+        },
+        "top_categories": {
+          "hotel": 2,
+          "religious": 1
+        }
+      },
+      "cell_1_6": {
+        "row": 1,
+        "col": 6,
+        "bounds": {
+          "min_lat": 24.5258,
+          "max_lat": 24.5458,
+          "min_lon": 73.7535,
+          "max_lon": 73.7735
+        },
+        "total_pois": 6,
+        "tiers": {
+          "discovery": 3,
+          "recommended": 2,
+          "support": 1
+        },
+        "top_categories": {
+          "experience": 3,
+          "food": 1,
+          "hotel": 1
+        }
+      },
+      "cell_1_7": {
+        "row": 1,
+        "col": 7,
+        "bounds": {
+          "min_lat": 24.5258,
+          "max_lat": 24.5458,
+          "min_lon": 73.7735,
+          "max_lon": 73.7935
+        },
+        "total_pois": 0,
+        "tiers": {},
+        "top_categories": {}
+      },
+      "cell_2_0": {
+        "row": 2,
+        "col": 0,
+        "bounds": {
+          "min_lat": 24.5458,
+          "max_lat": 24.5658,
+          "min_lon": 73.6335,
+          "max_lon": 73.6535
+        },
+        "total_pois": 5,
+        "tiers": {
+          "discovery": 4,
+          "support": 1
+        },
+        "top_categories": {
+          "experience": 3,
+          "hotel": 1,
+          "heritage": 1
+        }
+      },
+      "cell_2_1": {
+        "row": 2,
+        "col": 1,
+        "bounds": {
+          "min_lat": 24.5458,
+          "max_lat": 24.5658,
+          "min_lon": 73.6535,
+          "max_lon": 73.6735
+        },
+        "total_pois": 5,
+        "tiers": {
+          "support": 4,
+          "discovery": 1
+        },
+        "top_categories": {
+          "hotel": 4,
+          "experience": 1
+        }
+      },
+      "cell_2_2": {
+        "row": 2,
+        "col": 2,
+        "bounds": {
+          "min_lat": 24.5458,
+          "max_lat": 24.5658,
+          "min_lon": 73.6735,
+          "max_lon": 73.6935
+        },
+        "total_pois": 36,
+        "tiers": {
+          "support": 15,
+          "discovery": 17,
+          "recommended": 4
+        },
+        "top_categories": {
+          "experience": 16,
+          "hotel": 15,
+          "food": 1
+        }
+      },
+      "cell_2_3": {
+        "row": 2,
+        "col": 3,
+        "bounds": {
+          "min_lat": 24.5458,
+          "max_lat": 24.5658,
+          "min_lon": 73.6935,
+          "max_lon": 73.7135
+        },
+        "total_pois": 115,
+        "tiers": {
+          "support": 53,
+          "discovery": 57,
+          "recommended": 5
+        },
+        "top_categories": {
+          "hotel": 53,
+          "experience": 51,
+          "food": 6
+        }
+      },
+      "cell_2_4": {
+        "row": 2,
+        "col": 4,
+        "bounds": {
+          "min_lat": 24.5458,
+          "max_lat": 24.5658,
+          "min_lon": 73.7135,
+          "max_lon": 73.7335
+        },
+        "total_pois": 97,
+        "tiers": {
+          "support": 36,
+          "recommended": 12,
+          "discovery": 49
+        },
+        "top_categories": {
+          "experience": 48,
+          "hotel": 36,
+          "food": 8
+        }
+      },
+      "cell_2_5": {
+        "row": 2,
+        "col": 5,
+        "bounds": {
+          "min_lat": 24.5458,
+          "max_lat": 24.5658,
+          "min_lon": 73.7335,
+          "max_lon": 73.7535
+        },
+        "total_pois": 11,
+        "tiers": {
+          "support": 5,
+          "discovery": 6
+        },
+        "top_categories": {
+          "hotel": 5,
+          "experience": 5,
+          "heritage": 1
+        }
+      },
+      "cell_2_6": {
+        "row": 2,
+        "col": 6,
+        "bounds": {
+          "min_lat": 24.5458,
+          "max_lat": 24.5658,
+          "min_lon": 73.7535,
+          "max_lon": 73.7735
+        },
+        "total_pois": 2,
+        "tiers": {
+          "support": 1,
+          "discovery": 1
+        },
+        "top_categories": {
+          "hotel": 1,
+          "experience": 1
+        }
+      },
+      "cell_2_7": {
+        "row": 2,
+        "col": 7,
+        "bounds": {
+          "min_lat": 24.5458,
+          "max_lat": 24.5658,
+          "min_lon": 73.7735,
+          "max_lon": 73.7935
+        },
+        "total_pois": 3,
+        "tiers": {
+          "recommended": 1,
+          "discovery": 2
+        },
+        "top_categories": {
+          "experience": 2,
+          "cafe": 1
+        }
+      },
+      "cell_3_0": {
+        "row": 3,
+        "col": 0,
+        "bounds": {
+          "min_lat": 24.5658,
+          "max_lat": 24.5858,
+          "min_lon": 73.6335,
+          "max_lon": 73.6535
+        },
+        "total_pois": 18,
+        "tiers": {
+          "support": 13,
+          "discovery": 4,
+          "recommended": 1
+        },
+        "top_categories": {
+          "hotel": 13,
+          "experience": 3,
+          "heritage": 1
+        }
+      },
+      "cell_3_1": {
+        "row": 3,
+        "col": 1,
+        "bounds": {
+          "min_lat": 24.5658,
+          "max_lat": 24.5858,
+          "min_lon": 73.6535,
+          "max_lon": 73.6735
+        },
+        "total_pois": 106,
+        "tiers": {
+          "core_destination": 2,
+          "support": 63,
+          "recommended": 20,
+          "discovery": 21
+        },
+        "top_categories": {
+          "hotel": 63,
+          "experience": 20,
+          "food": 15
+        }
+      },
+      "cell_3_2": {
+        "row": 3,
+        "col": 2,
+        "bounds": {
+          "min_lat": 24.5658,
+          "max_lat": 24.5858,
+          "min_lon": 73.6735,
+          "max_lon": 73.6935
+        },
+        "total_pois": 403,
+        "tiers": {
+          "core_destination": 27,
+          "support": 158,
+          "recommended": 119,
+          "discovery": 99
+        },
+        "top_categories": {
+          "hotel": 158,
+          "experience": 89,
+          "food": 71
+        }
+      },
+      "cell_3_3": {
+        "row": 3,
+        "col": 3,
+        "bounds": {
+          "min_lat": 24.5658,
+          "max_lat": 24.5858,
+          "min_lon": 73.6935,
+          "max_lon": 73.7135
+        },
+        "total_pois": 375,
+        "tiers": {
+          "core_destination": 2,
+          "support": 172,
+          "recommended": 66,
+          "discovery": 135
+        },
+        "top_categories": {
+          "hotel": 168,
+          "experience": 125,
+          "food": 42
+        }
+      },
+      "cell_3_4": {
+        "row": 3,
+        "col": 4,
+        "bounds": {
+          "min_lat": 24.5658,
+          "max_lat": 24.5858,
+          "min_lon": 73.7135,
+          "max_lon": 73.7335
+        },
+        "total_pois": 135,
+        "tiers": {
+          "support": 38,
+          "discovery": 77,
+          "recommended": 20
+        },
+        "top_categories": {
+          "experience": 72,
+          "hotel": 38,
+          "food": 11
+        }
+      },
+      "cell_3_5": {
+        "row": 3,
+        "col": 5,
+        "bounds": {
+          "min_lat": 24.5658,
+          "max_lat": 24.5858,
+          "min_lon": 73.7335,
+          "max_lon": 73.7535
+        },
+        "total_pois": 46,
+        "tiers": {
+          "discovery": 36,
+          "support": 9,
+          "recommended": 1
+        },
+        "top_categories": {
+          "experience": 33,
+          "hotel": 9,
+          "shopping": 2
+        }
+      },
+      "cell_3_6": {
+        "row": 3,
+        "col": 6,
+        "bounds": {
+          "min_lat": 24.5658,
+          "max_lat": 24.5858,
+          "min_lon": 73.7535,
+          "max_lon": 73.7735
+        },
+        "total_pois": 5,
+        "tiers": {
+          "discovery": 5
+        },
+        "top_categories": {
+          "experience": 3,
+          "shopping": 2
+        }
+      },
+      "cell_3_7": {
+        "row": 3,
+        "col": 7,
+        "bounds": {
+          "min_lat": 24.5658,
+          "max_lat": 24.5858,
+          "min_lon": 73.7735,
+          "max_lon": 73.7935
+        },
+        "total_pois": 0,
+        "tiers": {},
+        "top_categories": {}
+      },
+      "cell_4_0": {
+        "row": 4,
+        "col": 0,
+        "bounds": {
+          "min_lat": 24.5858,
+          "max_lat": 24.6058,
+          "min_lon": 73.6335,
+          "max_lon": 73.6535
+        },
+        "total_pois": 19,
+        "tiers": {
+          "core_destination": 5,
+          "recommended": 3,
+          "discovery": 5,
+          "support": 6
+        },
+        "top_categories": {
+          "hotel": 6,
+          "heritage": 4,
+          "experience": 4
+        }
+      },
+      "cell_4_1": {
+        "row": 4,
+        "col": 1,
+        "bounds": {
+          "min_lat": 24.5858,
+          "max_lat": 24.6058,
+          "min_lon": 73.6535,
+          "max_lon": 73.6735
+        },
+        "total_pois": 40,
+        "tiers": {
+          "core_destination": 1,
+          "support": 19,
+          "recommended": 13,
+          "discovery": 7
+        },
+        "top_categories": {
+          "hotel": 18,
+          "food": 11,
+          "experience": 8
+        }
+      },
+      "cell_4_2": {
+        "row": 4,
+        "col": 2,
+        "bounds": {
+          "min_lat": 24.5858,
+          "max_lat": 24.6058,
+          "min_lon": 73.6735,
+          "max_lon": 73.6935
+        },
+        "total_pois": 250,
+        "tiers": {
+          "core_destination": 10,
+          "support": 78,
+          "recommended": 69,
+          "discovery": 93
+        },
+        "top_categories": {
+          "experience": 78,
+          "hotel": 76,
+          "food": 41
+        }
+      },
+      "cell_4_3": {
+        "row": 4,
+        "col": 3,
+        "bounds": {
+          "min_lat": 24.5858,
+          "max_lat": 24.6058,
+          "min_lon": 73.6935,
+          "max_lon": 73.7135
+        },
+        "total_pois": 303,
+        "tiers": {
+          "core_destination": 1,
+          "recommended": 63,
+          "support": 64,
+          "discovery": 175
+        },
+        "top_categories": {
+          "experience": 168,
+          "hotel": 64,
+          "food": 43
+        }
+      },
+      "cell_4_4": {
+        "row": 4,
+        "col": 4,
+        "bounds": {
+          "min_lat": 24.5858,
+          "max_lat": 24.6058,
+          "min_lon": 73.7135,
+          "max_lon": 73.7335
+        },
+        "total_pois": 92,
+        "tiers": {
+          "core_destination": 8,
+          "support": 22,
+          "discovery": 48,
+          "recommended": 14
+        },
+        "top_categories": {
+          "experience": 43,
+          "hotel": 22,
+          "heritage": 7
+        }
+      },
+      "cell_4_5": {
+        "row": 4,
+        "col": 5,
+        "bounds": {
+          "min_lat": 24.5858,
+          "max_lat": 24.6058,
+          "min_lon": 73.7335,
+          "max_lon": 73.7535
+        },
+        "total_pois": 53,
+        "tiers": {
+          "core_destination": 2,
+          "recommended": 6,
+          "discovery": 23,
+          "support": 22
+        },
+        "top_categories": {
+          "experience": 24,
+          "hotel": 22,
+          "food": 3
+        }
+      },
+      "cell_4_6": {
+        "row": 4,
+        "col": 6,
+        "bounds": {
+          "min_lat": 24.5858,
+          "max_lat": 24.6058,
+          "min_lon": 73.7535,
+          "max_lon": 73.7735
+        },
+        "total_pois": 27,
+        "tiers": {
+          "support": 12,
+          "recommended": 4,
+          "discovery": 11
+        },
+        "top_categories": {
+          "hotel": 12,
+          "experience": 11,
+          "shopping": 2
+        }
+      },
+      "cell_4_7": {
+        "row": 4,
+        "col": 7,
+        "bounds": {
+          "min_lat": 24.5858,
+          "max_lat": 24.6058,
+          "min_lon": 73.7735,
+          "max_lon": 73.7935
+        },
+        "total_pois": 19,
+        "tiers": {
+          "support": 8,
+          "discovery": 8,
+          "recommended": 3
+        },
+        "top_categories": {
+          "hotel": 8,
+          "experience": 8,
+          "food": 2
+        }
+      },
+      "cell_5_0": {
+        "row": 5,
+        "col": 0,
+        "bounds": {
+          "min_lat": 24.6058,
+          "max_lat": 24.6258,
+          "min_lon": 73.6335,
+          "max_lon": 73.6535
+        },
+        "total_pois": 18,
+        "tiers": {
+          "support": 13,
+          "recommended": 3,
+          "discovery": 2
+        },
+        "top_categories": {
+          "hotel": 13,
+          "park": 2,
+          "experience": 2
+        }
+      },
+      "cell_5_1": {
+        "row": 5,
+        "col": 1,
+        "bounds": {
+          "min_lat": 24.6058,
+          "max_lat": 24.6258,
+          "min_lon": 73.6535,
+          "max_lon": 73.6735
+        },
+        "total_pois": 23,
+        "tiers": {
+          "core_destination": 1,
+          "support": 13,
+          "discovery": 7,
+          "recommended": 2
+        },
+        "top_categories": {
+          "hotel": 13,
+          "museum": 3,
+          "experience": 3
+        }
+      },
+      "cell_5_2": {
+        "row": 5,
+        "col": 2,
+        "bounds": {
+          "min_lat": 24.6058,
+          "max_lat": 24.6258,
+          "min_lon": 73.6735,
+          "max_lon": 73.6935
+        },
+        "total_pois": 73,
+        "tiers": {
+          "core_destination": 1,
+          "support": 27,
+          "recommended": 13,
+          "discovery": 32
+        },
+        "top_categories": {
+          "experience": 30,
+          "hotel": 27,
+          "food": 7
+        }
+      },
+      "cell_5_3": {
+        "row": 5,
+        "col": 3,
+        "bounds": {
+          "min_lat": 24.6058,
+          "max_lat": 24.6258,
+          "min_lon": 73.6935,
+          "max_lon": 73.7135
+        },
+        "total_pois": 139,
+        "tiers": {
+          "support": 39,
+          "core_destination": 1,
+          "discovery": 70,
+          "recommended": 29
+        },
+        "top_categories": {
+          "experience": 63,
+          "hotel": 39,
+          "food": 18
+        }
+      },
+      "cell_5_4": {
+        "row": 5,
+        "col": 4,
+        "bounds": {
+          "min_lat": 24.6058,
+          "max_lat": 24.6258,
+          "min_lon": 73.7135,
+          "max_lon": 73.7335
+        },
+        "total_pois": 61,
+        "tiers": {
+          "support": 25,
+          "recommended": 5,
+          "discovery": 31
+        },
+        "top_categories": {
+          "experience": 29,
+          "hotel": 25,
+          "park": 2
+        }
+      },
+      "cell_5_5": {
+        "row": 5,
+        "col": 5,
+        "bounds": {
+          "min_lat": 24.6058,
+          "max_lat": 24.6258,
+          "min_lon": 73.7335,
+          "max_lon": 73.7535
+        },
+        "total_pois": 0,
+        "tiers": {},
+        "top_categories": {}
+      },
+      "cell_5_6": {
+        "row": 5,
+        "col": 6,
+        "bounds": {
+          "min_lat": 24.6058,
+          "max_lat": 24.6258,
+          "min_lon": 73.7535,
+          "max_lon": 73.7735
+        },
+        "total_pois": 1,
+        "tiers": {
+          "discovery": 1
+        },
+        "top_categories": {
+          "experience": 1
+        }
+      },
+      "cell_5_7": {
+        "row": 5,
+        "col": 7,
+        "bounds": {
+          "min_lat": 24.6058,
+          "max_lat": 24.6258,
+          "min_lon": 73.7735,
+          "max_lon": 73.7935
+        },
+        "total_pois": 5,
+        "tiers": {
+          "support": 5
+        },
+        "top_categories": {
+          "hotel": 5
+        }
+      },
+      "cell_6_0": {
+        "row": 6,
+        "col": 0,
+        "bounds": {
+          "min_lat": 24.6258,
+          "max_lat": 24.6458,
+          "min_lon": 73.6335,
+          "max_lon": 73.6535
+        },
+        "total_pois": 22,
+        "tiers": {
+          "support": 16,
+          "discovery": 5,
+          "recommended": 1
+        },
+        "top_categories": {
+          "hotel": 16,
+          "experience": 4,
+          "food": 1
+        }
+      },
+      "cell_6_1": {
+        "row": 6,
+        "col": 1,
+        "bounds": {
+          "min_lat": 24.6258,
+          "max_lat": 24.6458,
+          "min_lon": 73.6535,
+          "max_lon": 73.6735
+        },
+        "total_pois": 14,
+        "tiers": {
+          "support": 7,
+          "discovery": 6,
+          "recommended": 1
+        },
+        "top_categories": {
+          "hotel": 7,
+          "experience": 6,
+          "arts_culture": 1
+        }
+      },
+      "cell_6_2": {
+        "row": 6,
+        "col": 2,
+        "bounds": {
+          "min_lat": 24.6258,
+          "max_lat": 24.6458,
+          "min_lon": 73.6735,
+          "max_lon": 73.6935
+        },
+        "total_pois": 19,
+        "tiers": {
+          "support": 11,
+          "discovery": 8
+        },
+        "top_categories": {
+          "hotel": 11,
+          "experience": 8
+        }
+      },
+      "cell_6_3": {
+        "row": 6,
+        "col": 3,
+        "bounds": {
+          "min_lat": 24.6258,
+          "max_lat": 24.6458,
+          "min_lon": 73.6935,
+          "max_lon": 73.7135
+        },
+        "total_pois": 30,
+        "tiers": {
+          "discovery": 22,
+          "support": 6,
+          "recommended": 2
+        },
+        "top_categories": {
+          "experience": 18,
+          "hotel": 6,
+          "shopping": 4
+        }
+      },
+      "cell_6_4": {
+        "row": 6,
+        "col": 4,
+        "bounds": {
+          "min_lat": 24.6258,
+          "max_lat": 24.6458,
+          "min_lon": 73.7135,
+          "max_lon": 73.7335
+        },
+        "total_pois": 25,
+        "tiers": {
+          "support": 16,
+          "recommended": 3,
+          "discovery": 6
+        },
+        "top_categories": {
+          "hotel": 16,
+          "experience": 6,
+          "food": 3
+        }
+      },
+      "cell_6_5": {
+        "row": 6,
+        "col": 5,
+        "bounds": {
+          "min_lat": 24.6258,
+          "max_lat": 24.6458,
+          "min_lon": 73.7335,
+          "max_lon": 73.7535
+        },
+        "total_pois": 3,
+        "tiers": {
+          "support": 3
+        },
+        "top_categories": {
+          "hotel": 3
+        }
+      },
+      "cell_6_6": {
+        "row": 6,
+        "col": 6,
+        "bounds": {
+          "min_lat": 24.6258,
+          "max_lat": 24.6458,
+          "min_lon": 73.7535,
+          "max_lon": 73.7735
+        },
+        "total_pois": 1,
+        "tiers": {
+          "discovery": 1
+        },
+        "top_categories": {
+          "heritage": 1
+        }
+      },
+      "cell_6_7": {
+        "row": 6,
+        "col": 7,
+        "bounds": {
+          "min_lat": 24.6258,
+          "max_lat": 24.6458,
+          "min_lon": 73.7735,
+          "max_lon": 73.7935
+        },
+        "total_pois": 0,
+        "tiers": {},
+        "top_categories": {}
+      },
+      "cell_7_0": {
+        "row": 7,
+        "col": 0,
+        "bounds": {
+          "min_lat": 24.6458,
+          "max_lat": 24.6658,
+          "min_lon": 73.6335,
+          "max_lon": 73.6535
+        },
+        "total_pois": 5,
+        "tiers": {
+          "recommended": 1,
+          "discovery": 2,
+          "support": 2
+        },
+        "top_categories": {
+          "experience": 2,
+          "hotel": 2,
+          "food": 1
+        }
+      },
+      "cell_7_1": {
+        "row": 7,
+        "col": 1,
+        "bounds": {
+          "min_lat": 24.6458,
+          "max_lat": 24.6658,
+          "min_lon": 73.6535,
+          "max_lon": 73.6735
+        },
+        "total_pois": 9,
+        "tiers": {
+          "recommended": 2,
+          "support": 7
+        },
+        "top_categories": {
+          "hotel": 7,
+          "food": 1,
+          "shopping": 1
+        }
+      },
+      "cell_7_2": {
+        "row": 7,
+        "col": 2,
+        "bounds": {
+          "min_lat": 24.6458,
+          "max_lat": 24.6658,
+          "min_lon": 73.6735,
+          "max_lon": 73.6935
+        },
+        "total_pois": 7,
+        "tiers": {
+          "support": 4,
+          "discovery": 3
+        },
+        "top_categories": {
+          "hotel": 4,
+          "experience": 3
+        }
+      },
+      "cell_7_3": {
+        "row": 7,
+        "col": 3,
+        "bounds": {
+          "min_lat": 24.6458,
+          "max_lat": 24.6658,
+          "min_lon": 73.6935,
+          "max_lon": 73.7135
+        },
+        "total_pois": 6,
+        "tiers": {
+          "discovery": 6
+        },
+        "top_categories": {
+          "experience": 5,
+          "shopping": 1
+        }
+      },
+      "cell_7_4": {
+        "row": 7,
+        "col": 4,
+        "bounds": {
+          "min_lat": 24.6458,
+          "max_lat": 24.6658,
+          "min_lon": 73.7135,
+          "max_lon": 73.7335
+        },
+        "total_pois": 11,
+        "tiers": {
+          "discovery": 4,
+          "support": 7
+        },
+        "top_categories": {
+          "hotel": 7,
+          "experience": 4
+        }
+      },
+      "cell_7_5": {
+        "row": 7,
+        "col": 5,
+        "bounds": {
+          "min_lat": 24.6458,
+          "max_lat": 24.6658,
+          "min_lon": 73.7335,
+          "max_lon": 73.7535
+        },
+        "total_pois": 0,
+        "tiers": {},
+        "top_categories": {}
+      },
+      "cell_7_6": {
+        "row": 7,
+        "col": 6,
+        "bounds": {
+          "min_lat": 24.6458,
+          "max_lat": 24.6658,
+          "min_lon": 73.7535,
+          "max_lon": 73.7735
+        },
+        "total_pois": 0,
+        "tiers": {},
+        "top_categories": {}
+      },
+      "cell_7_7": {
+        "row": 7,
+        "col": 7,
+        "bounds": {
+          "min_lat": 24.6458,
+          "max_lat": 24.6658,
+          "min_lon": 73.7735,
+          "max_lon": 73.7935
+        },
+        "total_pois": 0,
+        "tiers": {},
+        "top_categories": {}
+      }
+    }
+  },
+  "correctness": {
+    "city": "Udaipur",
+    "status": "PASS",
+    "total_places_audited": 2861,
+    "high_severity_issues_count": 0,
+    "high_severity_issues": [],
+    "minor_warnings_count": 0,
+    "minor_warnings": [],
+    "image_audit": {
+      "total_images_checked": 44,
+      "images_verified_on_disk": 44,
+      "images_missing_on_disk_count": 0,
+      "images_missing_license_count": 0,
+      "category_fallback_images_detected": 0,
+      "disk_verification_pct": 100.0
+    }
+  },
+  "manifest": {
+    "schema_version": "3.0",
+    "city_pack_version": "v3",
+    "city_id": "udaipur",
+    "city_name": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "generated_at": "2026-09-19T16:00:00.415523+00:00",
+    "pipeline_health": "PASS",
+    "data_quality": "WARN",
+    "source_coverage": "PASS",
+    "source_versions": {
+      "wikivoyage": "113",
+      "wikidata": "90",
+      "openstreetmap": "516",
+      "overture": "14114"
+    },
+    "counts": {
+      "total_raw_candidates": 14833,
+      "accepted": 2861,
+      "rejected": 7066,
+      "quarantined": 4384,
+      "duplicate_merges": 522,
+      "with_images": 44,
+      "with_opening_hours": 38,
+      "with_wikidata": 80,
+      "category_conflicts": 44696,
+      "entity_conflicts": 0,
+      "alias_conflicts": 0,
+      "image_conflicts": 0,
+      "coordinate_conflicts": 199,
+      "by_tier": {
+        "core_destination": 63,
+        "support": 1117,
+        "recommended": 508,
+        "discovery": 1173
+      },
+      "by_tier_stats": {
+        "core_destination": {
+          "count": 63,
+          "with_wikidata": 53,
+          "with_wikipedia": 39,
+          "with_image": 44,
+          "with_hours": 6,
+          "with_website": 28,
+          "multi_source": 34
+        },
+        "recommended": {
+          "count": 508,
+          "with_wikidata": 0,
+          "with_wikipedia": 0,
+          "with_image": 0,
+          "with_hours": 27,
+          "with_website": 448,
+          "multi_source": 115
+        },
+        "discovery": {
+          "count": 1173,
+          "with_wikidata": 0,
+          "with_wikipedia": 0,
+          "with_image": 0,
+          "with_hours": 0,
+          "with_website": 1170,
+          "multi_source": 4
+        },
+        "support": {
+          "count": 1117,
+          "with_wikidata": 27,
+          "with_wikipedia": 0,
+          "with_image": 0,
+          "with_hours": 5,
+          "with_website": 1083,
+          "multi_source": 158
+        }
+      },
+      "by_category": {
+        "heritage": 68,
+        "religious": 42,
+        "nature": 19,
+        "park": 22,
+        "museum": 17,
+        "hotel": 1110,
+        "food": 316,
+        "cafe": 69,
+        "shopping": 94,
+        "arts_culture": 19,
+        "experience": 1078,
+        "transport": 7
+      }
+    },
+    "checksums": {
+      "city.json": "cf1d7a0f287cebf20537d981c0956b0f9f4d7f51d1e6d4304e62bcbe6641cb47",
+      "places.json": "7f283f7411afc4ce5d01fd58f83d0b8db31c72638dde480ccbf635c29ffd5568",
+      "places.jsonl": "6d100572f00a769b8a035f9f91e79035564d066c9041d91208c1aec3bd5d7d4f",
+      "places.parquet": "1106e20a7c2f7a4b25b4461cb0ee2d38ea198b8d3ed96b01c6fb73c78db1731b",
+      "image_manifest.json": "1dc2177146ad0c0239675c79af4b22981cc7d6d527cf8ce402e93ff932252dd3",
+      "source_manifest.json": "cacef17858307c5fde1d502cc6c5d1ced3f0347a80320e603a765e0c8e8a20d4",
+      "license_manifest.json": "ca96986da832c97a64b35585bf73b8e29dac70466f7089e7c5863a953ee6857d",
+      "yatracanvas.db": "2eb98652b5886ef70100238121c0433073316996b2b186cd372cbc98b48ecc3f"
+    }
+  }
+}

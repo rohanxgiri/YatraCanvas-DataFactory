@@ -1,0 +1,67 @@
+{
+  "city": "Rishikesh",
+  "state": "Uttarakhand",
+  "country": "India",
+  "version": "v3",
+  "sources": {
+    "overture": {
+      "raw_candidates": 4690,
+      "matched_into_canonical": 1394,
+      "released": 1394,
+      "merged": 141,
+      "quarantined": 0,
+      "rejected": 1704,
+      "top_rejection_reasons": {
+        "blocked_category:travel_service": 232,
+        "blocked_category:fashion_and_apparel_store": 123,
+        "blocked_category:place_of_learning": 87,
+        "blocked_category:bank_or_credit_union": 74,
+        "blocked_category:wellness_service": 66
+      },
+      "top_quarantine_reasons": {}
+    },
+    "wikidata": {
+      "raw_candidates": 26,
+      "matched_into_canonical": 25,
+      "released": 25,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "unknown": {
+      "raw_candidates": 1460,
+      "matched_into_canonical": 0,
+      "released": 0,
+      "merged": 0,
+      "quarantined": 1460,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {
+        "low_quality_score:0.285<0.3": 742,
+        "low_quality_score:0.248<0.3": 471,
+        "low_quality_score:0.21<0.3": 147,
+        "duplicate_canonical_id": 75,
+        "low_quality_score:0.175<0.3": 17
+      }
+    }
+  },
+  "high_value_travel_survival": {
+    "wikivoyage_see_do": {
+      "total_raw": 0,
+      "released": 0,
+      "survival_pct": 0.0
+    },
+    "wikidata_attractions": {
+      "total_raw": 26,
+      "released": 25,
+      "survival_pct": 96.2
+    },
+    "osm_tourism_historic": {
+      "total_raw": 0,
+      "released": 0,
+      "survival_pct": 0.0
+    }
+  }
+}

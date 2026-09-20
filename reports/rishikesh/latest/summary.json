@@ -1,0 +1,81 @@
+{
+  "city": "Rishīkesh",
+  "state": "Uttarakhand",
+  "country": "India",
+  "version": "v3",
+  "total_raw_candidates": 4778,
+  "sources_count": {
+    "wikivoyage": 62,
+    "wikidata": 26,
+    "openstreetmap": 0,
+    "overture": 4690
+  },
+  "accepted_places": 1409,
+  "rejected_places": 1704,
+  "quarantined_places": 1541,
+  "duplicate_merges": 124,
+  "by_tier": {
+    "core_destination": 15,
+    "support": 504,
+    "discovery": 710,
+    "recommended": 180
+  },
+  "by_tier_stats": {
+    "core_destination": {
+      "count": 15,
+      "with_wikidata": 12,
+      "with_wikipedia": 11,
+      "with_image": 12,
+      "with_hours": 0,
+      "with_website": 7,
+      "multi_source": 3
+    },
+    "recommended": {
+      "count": 180,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 1,
+      "with_website": 179,
+      "multi_source": 38
+    },
+    "discovery": {
+      "count": 710,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 1,
+      "with_hours": 4,
+      "with_website": 707,
+      "multi_source": 1
+    },
+    "support": {
+      "count": 504,
+      "with_wikidata": 13,
+      "with_wikipedia": 2,
+      "with_image": 2,
+      "with_hours": 0,
+      "with_website": 492,
+      "multi_source": 37
+    }
+  },
+  "image_coverage_pct": 1.1,
+  "with_images_count": 15,
+  "opening_hours_coverage_pct": 0.4,
+  "with_opening_hours_count": 5,
+  "wikidata_coverage_pct": 1.8,
+  "with_wikidata_count": 25,
+  "category_breakdown": {
+    "heritage": 29,
+    "religious": 28,
+    "transport": 4,
+    "hotel": 500,
+    "experience": 705,
+    "food": 78,
+    "shopping": 25,
+    "cafe": 31,
+    "park": 5,
+    "arts_culture": 2,
+    "nature": 2
+  },
+  "generated_at": "2026-09-19T19:42:55.185015+00:00"
+}

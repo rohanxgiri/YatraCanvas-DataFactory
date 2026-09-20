@@ -1,0 +1,89 @@
+{
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "version": "v3",
+  "sources": {
+    "openstreetmap": {
+      "raw_candidates": 516,
+      "matched_into_canonical": 237,
+      "released": 237,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 1,
+      "top_rejection_reasons": {
+        "blocked_name_pattern": 1
+      },
+      "top_quarantine_reasons": {}
+    },
+    "overture": {
+      "raw_candidates": 14114,
+      "matched_into_canonical": 2803,
+      "released": 2803,
+      "merged": 522,
+      "quarantined": 0,
+      "rejected": 7065,
+      "top_rejection_reasons": {
+        "blocked_category:fashion_and_apparel_store": 860,
+        "blocked_category:hardware_home_and_garden_store": 411,
+        "blocked_category:event_or_party_service": 322,
+        "blocked_category:professional_service": 289,
+        "blocked_category:bank_or_credit_union": 278
+      },
+      "top_quarantine_reasons": {}
+    },
+    "wikivoyage": {
+      "raw_candidates": 113,
+      "matched_into_canonical": 17,
+      "released": 17,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "wikidata": {
+      "raw_candidates": 90,
+      "matched_into_canonical": 80,
+      "released": 80,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "unknown": {
+      "raw_candidates": 4384,
+      "matched_into_canonical": 0,
+      "released": 0,
+      "merged": 0,
+      "quarantined": 4384,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {
+        "low_quality_score:0.285<0.3": 2165,
+        "low_quality_score:0.248<0.3": 1005,
+        "low_quality_score:0.21<0.3": 437,
+        "duplicate_canonical_id": 314,
+        "coordinates_outside_city_boundary": 199
+      }
+    }
+  },
+  "high_value_travel_survival": {
+    "wikivoyage_see_do": {
+      "total_raw": 31,
+      "released": 11,
+      "survival_pct": 35.5
+    },
+    "wikidata_attractions": {
+      "total_raw": 90,
+      "released": 79,
+      "survival_pct": 87.8
+    },
+    "osm_tourism_historic": {
+      "total_raw": 314,
+      "released": 237,
+      "survival_pct": 75.5
+    }
+  }
+}

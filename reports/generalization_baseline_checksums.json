@@ -1,0 +1,13 @@
+{
+  "config/categories.yaml": "fbd2549c5437b6c48b161696a8d5eaae39fd296b1d24c7c678801db998cbcb75",
+  "config/generated_cities/jaipur.yaml": "f2ba19e8a27ae7eb8ecace7369d6e32efb8448ba00dd517a505d371dd55ca6cf",
+  "config/generated_cities/udaipur.yaml": "093ea4642fa1928272e9c55e04032684b7770f207a61788d840ca0372a4496b3",
+  "config/generated_cities/varanasi.yaml": "2d4f6df98a7fb0ce74274a687ca3df88208a37e19c79c97cefc5e6f29dd5e051",
+  "config/planning_defaults.yaml": "e70ee5fb8f15a938f599a5c567ebf8fb4860aad6c8eb58d6e4ce60803677d301",
+  "config/quality.yaml": "8916afebbadbfa3fbda4dd42e7e6a7b9902c1fc65e53c2f8153cc44275648ffe",
+  "config/sources.yaml": "642e16b5568e13f8498a642239a2b0c9db8b2357f0cd2152a1b2330c60a58872",
+  "datafactory/config/settings.py": "f6338dfaa7d0e24f1e544b34975feffb2261df2fb6afc1135ba215d0b2964ac4",
+  "datafactory/pipeline/classify.py": "8d27c87baec37901f538ca887d1a52f09abb67b7ac01681909d39fd0c34dde08",
+  "datafactory/pipeline/score.py": "774b122d37af0f0a31290ec9e61144e3782ace2ab4762470b08bf2fb317181aa",
+  "datafactory/audit/search_engine.py": "32aa05b6f05fc060c771b0779869123764758f32406bc23072012c7da45f99eb"
+}

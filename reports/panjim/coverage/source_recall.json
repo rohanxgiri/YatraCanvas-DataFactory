@@ -1,0 +1,65 @@
+{
+  "city": "Panjim",
+  "state": "Goa",
+  "country": "India",
+  "version": "v3",
+  "sources": {
+    "openstreetmap": {
+      "raw_candidates": 1674,
+      "matched_into_canonical": 824,
+      "released": 824,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "overture": {
+      "raw_candidates": 10342,
+      "matched_into_canonical": 3571,
+      "released": 3571,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "wikivoyage": {
+      "raw_candidates": 51,
+      "matched_into_canonical": 27,
+      "released": 27,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "wikidata": {
+      "raw_candidates": 69,
+      "matched_into_canonical": 83,
+      "released": 83,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    }
+  },
+  "high_value_travel_survival": {
+    "wikivoyage_see_do": {
+      "total_raw": 18,
+      "released": 6,
+      "survival_pct": 33.3
+    },
+    "wikidata_attractions": {
+      "total_raw": 69,
+      "released": 60,
+      "survival_pct": 87.0
+    },
+    "osm_tourism_historic": {
+      "total_raw": 590,
+      "released": 515,
+      "survival_pct": 87.3
+    }
+  }
+}

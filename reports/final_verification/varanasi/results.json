@@ -1,0 +1,2516 @@
+[
+  {
+    "place_id": "yc_in_up_varanasi_aghoreshwar_bhagwam_ram_ghat",
+    "name": "Aghoreshwar Bhagwam Ram Ghat",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "historical_monument",
+    "primary_entity_type": "monument",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Aghoreshwar Bhagwam Ram Ghat' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 13.1m)",
+      "Classification 'heritage/monument' supported by ['osm:tourism=attraction', 'overture:landmark_and_historical_building']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_agrawal_toys_emporium",
+    "name": "Agrawal toys emporium",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "bazaar",
+    "primary_entity_type": "market",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Agrawal toys emporium' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:toy_store']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_akriti_laser_and_cosmetic_surgery_centre",
+    "name": "Akriti Laser and Cosmetic Surgery Centre",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Akriti Laser and Cosmetic Surgery Centre' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:plastic_surgeon']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_amphitheatre_ground",
+    "name": "Amphitheatre Ground",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Amphitheatre Ground' supported by upstream record",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 8.4m)",
+      "Classification 'park/park' supported by ['osm:leisure=park', 'overture:music_venue']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_ananad_bagh",
+    "name": "Ananad Bagh",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "garden",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Ananad Bagh' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 22.0m)",
+      "Classification 'park/garden' supported by ['osm:leisure=park', 'overture:park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_anjali_enterprises_acc",
+    "name": "Anjali Enterprises - ACC",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Anjali Enterprises - ACC' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_aqualand_waterpark_varanasi",
+    "name": "Aqualand Waterpark Varanasi",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Aqualand Waterpark Varanasi' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'park/park' supported by ['overture:water_park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_archaeological_museum_sarnath_archaeological_survey_of_india",
+    "name": "Archaeological Museum Sarnath, Archaeological Survey of India",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "heritage_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Archaeological Museum Sarnath, Archaeological Survey of India' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'museum/museum' supported by ['overture:museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_assi_ghat",
+    "name": "Assi Ghat",
+    "tier": "core_destination",
+    "category": "nature",
+    "subcategory": "lake",
+    "primary_entity_type": "lake",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Assi Ghat' confirmed across 4 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 48.7m, Overture: 76.9m, Wikidata: 0.0m, Wikivoyage: 0.3m)",
+      "Classification 'nature/lake' supported by ['osm:tourism=attraction', 'overture:landmark_and_historical_building', 'wikidata:nature', 'desc:ghat in varanasi.', 'wikivoyage:see']",
+      "Wikidata QID Q4808835 confirmed (assi ghat)",
+      "Image verified via Wikidata P18 (Assi Ghat Varanasi morning Aarti.jpg, CC0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_astrotruth_store",
+    "name": "Astrotruth Store",
+    "tier": "discovery",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Astrotruth Store' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:psychic']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_atomic_aesthetic_academy",
+    "name": "Atomic Aesthetic Academy",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Atomic Aesthetic Academy' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_baba_lassi",
+    "name": "Baba Lassi",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Baba Lassi' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 2.4m)",
+      "Classification 'cafe/cafe' supported by ['osm:amenity=cafe', 'overture:restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_backpackers_park",
+    "name": "Backpackers Park",
+    "tier": "core_destination",
+    "category": "park",
+    "subcategory": "garden",
+    "primary_entity_type": "garden",
+    "sources_checked": [
+      "overture",
+      "wikidata"
+    ],
+    "overall_status": "CONFLICT",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "CONFLICT",
+    "entity_type_status": "CONFLICT",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Backpackers Park' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (Overture: 14.0m, Wikidata: 0.0m)",
+      "Wikidata QID Q111110647 confirmed (backpackers park)"
+    ],
+    "conflicts": [
+      "Negative guard violation: Upstream lodging ['overture:hostel', 'wikidata:park', 'desc:hostel in varanasi'] classified as 'park'"
+    ],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_balaji_palace_kashi",
+    "name": "Balaji Palace Kashi",
+    "tier": "support",
+    "category": "hotel",
+    "subcategory": "hotel",
+    "primary_entity_type": "hotel",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Balaji Palace Kashi' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'hotel/hotel' supported by ['overture:hotel']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_banarasi_craft_bazaar",
+    "name": "Banarasi Craft Bazaar",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "bazaar",
+    "primary_entity_type": "market",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Banarasi Craft Bazaar' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_banarasi_silk_house",
+    "name": "Banarasi Silk House",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Banarasi Silk House' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_bhairav_nath_mandir",
+    "name": "Bhairav Nath Mandir",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Bhairav Nath Mandir' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'religious/religious_site' supported by ['overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_ca_amit_sengupta",
+    "name": "CA Amit Sengupta",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'CA Amit Sengupta' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_cafe_odd_fellows",
+    "name": "Cafe odd fellows",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Cafe odd fellows' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'cafe/cafe' supported by ['overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_central_hindu_school",
+    "name": "Central Hindu School",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Central Hindu School' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['wikidata:heritage', 'desc:school in varanasi, india']",
+      "Wikidata QID Q2081773 confirmed (central hindu school)",
+      "Image verified via Wikidata P18 (CHBS BHU main Entrance.jpg, CC BY-SA 4.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_champaran_meat_house",
+    "name": "champaran meat house",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'champaran meat house' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 4.7m)",
+      "Classification 'food/restaurant' supported by ['osm:amenity=restaurant', 'overture:indian_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_chaura_mais_temple",
+    "name": "Chaura Mai's Temple",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "place_of_worship",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "osm"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Chaura Mai's Temple' supported by upstream record",
+      "Coordinates verified within 0.1m (OSM: 0.1m)",
+      "Classification 'religious/religious_site' supported by ['osm:amenity=place_of_worship']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_chetganj",
+    "name": "Chetganj,",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Chetganj,' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'cafe/cafe' supported by ['overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_continental_cafe_and_cuisine",
+    "name": "Continental Cafe and Cuisine",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Continental Cafe and Cuisine' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'cafe/cafe' supported by ['overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_dashashwamedh_ghat",
+    "name": "Dashashwamedh Ghat",
+    "tier": "core_destination",
+    "category": "nature",
+    "subcategory": "lake",
+    "primary_entity_type": "lake",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Dashashwamedh Ghat' confirmed across 4 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 104.1m, Overture: 42.2m, Wikidata: 0.0m, Wikivoyage: 119.6m)",
+      "Classification 'nature/lake' supported by ['osm:tourism=attraction', 'overture:religious_organization', 'wikidata:nature', 'desc:ghat of the ganges, in varanas', 'wikivoyage:see']",
+      "Wikidata QID Q3630402 confirmed (dashashwamedh ghat)",
+      "Image verified via Wikidata P18 (Dashashwamedh Ghat's View Varanasi.jpg, CC BY-SA 3.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_dhyan_varanasi",
+    "name": "Dhya\u0304n Varanasi",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Dhya\u0304n Varanasi' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'cafe/cafe' supported by ['overture:coffee_shop']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_divya_skin_care_clinic",
+    "name": "Divya Skin Care Clinic",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Divya Skin Care Clinic' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:health_and_medical']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_dlite_cafe",
+    "name": "D'Lite Cafe",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'D'Lite Cafe' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:ice_cream_shop']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_dominos_pizza_pdr_mall_varanasi",
+    "name": "Domino's Pizza | Pdr Mall, Varanasi",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Domino's Pizza | Pdr Mall, Varanasi' supported by upstream record",
+      "Coordinates supported within 107.0m (Overture: 107.0m)",
+      "Classification plausible with upstream evidence ['overture:cinema']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_durga_mandir",
+    "name": "Durga Mandir",
+    "tier": "core_destination",
+    "category": "religious",
+    "subcategory": "place_of_worship",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Durga Mandir' confirmed across 3 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 13.5m, Overture: 0.0m, Wikidata: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['osm:amenity=place_of_worship', 'overture:religious_organization', 'wikidata:religious', 'desc:temple in india']",
+      "Wikidata QID Q5316383 confirmed (durga mandir)",
+      "Image verified via Wikidata P18 (Durga Temple gate.JPG, CC BY-SA 4.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_flower_market",
+    "name": "Flower market",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "historical_monument",
+    "primary_entity_type": "monument",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Flower market' confirmed across 2 upstream sources",
+      "Coordinates verified within 26.0m (OSM: 27.5m, Overture: 26.0m)",
+      "Classification plausible with upstream evidence ['osm:tourism=attraction', 'overture:shopping_center']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_footpath_chai_wala",
+    "name": "Footpath Chai Wala",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Footpath Chai Wala' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:tea_room']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_funtasia_waterpark_varanasi",
+    "name": "Funtasia Waterpark Varanasi",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Funtasia Waterpark Varanasi' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'park/park' supported by ['overture:water_park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_ganga_fuji",
+    "name": "Ganga Fuji",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Ganga Fuji' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 26.4m)",
+      "Classification 'food/restaurant' supported by ['osm:amenity=restaurant', 'overture:accommodation']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_ganj_e_shaheedan_mosque",
+    "name": "Ganj-e-Shaheedan Mosque",
+    "tier": "core_destination",
+    "category": "religious",
+    "subcategory": "place_of_worship",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Ganj-e-Shaheedan Mosque' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['wikidata:religious', 'desc:mosque in india']",
+      "Wikidata QID Q5521331 confirmed (ganj-e-shaheedan mosque)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_ganpati",
+    "name": "Ganpati",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Ganpati' confirmed across 2 upstream sources",
+      "Coordinates verified within 11.1m (OSM: 22.1m, Overture: 11.1m)",
+      "Classification plausible with upstream evidence ['osm:tourism=guest_house', 'overture:hotel']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_gaurikedareshwar",
+    "name": "Gaurikedareshwar",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Gaurikedareshwar' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'religious/religious_site' supported by ['overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_gulf_retail_shop_shivam_automobile_mohansarai",
+    "name": "Gulf Retail Shop - Shivam Automobile-mohansarai",
+    "tier": "discovery",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Gulf Retail Shop - Shivam Automobile-mohansarai' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_handicraft_museum",
+    "name": "Handicraft museum",
+    "tier": "core_destination",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Handicraft museum' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 22.3m)",
+      "Classification 'museum/museum' supported by ['osm:tourism=museum', 'overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_iconic_hotels_varanasi",
+    "name": "Iconic Hotels Varanasi",
+    "tier": "support",
+    "category": "hotel",
+    "subcategory": "resort",
+    "primary_entity_type": "hotel",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Iconic Hotels Varanasi' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:resort']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_im_armaan_khan",
+    "name": "I'm Armaan khan",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'I'm Armaan khan' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_india_post",
+    "name": "India Post",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'India Post' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:post_office']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_inter_university_centre_for_teacher_education_ugc",
+    "name": "Inter University Centre for Teacher Education, UGC",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Inter University Centre for Teacher Education, UGC' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:educational_research_institute']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_japanese_art_museum",
+    "name": "Japanese Art Museum",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Japanese Art Museum' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_kachhua_sanctuary",
+    "name": "Kachhua Sanctuary",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Kachhua Sanctuary' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['wikidata:heritage', 'desc:water sanctuary in uttar prade']",
+      "Wikidata QID Q6344663 confirmed (kachhua sanctuary)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_karmanveer_baba_temple",
+    "name": "Karmanveer Baba TEMPLE",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Karmanveer Baba TEMPLE' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 0.8m)",
+      "Classification 'religious/religious_site' supported by ['osm:amenity=place_of_worship', 'overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_kashi_annapurna_temple_varanasi",
+    "name": "Kashi Annapurna Temple Varanasi",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Kashi Annapurna Temple Varanasi' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:religious_organization']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_kashi_saree_shop",
+    "name": "Kashi Saree Shop",
+    "tier": "discovery",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Kashi Saree Shop' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_kashidham",
+    "name": "Kashidham",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "heritage_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Kashidham' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'museum/museum' supported by ['overture:history_museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_kent_bus_dipo_banarash",
+    "name": "Kent Bus Dipo Banarash",
+    "tier": "support",
+    "category": "transport",
+    "subcategory": "bus_station",
+    "primary_entity_type": "railway_station",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Kent Bus Dipo Banarash' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'transport/railway_station' supported by ['overture:bus_station']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_kiran_center",
+    "name": "Kiran Center",
+    "tier": "core_destination",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Kiran Center' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 96.9m)",
+      "Classification 'museum/museum' supported by ['osm:tourism=museum', 'overture:non_governmental_association']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_krishna_gokul_water_park",
+    "name": "Krishna Gokul Water Park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Krishna Gokul Water Park' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'park/park' supported by ['overture:water_park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_kriti_gallery",
+    "name": "Kriti Gallery",
+    "tier": "core_destination",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Kriti Gallery' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 27.9m)",
+      "Classification 'museum/museum' supported by ['osm:tourism=museum', 'overture:art_gallery']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_lal_khan_tomb",
+    "name": "Lal Khan Tomb",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Lal Khan Tomb' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (Wikidata: 3.8m, Wikivoyage: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['desc:mausoleum in uttar pradesh, in', 'wikivoyage:see']",
+      "Wikidata QID Q66662448 confirmed (tomb of lal khan)",
+      "Image verified via Wikidata P18 (Tomb of Lal Khan.jpg, CC BY-SA 3.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_lion_capital_of_asoka",
+    "name": "Lion Capital of Asoka",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Lion Capital of Asoka' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['wikidata:heritage', 'desc:capital of a column of mauryan']",
+      "Wikidata QID Q3595955 confirmed (lion capital of asoka)",
+      "Image verified via Wikidata P18 (Sarnath capital.jpg, CC BY-SA 4.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_louis_philippe",
+    "name": "Louis Philippe",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Louis Philippe' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_ma_vaishno_electricals",
+    "name": "Ma Vaishno Electricals",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Ma Vaishno Electricals' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_mahadev_murti_bhandar",
+    "name": "Mahadev Murti Bhandar",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "heritage_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Mahadev Murti Bhandar' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'museum/museum' supported by ['overture:museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_maheshwar_hotel_varanasi",
+    "name": "Maheshwar Hotel Varanasi",
+    "tier": "support",
+    "category": "hotel",
+    "subcategory": "hotel",
+    "primary_entity_type": "hotel",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Maheshwar Hotel Varanasi' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'hotel/hotel' supported by ['overture:hotel']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_mahila_maha_vidyalaya",
+    "name": "Mahila Maha Vidyalaya",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Mahila Maha Vidyalaya' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['wikidata:heritage', \"desc:women's college in varanasi, u\"]",
+      "Wikidata QID Q23013729 confirmed (mahila maha vidyalaya)",
+      "Image verified via Wikidata P18 (Women's College, Banaras Hindu University, Varanasi.jpg, CC BY-SA 2.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_maitri_jalpan_grih",
+    "name": "Maitri Jalpan Grih",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Maitri Jalpan Grih' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 16.7m)",
+      "Classification 'cafe/cafe' supported by ['osm:amenity=cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_manikarnikeswarar_temple",
+    "name": "Manikarnikeswarar Temple",
+    "tier": "core_destination",
+    "category": "religious",
+    "subcategory": "place_of_worship",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Manikarnikeswarar Temple' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['wikidata:religious', 'desc:temple in india']",
+      "Wikidata QID Q16920245 confirmed (manikarnikeswarar temple)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_metrics_mantra_best_digital_marketing_agency_social_media_marketing_website_design_agency",
+    "name": "Metrics Mantra - Best Digital Marketing Agency | Social Media Marketing | Website Design Agency",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Metrics Mantra - Best Digital Marketing Agency | Social Media Marketing | Website Design Agency' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_moti_jhil",
+    "name": "Moti Jhi\u0304l",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "overture",
+      "wikidata"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Moti Jhi\u0304l' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (Overture: 18.4m, Wikidata: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['overture:lake', 'wikidata:heritage']",
+      "Wikidata QID Q33290896 confirmed (moti jh\u012bl)",
+      "Image verified via Wikidata P18 (Moti Jh\u012bl.jpg, CC BY-SA 4.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_namo_cafe",
+    "name": "namo cafe",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'namo cafe' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'cafe/cafe' supported by ['overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_narayan_park",
+    "name": "Narayan Park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Narayan Park' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 74.7m)",
+      "Classification 'park/park' supported by ['osm:leisure=park', 'overture:park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_nehru_park",
+    "name": "Nehru Park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Nehru Park' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 33.7m)",
+      "Classification 'park/park' supported by ['osm:leisure=park', 'overture:park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_petoo",
+    "name": "Petoo",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Petoo' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:indian_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_pizza_hut",
+    "name": "Pizza Hut",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Pizza Hut' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 34.9m)",
+      "Classification 'food/restaurant' supported by ['osm:amenity=restaurant', 'overture:pizza_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_pizza_palace",
+    "name": "Pizza Palace",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Pizza Palace' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'food/restaurant' supported by ['overture:pizza_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_prakash_mega_mart",
+    "name": "Prakash Mega Mart",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Prakash Mega Mart' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'shopping/shop' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_public_medical_care_varanasi_patientelder_care_taker_service_nursing_care_service_injectionwound_care_services_at_home",
+    "name": "PUBLIC MEDICAL CARE VARANASI (Patient/Elder Care taker service, Nursing care service, injection,wound care services at home",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'PUBLIC MEDICAL CARE VARANASI (Patient/Elder Care taker service, Nursing care service, injection,wound care services at home' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:home_health_care']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_rajghat_besant_school",
+    "name": "Rajghat Besant School",
+    "tier": "core_destination",
+    "category": "nature",
+    "subcategory": "lake",
+    "primary_entity_type": "lake",
+    "sources_checked": [
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Rajghat Besant School' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m, Wikivoyage: 191.7m)",
+      "Classification 'nature/lake' supported by ['wikidata:nature', 'desc:private boarding school in var', 'wikivoyage:see']",
+      "Wikidata QID Q7286119 confirmed (rajghat besant school)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_ramada_by_wyndham_varanasi_katesar",
+    "name": "Ramada by Wyndham Varanasi Katesar",
+    "tier": "support",
+    "category": "hotel",
+    "subcategory": "hotel",
+    "primary_entity_type": "hotel",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Ramada by Wyndham Varanasi Katesar' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'hotel/hotel' supported by ['overture:hotel']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_reliance_securities",
+    "name": "Reliance Securities",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Reliance Securities' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:security_services']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_sant_atulanand_convent_school",
+    "name": "Sant Atulanand Convent School",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Sant Atulanand Convent School' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['wikidata:heritage', 'desc:school in uttar pradesh, india']",
+      "Wikidata QID Q7419076 confirmed (sant atulanand convent school)",
+      "Image verified via Wikidata P18 (Sacs.jpg, CC BY-SA 3.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_saraswati_park",
+    "name": "Saraswati Park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Saraswati Park' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'park/park' supported by ['overture:park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_sarnath_museum",
+    "name": "Sarnath Museum",
+    "tier": "core_destination",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Sarnath Museum' confirmed across 3 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 32.2m, Overture: 57.2m, Wikidata: 0.0m)",
+      "Classification 'museum/museum' supported by ['osm:tourism=museum', 'overture:museum', 'wikidata:museum', 'desc:archaeological museum in saran']",
+      "Wikidata QID Q1567294 confirmed (sarnath museum)",
+      "Image verified via Wikidata P18 (Art and Archeological Museum at Sarnath.JPG, CC BY-SA 3.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_sbs_creations",
+    "name": "SBS Creations",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'SBS Creations' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_scindia_ghat",
+    "name": "Scindia Ghat",
+    "tier": "core_destination",
+    "category": "nature",
+    "subcategory": "lake",
+    "primary_entity_type": "lake",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Scindia Ghat' confirmed across 3 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 202.3m, Overture: 172.6m, Wikidata: 0.0m)",
+      "Classification 'nature/lake' supported by ['osm:tourism=attraction', 'wikidata:nature']",
+      "Wikidata QID Q7433927 confirmed (scindia ghat)",
+      "Image verified via Wikidata P18 (Scindia Ghat (3620381973).jpg, CC BY-SA 2.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_shitala_ghat",
+    "name": "Shitala Ghat",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "historical_monument",
+    "primary_entity_type": "monument",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "SUPPORTED",
+    "evidence": [
+      "Name 'Shitala Ghat' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 35.6m)",
+      "Classification plausible with upstream evidence ['osm:tourism=attraction', 'overture:sports_and_recreation_venue']",
+      "Image license confirmed: CC BY-SA 3.0"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_shree_annapurna_restaurant",
+    "name": "Shree Annapurna Restaurant",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Shree Annapurna Restaurant' supported by upstream record",
+      "Coordinates supported within 194.3m (Overture: 194.3m)",
+      "Classification 'food/restaurant' supported by ['overture:indian_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_shree_ganesha_palace",
+    "name": "Shree Ganesha Palace",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "monument",
+    "primary_entity_type": "palace",
+    "sources_checked": [
+      "overture",
+      "wikidata"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Shree Ganesha Palace' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (Overture: 22.5m, Wikidata: 0.0m)",
+      "Classification 'heritage/palace' supported by ['overture:hotel', 'wikidata:heritage', 'desc:hotel in varanasi, india']",
+      "Wikidata QID Q111861483 confirmed (shree ganesha palace)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_shri_priyas",
+    "name": "Shri Priya's",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Shri Priya's' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:yoga_studio']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_silk_khazana_best_saree_shop",
+    "name": "Silk Khazana - Best Saree Shop",
+    "tier": "discovery",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Silk Khazana - Best Saree Shop' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'shopping/shop' supported by ['overture:gift_shop']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_silk_saree_shop_silk_khazana",
+    "name": "Silk Saree shop - Silk Khazana",
+    "tier": "discovery",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Silk Saree shop - Silk Khazana' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_siwon_lassi",
+    "name": "Siwon Lassi",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Siwon Lassi' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_st_marys_cathedral",
+    "name": "St. Mary\u2019s Cathedral",
+    "tier": "core_destination",
+    "category": "religious",
+    "subcategory": "place_of_worship",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'St. Mary\u2019s Cathedral' confirmed across 3 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 6.8m, Overture: 14.0m, Wikidata: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['osm:amenity=place_of_worship', 'overture:catholic_church', 'wikidata:religious', 'desc:religious church building loca']",
+      "Wikidata QID Q26053238 confirmed (st. mary\u2019s cathedral)",
+      "Image verified via Wikidata P18 (Saint Mary's Cathedral in Varanasi-1.jpg, Public domain)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_the_chocolate_heaven",
+    "name": "The Chocolate Heaven",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'The Chocolate Heaven' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 7.9m)",
+      "Classification 'cafe/cafe' supported by ['osm:amenity=cafe', 'overture:chocolatier']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_the_terrace",
+    "name": "The Terrace",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'The Terrace' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_the_turning_point_dry_cleaners_laundromat",
+    "name": "The Turning Point Dry Cleaners & Laundromat",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'The Turning Point Dry Cleaners & Laundromat' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:dry_cleaning']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_tit_bit_cafe_at_home",
+    "name": "Tit Bit cafe at home",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Tit Bit cafe at home' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 9.3m)",
+      "Classification 'cafe/cafe' supported by ['osm:amenity=cafe', 'overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_tulsi_manas_mandir",
+    "name": "Tulsi Manas Mandir",
+    "tier": "core_destination",
+    "category": "religious",
+    "subcategory": "place_of_worship",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Tulsi Manas Mandir' confirmed across 3 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 6.4m, Overture: 67.6m, Wikidata: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['osm:amenity=place_of_worship', 'overture:hindu_temple', 'wikidata:religious', 'desc:temple in india']",
+      "Wikidata QID Q19899048 confirmed (tulsi manas mandir)",
+      "Image verified via Wikidata P18 (Manas Mandir.jpg, CC BY-SA 4.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_varanasi_packages_tour_and_other_services",
+    "name": "Varanasi Packages Tour and Other Services",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Varanasi Packages Tour and Other Services' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'park/park' supported by ['overture:water_park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_world_cuisines",
+    "name": "World Cuisines",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'World Cuisines' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_zenith_library",
+    "name": "Zenith Library",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Zenith Library' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:library']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_\u0936\u0930_\u0915\u091a\u091a_\u092c\u092c_\u091c\u0932\u0939\u092a\u0930_\u0935\u0930\u0923\u0938",
+    "name": "\u0936\u094d\u0930\u0940 \u0915\u091a\u094d\u091a\u093e \u092c\u093e\u092c\u093e \u091c\u093e\u0932\u094d\u0939\u0942\u092a\u0941\u0930 \u0935\u093e\u0930\u093e\u0923\u0938\u0940",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name '\u0936\u094d\u0930\u0940 \u0915\u091a\u094d\u091a\u093e \u092c\u093e\u092c\u093e \u091c\u093e\u0932\u094d\u0939\u0942\u092a\u0941\u0930 \u0935\u093e\u0930\u093e\u0923\u0938\u0940' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:religious_organization']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_up_varanasi_\u0938\u092e\u0930\u091f_\u0905\u0936\u0915_\u092c\u0926\u0927\u0935\u0939\u0930_\u0938\u0930\u0928\u0925\u0909\u092a\u0930",
+    "name": "\u0938\u092e\u094d\u0930\u093e\u091f \u0905\u0936\u094b\u0915 \u092c\u0941\u0926\u094d\u0927\u0935\u093f\u0939\u093e\u0930 \u0938\u093e\u0930\u0928\u093e\u0925,\u0909.\u092a\u094d\u0930",
+    "tier": "recommended",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name '\u0938\u092e\u094d\u0930\u093e\u091f \u0905\u0936\u094b\u0915 \u092c\u0941\u0926\u094d\u0927\u0935\u093f\u0939\u093e\u0930 \u0938\u093e\u0930\u0928\u093e\u0925,\u0909.\u092a\u094d\u0930' supported by upstream record",
+      "Coordinates verified within 6.4m (Overture: 6.4m)",
+      "Classification 'experience/experience' supported by ['overture:history_museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  }
+]

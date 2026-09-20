@@ -1,0 +1,30 @@
+{
+  "city": "Gulmarg",
+  "state": "Jammu And Kashmir",
+  "country": "India",
+  "version": "v3",
+  "summary": {
+    "wikivoyage_total_see_do": 6,
+    "wikivoyage_missing_count": 1,
+    "wikidata_total_attractions": 7,
+    "wikidata_missing_count": 0,
+    "by_outcome": {
+      "quarantined": 1
+    }
+  },
+  "missing_wikivoyage_listings": [
+    {
+      "name": "Baba Reshi Shrine",
+      "source": "wikivoyage",
+      "source_id": "wv_gulmarg_baba_reshi_shrine",
+      "wikidata_id": null,
+      "coordinates": [
+        34.077239,
+        74.392333
+      ],
+      "outcome": "quarantined",
+      "details": "Quarantined: ['low_quality_score:0.285<0.3']"
+    }
+  ],
+  "missing_wikidata_attractions": []
+}

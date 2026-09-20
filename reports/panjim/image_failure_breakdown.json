@@ -1,0 +1,83 @@
+{
+  "city": "panjim",
+  "total_core_destinations": 60,
+  "core_with_image": 50,
+  "core_missing_image": 10,
+  "failure_reasons_summary": {
+    "no_wikidata": 6,
+    "wikipedia_no_image": 2,
+    "no_P18": 2
+  },
+  "failed_destinations": [
+    {
+      "id": "yc_in_ga_panjim_sharada_mandir_school",
+      "name": "Sharada Mandir School",
+      "category": "religious",
+      "wikidata_id": "Q7489372",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_ga_panjim_mormugao_fort",
+      "name": "Mormugão Fort",
+      "category": "heritage",
+      "wikidata_id": "Q10283625",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_ga_panjim_fortification_of_tiswadi_island",
+      "name": "Fortification of Tiswadi Island",
+      "category": "heritage",
+      "wikidata_id": "Q10283797",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_ga_panjim_state_bank_of_india_fort_aguada_goa_branch",
+      "name": "State Bank of India, Fort Aguada, Goa branch",
+      "category": "heritage",
+      "wikidata_id": "Q65979405",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_ga_panjim_dharohar_national_museum_of_customs_and_gst",
+      "name": "Dharohar: National Museum of Customs and GST",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_ga_panjim_1901_goa_ferry_disaster_memorial",
+      "name": "1901 Goa Ferry Disaster Memorial",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_ga_panjim_snow_park",
+      "name": "Snow Park",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_ga_panjim_siridao_beach",
+      "name": "Siridao Beach",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_ga_panjim_benz_wax_museum",
+      "name": "Benz Wax Museum",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_ga_panjim_refos_food_palace",
+      "name": "Refo's Food Palace",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "city": "Panjim",
+  "state": "Goa",
+  "country": "India",
+  "version": "v3",
+  "summary": {
+    "wikivoyage_total_see_do": 18,
+    "wikivoyage_missing_count": 12,
+    "wikidata_total_attractions": 69,
+    "wikidata_missing_count": 2,
+    "by_outcome": {
+      "coordinate_problem": 12,
+      "other": 2
+    }
+  },
+  "missing_wikivoyage_listings": [
+    {
+      "name": "Kala Academy",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_kala_academy",
+      "wikidata_id": "Q16851397",
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Gallery Gitanjali",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_gallery_gitanjali",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Gallery Boa Arte",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_gallery_boa_arte",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Picturesque",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_picturesque",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Centro de Língua Portuguesa/Instituto Camões",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_centro_de_lingua_portuguesainstituto_camoes",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Dempo Centre for Indo-Portuguese Studies",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_dempo_centre_for_indo_portuguese_studies",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Fundação Cidade de Lisboa",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_fundacao_cidade_de_lisboa",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Fundação Oriente Delegation in India",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_fundacao_oriente_delegation_in_india",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Indo Portuguese Friendship Society",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_indo_portuguese_friendship_society",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Casino Caravela",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_casino_caravela",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Dive Goa",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_dive_goa",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Barracuda Diving",
+      "source": "wikivoyage",
+      "source_id": "wv_panjim_barracuda_diving",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    }
+  ],
+  "missing_wikidata_attractions": [
+    {
+      "name": "Kala Academy",
+      "source": "wikidata",
+      "source_id": "Q16851397",
+      "wikidata_id": "Q16851397",
+      "description": "building in india",
+      "coordinates": [
+        15.494284,
+        73.817694
+      ],
+      "outcome": "other",
+      "details": ""
+    },
+    {
+      "name": "Upper Aguada Fort",
+      "source": "wikidata",
+      "source_id": "Q56458685",
+      "wikidata_id": "Q56458685",
+      "description": "building in india",
+      "coordinates": [
+        15.492247,
+        73.773919
+      ],
+      "outcome": "other",
+      "details": ""
+    }
+  ]
+}

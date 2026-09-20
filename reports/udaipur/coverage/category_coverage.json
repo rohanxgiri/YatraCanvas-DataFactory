@@ -1,0 +1,395 @@
+{
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "version": "v3",
+  "summary": {
+    "total_raw_candidates": 14311,
+    "total_unique_places": 7245,
+    "total_released_places": 2861,
+    "total_quarantined_places": 4384,
+    "total_rejected_places": 7066,
+    "duplicate_merges": 522,
+    "overall_retention_rate_pct": 39.5
+  },
+  "categories": {
+    "hotel": {
+      "raw_candidates": 1112,
+      "unique_after_dedup": 1110,
+      "released": 1110,
+      "quarantined": 0,
+      "rejected": 2,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "support": 1110
+      },
+      "subcategories": {
+        "hotel": {
+          "released": 1009,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "guest_house": {
+          "released": 9,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "hostel": {
+          "released": 24,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "resort": {
+          "released": 68,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "rejected": {
+          "released": 0,
+          "quarantined": 0,
+          "rejected": 2
+        }
+      }
+    },
+    "experience": {
+      "raw_candidates": 1078,
+      "unique_after_dedup": 1078,
+      "released": 1078,
+      "quarantined": 0,
+      "rejected": 0,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "discovery": 1066,
+        "recommended": 12
+      },
+      "subcategories": {
+        "general_poi": {
+          "released": 1078,
+          "quarantined": 0,
+          "rejected": 0
+        }
+      }
+    },
+    "food": {
+      "raw_candidates": 496,
+      "unique_after_dedup": 316,
+      "released": 316,
+      "quarantined": 0,
+      "rejected": 180,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "recommended": 303,
+        "discovery": 13
+      },
+      "subcategories": {
+        "restaurant": {
+          "released": 307,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "bakery": {
+          "released": 9,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "rejected": {
+          "released": 0,
+          "quarantined": 0,
+          "rejected": 180
+        }
+      }
+    },
+    "shopping": {
+      "raw_candidates": 1820,
+      "unique_after_dedup": 94,
+      "released": 94,
+      "quarantined": 0,
+      "rejected": 1726,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "recommended": 58,
+        "discovery": 36
+      },
+      "subcategories": {
+        "bazaar": {
+          "released": 18,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "shop": {
+          "released": 60,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "shopping_mall": {
+          "released": 16,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "rejected": {
+          "released": 0,
+          "quarantined": 0,
+          "rejected": 1726
+        }
+      }
+    },
+    "cafe": {
+      "raw_candidates": 69,
+      "unique_after_dedup": 69,
+      "released": 69,
+      "quarantined": 0,
+      "rejected": 0,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "recommended": 69
+      },
+      "subcategories": {
+        "coffee_shop": {
+          "released": 69,
+          "quarantined": 0,
+          "rejected": 0
+        }
+      }
+    },
+    "heritage": {
+      "raw_candidates": 68,
+      "unique_after_dedup": 68,
+      "released": 68,
+      "quarantined": 0,
+      "rejected": 0,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "core_destination": 34,
+        "discovery": 33,
+        "recommended": 1
+      },
+      "subcategories": {
+        "attraction": {
+          "released": 15,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "palace": {
+          "released": 10,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "monument": {
+          "released": 10,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "historical_monument": {
+          "released": 25,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "ruin": {
+          "released": 3,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "fort": {
+          "released": 2,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "gate": {
+          "released": 3,
+          "quarantined": 0,
+          "rejected": 0
+        }
+      }
+    },
+    "religious": {
+      "raw_candidates": 42,
+      "unique_after_dedup": 42,
+      "released": 42,
+      "quarantined": 0,
+      "rejected": 0,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "core_destination": 12,
+        "recommended": 30
+      },
+      "subcategories": {
+        "place_of_worship": {
+          "released": 16,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "hindu_temple": {
+          "released": 23,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "gurudwara": {
+          "released": 1,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "church": {
+          "released": 1,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "mosque": {
+          "released": 1,
+          "quarantined": 0,
+          "rejected": 0
+        }
+      }
+    },
+    "park": {
+      "raw_candidates": 27,
+      "unique_after_dedup": 22,
+      "released": 22,
+      "quarantined": 0,
+      "rejected": 5,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "core_destination": 5,
+        "recommended": 16,
+        "discovery": 1
+      },
+      "subcategories": {
+        "garden": {
+          "released": 12,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "urban_park": {
+          "released": 10,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "rejected": {
+          "released": 0,
+          "quarantined": 0,
+          "rejected": 5
+        }
+      }
+    },
+    "nature": {
+      "raw_candidates": 19,
+      "unique_after_dedup": 19,
+      "released": 19,
+      "quarantined": 0,
+      "rejected": 0,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "core_destination": 9,
+        "discovery": 10
+      },
+      "subcategories": {
+        "lake": {
+          "released": 19,
+          "quarantined": 0,
+          "rejected": 0
+        }
+      }
+    },
+    "arts_culture": {
+      "raw_candidates": 19,
+      "unique_after_dedup": 19,
+      "released": 19,
+      "quarantined": 0,
+      "rejected": 0,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "recommended": 19
+      },
+      "subcategories": {
+        "art_gallery": {
+          "released": 19,
+          "quarantined": 0,
+          "rejected": 0
+        }
+      }
+    },
+    "museum": {
+      "raw_candidates": 18,
+      "unique_after_dedup": 17,
+      "released": 17,
+      "quarantined": 0,
+      "rejected": 1,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "core_destination": 3,
+        "discovery": 14
+      },
+      "subcategories": {
+        "history_museum": {
+          "released": 6,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "heritage_museum": {
+          "released": 11,
+          "quarantined": 0,
+          "rejected": 0
+        },
+        "rejected": {
+          "released": 0,
+          "quarantined": 0,
+          "rejected": 1
+        }
+      }
+    },
+    "transport": {
+      "raw_candidates": 7,
+      "unique_after_dedup": 7,
+      "released": 7,
+      "quarantined": 0,
+      "rejected": 0,
+      "retention_rate_pct": 100.0,
+      "tiers": {
+        "support": 7
+      },
+      "subcategories": {
+        "station": {
+          "released": 7,
+          "quarantined": 0,
+          "rejected": 0
+        }
+      }
+    },
+    "unknown": {
+      "raw_candidates": 4390,
+      "unique_after_dedup": 4384,
+      "released": 0,
+      "quarantined": 4384,
+      "rejected": 6,
+      "retention_rate_pct": 0.0,
+      "tiers": {},
+      "subcategories": {
+        "general": {
+          "released": 0,
+          "quarantined": 4384,
+          "rejected": 0
+        },
+        "rejected": {
+          "released": 0,
+          "quarantined": 0,
+          "rejected": 6
+        }
+      }
+    },
+    "rejected_other": {
+      "raw_candidates": 5146,
+      "unique_after_dedup": 0,
+      "released": 0,
+      "quarantined": 0,
+      "rejected": 5146,
+      "retention_rate_pct": 0.0,
+      "tiers": {},
+      "subcategories": {
+        "rejected": {
+          "released": 0,
+          "quarantined": 0,
+          "rejected": 5146
+        }
+      }
+    }
+  }
+}

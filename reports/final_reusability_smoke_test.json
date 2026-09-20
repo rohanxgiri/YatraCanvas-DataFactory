@@ -1,0 +1,322 @@
+{
+  "title": "YatraCanvas DataFactory \u2014 Final Reusability Smoke Test Report",
+  "generated_at": "2026-09-19T20:04:19.141608+00:00",
+  "status": "COMPLETED",
+  "architecture_verdict": "READY_FOR_YATRACANVAS_INTEGRATION",
+  "executive_summary": {
+    "cities_evaluated": 2,
+    "overall_status": "READY_FOR_YATRACANVAS_INTEGRATION",
+    "gulmarg_verdict": "READY_FOR_INTEGRATION",
+    "mcleod_ganj_verdict": "READY_FOR_INTEGRATION",
+    "wrong_state_leakage": 0,
+    "category_conflicts": 0,
+    "transit_false_positives": 0,
+    "hotel_park_cafe_mismatches": 0,
+    "total_places_released": 1096,
+    "search_p10_average": 95.9,
+    "discovery_relevance_average": 100.0,
+    "core_image_coverage_average": 75.7,
+    "core_wikidata_coverage_average": 55.8
+  },
+  "destinations": {
+    "gulmarg": {
+      "requested": {
+        "city": "Gulmarg",
+        "state": "Jammu and Kashmir",
+        "country": "India"
+      },
+      "resolution": {
+        "resolved_name": "Gulmarg",
+        "resolved_state": "Jammu And Kashmir",
+        "resolved_country": "India",
+        "resolution_source": "nominatim_osm",
+        "resolution_confidence": 0.9,
+        "center": [
+          34.04897,
+          74.39212
+        ],
+        "bbox": [
+          74.31212,
+          33.96897,
+          74.47212,
+          34.12897
+        ],
+        "state_match_status": "EXACT_MATCH",
+        "country_match_status": "EXACT_MATCH"
+      },
+      "raw_extraction": {
+        "openstreetmap": 49,
+        "overture": 368,
+        "wikidata": 7,
+        "wikivoyage": 10
+      },
+      "pack_breakdown": {
+        "total_released": 84,
+        "core_destinations": 10,
+        "recommended": 11,
+        "discovery": 20,
+        "support": 43,
+        "categories": {
+          "hotel": 42,
+          "experience": 16,
+          "heritage": 11,
+          "food": 8,
+          "shopping": 3,
+          "cafe": 2,
+          "religious": 1,
+          "transport": 1
+        }
+      },
+      "travel_survival": {
+        "wikivoyage_see_do_pct": 83.3,
+        "wikidata_attractions_pct": 85.7,
+        "osm_tourism_historic_pct": 14.8
+      },
+      "quality_and_enrichment": {
+        "core_image_count": 9,
+        "core_image_pct": 90.0,
+        "core_wikidata_count": 6,
+        "core_wikidata_pct": 60.0,
+        "duplicate_merges": 45,
+        "quarantined_low_quality": 155,
+        "rejected_non_travel": 149
+      },
+      "geographic_integrity": {
+        "grid_cells_total": 64,
+        "grid_cells_active": 15,
+        "places_within_grid": 83,
+        "places_outside_grid": 1,
+        "suspicious_concentration": false,
+        "wrong_state_leakage": 0,
+        "center_distance_max_km": 4.8
+      },
+      "search_benchmark": {
+        "precision_at_5": 91.7,
+        "precision_at_10": 91.7,
+        "name_search_precision": 100.0,
+        "spot_check_relevance": 97.2,
+        "discovery_relevance": 100.0,
+        "quarantine_leakage": 0,
+        "duplicate_leakage": 0
+      },
+      "transit_and_semantics": {
+        "transit_count": 1,
+        "transit_places": [
+          "Gulmarg Bus Stand"
+        ],
+        "transit_false_positives": 0,
+        "hotel_misclassified_as_park_or_cafe": 0
+      },
+      "independent_verification": {
+        "sampled_count": 46,
+        "verified": 6,
+        "supported": 36,
+        "unverified": 4,
+        "conflicts": 0,
+        "identity_conflicts": 0,
+        "category_conflicts": 0,
+        "coordinate_conflicts": 0,
+        "image_conflicts": 0
+      },
+      "verdict": "READY_FOR_INTEGRATION",
+      "verdict_notes": "Flawless resolution via OSM/Nominatim small-town fallback. Core image coverage reached 90.0%, 0 conflicts, 0 wrong-state leakage."
+    },
+    "mcleod_ganj": {
+      "requested": {
+        "city": "McLeod Ganj",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "resolution": {
+        "resolved_name": "Mcleod Ganj",
+        "resolved_state": "Himachal Pradesh",
+        "resolved_country": "India",
+        "resolution_source": "nominatim_osm",
+        "resolution_confidence": 0.9,
+        "center": [
+          32.235267,
+          76.326238
+        ],
+        "bbox": [
+          76.246238,
+          32.155267,
+          76.406238,
+          32.315267
+        ],
+        "state_match_status": "EXACT_MATCH",
+        "country_match_status": "EXACT_MATCH"
+      },
+      "raw_extraction": {
+        "openstreetmap": 669,
+        "overture": 2603,
+        "wikidata": 28,
+        "wikivoyage": 73
+      },
+      "pack_breakdown": {
+        "total_released": 1012,
+        "core_destinations": 31,
+        "recommended": 216,
+        "discovery": 228,
+        "support": 537,
+        "categories": {
+          "hotel": 529,
+          "experience": 200,
+          "food": 117,
+          "cafe": 74,
+          "heritage": 28,
+          "religious": 18,
+          "shopping": 16,
+          "museum": 12,
+          "transport": 8,
+          "nature": 5,
+          "arts_culture": 3,
+          "entertainment": 1,
+          "park": 1
+        }
+      },
+      "travel_survival": {
+        "wikivoyage_see_do_pct": 60.0,
+        "wikidata_attractions_pct": 100.0,
+        "osm_tourism_historic_pct": 50.4
+      },
+      "quality_and_enrichment": {
+        "core_image_count": 19,
+        "core_image_pct": 61.3,
+        "core_wikidata_count": 16,
+        "core_wikidata_pct": 51.6,
+        "duplicate_merges": 347,
+        "quarantined_low_quality": 1193,
+        "rejected_non_travel": 821
+      },
+      "geographic_integrity": {
+        "grid_cells_total": 64,
+        "grid_cells_active": 42,
+        "places_within_grid": 1000,
+        "places_outside_grid": 12,
+        "suspicious_concentration": false,
+        "wrong_state_leakage": 0,
+        "center_distance_max_km": 6.1
+      },
+      "search_benchmark": {
+        "precision_at_5": 100.0,
+        "precision_at_10": 100.0,
+        "name_search_precision": 100.0,
+        "category_search_precision": 100.0,
+        "spot_check_relevance": 98.5,
+        "discovery_relevance": 100.0,
+        "quarantine_leakage": 0,
+        "duplicate_leakage": 0
+      },
+      "transit_and_semantics": {
+        "transit_count": 8,
+        "transit_places": [
+          "Gaggal Airport",
+          "Kangra Airport",
+          "Dharamsala Airport",
+          "Dharamsala Skyway (upper station)",
+          "Dharamsala Skyway (lower station)",
+          "Dharamsala Private Volvo Stop",
+          "Auto-rickshaw counter",
+          "Taxi cab counter"
+        ],
+        "transit_false_positives": 0,
+        "hotel_misclassified_as_park_or_cafe": 0
+      },
+      "independent_verification": {
+        "sampled_count": 92,
+        "verified": 7,
+        "supported": 77,
+        "unverified": 8,
+        "conflicts": 0,
+        "identity_conflicts": 0,
+        "category_conflicts": 0,
+        "coordinate_conflicts": 0,
+        "image_conflicts": 0
+      },
+      "verdict": "READY_FOR_INTEGRATION",
+      "verdict_notes": "Generic candidate normalization matched Wikivoyage 'Dharamshala' article discovering 73 travel listings. 100% Wikidata recall, 100% Search P@10, 0 conflicts."
+    }
+  },
+  "all_tested_destinations_readiness": [
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "places": 10060,
+      "core": 80,
+      "p10": 99.5,
+      "disc_rel": 100.0,
+      "conflicts": 0,
+      "verdict": "READY_FOR_INTEGRATION"
+    },
+    {
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "places": 2861,
+      "core": 63,
+      "p10": 100.0,
+      "disc_rel": 100.0,
+      "conflicts": 0,
+      "verdict": "READY_FOR_INTEGRATION"
+    },
+    {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "places": 2937,
+      "core": 131,
+      "p10": 97.4,
+      "disc_rel": 100.0,
+      "conflicts": 1,
+      "verdict": "READY_WITH_MINOR_WARNINGS"
+    },
+    {
+      "city": "Manali",
+      "state": "Himachal Pradesh",
+      "places": 1702,
+      "core": 13,
+      "p10": 100.0,
+      "disc_rel": 100.0,
+      "conflicts": 1,
+      "verdict": "READY_WITH_MINOR_WARNINGS"
+    },
+    {
+      "city": "Rishikesh",
+      "state": "Uttarakhand",
+      "places": 1409,
+      "core": 15,
+      "p10": 98.0,
+      "disc_rel": 100.0,
+      "conflicts": 0,
+      "verdict": "READY_FOR_INTEGRATION"
+    },
+    {
+      "city": "Panaji",
+      "state": "Goa",
+      "places": 3753,
+      "core": 60,
+      "p10": 96.2,
+      "disc_rel": 100.0,
+      "conflicts": 0,
+      "verdict": "READY_FOR_INTEGRATION"
+    },
+    {
+      "city": "Gulmarg",
+      "state": "Jammu and Kashmir",
+      "places": 84,
+      "core": 10,
+      "p10": 91.7,
+      "disc_rel": 100.0,
+      "conflicts": 0,
+      "verdict": "READY_FOR_INTEGRATION"
+    },
+    {
+      "city": "McLeod Ganj",
+      "state": "Himachal Pradesh",
+      "places": 1012,
+      "core": 31,
+      "p10": 100.0,
+      "disc_rel": 100.0,
+      "conflicts": 0,
+      "verdict": "READY_FOR_INTEGRATION"
+    }
+  ]
+}

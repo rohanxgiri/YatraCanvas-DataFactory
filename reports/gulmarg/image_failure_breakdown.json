@@ -1,0 +1,18 @@
+{
+  "city": "gulmarg",
+  "total_core_destinations": 10,
+  "core_with_image": 9,
+  "core_missing_image": 1,
+  "failure_reasons_summary": {
+    "wikipedia_no_image": 1
+  },
+  "failed_destinations": [
+    {
+      "id": "yc_in_ja_gulmarg_gulmarg_golf_club",
+      "name": "Gulmarg Golf Club",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "wikipedia_no_image"
+    }
+  ]
+}

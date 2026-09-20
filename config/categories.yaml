@@ -1,0 +1,331 @@
+# YatraCanvas Category Taxonomy & Mapping Rules
+
+canonical_categories:
+  heritage:
+    subcategories:
+      - fort
+      - palace
+      - historical_monument
+      - ruin
+      - memorial
+      - arch
+      - stepwell
+      - gate
+    default_tags: ["heritage", "history", "architecture"]
+
+  religious:
+    subcategories:
+      - hindu_temple
+      - mosque
+      - church
+      - gurudwara
+      - jain_temple
+      - buddhist_temple
+      - shrine
+      - place_of_worship
+    default_tags: ["spiritual", "religious", "culture"]
+
+  museum:
+    subcategories:
+      - art_museum
+      - history_museum
+      - science_museum
+      - heritage_museum
+      - cultural_centre
+      - planetarium
+    default_tags: ["museum", "culture", "education", "indoor"]
+
+  nature:
+    subcategories:
+      - lake
+      - hill
+      - waterfall
+      - wildlife
+      - sanctuary
+      - botanical_garden
+      - zoo
+    default_tags: ["nature", "outdoors", "scenic"]
+
+  park:
+    subcategories:
+      - garden
+      - urban_park
+      - amusement_park
+      - theme_park
+    default_tags: ["park", "recreation", "outdoors"]
+
+  viewpoint:
+    subcategories:
+      - scenic_viewpoint
+      - sunset_point
+      - observatory
+    default_tags: ["viewpoint", "scenic", "photography"]
+
+  food:
+    subcategories:
+      - restaurant
+      - fine_dining
+      - street_food
+      - traditional_dining
+      - sweets_shop
+      - bakery
+    default_tags: ["food", "dining", "local_cuisine"]
+
+  cafe:
+    subcategories:
+      - coffee_shop
+      - tea_house
+      - dessert_cafe
+      - rooftop_cafe
+    default_tags: ["cafe", "beverage", "hangout"]
+
+  shopping:
+    subcategories:
+      - bazaar
+      - craft_market
+      - night_market
+      - textile_market
+      - jewelry_market
+      - artisan_emporium
+      - shopping_mall
+    default_tags: ["shopping", "local_crafts", "souvenirs"]
+
+  arts_culture:
+    subcategories:
+      - theatre
+      - art_gallery
+      - cultural_venue
+      - performing_arts
+    default_tags: ["arts", "culture", "performance"]
+
+  entertainment:
+    subcategories:
+      - cinema
+      - multiplex
+      - entertainment_complex
+    default_tags: ["entertainment", "leisure"]
+
+  experience:
+    subcategories:
+      - heritage_walk
+      - cultural_village
+      - sound_and_light_show
+      - workshop
+      - adventure
+    default_tags: ["experience", "activity"]
+
+  hotel:
+    subcategories:
+      - heritage_hotel
+      - luxury_hotel
+      - boutique_hotel
+      - resort
+      - hotel
+      - guest_house
+      - hostel
+    default_tags: ["accommodation", "stay"]
+
+  transport:
+    subcategories:
+      - railway_station
+      - airport
+      - bus_station
+      - metro_station
+    default_tags: ["transport", "transit"]
+
+# Rules for rejecting non-travel places
+rejection_rules:
+  blocked_categories:
+    - atm
+    - bank
+    - bank_or_credit_union
+    - financial_service
+    - accounting_firm
+    - legal_services
+    - corporate_office
+    - corporate_or_business_office
+    - business_service
+    - commercial_office
+    - professional_service
+    - technical_service
+    - home_service
+    - personal_or_beauty_service
+    - real_estate_agency
+    - real_estate_service
+    - construction_site
+    - general_contractor
+    - parking
+    - parking_space
+    - ticket_counter
+    - public_restroom
+    - toilet
+    - gas_station
+    - petrol_station
+    - fuel
+    - car_repair
+    - car_wash
+    - vehicle_inspection
+    - automotive_service
+    - auto_dealer
+    - auto_parts_store
+    - tire_shop
+    - motorcycle_dealer
+    - motorcycle_repair
+    - coaching_centre
+    - coaching_class
+    - place_of_learning
+    - education
+    - specialty_school
+    - educational_institution_admin
+    - educational_service
+    - college_university
+    - preschool
+    - elementary_school
+    - middle_school
+    - high_school
+    - driving_school
+    - warehouse
+    - logistics_facility
+    - industrial
+    - manufacturing
+    - manufacturer
+    - factory
+    - utility
+    - electric_substation
+    - waste_disposal
+    - water_tower
+    - telecom_tower
+    - dentist
+    - dental_clinic
+    - pharmacy
+    - pharmacy_and_drug_store
+    - medical_clinic
+    - hospital
+    - hospital_admin
+    - specialized_health_care
+    - diagnostics_imaging_or_lab_service
+    - veterinary
+    - veterinary_care
+    - courier_service
+    - shipping_and_logistics
+    - post_office_admin
+    - dry_cleaner
+    - laundromat
+    - hardware_home_and_garden_store
+    - building_materials_store
+    - plumbing_service
+    - roofing_contractor
+    - pest_control
+    - gym
+    - fitness_center
+    - government_office
+    - public_and_government_association
+    - non_profit_organization
+    - event_or_party_service
+    - travel_service
+    - media_service
+    - wellness_service
+    - tutoring_service
+    - b2b_service
+    - supplier_or_distributor
+    - vehicle_parts_store
+    - design_service
+    - social_or_community_service
+    - fashion_and_apparel_store
+    - electronics_store
+    - food_and_beverage_store
+
+  blocked_name_patterns:
+    - '(?i)\b(parking|car park|motorcycle park)\b'
+    - '(?i)\b(ticket counter|ticket booth|entry gate \d+|exit gate \d+)\b'
+    - '(?i)\b(coaching|classes|institute of competitive|ias academy|tutorials)\b'
+    - '(?i)\b(atm|bank branch|mini atm)\b'
+    - '(?i)\b(godown|warehouse|logistics hub)\b'
+    - '(?i)\b(substation|power station|grid station)\b'
+    - '(?i)\b(police station|police booth|police chowki)\b'
+    - '(?i)\b(petrol pump|fuel station|cng station)\b'
+    - '(?i)\b(xerox|photocopy|copier|flex print)\b'
+
+  # Whitelist exceptions to avoid false positives (e.g. Ajmeri Gate, Chandpole Gate are historic gates, not parking ticket booths)
+  whitelist_name_patterns:
+    - '(?i)\b(pole|darwaza|gate)\b'  # historic gates in Indian cities like Ajmeri Gate, Tripoliya Gate
+    - '(?i)\b(station|junction|airport)\b'
+
+# Source mapping definitions
+source_mappings:
+  overture:
+    # Basic category / primary taxonomy mappings
+    palace: { category: "heritage", subcategory: "palace" }
+    castle: { category: "heritage", subcategory: "fort" }
+    fort: { category: "heritage", subcategory: "fort" }
+    monument: { category: "heritage", subcategory: "historical_monument" }
+    historic_site: { category: "heritage", subcategory: "historical_monument" }
+    memorial: { category: "heritage", subcategory: "memorial" }
+    museum: { category: "museum", subcategory: "heritage_museum" }
+    art_gallery: { category: "arts_culture", subcategory: "art_gallery" }
+    place_of_worship: { category: "religious", subcategory: "place_of_worship" }
+    hindu_temple: { category: "religious", subcategory: "hindu_temple" }
+    mosque: { category: "religious", subcategory: "mosque" }
+    church: { category: "religious", subcategory: "church" }
+    synagogue: { category: "religious", subcategory: "place_of_worship" }
+    park: { category: "park", subcategory: "urban_park" }
+    garden: { category: "park", subcategory: "garden" }
+    botanical_garden: { category: "nature", subcategory: "botanical_garden" }
+    zoo: { category: "nature", subcategory: "zoo" }
+    scenic_viewpoint: { category: "viewpoint", subcategory: "scenic_viewpoint" }
+    lake: { category: "nature", subcategory: "lake" }
+    waterfall: { category: "nature", subcategory: "waterfall" }
+    restaurant: { category: "food", subcategory: "restaurant" }
+    cafe: { category: "cafe", subcategory: "coffee_shop" }
+    coffee_shop: { category: "cafe", subcategory: "coffee_shop" }
+    tea_house: { category: "cafe", subcategory: "tea_house" }
+    bakery: { category: "food", subcategory: "bakery" }
+    shopping_mall: { category: "shopping", subcategory: "shopping_mall" }
+    market: { category: "shopping", subcategory: "bazaar" }
+    hotel: { category: "hotel", subcategory: "hotel" }
+    resort: { category: "hotel", subcategory: "resort" }
+    hostel: { category: "hotel", subcategory: "hostel" }
+    train_station: { category: "transport", subcategory: "railway_station" }
+    airport: { category: "transport", subcategory: "airport" }
+    bus_station: { category: "transport", subcategory: "bus_station" }
+
+  osm:
+    # tourism tag
+    tourism:
+      attraction: { category: "heritage", subcategory: "historical_monument" }
+      museum: { category: "museum", subcategory: "history_museum" }
+      gallery: { category: "arts_culture", subcategory: "art_gallery" }
+      viewpoint: { category: "viewpoint", subcategory: "scenic_viewpoint" }
+      zoo: { category: "nature", subcategory: "zoo" }
+      theme_park: { category: "park", subcategory: "theme_park" }
+      hotel: { category: "hotel", subcategory: "hotel" }
+      guest_house: { category: "hotel", subcategory: "guest_house" }
+      hostel: { category: "hotel", subcategory: "hostel" }
+
+    # historic tag
+    historic:
+      monument: { category: "heritage", subcategory: "historical_monument" }
+      memorial: { category: "heritage", subcategory: "memorial" }
+      castle: { category: "heritage", subcategory: "fort" }
+      fort: { category: "heritage", subcategory: "fort" }
+      palace: { category: "heritage", subcategory: "palace" }
+      ruins: { category: "heritage", subcategory: "ruin" }
+      archaeological_site: { category: "heritage", subcategory: "historical_monument" }
+      city_gate: { category: "heritage", subcategory: "gate" }
+      stepwell: { category: "heritage", subcategory: "stepwell" }
+
+    # amenity tag
+    amenity:
+      place_of_worship: { category: "religious", subcategory: "place_of_worship" }
+      restaurant: { category: "food", subcategory: "restaurant" }
+      cafe: { category: "cafe", subcategory: "coffee_shop" }
+      fast_food: { category: "food", subcategory: "street_food" }
+      theatre: { category: "arts_culture", subcategory: "theatre" }
+      cinema: { category: "entertainment", subcategory: "cinema" }
+      marketplace: { category: "shopping", subcategory: "bazaar" }
+
+    # leisure tag
+    leisure:
+      park: { category: "park", subcategory: "urban_park" }
+      garden: { category: "park", subcategory: "garden" }
+      nature_reserve: { category: "nature", subcategory: "wildlife" }

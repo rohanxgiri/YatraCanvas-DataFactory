@@ -1,0 +1,83 @@
+{
+  "city": "Panjim",
+  "state": "Goa",
+  "country": "India",
+  "version": "v3",
+  "total_raw_candidates": 12136,
+  "sources_count": {
+    "wikivoyage": 51,
+    "wikidata": 69,
+    "openstreetmap": 1674,
+    "overture": 10342
+  },
+  "accepted_places": 3753,
+  "rejected_places": 3434,
+  "quarantined_places": 3783,
+  "duplicate_merges": 1165,
+  "by_tier": {
+    "discovery": 989,
+    "core_destination": 60,
+    "support": 1752,
+    "recommended": 952
+  },
+  "by_tier_stats": {
+    "core_destination": {
+      "count": 60,
+      "with_wikidata": 54,
+      "with_wikipedia": 46,
+      "with_image": 50,
+      "with_hours": 2,
+      "with_website": 23,
+      "multi_source": 21
+    },
+    "recommended": {
+      "count": 952,
+      "with_wikidata": 0,
+      "with_wikipedia": 1,
+      "with_image": 0,
+      "with_hours": 89,
+      "with_website": 626,
+      "multi_source": 503
+    },
+    "discovery": {
+      "count": 989,
+      "with_wikidata": 1,
+      "with_wikipedia": 1,
+      "with_image": 1,
+      "with_hours": 3,
+      "with_website": 983,
+      "multi_source": 4
+    },
+    "support": {
+      "count": 1752,
+      "with_wikidata": 28,
+      "with_wikipedia": 2,
+      "with_image": 2,
+      "with_hours": 5,
+      "with_website": 1686,
+      "multi_source": 315
+    }
+  },
+  "image_coverage_pct": 1.4,
+  "with_images_count": 53,
+  "opening_hours_coverage_pct": 2.6,
+  "with_opening_hours_count": 99,
+  "wikidata_coverage_pct": 2.2,
+  "with_wikidata_count": 83,
+  "category_breakdown": {
+    "experience": 969,
+    "heritage": 65,
+    "museum": 10,
+    "religious": 48,
+    "hotel": 1751,
+    "food": 716,
+    "shopping": 54,
+    "cafe": 114,
+    "viewpoint": 2,
+    "park": 11,
+    "arts_culture": 11,
+    "entertainment": 1,
+    "transport": 1
+  },
+  "generated_at": "2026-09-19T19:46:13.559053+00:00"
+}

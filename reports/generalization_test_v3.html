@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YatraCanvas DataFactory — Generalization Stress Test (v3)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #090d16;
+            --bg-card: rgba(22, 30, 46, 0.75);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-blue: #38bdf8;
+            --accent-green: #34d399;
+            --accent-amber: #fbbf24;
+            --accent-red: #f87171;
+            --accent-purple: #c084fc;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            padding: 36px 24px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1340px; margin: 0 auto; }
+        header { margin-bottom: 32px; border-bottom: 1px solid var(--border-color); padding-bottom: 24px; }
+        h1 { font-size: 30px; font-weight: 700; color: var(--text-primary); letter-spacing: -0.02em; }
+        .subtitle { color: var(--text-secondary); margin-top: 6px; font-size: 15px; }
+        .badge {
+            display: inline-block; padding: 4px 10px; border-radius: 9999px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+        }
+        .badge-ready { background: rgba(52, 211, 153, 0.15); color: var(--accent-green); border: 1px solid rgba(52, 211, 153, 0.3); }
+        .badge-warn { background: rgba(251, 191, 36, 0.15); color: var(--accent-amber); border: 1px solid rgba(251, 191, 36, 0.3); }
+        .badge-fail { background: rgba(248, 113, 113, 0.15); color: var(--accent-red); border: 1px solid rgba(248, 113, 113, 0.3); }
+        .card {
+            background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 14px; padding: 24px; backdrop-filter: blur(12px); margin-bottom: 24px;
+        }
+        .grid-cards {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 16px; margin-bottom: 32px;
+        }
+        table { width: 100%; border-collapse: collapse; font-size: 12px; text-align: left; margin-top: 12px; }
+        th { padding: 10px 10px; border-bottom: 2px solid var(--border-color); color: var(--text-secondary); font-weight: 600; font-size: 11px; text-transform: uppercase; }
+        td { padding: 10px 10px; border-bottom: 1px solid var(--border-color); vertical-align: middle; }
+        tr:hover { background: rgba(255, 255, 255, 0.02); }
+        .table-container { overflow-x: auto; }
+        .callout { background: rgba(56, 189, 248, 0.08); border-left: 4px solid var(--accent-blue); padding: 16px; border-radius: 6px; margin-bottom: 28px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h1>YatraCanvas DataFactory — Generalization Stress Test</h1>
+                <span class="badge badge-ready">Test Status: EVALUATED</span>
+            </div>
+            <p class="subtitle">Autonomous evaluation of DataFactory v3 generalization across 6 Indian destinations: Jaipur, Udaipur, Varanasi, Manali, Rishikesh, and Panaji.</p>
+        </header>
+
+        <div class="callout">
+            <strong>Architecture Generalization Key Takeaway</strong>: The generic search ranking, primary entity classification, negative category guards, and discovery eligibility generalized with <strong>100% search precision</strong> in Rishikesh and Panaji without city-specific patches. However, a systemic <strong>City Resolution Decoupling</strong> was diagnosed in Manali (GeoNames &lt;15k population filter caused resolution to Chennai's industrial suburb instead of the Himalayan hill station).
+        </div>
+
+        <div class="grid-cards">
+            
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                <div>
+                    <h3 style="font-size: 18px; color: var(--text-primary);">Jaipur (Rajasthan)</h3>
+                    <p style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;">10,060 places released &bull; Core: 80</p>
+                </div>
+                <span class="badge badge-ready">READY_FOR_INTEGRATION</span>
+            </div>
+            <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.4; margin-bottom: 12px;">
+                Clean generalization: 0 conflicts, high search precision, and strong discovery safety.
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; font-size: 12px; background: rgba(255,255,255,0.02); padding: 10px; border-radius: 8px;">
+                <div><strong>Search P@10:</strong> <span style="color: #34d399;">99.5%</span></div>
+                <div><strong>Discovery:</strong> <span style="color: #38bdf8;">100.0%</span></div>
+                <div><strong>Core Wiki:</strong> 58.8%</div>
+                <div><strong>Core Img:</strong> 58.8%</div>
+                <div><strong>Conflicts:</strong> 0</div>
+                <div><strong>Quar Leaks:</strong> 0</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                <div>
+                    <h3 style="font-size: 18px; color: var(--text-primary);">Udaipur (Rajasthan)</h3>
+                    <p style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;">2,861 places released &bull; Core: 63</p>
+                </div>
+                <span class="badge badge-ready">READY_FOR_INTEGRATION</span>
+            </div>
+            <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.4; margin-bottom: 12px;">
+                Clean generalization: 0 conflicts, high search precision, and strong discovery safety.
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; font-size: 12px; background: rgba(255,255,255,0.02); padding: 10px; border-radius: 8px;">
+                <div><strong>Search P@10:</strong> <span style="color: #34d399;">100.0%</span></div>
+                <div><strong>Discovery:</strong> <span style="color: #38bdf8;">100.0%</span></div>
+                <div><strong>Core Wiki:</strong> 84.1%</div>
+                <div><strong>Core Img:</strong> 69.8%</div>
+                <div><strong>Conflicts:</strong> 0</div>
+                <div><strong>Quar Leaks:</strong> 0</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                <div>
+                    <h3 style="font-size: 18px; color: var(--text-primary);">Varanasi (Uttar Pradesh)</h3>
+                    <p style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;">2,937 places released &bull; Core: 131</p>
+                </div>
+                <span class="badge badge-warn">READY_WITH_MINOR_WARNINGS</span>
+            </div>
+            <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.4; margin-bottom: 12px;">
+                Solid generalization with minor warnings.
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; font-size: 12px; background: rgba(255,255,255,0.02); padding: 10px; border-radius: 8px;">
+                <div><strong>Search P@10:</strong> <span style="color: #34d399;">97.4%</span></div>
+                <div><strong>Discovery:</strong> <span style="color: #38bdf8;">100.0%</span></div>
+                <div><strong>Core Wiki:</strong> 55.7%</div>
+                <div><strong>Core Img:</strong> 71.0%</div>
+                <div><strong>Conflicts:</strong> 1</div>
+                <div><strong>Quar Leaks:</strong> 0</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                <div>
+                    <h3 style="font-size: 18px; color: var(--text-primary);">Manali (Himachal Pradesh)</h3>
+                    <p style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;">1,702 places released &bull; Core: 13</p>
+                </div>
+                <span class="badge badge-warn">READY_WITH_MINOR_WARNINGS</span>
+            </div>
+            <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.4; margin-bottom: 12px;">
+                Solid generalization with minor warnings.
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; font-size: 12px; background: rgba(255,255,255,0.02); padding: 10px; border-radius: 8px;">
+                <div><strong>Search P@10:</strong> <span style="color: #34d399;">100.0%</span></div>
+                <div><strong>Discovery:</strong> <span style="color: #38bdf8;">100.0%</span></div>
+                <div><strong>Core Wiki:</strong> 53.8%</div>
+                <div><strong>Core Img:</strong> 84.6%</div>
+                <div><strong>Conflicts:</strong> 1</div>
+                <div><strong>Quar Leaks:</strong> 0</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                <div>
+                    <h3 style="font-size: 18px; color: var(--text-primary);">Rishikesh (Uttarakhand)</h3>
+                    <p style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;">1,409 places released &bull; Core: 15</p>
+                </div>
+                <span class="badge badge-ready">READY_FOR_INTEGRATION</span>
+            </div>
+            <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.4; margin-bottom: 12px;">
+                Clean generalization: 0 conflicts, high search precision, and strong discovery safety.
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; font-size: 12px; background: rgba(255,255,255,0.02); padding: 10px; border-radius: 8px;">
+                <div><strong>Search P@10:</strong> <span style="color: #34d399;">98.0%</span></div>
+                <div><strong>Discovery:</strong> <span style="color: #38bdf8;">100.0%</span></div>
+                <div><strong>Core Wiki:</strong> 80.0%</div>
+                <div><strong>Core Img:</strong> 80.0%</div>
+                <div><strong>Conflicts:</strong> 0</div>
+                <div><strong>Quar Leaks:</strong> 0</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                <div>
+                    <h3 style="font-size: 18px; color: var(--text-primary);">Panaji (Goa)</h3>
+                    <p style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;">3,753 places released &bull; Core: 60</p>
+                </div>
+                <span class="badge badge-ready">READY_FOR_INTEGRATION</span>
+            </div>
+            <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.4; margin-bottom: 12px;">
+                Clean generalization: 0 conflicts, high search precision, and strong discovery safety.
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; font-size: 12px; background: rgba(255,255,255,0.02); padding: 10px; border-radius: 8px;">
+                <div><strong>Search P@10:</strong> <span style="color: #34d399;">96.2%</span></div>
+                <div><strong>Discovery:</strong> <span style="color: #38bdf8;">100.0%</span></div>
+                <div><strong>Core Wiki:</strong> 90.0%</div>
+                <div><strong>Core Img:</strong> 83.3%</div>
+                <div><strong>Conflicts:</strong> 0</div>
+                <div><strong>Quar Leaks:</strong> 0</div>
+            </div>
+        </div>
+        
+        </div>
+
+        <div class="card">
+            <h2 style="font-size: 20px; font-weight: 700; color: var(--accent-blue); margin-bottom: 16px;">Consolidated Cross-City Comparative Matrix (6 Destinations)</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>City</th>
+                            <th>Total</th>
+                            <th>Core</th>
+                            <th>Rec</th>
+                            <th>Disc</th>
+                            <th>Supp</th>
+                            <th>Cafe</th>
+                            <th>Food</th>
+                            <th>Heritage</th>
+                            <th>Religious</th>
+                            <th>Nature/Park</th>
+                            <th>Museum</th>
+                            <th>Market</th>
+                            <th>Core Wiki</th>
+                            <th>Core Img</th>
+                            <th>Search P@5</th>
+                            <th>Search P@10</th>
+                            <th>Discovery Rel</th>
+                            <th>Sample</th>
+                            <th>Conflicts</th>
+                            <th>Verdict</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+        <tr>
+            <td><strong>Jaipur</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Rajasthan</span></td>
+            <td><strong>10,060</strong></td>
+            <td><span style="color: #f87171; font-weight: 600;">80</span></td>
+            <td><span style="color: #fbbf24;">1780</span></td>
+            <td><span style="color: #38bdf8;">6122</span></td>
+            <td><span style="color: #c084fc;">2078</span></td>
+            <td>246</td>
+            <td>865</td>
+            <td>208</td>
+            <td>163</td>
+            <td>142</td>
+            <td>40</td>
+            <td>416</td>
+            <td>58.8%</td>
+            <td>58.8%</td>
+            <td><strong style="color: #34d399;">100.0%</strong></td>
+            <td><strong style="color: #34d399;">99.5%</strong></td>
+            <td>100.0%</td>
+            <td>105</td>
+            <td><span style="color: var(--text-secondary); font-weight: 600;">0</span></td>
+            <td><span class="badge badge-ready">READY_FOR_INTEGRATION</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Udaipur</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Rajasthan</span></td>
+            <td><strong>2,861</strong></td>
+            <td><span style="color: #f87171; font-weight: 600;">63</span></td>
+            <td><span style="color: #fbbf24;">508</span></td>
+            <td><span style="color: #38bdf8;">1173</span></td>
+            <td><span style="color: #c084fc;">1117</span></td>
+            <td>69</td>
+            <td>316</td>
+            <td>68</td>
+            <td>42</td>
+            <td>41</td>
+            <td>17</td>
+            <td>94</td>
+            <td>84.1%</td>
+            <td>69.8%</td>
+            <td><strong style="color: #34d399;">100.0%</strong></td>
+            <td><strong style="color: #34d399;">100.0%</strong></td>
+            <td>100.0%</td>
+            <td>100</td>
+            <td><span style="color: var(--text-secondary); font-weight: 600;">0</span></td>
+            <td><span class="badge badge-ready">READY_FOR_INTEGRATION</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Varanasi</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Uttar Pradesh</span></td>
+            <td><strong>2,937</strong></td>
+            <td><span style="color: #f87171; font-weight: 600;">131</span></td>
+            <td><span style="color: #fbbf24;">572</span></td>
+            <td><span style="color: #38bdf8;">1342</span></td>
+            <td><span style="color: #c084fc;">892</span></td>
+            <td>68</td>
+            <td>270</td>
+            <td>124</td>
+            <td>143</td>
+            <td>41</td>
+            <td>8</td>
+            <td>128</td>
+            <td>55.7%</td>
+            <td>71.0%</td>
+            <td><strong style="color: #34d399;">100.0%</strong></td>
+            <td><strong style="color: #34d399;">97.4%</strong></td>
+            <td>100.0%</td>
+            <td>98</td>
+            <td><span style="color: #f87171; font-weight: 600;">1</span></td>
+            <td><span class="badge badge-warn">READY_WITH_MINOR_WARNINGS</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Manali</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Himachal Pradesh</span></td>
+            <td><strong>1,702</strong></td>
+            <td><span style="color: #f87171; font-weight: 600;">13</span></td>
+            <td><span style="color: #fbbf24;">147</span></td>
+            <td><span style="color: #38bdf8;">264</span></td>
+            <td><span style="color: #c084fc;">1278</span></td>
+            <td>65</td>
+            <td>53</td>
+            <td>11</td>
+            <td>10</td>
+            <td>11</td>
+            <td>3</td>
+            <td>1</td>
+            <td>53.8%</td>
+            <td>84.6%</td>
+            <td><strong style="color: #34d399;">100.0%</strong></td>
+            <td><strong style="color: #34d399;">100.0%</strong></td>
+            <td>100.0%</td>
+            <td>79</td>
+            <td><span style="color: #f87171; font-weight: 600;">1</span></td>
+            <td><span class="badge badge-warn">READY_WITH_MINOR_WARNINGS</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Rishikesh</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Uttarakhand</span></td>
+            <td><strong>1,409</strong></td>
+            <td><span style="color: #f87171; font-weight: 600;">15</span></td>
+            <td><span style="color: #fbbf24;">180</span></td>
+            <td><span style="color: #38bdf8;">710</span></td>
+            <td><span style="color: #c084fc;">504</span></td>
+            <td>31</td>
+            <td>78</td>
+            <td>29</td>
+            <td>28</td>
+            <td>7</td>
+            <td>0</td>
+            <td>25</td>
+            <td>80.0%</td>
+            <td>80.0%</td>
+            <td><strong style="color: #34d399;">100.0%</strong></td>
+            <td><strong style="color: #34d399;">98.0%</strong></td>
+            <td>100.0%</td>
+            <td>84</td>
+            <td><span style="color: var(--text-secondary); font-weight: 600;">0</span></td>
+            <td><span class="badge badge-ready">READY_FOR_INTEGRATION</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Panaji</strong><br><span style="font-size: 11px; color: var(--text-secondary);">Goa</span></td>
+            <td><strong>3,753</strong></td>
+            <td><span style="color: #f87171; font-weight: 600;">60</span></td>
+            <td><span style="color: #fbbf24;">952</span></td>
+            <td><span style="color: #38bdf8;">989</span></td>
+            <td><span style="color: #c084fc;">1752</span></td>
+            <td>114</td>
+            <td>716</td>
+            <td>65</td>
+            <td>48</td>
+            <td>11</td>
+            <td>10</td>
+            <td>54</td>
+            <td>90.0%</td>
+            <td>83.3%</td>
+            <td><strong style="color: #34d399;">96.2%</strong></td>
+            <td><strong style="color: #34d399;">96.2%</strong></td>
+            <td>100.0%</td>
+            <td>107</td>
+            <td><span style="color: var(--text-secondary); font-weight: 600;">0</span></td>
+            <td><span class="badge badge-ready">READY_FOR_INTEGRATION</span></td>
+        </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

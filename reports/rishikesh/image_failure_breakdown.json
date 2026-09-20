@@ -1,0 +1,33 @@
+{
+  "city": "rishikesh",
+  "total_core_destinations": 15,
+  "core_with_image": 12,
+  "core_missing_image": 3,
+  "failure_reasons_summary": {
+    "no_wikidata": 2,
+    "no_P18": 1
+  },
+  "failed_destinations": [
+    {
+      "id": "yc_in_uk_rishikesh_india_heritage_research_foundation",
+      "name": "India Heritage Research Foundation",
+      "category": "heritage",
+      "wikidata_id": "Q30268098",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_uk_rishikesh_neelkanth_mahadev_mela",
+      "name": "Neelkanth Mahadev Mela",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_uk_rishikesh_swarg_ashram",
+      "name": "Swarg Ashram",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    }
+  ]
+}

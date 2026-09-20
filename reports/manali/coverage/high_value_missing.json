@@ -1,0 +1,240 @@
+{
+  "city": "Manali",
+  "state": "Himachal Pradesh",
+  "country": "India",
+  "version": "v3",
+  "summary": {
+    "wikivoyage_total_see_do": 20,
+    "wikivoyage_missing_count": 16,
+    "wikidata_total_attractions": 20,
+    "wikidata_missing_count": 2,
+    "by_outcome": {
+      "outside_city_boundary": 3,
+      "coordinate_problem": 10,
+      "quarantined": 1,
+      "other": 4
+    }
+  },
+  "missing_wikivoyage_listings": [
+    {
+      "name": "Rohtang Pass",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_rohtang_pass",
+      "wikidata_id": null,
+      "coordinates": [
+        32.37164,
+        77.24662
+      ],
+      "outcome": "outside_city_boundary",
+      "details": "Quarantined outside resolved city bounding envelope"
+    },
+    {
+      "name": "Beas Kund",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_beas_kund",
+      "wikidata_id": null,
+      "coordinates": [
+        32.36645,
+        77.0855
+      ],
+      "outcome": "outside_city_boundary",
+      "details": "Quarantined outside resolved city bounding envelope"
+    },
+    {
+      "name": "Fun park",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_fun_park",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Gauri Shankar Temple",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_gauri_shankar_temple",
+      "wikidata_id": null,
+      "coordinates": [
+        32.11312,
+        77.16416
+      ],
+      "outcome": "outside_city_boundary",
+      "details": "Quarantined outside resolved city bounding envelope"
+    },
+    {
+      "name": "Maa Sharvari Temple",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_maa_sharvari_temple",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Monasteries",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_monasteries",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Museum of Himachal Culture & Folk Art",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_museum_of_himachal_culture_folk_art",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Rahala waterfalls",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_rahala_waterfalls",
+      "wikidata_id": null,
+      "coordinates": [
+        32.33655,
+        77.21851
+      ],
+      "outcome": "quarantined",
+      "details": "Quarantined: ['low_quality_score:0.265<0.3']"
+    },
+    {
+      "name": "Rozy Falls",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_rozy_falls",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Beautiful Log Hut Area and Club house",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_beautiful_log_hut_area_and_club_house",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "The Manali Gompa",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_the_manali_gompa",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Naggar",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_naggar",
+      "wikidata_id": null,
+      "coordinates": [
+        32.11037,
+        77.16298
+      ],
+      "outcome": "other",
+      "details": ""
+    },
+    {
+      "name": "Jana Falls",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_jana_falls",
+      "wikidata_id": null,
+      "coordinates": [
+        32.05471,
+        77.17258
+      ],
+      "outcome": "other",
+      "details": ""
+    },
+    {
+      "name": "Enfieldpoint",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_enfieldpoint",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Nehru Kund",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_nehru_kund",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Himanshu Resort",
+      "source": "wikivoyage",
+      "source_id": "wv_manali_himanshu_resort",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    }
+  ],
+  "missing_wikidata_attractions": [
+    {
+      "name": "Brighu Lake",
+      "source": "wikidata",
+      "source_id": "Q4967844",
+      "wikidata_id": "Q4967844",
+      "description": "lake in india",
+      "coordinates": [
+        32.29342,
+        77.24249
+      ],
+      "outcome": "other",
+      "details": ""
+    },
+    {
+      "name": "Manali Sanctuary",
+      "source": "wikidata",
+      "source_id": "Q6746838",
+      "wikidata_id": "Q6746838",
+      "description": "wildlife sanctuary in himachal pradesh, india",
+      "coordinates": [
+        32.247,
+        77.19
+      ],
+      "outcome": "other",
+      "details": ""
+    }
+  ]
+}

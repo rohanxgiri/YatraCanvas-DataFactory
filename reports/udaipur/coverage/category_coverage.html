@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Coverage Audit — Udaipur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-blue: #38bdf8;
+            --accent-green: #34d399;
+            --accent-amber: #fbbf24;
+            --accent-red: #f87171;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            padding: 32px 24px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header { margin-bottom: 32px; border-bottom: 1px solid var(--border-color); padding-bottom: 20px; }
+        h1 { font-size: 28px; font-weight: 700; color: var(--text-primary); }
+        .subtitle { color: var(--text-secondary); margin-top: 4px; font-size: 14px; }
+        .grid-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            backdrop-filter: blur(8px);
+        }
+        .stat-label { font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; }
+        .stat-val { font-size: 28px; font-weight: 700; margin-top: 6px; color: var(--text-primary); }
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            backdrop-filter: blur(8px);
+            margin-bottom: 32px;
+        }
+        .card-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; color: var(--accent-blue); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; }
+        th { padding: 12px 14px; border-bottom: 2px solid var(--border-color); color: var(--text-secondary); font-weight: 600; font-size: 12px; text-transform: uppercase; }
+        td { padding: 12px 14px; border-bottom: 1px solid var(--border-color); }
+        tr:hover { background: rgba(255, 255, 255, 0.02); }
+        .progress-bar-bg {
+            width: 100px;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .progress-bar-fill { height: 100%; border-radius: 4px; }
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .badge-tier { background: rgba(56, 189, 248, 0.15); color: #38bdf8; margin-right: 4px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Category Coverage & Pipeline Retention: Udaipur</h1>
+            <p class="subtitle">Autonomous verification of candidate survival from raw discovery through filtering and entity resolution to City Pack release (v3).</p>
+        </header>
+
+        <div class="grid-stats">
+            <div class="stat-card">
+                <div class="stat-label">Total Raw Discovered</div>
+                <div class="stat-val">14,311</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Unique Candidates</div>
+                <div class="stat-val">7,245</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Released POIs</div>
+                <div class="stat-val" style="color: var(--accent-green);">2,861</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Quarantined</div>
+                <div class="stat-val" style="color: var(--accent-red);">4,384</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Overall Retention</div>
+                <div class="stat-val" style="color: var(--accent-blue);">39.5%</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Category-by-Category Funnel & Retention</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Raw</th>
+                        <th>Unique</th>
+                        <th>Released</th>
+                        <th>Quarantined</th>
+                        <th>Rejected</th>
+                        <th>Retention Rate</th>
+                        <th>Released Tiers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+        <tr>
+            <td><strong>Hotel</strong></td>
+            <td>1,112</td>
+            <td>1,110</td>
+            <td><strong style="color: #60a5fa;">1,110</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">2</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>support: 1110</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Experience</strong></td>
+            <td>1,078</td>
+            <td>1,078</td>
+            <td><strong style="color: #60a5fa;">1,078</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">0</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>discovery: 1066</span> <span class='badge badge-tier'>recommended: 12</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Food</strong></td>
+            <td>496</td>
+            <td>316</td>
+            <td><strong style="color: #60a5fa;">316</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">180</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>recommended: 303</span> <span class='badge badge-tier'>discovery: 13</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Shopping</strong></td>
+            <td>1,820</td>
+            <td>94</td>
+            <td><strong style="color: #60a5fa;">94</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">1,726</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>recommended: 58</span> <span class='badge badge-tier'>discovery: 36</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Cafe</strong></td>
+            <td>69</td>
+            <td>69</td>
+            <td><strong style="color: #60a5fa;">69</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">0</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>recommended: 69</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Heritage</strong></td>
+            <td>68</td>
+            <td>68</td>
+            <td><strong style="color: #60a5fa;">68</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">0</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>core_destination: 34</span> <span class='badge badge-tier'>discovery: 33</span> <span class='badge badge-tier'>recommended: 1</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Religious</strong></td>
+            <td>42</td>
+            <td>42</td>
+            <td><strong style="color: #60a5fa;">42</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">0</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>core_destination: 12</span> <span class='badge badge-tier'>recommended: 30</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Park</strong></td>
+            <td>27</td>
+            <td>22</td>
+            <td><strong style="color: #60a5fa;">22</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">5</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>core_destination: 5</span> <span class='badge badge-tier'>recommended: 16</span> <span class='badge badge-tier'>discovery: 1</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Nature</strong></td>
+            <td>19</td>
+            <td>19</td>
+            <td><strong style="color: #60a5fa;">19</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">0</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>core_destination: 9</span> <span class='badge badge-tier'>discovery: 10</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Arts_Culture</strong></td>
+            <td>19</td>
+            <td>19</td>
+            <td><strong style="color: #60a5fa;">19</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">0</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>recommended: 19</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Museum</strong></td>
+            <td>18</td>
+            <td>17</td>
+            <td><strong style="color: #60a5fa;">17</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">1</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>core_destination: 3</span> <span class='badge badge-tier'>discovery: 14</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Transport</strong></td>
+            <td>7</td>
+            <td>7</td>
+            <td><strong style="color: #60a5fa;">7</strong></td>
+            <td><span style="color: #f87171;">0</span></td>
+            <td><span style="color: #9ca3af;">0</span></td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 100%; background-color: #10b981;"></div>
+                    </div>
+                    <span>100.0%</span>
+                </div>
+            </td>
+            <td><span class='badge badge-tier'>support: 7</span></td>
+        </tr>
+        
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

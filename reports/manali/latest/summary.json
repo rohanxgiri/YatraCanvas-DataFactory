@@ -1,0 +1,81 @@
+{
+  "city": "Manali",
+  "state": "Himachal Pradesh",
+  "country": "India",
+  "version": "v3",
+  "total_raw_candidates": 4097,
+  "sources_count": {
+    "wikivoyage": 74,
+    "wikidata": 20,
+    "openstreetmap": 504,
+    "overture": 3499
+  },
+  "accepted_places": 1702,
+  "rejected_places": 650,
+  "quarantined_places": 1372,
+  "duplicate_merges": 373,
+  "by_tier": {
+    "core_destination": 13,
+    "support": 1278,
+    "recommended": 147,
+    "discovery": 264
+  },
+  "by_tier_stats": {
+    "core_destination": {
+      "count": 13,
+      "with_wikidata": 7,
+      "with_wikipedia": 5,
+      "with_image": 11,
+      "with_hours": 1,
+      "with_website": 6,
+      "multi_source": 8
+    },
+    "recommended": {
+      "count": 147,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 7,
+      "with_website": 106,
+      "multi_source": 67
+    },
+    "discovery": {
+      "count": 264,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 1,
+      "with_website": 263,
+      "multi_source": 1
+    },
+    "support": {
+      "count": 1278,
+      "with_wikidata": 11,
+      "with_wikipedia": 1,
+      "with_image": 1,
+      "with_hours": 5,
+      "with_website": 1237,
+      "multi_source": 161
+    }
+  },
+  "image_coverage_pct": 0.7,
+  "with_images_count": 12,
+  "opening_hours_coverage_pct": 0.8,
+  "with_opening_hours_count": 14,
+  "wikidata_coverage_pct": 1.1,
+  "with_wikidata_count": 18,
+  "category_breakdown": {
+    "heritage": 11,
+    "nature": 6,
+    "religious": 10,
+    "hotel": 1278,
+    "food": 53,
+    "experience": 269,
+    "museum": 3,
+    "cafe": 65,
+    "viewpoint": 1,
+    "park": 5,
+    "shopping": 1
+  },
+  "generated_at": "2026-09-19T19:41:43.812813+00:00"
+}

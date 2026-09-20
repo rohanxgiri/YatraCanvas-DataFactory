@@ -1,0 +1,927 @@
+{
+  "city": "Panjim",
+  "version": "v3",
+  "summary": {
+    "total_benchmark_queries": 18,
+    "precision_at_5": 94.4,
+    "precision_at_10": 94.4,
+    "average_category_precision_pct": 94.4,
+    "category_search_precision_pct": 94.4,
+    "name_search_precision_pct": 100.0,
+    "exact_place_tests_count": 10,
+    "exact_place_resolution_rate_pct": 100.0,
+    "total_quarantined_leakage": 0,
+    "total_duplicate_leakage": 0,
+    "search_status": "READY"
+  },
+  "query_benchmarks": [
+    {
+      "query": "cafe",
+      "expected_categories": [
+        "cafe"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "recommended": 10
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Café Chocolatti",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 584.0,
+          "score": 570.0
+        },
+        {
+          "name": "Cafe Coffee Day",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 582.75,
+          "score": 570.0
+        },
+        {
+          "name": "German Bakery Café",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 582.75,
+          "score": 570.0
+        }
+      ]
+    },
+    {
+      "query": "coffee",
+      "expected_categories": [
+        "cafe"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "recommended": 10
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Mona Coffee",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 582.75,
+          "score": 570.0
+        },
+        {
+          "name": "Cuppa coffee",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 581.5,
+          "score": 570.0
+        },
+        {
+          "name": "blue tokai coffee",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 581.5,
+          "score": 570.0
+        }
+      ]
+    },
+    {
+      "query": "restaurant",
+      "expected_categories": [
+        "food"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "recommended": 10
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Shivers Garden Restaurant",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 584.0,
+          "score": 570.0
+        },
+        {
+          "name": "Kuzner Bar and Restaurant",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 584.0,
+          "score": 570.0
+        },
+        {
+          "name": "Himalaya Bar And Restaurant",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 584.0,
+          "score": 570.0
+        }
+      ]
+    },
+    {
+      "query": "food",
+      "expected_categories": [
+        "food",
+        "cafe"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "recommended": 10
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Food Land",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 581.5,
+          "score": 570.0
+        },
+        {
+          "name": "D'Silva Fast Food",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 581.5,
+          "score": 570.0
+        },
+        {
+          "name": "Food corner",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 581.5,
+          "score": 570.0
+        }
+      ]
+    },
+    {
+      "query": "temple",
+      "expected_categories": [
+        "religious"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "core_destination": 1,
+        "recommended": 9
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Shanta Durga Temple",
+          "category": "religious",
+          "tier": "core_destination",
+          "rank": 580.0,
+          "score": 540.0
+        },
+        {
+          "name": "Shri Rashtroli Sai Temple",
+          "category": "religious",
+          "tier": "recommended",
+          "rank": 520.25,
+          "score": 510.0
+        },
+        {
+          "name": "Shri Jambhleshwar Prasanna Temple",
+          "category": "religious",
+          "tier": "recommended",
+          "rank": 491.5,
+          "score": 480.0
+        }
+      ]
+    },
+    {
+      "query": "mosque",
+      "expected_categories": [
+        "religious"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "recommended": 1,
+        "core_destination": 9
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Masjid E Hamza",
+          "category": "religious",
+          "tier": "recommended",
+          "rank": 380.25,
+          "score": 370.0
+        },
+        {
+          "name": "Shanta Durga Temple",
+          "category": "religious",
+          "tier": "core_destination",
+          "rank": 380.0,
+          "score": 340.0
+        },
+        {
+          "name": "Church of Our Lady of the Rosary",
+          "category": "religious",
+          "tier": "core_destination",
+          "rank": 378.75,
+          "score": 340.0
+        }
+      ]
+    },
+    {
+      "query": "museum",
+      "expected_categories": [
+        "museum"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "core_destination": 8,
+        "recommended": 1,
+        "discovery": 1
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Museum of Christian Art",
+          "category": "museum",
+          "tier": "core_destination",
+          "rank": 610.0,
+          "score": 570.0
+        },
+        {
+          "name": "Benz Wax Museum",
+          "category": "museum",
+          "tier": "core_destination",
+          "rank": 592.75,
+          "score": 570.0
+        },
+        {
+          "name": "Archaeological Museum and Portrait Gallery",
+          "category": "museum",
+          "tier": "core_destination",
+          "rank": 577.5,
+          "score": 540.0
+        }
+      ]
+    },
+    {
+      "query": "fort",
+      "expected_categories": [
+        "heritage"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "core_destination": 9,
+        "recommended": 1
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Fort Aguada",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 608.75,
+          "score": 570.0
+        },
+        {
+          "name": "Fort Reis Magos",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 606.25,
+          "score": 570.0
+        },
+        {
+          "name": "State Bank of India, Fort Aguada, Goa branch",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 575.5,
+          "score": 545.0
+        }
+      ]
+    },
+    {
+      "query": "palace",
+      "expected_categories": [
+        "heritage"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "core_destination": 10
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Refo's Food Palace",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 592.75,
+          "score": 570.0
+        },
+        {
+          "name": "Goa University",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 220.0,
+          "score": 180.0
+        },
+        {
+          "name": "Calangute",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 220.0,
+          "score": 180.0
+        }
+      ]
+    },
+    {
+      "query": "heritage",
+      "expected_categories": [
+        "heritage",
+        "museum"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "discovery": 1,
+        "core_destination": 9
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Panjim Heritage Walk",
+          "category": "heritage",
+          "tier": "discovery",
+          "rank": 485.75,
+          "score": 480.0
+        },
+        {
+          "name": "Goa University",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 410.0,
+          "score": 370.0
+        },
+        {
+          "name": "Calangute",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 410.0,
+          "score": 370.0
+        }
+      ]
+    },
+    {
+      "query": "park",
+      "expected_categories": [
+        "park"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "discovery": 3,
+        "recommended": 7
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Veera Strand Park Serviced Apartments",
+          "category": "park",
+          "tier": "discovery",
+          "rank": 490.75,
+          "score": 485.0
+        },
+        {
+          "name": "Richmonde Park Apartments Suites Goa",
+          "category": "park",
+          "tier": "discovery",
+          "rank": 485.75,
+          "score": 480.0
+        },
+        {
+          "name": "Alaya Stays by ELIVAAS Veera Strand Park | 2BHK - Premium Apartment with Pool",
+          "category": "park",
+          "tier": "discovery",
+          "rank": 485.75,
+          "score": 480.0
+        }
+      ]
+    },
+    {
+      "query": "garden",
+      "expected_categories": [
+        "park"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "recommended": 7,
+        "discovery": 3
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Baga Beer Garden",
+          "category": "park",
+          "tier": "recommended",
+          "rank": 520.25,
+          "score": 510.0
+        },
+        {
+          "name": "Michele's Garden Bed and Breakfast",
+          "category": "park",
+          "tier": "recommended",
+          "rank": 490.25,
+          "score": 480.0
+        },
+        {
+          "name": "The Secret Garden Goa",
+          "category": "park",
+          "tier": "recommended",
+          "rank": 490.25,
+          "score": 480.0
+        }
+      ]
+    },
+    {
+      "query": "lake",
+      "expected_categories": [
+        "nature"
+      ],
+      "result_count": 2,
+      "category_precision_pct": 0.0,
+      "precision_at_5": 0.0,
+      "precision_at_10": 0.0,
+      "matching_top_results": 0,
+      "tiers_represented": {
+        "discovery": 1,
+        "recommended": 1
+      },
+      "unique_places": 2,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Public Observatory",
+          "category": "heritage",
+          "tier": "discovery",
+          "rank": 225.75,
+          "score": 220.0
+        },
+        {
+          "name": "Smitas Lake View Restaurant",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 182.75,
+          "score": 170.0
+        }
+      ]
+    },
+    {
+      "query": "market",
+      "expected_categories": [
+        "shopping"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "recommended": 9,
+        "discovery": 1
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "18th June Road Night Market",
+          "category": "shopping",
+          "tier": "recommended",
+          "rank": 527.75,
+          "score": 510.0
+        },
+        {
+          "name": "Verem Market",
+          "category": "shopping",
+          "tier": "recommended",
+          "rank": 520.25,
+          "score": 510.0
+        },
+        {
+          "name": "Tibetan Market",
+          "category": "shopping",
+          "tier": "recommended",
+          "rank": 520.25,
+          "score": 510.0
+        }
+      ]
+    },
+    {
+      "query": "shopping",
+      "expected_categories": [
+        "shopping"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "recommended": 9,
+        "discovery": 1
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Vision World Book Depot",
+          "category": "shopping",
+          "tier": "recommended",
+          "rank": 387.75,
+          "score": 370.0
+        },
+        {
+          "name": "18th June Road Night Market",
+          "category": "shopping",
+          "tier": "recommended",
+          "rank": 387.75,
+          "score": 370.0
+        },
+        {
+          "name": "Jeevit Bookshop",
+          "category": "shopping",
+          "tier": "discovery",
+          "rank": 383.25,
+          "score": 370.0
+        }
+      ]
+    },
+    {
+      "query": "art",
+      "expected_categories": [
+        "arts_culture",
+        "museum"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "recommended": 8,
+        "core_destination": 2
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Art Gallery",
+          "category": "arts_culture",
+          "tier": "recommended",
+          "rank": 520.25,
+          "score": 510.0
+        },
+        {
+          "name": "Picturesque Art and Frames",
+          "category": "arts_culture",
+          "tier": "recommended",
+          "rank": 490.25,
+          "score": 480.0
+        },
+        {
+          "name": "Vola Art Escape",
+          "category": "arts_culture",
+          "tier": "recommended",
+          "rank": 490.25,
+          "score": 480.0
+        }
+      ]
+    },
+    {
+      "query": "railway station",
+      "expected_categories": [
+        "transport"
+      ],
+      "result_count": 1,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 1,
+      "tiers_represented": {
+        "support": 1
+      },
+      "unique_places": 1,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Panjim Bus Stand",
+          "category": "transport",
+          "tier": "support",
+          "rank": 218.75,
+          "score": 210.0
+        }
+      ]
+    },
+    {
+      "query": "hotel",
+      "expected_categories": [
+        "hotel"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "support": 10
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Hotel Flora residency",
+          "category": "hotel",
+          "tier": "support",
+          "rank": 637.75,
+          "score": 620.0
+        },
+        {
+          "name": "Horizon Hotel",
+          "category": "hotel",
+          "tier": "support",
+          "rank": 589.0,
+          "score": 570.0
+        },
+        {
+          "name": "Hotel Shaurya",
+          "category": "hotel",
+          "tier": "support",
+          "rank": 589.0,
+          "score": 570.0
+        }
+      ]
+    }
+  ],
+  "exact_place_tests": [
+    {
+      "place_id": "yc_in_ga_panjim_dr_salim_ali_bird_sanctuary",
+      "name": "Dr. Salim Ali Bird Sanctuary",
+      "alt_name": "Salim Ali Bird Sanctuary.",
+      "name_hi": "सलीम अली पक्षी अभयारण्य",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ga_panjim_national_institute_of_oceanography",
+      "name": "National Institute of Oceanography",
+      "alt_name": "CSIR National Institute of Oceanography",
+      "name_hi": "राष्ट्रीय समुद्र विज्ञान संस्थान",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ga_panjim_goa_medical_college",
+      "name": "Goa Medical College",
+      "alt_name": "Medical College Hostel",
+      "name_hi": "goa medical college",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ga_panjim_goa_university",
+      "name": "Goa University",
+      "alt_name": "Goa University Girls Hostel",
+      "name_hi": "गोवा विश्वविद्यालय",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ga_panjim_shanta_durga_temple",
+      "name": "Shanta Durga Temple",
+      "alt_name": "Shri Shantadurga Temple",
+      "name_hi": "श्री शांतादुर्गा मंदिर",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ga_panjim_the_taj_exotica_hotel_resort",
+      "name": "The Taj Exotica Hotel & Resort",
+      "alt_name": "Taj Fort Aguada Resort & Spa",
+      "name_hi": "ताज एक्जॉटीका रिज़ॉर्ट",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ga_panjim_calangute",
+      "name": "Calangute",
+      "alt_name": "Hotel Savita Calangute",
+      "name_hi": "कलंगुट (गोवा)",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ga_panjim_tiswadi_taluk",
+      "name": "Tiswadi taluk",
+      "alt_name": "Tiswadi",
+      "name_hi": "तिस्वाड़ी",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ga_panjim_baga",
+      "name": "Baga",
+      "alt_name": "Casa Baga",
+      "name_hi": "बागा",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ga_panjim_fort_aguada",
+      "name": "Fort Aguada",
+      "alt_name": "Upper Aguada Fort",
+      "name_hi": "फोर्ट अगुआडा",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    }
+  ],
+  "discovery_candidates_sample": [
+    {
+      "name": "Dr. Salim Ali Bird Sanctuary",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.682,
+      "quality_overall": 0.83,
+      "travel_relevance_score": 0.6,
+      "address": null
+    },
+    {
+      "name": "Mandovi River Sunset cruise",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.475,
+      "quality_overall": 0.438,
+      "travel_relevance_score": 0.4,
+      "address": null
+    },
+    {
+      "name": "Jeevit Bookshop",
+      "category": "shopping",
+      "primary_entity_type": "market",
+      "discovery_score": 0.46,
+      "quality_overall": 0.45,
+      "travel_relevance_score": 0.35,
+      "address": "Office No.8, 2nd Floor,Patto Centre"
+    },
+    {
+      "name": "TSK The Golden Nest Serviced Apartments",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.428,
+      "quality_overall": 0.57,
+      "travel_relevance_score": 0.15,
+      "address": "Royale 1 and 2, Behind Just Lobo's Restaurant, Porba Vaddo, Calangute - Arpora Road"
+    },
+    {
+      "name": "Ekostay Belvedere Apartment",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.428,
+      "quality_overall": 0.57,
+      "travel_relevance_score": 0.15,
+      "address": "282/283, Aguada - Siolim Road"
+    },
+    {
+      "name": "Sapna Apartments",
+      "category": "heritage",
+      "primary_entity_type": "monument",
+      "discovery_score": 0.383,
+      "quality_overall": 0.508,
+      "travel_relevance_score": 0.1,
+      "address": "La Campala Colony Main Road"
+    },
+    {
+      "name": "Advent Christmas Store Goa",
+      "category": "shopping",
+      "primary_entity_type": "shop",
+      "discovery_score": 0.0,
+      "quality_overall": 0.57,
+      "travel_relevance_score": 0.15,
+      "address": "10, 18th June Rd, opp. Susheela Building, opp. to Fidalgo hotel"
+    },
+    {
+      "name": "INOX - Old GMC",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.46,
+      "travel_relevance_score": 0.05,
+      "address": "Old GMC Heritage Precinct, D.B. Road, Campal"
+    },
+    {
+      "name": "Madeira Mansion Flat Rentals",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.453,
+      "travel_relevance_score": 0.05,
+      "address": "Lane 1, Candolim, 403515"
+    },
+    {
+      "name": "One Love",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "Tropical Bay, Jetty Road, "
+    }
+  ]
+}

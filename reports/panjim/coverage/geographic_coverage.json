@@ -1,0 +1,1273 @@
+{
+  "city": "Panjim",
+  "state": "Goa",
+  "country": "India",
+  "version": "v3",
+  "grid_dimensions": "8x8 (64 cells)",
+  "bounding_box": {
+    "min_lon": 73.74624,
+    "min_lat": 15.41574,
+    "max_lon": 73.90624,
+    "max_lat": 15.57574
+  },
+  "summary": {
+    "total_released_places": 3753,
+    "places_within_grid": 3645,
+    "places_outside_grid": 108,
+    "total_grid_cells": 64,
+    "non_empty_cells": 53,
+    "empty_cells": 11,
+    "max_cell_density": 593,
+    "top_10_pct_cells_concentration_pct": 57.9,
+    "suspicious_concentration_detected": false,
+    "coverage_warning": null
+  },
+  "cells": {
+    "cell_0_0": {
+      "row": 0,
+      "col": 0,
+      "bounds": {
+        "min_lat": 15.4157,
+        "max_lat": 15.4357,
+        "min_lon": 73.7462,
+        "max_lon": 73.7662
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_1": {
+      "row": 0,
+      "col": 1,
+      "bounds": {
+        "min_lat": 15.4157,
+        "max_lat": 15.4357,
+        "min_lon": 73.7662,
+        "max_lon": 73.7862
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_2": {
+      "row": 0,
+      "col": 2,
+      "bounds": {
+        "min_lat": 15.4157,
+        "max_lat": 15.4357,
+        "min_lon": 73.7862,
+        "max_lon": 73.8062
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_3": {
+      "row": 0,
+      "col": 3,
+      "bounds": {
+        "min_lat": 15.4157,
+        "max_lat": 15.4357,
+        "min_lon": 73.8062,
+        "max_lon": 73.8262
+      },
+      "total_pois": 1,
+      "tiers": {
+        "core_destination": 1
+      },
+      "top_categories": {
+        "heritage": 1
+      }
+    },
+    "cell_0_4": {
+      "row": 0,
+      "col": 4,
+      "bounds": {
+        "min_lat": 15.4157,
+        "max_lat": 15.4357,
+        "min_lon": 73.8262,
+        "max_lon": 73.8462
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_5": {
+      "row": 0,
+      "col": 5,
+      "bounds": {
+        "min_lat": 15.4157,
+        "max_lat": 15.4357,
+        "min_lon": 73.8462,
+        "max_lon": 73.8662
+      },
+      "total_pois": 4,
+      "tiers": {
+        "core_destination": 1,
+        "discovery": 2,
+        "recommended": 1
+      },
+      "top_categories": {
+        "experience": 2,
+        "heritage": 1,
+        "food": 1
+      }
+    },
+    "cell_0_6": {
+      "row": 0,
+      "col": 6,
+      "bounds": {
+        "min_lat": 15.4157,
+        "max_lat": 15.4357,
+        "min_lon": 73.8662,
+        "max_lon": 73.8862
+      },
+      "total_pois": 1,
+      "tiers": {
+        "discovery": 1
+      },
+      "top_categories": {
+        "experience": 1
+      }
+    },
+    "cell_0_7": {
+      "row": 0,
+      "col": 7,
+      "bounds": {
+        "min_lat": 15.4157,
+        "max_lat": 15.4357,
+        "min_lon": 73.8862,
+        "max_lon": 73.9062
+      },
+      "total_pois": 7,
+      "tiers": {
+        "core_destination": 1,
+        "support": 2,
+        "recommended": 3,
+        "discovery": 1
+      },
+      "top_categories": {
+        "hotel": 2,
+        "food": 2,
+        "heritage": 1
+      }
+    },
+    "cell_1_0": {
+      "row": 1,
+      "col": 0,
+      "bounds": {
+        "min_lat": 15.4357,
+        "max_lat": 15.4557,
+        "min_lon": 73.7462,
+        "max_lon": 73.7662
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_1_1": {
+      "row": 1,
+      "col": 1,
+      "bounds": {
+        "min_lat": 15.4357,
+        "max_lat": 15.4557,
+        "min_lon": 73.7662,
+        "max_lon": 73.7862
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_1_2": {
+      "row": 1,
+      "col": 2,
+      "bounds": {
+        "min_lat": 15.4357,
+        "max_lat": 15.4557,
+        "min_lon": 73.7862,
+        "max_lon": 73.8062
+      },
+      "total_pois": 17,
+      "tiers": {
+        "core_destination": 1,
+        "recommended": 4,
+        "support": 7,
+        "discovery": 5
+      },
+      "top_categories": {
+        "hotel": 7,
+        "experience": 6,
+        "food": 2
+      }
+    },
+    "cell_1_3": {
+      "row": 1,
+      "col": 3,
+      "bounds": {
+        "min_lat": 15.4357,
+        "max_lat": 15.4557,
+        "min_lon": 73.8062,
+        "max_lon": 73.8262
+      },
+      "total_pois": 4,
+      "tiers": {
+        "support": 1,
+        "discovery": 1,
+        "recommended": 2
+      },
+      "top_categories": {
+        "hotel": 1,
+        "experience": 1,
+        "cafe": 1
+      }
+    },
+    "cell_1_4": {
+      "row": 1,
+      "col": 4,
+      "bounds": {
+        "min_lat": 15.4357,
+        "max_lat": 15.4557,
+        "min_lon": 73.8262,
+        "max_lon": 73.8462
+      },
+      "total_pois": 5,
+      "tiers": {
+        "discovery": 3,
+        "support": 2
+      },
+      "top_categories": {
+        "hotel": 2,
+        "experience": 2,
+        "heritage": 1
+      }
+    },
+    "cell_1_5": {
+      "row": 1,
+      "col": 5,
+      "bounds": {
+        "min_lat": 15.4357,
+        "max_lat": 15.4557,
+        "min_lon": 73.8462,
+        "max_lon": 73.8662
+      },
+      "total_pois": 14,
+      "tiers": {
+        "support": 5,
+        "recommended": 3,
+        "discovery": 6
+      },
+      "top_categories": {
+        "experience": 6,
+        "hotel": 5,
+        "food": 3
+      }
+    },
+    "cell_1_6": {
+      "row": 1,
+      "col": 6,
+      "bounds": {
+        "min_lat": 15.4357,
+        "max_lat": 15.4557,
+        "min_lon": 73.8662,
+        "max_lon": 73.8862
+      },
+      "total_pois": 5,
+      "tiers": {
+        "recommended": 2,
+        "discovery": 1,
+        "support": 2
+      },
+      "top_categories": {
+        "food": 2,
+        "hotel": 2,
+        "experience": 1
+      }
+    },
+    "cell_1_7": {
+      "row": 1,
+      "col": 7,
+      "bounds": {
+        "min_lat": 15.4357,
+        "max_lat": 15.4557,
+        "min_lon": 73.8862,
+        "max_lon": 73.9062
+      },
+      "total_pois": 8,
+      "tiers": {
+        "recommended": 3,
+        "discovery": 4,
+        "support": 1
+      },
+      "top_categories": {
+        "experience": 4,
+        "cafe": 1,
+        "hotel": 1
+      }
+    },
+    "cell_2_0": {
+      "row": 2,
+      "col": 0,
+      "bounds": {
+        "min_lat": 15.4557,
+        "max_lat": 15.4757,
+        "min_lon": 73.7462,
+        "max_lon": 73.7662
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_2_1": {
+      "row": 2,
+      "col": 1,
+      "bounds": {
+        "min_lat": 15.4557,
+        "max_lat": 15.4757,
+        "min_lon": 73.7662,
+        "max_lon": 73.7862
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_2_2": {
+      "row": 2,
+      "col": 2,
+      "bounds": {
+        "min_lat": 15.4557,
+        "max_lat": 15.4757,
+        "min_lon": 73.7862,
+        "max_lon": 73.8062
+      },
+      "total_pois": 52,
+      "tiers": {
+        "core_destination": 1,
+        "support": 19,
+        "discovery": 23,
+        "recommended": 9
+      },
+      "top_categories": {
+        "hotel": 19,
+        "experience": 19,
+        "food": 7
+      }
+    },
+    "cell_2_3": {
+      "row": 2,
+      "col": 3,
+      "bounds": {
+        "min_lat": 15.4557,
+        "max_lat": 15.4757,
+        "min_lon": 73.8062,
+        "max_lon": 73.8262
+      },
+      "total_pois": 112,
+      "tiers": {
+        "support": 39,
+        "recommended": 24,
+        "discovery": 49
+      },
+      "top_categories": {
+        "experience": 44,
+        "hotel": 39,
+        "food": 20
+      }
+    },
+    "cell_2_4": {
+      "row": 2,
+      "col": 4,
+      "bounds": {
+        "min_lat": 15.4557,
+        "max_lat": 15.4757,
+        "min_lon": 73.8262,
+        "max_lon": 73.8462
+      },
+      "total_pois": 12,
+      "tiers": {
+        "core_destination": 3,
+        "support": 7,
+        "discovery": 2
+      },
+      "top_categories": {
+        "hotel": 7,
+        "heritage": 3,
+        "experience": 2
+      }
+    },
+    "cell_2_5": {
+      "row": 2,
+      "col": 5,
+      "bounds": {
+        "min_lat": 15.4557,
+        "max_lat": 15.4757,
+        "min_lon": 73.8462,
+        "max_lon": 73.8662
+      },
+      "total_pois": 18,
+      "tiers": {
+        "core_destination": 1,
+        "recommended": 3,
+        "support": 7,
+        "discovery": 7
+      },
+      "top_categories": {
+        "hotel": 7,
+        "experience": 7,
+        "food": 3
+      }
+    },
+    "cell_2_6": {
+      "row": 2,
+      "col": 6,
+      "bounds": {
+        "min_lat": 15.4557,
+        "max_lat": 15.4757,
+        "min_lon": 73.8662,
+        "max_lon": 73.8862
+      },
+      "total_pois": 1,
+      "tiers": {
+        "support": 1
+      },
+      "top_categories": {
+        "hotel": 1
+      }
+    },
+    "cell_2_7": {
+      "row": 2,
+      "col": 7,
+      "bounds": {
+        "min_lat": 15.4557,
+        "max_lat": 15.4757,
+        "min_lon": 73.8862,
+        "max_lon": 73.9062
+      },
+      "total_pois": 1,
+      "tiers": {
+        "support": 1
+      },
+      "top_categories": {
+        "hotel": 1
+      }
+    },
+    "cell_3_0": {
+      "row": 3,
+      "col": 0,
+      "bounds": {
+        "min_lat": 15.4757,
+        "max_lat": 15.4957,
+        "min_lon": 73.7462,
+        "max_lon": 73.7662
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_3_1": {
+      "row": 3,
+      "col": 1,
+      "bounds": {
+        "min_lat": 15.4757,
+        "max_lat": 15.4957,
+        "min_lon": 73.7662,
+        "max_lon": 73.7862
+      },
+      "total_pois": 10,
+      "tiers": {
+        "core_destination": 2,
+        "discovery": 2,
+        "support": 2,
+        "recommended": 4
+      },
+      "top_categories": {
+        "heritage": 3,
+        "experience": 2,
+        "hotel": 2
+      }
+    },
+    "cell_3_2": {
+      "row": 3,
+      "col": 2,
+      "bounds": {
+        "min_lat": 15.4757,
+        "max_lat": 15.4957,
+        "min_lon": 73.7862,
+        "max_lon": 73.8062
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_3_3": {
+      "row": 3,
+      "col": 3,
+      "bounds": {
+        "min_lat": 15.4757,
+        "max_lat": 15.4957,
+        "min_lon": 73.8062,
+        "max_lon": 73.8262
+      },
+      "total_pois": 225,
+      "tiers": {
+        "core_destination": 5,
+        "support": 50,
+        "recommended": 67,
+        "discovery": 103
+      },
+      "top_categories": {
+        "experience": 97,
+        "hotel": 50,
+        "food": 46
+      }
+    },
+    "cell_3_4": {
+      "row": 3,
+      "col": 4,
+      "bounds": {
+        "min_lat": 15.4757,
+        "max_lat": 15.4957,
+        "min_lon": 73.8262,
+        "max_lon": 73.8462
+      },
+      "total_pois": 116,
+      "tiers": {
+        "core_destination": 4,
+        "support": 24,
+        "recommended": 27,
+        "discovery": 61
+      },
+      "top_categories": {
+        "experience": 61,
+        "hotel": 24,
+        "food": 16
+      }
+    },
+    "cell_3_5": {
+      "row": 3,
+      "col": 5,
+      "bounds": {
+        "min_lat": 15.4757,
+        "max_lat": 15.4957,
+        "min_lon": 73.8462,
+        "max_lon": 73.8662
+      },
+      "total_pois": 12,
+      "tiers": {
+        "recommended": 2,
+        "discovery": 8,
+        "support": 2
+      },
+      "top_categories": {
+        "experience": 7,
+        "food": 2,
+        "hotel": 2
+      }
+    },
+    "cell_3_6": {
+      "row": 3,
+      "col": 6,
+      "bounds": {
+        "min_lat": 15.4757,
+        "max_lat": 15.4957,
+        "min_lon": 73.8662,
+        "max_lon": 73.8862
+      },
+      "total_pois": 6,
+      "tiers": {
+        "support": 1,
+        "recommended": 1,
+        "discovery": 4
+      },
+      "top_categories": {
+        "experience": 4,
+        "hotel": 1,
+        "food": 1
+      }
+    },
+    "cell_3_7": {
+      "row": 3,
+      "col": 7,
+      "bounds": {
+        "min_lat": 15.4757,
+        "max_lat": 15.4957,
+        "min_lon": 73.8862,
+        "max_lon": 73.9062
+      },
+      "total_pois": 9,
+      "tiers": {
+        "core_destination": 1,
+        "recommended": 4,
+        "discovery": 2,
+        "support": 2
+      },
+      "top_categories": {
+        "food": 3,
+        "experience": 2,
+        "hotel": 2
+      }
+    },
+    "cell_4_0": {
+      "row": 4,
+      "col": 0,
+      "bounds": {
+        "min_lat": 15.4957,
+        "max_lat": 15.5157,
+        "min_lon": 73.7462,
+        "max_lon": 73.7662
+      },
+      "total_pois": 32,
+      "tiers": {
+        "recommended": 24,
+        "support": 1,
+        "discovery": 7
+      },
+      "top_categories": {
+        "food": 23,
+        "experience": 7,
+        "cafe": 1
+      }
+    },
+    "cell_4_1": {
+      "row": 4,
+      "col": 1,
+      "bounds": {
+        "min_lat": 15.4957,
+        "max_lat": 15.5157,
+        "min_lon": 73.7662,
+        "max_lon": 73.7862
+      },
+      "total_pois": 341,
+      "tiers": {
+        "support": 173,
+        "core_destination": 2,
+        "recommended": 109,
+        "discovery": 57
+      },
+      "top_categories": {
+        "hotel": 173,
+        "food": 91,
+        "experience": 61
+      }
+    },
+    "cell_4_2": {
+      "row": 4,
+      "col": 2,
+      "bounds": {
+        "min_lat": 15.4957,
+        "max_lat": 15.5157,
+        "min_lon": 73.7862,
+        "max_lon": 73.8062
+      },
+      "total_pois": 65,
+      "tiers": {
+        "core_destination": 1,
+        "support": 37,
+        "recommended": 7,
+        "discovery": 20
+      },
+      "top_categories": {
+        "hotel": 37,
+        "experience": 20,
+        "food": 6
+      }
+    },
+    "cell_4_3": {
+      "row": 4,
+      "col": 3,
+      "bounds": {
+        "min_lat": 15.4957,
+        "max_lat": 15.5157,
+        "min_lon": 73.8062,
+        "max_lon": 73.8262
+      },
+      "total_pois": 158,
+      "tiers": {
+        "core_destination": 4,
+        "discovery": 71,
+        "recommended": 45,
+        "support": 38
+      },
+      "top_categories": {
+        "experience": 64,
+        "hotel": 38,
+        "food": 30
+      }
+    },
+    "cell_4_4": {
+      "row": 4,
+      "col": 4,
+      "bounds": {
+        "min_lat": 15.4957,
+        "max_lat": 15.5157,
+        "min_lon": 73.8262,
+        "max_lon": 73.8462
+      },
+      "total_pois": 218,
+      "tiers": {
+        "core_destination": 8,
+        "recommended": 82,
+        "support": 53,
+        "discovery": 75
+      },
+      "top_categories": {
+        "experience": 74,
+        "hotel": 52,
+        "food": 47
+      }
+    },
+    "cell_4_5": {
+      "row": 4,
+      "col": 5,
+      "bounds": {
+        "min_lat": 15.4957,
+        "max_lat": 15.5157,
+        "min_lon": 73.8462,
+        "max_lon": 73.8662
+      },
+      "total_pois": 14,
+      "tiers": {
+        "discovery": 5,
+        "core_destination": 3,
+        "support": 3,
+        "recommended": 3
+      },
+      "top_categories": {
+        "experience": 5,
+        "heritage": 3,
+        "hotel": 3
+      }
+    },
+    "cell_4_6": {
+      "row": 4,
+      "col": 6,
+      "bounds": {
+        "min_lat": 15.4957,
+        "max_lat": 15.5157,
+        "min_lon": 73.8662,
+        "max_lon": 73.8862
+      },
+      "total_pois": 14,
+      "tiers": {
+        "recommended": 7,
+        "support": 2,
+        "discovery": 5
+      },
+      "top_categories": {
+        "experience": 5,
+        "food": 5,
+        "hotel": 2
+      }
+    },
+    "cell_4_7": {
+      "row": 4,
+      "col": 7,
+      "bounds": {
+        "min_lat": 15.4957,
+        "max_lat": 15.5157,
+        "min_lon": 73.8862,
+        "max_lon": 73.9062
+      },
+      "total_pois": 9,
+      "tiers": {
+        "core_destination": 1,
+        "recommended": 1,
+        "discovery": 4,
+        "support": 3
+      },
+      "top_categories": {
+        "experience": 4,
+        "hotel": 3,
+        "religious": 1
+      }
+    },
+    "cell_5_0": {
+      "row": 5,
+      "col": 0,
+      "bounds": {
+        "min_lat": 15.5157,
+        "max_lat": 15.5357,
+        "min_lon": 73.7462,
+        "max_lon": 73.7662
+      },
+      "total_pois": 333,
+      "tiers": {
+        "support": 186,
+        "recommended": 101,
+        "discovery": 46
+      },
+      "top_categories": {
+        "hotel": 186,
+        "food": 89,
+        "experience": 47
+      }
+    },
+    "cell_5_1": {
+      "row": 5,
+      "col": 1,
+      "bounds": {
+        "min_lat": 15.5157,
+        "max_lat": 15.5357,
+        "min_lon": 73.7662,
+        "max_lon": 73.7862
+      },
+      "total_pois": 173,
+      "tiers": {
+        "support": 100,
+        "recommended": 25,
+        "discovery": 48
+      },
+      "top_categories": {
+        "hotel": 100,
+        "experience": 43,
+        "food": 24
+      }
+    },
+    "cell_5_2": {
+      "row": 5,
+      "col": 2,
+      "bounds": {
+        "min_lat": 15.5157,
+        "max_lat": 15.5357,
+        "min_lon": 73.7862,
+        "max_lon": 73.8062
+      },
+      "total_pois": 35,
+      "tiers": {
+        "core_destination": 1,
+        "support": 14,
+        "recommended": 3,
+        "discovery": 17
+      },
+      "top_categories": {
+        "experience": 15,
+        "hotel": 14,
+        "heritage": 2
+      }
+    },
+    "cell_5_3": {
+      "row": 5,
+      "col": 3,
+      "bounds": {
+        "min_lat": 15.5157,
+        "max_lat": 15.5357,
+        "min_lon": 73.8062,
+        "max_lon": 73.8262
+      },
+      "total_pois": 79,
+      "tiers": {
+        "recommended": 26,
+        "support": 36,
+        "discovery": 17
+      },
+      "top_categories": {
+        "hotel": 36,
+        "food": 21,
+        "experience": 16
+      }
+    },
+    "cell_5_4": {
+      "row": 5,
+      "col": 4,
+      "bounds": {
+        "min_lat": 15.5157,
+        "max_lat": 15.5357,
+        "min_lon": 73.8262,
+        "max_lon": 73.8462
+      },
+      "total_pois": 99,
+      "tiers": {
+        "recommended": 27,
+        "support": 23,
+        "discovery": 49
+      },
+      "top_categories": {
+        "experience": 49,
+        "hotel": 23,
+        "food": 17
+      }
+    },
+    "cell_5_5": {
+      "row": 5,
+      "col": 5,
+      "bounds": {
+        "min_lat": 15.5157,
+        "max_lat": 15.5357,
+        "min_lon": 73.8462,
+        "max_lon": 73.8662
+      },
+      "total_pois": 4,
+      "tiers": {
+        "discovery": 2,
+        "support": 1,
+        "recommended": 1
+      },
+      "top_categories": {
+        "experience": 2,
+        "hotel": 1,
+        "heritage": 1
+      }
+    },
+    "cell_5_6": {
+      "row": 5,
+      "col": 6,
+      "bounds": {
+        "min_lat": 15.5157,
+        "max_lat": 15.5357,
+        "min_lon": 73.8662,
+        "max_lon": 73.8862
+      },
+      "total_pois": 4,
+      "tiers": {
+        "core_destination": 2,
+        "discovery": 1,
+        "support": 1
+      },
+      "top_categories": {
+        "religious": 2,
+        "experience": 1,
+        "hotel": 1
+      }
+    },
+    "cell_5_7": {
+      "row": 5,
+      "col": 7,
+      "bounds": {
+        "min_lat": 15.5157,
+        "max_lat": 15.5357,
+        "min_lon": 73.8862,
+        "max_lon": 73.9062
+      },
+      "total_pois": 5,
+      "tiers": {
+        "core_destination": 1,
+        "recommended": 2,
+        "support": 1,
+        "discovery": 1
+      },
+      "top_categories": {
+        "heritage": 1,
+        "food": 1,
+        "hotel": 1
+      }
+    },
+    "cell_6_0": {
+      "row": 6,
+      "col": 0,
+      "bounds": {
+        "min_lat": 15.5357,
+        "max_lat": 15.5557,
+        "min_lon": 73.7462,
+        "max_lon": 73.7662
+      },
+      "total_pois": 593,
+      "tiers": {
+        "core_destination": 2,
+        "support": 376,
+        "recommended": 129,
+        "discovery": 86
+      },
+      "top_categories": {
+        "hotel": 376,
+        "food": 106,
+        "experience": 92
+      }
+    },
+    "cell_6_1": {
+      "row": 6,
+      "col": 1,
+      "bounds": {
+        "min_lat": 15.5357,
+        "max_lat": 15.5557,
+        "min_lon": 73.7662,
+        "max_lon": 73.7862
+      },
+      "total_pois": 118,
+      "tiers": {
+        "support": 68,
+        "recommended": 17,
+        "discovery": 33
+      },
+      "top_categories": {
+        "hotel": 68,
+        "experience": 32,
+        "food": 11
+      }
+    },
+    "cell_6_2": {
+      "row": 6,
+      "col": 2,
+      "bounds": {
+        "min_lat": 15.5357,
+        "max_lat": 15.5557,
+        "min_lon": 73.7862,
+        "max_lon": 73.8062
+      },
+      "total_pois": 37,
+      "tiers": {
+        "recommended": 8,
+        "support": 14,
+        "discovery": 15
+      },
+      "top_categories": {
+        "experience": 15,
+        "hotel": 14,
+        "food": 5
+      }
+    },
+    "cell_6_3": {
+      "row": 6,
+      "col": 3,
+      "bounds": {
+        "min_lat": 15.5357,
+        "max_lat": 15.5557,
+        "min_lon": 73.8062,
+        "max_lon": 73.8262
+      },
+      "total_pois": 97,
+      "tiers": {
+        "recommended": 25,
+        "support": 40,
+        "discovery": 32
+      },
+      "top_categories": {
+        "hotel": 40,
+        "experience": 30,
+        "food": 18
+      }
+    },
+    "cell_6_4": {
+      "row": 6,
+      "col": 4,
+      "bounds": {
+        "min_lat": 15.5357,
+        "max_lat": 15.5557,
+        "min_lon": 73.8262,
+        "max_lon": 73.8462
+      },
+      "total_pois": 26,
+      "tiers": {
+        "discovery": 13,
+        "support": 12,
+        "recommended": 1
+      },
+      "top_categories": {
+        "hotel": 12,
+        "experience": 11,
+        "heritage": 1
+      }
+    },
+    "cell_6_5": {
+      "row": 6,
+      "col": 5,
+      "bounds": {
+        "min_lat": 15.5357,
+        "max_lat": 15.5557,
+        "min_lon": 73.8462,
+        "max_lon": 73.8662
+      },
+      "total_pois": 1,
+      "tiers": {
+        "recommended": 1
+      },
+      "top_categories": {
+        "cafe": 1
+      }
+    },
+    "cell_6_6": {
+      "row": 6,
+      "col": 6,
+      "bounds": {
+        "min_lat": 15.5357,
+        "max_lat": 15.5557,
+        "min_lon": 73.8662,
+        "max_lon": 73.8862
+      },
+      "total_pois": 6,
+      "tiers": {
+        "core_destination": 1,
+        "support": 2,
+        "discovery": 3
+      },
+      "top_categories": {
+        "experience": 3,
+        "hotel": 2,
+        "religious": 1
+      }
+    },
+    "cell_6_7": {
+      "row": 6,
+      "col": 7,
+      "bounds": {
+        "min_lat": 15.5357,
+        "max_lat": 15.5557,
+        "min_lon": 73.8862,
+        "max_lon": 73.9062
+      },
+      "total_pois": 2,
+      "tiers": {
+        "core_destination": 1,
+        "discovery": 1
+      },
+      "top_categories": {
+        "religious": 1,
+        "experience": 1
+      }
+    },
+    "cell_7_0": {
+      "row": 7,
+      "col": 0,
+      "bounds": {
+        "min_lat": 15.5557,
+        "max_lat": 15.5757,
+        "min_lon": 73.7462,
+        "max_lon": 73.7662
+      },
+      "total_pois": 399,
+      "tiers": {
+        "core_destination": 4,
+        "support": 245,
+        "recommended": 101,
+        "discovery": 49
+      },
+      "top_categories": {
+        "hotel": 245,
+        "food": 79,
+        "experience": 52
+      }
+    },
+    "cell_7_1": {
+      "row": 7,
+      "col": 1,
+      "bounds": {
+        "min_lat": 15.5557,
+        "max_lat": 15.5757,
+        "min_lon": 73.7662,
+        "max_lon": 73.7862
+      },
+      "total_pois": 102,
+      "tiers": {
+        "support": 70,
+        "recommended": 11,
+        "discovery": 21
+      },
+      "top_categories": {
+        "hotel": 70,
+        "experience": 22,
+        "food": 5
+      }
+    },
+    "cell_7_2": {
+      "row": 7,
+      "col": 2,
+      "bounds": {
+        "min_lat": 15.5557,
+        "max_lat": 15.5757,
+        "min_lon": 73.7862,
+        "max_lon": 73.8062
+      },
+      "total_pois": 22,
+      "tiers": {
+        "recommended": 5,
+        "support": 15,
+        "discovery": 2
+      },
+      "top_categories": {
+        "hotel": 15,
+        "food": 2,
+        "experience": 2
+      }
+    },
+    "cell_7_3": {
+      "row": 7,
+      "col": 3,
+      "bounds": {
+        "min_lat": 15.5557,
+        "max_lat": 15.5757,
+        "min_lon": 73.8062,
+        "max_lon": 73.8262
+      },
+      "total_pois": 5,
+      "tiers": {
+        "core_destination": 1,
+        "support": 2,
+        "discovery": 1,
+        "recommended": 1
+      },
+      "top_categories": {
+        "hotel": 2,
+        "heritage": 1,
+        "experience": 1
+      }
+    },
+    "cell_7_4": {
+      "row": 7,
+      "col": 4,
+      "bounds": {
+        "min_lat": 15.5557,
+        "max_lat": 15.5757,
+        "min_lon": 73.8262,
+        "max_lon": 73.8462
+      },
+      "total_pois": 9,
+      "tiers": {
+        "discovery": 4,
+        "support": 5
+      },
+      "top_categories": {
+        "hotel": 5,
+        "experience": 4
+      }
+    },
+    "cell_7_5": {
+      "row": 7,
+      "col": 5,
+      "bounds": {
+        "min_lat": 15.5557,
+        "max_lat": 15.5757,
+        "min_lon": 73.8462,
+        "max_lon": 73.8662
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_7_6": {
+      "row": 7,
+      "col": 6,
+      "bounds": {
+        "min_lat": 15.5557,
+        "max_lat": 15.5757,
+        "min_lon": 73.8662,
+        "max_lon": 73.8862
+      },
+      "total_pois": 4,
+      "tiers": {
+        "core_destination": 1,
+        "discovery": 2,
+        "support": 1
+      },
+      "top_categories": {
+        "experience": 2,
+        "religious": 1,
+        "hotel": 1
+      }
+    },
+    "cell_7_7": {
+      "row": 7,
+      "col": 7,
+      "bounds": {
+        "min_lat": 15.5557,
+        "max_lat": 15.5757,
+        "min_lon": 73.8862,
+        "max_lon": 73.9062
+      },
+      "total_pois": 1,
+      "tiers": {
+        "discovery": 1
+      },
+      "top_categories": {
+        "experience": 1
+      }
+    }
+  }
+}

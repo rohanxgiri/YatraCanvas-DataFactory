@@ -1,0 +1,78 @@
+{
+  "city": "Gulmarg",
+  "state": "Jammu And Kashmir",
+  "country": "India",
+  "version": "v3",
+  "total_raw_candidates": 434,
+  "sources_count": {
+    "wikivoyage": 10,
+    "wikidata": 7,
+    "openstreetmap": 49,
+    "overture": 368
+  },
+  "accepted_places": 84,
+  "rejected_places": 149,
+  "quarantined_places": 155,
+  "duplicate_merges": 45,
+  "by_tier": {
+    "core_destination": 10,
+    "support": 43,
+    "discovery": 20,
+    "recommended": 11
+  },
+  "by_tier_stats": {
+    "core_destination": {
+      "count": 10,
+      "with_wikidata": 6,
+      "with_wikipedia": 7,
+      "with_image": 9,
+      "with_hours": 0,
+      "with_website": 1,
+      "multi_source": 3
+    },
+    "recommended": {
+      "count": 11,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 0,
+      "with_website": 8,
+      "multi_source": 4
+    },
+    "discovery": {
+      "count": 20,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 1,
+      "with_hours": 0,
+      "with_website": 19,
+      "multi_source": 0
+    },
+    "support": {
+      "count": 43,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 0,
+      "with_website": 41,
+      "multi_source": 10
+    }
+  },
+  "image_coverage_pct": 11.9,
+  "with_images_count": 10,
+  "opening_hours_coverage_pct": 0.0,
+  "with_opening_hours_count": 0,
+  "wikidata_coverage_pct": 7.1,
+  "with_wikidata_count": 6,
+  "category_breakdown": {
+    "heritage": 11,
+    "religious": 1,
+    "transport": 1,
+    "food": 8,
+    "hotel": 42,
+    "experience": 16,
+    "shopping": 3,
+    "cafe": 2
+  },
+  "generated_at": "2026-09-19T19:56:48.368110+00:00"
+}

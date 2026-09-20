@@ -1,0 +1,39 @@
+{
+  "city": "panjim",
+  "total_core_destinations": 60,
+  "with_wikidata": 54,
+  "with_wikipedia": 46,
+  "with_wikivoyage": 3,
+  "with_osm_travel": 14,
+  "supported_only_by_overture": 20,
+  "travel_relevance_distribution": {
+    "0.0-0.2": 0,
+    "0.2-0.4": 1,
+    "0.4-0.6": 6,
+    "0.6-0.8": 7,
+    "0.8-1.0": 46
+  },
+  "categories": {
+    "heritage": 40,
+    "religious": 12,
+    "museum": 8
+  },
+  "subcategories": {
+    "heritage/attraction": 30,
+    "religious/place_of_worship": 12,
+    "museum/history_museum": 8,
+    "heritage/fort": 6,
+    "heritage/historical_monument": 2,
+    "heritage/memorial": 1,
+    "heritage/palace": 1
+  },
+  "source_combinations": {
+    "wikidata": 20,
+    "overture": 20,
+    "openstreetmap,overture": 12,
+    "overture,wikidata": 4,
+    "wikivoyage": 2,
+    "openstreetmap,overture,wikivoyage": 1,
+    "openstreetmap": 1
+  }
+}

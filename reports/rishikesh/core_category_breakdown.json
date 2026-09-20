@@ -1,0 +1,30 @@
+{
+  "city": "rishikesh",
+  "total_core_destinations": 15,
+  "with_wikidata": 12,
+  "with_wikipedia": 11,
+  "with_wikivoyage": 3,
+  "with_osm_travel": 0,
+  "supported_only_by_overture": 4,
+  "travel_relevance_distribution": {
+    "0.0-0.2": 0,
+    "0.2-0.4": 2,
+    "0.4-0.6": 0,
+    "0.6-0.8": 2,
+    "0.8-1.0": 11
+  },
+  "categories": {
+    "heritage": 13,
+    "religious": 2
+  },
+  "subcategories": {
+    "heritage/attraction": 13,
+    "religious/place_of_worship": 2
+  },
+  "source_combinations": {
+    "wikidata": 8,
+    "overture": 4,
+    "wikivoyage": 2,
+    "overture,wikivoyage": 1
+  }
+}

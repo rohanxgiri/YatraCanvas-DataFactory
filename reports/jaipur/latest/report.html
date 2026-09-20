@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YatraCanvas City Pack Report - Jaipur</title>
+    <style>
+        :root {
+            --primary: #2b6cb0;
+            --bg: #f7fafc;
+            --card-bg: #ffffff;
+            --text: #2d3748;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 30px 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1150px; margin: 0 auto; }
+        .header {
+            background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .header h1 { margin: 0 0 8px 0; font-size: 2rem; }
+        .header p { margin: 0; opacity: 0.9; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .stat-value { font-size: 1.8rem; font-weight: 700; color: #1a365d; }
+        .stat-label { font-size: 0.85rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px; }
+        .tier-card { border-left: 4px solid #3182ce; }
+        .tier-core { border-left-color: #e53e3e; }
+        .tier-rec { border-left-color: #dd6b20; }
+        .tier-disc { border-left-color: #3182ce; }
+        .tier-supp { border-left-color: #718096; }
+        .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
+        .badge-core { background: #fed7d7; color: #9b2c2c; }
+        .badge-rec { background: #feebc8; color: #7b341e; }
+        .badge-primary { background: #e2e8f0; color: #2d3748; }
+        .badge-success { background: #c6f6d5; color: #22543d; }
+        .badge-gray { background: #edf2f7; color: #718096; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; background: white; border-radius: 8px; overflow: hidden; }
+        th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        th { background: #edf2f7; color: #4a5568; font-weight: 600; }
+        .section-title { font-size: 1.25rem; font-weight: 700; margin: 30px 0 15px 0; color: #1a365d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>YatraCanvas City Pack: Jaipur</h1>
+            <p>Rajasthan, India • Open Data Architecture v2.0</p>
+        </div>
+
+        <div class="section-title">Coverage By Place Tier</div>
+        <div class="stats-grid">
+            <div class="stat-card tier-core">
+                <div class="stat-value">80</div>
+                <div class="stat-label">Core Destinations</div>
+                <small>Images: 47 • Wiki: 47 • Hours: 17</small>
+            </div>
+            <div class="stat-card tier-rec">
+                <div class="stat-value">1780</div>
+                <div class="stat-label">Recommended Places</div>
+                <small>Images: 1 • Wiki: 1 • Hours: 90</small>
+            </div>
+            <div class="stat-card tier-disc">
+                <div class="stat-value">6122</div>
+                <div class="stat-label">Discovery Places</div>
+                <small>Long-tail food & shops</small>
+            </div>
+            <div class="stat-card tier-supp">
+                <div class="stat-value">2078</div>
+                <div class="stat-label">Support / Transit</div>
+                <small>Hotels, stations & hubs</small>
+            </div>
+        </div>
+
+        <div class="section-title">Top Verified Destinations</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Tier</th>
+                    <th>Category</th>
+                    <th>Relevance</th>
+                    <th>Quality</th>
+                    <th>Exact Image</th>
+                    <th>Wikidata QID</th>
+                    <th>Opening Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td><strong>Hawa Mahal</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q836531" target="_blank">Q836531</a></td>
+            <td>9AM-5PM</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Jantar Mantar</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td><span class="badge badge-success">✓ Public domain</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q508634" target="_blank">Q508634</a></td>
+            <td>9AM-5PM</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Anokhi Museum of Hand Printing</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q61931254" target="_blank">Q61931254</a></td>
+            <td>Tue-Sat 10:30AM-5PM; Sun 11AM-4:30PM</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Albert Hall Museum</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q4710411" target="_blank">Q4710411</a></td>
+            <td>9AM-5:30PM</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Sisodia Rani Palace and Garden</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q7530898" target="_blank">Q7530898</a></td>
+            <td>8AM-8PM</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Nahargarh Fort</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q2723401" target="_blank">Q2723401</a></td>
+            <td>10AM-6PM</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Amber Fort</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.96</td>
+            <td><span class="badge badge-success">✓ CC BY 2.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q456817" target="_blank">Q456817</a></td>
+            <td>8AM-6PM</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Moti Dungri Mandir</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.94</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q28154167" target="_blank">Q28154167</a></td>
+            <td>Always open</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Galtaji</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.93</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q3635211" target="_blank">Q3635211</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Amrapali Museum</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.93</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q117473179" target="_blank">Q117473179</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>City Palace</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.89</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 2.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q2723395" target="_blank">Q2723395</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Birla Mandir (aka The Marble Temple)</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.89</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 2.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q4916529" target="_blank">Q4916529</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Jagat Shiromani Temple</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.89</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 3.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q21503605" target="_blank">Q21503605</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Jawahar Circle</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>1.00</td>
+            <td>0.89</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 4.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q6165899" target="_blank">Q6165899</a></td>
+            <td><span class="text-muted">None</span></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Jaigarh Fort</strong><br><small style="color:#666;">attraction</small></td>
+            <td><span class="badge badge-core">core_destination</span></td>
+            <td><span class="badge badge-primary">heritage</span></td>
+            <td>0.95</td>
+            <td>0.94</td>
+            <td><span class="badge badge-success">✓ CC BY-SA 2.0</span></td>
+            <td><a href="https://www.wikidata.org/wiki/Q2722759" target="_blank">Q2722759</a></td>
+            <td>9AM-4:30PM</td>
+        </tr>
+        
+            </tbody>
+        </table>
+
+        <div class="section-title">Category Breakdown</div>
+        <div style="display:flex; flex-wrap:wrap; gap:10px;">
+            <div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">5823</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">experience</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">2037</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">hotel</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">865</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">food</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">416</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">shopping</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">246</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">cafe</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">208</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">heritage</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">163</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">religious</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">119</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">park</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">68</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">arts_culture</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">41</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">transport</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">40</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">museum</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">23</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">nature</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">9</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">entertainment</div></div><div class="stat-card" style="min-width:140px; text-align:center;"><div style="font-size:1.4rem; font-weight:700; color:#1a365d;">2</div><div style="font-size:0.85rem; text-transform:capitalize; color:#4a5568;">viewpoint</div></div>
+        </div>
+    </div>
+</body>
+</html>

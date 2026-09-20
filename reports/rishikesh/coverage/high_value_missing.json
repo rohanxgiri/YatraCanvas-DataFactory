@@ -1,0 +1,15 @@
+{
+  "city": "Rishikesh",
+  "state": "Uttarakhand",
+  "country": "India",
+  "version": "v3",
+  "summary": {
+    "wikivoyage_total_see_do": 0,
+    "wikivoyage_missing_count": 0,
+    "wikidata_total_attractions": 26,
+    "wikidata_missing_count": 0,
+    "by_outcome": {}
+  },
+  "missing_wikivoyage_listings": [],
+  "missing_wikidata_attractions": []
+}

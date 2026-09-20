@@ -1,0 +1,33 @@
+{
+  "city": "gulmarg",
+  "total_core_destinations": 10,
+  "with_wikidata": 6,
+  "with_wikipedia": 7,
+  "with_wikivoyage": 4,
+  "with_osm_travel": 2,
+  "supported_only_by_overture": 2,
+  "travel_relevance_distribution": {
+    "0.0-0.2": 0,
+    "0.2-0.4": 0,
+    "0.4-0.6": 3,
+    "0.6-0.8": 1,
+    "0.8-1.0": 6
+  },
+  "categories": {
+    "heritage": 9,
+    "religious": 1
+  },
+  "subcategories": {
+    "heritage/attraction": 8,
+    "religious/place_of_worship": 1,
+    "heritage/historical_monument": 1
+  },
+  "source_combinations": {
+    "wikivoyage": 3,
+    "overture": 2,
+    "wikidata": 2,
+    "openstreetmap,overture,wikidata": 1,
+    "overture,wikivoyage": 1,
+    "openstreetmap": 1
+  }
+}

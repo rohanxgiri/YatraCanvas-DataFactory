@@ -1,0 +1,171 @@
+{
+  "timestamp": "2026-09-19T10:45:00Z",
+  "audit_version": "1.0.0",
+  "pipeline_name": "YatraCanvas-DataFactory",
+  "architecture_summary": {
+    "paradigm": "Monolithic Overture-first linear pipeline with post-hoc live API enrichment",
+    "status": "Functional v1, but suffering from severe systemic data quality and coverage issues",
+    "root_cause": "Overture places flooded dataset with unclassified businesses labeled as generic 'experience' destinations, while independent discovery sources (Wikivoyage, spatial Wikidata, local OSM PBF) were absent, and Wikidata enrichment was gated behind an overly restrictive heuristic filter."
+  },
+  "source_adapters": {
+    "overture": {
+      "path": "datafactory/sources/overture.py",
+      "method": "Live cloud query via overturemaps.record_batch_reader('place', bbox=...)",
+      "storage_format": "Parquet (data/raw/.../overture/places_raw.parquet)",
+      "fields_extracted": ["id", "names", "geometry", "basic_category", "taxonomy", "categories", "websites", "phones", "addresses", "confidence", "operating_status", "brand", "sources"],
+      "role": "Monolithic primary candidate source (constitutes >95% of all raw records)"
+    },
+    "osm": {
+      "path": "datafactory/sources/osm.py",
+      "method": "Live Overpass HTTP API POST queries against public endpoints (lz4.overpass-api.de, overpass-api.de, overpass.kumi.systems)",
+      "storage_format": "JSON (data/raw/.../osm/places_raw.json)",
+      "role": "Secondary candidate source, severely constrained by endpoint rate limits, HTTP 504 timeouts, and incomplete bbox fetches (only ~500-1100 records per city)"
+    },
+    "wikidata": {
+      "path": "datafactory/sources/wikidata.py",
+      "method": "Sequential live HTTP API calls (wbsearchentities, wbgetentities) with disk cache",
+      "role": "Post-hoc enrichment only. Zero spatial candidate discovery. Only queried for places passing a restrictive hardcoded landmark filter in enrich.py."
+    },
+    "wikimedia": {
+      "path": "datafactory/sources/wikimedia.py",
+      "method": "MediaWiki imageinfo API on commons.wikimedia.org",
+      "role": "Download P18 images and Commons categories for Wikidata-matched places. Converts to WebP (primary.webp and thumbnail.webp)."
+    },
+    "geonames": {
+      "path": "datafactory/sources/geonames.py",
+      "method": "Nominatim OSM search API (live HTTP call), NOT actual GeoNames bulk data",
+      "role": "Resolves city name and bounding box"
+    },
+    "official_web": {
+      "path": "datafactory/sources/official_web.py",
+      "method": "Basic HTTP fetcher",
+      "role": "Placeholder for web crawling"
+    }
+  },
+  "cached_raw_data": {
+    "jaipur": {
+      "overture_parquet": "data/raw/india/rajasthan/jaipur/overture/places_raw.parquet (64,832 places)",
+      "osm_json": "data/raw/india/rajasthan/jaipur/osm/places_raw.json (1,092 places)"
+    },
+    "udaipur": {
+      "overture_parquet": "data/raw/india/rajasthan/udaipur/overture/places_raw.parquet (14,114 places)",
+      "osm_json": "data/raw/india/rajasthan/udaipur/osm/places_raw.json (516 places)"
+    },
+    "varanasi": {
+      "overture_parquet": "data/raw/india/uttar_pradesh/varanasi/overture/places_raw.parquet (18,669 places)",
+      "osm_json": "data/raw/india/uttar_pradesh/varanasi/osm/places_raw.json (877 places)"
+    }
+  },
+  "release_structure": {
+    "path_pattern": "releases/india/{state}/{city}/v1/",
+    "files": [
+      "city.json",
+      "places.json",
+      "places.jsonl",
+      "places.parquet",
+      "yatracanvas.db",
+      "images_manifest.json",
+      "sources.json",
+      "manifest.json",
+      "checksums.json",
+      "images/{place_id}/primary.webp",
+      "images/{place_id}/thumbnail.webp"
+    ]
+  },
+  "schemas": {
+    "place_model": "datafactory.models.place.Place",
+    "components": [
+      "PlaceLocation (lat, lon, address)",
+      "PlaceClassification (category, subcategory, tags)",
+      "PlacePlanning (recommended_visit_minutes, visit_duration_source, tourism_priority, family_friendly, best_time)",
+      "PlaceContact (website, phone)",
+      "PlaceOpeningHours (raw, source, verified)",
+      "PlaceExternalIds (overture_id, osm_id, wikidata_id)",
+      "QualityScore (overall, identity_confidence, coordinate_confidence, image_confidence, metadata_completeness)",
+      "SourceRecord",
+      "FieldProvenance"
+    ],
+    "missing_in_schema": [
+      "place_tier (core_destination, recommended, discovery, support)",
+      "foursquare_id",
+      "wikivoyage_listing_id",
+      "alltheplaces_id",
+      "travel_relevance_score",
+      "prominence_score",
+      "wikipedia_url",
+      "multilingual_names"
+    ]
+  },
+  "tests": {
+    "test_files": [
+      "tests/test_schema.py",
+      "tests/test_classification.py",
+      "tests/test_deduplication.py",
+      "tests/test_geo.py",
+      "tests/test_manifest.py",
+      "tests/test_quarantine.py",
+      "tests/test_sqlite.py"
+    ],
+    "count": 12,
+    "status": "All 12 passing"
+  },
+  "systemic_problems_identified": {
+    "generic_poi_flood": {
+      "description": "Overture places without clear categories default to category='experience' and subcategory='cultural_experience' in classify.py (e.g., 15,335 generic shops/offices in Jaipur).",
+      "impact": "Dilutes travel dataset; thousands of mundane non-travel POIs are promoted to destinations."
+    },
+    "wikidata_enrichment_starvation": {
+      "description": "enrich.py lines 32-43 restricted Wikidata search to places matching a hardcoded list of landmark names or narrow hero categories. Places without these exact terms were never queried against Wikidata.",
+      "impact": "Only 19 places in Jaipur, 11 in Udaipur, and 8 in Varanasi received Wikidata enrichment (<0.2% coverage)."
+    },
+    "wikimedia_image_starvation": {
+      "description": "images.py only checks wikidata_p18 and commons_category from already-enriched Wikidata entities. Because Wikidata was only matched for ~10-20 places, image download was only attempted for those few.",
+      "impact": "Only 16 images downloaded for Jaipur, 8 for Udaipur, 8 for Varanasi. Wikivoyage listing photos and Wikipedia lead images were completely ignored."
+    },
+    "opening_hours_starvation": {
+      "description": "Opening hours were solely harvested from OSM raw tags. Since live Overpass endpoints frequently timed out and returned under 1,100 nodes per city, opening hours coverage remained at 0.3% - 0.5%.",
+      "impact": "68 places in Jaipur, 28 in Udaipur, 25 in Varanasi."
+    },
+    "missing_place_tiers": {
+      "description": "All accepted places are treated uniformly without distinction between Amber Fort (a world heritage attraction) and a local tailor shop.",
+      "impact": "Quality reporting and mobile apps cannot differentiate tier-1 monuments from long-tail commercial businesses."
+    },
+    "nominatim_dependency": {
+      "description": "geonames.py uses live Nominatim API rather than local bulk GeoNames files.",
+      "impact": "Subject to Nominatim rate limits and network failure."
+    },
+    "lack_of_licensing_isolation": {
+      "description": "Sources are blended without dedicated source manifest distinguishing ODbL (OSM), CC-BY-SA (Wikivoyage), and permissive layers.",
+      "impact": "Legal and redistribution compliance risks."
+    }
+  },
+  "existing_metrics_summary": {
+    "jaipur": {
+      "accepted_places": 24220,
+      "with_images": 16,
+      "with_wikidata": 19,
+      "with_opening_hours": 68,
+      "image_pct": 0.1,
+      "wikidata_pct": 0.1,
+      "hours_pct": 0.3
+    },
+    "udaipur": {
+      "accepted_places": 6135,
+      "with_images": 8,
+      "with_wikidata": 11,
+      "with_opening_hours": 28,
+      "image_pct": 0.1,
+      "wikidata_pct": 0.2,
+      "hours_pct": 0.5
+    },
+    "varanasi": {
+      "accepted_places": 6729,
+      "with_images": 8,
+      "with_wikidata": 8,
+      "with_opening_hours": 25,
+      "image_pct": 0.1,
+      "wikidata_pct": 0.1,
+      "hours_pct": 0.4
+    }
+  }
+}

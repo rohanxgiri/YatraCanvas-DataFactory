@@ -1,0 +1,761 @@
+{{pagebanner|Dharamsala banner Monastery prayer wheel.jpg|otbp=yes}}
+[[File:Dharamsala View.JPG|thumb|350px|McLeod Ganj and the snow-capped peaks of the Dhauladhars]]
+'''Dharamsala''' or '''Dharamshala''' (Hindi: धर्मशाला ''Dharmshālā''; Tibetan: དྷ་རམ་ས་ལ་), is a [[Hill stations in India|hill station]] in [[Himachal Pradesh]], famed for its large [[Tibet]]an community centred on the activities of the Dalai Lama.
+
+==Understand==
+The [[Buddhism|Tibetan Buddhist]] roots of Dharamsala stretch back to the 8th century, although most of the local population long since reverted to (and remains) [[Hinduism|Hindu]]. "Dharamsala" (''D<sup>H</sup>UHRM-shah-lah'') literally means an "inn attached to a temple", and it was so until the district headquarters in [[Kangra]] became too crowded and the British moved 2 of their regiments in the late 1840s to what is now Dharamsala. Over the years, this grew to be district headquarters of Kangra, and the location is now known as the Police Lines.
+
+Dharamsala was mooted to be the summer capital of India. But this was not to be, as much of the town was destroyed in the 7.8 magnitude earthquake of 4 April 1905. The disaster killed over 10,000 people in this sparsely populated area.
+
+After falling into obscurity in the early days of Indian independence, Dharamsala regained some social standing in 1959 with the arrival of the Dalai Lama and the [http://www.tibet.com Tibetan Government in Exile]{{Dead link|date=January 2023 |bot=InternetArchiveBot }}. It is a very popular hang-out for foreigners and students of Buddhism. Indeed, it is now perhaps a little too popular and many would say the town, and especially McLeod Ganj, is little more than a backpacker ghetto. Don't come here expecting calm and tranquillity.
+
+===Climate===
+Lower Dharamsala is at an altitude of 1,400 m, while McLeod Ganj is at around 1,750 m, making them '''considerably cooler''' than the plains below. Temperatures in January can dip below freezing, while June can go up to 38°C. The monsoon from July to September is very wet. Even in March, when the Dalai Lama holds his teachings and the weather down in [[New Delhi]] is balmy, you will still need a heavy winter coat. These can be purchased at reasonable prices in the town.
+
+==Get in==
+
+===By plane===
+'''[[DHM|Kangra Airport]]''' ({{IATA|DHM}}) is at Gaggal near [[Kangra]], a distance of 15&nbsp;km from McLeod Ganj by road on MDR44 and NH 154.
+
+===By bus===
+* {{go
+| name=Dharamshala ISBT Bus Stand | alt= | url=https://online.hrtchp.com | email=
+| address= | lat=32.21820 | long=76.31726 | directions=
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-08
+| content=Most people arrive in Lower Dharamsala by bus. It has good connections with other parts of North India, although the journeys are often slow due to the narrow winding roads in the hills.  Tickets for Himachal Road Transport Corporation (HRTC, a state government body) can be booked online.
+}}
+* {{go
+| name=Dharamsala Private Volvo Stop | alt= | url= | email=
+| address= | lat=32.2193336 | long=76.3161606 | directions=
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-08
+| content=
+}}
+
+It was the case that some public HRTC buses to New Delhi and [[Pathankot]] go all the way to the main square of McLeod Ganj, where you could also book advance tickets for the return trip, but this seems no longer to be the case.
+
+Privately operated buses travel from [[Manali]], [[Dehradun]] and [[New Delhi]] (many via Chandigarh). Overnight buses travel from New Delhi with many leaving from the Tibetan colony of Majnu ka Tilla. These services take upwards of 13 hr and cost ₹450–1,000 for a Volvo.
+
+Specific nearby destinations:
+* From [[Pathankot]] – Unreserved HRTC buses from Pathankot cost ₹200 (Jul 2023) and take 3–4 hr to Dharamsala. Buses depart frequently throughout the day, 4PM last. 
+{{cautionbox
+| The NH-154 highway from Pathankot is undergoing constant construction work, causing the bus to drive on bumpy and slow gravel detours.
+| lastedit=2026-02-01
+}}
+* From [[Amritsar]] (usually via Pathankot) – There are direct private buses leaving in the afternoon for ₹800 that are advertised as taking 5 hr. There are no direct public buses between Amritsar and Dharamsala. However, you could take the 9AM train to Pathankot first for ₹55 and then transfer to the HRTC bus.
+* From [[Chandigarh]] – Even though just 236&nbsp;km it's a gruelling 8–9 hr trip in an ordinary bus.
+
+===By train===
+The nearest mainline train station is at [[Pathankot]] and the neighbouring small station of Chakki Bank, a comfortable overnight journey from New Delhi.
+
+Another fast option is the '''Vande Bharat Express (22447)''' from New Delhi to '''Amb Andaura (AADR)''', which departs New Delhi at 05:50 and arrives at Amb Andaura by 11:05 (approx. 5 hr 15 min). From Amb Andaura, Dharamsala is about 88 km (around 2 hr 30 min) by road. Connecting HRTC / Himachal Tourism buses as well as plenty of taxis are readily available at the station for the onward journey to Dharamsala.
+
+Train fans can continue from Pathankot on the slow and rickety but pretty '''[[Kangra#Q744580|narrow-gauge Kangra Valley Railway]]''' to [[Kangra]], a journey of 4 hr. In Kangra walk or take a rickshaw to the bus stop from where buses to Dharamsala go. The train actually continues further to [[Jogindernagar]] from Kangra.
+
+===By taxi===
+A taxi from [[Pathankot]] to McLeod Ganj, 88&nbsp;km and takes about 3 hours, and the official fare from Pathankot is ₹2,200 (one way). This is May 2019 rate for a small car such as an Alto/Indica.
+
+Taxis from New Delhi are often available leaving from Majnu Ki Tila Tibetan settlement on the ring road. Many people take a taxi to New Delhi which takes about 10 hours and pay the return fare simply because they don't want to deal with the hassle and pain of taking a bus. These taxis need to return to Dharamsala, and many times will sell seats in their car for the same price as a bus ticket. To find these taxis, go to the Majnu Ki Tila Tibetan Settlement Bus Stand and look for taxis which have [[Himachal Pradesh]] licence plates. You can negotiate with a driver. Often the taxis will leave in the evening and you will arrive in Dharamsala early the next morning.
+
+==Get around==
+[[File:Map of McLeod Ganj.png|thumb|370px|Map of McLeod Ganj]]
+{{mapframe|32.21968|76.32093|zoom=13}}
+
+===Orientation===
+Dharamsala is divided into several distinct areas that are separated by a 15 min or 12&nbsp;km bus or jeep ride at most:
+* '''{{marker|type=around|name=Lower Dharamsala|lat=32.21778|long=76.31855}}''' – Consists of most of the government offices, Schools, the local hospital, and commercial areas. It also has a few tea gardens. One in the area of Chilgari and another just beyond Dari. It is a typical small Indian town that, other than for the bus station, is of little interest to tourists. One can enjoy the view while driving through.
+* '''{{marker|type=around|name=McLeod Ganj|lat=32.23799|long=76.32397}}''' – Known less commonly as ''Upper Dharamsala'' is named after David McLeod, who was once the British Lieutenant-Governor of Punjab, and the word ''Ganj'', which is a common Persian word meaning "neighbourhood". At an altitude of 2,082 m and 5 km on foot from Lower Dharamsala, it is famous for Tibetan culture, natural beauty, mixed tradition, ancient temples, churches and monasteries. As of 2021, it is the home of famous 14th Tibetan Dalai Lama, Tenzin Gyatso after his exile from [[Tibet]], and thus home and centre to the Tibetan community.
+* '''{{marker|type=around|name=Bhagsu|lat=32.24448|long=76.33300}}''' – Sometimes also called ''Little Tel Aviv'', it is 2&nbsp;km northeast of McLeod and has become a highly commercialised hotspot for many backpackers from Israel—Hewbrew is a common sight here.
+* '''{{marker|type=around|name=Dharamkot|lat=32.24856|long=76.32828}}''' – A 10-min climb above Bhagsu with a number of guesthouses. It is less busy than Bhagsu and offers many fancy restaurants and Yoga and meditation centers. There is a nice shopping and dinning promenade aka footway making half a circle around the hill.
+* '''{{marker|type=around|name=Haini|lat=32.25127|long=76.32914}}''' – Another 10 min climbing straight north and you will reach the last of the tourist centers of Dharamsala, sometimes called ''Upper Dharamkot''. There are several good to great hostels with some of the best views in Dharamsala. This place seem to be popular with Russian speaking backpackers, even though many other tourists pass through here on their way to the ''Galu waterfall''.
+
+Villages near McLeod Ganj include '''Forsyth Ganj''', in between Lower and Upper Dharamsala. And for a more quiet and basic experience, try '''Naddi''' (3&nbsp;km, and a great viewpoint) or '''Talnu''' (11&nbsp;km).
+
+All these places are small enough to be navigated on foot—McLeod, Bhagsu, Dharamkot and Haini are closest to each other (max. 20 min on foot), while Lower Dharamsala is further away.
+
+===By taxi or rickshaw===
+Between McLeod Ganj and Dharamkot shared taxis run roughly hourly and cost ₹20 (2023) Be prepared to bargain. Chartered auto-rickshaws charge around ₹250. Trips from McLeod Ganj to nearby points (e.g. Bhagsu) cost ₹50–150. There are separate counters for auto-rickshaws and taxis near the center square. Walk to them and rent vehicles and avoid people who walk up to you and offer to take you to places.
+{{cautionbox
+| Private taxi drivers in lower Dharamshala, McleodGanj and Dharamkot can try to dissuade you from taking a rickshaw (tuk-tuk), stating "only taxis are available" due to the steep inclines. This is false and rickshaws operate both uphill and downhill between lower Dharamshala, McleodGanj and Dharamkot, offering vastly cheaper rates than taxis
+| lastedit=2026-02-01
+}}
+* {{go
+| name=Auto-rickshaw counter | alt= | url= | email=
+| address= | lat=32.23938 | long=76.32363 | directions=
+| phone= | tollfree=
+| hours= | price=₹50–250
+| lastedit=2019-05-09
+| content=
+}}
+* {{go
+| name=Taxi cab counter | alt= | url= | email=
+| address= | lat=32.23933 | long=76.32386 | directions=
+| phone= | tollfree=
+| hours= | price=
+| lastedit=2019-05-09
+| content=
+}}
+* {{go
+| name=Dharamsala Airport | alt= | url= | email=
+| address= | lat=32.165939 | long=76.260217 | directions=
+| phone= | tollfree=
+| hours= | price=₹1260
+| lastedit=2024-10-29
+| content=Taxi from Dharamsala Gagal airport to mid-way along Jogiwara Road in McCleod Ganj quoted ₹1260. Hotel quoted ₹1400 to arrange the taxi. Another driver gave ₹800 as the figure to negotiate towards.,
+}}
+
+===By cable car===
+* {{go
+| name=Dharamsala Skyway (lower station) | alt= | url=https://www.dharamshalaskyway.in/ | email=
+| address= | lat=32.21987 | long=76.317 | directions=
+| phone=+91 1892 223302 | tollfree=
+| hours= | price=₹450/675 one-way/return
+| wikidata=
+| lastedit=2023-08-08
+| content=There is now also a cable car between Lower Dharamsala and McLoad Ganj.
+}}
+* {{go
+| name=Dharamsala Skyway (upper station) | alt= | url= | email=
+| address= | lat=32.23446 | long=76.32441 | directions=
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-08
+| content=
+}}
+
+==See==
+[[File:Monastery PrayerWheel.JPG|thumb|201x201px|Giant prayer wheel and ''thangka'' of Arya Sitatapatra, a form of Tara, at Tsuglagkhang]]
+[[File:HPCA Stadium Dharamshala.jpg|thumb|View of Dhauladhar Range from HPCA Stadium Dharamshala]]
+* {{see
+| name=HPCA Cricket Stadium | alt=HPCA Cricket Academy | url= | email=
+| address= | lat=32.1976 | long=76.3259 | directions=in Dharamsala.
+| phone= | tollfree=
+| hours=10AM–6PM | price=₹20
+| wikidata=Q5635576
+| lastedit=2019-05-10
+| content=The picturesque Himachal Pradesh Cricket Association Stadium is unique in India as it is situated at an altitude of 1,457 m above the sea level and has the snow-capped Himalayan mountains in the background.
+}}
+* {{see
+| name=Kunal Pathari | url= | email=
+| address= | lat=32.2 | long=76.31002 | directions=around 3 km from the Dharamsala.
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=People come to this temple every day to pray to the Goddess.
+}}
+* {{see
+| name=Dal Lake | alt= | url= | email=
+| address= | lat=32.24723 | long=76.31071 | directions=4 km from McLeod Ganj, below Naddi
+| phone= | tollfree=
+| hours= | price=
+| wikidata=Q5210129
+| content=Fairly well signposted. An anticlimactic sacred pond is the colour and texture of its yellow lentil namesake.
+}}
+[[File:Dhauladhar Range from Naddi viewpoint 2.jpg|thumb|Dhauladhar Range from Naddi viewpoint]]
+* {{see
+| name=Naddi View Point | alt= | url= | email=
+| address=Naddi | lat=32.25339 | long=76.30281 | directions=around 10 km from Dharamsala.
+| phone= | tollfree=
+| hours= | price=
+| lastedit=2019-05-08
+| content=This is an ideal place for a complete scenic view of snow covered Dhauladhar range. There are manned telescopes (₹10–20) with which you can see the Triund campsite and Guna Devi Mandir. The hike from Dharamkot or Haini is the easiest, because the trail stays pretty much on the same altitude. But Naddi is of course also easily reached by taxi or rickshaw.
+}}
+*{{see
+| name=Peak Art Gallery | url=http://www.peakartgallery.com | email=
+| address=Temple Rd, McLeod Ganj | lat=32.21968 | long=76.32093 | directions=1/2 way down Temple Rd, below Cafe Nirvana
+| phone= | tollfree= | fax=
+| hours=10AM-7PM | price=
+| content=
+}}
+* {{see
+| name=Rakkar | alt= | url= | email=
+| address= | lat=32.19716 | long=76.37096 | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content= A picturesque hamlet on the outskirts of Lower Dharamsala, perched on the foothills of the snow capped Dhauladhar range of the Himalayas in the Indian state of Himachal Pradesh. Historically inhabited by shepherds of the Gaddi community, the hamlet is slowly attracting visitors who are interested in getting away from the busy tourist hub of McLeod Ganj in favour of having a closer interaction with the locals villagers in a pristine village environment.
+}}
+[[File:St John Cathedral in the Wilderness.jpg|thumb|St John Cathedral in the Wilderness]]
+* {{see
+| name=St. John Cathedral in the Wilderness | alt= | url= | email=
+| address= | lat=32.24263 | long=76.31829 | directions=around 5 km from Dharamsala
+| phone= | tollfree=
+| hours= | price=Free
+| lastedit=2019-05-08
+| content=It's a nice picturesque cathedral in the middle of greenery. 1 km from McLeod Ganj. Auto-rickshaw costs ₹70 as of May 2019. There is no auto stand near the cathedral, so it's a bit tough to get an auto back. If possible, ask the auto driver to wait and then take the same auto to other spots.
+}}
+* {{see
+| name=Tibetan Institute of Performing Arts | alt=TIPA | url=http://www.tibetanarts.org | email=
+| address= | lat=32.22643 | long=76.32523 | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Stage performances of traditional Tibetan dance, music, and theatre. The shows are not only infrequently performed.
+}}
+* {{see
+| name=Tibetan Library | alt=Library of Tibetan Works and Archives | url=http://www.tibetanlibrary.org | email=ltwa1970@gmail.com
+| address=Gangchen Kyishong | lat=32.22637 | long=76.32533 | directions=
+| phone=+91 9218422467, +91 9882255047 (reception) | tollfree= | fax=
+| hours= | price=
+| lastedit=2017-09-20
+| content=Near the Tibetan government in exile, with a small but interesting museum.
+}}
+* {{see
+| name=Tibet Museum | alt= | url=http://www.thetibetmuseum.org/ | email=
+| address=McLeod Ganj | lat=32.2325 | long=76.3249 | directions=opp. Tsuglagkhang
+| phone=+91 18 922 2510 | tollfree=
+| hours=Tue-Sun 9AM-5PM | price=₹5
+| wikidata=Q2464878
+| content=Small but interesting museum on the history of Tibet and its people.
+}}
+* {{see
+| name=Tsuglagkhang Complex | url= | email=
+| address=Temple Rd, McLeod Ganj | lat=32.23248 | long=76.32431 | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=This is the largest Tibetan temple outside Tibet, and it has a large meditation hall containing some beautiful statues and thangkas, as well as a Kalachakra temple with beautiful murals. It is the monastery of the Dalai Lama, and is just in front of his residence. It also contains the largest Tibetan prayer wheel of about 2 m height—spin it!
+}}
+
+==Do==
+* {{do
+| name=Roam around | alt= | url= | email=
+| address= | lat= | long= | directions=
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-10
+| content=McLeod Ganj is a beautiful place to roam around on foot. Hotels made on the slope of Dhauladhar range, market decorated with colourful Tibetan flags, hand made goods and stalls of tasty food makes it more beautiful.<br/>But also Dharamkot offers many small cafés and place to take a rest and watch the world go by.
+}}
+* {{do
+| name=Bhagsu Temple Swimming Pool | alt= | url= | email=
+| address=Bhagsu | lat= | long= | directions=
+| phone= | tollfree=
+| hours= | price=Free
+| wikidata=Q116259649
+| lastedit=2023-08-09
+| content='''Go swimming''' in Bhagsu's very own swimming pool. Especially with hot weather a great relief from the all so touristy other things to do in this region. The water is the same as from the waterfall, and constantly flowing fresh through the pool.
+}}
+
+===Trekking and walking===
+[[File:Bhagsunag Waterfall Pan.JPG|thumb|Bhagsu Waterfall]]
+* {{do
+| name=Bhagsu Waterfall | alt= | url= | email=
+| address= | lat=32.24752 | long=76.33838 | directions=3 km from Dharamsala
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Has many waterfalls, an ancient temple, numerous slate quarries and a fresh water spring. An easy walk down Bhagsu Rd through the village of the same name, then 1 km up to the waterfall itself. The trail up to the waterfall is stone most of the way and has fencing along steep sections. There are several vendors selling snacks and drinks at the base of the falls. Be careful if you decide to take a bath in the upper pools of the waterfall, as there may be shards of glass in the water, possibly thrown there by the villagers to prevent "indecent" behaviour by Westerners at night.<br/>You can also start your walk in Upper Bhagsu, where a second trail remains pretty much at the same altitude towards the waterfall. When you reach the waterfall, a little further up there is Shiva Café, which has a nice little private pool filled with refreshing mountain water and a comfortable picnic area.
+}}
+* {{do
+| name=Galu Waterfall | alt= | url= | email=
+| address= | lat=32.2683058 | long=76.3294275 | directions=
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-08
+| content=Also a nice hike, but first you will have to climb 300 m altitude from Bhagsu to the saddle behind Haini. From there the climbs and descents are not that extreme anymore and along the way there a 3–4 cafés and restaurants. There is a small waterfall at the end with cascades and swimming holes.
+}}
+[[File:Cjtriund1.jpg|thumb|247x247px|Triund trek]]
+* {{do
+| name=Triund | alt= | url= | email=
+| address= | lat=32.25958 | long=76.35649 | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+|lastedit=2023-08| content=If you are in for a brisk walk, climb the hill beyond Dharamkot to Triund ridge. It is one of the most popular treks to go over a weekend trip from Chandigarh and New Delhi, and perhaps the easiest Himalayan trekTl, 6 km and 3 hr (one-way) from Bhagsu or Dharamkot, which are at 1,800–1,900 m. It goes through jungle and is quite a climb, and thousands of trekkers visit come on this trek every year. Triund provides beautiful views of the first peaks of the Himalayas and a wide view over the plains. In December and January this region turns white after snowfall which makes it more attractive for trekkers.<br/>As it is at 2,875 m altitude, make sure to wear good shoes, carry water, some food and an extra vest or coat. At the top, even in summer, the weather can change from hot and sunny to cold and cloudy very quickly. Every year some tourists get themselves into serious trouble this way, wearing only sandals and a T-shirt. It seems that the western track is better maintained, so try that one if you are in Dharamkot anyway.<br />If you want to warm up before the Triund trek, try the trek to Guna temple. If you plan to stay overnight at Triund, there is a Forest Rest house (₹500–1000 per night). Take a double bedsheet, but be aware there is no running water or electricity. A torch is a must. If the Forest Rest house is full, then you can hire tents. You can also stay at Snowline tent camp, which is a bit higher up. Ask the staff at Sunset Café for details, they have their contacts.
+}}
+* {{do
+| name=Laka Glacier Trek | alt= | url= | email=
+| address= | lat= | long= | directions=
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-10
+| content=It's always exciting to reach a glacier, but in most of the cases reaching the glacier is a tough task. Laka Glacier is found at the lowest level in Asia. Trails of Laka Glacier treks pass through Triund top, so most of the time this trek is also known as Triund Laka Glacier trek.
+}}
+* {{do
+| name=Indrahar pass | alt= | url= | email=
+| address= | lat=32.29778 | long=76.38134 | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Further up from Triund, this is alpine hiking and you will probably need to book a tour to do it. It passes through the snowbound Dhauladhar Range in the Kangra valley, and ends at Lamu.
+}}
+* {{do
+| name=Toral Pass | alt=4,575 m | url= | email=
+| address= | lat=32.26504 | long=76.43062 | directions=
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-10
+| content=It begins from Tang Narwana (1,150 m) that is nearly 10 km from Dharamshala.
+}}
+* {{do
+| name=Kareri Lake Trek | alt= | url= | email=
+| address= | lat=32.32556 | long=76.27361 | directions=
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-10
+| content=Tucked between the greenery all around this glacier lake is the most attractive place for nature lovers.
+}}
+[[File:Tibetan flag.jpg|thumb|300px|The "snow lion flag," a symbol of the Tibetan independence movement, is outlawed in Tibet but ubiquitous in Dharamsala]]
+
+===Meeting the Dalai Lama===
+Meeting (or at least getting to see) the [http://www.dalailama.com Dalai Lama] is the dream of a lifetime for many people, an intensive spiritual experience for Vajrayana Buddhists and a memorable moment for people of other faiths. It's also very difficult to achieve, so don't plan on it. It requires a good deal of luck.
+
+If you want to give it your best shot, the first thing to do is make sure that ''His Holiness'' is in town when you visit. He travels frequently. His website lists his yearly itinerary and an email to the office will confirm his travel dates. While he does give scheduled public teachings, these are crowded. There are some that are only scheduled a few days in advance, so keep your eyes and ears open in Dharamsala. The ultimate goal is a private audience. His website says he is no longer giving them. This isn't entirely true, but you have to have a very good reason or an "in." Go to the office of his secretary.
+
+The Dalai Lama's administrative office is in the Tsuglagkhang Complex. When you face his house, which has a gate with Indian guards in front of it, it's the last door on your right, at the end of the complex. This office is open all day, six days a week. The man behind the desk will tell you to apply online and give you the website address. Go to an internet cafe and do it if you haven't already done it and been rejected months in advance so that you can say that you have, but it probably won't get you anywhere. If the receptionist is there alone, then ''His Holiness'' is not giving private audiences. If a bunch of people are there holding slips of paper with their personal information and their passports, he's giving private audiences, they usually occur around noon. There is heavy security and you need a reason. Chat with everyone.
+
+Some people get in as a group, like a documentary crew or a family whose father is a politician. Talk to everyone in Dharamsala about ''His Holiness'', and you're bound to run into someone who is on his staff or knows someone on his staff. At the office, drop the name of every person you met. If you are visibly ill, you may get an audience based on that. Granted, this "audience" will probably last the time it takes for him to bless you, which is about 10 seconds, and an additional ₹5 to pose for a photo. A photographer is provided and you are not allowed to bring your own camera.
+
+To meet the Dalai Lama is something most Tibetans worldwide only dream of so count your blessings if you receive an audience. Bring a khata (white scarf), they can be purchased for a few rupees, but since you'll probably be treasuring that khata, you might want to shell out ₹20 for a nicer one. If he poses for a picture with you the security office will tell you to return with a blank CD and they will burn the picture onto a CD. Blank CDs can be purchased from shops on Temple Rd for about ₹50. Remember to show appreciation for anyone whose name you might have dropped to get in. Donate to their monastery, eat at their restaurant or whatever you feel is appropriate. This isn't expected but it's a nice thing to do.
+
+Every year in February–March for ten days or so, and occasionally at other times, the Dalai Lama holds public lectures. Registration at the Tibetan Branch Security Office (near Hotel Tibet) is necessary, preferably 3–4 days beforehand although shorter notice may be possible. Bring a cushion to sit on, an FM radio with headphones to listen to the simultaneous translation from Tibetan to English, a cup for tea and a sunhat/umbrella, but as little else as possible since security is tight. The last day of teaching concludes with public prayers, for which no security pass is needed. Donations are welcome.
+
+* {{do
+| name=17th Karmapa | alt=Dalai Lama's alternative residence | url=http://www.kagyuoffice.org/ | email=
+| address= | lat=32.187282 | long=76.368571 | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=A temporary residence is at the Gyuto Tantric University in the town of Sidhbari near McLeod Ganj.
+}}
+
+==Learn==
+[[File:Dharamsala Temple Bazaar.JPG|thumb|280px|The half-Tibetan, half-Indian bazaar bustle of McLeod Ganj]]
+
+Courses available include yoga, meditation, reiki, Tibetan and Indian cooking classes, Tibetan language classes and Thai massage. Many courses include vegetarian meals, and are offered at meditation centres.
+
+===Yoga, meditation and healing===
+'''Vipassana''' and '''Tushita''' (see below) seem to be the two most authentic and original names in the region.
+
+* {{listing
+| name=Asho Institute | url= | email=
+| address=Bhagsu Village | lat= | long= | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Courses in ayurvedic nutrition and tai-chi.
+}}
+* {{listing
+| name=Amit Reiki & Meditation Centre | alt= | url=http://amitreiki.com/ | email=
+| address=Jogiwara Rd, McLeod Ganj | lat= | long= | directions=below Yongling School
+| phone=+91 94 18909046 | tollfree= | fax=
+| hours= | price=
+| content=
+}}
+* {{listing
+| name=Buddha Hall-Reiki with Usha' | url= | email=
+| address= | lat= | long= | directions=opposite the German Bakery
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Courses in reiki (I,II,III and master) as well as tarot and crystal healing from Buddha hall in Bagsu. Flexible and compassionate teacher.
+}}
+* {{listing
+| name=Guerrilla Yoga | url= | email=
+| address= | lat= | long= | directions=go down the stairs at Yongling School; it's the big green building
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=5 day yoga courses of several varieties. Private instruction is available. Friendly staff. Also has local art for sale.
+}}
+* {{listing
+| name=Kailash School of Yoga & Holistic Healing | url=http://www.yogatribe.org | email=
+| address= | lat= | long= | directions=100 m from the main square; walk down the stairs from the Green Shop
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Ashtanga Vinyasa and tribal hatha yoga classes are available daily on a drop-in basis. Treatments and sessions in reiki, ayurvedic massage, meditation and 'sound healing' are available but have to be arranged at least 1 day in advance. Short and long-term courses.
+}}
+* {{listing
+| name=Kundalini Yoga | url= | email=jiwankaur13@hotmail.co.uk
+| address=Thardoeling, Near HH Dalai Lama temple, Mcleod Ganj | lat= | long= | directions=
+| phone=+91 98 1685 1691 | tollfree= | fax=
+| hours= | price=
+| content=Yoga classes.
+}}
+* {{listing
+| name=Tibetan Buddhism and language | alt= | url= | email=tibhintutor@yahoo.in
+| address= | lat= | long= | directions=
+| phone=+91 98 0539 1799 | tollfree=
+| hours=Mon-Sat 9AM-noon, 2–4PM | price=
+| content=Courses include Tibetan Buddhism, Tibetan language, Hindi language.
+}}
+* {{listing
+| name=Tushita Meditation Centre | url=http://www.tushita.info | email=
+| address= | lat= | long= | directions=
+| phone= | tollfree= | fax=
+| hours= | price=10-day course starts at ₹4,800
+| content=10-day Introduction to Buddhism/meditation courses, 5-day meditation courses, and more (mostly residential). Silence is held most of the day but there are also discussion groups after philosophy lessons. It's near Dharamkot, Tushita practices the Tibetan mahayana tradition. Register online or at Tushita. Prices are inclusive of all lodging, lessons and 3 meals a day of tasty vegetarian food. Set cost per day is around ₹500 including food & lodging, can provide a gradual introduction to those new to Buddhism.
+}}
+* {{listing
+| name=Vipassana | alt=☸ | url=http://www.dhamma.org/ | email=
+| address= | lat= | long= | directions=near Dharamkot
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=A 10–day meditation course. You need to register in advance at their web-site, but courses are usually pre-booked for months here. In case you have a keen interest in the course and didn't get a place in Dharamsala, they are also offered in many other locations around India—check the website.<br/>The course will teach you the Vipassana technique. You have to be completely silent, and you are provided 2 meals and very light dinner. The course is free, but you can leave a donation if you please. The course is a fairly intense form of meditation retreat (14-hr days) in the Theravada tradition. Previous meditation experience is not required as you will be asked to set aside your current practices while learning the Vipassana technique. Some would recommend that beginners attend a course such as that offered by Tushita which is a mix of meditation, philosophy and discussions.
+}}
+* {{listing
+| name=Kailash Tribal School of Yoga | alt=Yogi Cottage | url=https://www.yogatribe.org/ | email=
+| address=Bhagsu Rd | lat= | long= | directions=McLeod Ganj
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Yoga alliance approved ₹200–500 yoga teacher training programs, Reiki lessons for individuals or groups.
+}}
+* {{listing
+| name=Z-Meditation | alt= | url=http://www.zmeditation.com | email=
+| address= | lat= | long= | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=15 day silent meditation retreat in lower Dharamsala. Deep deconditioning inquiry, radiant mantras, creative meditations, assignments for disentangling your own life, and also 2 hr of daily yoga, three vegetarian meals and a refreshment break. The entire retreat is undertaken in silence. Courses are US$600–1,200 depending on accommodation arrangements.
+}}
+
+===Cooking classes===
+* {{do
+| name=Lha Charitable Trust | alt= | url=http://www.lhasocialwork.org/lhav3/component/content/article/63-visitor-services/108-tibetan-cooking-class | email=
+| address=Temple Road, McLeod Ganj | lat= | long= | directions=
+| phone=+91 18 92 220992 | tollfree= | fax=
+| hours= | price=₹300 for a 2-hr class
+| wikipedia=LHA Charitable Trust
+| content=Learn to make different kinds of momos, Tibetan breads and Tibetan noodles. Contact Lha to set up a class. Also have volunteer opportunities.
+| wikidata=Q6458530}}
+* {{do
+| name=Llhamo's Kitchen | url= | email=
+| address= | lat= | long= | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Learn how to cook traditional Tibetan food with different courses every day including soups, momos and Tibetan bread. Run by a delightful Tibetan man called Llhamo. Takes place in Llhamo's single room house in the centre of town.
+}}
+* {{do
+| name=Mr Sangye's Kitchen | url= | email=sangyla_tashi@yahoo.co.in
+| address=Jogiwara Rd, McLeod Ganj | lat= | long= | directions=further down from the post office and the pool hall
+| phone=+91 98 1616 4540 | tollfree= | fax=
+| hours= | price=
+| content=Learn how to cook traditional Tibetan food, different courses every day, ranging from soups, momos and Tibetan bread.
+}}
+* {{do
+| name=Trimurti Cooking Class | url= | email=
+| address= | lat= | long= | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Choose any three from a wide variety of Indian dishes, and Rajni will show you how to make it all in her small, pleasant kitchen. Rajni began teaching classes and doing laundry to support herself after her husband was left paralysed by a tragic fall. Ask for her above the Himalayan Adventures store in upper Bhagsu, near the steps to Dharamkot.
+}}
+
+==Work==
+===Volunteer===
+There are some opportunities to volunteer. For longer term options such as 1 month or more ask at the LHA office in the middle of the town. Staff there are very friendly and always welcoming if people wish to teach, tutor or get involved in conversational classes.
+
+* '''[http://www.lhasocialwork.org/ Lha Social Work]''' – Lha is one of the largest charitable social work organizations in Dharamsala and McLeod Ganj and aims to provide vital resources and services for Tibetan refugees, the local Indian population, and people from the Himalayan regions. Volunteers are needed for English, French and Chinese classes, IT classes, vocational training, health and environmental awareness education, distribution of clothes and medicine, a community kitchen and many other programmes and activities.
+* '''Rogpa Cafe''' (Jogiwara Rd) – They are always looking for volunteers to work in the cafe or to look after children at the Day Care centre. This is a 2 week commitment. All proceeds go to the Rogpa Day Care centre that provides free services for local children.
+* '''Tesi Environmental Awareness Movement''' – If you are an environmental expert, then contact this non-profit Tibetan group.
+
+You may also approach Tibetans in social circles to help them improve their English whilst getting to know each other's culture and personal story. Be mindful of accepting requests for private tutorage from monks on the streets. After a few days they may subject you to demands for ''sponsorship'', however stories of this are rare. It may be best to go through a credible and well established organisation if you want to provide assistance in this way.
+
+In general most monks and lay people are incredibly grateful to have you help them with their English and it is a great way to get to know Tibetan people on a more personal level. The easiest way to help out is to drop into LHA on Temple Rd, or LIT on Jogiwara Rd and sign up for tutoring. A commitment of one month is preferred.
+
+==Buy==
+Many Tibetan things can be bought in Dharamsala such as jewellery and trinkets, woollen shawls, prayer flags, prayer wheels, carpets, ''thangka'' and mandala paintings.
+
+*{{buy
+| name=Tibetan Singing Bowl | url= | email=
+| address= | lat= | long= | directions=
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Easy to play and used for ''sound healing'', ''music therapy'' or just for relaxation.
+}}
+
+==Eat==
+===What===
+The momos sold by numerous Tibetan street vendors usually sell at ₹80 for 8 pieces. These are safe to eat and acceptable to the Western palate even if they cannot be expected to match the level of culinary delicacy of those offered by some of the best establishments listed below.
+
+Dharamsala is a good place to try [[Tibet#Eat|Tibetan food]] and [[Tibet#Drink|beverages]]:
+* '''Momos''' – dumplings filled with meat or vegetables, steamed or fried
+* '''Thukpa''' – a hearty noodle soup with veggies or meat
+* '''Thenthuk''' – ''thukpa'' with handmade flat rectangular shaped noodles
+* '''Pocha''' – a salty tea churned with butter, a Tibetan staple, more commonly known as Tibetan Butter Tea
+
+===Where===
+{{infobox|Up-to-date|This sub–chapter and all eat listings below have been reviewed in '''August 2023'''. We hope it will be helpful to you. In case of any comments or update suggestions, please give us your feedback on the [[Talk:Dharamsala|Discussion page]].}}
+
+McLeod Ganj is a great place for eating, and the town has an abundance of restaurants, especially in the mid to upper range that cater to foreign tourists.
+
+Also, Bhagsu and Dharamkot offer great local, fusion and foreign food places—hummus and falafel are not uncommon.
+
+Prices in Dharamsala generally tend to be 50-100% higher than in other (non-touristy) parts of India. Furthermore, non-Indian food often carries a steep surcharge.
+
+===McLeod Ganj===
+====Budget====
+* {{eat
+| name=Common Ground Café | alt= | url=https://www.facebook.com/commongroundcafe09/ | email=
+| address=Tushita Rd | lat=32.239294 | long=76.32419 | directions=100 m uphill from main square or chowk of McLeod Ganj
+| phone=+91 9816273240, +91 1892220264 | tollfree=
+| hours= | price=
+| content=A non-profit café set up as a meeting place between Chinese and Tibetans that holds many discussions and shows promoting harmony and understanding between the two cultures. Taiwanese and fusion food served in a place to sit and relax with your shoes off on the raised seating area.
+}}
+* {{eat
+| name=JJI Exile Brothers Mom's Kitchen | url= | email=
+| address=Bhagsu Rd | lat=32.239019 | long=76.325268 | directions=a short walk from McLeod Ganj's central square or chowk, on the right-hand side, between Peace Coffee House and Kunga Guesthouse
+| phone= | tollfree= | fax=
+| hours=8:30AM–10PM | price=
+| content=A cozy little hole-in-the-wall place with 5 tables, a counter and a dog. Owned by three Tibetan musician brothers "JJI Exile Brothers" who give live performances on the premises on Sundays at 7:30PM. Decent Tibetan food, with 5 versions of ''thukpa'' and ''thenthuk'' each (₹50–80), brown-flour ''momos'' (₹50–70, including the rare spinach variety), and several less-well-known Tibetan specialties (such as ''tingmo'' (steamed bread) with vegetables, ₹60–70); also vegetable and fruit salads (₹40–60). Desserts include vegan chocolate cake and rum cake with nuts, and several varieties of pancakes (₹40–60), styles of porridge, and fresh juices (₹40–50). Portions tend to be smallish. A bookshelf with some reading materials.
+}}
+* {{eat
+| name=McLLeo Momos
+ | url= | email=
+| address=Tipa Rd | lat=32.2388 | long=76.324028 | directions=just above the main square or chowk of McLeod Ganj, the first house, or rather shack, on the right
+| phone= | tollfree= | fax=
+| hours=7:30AM–9:30PM (summer); 8AM-9:30PM (winter) | price=₹25–80
+| content=A bare-bones somewhat dingy but gourmet café prized for its momos. Creative spinoffs on traditional dishes that are not easily to be found even in much bigger establishments. A 12-page bilingual menu in English and Japanese has 9 varieties of them in the vegetarian category (₹50–70 for a plate of 10–12 pieces) and 5 varieties in the non-veg category (₹60–80 for a plate of 3–12 pieces). Tibetan dishes have nine elaborations of the ''thukpa''. Western and Tibetan breakfast includes pancakes, omelettes and muesli dishes. Chinese staples include 7 varieties of ''chow mein''. Tibetan bread comes in giant size.
+}}
+* {{eat
+| name=Nick's Italian Kitchen | url= | email=
+| address=Kunga Guesthouse, Bhagsu Rd | lat=32.23884 | long=76.325 | directions=5 min walk from McLeod Ganj's main square or chowk
+| phone= | tollfree= | fax=
+| hours=6AM–9PM | price=₹30–150
+| content=Decent Western fare of lesser quality with some Tibetan dishes. The numerical menu has 194 items. An airy well-lit room and a terrace in the back offers views over the McLeod Ganj Valley and Kangra Valley beyond, similar to those visible from the terraces of the neighbouring Green Restaurant and Peace Coffee House. A limited library of books and a popular noticeboard. The place becomes noisy when crowded.
+}}
+* {{eat
+| name=Takhyil Peace Café | url= | email=
+| address=Takhyil Guesthouse, Jogiwara Rd | lat=32.2367684 | long=76.325056 | directions=10 min walk from the main square or chowk of McLeod Ganj; on the right-hand side of the section of the street populated by vegetable-mongers, and a couple of stairs above the street level
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=A down-to-earth (in every sense) and somewhat drab breakfast place, offering egg dishes (₹20–45), porridge (with mixed fruit, ₹65), toast, sandwiches (tofu sandwich, ₹45), several types of bread (₹5–25; extra for peanut butter, jam or honey), and pancakes (₹40–70; mixed-fruit chocolate pancake, ₹70). Tibetan dishes such as ''thukpa'' (₹40–70) of uncertain quality and momos (steamed, ₹40–50; fried momos ₹10 extra). Good lassi in several varieties (including unusual ones such as "apple lassi"; ₹20–35).
+}}
+* {{eat
+| name=Rewa Cafe | alt= | url= | email=
+| address=Jogiwara Rd | lat=32.2351 | long=76.3277 | directions=down the hill, 5 min past the Post office
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-08
+| content=Good Tibetan food.
+}}
+* {{eat
+| name=Shangri La Restaurant | alt= | url= | email=
+| address=Jogiwara Rd | lat=32.238464 | long=76.3239 | directions=near the bus stop
+| phone= | tollfree=
+| hours= | price=
+| wikidata=
+| lastedit=2023-08-08
+| content=A good little cafe run by monks and with proceeds going to Gyudmed Monastery. Try the ''Shangri La Sandwich'' for breakfast. Meals for dinner also good quality and well priced.
+}}
+* {{eat
+| name=Woeser Bakery | alt= | url= | email=
+| address=Jogiwara Rd | lat=32.236855 | long=76.325378 | directions=below Black Magic, on Jogiwara road, 100 m downhill from the main square
+| phone= | tollfree=
+| hours=10:30AM-7PM | price=₹50–150
+| content=Excellent pastries baked daily with quality ingredients. The owner and baker, Sangmo, is a young Tibetan always up for a chat with her customers. Serves walnut tart, chocolate chilli lollipops, cappuccino, vegan cakes (also gluten-free options), coffee made from fresh beans. Fifteen kinds of hot teas, hot chocolate, Indian chai, milkshakes and other cold drinks, and a small library with a good collection of books.
+}}
+
+====Mid-range====
+*{{eat
+| name=Jimmy's Italian Kitchen | url= | email=
+| address=Jogiwara Rd | lat=32.2391 | long=76.3254 | directions=a few steps from McLeod Ganj's main square or chowk, on the left-hand side, just past the Buddhist chorten and on the opposite side to it, one storey above street level
+| phone= | tollfree= | fax=
+| hours= | price=₹100–130
+| content=Nice decor with old, and not-so-old, film posters, unprofessional staff apparently left unsupervised by the owners. Food better than that offered at the other Italian-style places in town, with great salads and acceptable pastas (''napolitana'', ''arrabbiata'', ''quattro formaggi'', ''puttanesca'') and pizzas.
+}}
+* {{eat
+| name=Lhamo's Croissant | alt= | url=https://www.facebook.com/lhamoscroissant/ | email=lhamotso@gmail.com
+| address=Bhagsu Road | lat=32.23884 | long=76.324879 | directions=
+| phone=+91 98823 71507 | tollfree= | fax=
+| hours= | price=
+| content=A simple yet stylish cafe, and probably the most underrated place in McLeod. Breakfasts, sandwiches, soups, salads and desserts, coffees and teas. A good selection of vegetarian and vegan dishes. The bread is baked fresh each morning by Lhamo. The second floor has comfortable Japanese style seating on cushions and Tibetan carpets. Fantastic views from the roof top.
+}}
+* {{eat
+| name=Lung-Ta | alt= | url= | email=
+| address=Jogiwara Rd | lat=32.23576 | long=76.326539 | directions=near the southern end of town
+| phone= | tollfree=
+| hours=Mon-Sat noon-11PM, closed Sundays | price=
+| wikidata=
+| lastedit=2023-08-08
+| content=Excellent Japanese food, pay attention to the daily specials. There is also a small clothing store which sells high-end Tibetan inspired fashions. Non-profit with proceeds going towards assisting former political prisoners and documenting human rights violations.
+}}
+* {{eat
+| name=Pema Thang's Guest House | alt= | url= | email=
+| address=Bhagsu Rd | lat=32.235 | long=76.32493 | directions=opposite Bhagsu Hotel
+| phone= | tollfree=
+| hours=Daily 11AM-10PM | price=
+| wikidata=
+| lastedit=2023-08-08
+| content=Continental and local styled vegetarian food. Try the fried banana with nuts and the pepperoni pizza. They also serve great ''thenthuk''.
+}}
+
+===Haina===
+====Budget====
+* {{eat
+| name=Friends Corner Café | alt= | url= | email=
+| address= | lat=32.25083 | long=76.33036 | directions=
+| phone= | tollfree=
+| hours= | price=Dal ₹90, Boondi Raita ₹90
+| wikidata=
+| lastedit=2023-08-23
+| content=Various inexpensive dishes in a shed protected from the rain. Frequented regularly and great variety.
+}}
+* {{eat
+| name=Heena Café | alt= | url= | email=
+| address= | lat=32.2511568 | long=76.329229 | directions=
+| phone= | tollfree=
+| hours= | price=Chai ₹20, Parantha ₹50
+| wikidata=
+| lastedit=2023-08-23
+| content=Not particular fancy, but cheapest choice around. Run by two brothers, they have large terrace where you can enjoy watching people walking by to the Galu Waterfall. 
+}}
+* {{eat
+| name=Tin Tin Café | alt= | url= | email=
+| address= | lat=32.25082 | long=76.329 | directions=
+| phone= | tollfree=
+| hours= | price=Egg Chowmein ₹170
+| wikidata=
+| lastedit=2023-08-23
+| content=Another budget option, with great chowmein. They have a tiny shed at the point of the marker, but seem to have a small café with nice seats 100 m further up.
+}}
+
+====Mid-range====
+* {{eat
+| name=Young Monk Café | alt= | url= | email=
+| address= | lat=32.250735 | long=76.33012 | directions=
+| phone= | tollfree=
+| hours= | price=Chai ₹50
+| wikidata=
+| lastedit=2023-08-23
+| content=A hostel with an extensive kitchen and great views.
+}}
+
+====Splurge====
+* {{eat
+| name=Kali Yuga BBQ | alt= | url= | email=
+| address= | lat=32.25133 | long=76.329058 | directions=
+| phone= | tollfree=
+| hours= | price=₹500 and above
+| lastedit=2023-08-23
+| content=Some Russian speaking folks are running this restaurant specialising in various meat dishes. It is still cheap compared to Western standards, but most Indians wouldn't be ablt to afford dining here.
+}}
+
+==Drink==
+'''Refill your waterbottle with filtered-water''' at one of the many water-filtering stations: LHA at Temple Rd, Environmental Education Centre at Bhasgu Rd and Dogga-Centre at Jogiwara Rd. Some restaurants, including Nick's and Green Hotel also offer filtered water refills for a charge (₹5, but Green Hotel asks for ₹10).
+
+=== Coffee ===
+Many of the above listed restaurants and bakeries are also great for having a coffee or tea and enjoying the view—check [[#Eat|there]].
+* {{drink
+| name=Moonpeak Espresso | url= | email=
+| address=Temple Rd, McLeod Ganj | lat=32.2359 | long=76.32396 | directions=10 min walk from McLeod Ganj's main square of chowk
+| phone= | tollfree= | fax=
+| hours=7AM-8PM | price=₹50–120
+| content=Coffee for ₹40–70, while it is possible to find better coffee in McLeod Ganj this is nevertheless a very pleasant café to visit. All-Tibetan staff and Indian owners. Good, if smallish, sandwiches and several breakfast items. Teas, including herbal; ₹50–60). One of the few places in McLeod Ganj with free and functional Wi-Fi. A notice printed within the menu uncharacteristically enjoins the patron to "please order a few things" if "you are going to sit on the net for a while".
+}}
+
+=== Alcohol ===
+* {{drink
+| name=X cite | url= | email=
+| address=Main square, McLeod Ganj | lat= | long= | directions=Main Square
+| phone= | tollfree= | fax=
+| hours= | price=
+| content=Might have been popular years ago, but the good times seem over. Has the only dance floor/night club in the area. Indian and western tunes are played until 1AM.
+}}
+
+==Sleep==
+{{infobox|Up-to-date|This whole chapter has been reviewed in '''August 2023'''. We hope it will be helpful to you. In case of any comments or update suggestions, please give us your feedback on the [[Talk:Dharamsala|Discussion page]].}}
+
+McLeod Ganj has a wide selection of accommodation, but its main streets (esp. Bhagsu Rd) suffer from the usual Indian curse of beeping cars, motorbikes and rickshaws. It is easy to find something suitable—just walk around and ask for a good price. Always let you show at least two different rooms before you decide. Two hostels worth mentioning in McLeod Ganj are {{marker|type=sleep|name=Mitra 2|lat=32.2354042|long=76.3276159}} and {{marker|type=sleep|name=Hosteller|lat=32.2350159|long=76.3259720}}—walk-ins seem to be advantageous.
+
+A higher concentration of hostels (and backpackers) can be found in Bhagsu and Haini, besides the usual homestays, hotel, etc.. Hostels worth mentioning here are {{marker|type=sleep|name=Mitra|lat=32.2523004|long=76.3290486}} and {{marker|type=sleep|name=Young Monk|lat=32.2506965|long=76.3301693}}—walk-ins seem to be advantageous. 
+
+For long-term stays, head down the Yongling stairs on Jogiwara Road; there are about a dozen cheap good places, with great views.
+
+===Budget===
+* {{sleep
+| name=Colonel's Cozy Corner | url= | email=colkrishan@yahoo.co.in
+| address=McLeod Ganj | lat=32.20299 | long=76.3319 | directions=near Dari
+| phone=+91 94 1872 4897, +91 98 1677 0899 (bookings) | tollfree= | fax=
+| hours= | price=₹600–800, negotiable upon period of stay
+| checkin= | checkout=
+| content=Belongs to a helpful retired army officer and his wife. A secure place with no one to disturb you. 3 rooms. Home-like atmosphere, clean linen and safe water. A local 'Dham' (lunch) is available.
+}}
+* {{sleep
+| name=Lord Krishna Boutique Stay | alt= | url= | email=
+| address=Temple Rd, McLeod Ganj | lat=32.236416 | long=76.32389089833737 | directions=
+| phone=+91 18 9222 1588 | tollfree= | fax=
+| checkin= | checkout= | price=
+| content=Clean rooms, tea, coffee and atmosphere. Rents bikes.
+}}
+* {{sleep
+| name=River View Apartments | alt= | url= | email=
+| address=Jogiwara, Heru Village | lat=32.2347164 | long=76.329159 | directions=
+| phone=+91 98 1620 6406, +91 98 1629 2228 | tollfree= | fax=
+| checkin= | checkout= | price=
+| wikipedia= | wikidata=
+| lastedit=
+| content=All rooms with balcony and kitchen. Great ratings.
+}}
+* {{sleep
+| name=Shree Guest House | alt= | url= | email=
+| address=McLeod Ganj | lat=32.23975 | long=76.3247 | directions=200 m up towards Swarag Ashram Road/Tushita Road from the main square
+| phone=+91 9418920003, +91 8894060505 | tollfree= | fax=
+| price= | checkin= | checkout=
+| content=Run by a very nice and decent family in a quieter part of the town. Double and single rooms on very decent rates. Surrounded by the Deodar/Pine forest.
+}}
+* {{sleep
+| name=Snow Lion Guest House | url= | email=
+| address=McLeod Ganj | lat=32.2384 | long=76.3239 | directions=
+| phone= | tollfree= | fax=
+| hours= | price=₹175 for tiny double room with communal bathroom
+| checkin= | checkout=
+| content=Good budget place in the centre of town.
+}}
+* {{sleep
+| name=Tara bed & breakfast | alt= | url=https://www.airbnb.co.in/rooms/14228545 | email=
+| address=Jogiwara Rd, McLeod Ganj | lat=32.236474 | long=76.32603 | directions=Beside Pink House, next to Yongling School. You have to climb down moderate bit of steps to reach this place, and also climb up if you want to go anywhere.
+| phone= | tollfree=
+|fax=| checkin= | checkout= noon |hours=| price=₹800–1,000
+|wikidata=| lastedit=2019-05-11
+| content=Run by a nice and caring host, Tsepal. A cozy place with clean beds and washroom. Has a balcony with nice view of the snow-capped mountains. There is a caretaker who cooks breakfast and is generally around. But don't expect someone to be available 24/7. You will have bed, washroom, running hot water.
+}}
+* {{sleep
+| name=jüSTa Birding Resort & Spa | alt= | url=https://www.justahotels.com/justa-birding-dharamshala/ | email=book@justahotels.com
+| address=Indrunag Near Paragliding Point Tahu, Chohla | lat=32.221383 | long=76.335543 | directions=
+| phone=+91 9816-343-255, +91-9816-377-709 | tollfree=+91-9590-777-000
+| checkin=2PM | checkout=noon | price=
+| lastedit=2023-11-02
+| content=
+}}
+
+===Mid-range===
+* {{sleep
+| name=Auspicious Him View Hotel | alt= | url=http://www.8aushimview.com | email=
+| address=Jogiwara Rd, McLeod Ganj | lat=32.23526 | long=76.32788 | directions=below Ladies Venture Hotel
+| phone=+91 94 1823 6603 | tollfree= | fax=
+| checkin= | checkout= | price=
+| content=View of the snow-capped Dhauladhar range from a private balcony. Clean rooms with attached bathrooms. Each room is named after one of the eight auspicious signs of Buddhism and decorated accordingly.
+}}
+* {{sleep
+| name=Pema Thang's Guest House | alt=opp Bhagsu Hotel | url=http://www.pemathang.net/ | email=
+| address=McLeod Ganj | lat=32.235 | long=76.32488 | directions=
+| phone=+91 18 9222 1871 | tollfree= | fax=
+| price=Double rooms ₹770–1,100, gas heater (necessary in winter) ₹200/day extra | checkin= | checkout=
+| content=Tibetan-run older guesthouse, tucked on a quiet side street with great views over the Kangra Valley. Rooms are starting to show their age, but they are scrupulously clean and comfy and feature a TV and 24-hr hot water. Kitchenette facilities available for longer stays.
+}}
+
+===Splurge===
+* {{sleep
+| name=Glenmoor Cottages | alt= | url=http://www.glenmoorcottages.com | email=
+| address=Mall Rd, McLeod Ganj | lat=32.246 | long=76.32227 | directions=approximately 1 km from McLeod Ganj on the road leading to the Dal Lake /TCV
+| phone=+91 18 9222 1010 | tollfree=
+| checkin= | checkout= | price=
+| content=Sited in a mixed forest of cedar, oak and rhododendron, overlooking the Kangra valley. Ideal for a quiet and peaceful holiday. Known to be frequented by a number of celebrities and dignitaries.
+}}
+
+==Stay safe==
+The place is safe, though it is advisable to take precautions. Stay vigilant at all times and be very cautious if staying out after 9PM.
+
+==Go next==
+* [[Amritsar]] – The holy Sikh city of and its Golden Temple is a 6-hr bus journey away. Buses leave at 5AM from the lower bus station, or go through [[Pathankot]] first with many connections per day, and a train from there.
+* [[Bir]] – A village with a Tibetan and Indian population, known for its Buddhist monasteries and paragliding centre, developing as an adventure hub with the second highest paragliding spot of the world, Bir-Billing.
+* [[Dalhousie (India)|Dalhousie]] – A small hill station close to [[Pathankot]].
+* [[Manali]] – The next hub for journeys deeper into the mountains.
+* [[Palampur]] – A beautiful valley famous for its tea gardens, agricultural university, temples.
+* [[Sidhbari]] – Outside lower Dharamshala is an ideal getaway from the tourist traffic and to experience life in a typical farming village in the valley.
+
+
+{{guidecity}}
+{{IsPartOf|Kangra (district)}}
+{{geo|32.23564|76.32721|zoom=15}}
+[[la:Dharmasala]]

@@ -1,0 +1,87 @@
+{
+  "city": "Mcleod Ganj",
+  "state": "Himachal Pradesh",
+  "country": "India",
+  "version": "v3",
+  "sources": {
+    "openstreetmap": {
+      "raw_candidates": 669,
+      "matched_into_canonical": 249,
+      "released": 249,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "overture": {
+      "raw_candidates": 2603,
+      "matched_into_canonical": 926,
+      "released": 926,
+      "merged": 347,
+      "quarantined": 0,
+      "rejected": 821,
+      "top_rejection_reasons": {
+        "blocked_category:travel_service": 100,
+        "blocked_category:fashion_and_apparel_store": 64,
+        "blocked_category:bank_or_credit_union": 59,
+        "blocked_category:place_of_learning": 53,
+        "blocked_category:hardware_home_and_garden_store": 32
+      },
+      "top_quarantine_reasons": {}
+    },
+    "wikivoyage": {
+      "raw_candidates": 73,
+      "matched_into_canonical": 46,
+      "released": 46,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "wikidata": {
+      "raw_candidates": 28,
+      "matched_into_canonical": 28,
+      "released": 28,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "unknown": {
+      "raw_candidates": 1193,
+      "matched_into_canonical": 0,
+      "released": 0,
+      "merged": 0,
+      "quarantined": 1193,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {
+        "low_quality_score:0.285<0.3": 370,
+        "low_quality_score:0.24<0.3": 341,
+        "low_quality_score:0.248<0.3": 218,
+        "low_quality_score:0.21<0.3": 104,
+        "duplicate_canonical_id": 93
+      }
+    }
+  },
+  "high_value_travel_survival": {
+    "wikivoyage_see_do": {
+      "total_raw": 25,
+      "released": 15,
+      "survival_pct": 60.0
+    },
+    "wikidata_attractions": {
+      "total_raw": 28,
+      "released": 28,
+      "survival_pct": 100.0
+    },
+    "osm_tourism_historic": {
+      "total_raw": 278,
+      "released": 140,
+      "survival_pct": 50.4
+    }
+  }
+}

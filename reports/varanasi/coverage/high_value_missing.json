@@ -1,0 +1,171 @@
+{
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "version": "v3",
+  "summary": {
+    "wikivoyage_total_see_do": 29,
+    "wikivoyage_missing_count": 7,
+    "wikidata_total_attractions": 91,
+    "wikidata_missing_count": 5,
+    "by_outcome": {
+      "coordinate_problem": 4,
+      "quarantined": 3,
+      "pipeline_bug": 4,
+      "other": 1
+    }
+  },
+  "missing_wikivoyage_listings": [
+    {
+      "name": "Hanuman Ghat",
+      "source": "wikivoyage",
+      "source_id": "wv_varanasi_hanuman_ghat",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Bharat Mata Temple",
+      "source": "wikivoyage",
+      "source_id": "wv_varanasi_bharat_mata_temple",
+      "wikidata_id": null,
+      "coordinates": [
+        25.31725,
+        82.9893
+      ],
+      "outcome": "quarantined",
+      "details": "Quarantined: ['duplicate_wikidata_assignment:Q19882307_already_used_by_yc_in_up_varanasi_bharat_mata_mandir']"
+    },
+    {
+      "name": "Durga Temple",
+      "source": "wikivoyage",
+      "source_id": "wv_varanasi_durga_temple",
+      "wikidata_id": null,
+      "coordinates": [
+        25.28219,
+        83.04015
+      ],
+      "outcome": "quarantined",
+      "details": "Quarantined: ['duplicate_wikidata_assignment:Q5316383_already_used_by_yc_in_up_varanasi_durga_mandir']"
+    },
+    {
+      "name": "Kaal Bhairav Temple",
+      "source": "wikivoyage",
+      "source_id": "wv_varanasi_kaal_bhairav_temple",
+      "wikidata_id": null,
+      "coordinates": [
+        25.31765,
+        82.97391
+      ],
+      "outcome": "quarantined",
+      "details": "Quarantined: ['duplicate_wikidata_assignment:Q24906782_already_used_by_yc_in_up_varanasi_kaal_bhairav_mandir_varanasi']"
+    },
+    {
+      "name": "Siddharth Yoga Centre",
+      "source": "wikivoyage",
+      "source_id": "wv_varanasi_siddharth_yoga_centre",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Yoga Training Centre",
+      "source": "wikivoyage",
+      "source_id": "wv_varanasi_yoga_training_centre",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Punarnava Health",
+      "source": "wikivoyage",
+      "source_id": "wv_varanasi_punarnava_health",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    }
+  ],
+  "missing_wikidata_attractions": [
+    {
+      "name": "Dwivedi Hotels Sri Omkar Palace",
+      "source": "wikidata",
+      "source_id": "Q111861482",
+      "wikidata_id": "Q111861482",
+      "description": "hotel in varanasi, india",
+      "coordinates": [
+        25.30472,
+        83.0088
+      ],
+      "outcome": "pipeline_bug",
+      "details": "Quarantined: ['semantic_conflict:heritage_classified_with_lodging_keyword'] (Entity desc: 'hotel in varanasi, india')"
+    },
+    {
+      "name": "Banaras railway station",
+      "source": "wikidata",
+      "source_id": "Q6748220",
+      "wikidata_id": "Q6748220",
+      "description": "railway station in uttar pradesh, india",
+      "coordinates": [
+        25.300001,
+        82.972079
+      ],
+      "outcome": "pipeline_bug",
+      "details": "Quarantined: ['semantic_conflict:transport_classified_as_heritage'] (Entity desc: 'railway station in uttar pradesh, india')"
+    },
+    {
+      "name": "Pt. Deen Dayal Upadhyaya Junction railway station",
+      "source": "wikidata",
+      "source_id": "Q6932166",
+      "wikidata_id": "Q6932166",
+      "description": "railway junction station in the indian state of uttar pradesh",
+      "coordinates": [
+        25.278149,
+        83.11925
+      ],
+      "outcome": "pipeline_bug",
+      "details": "Quarantined: ['semantic_conflict:transport_classified_as_heritage'] (Entity desc: 'railway junction station in the indian state of uttar pradesh')"
+    },
+    {
+      "name": "Institute of Science, Banaras Hindu University",
+      "source": "wikidata",
+      "source_id": "Q23035147",
+      "wikidata_id": "Q23035147",
+      "description": "constituent institute",
+      "coordinates": [
+        25.268469,
+        82.992875
+      ],
+      "outcome": "other",
+      "details": ""
+    },
+    {
+      "name": "Bhulanpur railway station",
+      "source": "wikidata",
+      "source_id": "Q24947805",
+      "wikidata_id": "Q24947805",
+      "description": "railway station in uttar pradesh, india",
+      "coordinates": [
+        25.287875,
+        82.957519
+      ],
+      "outcome": "pipeline_bug",
+      "details": "Quarantined: ['semantic_conflict:transport_classified_as_heritage'] (Entity desc: 'railway station in uttar pradesh, india')"
+    }
+  ]
+}

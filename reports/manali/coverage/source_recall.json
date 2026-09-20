@@ -1,0 +1,87 @@
+{
+  "city": "Manali",
+  "state": "Himachal Pradesh",
+  "country": "India",
+  "version": "v3",
+  "sources": {
+    "openstreetmap": {
+      "raw_candidates": 504,
+      "matched_into_canonical": 162,
+      "released": 162,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "overture": {
+      "raw_candidates": 3499,
+      "matched_into_canonical": 1662,
+      "released": 1662,
+      "merged": 373,
+      "quarantined": 0,
+      "rejected": 650,
+      "top_rejection_reasons": {
+        "blocked_category:travel_service": 337,
+        "blocked_category:corporate_or_business_office": 47,
+        "blocked_category:fashion_and_apparel_store": 22,
+        "blocked_category:bank_or_credit_union": 21,
+        "blocked_category:professional_service": 20
+      },
+      "top_quarantine_reasons": {}
+    },
+    "wikivoyage": {
+      "raw_candidates": 74,
+      "matched_into_canonical": 7,
+      "released": 7,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "wikidata": {
+      "raw_candidates": 20,
+      "matched_into_canonical": 18,
+      "released": 18,
+      "merged": 0,
+      "quarantined": 0,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {}
+    },
+    "unknown": {
+      "raw_candidates": 1372,
+      "matched_into_canonical": 0,
+      "released": 0,
+      "merged": 0,
+      "quarantined": 1372,
+      "rejected": 0,
+      "top_rejection_reasons": {},
+      "top_quarantine_reasons": {
+        "low_quality_score:0.285<0.3": 574,
+        "low_quality_score:0.24<0.3": 276,
+        "low_quality_score:0.248<0.3": 228,
+        "duplicate_canonical_id": 186,
+        "low_quality_score:0.21<0.3": 86
+      }
+    }
+  },
+  "high_value_travel_survival": {
+    "wikivoyage_see_do": {
+      "total_raw": 20,
+      "released": 3,
+      "survival_pct": 15.0
+    },
+    "wikidata_attractions": {
+      "total_raw": 20,
+      "released": 18,
+      "survival_pct": 90.0
+    },
+    "osm_tourism_historic": {
+      "total_raw": 278,
+      "released": 66,
+      "survival_pct": 23.7
+    }
+  }
+}

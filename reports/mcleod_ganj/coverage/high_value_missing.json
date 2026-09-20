@@ -1,0 +1,128 @@
+{
+  "city": "Mcleod Ganj",
+  "state": "Himachal Pradesh",
+  "country": "India",
+  "version": "v3",
+  "summary": {
+    "wikivoyage_total_see_do": 25,
+    "wikivoyage_missing_count": 9,
+    "wikidata_total_attractions": 28,
+    "wikidata_missing_count": 0,
+    "by_outcome": {
+      "quarantined": 2,
+      "coordinate_problem": 6,
+      "outside_city_boundary": 1
+    }
+  },
+  "missing_wikivoyage_listings": [
+    {
+      "name": "Kunal Pathari",
+      "source": "wikivoyage",
+      "source_id": "wv_mcleod_ganj_kunal_pathari",
+      "wikidata_id": null,
+      "coordinates": [
+        32.2,
+        76.31002
+      ],
+      "outcome": "quarantined",
+      "details": "Quarantined: ['low_quality_score:0.285<0.3']"
+    },
+    {
+      "name": "Roam around",
+      "source": "wikivoyage",
+      "source_id": "wv_mcleod_ganj_roam_around",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Laka Glacier Trek",
+      "source": "wikivoyage",
+      "source_id": "wv_mcleod_ganj_laka_glacier_trek",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Toral Pass",
+      "source": "wikivoyage",
+      "source_id": "wv_mcleod_ganj_toral_pass",
+      "wikidata_id": null,
+      "coordinates": [
+        32.26504,
+        76.43062
+      ],
+      "outcome": "outside_city_boundary",
+      "details": "Quarantined outside resolved city bounding envelope"
+    },
+    {
+      "name": "Kareri Lake Trek",
+      "source": "wikivoyage",
+      "source_id": "wv_mcleod_ganj_kareri_lake_trek",
+      "wikidata_id": null,
+      "coordinates": [
+        32.32556,
+        76.27361
+      ],
+      "outcome": "quarantined",
+      "details": "Quarantined: ['low_quality_score:0.265<0.3']"
+    },
+    {
+      "name": "Lha Charitable Trust",
+      "source": "wikivoyage",
+      "source_id": "wv_mcleod_ganj_lha_charitable_trust",
+      "wikidata_id": "Q6458530",
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Llhamo's Kitchen",
+      "source": "wikivoyage",
+      "source_id": "wv_mcleod_ganj_llhamos_kitchen",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Mr Sangye's Kitchen",
+      "source": "wikivoyage",
+      "source_id": "wv_mcleod_ganj_mr_sangyes_kitchen",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Trimurti Cooking Class",
+      "source": "wikivoyage",
+      "source_id": "wv_mcleod_ganj_trimurti_cooking_class",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    }
+  ],
+  "missing_wikidata_attractions": []
+}

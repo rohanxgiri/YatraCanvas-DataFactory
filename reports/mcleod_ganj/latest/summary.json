@@ -1,0 +1,83 @@
+{
+  "city": "Mcleod Ganj",
+  "state": "Himachal Pradesh",
+  "country": "India",
+  "version": "v3",
+  "total_raw_candidates": 3373,
+  "sources_count": {
+    "wikivoyage": 73,
+    "wikidata": 28,
+    "openstreetmap": 669,
+    "overture": 2603
+  },
+  "accepted_places": 1012,
+  "rejected_places": 821,
+  "quarantined_places": 1193,
+  "duplicate_merges": 347,
+  "by_tier": {
+    "support": 537,
+    "core_destination": 31,
+    "recommended": 216,
+    "discovery": 228
+  },
+  "by_tier_stats": {
+    "core_destination": {
+      "count": 31,
+      "with_wikidata": 16,
+      "with_wikipedia": 10,
+      "with_image": 19,
+      "with_hours": 5,
+      "with_website": 14,
+      "multi_source": 17
+    },
+    "recommended": {
+      "count": 216,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 33,
+      "with_website": 116,
+      "multi_source": 112
+    },
+    "discovery": {
+      "count": 228,
+      "with_wikidata": 0,
+      "with_wikipedia": 0,
+      "with_image": 0,
+      "with_hours": 4,
+      "with_website": 222,
+      "multi_source": 0
+    },
+    "support": {
+      "count": 537,
+      "with_wikidata": 12,
+      "with_wikipedia": 8,
+      "with_image": 8,
+      "with_hours": 14,
+      "with_website": 493,
+      "multi_source": 122
+    }
+  },
+  "image_coverage_pct": 2.7,
+  "with_images_count": 27,
+  "opening_hours_coverage_pct": 5.5,
+  "with_opening_hours_count": 56,
+  "wikidata_coverage_pct": 2.8,
+  "with_wikidata_count": 28,
+  "category_breakdown": {
+    "hotel": 529,
+    "museum": 12,
+    "heritage": 28,
+    "religious": 18,
+    "transport": 8,
+    "nature": 5,
+    "food": 117,
+    "cafe": 74,
+    "experience": 200,
+    "entertainment": 1,
+    "arts_culture": 3,
+    "shopping": 16,
+    "park": 1
+  },
+  "generated_at": "2026-09-19T19:59:57.353992+00:00"
+}

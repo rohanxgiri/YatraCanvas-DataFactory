@@ -1,0 +1,47 @@
+{
+  "city": "varanasi",
+  "total_core_destinations": 131,
+  "with_wikidata": 73,
+  "with_wikipedia": 60,
+  "with_wikivoyage": 14,
+  "with_osm_travel": 82,
+  "supported_only_by_overture": 11,
+  "travel_relevance_distribution": {
+    "0.0-0.2": 0,
+    "0.2-0.4": 2,
+    "0.4-0.6": 54,
+    "0.6-0.8": 17,
+    "0.8-1.0": 58
+  },
+  "categories": {
+    "heritage": 91,
+    "religious": 23,
+    "nature": 10,
+    "museum": 4,
+    "park": 3
+  },
+  "subcategories": {
+    "heritage/historical_monument": 45,
+    "heritage/attraction": 40,
+    "religious/place_of_worship": 23,
+    "nature/lake": 10,
+    "museum/history_museum": 4,
+    "heritage/monument": 3,
+    "park/garden": 3,
+    "heritage/memorial": 2,
+    "heritage/gate": 1
+  },
+  "source_combinations": {
+    "openstreetmap,overture": 58,
+    "wikidata": 30,
+    "openstreetmap": 15,
+    "overture": 11,
+    "wikivoyage": 5,
+    "openstreetmap,overture,wikivoyage": 5,
+    "overture,wikidata": 2,
+    "openstreetmap,wikivoyage": 2,
+    "openstreetmap,overture,wikidata": 1,
+    "overture,wikivoyage": 1,
+    "openstreetmap,overture,wikidata,wikivoyage": 1
+  }
+}

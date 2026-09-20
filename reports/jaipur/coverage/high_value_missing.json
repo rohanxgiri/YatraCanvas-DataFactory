@@ -1,0 +1,97 @@
+{
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "version": "v3",
+  "summary": {
+    "wikivoyage_total_see_do": 43,
+    "wikivoyage_missing_count": 3,
+    "wikidata_total_attractions": 52,
+    "wikidata_missing_count": 3,
+    "by_outcome": {
+      "quarantined": 2,
+      "coordinate_problem": 1,
+      "pipeline_bug": 2,
+      "other": 1
+    }
+  },
+  "missing_wikivoyage_listings": [
+    {
+      "name": "Diwan-i-Am",
+      "source": "wikivoyage",
+      "source_id": "wv_jaipur_diwan_i_am",
+      "wikidata_id": null,
+      "coordinates": [
+        26.986251,
+        75.850962
+      ],
+      "outcome": "quarantined",
+      "details": "Quarantined: ['low_quality_score:0.278<0.3']"
+    },
+    {
+      "name": "Jain Mandir",
+      "source": "wikivoyage",
+      "source_id": "wv_jaipur_jain_mandir",
+      "wikidata_id": null,
+      "coordinates": [
+        26.923767,
+        75.819993
+      ],
+      "outcome": "quarantined",
+      "details": "Quarantined: ['low_quality_score:0.278<0.3']"
+    },
+    {
+      "name": "Heiwa Heaven The Resort",
+      "source": "wikivoyage",
+      "source_id": "wv_jaipur_heiwa_heaven_the_resort",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    }
+  ],
+  "missing_wikidata_attractions": [
+    {
+      "name": "Mansarovar metro station",
+      "source": "wikidata",
+      "source_id": "Q28180399",
+      "wikidata_id": "Q28180399",
+      "description": "metro station in jaipur, india",
+      "coordinates": [
+        26.879444,
+        75.75
+      ],
+      "outcome": "pipeline_bug",
+      "details": "Quarantined: ['semantic_conflict:lake_classified_with_palace_or_transit_keyword'] (Entity desc: 'metro station in jaipur, india')"
+    },
+    {
+      "name": "New Aatish Market metro station",
+      "source": "wikidata",
+      "source_id": "Q28180408",
+      "wikidata_id": "Q28180408",
+      "description": "metro station",
+      "coordinates": [
+        26.880278,
+        75.764722
+      ],
+      "outcome": "pipeline_bug",
+      "details": "Quarantined: ['semantic_conflict:transport_classified_as_heritage'] (Entity desc: 'metro station')"
+    },
+    {
+      "name": "Indian Bank Manasarovar branch",
+      "source": "wikidata",
+      "source_id": "Q73993094",
+      "wikidata_id": "Q73993094",
+      "description": "branch of indian bank",
+      "coordinates": [
+        26.84968,
+        75.76919
+      ],
+      "outcome": "other",
+      "details": ""
+    }
+  ]
+}

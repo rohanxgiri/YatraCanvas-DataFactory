@@ -1,0 +1,37 @@
+# Quality Scoring & Quarantine Rules
+
+weights:
+  identity_confidence: 0.30
+  coordinate_confidence: 0.20
+  image_confidence: 0.25
+  metadata_completeness: 0.25
+
+thresholds:
+  quarantine_threshold: 0.30
+  hero_prominence_threshold: 0.80
+  recommended_prominence_threshold: 0.55
+
+identity_scoring:
+  has_wikidata: 0.40
+  has_wikipedia: 0.20
+  multi_provider_agreement: 0.25
+  has_official_website: 0.15
+
+coordinate_scoring:
+  within_city_bbox: 0.50
+  multi_source_distance_less_50m: 0.30
+  valid_precision: 0.20
+
+image_scoring:
+  tier_1_wikidata_p18: 1.00
+  tier_2_commons_category: 0.85
+  tier_3_wikipedia_lead: 0.75
+  tier_4_verified_search: 0.60
+  no_image: 0.00
+
+metadata_completeness_weights:
+  has_opening_hours: 0.30
+  has_website: 0.25
+  has_phone: 0.15
+  has_address: 0.15
+  has_alternate_names: 0.15

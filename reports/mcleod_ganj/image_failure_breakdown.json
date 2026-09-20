@@ -1,0 +1,96 @@
+{
+  "city": "mcleod_ganj",
+  "total_core_destinations": 31,
+  "core_with_image": 19,
+  "core_missing_image": 12,
+  "failure_reasons_summary": {
+    "no_wikidata": 11,
+    "no_P18": 1
+  },
+  "failed_destinations": [
+    {
+      "id": "yc_in_hp_mcleod_ganj_chaitru_stupa",
+      "name": "Chaitru Stupa",
+      "category": "heritage",
+      "wikidata_id": "Q56982375",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_peak_art_gallery",
+      "name": "Peak Art Gallery",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_hope_gallery_stories_of_tibetans",
+      "name": "Hope Gallery Stories Of Tibetans",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_naddi_view_point",
+      "name": "Naddi View Point",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_rakkar",
+      "name": "Rakkar",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_museum_of_kangra_art",
+      "name": "Museum of Kangra Art",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_losel_doll_museum",
+      "name": "Losel Doll Museum",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_main_square",
+      "name": "Main Square",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_small_waterfall",
+      "name": "Small waterfall",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_dalai_lama_temple",
+      "name": "Dalai Lama temple",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_the_tibet_museum",
+      "name": "The Tibet Museum",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_mcleod_ganj_state_war_memorial",
+      "name": "State War Memorial",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    }
+  ]
+}

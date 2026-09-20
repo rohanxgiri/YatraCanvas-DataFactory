@@ -1,0 +1,25 @@
+{
+  "city": "manali",
+  "total_core_destinations": 13,
+  "core_with_image": 11,
+  "core_missing_image": 2,
+  "failure_reasons_summary": {
+    "no_wikidata": 2
+  },
+  "failed_destinations": [
+    {
+      "id": "yc_in_hp_manali_studio_manali",
+      "name": "Studio Manali",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_hp_manali_great_hadimba_weavers_welfare",
+      "name": "Great Hadimba Weavers welfare",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    }
+  ]
+}

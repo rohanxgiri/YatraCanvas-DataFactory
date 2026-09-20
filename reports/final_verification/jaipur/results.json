@@ -1,0 +1,2677 @@
+[
+  {
+    "place_id": "yc_in_rj_jaipur_3ds_restro_lounge",
+    "name": "3D's Restro Lounge",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture",
+      "wikivoyage"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name '3D's Restro Lounge' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (Overture: 48.9m, Wikivoyage: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:lounge', 'wikivoyage:drink']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_90_angle_construction",
+    "name": "90 Angle Construction",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name '90 Angle Construction' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:construction_services']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_agrawal_pizza_and_bakery",
+    "name": "Agrawal Pizza And Bakery",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Agrawal Pizza And Bakery' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:pizza_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_airtel_store_sirsi_road",
+    "name": "Airtel Store - Sirsi road",
+    "tier": "discovery",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Airtel Store - Sirsi road' supported by upstream record",
+      "Coordinates verified within 19.2m (Overture: 19.2m)",
+      "Classification plausible with upstream evidence ['overture:telecommunications']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_ajmeri_gate",
+    "name": "Ajmeri Gate",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "gate",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Ajmeri Gate' confirmed across 2 upstream sources",
+      "Coordinates verified within 41.6m (OSM: 41.6m, Overture: 42.4m)",
+      "Classification 'heritage/historic_site' supported by ['osm:historic=city_gate', 'overture:landmark_and_historical_building']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_akabar_ke_kos_chinha",
+    "name": "Akabar Ke Kos Chinha",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Akabar Ke Kos Chinha' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['wikidata:heritage']",
+      "Wikidata QID Q97119514 confirmed (akabar ke kos chinha)",
+      "Image verified via Wikidata P18 (Kos minar IMG 20240916 121015 876.jpg, CC BY-SA 4.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+    "name": "Alice Garg Seashell Museum",
+    "tier": "core_destination",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Alice Garg Seashell Museum' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 9.7m)",
+      "Classification 'museum/museum' supported by ['osm:tourism=museum', 'overture:museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_allahabad_bank_mansarovar_branch",
+    "name": "Allahabad Bank Mansarovar branch",
+    "tier": "core_destination",
+    "category": "nature",
+    "subcategory": "lake",
+    "primary_entity_type": "lake",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Allahabad Bank Mansarovar branch' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'nature/lake' supported by ['wikidata:nature', 'desc:bank in india']",
+      "Wikidata QID Q69537072 confirmed (allahabad bank mansarovar branch)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_amber_fort",
+    "name": "Amber Fort",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "fort",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "SUPPORTED",
+    "evidence": [
+      "Name 'Amber Fort' confirmed across 4 upstream sources",
+      "Coordinates supported within 78.8m (OSM: 114.0m, Overture: 78.8m, Wikidata: 78.8m, Wikivoyage: 169.0m)",
+      "Classification 'heritage/fort' supported by ['osm:historic=archaeological_site', 'overture:landmark_and_historical_building', 'desc:fort and palace in rajasthan, ', 'wikivoyage:do']",
+      "Wikidata QID Q456817 confirmed (amber fort)",
+      "Image license confirmed: CC BY 2.0"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_amer_palace",
+    "name": "Amer Palace",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "historical_monument",
+    "primary_entity_type": "palace",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Amer Palace' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 299.7m)",
+      "Classification plausible with upstream evidence ['osm:tourism=attraction']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_amrapali_museum",
+    "name": "Amrapali Museum",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Amrapali Museum' confirmed across 4 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 54.2m, Overture: 19.3m, Wikidata: 0.1m, Wikivoyage: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['osm:tourism=museum', 'overture:museum', 'desc:museum in jaipur, india', 'wikivoyage:see']",
+      "Wikidata QID Q117473179 confirmed (amrapali museum)",
+      "Image verified via Wikidata P18 (AMRAPALI MUSEUM, JAIPUR.jpg, CC BY-SA 4.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_anokhi_museum_of_hand_printing",
+    "name": "Anokhi Museum of Hand Printing",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Anokhi Museum of Hand Printing' confirmed across 4 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 159.8m, Overture: 138.5m, Wikidata: 0.0m, Wikivoyage: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['osm:tourism=museum', 'overture:textile_museum', 'desc:museum in jaipur, india', 'wikivoyage:see']",
+      "Wikidata QID Q61931254 confirmed (anokhi museum of hand printing)",
+      "Image verified via Wikidata P18 (Anokhi Museum.jpg, CC BY-SA 4.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_aone_housing_group",
+    "name": "Aone Housing Group",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Aone Housing Group' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:construction_services']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_arjun_art_gallery",
+    "name": "Arjun Art Gallery",
+    "tier": "recommended",
+    "category": "arts_culture",
+    "subcategory": "art_gallery",
+    "primary_entity_type": "arts_venue",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Arjun Art Gallery' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'arts_culture/arts_venue' supported by ['overture:art_gallery']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_astromanzil",
+    "name": "Astromanzil",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Astromanzil' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:astrologer']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_avsa_jewels",
+    "name": "Avsa Jewels",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Avsa Jewels' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_baatcoffeeki",
+    "name": "baatcoffeeki",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'baatcoffeeki' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'cafe/cafe' supported by ['overture:coffee_shop']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_balaji_mandir",
+    "name": "Balaji Mandir",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Balaji Mandir' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_bank_of_india_mansarovar_branch",
+    "name": "Bank Of India Mansarovar branch",
+    "tier": "core_destination",
+    "category": "nature",
+    "subcategory": "lake",
+    "primary_entity_type": "lake",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Bank Of India Mansarovar branch' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'nature/lake' supported by ['wikidata:nature', 'desc:branch of bank of india']",
+      "Wikidata QID Q66585511 confirmed (bank of india mansarovar branch)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_bhairu_ji_ka_mandir",
+    "name": "Bhairu Ji Ka Mandir",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Bhairu Ji Ka Mandir' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_briwon_academy",
+    "name": "Briwon Academy",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Briwon Academy' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_burger_farm",
+    "name": "Burger Farm",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Burger Farm' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:burger_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_bzar_digital_marketing",
+    "name": "Bzar Digital Marketing",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Bzar Digital Marketing' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:business_management_services']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_chulgiri_digamber_jain_temple",
+    "name": "Chulgiri Digamber Jain Temple",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "fort",
+    "primary_entity_type": "fort",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Chulgiri Digamber Jain Temple' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 85.7m)",
+      "Classification 'heritage/fort' supported by ['osm:historic=castle', 'overture:church_cathedral']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_cosmo_hair_jaipur",
+    "name": "Cosmo Hair Jaipur",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Cosmo Hair Jaipur' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:plastic_surgeon']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_dakshimukhi_balaji_mandir",
+    "name": "Dakshimukhi Balaji Mandir",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Dakshimukhi Balaji Mandir' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 24.5m)",
+      "Classification 'religious/religious_site' supported by ['osm:amenity=place_of_worship', 'overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_deer_park",
+    "name": "Deer Park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Deer Park' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 18.9m)",
+      "Classification 'park/park' supported by ['osm:leisure=park', 'overture:park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_dr_yogesh_jopat",
+    "name": "Dr. Yogesh Jopat",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Dr. Yogesh Jopat' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:pediatrician']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_exotica_creations",
+    "name": "Exotica Creations",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Exotica Creations' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:flowers_and_gifts_shop']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_fabexpress_hgc_grand_hotel_in_shyam_nagar",
+    "name": "FabExpress HGC Grand - Hotel in Shyam Nagar",
+    "tier": "support",
+    "category": "hotel",
+    "subcategory": "hotel",
+    "primary_entity_type": "hotel",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'FabExpress HGC Grand - Hotel in Shyam Nagar' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:resort']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_famous_biryani",
+    "name": "Famous Biryani",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Famous Biryani' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:indian_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_gaitore",
+    "name": "Gaitore",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "wikivoyage"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "SUPPORTED",
+    "evidence": [
+      "Name 'Gaitore' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikivoyage: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['wikivoyage:see']",
+      "Image license confirmed: CC BY-SA 4.0"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_galatta_panther_safari",
+    "name": "Galatta panther Safari",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Galatta panther Safari' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:wildlife_sanctuary']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_gallery",
+    "name": "Gallery",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Gallery' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:public_service_and_government']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_ganpati_nagar_ground",
+    "name": "Ganpati Nagar Ground",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "garden",
+    "primary_entity_type": "garden",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Ganpati Nagar Ground' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 90.0m)",
+      "Classification 'park/garden' supported by ['osm:leisure=garden', 'overture:cricket_ground']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_gems_garden",
+    "name": "Gems Garden",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "garden",
+    "primary_entity_type": "garden",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Gems Garden' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_govind_devji_temple",
+    "name": "Govind Devji Temple",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "overture",
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Govind Devji Temple' confirmed across 3 upstream sources",
+      "Coordinates verified within 0.0m (Overture: 4.1m, Wikidata: 11.8m, Wikivoyage: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['overture:hindu_temple', 'desc:temple in india', 'wikivoyage:see']",
+      "Wikidata QID Q5589834 confirmed (govind dev ji temple)",
+      "Image verified via Wikidata P18 (Govind Dev Ji Temple, Jaipur, 20191218 1059 9092.jpg, CC BY-SA 4.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_gyan_museum",
+    "name": "Gyan Museum",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "heritage_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Gyan Museum' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'museum/museum' supported by ['overture:art_museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_hanuman_general_and_kirana_store",
+    "name": "Hanuman General and Kirana Store",
+    "tier": "discovery",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Hanuman General and Kirana Store' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'shopping/shop' supported by ['overture:flowers_and_gifts_shop']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_hdfc_bank_new_atish_market_branch_branch",
+    "name": "HDFC Bank New Atish Market Branch branch",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'HDFC Bank New Atish Market Branch branch' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['wikidata:heritage', 'desc:hdfc bank branch in ground flo']",
+      "Wikidata QID Q132164883 confirmed (hdfc bank new atish market branch branch)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_hdfc_ergo_insurance_agent_sunita_gupta",
+    "name": "HDFC ERGO Insurance Agent: Sunita Gupta",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'HDFC ERGO Insurance Agent: Sunita Gupta' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_horizon_infradesigns_pvt_ltd",
+    "name": "Horizon Infradesigns Pvt. Ltd",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Horizon Infradesigns Pvt. Ltd' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:construction_services']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_hotel_o_jaishree_hotel",
+    "name": "Hotel O Jaishree Hotel",
+    "tier": "support",
+    "category": "hotel",
+    "subcategory": "hotel",
+    "primary_entity_type": "hotel",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Hotel O Jaishree Hotel' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'hotel/hotel' supported by ['overture:hotel']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_hum_tum_rooftop_restaurant",
+    "name": "Hum Tum Rooftop Restaurant",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Hum Tum Rooftop Restaurant' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'food/restaurant' supported by ['overture:vegetarian_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_hyderabadi_restaurant_and_cafe",
+    "name": "Hyderabadi Restaurant and Cafe",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Hyderabadi Restaurant and Cafe' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:indian_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_icici_bank_limited_jaipur_mansarovar_branch",
+    "name": "ICICI Bank Limited, Jaipur, Mansarovar branch",
+    "tier": "core_destination",
+    "category": "nature",
+    "subcategory": "lake",
+    "primary_entity_type": "lake",
+    "sources_checked": [
+      "wikidata"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'ICICI Bank Limited, Jaipur, Mansarovar branch' supported by upstream record",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m)",
+      "Classification 'nature/lake' supported by ['wikidata:nature', 'desc:branch of icici bank']",
+      "Wikidata QID Q74168486 confirmed (icici bank limited, jaipur, mansarovar branch)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_intake_media",
+    "name": "InTake Media",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'InTake Media' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:business_advertising']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_iskcon_jaipur_sri_sri_giridhari_dauji_temple",
+    "name": "Iskcon Jaipur, Sri Sri Giridhari Dauji Temple",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Iskcon Jaipur, Sri Sri Giridhari Dauji Temple' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jagat_shiromani_temple",
+    "name": "Jagat Shiromani Temple",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Jagat Shiromani Temple' confirmed across 3 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 273.6m, Overture: 275.9m, Wikidata: 0.1m, Wikivoyage: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['osm:amenity=place_of_worship', 'overture:hindu_temple', 'desc:hindu temple in amber, jaipur ', 'wikivoyage:see']",
+      "Wikidata QID Q21503605 confirmed (jagat shiromani temple)",
+      "Image verified via Wikidata P18 (Sri Jagat Siromani ji temple.JPG, CC BY-SA 3.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jaipur_murti_museum",
+    "name": "Jaipur Murti Museum",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "heritage_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Jaipur Murti Museum' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'museum/museum' supported by ['overture:museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jaipur_virasat_foundation_rrap_music_museum_and_hub",
+    "name": "Jaipur Virasat Foundation RRAP Music Museum and Hub",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "heritage_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Jaipur Virasat Foundation RRAP Music Museum and Hub' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'museum/museum' supported by ['overture:museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jaipuri_chat_chaupati",
+    "name": "Jaipuri Chat Chaupati",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Jaipuri Chat Chaupati' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jantar_mantar",
+    "name": "Jantar Mantar",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "historic_site",
+    "sources_checked": [
+      "osm",
+      "overture",
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Jantar Mantar' confirmed across 4 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 52.9m, Overture: 64.2m, Wikidata: 0.0m, Wikivoyage: 0.0m)",
+      "Classification 'heritage/historic_site' supported by ['osm:tourism=attraction', 'osm:historic=archaeological_site', 'overture:landmark_and_historical_building', 'desc:monument site, collection of a', 'wikivoyage:see']",
+      "Wikidata QID Q508634 confirmed (jantar mantar)",
+      "Image verified via Wikidata P18 (Jantar Mantar at Jaipur.jpg, Public domain)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jawahar_kala_kendra",
+    "name": "Jawahar Kala Kendra",
+    "tier": "core_destination",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "SUPPORTED",
+    "evidence": [
+      "Name 'Jawahar Kala Kendra' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 1.3m)",
+      "Classification 'museum/museum' supported by ['osm:tourism=museum', 'overture:cultural_center']",
+      "Image license confirmed: CC BY-SA 4.0"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jetpura_jaipur",
+    "name": "Jetpura ,jaipur",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "heritage_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Jetpura ,jaipur' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'museum/museum' supported by ['overture:museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_k_h_enterprises",
+    "name": "K H Enterprises",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'K H Enterprises' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'shopping/shop' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_kesar_kyari",
+    "name": "Kesar Kyari",
+    "tier": "core_destination",
+    "category": "park",
+    "subcategory": "garden",
+    "primary_entity_type": "garden",
+    "sources_checked": [
+      "osm",
+      "wikidata"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Kesar Kyari' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Wikidata: 10.1m)",
+      "Classification 'park/garden' supported by ['osm:leisure=garden', 'desc:garden in maota lake at amber ']",
+      "Wikidata QID Q110122752 confirmed (kesar kyari garden)",
+      "Image verified via Wikidata P18 (Amber Palace-Kesar Kyari Garden VJC-20131017.jpg, CC BY-SA 3.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_khole_ke_hanuman_ji_temple",
+    "name": "Khole Ke Hanuman Ji Temple",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Khole Ke Hanuman Ji Temple' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.1m (OSM: 0.1m, Overture: 12.2m)",
+      "Classification 'religious/religious_site' supported by ['osm:amenity=place_of_worship', 'overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_kyro_cafe_restro",
+    "name": "KYRO Cafe\u0301 & Restro",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'KYRO Cafe\u0301 & Restro' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'cafe/cafe' supported by ['overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_lenskartcom",
+    "name": "Lenskart.com",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Lenskart.com' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_lotto",
+    "name": "Lotto",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Lotto' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:sports_wear']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_maharaja_garden_restaurant_and_beer_bar",
+    "name": "Maharaja Garden Restaurant and Beer Bar",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Maharaja Garden Restaurant and Beer Bar' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:indian_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_maharana_pratap_park",
+    "name": "Maharana Pratap Park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Maharana Pratap Park' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 73.0m)",
+      "Classification 'park/park' supported by ['osm:leisure=park', 'overture:park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_mansapuran_hanuman_mandir",
+    "name": "Mansapuran Hanuman Mandir",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Mansapuran Hanuman Mandir' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_mars_coffee",
+    "name": "Mars Coffee",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Mars Coffee' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'cafe/cafe' supported by ['overture:coffee_shop']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_mr_non_veg_house",
+    "name": "Mr. Non-Veg House",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Mr. Non-Veg House' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'food/restaurant' supported by ['overture:restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_mundota_fort_and_palace",
+    "name": "Mundota Fort and Palace",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "attraction",
+    "primary_entity_type": "fort",
+    "sources_checked": [
+      "wikidata",
+      "wikivoyage"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "VERIFIED",
+    "image_status": "VERIFIED_EXACT",
+    "evidence": [
+      "Name 'Mundota Fort and Palace' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (Wikidata: 0.0m, Wikivoyage: 0.0m)",
+      "Classification 'heritage/fort' supported by ['desc:building in mundota and jaipur', 'wikivoyage:see']",
+      "Wikidata QID Q15260236 confirmed (mundota fort and palace)",
+      "Image verified via Wikidata P18 (RK 3457.CR.jpg, CC BY-SA 3.0)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_mys_enterprises",
+    "name": "MYS Enterprises",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'MYS Enterprises' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'shopping/shop' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_navneet_prakritik_yoga_chikitsha_dham",
+    "name": "Navneet Prakritik Yoga Chikitsha Dham",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Navneet Prakritik Yoga Chikitsha Dham' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:health_department']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_new_shop",
+    "name": "New Shop",
+    "tier": "discovery",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'New Shop' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:convenience_store']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_od_adda_chai_coffee_cafe",
+    "name": "OD Adda Chai Coffee Cafe",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'OD Adda Chai Coffee Cafe' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'cafe/cafe' supported by ['overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_onto",
+    "name": "Onto",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "heritage_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Onto' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'museum/museum' supported by ['overture:aviation_museum']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_oyo_10433_hotel_meenakshi",
+    "name": "OYO 10433 Hotel Meenakshi",
+    "tier": "support",
+    "category": "hotel",
+    "subcategory": "hotel",
+    "primary_entity_type": "hotel",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'OYO 10433 Hotel Meenakshi' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_oyo_24782_season_park",
+    "name": "OYO 24782 Season Park",
+    "tier": "support",
+    "category": "hotel",
+    "subcategory": "hotel",
+    "primary_entity_type": "hotel",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'OYO 24782 Season Park' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'hotel/hotel' supported by ['overture:hotel']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_pink_pearl_water_park",
+    "name": "Pink Pearl Water Park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Pink Pearl Water Park' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'park/park' supported by ['overture:water_park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_positive_vibes_healing",
+    "name": "Positive Vibes Healing",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Positive Vibes Healing' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'experience/experience' supported by ['overture:psychic']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_punjabi_tadka",
+    "name": "Punjabi Tadka",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Punjabi Tadka' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification 'food/restaurant' supported by ['overture:indian_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_radharani_water_park",
+    "name": "Radharani WATER park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "garden",
+    "primary_entity_type": "garden",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Radharani WATER park' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification plausible with upstream evidence ['overture:swimming_pool']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_radhika_enterprises",
+    "name": "Radhika Enterprises",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Radhika Enterprises' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'shopping/shop' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rastogi_handicrafts",
+    "name": "Rastogi Handicrafts",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "bazaar",
+    "primary_entity_type": "market",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Rastogi Handicrafts' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:arts_and_crafts']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rawat_misthan_bhandar",
+    "name": "Rawat Misthan Bhandar",
+    "tier": "discovery",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Rawat Misthan Bhandar' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 24.9m)",
+      "Classification 'cafe/cafe' supported by ['osm:amenity=cafe', 'overture:indian_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_roadhouse_hostels",
+    "name": "Roadhouse Hostels",
+    "tier": "support",
+    "category": "hotel",
+    "subcategory": "hostel",
+    "primary_entity_type": "hotel",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Roadhouse Hostels' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'hotel/hotel' supported by ['overture:hostel']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "support:transport"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rominus_pizza_and_burger",
+    "name": "Rominus Pizza and Burger",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Rominus Pizza and Burger' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:pizza_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+    "name": "Rooftop view stairs",
+    "tier": "core_destination",
+    "category": "heritage",
+    "subcategory": "historical_monument",
+    "primary_entity_type": "monument",
+    "sources_checked": [
+      "osm"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Rooftop view stairs' supported by upstream record",
+      "Coordinates verified within 32.4m (OSM: 32.4m)",
+      "Classification plausible with upstream evidence ['osm:tourism=viewpoint']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:core"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_saffron_mart_page",
+    "name": "Saffron mart page",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Saffron mart page' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'shopping/shop' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_saheed_bahgat_singh_park",
+    "name": "Saheed Bahgat Singh Park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "urban_park",
+    "primary_entity_type": "park",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Saheed Bahgat Singh Park' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 36.4m)",
+      "Classification 'park/park' supported by ['osm:leisure=park', 'overture:park']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_santinos_grill",
+    "name": "Santino's Grill",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Santino's Grill' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:pizza_restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_sebjon_fashion_mall_cafe",
+    "name": "Sebjon fashion mall & cafe",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Sebjon fashion mall & cafe' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'cafe/cafe' supported by ['overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_shree_khatu_shyam_mandir",
+    "name": "Shree Khatu Shyam Mandir",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Shree Khatu Shyam Mandir' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_smart_circle_group",
+    "name": "Smart Circle Group",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Smart Circle Group' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_spot_on_40453_the_host_garden",
+    "name": "SPOT ON 40453 The Host Garden",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "garden",
+    "primary_entity_type": "garden",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'SPOT ON 40453 The Host Garden' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_starbucks",
+    "name": "Starbucks",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "osm",
+      "overture"
+    ],
+    "overall_status": "VERIFIED",
+    "name_status": "VERIFIED",
+    "coordinates_status": "VERIFIED",
+    "category_status": "VERIFIED",
+    "entity_type_status": "VERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Starbucks' confirmed across 2 upstream sources",
+      "Coordinates verified within 0.0m (OSM: 0.0m, Overture: 14.6m)",
+      "Classification 'cafe/cafe' supported by ['osm:amenity=cafe', 'overture:coffee_shop']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:cafe"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_temple_contractor_designer",
+    "name": "Temple Contractor & Designer",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Temple Contractor & Designer' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['overture:buddhist_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:religious"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_the_bhukkhad",
+    "name": "The Bhukkhad",
+    "tier": "recommended",
+    "category": "food",
+    "subcategory": "restaurant",
+    "primary_entity_type": "restaurant",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'The Bhukkhad' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'food/restaurant' supported by ['overture:restaurant']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_the_quench_cafe",
+    "name": "The Quench Cafe",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'The Quench Cafe' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'cafe/cafe' supported by ['overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_triveni_moorti_museum",
+    "name": "Triveni Moorti Museum",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Triveni Moorti Museum' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification plausible with upstream evidence ['overture:arts_and_crafts']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_vardhan_art_gallery",
+    "name": "Vardhan Art Gallery",
+    "tier": "discovery",
+    "category": "museum",
+    "subcategory": "history_museum",
+    "primary_entity_type": "museum",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Vardhan Art Gallery' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:museum"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_vedyam_technology",
+    "name": "Vedyam Technology",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Vedyam Technology' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_vinash_enterprises",
+    "name": "Vinash Enterprises",
+    "tier": "recommended",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Vinash Enterprises' supported by upstream record",
+      "Coordinates verified within 49.5m (Overture: 49.5m)",
+      "Classification 'shopping/shop' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_vintage_recycle_art_and_puncture_shop",
+    "name": "Vintage Recycle Art and Puncture Shop",
+    "tier": "discovery",
+    "category": "shopping",
+    "subcategory": "shop",
+    "primary_entity_type": "shop",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Vintage Recycle Art and Puncture Shop' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'shopping/shop' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:shopping"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_vk_paint_house",
+    "name": "VK Paint House",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'VK Paint House' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'experience/experience' supported by ['overture:shopping']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_vr_theme_park",
+    "name": "VR Theme Park",
+    "tier": "recommended",
+    "category": "park",
+    "subcategory": "garden",
+    "primary_entity_type": "garden",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'VR Theme Park' supported by upstream record",
+      "Coordinates verified within 0.1m (Overture: 0.1m)",
+      "Classification plausible with upstream evidence ['overture:video_game_store']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "cat:park"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_wok_n_sip",
+    "name": "Wok n sip",
+    "tier": "recommended",
+    "category": "cafe",
+    "subcategory": "coffee_shop",
+    "primary_entity_type": "cafe",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Wok n sip' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'cafe/cafe' supported by ['overture:cafe']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_zahvana",
+    "name": "Zahvana",
+    "tier": "discovery",
+    "category": "experience",
+    "subcategory": "general_poi",
+    "primary_entity_type": "experience",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "UNVERIFIED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "UNVERIFIED",
+    "entity_type_status": "UNVERIFIED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name 'Zahvana' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:discovery"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_\u0936\u0930_\u092a\u0930\u092e_\u092c\u0939\u0930_\u091c",
+    "name": "\u0936\u094d\u0930\u0940 \u092a\u094d\u0930\u0947\u092e \u092c\u093f\u0939\u093e\u0930\u0940 \u091c\u0940",
+    "tier": "recommended",
+    "category": "religious",
+    "subcategory": "hindu_temple",
+    "primary_entity_type": "religious_site",
+    "sources_checked": [
+      "overture"
+    ],
+    "overall_status": "SUPPORTED",
+    "name_status": "SUPPORTED",
+    "coordinates_status": "SUPPORTED",
+    "category_status": "SUPPORTED",
+    "entity_type_status": "SUPPORTED",
+    "wikidata_status": "NONE",
+    "image_status": "NONE",
+    "evidence": [
+      "Name '\u0936\u094d\u0930\u0940 \u092a\u094d\u0930\u0947\u092e \u092c\u093f\u0939\u093e\u0930\u0940 \u091c\u0940' supported by upstream record",
+      "Coordinates verified within 0.0m (Overture: 0.0m)",
+      "Classification 'religious/religious_site' supported by ['overture:hindu_temple']"
+    ],
+    "conflicts": [],
+    "sample_stratum": "tier:recommended"
+  }
+]

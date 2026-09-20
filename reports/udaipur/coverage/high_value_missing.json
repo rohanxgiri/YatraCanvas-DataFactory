@@ -1,0 +1,286 @@
+{
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "version": "v3",
+  "summary": {
+    "wikivoyage_total_see_do": 31,
+    "wikivoyage_missing_count": 20,
+    "wikidata_total_attractions": 90,
+    "wikidata_missing_count": 2,
+    "by_outcome": {
+      "coordinate_problem": 20,
+      "pipeline_bug": 2
+    }
+  },
+  "missing_wikivoyage_listings": [
+    {
+      "name": "Amar Vilas",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_amar_vilas",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Badi Mahal",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_badi_mahal",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Durbar Hall",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_durbar_hall",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Fatehprakash Palace",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_fatehprakash_palace",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Krishna Vilas",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_krishna_vilas",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Manak Mahal",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_manak_mahal",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Mor Chowk",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_mor_chowk",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Rang Bhawan",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_rang_bhawan",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Sheesh Mahal",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_sheesh_mahal",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Zenana Mahal",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_zenana_mahal",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Nehru Garden",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_nehru_garden",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Aapni Dhani",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_aapni_dhani",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Dharohar Dance Show @ Bagore-ki-Haveli",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_dharohar_dance_show_bagore_ki_haveli",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Puppet Show @ Bharatiya Lok Kala Mandal",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_puppet_show_bharatiya_lok_kala_mandal",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Shilpgram",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_shilpgram",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Art of Bicycle Trips",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_art_of_bicycle_trips",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Udaipur Ropeway",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_udaipur_ropeway",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Bindaas",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_bindaas",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Princess Trails",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_princess_trails",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    },
+    {
+      "name": "Animal Aid Unlimited",
+      "source": "wikivoyage",
+      "source_id": "wv_udaipur_animal_aid_unlimited",
+      "wikidata_id": null,
+      "coordinates": [
+        null,
+        null
+      ],
+      "outcome": "coordinate_problem",
+      "details": "Wikivoyage listing lacks latitude/longitude coordinates (sub-listing or un-geolocated activity)"
+    }
+  ],
+  "missing_wikidata_attractions": [
+    {
+      "name": "Udaipur City railway station",
+      "source": "wikidata",
+      "source_id": "Q12416268",
+      "wikidata_id": "Q12416268",
+      "description": "railway station in udaipur, rajasthan, india",
+      "coordinates": [
+        24.566862,
+        73.699632
+      ],
+      "outcome": "pipeline_bug",
+      "details": "Quarantined: ['semantic_conflict:transport_classified_as_heritage'] (Entity desc: 'railway station in udaipur, rajasthan, india')"
+    },
+    {
+      "name": "Rana Pratap Nagar Railway Station",
+      "source": "wikidata",
+      "source_id": "Q24946736",
+      "wikidata_id": "Q24946736",
+      "description": "railway station in rajasthan, india",
+      "coordinates": [
+        24.582417,
+        73.728056
+      ],
+      "outcome": "pipeline_bug",
+      "details": "Quarantined: ['semantic_conflict:transport_classified_as_heritage'] (Entity desc: 'railway station in rajasthan, india')"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "city": "jaipur",
+  "total_core_destinations": 80,
+  "core_with_image": 47,
+  "core_missing_image": 33,
+  "failure_reasons_summary": {
+    "no_P18": 18,
+    "no_wikidata": 13,
+    "wikipedia_no_image": 2
+  },
+  "failed_destinations": [
+    {
+      "id": "yc_in_rj_jaipur_nahargarh_wildlife_sanctuary",
+      "name": "Nahargarh Wildlife Sanctuary",
+      "category": "heritage",
+      "wikidata_id": "Q134581467",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_jaipur_jhalanaamagarh_leopard_conservation_reserve",
+      "name": "Jhalana–Amagarh Leopard Conservation Reserve",
+      "category": "heritage",
+      "wikidata_id": "Q134895939",
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_rj_jaipur_bank_of_india_mansarovar_branch",
+      "name": "Bank Of India Mansarovar branch",
+      "category": "nature",
+      "wikidata_id": "Q66585511",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_allahabad_bank_mansarovar_branch",
+      "name": "Allahabad Bank Mansarovar branch",
+      "category": "nature",
+      "wikidata_id": "Q69537072",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_bank_of_baroda_mansarovar_branch",
+      "name": "Bank Of Baroda, Mansarovar Branch",
+      "category": "nature",
+      "wikidata_id": "Q73754936",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_icici_bank_limited_jaipur_mansarovar_branch",
+      "name": "ICICI Bank Limited, Jaipur, Mansarovar branch",
+      "category": "nature",
+      "wikidata_id": "Q74168486",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_icici_bank_limited_jaipur_tps_mansarovar_branch",
+      "name": "ICICI Bank Limited, Jaipur Tps Mansarovar branch",
+      "category": "nature",
+      "wikidata_id": "Q74168530",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_hdfc_bank_madhyam_marg_branch",
+      "name": "HDFC Bank Madhyam Marg branch",
+      "category": "nature",
+      "wikidata_id": "Q132164875",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_hdfc_bank_shipra_path_branch",
+      "name": "HDFC Bank Shipra Path branch",
+      "category": "nature",
+      "wikidata_id": "Q132164882",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_hdfc_bank_new_atish_market_branch_branch",
+      "name": "HDFC Bank New Atish Market Branch branch",
+      "category": "heritage",
+      "wikidata_id": "Q132164883",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_hdfc_bank_mansarovar_jaipur_branch",
+      "name": "HDFC Bank Mansarovar Jaipur branch",
+      "category": "nature",
+      "wikidata_id": "Q66635077",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_hdfc_bank_raja_park_branch",
+      "name": "HDFC Bank Raja Park branch",
+      "category": "park",
+      "wikidata_id": "Q66636818",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_corporation_bank_jaipur_mansarovar_branch",
+      "name": "Corporation Bank Jaipur Mansarovar branch",
+      "category": "nature",
+      "wikidata_id": "Q66770751",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_andhra_bank_mansarovar_branch",
+      "name": "Andhra Bank Mansarovar branch",
+      "category": "nature",
+      "wikidata_id": "Q73529784",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_bank_of_baroda_sfs_mansarovar_rajasthan_branch",
+      "name": "Bank Of Baroda, Sfs Mansarovar, Rajasthan branch",
+      "category": "nature",
+      "wikidata_id": "Q73757105",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_axis_bank_mansarovar_branch",
+      "name": "Axis Bank, Mansarovar Branch",
+      "category": "nature",
+      "wikidata_id": "Q73761131",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_indian_overseas_bank_manasarovar_branch",
+      "name": "Indian Overseas Bank, Manasarovar branch",
+      "category": "nature",
+      "wikidata_id": "Q73844290",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_icici_bank_limited_jaipur_rhb_mansarovar_branch",
+      "name": "ICICI Bank Limited, Jaipur Rhb Mansarovar branch",
+      "category": "nature",
+      "wikidata_id": "Q74168501",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_nakati_mata_temple",
+      "name": "Nakati Mata Temple",
+      "category": "religious",
+      "wikidata_id": "Q97119535",
+      "failure_reason": "no_P18"
+    },
+    {
+      "id": "yc_in_rj_jaipur_vidyadhar_garden",
+      "name": "Vidyadhar Garden",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat",
+      "name": "Iswari Minar Swarga Sali (Isarlat)",
+      "category": "viewpoint",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_pink_city",
+      "name": "Pink City",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_sawai_mansingh_townhall",
+      "name": "Sawai Mansingh Townhall",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_ganesh_pol",
+      "name": "Ganesh Pol",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+      "name": "Alice Garg Seashell Museum",
+      "category": "museum",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_elephant_riding",
+      "name": "Elephant Riding",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_amer_palace",
+      "name": "Amer Palace",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_diwan_i_khas",
+      "name": "Diwan-i-Khas",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_rooftop_view_stairs",
+      "name": "Rooftop view stairs",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_elejungle_jaipur_elephant_ride",
+      "name": "EleJungle- Jaipur Elephant Ride",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_ajmeri_gate",
+      "name": "Ajmeri Gate",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_chulgiri_digamber_jain_temple",
+      "name": "Chulgiri Digamber Jain Temple",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_rj_jaipur_suraj_pol_gate",
+      "name": "Suraj Pol Gate",
+      "category": "heritage",
+      "wikidata_id": "Q140770830",
+      "failure_reason": "no_P18"
+    }
+  ]
+}

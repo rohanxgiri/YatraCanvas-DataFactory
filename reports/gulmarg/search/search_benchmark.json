@@ -1,0 +1,714 @@
+{
+  "city": "Gulmarg",
+  "version": "v3",
+  "summary": {
+    "total_benchmark_queries": 18,
+    "precision_at_5": 91.7,
+    "precision_at_10": 91.7,
+    "average_category_precision_pct": 91.7,
+    "category_search_precision_pct": 91.7,
+    "name_search_precision_pct": 100.0,
+    "exact_place_tests_count": 3,
+    "exact_place_resolution_rate_pct": 100.0,
+    "total_quarantined_leakage": 0,
+    "total_duplicate_leakage": 0,
+    "search_status": "READY"
+  },
+  "query_benchmarks": [
+    {
+      "query": "cafe",
+      "expected_categories": [
+        "cafe"
+      ],
+      "result_count": 4,
+      "category_precision_pct": 50.0,
+      "precision_at_5": 50.0,
+      "precision_at_10": 50.0,
+      "matching_top_results": 2,
+      "tiers_represented": {
+        "recommended": 4
+      },
+      "unique_places": 4,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Eleven Miles The Cafe and Grill",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 490.25,
+          "score": 480.0
+        },
+        {
+          "name": "Black Bear Brew",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 380.25,
+          "score": 370.0
+        },
+        {
+          "name": "The Gulmarg Cafeteria Cafe and Resturant",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 120.25,
+          "score": 110.0
+        }
+      ]
+    },
+    {
+      "query": "coffee",
+      "expected_categories": [
+        "cafe"
+      ],
+      "result_count": 2,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 2,
+      "tiers_represented": {
+        "recommended": 2
+      },
+      "unique_places": 2,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Black Bear Brew",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 380.25,
+          "score": 370.0
+        },
+        {
+          "name": "Eleven Miles The Cafe and Grill",
+          "category": "cafe",
+          "tier": "recommended",
+          "rank": 380.25,
+          "score": 370.0
+        }
+      ]
+    },
+    {
+      "query": "restaurant",
+      "expected_categories": [
+        "food"
+      ],
+      "result_count": 8,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 8,
+      "tiers_represented": {
+        "recommended": 7,
+        "discovery": 1
+      },
+      "unique_places": 8,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Chopstick The Restaurant",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 581.5,
+          "score": 570.0
+        },
+        {
+          "name": "Cloves Restaurant",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 521.5,
+          "score": 510.0
+        },
+        {
+          "name": "Mughal Darbar Foods & Restaurant",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 520.25,
+          "score": 510.0
+        }
+      ]
+    },
+    {
+      "query": "food",
+      "expected_categories": [
+        "food",
+        "cafe"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "discovery": 1,
+        "recommended": 9
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Jan's Bakery Sweets and Fast Food",
+          "category": "food",
+          "tier": "discovery",
+          "rank": 515.75,
+          "score": 510.0
+        },
+        {
+          "name": "Mughal Darbar Foods & Restaurant",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 450.25,
+          "score": 440.0
+        },
+        {
+          "name": "Bakshi's Green Punjabi Dhaba (Vegetarian)",
+          "category": "food",
+          "tier": "recommended",
+          "rank": 381.5,
+          "score": 370.0
+        }
+      ]
+    },
+    {
+      "query": "temple",
+      "expected_categories": [
+        "religious"
+      ],
+      "result_count": 1,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 1,
+      "tiers_represented": {
+        "core_destination": 1
+      },
+      "unique_places": 1,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Maharani Temple",
+          "category": "religious",
+          "tier": "core_destination",
+          "rank": 516.25,
+          "score": 480.0
+        }
+      ]
+    },
+    {
+      "query": "mosque",
+      "expected_categories": [
+        "religious"
+      ],
+      "result_count": 1,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 1,
+      "tiers_represented": {
+        "core_destination": 1
+      },
+      "unique_places": 1,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Maharani Temple",
+          "category": "religious",
+          "tier": "core_destination",
+          "rank": 376.25,
+          "score": 340.0
+        }
+      ]
+    },
+    {
+      "query": "museum",
+      "expected_categories": [
+        "museum"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "fort",
+      "expected_categories": [
+        "heritage"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "core_destination": 9,
+        "discovery": 1
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Gulmarg",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 220.0,
+          "score": 180.0
+        },
+        {
+          "name": "Tangmarg",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 218.75,
+          "score": 180.0
+        },
+        {
+          "name": "Afarwat Peak",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 216.25,
+          "score": 180.0
+        }
+      ]
+    },
+    {
+      "query": "palace",
+      "expected_categories": [
+        "heritage"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "core_destination": 9,
+        "discovery": 1
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Maharaja Palace",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 414.75,
+          "score": 390.0
+        },
+        {
+          "name": "Gulmarg",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 280.0,
+          "score": 240.0
+        },
+        {
+          "name": "Tangmarg",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 218.75,
+          "score": 180.0
+        }
+      ]
+    },
+    {
+      "query": "heritage",
+      "expected_categories": [
+        "heritage",
+        "museum"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "core_destination": 9,
+        "discovery": 1
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Gulmarg",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 410.0,
+          "score": 370.0
+        },
+        {
+          "name": "Tangmarg",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 408.75,
+          "score": 370.0
+        },
+        {
+          "name": "Afarwat Peak",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 406.25,
+          "score": 370.0
+        }
+      ]
+    },
+    {
+      "query": "park",
+      "expected_categories": [
+        "park"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "garden",
+      "expected_categories": [
+        "park"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "lake",
+      "expected_categories": [
+        "nature"
+      ],
+      "result_count": 1,
+      "category_precision_pct": 0.0,
+      "precision_at_5": 0.0,
+      "precision_at_10": 0.0,
+      "matching_top_results": 0,
+      "tiers_represented": {
+        "core_destination": 1
+      },
+      "unique_places": 1,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Alpather Lake",
+          "category": "heritage",
+          "tier": "core_destination",
+          "rank": 166.0,
+          "score": 140.0
+        }
+      ]
+    },
+    {
+      "query": "market",
+      "expected_categories": [
+        "shopping"
+      ],
+      "result_count": 3,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 3,
+      "tiers_represented": {
+        "discovery": 2,
+        "recommended": 1
+      },
+      "unique_places": 3,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Gulmarg Alpine Ski Shop.Dar General Store",
+          "category": "shopping",
+          "tier": "discovery",
+          "rank": 230.75,
+          "score": 225.0
+        },
+        {
+          "name": "Para Enterprises Dhobiwan",
+          "category": "shopping",
+          "tier": "recommended",
+          "rank": 230.25,
+          "score": 220.0
+        },
+        {
+          "name": "First Choice Departmental Store",
+          "category": "shopping",
+          "tier": "discovery",
+          "rank": 225.75,
+          "score": 220.0
+        }
+      ]
+    },
+    {
+      "query": "shopping",
+      "expected_categories": [
+        "shopping"
+      ],
+      "result_count": 3,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 3,
+      "tiers_represented": {
+        "recommended": 1,
+        "discovery": 2
+      },
+      "unique_places": 3,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Para Enterprises Dhobiwan",
+          "category": "shopping",
+          "tier": "recommended",
+          "rank": 380.25,
+          "score": 370.0
+        },
+        {
+          "name": "Gulmarg Alpine Ski Shop.Dar General Store",
+          "category": "shopping",
+          "tier": "discovery",
+          "rank": 375.75,
+          "score": 370.0
+        },
+        {
+          "name": "First Choice Departmental Store",
+          "category": "shopping",
+          "tier": "discovery",
+          "rank": 375.75,
+          "score": 370.0
+        }
+      ]
+    },
+    {
+      "query": "art",
+      "expected_categories": [
+        "arts_culture",
+        "museum"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "railway station",
+      "expected_categories": [
+        "transport"
+      ],
+      "result_count": 1,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 1,
+      "tiers_represented": {
+        "support": 1
+      },
+      "unique_places": 1,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Gulmarg Bus Stand",
+          "category": "transport",
+          "tier": "support",
+          "rank": 416.25,
+          "score": 400.0
+        }
+      ]
+    },
+    {
+      "query": "hotel",
+      "expected_categories": [
+        "hotel"
+      ],
+      "result_count": 10,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 10,
+      "tiers_represented": {
+        "support": 10
+      },
+      "unique_places": 10,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": [
+        {
+          "name": "Hotel Park Royal",
+          "category": "hotel",
+          "tier": "support",
+          "rank": 581.25,
+          "score": 570.0
+        },
+        {
+          "name": "Hotel Zahgeer Continental",
+          "category": "hotel",
+          "tier": "support",
+          "rank": 518.75,
+          "score": 510.0
+        },
+        {
+          "name": "Rosewood Hut/Hotel",
+          "category": "hotel",
+          "tier": "support",
+          "rank": 518.75,
+          "score": 510.0
+        }
+      ]
+    }
+  ],
+  "exact_place_tests": [
+    {
+      "place_id": "yc_in_ja_gulmarg_gulmarg",
+      "name": "Gulmarg",
+      "alt_name": "Gulmarg Gondola",
+      "name_hi": "गुलमर्ग",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ja_gulmarg_tangmarg",
+      "name": "Tangmarg",
+      "alt_name": "Tangmarg Kashmir..",
+      "name_hi": "टंगमर्ग",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    },
+    {
+      "place_id": "yc_in_ja_gulmarg_afarwat_peak",
+      "name": "Afarwat Peak",
+      "alt_name": "Apharwat Peak",
+      "name_hi": "अपहरवाट पर्वत",
+      "resolved_by_name": true,
+      "resolved_by_alt": true,
+      "resolved_by_hi": true,
+      "all_resolved_to_same_entity": true
+    }
+  ],
+  "discovery_candidates_sample": [
+    {
+      "name": "St. Mary's Church",
+      "category": "heritage",
+      "primary_entity_type": "historic_site",
+      "discovery_score": 0.0,
+      "quality_overall": 0.448,
+      "travel_relevance_score": 0.15,
+      "address": "Near Golf Club"
+    },
+    {
+      "name": "IndianOil",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "Hardumadam Tangmarg Kareeri,Baramulla"
+    },
+    {
+      "name": "Gulmarg Alpine Ski Shop.Dar General Store",
+      "category": "shopping",
+      "primary_entity_type": "shop",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "Main Market"
+    },
+    {
+      "name": "Snow Skiing In Gulmarg",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "Gulmarg, Near Gondola, India"
+    },
+    {
+      "name": "GoSki Gulmarg",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "gulmarg,kashmir India"
+    },
+    {
+      "name": "Indian Institute of Skiing and Mountaineering",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "Near, Golf Club Rd, near iism"
+    },
+    {
+      "name": "Kashmir Heliski",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "Gulmarg kashmir Himalayas india"
+    },
+    {
+      "name": "Jan's Bakery Sweets and Fast Food",
+      "category": "food",
+      "primary_entity_type": "restaurant",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "5, Jamia Rd"
+    },
+    {
+      "name": "Himalayan i Bex",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "gulmarg"
+    },
+    {
+      "name": "Jahangir Medicate ogmuna",
+      "category": "experience",
+      "primary_entity_type": "experience",
+      "discovery_score": 0.0,
+      "quality_overall": 0.423,
+      "travel_relevance_score": 0.05,
+      "address": "JAHANGIR MEDICATE OGMUNA"
+    }
+  ]
+}

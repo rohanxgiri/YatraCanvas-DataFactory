@@ -1,0 +1,943 @@
+{
+  "city": "Gulmarg",
+  "state": "Jammu And Kashmir",
+  "country": "India",
+  "version": "v3",
+  "grid_dimensions": "8x8 (64 cells)",
+  "bounding_box": {
+    "min_lon": 74.31212,
+    "min_lat": 33.96897,
+    "max_lon": 74.47212,
+    "max_lat": 34.12897
+  },
+  "summary": {
+    "total_released_places": 84,
+    "places_within_grid": 83,
+    "places_outside_grid": 1,
+    "total_grid_cells": 64,
+    "non_empty_cells": 15,
+    "empty_cells": 49,
+    "max_cell_density": 20,
+    "top_10_pct_cells_concentration_pct": 88.0,
+    "suspicious_concentration_detected": false,
+    "coverage_warning": null
+  },
+  "cells": {
+    "cell_0_0": {
+      "row": 0,
+      "col": 0,
+      "bounds": {
+        "min_lat": 33.969,
+        "max_lat": 33.989,
+        "min_lon": 74.3121,
+        "max_lon": 74.3321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_1": {
+      "row": 0,
+      "col": 1,
+      "bounds": {
+        "min_lat": 33.969,
+        "max_lat": 33.989,
+        "min_lon": 74.3321,
+        "max_lon": 74.3521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_2": {
+      "row": 0,
+      "col": 2,
+      "bounds": {
+        "min_lat": 33.969,
+        "max_lat": 33.989,
+        "min_lon": 74.3521,
+        "max_lon": 74.3721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_3": {
+      "row": 0,
+      "col": 3,
+      "bounds": {
+        "min_lat": 33.969,
+        "max_lat": 33.989,
+        "min_lon": 74.3721,
+        "max_lon": 74.3921
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_4": {
+      "row": 0,
+      "col": 4,
+      "bounds": {
+        "min_lat": 33.969,
+        "max_lat": 33.989,
+        "min_lon": 74.3921,
+        "max_lon": 74.4121
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_5": {
+      "row": 0,
+      "col": 5,
+      "bounds": {
+        "min_lat": 33.969,
+        "max_lat": 33.989,
+        "min_lon": 74.4121,
+        "max_lon": 74.4321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_6": {
+      "row": 0,
+      "col": 6,
+      "bounds": {
+        "min_lat": 33.969,
+        "max_lat": 33.989,
+        "min_lon": 74.4321,
+        "max_lon": 74.4521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_0_7": {
+      "row": 0,
+      "col": 7,
+      "bounds": {
+        "min_lat": 33.969,
+        "max_lat": 33.989,
+        "min_lon": 74.4521,
+        "max_lon": 74.4721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_1_0": {
+      "row": 1,
+      "col": 0,
+      "bounds": {
+        "min_lat": 33.989,
+        "max_lat": 34.009,
+        "min_lon": 74.3121,
+        "max_lon": 74.3321
+      },
+      "total_pois": 1,
+      "tiers": {
+        "core_destination": 1
+      },
+      "top_categories": {
+        "heritage": 1
+      }
+    },
+    "cell_1_1": {
+      "row": 1,
+      "col": 1,
+      "bounds": {
+        "min_lat": 33.989,
+        "max_lat": 34.009,
+        "min_lon": 74.3321,
+        "max_lon": 74.3521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_1_2": {
+      "row": 1,
+      "col": 2,
+      "bounds": {
+        "min_lat": 33.989,
+        "max_lat": 34.009,
+        "min_lon": 74.3521,
+        "max_lon": 74.3721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_1_3": {
+      "row": 1,
+      "col": 3,
+      "bounds": {
+        "min_lat": 33.989,
+        "max_lat": 34.009,
+        "min_lon": 74.3721,
+        "max_lon": 74.3921
+      },
+      "total_pois": 1,
+      "tiers": {
+        "core_destination": 1
+      },
+      "top_categories": {
+        "heritage": 1
+      }
+    },
+    "cell_1_4": {
+      "row": 1,
+      "col": 4,
+      "bounds": {
+        "min_lat": 33.989,
+        "max_lat": 34.009,
+        "min_lon": 74.3921,
+        "max_lon": 74.4121
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_1_5": {
+      "row": 1,
+      "col": 5,
+      "bounds": {
+        "min_lat": 33.989,
+        "max_lat": 34.009,
+        "min_lon": 74.4121,
+        "max_lon": 74.4321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_1_6": {
+      "row": 1,
+      "col": 6,
+      "bounds": {
+        "min_lat": 33.989,
+        "max_lat": 34.009,
+        "min_lon": 74.4321,
+        "max_lon": 74.4521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_1_7": {
+      "row": 1,
+      "col": 7,
+      "bounds": {
+        "min_lat": 33.989,
+        "max_lat": 34.009,
+        "min_lon": 74.4521,
+        "max_lon": 74.4721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_2_0": {
+      "row": 2,
+      "col": 0,
+      "bounds": {
+        "min_lat": 34.009,
+        "max_lat": 34.029,
+        "min_lon": 74.3121,
+        "max_lon": 74.3321
+      },
+      "total_pois": 1,
+      "tiers": {
+        "core_destination": 1
+      },
+      "top_categories": {
+        "heritage": 1
+      }
+    },
+    "cell_2_1": {
+      "row": 2,
+      "col": 1,
+      "bounds": {
+        "min_lat": 34.009,
+        "max_lat": 34.029,
+        "min_lon": 74.3321,
+        "max_lon": 74.3521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_2_2": {
+      "row": 2,
+      "col": 2,
+      "bounds": {
+        "min_lat": 34.009,
+        "max_lat": 34.029,
+        "min_lon": 74.3521,
+        "max_lon": 74.3721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_2_3": {
+      "row": 2,
+      "col": 3,
+      "bounds": {
+        "min_lat": 34.009,
+        "max_lat": 34.029,
+        "min_lon": 74.3721,
+        "max_lon": 74.3921
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_2_4": {
+      "row": 2,
+      "col": 4,
+      "bounds": {
+        "min_lat": 34.009,
+        "max_lat": 34.029,
+        "min_lon": 74.3921,
+        "max_lon": 74.4121
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_2_5": {
+      "row": 2,
+      "col": 5,
+      "bounds": {
+        "min_lat": 34.009,
+        "max_lat": 34.029,
+        "min_lon": 74.4121,
+        "max_lon": 74.4321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_2_6": {
+      "row": 2,
+      "col": 6,
+      "bounds": {
+        "min_lat": 34.009,
+        "max_lat": 34.029,
+        "min_lon": 74.4321,
+        "max_lon": 74.4521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_2_7": {
+      "row": 2,
+      "col": 7,
+      "bounds": {
+        "min_lat": 34.009,
+        "max_lat": 34.029,
+        "min_lon": 74.4521,
+        "max_lon": 74.4721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_3_0": {
+      "row": 3,
+      "col": 0,
+      "bounds": {
+        "min_lat": 34.029,
+        "max_lat": 34.049,
+        "min_lon": 74.3121,
+        "max_lon": 74.3321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_3_1": {
+      "row": 3,
+      "col": 1,
+      "bounds": {
+        "min_lat": 34.029,
+        "max_lat": 34.049,
+        "min_lon": 74.3321,
+        "max_lon": 74.3521
+      },
+      "total_pois": 1,
+      "tiers": {
+        "core_destination": 1
+      },
+      "top_categories": {
+        "heritage": 1
+      }
+    },
+    "cell_3_2": {
+      "row": 3,
+      "col": 2,
+      "bounds": {
+        "min_lat": 34.029,
+        "max_lat": 34.049,
+        "min_lon": 74.3521,
+        "max_lon": 74.3721
+      },
+      "total_pois": 1,
+      "tiers": {
+        "discovery": 1
+      },
+      "top_categories": {
+        "heritage": 1
+      }
+    },
+    "cell_3_3": {
+      "row": 3,
+      "col": 3,
+      "bounds": {
+        "min_lat": 34.029,
+        "max_lat": 34.049,
+        "min_lon": 74.3721,
+        "max_lon": 74.3921
+      },
+      "total_pois": 15,
+      "tiers": {
+        "core_destination": 2,
+        "support": 9,
+        "recommended": 2,
+        "discovery": 2
+      },
+      "top_categories": {
+        "hotel": 9,
+        "heritage": 2,
+        "food": 2
+      }
+    },
+    "cell_3_4": {
+      "row": 3,
+      "col": 4,
+      "bounds": {
+        "min_lat": 34.029,
+        "max_lat": 34.049,
+        "min_lon": 74.3921,
+        "max_lon": 74.4121
+      },
+      "total_pois": 1,
+      "tiers": {
+        "support": 1
+      },
+      "top_categories": {
+        "hotel": 1
+      }
+    },
+    "cell_3_5": {
+      "row": 3,
+      "col": 5,
+      "bounds": {
+        "min_lat": 34.029,
+        "max_lat": 34.049,
+        "min_lon": 74.4121,
+        "max_lon": 74.4321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_3_6": {
+      "row": 3,
+      "col": 6,
+      "bounds": {
+        "min_lat": 34.029,
+        "max_lat": 34.049,
+        "min_lon": 74.4321,
+        "max_lon": 74.4521
+      },
+      "total_pois": 2,
+      "tiers": {
+        "discovery": 2
+      },
+      "top_categories": {
+        "experience": 2
+      }
+    },
+    "cell_3_7": {
+      "row": 3,
+      "col": 7,
+      "bounds": {
+        "min_lat": 34.029,
+        "max_lat": 34.049,
+        "min_lon": 74.4521,
+        "max_lon": 74.4721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_4_0": {
+      "row": 4,
+      "col": 0,
+      "bounds": {
+        "min_lat": 34.049,
+        "max_lat": 34.069,
+        "min_lon": 74.3121,
+        "max_lon": 74.3321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_4_1": {
+      "row": 4,
+      "col": 1,
+      "bounds": {
+        "min_lat": 34.049,
+        "max_lat": 34.069,
+        "min_lon": 74.3321,
+        "max_lon": 74.3521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_4_2": {
+      "row": 4,
+      "col": 2,
+      "bounds": {
+        "min_lat": 34.049,
+        "max_lat": 34.069,
+        "min_lon": 74.3521,
+        "max_lon": 74.3721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_4_3": {
+      "row": 4,
+      "col": 3,
+      "bounds": {
+        "min_lat": 34.049,
+        "max_lat": 34.069,
+        "min_lon": 74.3721,
+        "max_lon": 74.3921
+      },
+      "total_pois": 20,
+      "tiers": {
+        "discovery": 8,
+        "support": 12
+      },
+      "top_categories": {
+        "hotel": 12,
+        "experience": 6,
+        "heritage": 1
+      }
+    },
+    "cell_4_4": {
+      "row": 4,
+      "col": 4,
+      "bounds": {
+        "min_lat": 34.049,
+        "max_lat": 34.069,
+        "min_lon": 74.3921,
+        "max_lon": 74.4121
+      },
+      "total_pois": 17,
+      "tiers": {
+        "core_destination": 2,
+        "support": 11,
+        "recommended": 3,
+        "discovery": 1
+      },
+      "top_categories": {
+        "hotel": 10,
+        "food": 2,
+        "religious": 1
+      }
+    },
+    "cell_4_5": {
+      "row": 4,
+      "col": 5,
+      "bounds": {
+        "min_lat": 34.049,
+        "max_lat": 34.069,
+        "min_lon": 74.4121,
+        "max_lon": 74.4321
+      },
+      "total_pois": 9,
+      "tiers": {
+        "core_destination": 1,
+        "support": 6,
+        "discovery": 1,
+        "recommended": 1
+      },
+      "top_categories": {
+        "hotel": 6,
+        "heritage": 1,
+        "food": 1
+      }
+    },
+    "cell_4_6": {
+      "row": 4,
+      "col": 6,
+      "bounds": {
+        "min_lat": 34.049,
+        "max_lat": 34.069,
+        "min_lon": 74.4321,
+        "max_lon": 74.4521
+      },
+      "total_pois": 1,
+      "tiers": {
+        "support": 1
+      },
+      "top_categories": {
+        "hotel": 1
+      }
+    },
+    "cell_4_7": {
+      "row": 4,
+      "col": 7,
+      "bounds": {
+        "min_lat": 34.049,
+        "max_lat": 34.069,
+        "min_lon": 74.4521,
+        "max_lon": 74.4721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_5_0": {
+      "row": 5,
+      "col": 0,
+      "bounds": {
+        "min_lat": 34.069,
+        "max_lat": 34.089,
+        "min_lon": 74.3121,
+        "max_lon": 74.3321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_5_1": {
+      "row": 5,
+      "col": 1,
+      "bounds": {
+        "min_lat": 34.069,
+        "max_lat": 34.089,
+        "min_lon": 74.3321,
+        "max_lon": 74.3521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_5_2": {
+      "row": 5,
+      "col": 2,
+      "bounds": {
+        "min_lat": 34.069,
+        "max_lat": 34.089,
+        "min_lon": 74.3521,
+        "max_lon": 74.3721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_5_3": {
+      "row": 5,
+      "col": 3,
+      "bounds": {
+        "min_lat": 34.069,
+        "max_lat": 34.089,
+        "min_lon": 74.3721,
+        "max_lon": 74.3921
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_5_4": {
+      "row": 5,
+      "col": 4,
+      "bounds": {
+        "min_lat": 34.069,
+        "max_lat": 34.089,
+        "min_lon": 74.3921,
+        "max_lon": 74.4121
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_5_5": {
+      "row": 5,
+      "col": 5,
+      "bounds": {
+        "min_lat": 34.069,
+        "max_lat": 34.089,
+        "min_lon": 74.4121,
+        "max_lon": 74.4321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_5_6": {
+      "row": 5,
+      "col": 6,
+      "bounds": {
+        "min_lat": 34.069,
+        "max_lat": 34.089,
+        "min_lon": 74.4321,
+        "max_lon": 74.4521
+      },
+      "total_pois": 4,
+      "tiers": {
+        "discovery": 2,
+        "recommended": 2
+      },
+      "top_categories": {
+        "experience": 2,
+        "food": 2
+      }
+    },
+    "cell_5_7": {
+      "row": 5,
+      "col": 7,
+      "bounds": {
+        "min_lat": 34.069,
+        "max_lat": 34.089,
+        "min_lon": 74.4521,
+        "max_lon": 74.4721
+      },
+      "total_pois": 8,
+      "tiers": {
+        "support": 3,
+        "recommended": 3,
+        "discovery": 2
+      },
+      "top_categories": {
+        "hotel": 3,
+        "experience": 2,
+        "cafe": 1
+      }
+    },
+    "cell_6_0": {
+      "row": 6,
+      "col": 0,
+      "bounds": {
+        "min_lat": 34.089,
+        "max_lat": 34.109,
+        "min_lon": 74.3121,
+        "max_lon": 74.3321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_6_1": {
+      "row": 6,
+      "col": 1,
+      "bounds": {
+        "min_lat": 34.089,
+        "max_lat": 34.109,
+        "min_lon": 74.3321,
+        "max_lon": 74.3521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_6_2": {
+      "row": 6,
+      "col": 2,
+      "bounds": {
+        "min_lat": 34.089,
+        "max_lat": 34.109,
+        "min_lon": 74.3521,
+        "max_lon": 74.3721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_6_3": {
+      "row": 6,
+      "col": 3,
+      "bounds": {
+        "min_lat": 34.089,
+        "max_lat": 34.109,
+        "min_lon": 74.3721,
+        "max_lon": 74.3921
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_6_4": {
+      "row": 6,
+      "col": 4,
+      "bounds": {
+        "min_lat": 34.089,
+        "max_lat": 34.109,
+        "min_lon": 74.3921,
+        "max_lon": 74.4121
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_6_5": {
+      "row": 6,
+      "col": 5,
+      "bounds": {
+        "min_lat": 34.089,
+        "max_lat": 34.109,
+        "min_lon": 74.4121,
+        "max_lon": 74.4321
+      },
+      "total_pois": 1,
+      "tiers": {
+        "discovery": 1
+      },
+      "top_categories": {
+        "experience": 1
+      }
+    },
+    "cell_6_6": {
+      "row": 6,
+      "col": 6,
+      "bounds": {
+        "min_lat": 34.089,
+        "max_lat": 34.109,
+        "min_lon": 74.4321,
+        "max_lon": 74.4521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_6_7": {
+      "row": 6,
+      "col": 7,
+      "bounds": {
+        "min_lat": 34.089,
+        "max_lat": 34.109,
+        "min_lon": 74.4521,
+        "max_lon": 74.4721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_7_0": {
+      "row": 7,
+      "col": 0,
+      "bounds": {
+        "min_lat": 34.109,
+        "max_lat": 34.129,
+        "min_lon": 74.3121,
+        "max_lon": 74.3321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_7_1": {
+      "row": 7,
+      "col": 1,
+      "bounds": {
+        "min_lat": 34.109,
+        "max_lat": 34.129,
+        "min_lon": 74.3321,
+        "max_lon": 74.3521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_7_2": {
+      "row": 7,
+      "col": 2,
+      "bounds": {
+        "min_lat": 34.109,
+        "max_lat": 34.129,
+        "min_lon": 74.3521,
+        "max_lon": 74.3721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_7_3": {
+      "row": 7,
+      "col": 3,
+      "bounds": {
+        "min_lat": 34.109,
+        "max_lat": 34.129,
+        "min_lon": 74.3721,
+        "max_lon": 74.3921
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_7_4": {
+      "row": 7,
+      "col": 4,
+      "bounds": {
+        "min_lat": 34.109,
+        "max_lat": 34.129,
+        "min_lon": 74.3921,
+        "max_lon": 74.4121
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_7_5": {
+      "row": 7,
+      "col": 5,
+      "bounds": {
+        "min_lat": 34.109,
+        "max_lat": 34.129,
+        "min_lon": 74.4121,
+        "max_lon": 74.4321
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_7_6": {
+      "row": 7,
+      "col": 6,
+      "bounds": {
+        "min_lat": 34.109,
+        "max_lat": 34.129,
+        "min_lon": 74.4321,
+        "max_lon": 74.4521
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    },
+    "cell_7_7": {
+      "row": 7,
+      "col": 7,
+      "bounds": {
+        "min_lat": 34.109,
+        "max_lat": 34.129,
+        "min_lon": 74.4521,
+        "max_lon": 74.4721
+      },
+      "total_pois": 0,
+      "tiers": {},
+      "top_categories": {}
+    }
+  }
+}

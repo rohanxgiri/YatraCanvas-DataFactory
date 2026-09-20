@@ -1,0 +1,25 @@
+id: rishikesh
+name: "Rish\u012Bkesh"
+state: Uttarakhand
+country: India
+iso_country: IN
+center: !!python/tuple
+- 30.10778
+- 78.29255
+bbox: !!python/tuple
+- 78.21255
+- 30.02778
+- 78.37255
+- 30.18778
+alternate_names:
+- Rikhikesh
+- "Rish\u012Bkesh"
+- "\u0420\u0438\u0448\u0438\u043A\u0435\u0448"
+timezone: Asia/Kolkata
+osm_place_id: null
+geonames_id: 1258128
+wikidata_id: null
+dataset_version: 2.0.0
+generated_at: '2026-09-19T19:41:50.824397+00:00'
+resolution_source: geonames_cities15000
+resolution_confidence: 0.95

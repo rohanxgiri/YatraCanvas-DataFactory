@@ -1,0 +1,312 @@
+{
+  "city": "Mcleod Ganj",
+  "version": "v3",
+  "summary": {
+    "total_benchmark_queries": 18,
+    "precision_at_5": 100.0,
+    "precision_at_10": 100.0,
+    "average_category_precision_pct": 100.0,
+    "category_search_precision_pct": 100.0,
+    "name_search_precision_pct": 100.0,
+    "exact_place_tests_count": 0,
+    "exact_place_resolution_rate_pct": 100.0,
+    "total_quarantined_leakage": 0,
+    "total_duplicate_leakage": 0,
+    "search_status": "READY"
+  },
+  "query_benchmarks": [
+    {
+      "query": "cafe",
+      "expected_categories": [
+        "cafe"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "coffee",
+      "expected_categories": [
+        "cafe"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "restaurant",
+      "expected_categories": [
+        "food"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "food",
+      "expected_categories": [
+        "food",
+        "cafe"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "temple",
+      "expected_categories": [
+        "religious"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "mosque",
+      "expected_categories": [
+        "religious"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "museum",
+      "expected_categories": [
+        "museum"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "fort",
+      "expected_categories": [
+        "heritage"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "palace",
+      "expected_categories": [
+        "heritage"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "heritage",
+      "expected_categories": [
+        "heritage",
+        "museum"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "park",
+      "expected_categories": [
+        "park"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "garden",
+      "expected_categories": [
+        "park"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "lake",
+      "expected_categories": [
+        "nature"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "market",
+      "expected_categories": [
+        "shopping"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "shopping",
+      "expected_categories": [
+        "shopping"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "art",
+      "expected_categories": [
+        "arts_culture",
+        "museum"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "railway station",
+      "expected_categories": [
+        "transport"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    },
+    {
+      "query": "hotel",
+      "expected_categories": [
+        "hotel"
+      ],
+      "result_count": 0,
+      "category_precision_pct": 100.0,
+      "precision_at_5": 100.0,
+      "precision_at_10": 100.0,
+      "matching_top_results": 0,
+      "tiers_represented": {},
+      "unique_places": 0,
+      "duplicate_results": 0,
+      "quarantined_leakage": 0,
+      "sample_results": []
+    }
+  ],
+  "exact_place_tests": [],
+  "discovery_candidates_sample": []
+}

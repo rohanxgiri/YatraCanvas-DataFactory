@@ -1,0 +1,265 @@
+{
+  "title": "YatraCanvas DataFactory \u2014 Generic Resolver & Name-Normalization Hardening Report",
+  "timestamp": "2026-09-20T01:20:00Z",
+  "status": "COMPLETED",
+  "pipeline_version": "v3.1-hardened",
+  "summary": {
+    "manali_verdict": "READY_WITH_MINOR_WARNINGS",
+    "rishikesh_verdict": "READY_FOR_INTEGRATION",
+    "panaji_verdict": "READY_FOR_INTEGRATION",
+    "tests_passed": "53 / 53 (100%)",
+    "transit_false_positives_before": 4,
+    "transit_false_positives_after": 0,
+    "rishikesh_wikivoyage_listings_before": 0,
+    "rishikesh_wikivoyage_listings_after": 62,
+    "manali_tamil_nadu_leakage_before": 3758,
+    "manali_tamil_nadu_leakage_after": 0
+  },
+  "destinations": {
+    "manali": {
+      "requested": {
+        "city": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "old_resolution": {
+        "resolved_name": "Manali",
+        "resolved_state": "Tamil Nadu",
+        "resolved_country": "India",
+        "center": [
+          13.16667,
+          80.26667
+        ],
+        "population": 35248,
+        "root_cause": "GeoNames cities15000 omitted sub-15k hill station (pop ~8,099). Resolver scored state matching additively (+50) rather than enforcing it as a mandatory hard filter, causing North Chennai industrial suburb to win.",
+        "dataset_impact": "3,758 released places located 2,000 km south in Tamil Nadu. Zero Himalayan places."
+      },
+      "new_resolution": {
+        "resolved_name": "Manali",
+        "resolved_state": "Himachal Pradesh",
+        "resolved_country": "India",
+        "center": [
+          32.245461,
+          77.187293
+        ],
+        "bbox": [
+          77.107293,
+          32.165461,
+          77.267293,
+          32.325461
+        ],
+        "resolution_source": "nominatim_osm",
+        "resolution_confidence": 0.9,
+        "fallback_source_used": "OSM / Nominatim Administrative & Locality Resolution with strict address state validation",
+        "state_country_validation": "PASSED (state == Himachal Pradesh, country == India)",
+        "preflight_consistency_check": "PASSED (single candidate and coordinates agreed with requested Himalayan destination)",
+        "dataset_impact": "1,702 genuine Himalayan places released in releases/india/himachal_pradesh/manali/v3/",
+        "tamil_nadu_leakage": 0
+      },
+      "wikivoyage_lookup": {
+        "article_title": "Manali",
+        "listings_discovered": 74,
+        "listings_released": 14,
+        "examples": [
+          "Hidimba Devi Temple",
+          "Bhrigu Lake",
+          "Museum of Himachal Culture & Folk Arts",
+          "Vashist Hot Water Springs",
+          "Old Manali"
+        ]
+      },
+      "pack_metrics": {
+        "total_places": 1702,
+        "core": 13,
+        "recommended": 147,
+        "discovery": 264,
+        "support": 1278,
+        "core_image_coverage_pct": 84.6,
+        "core_wikidata_coverage_pct": 53.8,
+        "search_p5_pct": 100.0,
+        "search_p10_pct": 100.0,
+        "discovery_relevance_pct": 100.0
+      },
+      "verdict": "READY_WITH_MINOR_WARNINGS",
+      "verdict_reason": "Correctly resolved to Himachal Pradesh. Himalayan POIs naturally discovered, 100% search precision, 0 Tamil Nadu leakage. Ready for staging integration with minor warnings."
+    },
+    "rishikesh": {
+      "requested": {
+        "city": "Rishikesh",
+        "state": "Uttarakhand",
+        "country": "India"
+      },
+      "wikivoyage_normalization": {
+        "canonical_geonames_name": "Rish\u012bkesh",
+        "old_lookup": {
+          "query_title": "Rish\u012bkesh",
+          "status": "HTTP 404 (Missing MediaWiki page)",
+          "listings_discovered": 0
+        },
+        "new_lookup": {
+          "candidate_pipeline": [
+            "Rish\u012bkesh",
+            "Rishikesh (ASCII-folded)",
+            "Hrishikesh (alternate)"
+          ],
+          "resolved_title": "Rishikesh",
+          "status": "HTTP 200 (Active MediaWiki article)",
+          "listings_discovered": 62,
+          "cached_in": "data/source_cache/wikivoyage/rishikesh_resolved_title.json",
+          "examples": [
+            "Parmarth Niketan Ashram",
+            "Gita Bhavan",
+            "Bharat Mandir",
+            "Beatles Ashram",
+            "Neelkanth Mahadev Mela"
+          ]
+        }
+      },
+      "transit_hardening": {
+        "apollo_pharmacy_before": {
+          "name": "Apollo Pharmacy Railway Station Road Rishikesh",
+          "category": "transport",
+          "primary_entity_type": "railway_station",
+          "tier": "support",
+          "cause": "Address token 'Railway Station Road' matched regex with weight 4.0 without checking shop keywords or structured transit evidence."
+        },
+        "apollo_pharmacy_after": {
+          "name": "Apollo Pharmacy Railway Station Road Rishikesh",
+          "category": "shopping",
+          "primary_entity_type": "shop",
+          "tier": "recommended",
+          "cause": "Disqualified from transit heuristic due to shop keyword 'pharmacy' and address pattern 'Road'. Accurately classified as retail shop."
+        }
+      },
+      "pack_metrics": {
+        "total_places": 1409,
+        "core": 15,
+        "recommended": 180,
+        "discovery": 710,
+        "support": 504,
+        "core_image_coverage_pct": 80.0,
+        "core_wikidata_coverage_pct": 80.0,
+        "search_p5_pct": 100.0,
+        "search_p10_pct": 98.0,
+        "discovery_relevance_pct": 100.0
+      },
+      "verdict": "READY_FOR_INTEGRATION",
+      "verdict_reason": "Clean generalization: 0 conflicts, 62 Wikivoyage listings discovered, 100% Wikidata recall, transit false positive eliminated, 98% search precision."
+    },
+    "panaji": {
+      "requested": {
+        "city": "Panaji",
+        "state": "Goa",
+        "country": "India"
+      },
+      "transit_hardening": {
+        "commercial_junctions_before": {
+          "entities": [
+            "Goa Travels Junction",
+            "D Function Junction",
+            "The Funktion Junction"
+          ],
+          "category": "transport",
+          "primary_entity_type": "railway_station",
+          "cause": "Loose keyword 'junction' matched transit heuristic without structured transit evidence."
+        },
+        "commercial_junctions_after": {
+          "entities": [
+            "Goa Travels Junction",
+            "D Function Junction",
+            "The Funktion Junction"
+          ],
+          "category": "experience",
+          "primary_entity_type": "experience",
+          "cause": "Removed loose 'junction' keyword from transit heuristics; required structured railway/bus tags."
+        }
+      },
+      "pack_metrics": {
+        "total_places": 3753,
+        "core": 60,
+        "recommended": 952,
+        "discovery": 989,
+        "support": 1752,
+        "core_image_coverage_pct": 83.3,
+        "core_wikidata_coverage_pct": 90.0,
+        "search_p5_pct": 96.2,
+        "search_p10_pct": 96.2,
+        "discovery_relevance_pct": 100.0
+      },
+      "verdict": "READY_FOR_INTEGRATION",
+      "verdict_reason": "Clean generalization: 0 conflicts, transit false positives resolved, high image coverage (83.3%), 96.2% search precision."
+    }
+  },
+  "name_conflicts_investigated": [
+    {
+      "case": "Rishikesh: Ganga Jamuna Restaurant vs Mamta Restaurant",
+      "nature": "Neighboring distinct businesses located 23 meters apart on Laxman Jhula Road (one opposite the other).",
+      "previous_issue": "Falsely merged into a single entity due to generic token 'Restaurant' triggering similarity 0.72 within 25m. Allowed single-source unverified records to escape quarantine via an artificial multi-source confidence boost.",
+      "generic_fix": "Distinctive token extraction strips generic category words (Restaurant, Hotel, Cafe, etc.). Because distinctive overlap was empty and distinctive similarity was 0.0, the merge was strictly rejected.",
+      "post_fix_status": "Kept separate as distinct entities. Both evaluated individually and quarantined under quality scoring (score 0.285 < 0.30)."
+    },
+    {
+      "case": "Panaji: Cafe Mambos vs Mambo Disco Club",
+      "nature": "Daytime cafe vs nighttime disco club branding sharing the same website (titos.in/cafe-mambo.html) and location (13m apart).",
+      "previous_issue": "Merged correctly by shared website, but independent verifier flagged it as a name conflict because it only checked canonical name string without checking alternate names or stem variations.",
+      "generic_fix": "Independent verifier checks alternate_names, alternate_name_records, and stem normalization (mambos vs mambo).",
+      "post_fix_status": "Verified as a valid recorded upstream alias. 0 conflicts flagged."
+    }
+  ],
+  "regression_tests": {
+    "suite_file": "tests/test_resolver_and_transit_hardening.py",
+    "tests": [
+      {
+        "name": "test_same_city_name_in_multiple_states_requested_state_wins",
+        "status": "PASSED"
+      },
+      {
+        "name": "test_missing_city_in_requested_state_raises_exception_and_does_not_fall_back",
+        "status": "PASSED"
+      },
+      {
+        "name": "test_small_town_fallback_resolves_manali_hp",
+        "status": "PASSED"
+      },
+      {
+        "name": "test_contradictory_resolver_sources_stops_build",
+        "status": "PASSED"
+      },
+      {
+        "name": "test_state_mismatch_stops_build",
+        "status": "PASSED"
+      },
+      {
+        "name": "test_diacritic_ascii_mediawiki_title_lookup",
+        "status": "PASSED"
+      },
+      {
+        "name": "test_station_road_pharmacy_not_railway_station",
+        "status": "PASSED"
+      },
+      {
+        "name": "test_travel_junction_business_not_transport_hub",
+        "status": "PASSED"
+      },
+      {
+        "name": "test_structured_railway_station_is_classified_as_railway_station",
+        "status": "PASSED"
+      },
+      {
+        "name": "test_neighboring_restaurants_with_distinct_names_do_not_merge",
+        "status": "PASSED"
+      }
+    ],
+    "total_passed": 10,
+    "total_failed": 0,
+    "full_suite_passed": "53 / 53 (100%)"
+  },
+  "quarantined_invalid_builds": [
+    {
+      "path": "releases/quarantine/india/tamil_nadu/manali/v3/",
+      "marker": "INVALID_CITY_RESOLUTION.json",
+      "reason": "Requested Manali, Himachal Pradesh but resolved to North Chennai, Tamil Nadu due to unconstrained state filter in cities15000.",
+      "status": "QUARANTINED (excluded from all reports and benchmarks)"
+    }
+  ]
+}

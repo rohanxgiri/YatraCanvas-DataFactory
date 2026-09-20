@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Pack Completeness Dashboard — Gulmarg (v3)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-blue: #38bdf8;
+            --accent-green: #34d399;
+            --accent-amber: #fbbf24;
+            --accent-red: #f87171;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            padding: 32px 24px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        h1 { font-size: 28px; font-weight: 700; color: var(--text-primary); }
+        .subtitle { color: var(--text-secondary); margin-top: 4px; font-size: 14px; }
+        .badge-status {
+            font-size: 14px;
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 9999px;
+            border: 1px solid;
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .grid-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            backdrop-filter: blur(8px);
+        }
+        .stat-label { font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; }
+        .stat-val { font-size: 28px; font-weight: 700; margin-top: 6px; color: var(--text-primary); }
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            backdrop-filter: blur(8px);
+            margin-bottom: 32px;
+        }
+        .card-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; color: var(--accent-blue); display: flex; justify-content: space-between; }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; margin-top: 8px; }
+        th { padding: 12px 14px; border-bottom: 2px solid var(--border-color); color: var(--text-secondary); font-weight: 600; font-size: 12px; text-transform: uppercase; }
+        td { padding: 12px 14px; border-bottom: 1px solid var(--border-color); }
+        tr:hover { background: rgba(255, 255, 255, 0.02); }
+        .alert {
+            padding: 14px 18px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+        .alert-success { background: rgba(52, 211, 153, 0.12); border: 1px solid rgba(52, 211, 153, 0.3); color: #34d399; }
+        .alert-danger { background: rgba(248, 113, 113, 0.12); border: 1px solid rgba(248, 113, 113, 0.3); color: #f87171; }
+        .quick-links { display: flex; gap: 12px; margin-top: 12px; }
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 600;
+            border: 1px solid var(--border-color);
+        }
+        .btn:hover { background: rgba(255, 255, 255, 0.14); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>City Pack Completeness Dashboard — Gulmarg</h1>
+                <p class="subtitle">Autonomous verification of dataset completeness, query recall, category retention, and offline search readiness (v3).</p>
+                <div class="quick-links">
+                    <a href="../coverage/category_coverage.html" class="btn">Category Funnel Report &rarr;</a>
+                    <a href="../search/search_benchmark.html" class="btn">Search Benchmark Report &rarr;</a>
+                    <a href="../coverage/geographic_coverage.html" class="btn">Geographic Heatmap &rarr;</a>
+                    <a href="../../city_pack_readiness.html" class="btn">Global Multi-City Status &rarr;</a>
+                </div>
+            </div>
+            <div class="badge-status" style="color: #10b981; border-color: #10b981;">
+                STATUS: READY
+            </div>
+        </header>
+
+        <div class='alert alert-success'><strong>Data Integrity Verified:</strong> Zero unresolved high-severity conflicts or coordinate violations.</div>
+
+        <div class="grid-stats">
+            <div class="stat-card">
+                <div class="stat-label">Total Released POIs</div>
+                <div class="stat-val" style="color: var(--accent-blue);">84</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Search Precision</div>
+                <div class="stat-val" style="color: var(--accent-green);">91.7%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Image Disk Verification</div>
+                <div class="stat-val" style="color: var(--accent-green);">100.0%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Pipeline Retention</div>
+                <div class="stat-val">35.1%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Quarantined Records</div>
+                <div class="stat-val" style="color: var(--accent-red);">155</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Place Tiers & Enrichment Coverage</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tier</th>
+                        <th>Released Count</th>
+                        <th>With Wikidata</th>
+                        <th>With Exact Image</th>
+                        <th>With Opening Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+        <tr>
+            <td><strong>Core Destinations</strong></td>
+            <td>10</td>
+            <td>6 (60.0%)</td>
+            <td>9 (90.0%)</td>
+            <td>0 (0.0%)</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Recommended</strong></td>
+            <td>11</td>
+            <td>0 (0.0%)</td>
+            <td>0 (0.0%)</td>
+            <td>0 (0.0%)</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Discovery</strong></td>
+            <td>20</td>
+            <td>0 (0.0%)</td>
+            <td>1 (5.0%)</td>
+            <td>0 (0.0%)</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Support</strong></td>
+            <td>43</td>
+            <td>0 (0.0%)</td>
+            <td>0 (0.0%)</td>
+            <td>0 (0.0%)</td>
+        </tr>
+        
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Source Contribution & Recall Funnel</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Raw Candidates</th>
+                        <th>Released in Pack</th>
+                        <th>Merged Duplicates</th>
+                        <th>Quarantined</th>
+                        <th>Rejected</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+        <tr>
+            <td><strong>Openstreetmap</strong></td>
+            <td>49</td>
+            <td><strong style="color: #38bdf8;">13</strong></td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Overture</strong></td>
+            <td>368</td>
+            <td><strong style="color: #38bdf8;">76</strong></td>
+            <td>45</td>
+            <td>0</td>
+            <td>149</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Wikivoyage</strong></td>
+            <td>10</td>
+            <td><strong style="color: #38bdf8;">7</strong></td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Wikidata</strong></td>
+            <td>7</td>
+            <td><strong style="color: #38bdf8;">6</strong></td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Unknown</strong></td>
+            <td>155</td>
+            <td><strong style="color: #38bdf8;">0</strong></td>
+            <td>0</td>
+            <td>155</td>
+            <td>0</td>
+        </tr>
+        
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
