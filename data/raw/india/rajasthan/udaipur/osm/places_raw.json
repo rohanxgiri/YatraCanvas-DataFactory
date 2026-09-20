@@ -1,0 +1,7804 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-19T10:06:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 306630151,
+      "lat": 24.5754426,
+      "lon": 73.6801244,
+      "tags": {
+        "email": "lakepalace.udaipur@tajhotels.com",
+        "name": "Taj Lake Palace",
+        "stars": "5",
+        "tourism": "hotel",
+        "url": "www.tajhotels.com",
+        "wikipedia": "en:Lake Palace"
+      }
+    },
+    {
+      "type": "node",
+      "id": 356480185,
+      "lat": 24.5690255,
+      "lon": 73.6838528,
+      "tags": {
+        "name": "Sunset Point",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 655407693,
+      "lat": 24.590831,
+      "lon": 73.6813459,
+      "tags": {
+        "name": "Hilltop Palace Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 655410653,
+      "lat": 24.5781623,
+      "lon": 73.6800374,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Ambrai Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 746505802,
+      "lat": 24.5781589,
+      "lon": 73.677216,
+      "tags": {
+        "name": "The Leela Palace Kempinski Udaipur",
+        "stars": "5",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 746505803,
+      "lat": 24.5771831,
+      "lon": 73.6725331,
+      "tags": {
+        "name": "The Oberoi Udaivilas",
+        "stars": "5",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 936632975,
+      "lat": 24.5789209,
+      "lon": 73.6829551,
+      "tags": {
+        "addr:full": "21 Lal Ghat",
+        "addr:postcode": "313001",
+        "ele": "620.7",
+        "email": "mail@udaigarh.com",
+        "fax": "+91 294 2421234",
+        "name": "Hotel Udaigarh",
+        "phone": "+91 294 2421239",
+        "tourism": "hotel",
+        "url": "www.udaigarh.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 936651777,
+      "lat": 24.5764662,
+      "lon": 73.6835836,
+      "tags": {
+        "ele": "639.2",
+        "fee": "yes",
+        "name": "City Palace",
+        "opening_hours": "Mo-Su 09:30-21:00",
+        "toilets:wheelchair": "yes",
+        "tourism": "museum",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1030663736,
+      "lat": 24.5802202,
+      "lon": 73.6823586,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "sandwich;coffee_shop;cake",
+        "name": "Cafe Edelweiss"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1030663928,
+      "lat": 24.5812226,
+      "lon": 73.6805033,
+      "tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Dream Heaven",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1030664255,
+      "lat": 24.5673483,
+      "lon": 73.6877642,
+      "tags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1030664626,
+      "lat": 24.5664091,
+      "lon": 73.6891482,
+      "tags": {
+        "name": "Sunset Point",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1082176408,
+      "lat": 24.5805962,
+      "lon": 73.6823977,
+      "tags": {
+        "name": "Ishwar Palace",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1247100084,
+      "lat": 24.5766199,
+      "lon": 73.6846024,
+      "tags": {
+        "email": "kumbha01@hotmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hotel Kumbha Palace",
+        "operator": "Dinesh and Francine Jain",
+        "phone": "+91 9828059506",
+        "tourism": "hotel",
+        "website": "http://www.hotelkumbhapalace.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1248264731,
+      "lat": 24.5943478,
+      "lon": 73.6917088,
+      "tags": {
+        "name": "Bharatiya Lok Kala Museum",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1248317767,
+      "lat": 24.5674697,
+      "lon": 73.6918005,
+      "tags": {
+        "historic": "ruins",
+        "name": "Kishan Pol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1248564074,
+      "lat": 24.5867389,
+      "lon": 73.6875335,
+      "tags": {
+        "historic": "ruins",
+        "name": "Hathi Pol (Elephant Gate)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1268670003,
+      "lat": 24.5843343,
+      "lon": 73.6943414,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu",
+        "source": "GPS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1268670455,
+      "lat": 24.586705,
+      "lon": 73.6871348,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1268700265,
+      "lat": 24.5826417,
+      "lon": 73.6819528,
+      "tags": {
+        "historic": "ruins",
+        "name": "Chand Pol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1268700268,
+      "lat": 24.5811637,
+      "lon": 73.6816687,
+      "tags": {
+        "historic": "ruins",
+        "name": "Daiji Bridge Pol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2196837438,
+      "lat": 24.5937796,
+      "lon": 73.6824844,
+      "tags": {
+        "name": "Laxmi Vilas Hotel (The Lalit)",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2196871944,
+      "lat": 24.5770592,
+      "lon": 73.6695341,
+      "tags": {
+        "name": "Hotel Trident",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2196873179,
+      "lat": 24.5835058,
+      "lon": 73.6487603,
+      "tags": {
+        "name": "Ramada Hotel",
+        "tourism": "hotel",
+        "website": "https://www.ramadaudaipur.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2196880275,
+      "lat": 24.5682118,
+      "lon": 73.640416,
+      "tags": {
+        "name": "Fatehgarh Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2235563686,
+      "lat": 24.5800016,
+      "lon": 73.6830934,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:country": "IN",
+        "addr:postcode": "313001",
+        "addr:state": "RJ",
+        "addr:street": "Lal Ghat",
+        "amenity": "restaurant",
+        "name": "Lake View",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2235563691,
+      "lat": 24.5803175,
+      "lon": 73.682922,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:country": "IN",
+        "addr:housenumber": "75",
+        "addr:postcode": "313001",
+        "addr:state": "RJ",
+        "addr:street": "Gangaur Ghat",
+        "email": "sajjanvilla@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "City Lights",
+        "operator": "Narendra Soni",
+        "phone": "+91 294 2423406",
+        "toilets:wheelchair": "no",
+        "tourism": "hostel",
+        "website": "http://www.thesajjanvilla.in",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2235563720,
+      "lat": 24.5800999,
+      "lon": 73.6830695,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:country": "IN",
+        "addr:housenumber": "18",
+        "addr:postcode": "313001",
+        "addr:state": "RJ",
+        "addr:street": "Gangaur Ghat Marg",
+        "amenity": "restaurant",
+        "cuisine": "indian;local",
+        "diet:vegetarian": "yes",
+        "name": "Neelam",
+        "name:en": "Neelam Restaurant",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2377178366,
+      "lat": 24.5777002,
+      "lon": 73.6853383,
+      "tags": {
+        "name": "Atiti",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2377178384,
+      "lat": 24.5759329,
+      "lon": 73.6852408,
+      "tags": {
+        "name": "Luxury Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2377178388,
+      "lat": 24.5663667,
+      "lon": 73.6850341,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Om Sai Ram"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2377178389,
+      "lat": 24.5740575,
+      "lon": 73.6861634,
+      "tags": {
+        "name": "Pannadhay Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2377178391,
+      "lat": 24.5765012,
+      "lon": 73.6851991,
+      "tags": {
+        "name": "Raj Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2377178395,
+      "lat": 24.5752552,
+      "lon": 73.6855786,
+      "tags": {
+        "name": "Shakti Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2377178551,
+      "lat": 24.5672272,
+      "lon": 73.6888776,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2536565771,
+      "lat": 24.5783765,
+      "lon": 73.6803105,
+      "tags": {
+        "addr:city": "Udaipur",
+        "name": "Hotel Amet Haveli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2591733439,
+      "lat": 24.5973396,
+      "lon": 73.6938782,
+      "tags": {
+        "addr:street": "63rd Ave, Sardapura",
+        "name": "Golden Tulip",
+        "phone": "+912942424101",
+        "tourism": "hotel",
+        "website": "www.goldentulipudaipur.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2595261674,
+      "lat": 24.5802766,
+      "lon": 73.6825633,
+      "tags": {
+        "addr:housenumber": "339",
+        "addr:street": "Gangaur Ghat Marg",
+        "amenity": "cafe",
+        "name": "Café Namaste & Natural City View"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2595261675,
+      "lat": 24.5802247,
+      "lon": 73.6791086,
+      "tags": {
+        "amenity": "cafe",
+        "name": "The Little Prince"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2595261676,
+      "lat": 24.5810871,
+      "lon": 73.6802524,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian;asian",
+        "diet:vegan": "yes",
+        "internet_access": "wlan",
+        "name": "Kitchen of Mewar",
+        "opening_hours": "Mo-Su 08:30-22:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2595261677,
+      "lat": 24.5837818,
+      "lon": 73.6837775,
+      "tags": {
+        "name": "Mewargarh Palace",
+        "tourism": "hotel",
+        "website": "http://www.mewargarhpalace.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2601473827,
+      "lat": 24.5796738,
+      "lon": 73.6803155,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hari Garh Restaurant",
+        "name:fr": "Hari Garh Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2601473900,
+      "lat": 24.5898293,
+      "lon": 73.6678724,
+      "tags": {
+        "name": "Radisson Blu",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2700488841,
+      "lat": 24.5678916,
+      "lon": 73.6788374,
+      "tags": {
+        "level": "1",
+        "name:zh": "皮却拉湖",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2739133044,
+      "lat": 24.5814123,
+      "lon": 73.6824807,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:street": "Ganesh Chati Marg",
+        "name": "Udai Haveli Guest House",
+        "tourism": "guest_house",
+        "website": "http://www.udaihaveliguesthouse.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2881543809,
+      "lat": 24.7350903,
+      "lon": 73.716282,
+      "tags": {
+        "addr:city": "Nagda",
+        "historic": "archaeological_site",
+        "name": "SahastraBahu Temples (Sas Bahu Temples)",
+        "wikipedia": "en:SahastraBahu Temples"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2927263205,
+      "lat": 24.5806329,
+      "lon": 73.6825118,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "indian",
+        "name": "Puskar Café"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3231569344,
+      "lat": 24.5720379,
+      "lon": 73.6996002,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Natraj Dining Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3231570959,
+      "lat": 24.5838464,
+      "lon": 73.6980074,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Natraj"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3231677090,
+      "lat": 24.610336,
+      "lon": 73.6749154,
+      "tags": {
+        "name": "Aranya Kutir",
+        "operator": "Forest Department Government Of Rajasthan",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3231677091,
+      "lat": 24.6130499,
+      "lon": 73.6759369,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Neemach Mata Mandir",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3233774373,
+      "lat": 24.5971211,
+      "lon": 73.6883043,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3233872470,
+      "lat": 24.5786656,
+      "lon": 73.6824088,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "26",
+        "addr:postcode": "313001",
+        "addr:street": "Lal Ghat",
+        "name": "Kankarwar Haweli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3234257854,
+      "lat": 24.5799938,
+      "lon": 73.6819466,
+      "tags": {
+        "name": "Gangaur Ghat",
+        "name:es": "Gangaur Ghat",
+        "tourism": "attraction",
+        "wheelchair": "limited",
+        "wikidata": "Q28154058",
+        "wikipedia": "en:Gangaur Ghat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3234262295,
+      "lat": 24.6099217,
+      "lon": 73.679825,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Parmeshwara"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3269241027,
+      "lat": 24.5779849,
+      "lon": 73.6850446,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "93",
+        "addr:postcode": "313001",
+        "addr:street": "Bhattiyani Chohatta",
+        "name": "Pushkar Palace Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3269249896,
+      "lat": 24.5807045,
+      "lon": 73.6826333,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "24",
+        "addr:postcode": "313001",
+        "addr:street": "Panduvari Gangaur Ghat",
+        "amenity": "restaurant",
+        "name": "Black Pepper",
+        "opening_hours": "PH,Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3269254388,
+      "lat": 24.5775361,
+      "lon": 73.6795582,
+      "tags": {
+        "name": "Sunset viewpoint",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3270062578,
+      "lat": 24.5792172,
+      "lon": 73.6825615,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Jaiwana Haveli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3273037649,
+      "lat": 24.5807523,
+      "lon": 73.6821933,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:country": "IN",
+        "addr:housenumber": "5/13",
+        "addr:place": "Gangaur Ghat",
+        "addr:postcode": "313001",
+        "addr:street": "Gadiya Devra",
+        "email": "hotel.minerwa@gmail.com",
+        "name": "Minerwa",
+        "phone": "0091-294-2523471",
+        "phone:mobile": "0091-98291-28895",
+        "tourism": "guest_house",
+        "website": "http://www.hotelminerwaudaipur.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3273037673,
+      "lat": 24.5807377,
+      "lon": 73.6821905,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Gokul Roof Top",
+        "operator": "Minerwa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3776199882,
+      "lat": 24.6001998,
+      "lon": 73.6805131,
+      "tags": {
+        "historic": "monument",
+        "name": "Moti Magri Memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3776199883,
+      "lat": 24.5929907,
+      "lon": 73.6813862,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "1559 AD"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3776199886,
+      "lat": 24.5903424,
+      "lon": 73.689626,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3798162854,
+      "lat": 24.4255564,
+      "lon": 73.6396677,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3884375372,
+      "lat": 24.7469309,
+      "lon": 73.7232986,
+      "tags": {
+        "addr:postcode": "313202",
+        "amenity": "place_of_worship",
+        "check_date": "2026-08-14",
+        "name": "Eklingji Temple",
+        "name:hi": "एकलिंगजी",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3888606357,
+      "lat": 24.7466979,
+      "lon": 73.5391415,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Saras Doli Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3898009271,
+      "lat": 24.576052,
+      "lon": 73.6945317,
+      "tags": {
+        "fee": "yes",
+        "name": "Vintage and Classic Car Collection",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "tourism": "museum",
+        "wikidata": "Q24952067",
+        "wikipedia": "en:Vintage and Classic Car Museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3899163649,
+      "lat": 24.5734195,
+      "lon": 73.6869632,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Tibetan Market"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3900209158,
+      "lat": 24.5846843,
+      "lon": 73.6805017,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tribute"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3982124075,
+      "lat": 24.582429,
+      "lon": 73.688652,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Chhoti Shitla Mata Mandir"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4040275341,
+      "lat": 24.5811032,
+      "lon": 73.6803747,
+      "tags": {
+        "name": "Hanuman Ghat Hotel - Jungle sturmfrei",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4040275725,
+      "lat": 24.5816812,
+      "lon": 73.680952,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Jasmine restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4082531631,
+      "lat": 24.57884,
+      "lon": 73.6838471,
+      "tags": {
+        "addr:housenumber": "168",
+        "amenity": "cafe",
+        "name": "Govinda's cafeteria"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4082540627,
+      "lat": 24.5788734,
+      "lon": 73.6838558,
+      "tags": {
+        "addr:housenumber": "169",
+        "name": "Govindam Palace",
+        "tourism": "hotel",
+        "website": "https://www.hotelgovindampalace.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4086028175,
+      "lat": 24.5809577,
+      "lon": 73.6821532,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Satori"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4086293817,
+      "lat": 24.5807917,
+      "lon": 73.6818487,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Jheel's Ginger Coffee Bar & Bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4113143689,
+      "lat": 24.5793799,
+      "lon": 73.6828296,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Bunkyard",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4285882793,
+      "lat": 24.5784382,
+      "lon": 73.6852789,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Bhatiyani Chotta",
+        "email": "hotelkiranpalace@gmail.com",
+        "internet_access": "wlan",
+        "name": "Kiran Palace",
+        "phone": "9799722009",
+        "tourism": "hotel",
+        "website": "www.thekiranpalace.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4360098595,
+      "lat": 24.5802016,
+      "lon": 73.6828661,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Gangaur Ghat Marg",
+        "internet_access": "wlan",
+        "name": "Jag niwas",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4364334288,
+      "lat": 24.6079829,
+      "lon": 73.6788801,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:postcode": "313001",
+        "addr:street": "#6, Lala Bapu Ki Wadi 2, Near Fateh Sagar Lake,, Dewali, Panchwati",
+        "internet_access": "yes",
+        "name": "Backpacker Panda Udaipur",
+        "operator": "Backpacker Panda",
+        "phone": "+91 91723 13994",
+        "rooms": "4",
+        "smoking": "outside",
+        "tourism": "hostel",
+        "website": "https://backpackerpanda.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4386978494,
+      "lat": 24.5784539,
+      "lon": 73.6830479,
+      "tags": {
+        "addr:housenumber": "91",
+        "addr:postcode": "313001",
+        "addr:street": "Navghat",
+        "email": "shiva.guesthouse@yahoo.com",
+        "internet_access": "wlan",
+        "name": "Shiva Guest House",
+        "name:he": "שיבה גסטהאוס",
+        "name:hi": "Shiva Guest House",
+        "opening_hours": "24/7",
+        "phone": "7023867606",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4404102222,
+      "lat": 24.5827787,
+      "lon": 73.6925782,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Spice market",
+        "opening_hours": "Mo-Su,PH 10:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4424516341,
+      "lat": 24.58235,
+      "lon": 73.6804665,
+      "tags": {
+        "addr:city": "Udaipur, Rajasthan",
+        "addr:housename": "Out Side Chandpole, Jethiyo Ka Akhada, Opposite Karoli Haveli, Ambamata",
+        "addr:postcode": "313001",
+        "name": "BackPacker Panda Lake Pichola Udaipur",
+        "operator": "BackPacker Panda Holidays Private Limited",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4449402208,
+      "lat": 24.5803854,
+      "lon": 73.6819375,
+      "tags": {
+        "name": "Pichola Haveli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4451781492,
+      "lat": 24.6276673,
+      "lon": 73.6878839,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Chandra Niwas Homestay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4459135493,
+      "lat": 24.5793587,
+      "lon": 73.6801082,
+      "tags": {
+        "name:en": "Udai Kothi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464363793,
+      "lat": 24.5794688,
+      "lon": 73.6825925,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mewar Haveli & Restaurant",
+        "opening_hours": "24/7",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464367291,
+      "lat": 24.5801735,
+      "lon": 73.6830953,
+      "tags": {
+        "name:en": "Bajara Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464380489,
+      "lat": 24.5266424,
+      "lon": 73.7096926,
+      "tags": {
+        "name:en": "Princess Trails",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4522542089,
+      "lat": 24.5790672,
+      "lon": 73.6784575,
+      "tags": {
+        "name": "Hotel Lake Star",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4523851790,
+      "lat": 24.5788353,
+      "lon": 73.6790691,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4524271789,
+      "lat": 24.5788745,
+      "lon": 73.678723,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4524677791,
+      "lat": 24.5788881,
+      "lon": 73.683713,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "51",
+        "addr:postcode": "313001",
+        "addr:street": "City Palace Road",
+        "amenity": "restaurant",
+        "cafe": "yes",
+        "contact:facebook": "https://www.facebook.com/OzenRestaurant",
+        "contact:phone": "+91 98293 61640",
+        "cuisine": "international;indian;italian;asian",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Gateway",
+        "opening_hours": "Mo-Su 10:00-22:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4524677792,
+      "lat": 24.5678217,
+      "lon": 73.6788237,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4524882389,
+      "lat": 24.5815073,
+      "lon": 73.6809338,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Little Prince"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4535330191,
+      "lat": 24.5922147,
+      "lon": 73.6718949,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "international;indian;chinese",
+        "name": "Jhumar Lake-View Restaurant",
+        "note": "touristic",
+        "opening_hours": "Mo-Su 10:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4550723692,
+      "lat": 24.5824955,
+      "lon": 73.6805035,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Backpacker Panda Lake Pichola",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4556477290,
+      "lat": 24.578475,
+      "lon": 73.6849914,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Hotel Janak Niwas & Janak Art's",
+        "phone": "+919672030160",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4574675090,
+      "lat": 24.5788816,
+      "lon": 73.6824168,
+      "tags": {
+        "addr:housenumber": "27-28",
+        "addr:postcode": "313001",
+        "addr:street": "Lal Ghat",
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza;indian",
+        "email": "rainbowrestaurant@gmail.com",
+        "internet_access": "wlan",
+        "name": "Rainbow Restaurant",
+        "name:de": "Rainbow Restaurant",
+        "name:en": "Rainbow Restaurant",
+        "name:hi": "Rainbow Restaurant",
+        "operator": "Mr Veerendra Singh Rathore",
+        "phone": "00919828267234",
+        "website": "https://www.rainbowrestaurantudaipur.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4575802097,
+      "lat": 24.5787314,
+      "lon": 73.6825409,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Flavours - Roof Top Restaurant",
+        "name:de": "Flavours - Roof Top Restaurant",
+        "name:en": "Flavours - Roof Top Restaurant",
+        "name:hi": "Flavours - Roof Top Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4585260592,
+      "lat": 24.5808599,
+      "lon": 73.6822428,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "italian_pizza;italian",
+        "name": "Cafe Satori",
+        "phone": "09799813144",
+        "website": "https://m.facebook.com/pages/Cafe-Satori/758901047494228"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4588997389,
+      "lat": 24.5796246,
+      "lon": 73.6801334,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Hotel Gai Vilas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4597399589,
+      "lat": 24.5811813,
+      "lon": 73.6818353,
+      "tags": {
+        "addr:postcode": "313001",
+        "addr:street": "26 Gadiya Devra Near  Foot Bridge Near Temple, Chandpol, Udaipur 313001 Indien",
+        "amenity": "cafe",
+        "name:en": "Grasswood",
+        "opening_hours": "Mo-Su 07:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4603100290,
+      "lat": 24.6015066,
+      "lon": 73.6870861,
+      "tags": {
+        "addr:street": "Sukadia Circle",
+        "amenity": "cafe",
+        "cuisine": "burger;sandwich;pancake;pizza;coffee_shop",
+        "internet_access": "wlan",
+        "name:en": "Brewman"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4605317092,
+      "lat": 24.5827891,
+      "lon": 73.6821873,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian;breakfast",
+        "name:en": "AASHIYANA Cafe & Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4605726889,
+      "lat": 24.5911047,
+      "lon": 73.6905965,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Egg Point"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4613973691,
+      "lat": 24.5783171,
+      "lon": 73.6833556,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name:en": "Shreenath Masala Dosa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4617903290,
+      "lat": 24.5810166,
+      "lon": 73.6799644,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "international;indian",
+        "name:en": "Lemon Ginger Honey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4617936089,
+      "lat": 24.5809522,
+      "lon": 73.6798795,
+      "tags": {
+        "amenity": "cafe",
+        "name:en": "Jimmy Masala Tea"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4623807207,
+      "lat": 24.5804139,
+      "lon": 73.6825947,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name:en": "Cool Café"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4623808092,
+      "lat": 24.5829105,
+      "lon": 73.6820687,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Aashiyana Cafe & Restaurant",
+        "name:zh": "好吃便宜餐馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4625336789,
+      "lat": 24.5812535,
+      "lon": 73.6802834,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Suni's Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4634865490,
+      "lat": 24.5811935,
+      "lon": 73.6799329,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Queen Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4677419883,
+      "lat": 24.579668,
+      "lon": 73.6827525,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "34-35",
+        "addr:postcode": "313001",
+        "addr:street": "Lal Ghat",
+        "email": "jairaj34@yahoo.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Krishna Niwas",
+        "opening_hours": "24/7",
+        "phone": "+91 294 2420163",
+        "tourism": "guest_house",
+        "website": "https://www.hotelkrishnaniwas.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4706274490,
+      "lat": 24.5787919,
+      "lon": 73.684949,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian;local",
+        "name": "Lotus Cafe",
+        "name:en": "Lotus Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4706661592,
+      "lat": 24.5818106,
+      "lon": 73.6817846,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian;chinese;pasta",
+        "internet_access": "wlan",
+        "name": "Chirag Roof Top Restaurant",
+        "website": "https://www.tripadvisor.com/Restaurant_Review-g297672-d3844326-Reviews-Chirag_Roof_Top_Restaurant-Udaipur_Rajasthan.html?m=19904"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4706665290,
+      "lat": 24.5825655,
+      "lon": 73.681114,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian;chinese;pizza;pasta",
+        "internet_access": "wlan",
+        "name": "Bridge Corner",
+        "opening_hours": "Mo-Su 09:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4711974691,
+      "lat": 24.579367,
+      "lon": 73.6825474,
+      "tags": {
+        "name": "Lal Ghat Guest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4716726290,
+      "lat": 24.5805948,
+      "lon": 73.6825611,
+      "tags": {
+        "addr:housenumber": "28, Panduwari",
+        "addr:postcode": "313001",
+        "addr:street": "Gadiya Devra Marg",
+        "amenity": "cafe",
+        "name": "कुल कैफे",
+        "name:en": "Cool cafe",
+        "opening_hours": "Mo-Su 06:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4716786989,
+      "lat": 24.5804772,
+      "lon": 73.6818794,
+      "tags": {
+        "name:en": "Nayee guest house True",
+        "name:ru": "Nayee",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4716787089,
+      "lat": 24.5800156,
+      "lon": 73.6834512,
+      "tags": {
+        "amenity": "cafe",
+        "name:en": "Vyom juice corner"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4730164689,
+      "lat": 24.5810261,
+      "lon": 73.6799113,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian;coffee_shop;chinese;italian;indian;italian_pizza",
+        "diet:vegan": "yes",
+        "internet_access": "wlan",
+        "name": "Yummy Yoga",
+        "name:hi": "Yummy Yoga",
+        "opening_hours": "Mo-Su 08:59-22:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4830843929,
+      "lat": 24.58009,
+      "lon": 73.680422,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lake Shore"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4830849322,
+      "lat": 24.5824409,
+      "lon": 73.6797692,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Candle light restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4830850421,
+      "lat": 24.5676448,
+      "lon": 73.6785389,
+      "tags": {
+        "historic": "castle",
+        "name": "Jagmandir Palace"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4833262323,
+      "lat": 24.5802662,
+      "lon": 73.6791047,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "burger;international;local",
+        "name:en": "Meera Family Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4879591623,
+      "lat": 24.5887791,
+      "lon": 73.6821849,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:postcode": "313001",
+        "addr:street": "Ambavgarh",
+        "name:en": "SBI Guest house",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4893097621,
+      "lat": 24.5838462,
+      "lon": 73.6829658,
+      "tags": {
+        "email": "reservation@zostel.com",
+        "internet_access": "wlan",
+        "name:de": "Zostel Udaipur",
+        "name:en": "Zostel Udaipur",
+        "tourism": "hostel",
+        "website": "https://www.zostel.com/zostel/udaipur"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4904123121,
+      "lat": 24.5810474,
+      "lon": 73.6803225,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Café Breeze",
+        "name:fr": "Café Breeze"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4907289522,
+      "lat": 24.5849139,
+      "lon": 73.6953181,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Bawarch Restaurant & Dinning Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4907289523,
+      "lat": 24.5848129,
+      "lon": 73.6953654,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Bawarchi Restaurant",
+        "website": "http://www.bawarchirestaurant.in"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4908646721,
+      "lat": 24.5752337,
+      "lon": 73.6853839,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Rathore Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4934959322,
+      "lat": 24.5793161,
+      "lon": 73.6800269,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "diet:vegetarian": "yes",
+        "name:en": "Udai Kothi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4935206961,
+      "lat": 24.5796931,
+      "lon": 73.6700616,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:postcode": "313001",
+        "addr:street": "The Trident Road",
+        "amenity": "restaurant",
+        "cuisine": "irish;chinese;lebanese",
+        "name:en": "Kabab Mistri",
+        "opening_hours": "Mo-Su 12:30-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4983403922,
+      "lat": 24.5778687,
+      "lon": 73.6989245,
+      "tags": {
+        "addr:street": "Uadipol Road",
+        "name:en": "Hotel sidharth",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4983407721,
+      "lat": 24.5776106,
+      "lon": 73.6993358,
+      "tags": {
+        "addr:street": "Udaipol Road",
+        "name:en": "Shree Annapurna restaurant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4983407722,
+      "lat": 24.577258,
+      "lon": 73.6991077,
+      "tags": {
+        "name:en": "Sankalp",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5006358722,
+      "lat": 24.7383677,
+      "lon": 73.7157853,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5048180623,
+      "lat": 24.5863488,
+      "lon": 73.7213849,
+      "tags": {
+        "name:alt": "Ayad Museum",
+        "name:en": "Ahar Museum",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5058639430,
+      "lat": 24.5855735,
+      "lon": 73.668361,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:postcode": "313001",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mulla Talai Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5068266009,
+      "lat": 24.5873903,
+      "lon": 73.7121276,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional;indian;south_indian",
+        "name": "Raajwada",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "0294 298 0423",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5149640027,
+      "lat": 24.5779894,
+      "lon": 73.6971996,
+      "tags": {
+        "addr:street": "Bapu Bazaar",
+        "name:en": "Hotel surbhi palace udaipur",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5150952083,
+      "lat": 24.6213618,
+      "lon": 73.8065015,
+      "tags": {
+        "addr:city": "Debari",
+        "addr:district": "Udaipur",
+        "addr:postcode": "313001",
+        "addr:province": "Rajasthan",
+        "addr:street": "Opp Hindustan Zinc Smelter",
+        "brand": "The Bayan Group of Hotels and Ressorts",
+        "contact:email": "crs@thebayanhotels.com",
+        "contact:phone": "+91 95491 23477",
+        "name": "The Udai Bagh",
+        "tourism": "hotel",
+        "website": "http://thebayanhotels.com/theudaibaghpalace.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5177308823,
+      "lat": 24.5795616,
+      "lon": 73.6828439,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:postcode": "313001",
+        "addr:street": "Lal Ghat",
+        "amenity": "restaurant",
+        "cuisine": "regional;pancake;italian;breakfast;diner;italian_pizza;indian",
+        "diet:vegan": "yes",
+        "email": "sheikhk942@gmail.com",
+        "internet_access": "wlan",
+        "name": "Doctor Cafe",
+        "name:en": "Doctor Cafe",
+        "opening_hours": "Mo-Su 09:00-00:00",
+        "phone": "+919929507355",
+        "website": "https://www.tripadvisor.co.uk/7282430?m=19905"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5183201522,
+      "lat": 24.5790537,
+      "lon": 73.68044,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Upre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5183201523,
+      "lat": 24.5766149,
+      "lon": 73.6851881,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Whistling Teal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5227893823,
+      "lat": 24.5798649,
+      "lon": 73.684157,
+      "tags": {
+        "amenity": "cafe",
+        "name:en": "udai art cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5228552134,
+      "lat": 24.5789237,
+      "lon": 73.6822604,
+      "tags": {
+        "name": "Lal Ghat",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5232466222,
+      "lat": 24.5753944,
+      "lon": 73.6917359,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "taste of udaipur"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5237312523,
+      "lat": 24.5796771,
+      "lon": 73.6842727,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Jagdish shiree"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5237960054,
+      "lat": 24.5809393,
+      "lon": 73.6818026,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sunset View"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5237960272,
+      "lat": 24.579493,
+      "lon": 73.682927,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Charcoal by Carlson",
+        "website": "https://www.charcoalpb.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244419922,
+      "lat": 24.5802381,
+      "lon": 73.6831968,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "White terrace restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5259641234,
+      "lat": 24.5814314,
+      "lon": 73.6825144,
+      "tags": {
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5261854134,
+      "lat": 24.595953,
+      "lon": 73.6944985,
+      "tags": {
+        "name": "Meera Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5307600925,
+      "lat": 24.5775616,
+      "lon": 73.6985997,
+      "tags": {
+        "name:en": "Golden nest",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5307610421,
+      "lat": 24.5695672,
+      "lon": 73.6883213,
+      "tags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5307610521,
+      "lat": 24.5678039,
+      "lon": 73.6863563,
+      "tags": {
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5331125922,
+      "lat": 24.6191909,
+      "lon": 73.6155801,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name:en": "Silence Lakend"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5412230205,
+      "lat": 24.5605723,
+      "lon": 73.7073981,
+      "tags": {
+        "name": "Hotel Amrit",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5430314323,
+      "lat": 24.5766594,
+      "lon": 73.6864613,
+      "tags": {
+        "name:en": "Palace View Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5438807421,
+      "lat": 24.5807109,
+      "lon": 73.681987,
+      "tags": {
+        "name": "Sunset View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5444455921,
+      "lat": 24.5823447,
+      "lon": 73.6796582,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Best Local"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5446188821,
+      "lat": 24.5822472,
+      "lon": 73.6796333,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Eat Corner"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5448317526,
+      "lat": 24.5822417,
+      "lon": 73.6795509,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Just eat corner",
+        "opening_hours": "Mo-Su 06:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5522826496,
+      "lat": 24.579998,
+      "lon": 73.6829165,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Poonam Haveli",
+        "stars": "3",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5677301622,
+      "lat": 24.574555,
+      "lon": 73.848426,
+      "tags": {
+        "name:en": "TirupAti Enterprise",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5715776684,
+      "lat": 24.5803763,
+      "lon": 73.6797982,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:postcode": "313001",
+        "addr:street": "Hanuman Ghat",
+        "internet_access": "wlan",
+        "name": "Panorama Guest House",
+        "tourism": "guest_house",
+        "website": "https://www.panoramaguesthouse.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5795733353,
+      "lat": 24.5780754,
+      "lon": 73.6849466,
+      "tags": {
+        "name:en": "Nambini Guesthouse",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5798454753,
+      "lat": 24.5776158,
+      "lon": 73.6854769,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Fresh food cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5866017586,
+      "lat": 24.5632496,
+      "lon": 73.6895398,
+      "tags": {
+        "name:en": "Viewing Platform",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5866018185,
+      "lat": 24.6685793,
+      "lon": 73.5963139,
+      "tags": {
+        "name:en": "Mountain Views",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5940536886,
+      "lat": 24.5927571,
+      "lon": 73.6655332,
+      "tags": {
+        "addr:street": "Rani Road",
+        "amenity": "restaurant",
+        "cuisine": "fish;burger;sandwich;grill;local;asian;coffee_shop;chinese;pasta;italian;chicken;indian;curry",
+        "email": "melangecafeudr@gmail.com",
+        "internet_access": "wlan",
+        "name": "Melange Restro and cafe",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "operator": "Narendra & Lokesh",
+        "phone": "8209934897",
+        "website": "https://www.instagram.com/melange_cafe_udr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6045515487,
+      "lat": 24.5737595,
+      "lon": 73.6872572,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "The food nation",
+        "phone": "+917891917000"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6053932304,
+      "lat": 24.7449331,
+      "lon": 73.748186,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Palace On The Way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6065654185,
+      "lat": 24.5801597,
+      "lon": 73.6831175,
+      "tags": {
+        "amenity": "cafe",
+        "name": "café la comida"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6076848790,
+      "lat": 24.5841086,
+      "lon": 73.6838186,
+      "tags": {
+        "name:en": "Castle Namahstay Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6088435585,
+      "lat": 24.5814355,
+      "lon": 73.6767243,
+      "tags": {
+        "name:en": "Rising shemesh homestay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6089174485,
+      "lat": 24.5800385,
+      "lon": 73.683613,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "CafeRA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6089176685,
+      "lat": 24.5804056,
+      "lon": 73.6819808,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Helloboho lakeside restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6097888985,
+      "lat": 24.5912403,
+      "lon": 73.6781811,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Raaj bag"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6097894285,
+      "lat": 24.5884532,
+      "lon": 73.6517924,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sabor World Cuisine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6110923688,
+      "lat": 24.5793223,
+      "lon": 73.6829125,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Adam's Apple"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6163134664,
+      "lat": 24.6094614,
+      "lon": 73.6884792,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Fatehpura Vegetable Market"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6181723886,
+      "lat": 24.5799421,
+      "lon": 73.6836391,
+      "tags": {
+        "name:en": "Rawla palace guesthouse",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6191607738,
+      "lat": 24.5532205,
+      "lon": 73.7324365,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "F-37,",
+        "addr:postcode": "313002",
+        "addr:street": "IT Park, MIA Extension",
+        "amenity": "place_of_worship",
+        "email": "support@fusionfirst.com",
+        "name": "Fusion Business Solutions Pvt. Ltd.",
+        "phone": "+91-97722-79996",
+        "religion": "Keeping_U_First",
+        "services": "support services",
+        "website": "https://www.fusionfirst.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6239290087,
+      "lat": 24.5804676,
+      "lon": 73.6827167,
+      "tags": {
+        "addr:housenumber": "64",
+        "addr:postcode": "313001",
+        "addr:street": "Gangaur Ghat",
+        "amenity": "cafe",
+        "cuisine": "tea;cake;coffee_shop",
+        "internet_access": "wlan",
+        "name": "109 Cafe",
+        "name:hi": "1O9 Cafe",
+        "opening_hours": "Mo-Sa 09:00-08:30; Su 09:00-09:00",
+        "phone": "099283 92919"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6315615192,
+      "lat": 24.5847836,
+      "lon": 73.6960646,
+      "tags": {
+        "addr:city": "udaipur",
+        "addr:housenumber": "1st floor",
+        "addr:postcode": "313001",
+        "addr:street": "7A Bapu Bazzar",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "pizza;burger;chinese;indian;fine_dining;breakfast;diner;lunch",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6315615193,
+      "lat": 24.5848881,
+      "lon": 73.696522,
+      "tags": {
+        "addr:city": "udaipur",
+        "addr:housenumber": "1st floor",
+        "addr:postcode": "313001",
+        "addr:street": "7a bapu bazzar",
+        "amenity": "restaurant",
+        "cuisine": "chinese;chicken;burger;indian;pizza;sandwich",
+        "diet:vegetarian": "yes",
+        "name": "City Club Restrobar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6316035490,
+      "lat": 24.5809555,
+      "lon": 73.6820397,
+      "tags": {
+        "name": "Kesar Palace",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6322486785,
+      "lat": 24.5769559,
+      "lon": 73.6874281,
+      "tags": {
+        "name:he": "רחוב מגניב",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6323025986,
+      "lat": 24.5801629,
+      "lon": 73.6924324,
+      "tags": {
+        "name:he": "כדים וליד התכשיטין אמיתי",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6323025987,
+      "lat": 24.5806227,
+      "lon": 73.6925701,
+      "tags": {
+        "name:he": "תכשיטים לבוא לראות",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6323383586,
+      "lat": 24.5795581,
+      "lon": 73.6902253,
+      "tags": {
+        "name:he": "כדים ורחוב ליד התכשיטים",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6325195804,
+      "lat": 24.5834767,
+      "lon": 73.6918487,
+      "tags": {
+        "name:he": "צמיד דרקון 1600",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6325197405,
+      "lat": 24.583139,
+      "lon": 73.6912847,
+      "tags": {
+        "name:he": "חנות נחושת.. בקבוק ב400",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6325199891,
+      "lat": 24.5835708,
+      "lon": 73.6923752,
+      "tags": {
+        "name:he": "חנות נחושת. בקבוק ב400",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6326710087,
+      "lat": 24.583885,
+      "lon": 73.6943221,
+      "tags": {
+        "name:he": "שוק סלים",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6326710088,
+      "lat": 24.5826174,
+      "lon": 73.6907248,
+      "tags": {
+        "name:he": "טבעת כסף גדולה 900 רופי",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6326711387,
+      "lat": 24.5817096,
+      "lon": 73.6852785,
+      "tags": {
+        "name:he": "תליון ליונתן ב700 חישוקים גדולים דקים לי ב500",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6328488885,
+      "lat": 24.5801338,
+      "lon": 73.6843574,
+      "tags": {
+        "name:he": "חישוק ב500",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6328488886,
+      "lat": 24.5776262,
+      "lon": 73.6852456,
+      "tags": {
+        "name:he": "כדור ב850",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6356281722,
+      "lat": 24.5673434,
+      "lon": 73.7129342,
+      "tags": {
+        "amenity": "restaurant",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6372174788,
+      "lat": 24.5793275,
+      "lon": 73.683324,
+      "tags": {
+        "name:en": "Ganesha bunk beds and hostel",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6406409785,
+      "lat": 24.579738,
+      "lon": 73.6851542,
+      "tags": {
+        "name": "Pleasure Guesthouse",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6411843386,
+      "lat": 24.5820754,
+      "lon": 73.6895419,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name:en": "Mama Restaurant",
+        "name:tr": "Mama Restoran"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6412098586,
+      "lat": 24.5821539,
+      "lon": 73.6797652,
+      "tags": {
+        "amenity": "cafe",
+        "name:en": "Cafe Mieagro (cheap Thai!)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6412623545,
+      "lat": 24.5910659,
+      "lon": 73.6526723,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mewar Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6463716887,
+      "lat": 24.5743122,
+      "lon": 73.6886691,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "international;indian",
+        "name:en": "oladar village restaurant and bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6649938858,
+      "lat": 24.5758856,
+      "lon": 73.6873384,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:postcode": "313001",
+        "addr:street": "Rao ji ka haata",
+        "email": "cocoshomestay@gmail.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Coco's Homestay",
+        "rooms": "3",
+        "tourism": "hotel",
+        "website": "www.udaipur-homestay.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6687057486,
+      "lat": 24.5777259,
+      "lon": 73.6799321,
+      "tags": {
+        "name": "Ambrai Ghat",
+        "tourism": "attraction",
+        "wikidata": "Q29467437",
+        "wikipedia": "en:Ambrai Ghat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6693376088,
+      "lat": 24.5808059,
+      "lon": 73.6962486,
+      "tags": {
+        "addr:street": "Bapu Bazzar",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "diet:vegetarian": "yes",
+        "name:en": "Natra Dining Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6693390385,
+      "lat": 24.575404,
+      "lon": 73.6938211,
+      "tags": {
+        "addr:street": "Gulab Bagh Road",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name:en": "Krishna Dal Bati Restro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6693390485,
+      "lat": 24.5822246,
+      "lon": 73.6818898,
+      "tags": {
+        "addr:street": "Gangaur Ghat Marg",
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop",
+        "name:en": "Jheel’s Ginger Coffee Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6698608787,
+      "lat": 24.580554,
+      "lon": 73.6824704,
+      "tags": {
+        "name": "Ashoka arts",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6698608887,
+      "lat": 24.5869285,
+      "lon": 73.6860301,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ungles John Pizza"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6698816687,
+      "lat": 24.5796161,
+      "lon": 73.684268,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mayur Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6703689887,
+      "lat": 24.633928,
+      "lon": 73.6561218,
+      "tags": {
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6738240285,
+      "lat": 24.5739887,
+      "lon": 73.6877399,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian;italian_pizza;international",
+        "name:en": "The Patio"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6745200185,
+      "lat": 24.5842887,
+      "lon": 73.6600783,
+      "tags": {
+        "name": "Kiran's Father",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6855062886,
+      "lat": 24.5795239,
+      "lon": 73.6801851,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:postcode": "313001",
+        "addr:street": "Lake Pichola Road",
+        "internet_access": "wlan",
+        "name:en": "GAJ VILAS",
+        "name:fr": "GAJ VILAS",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "phone": "02942431394",
+        "tourism": "hotel",
+        "website": "http://hotelgajvilas.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6919446285,
+      "lat": 24.5836989,
+      "lon": 73.6836703,
+      "tags": {
+        "name:en": "Yellow Heights (correct location)",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6939268186,
+      "lat": 24.5801623,
+      "lon": 73.6824619,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian;pasta",
+        "name:en": "Savage Garden"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6998082786,
+      "lat": 24.5774685,
+      "lon": 73.6843305,
+      "tags": {
+        "addr:street": "City Palace Road",
+        "amenity": "restaurant",
+        "name:en": "Courtyard Restaurant & Coffee",
+        "name:fr": "Courtyard Restaurant & Café",
+        "phone": "2410903"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7019387985,
+      "lat": 24.5877988,
+      "lon": 73.7197447,
+      "tags": {
+        "name:en": "Royal Cenotaphs",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7211821285,
+      "lat": 24.5660422,
+      "lon": 73.6892482,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shri Manshapurna Karni Mata Temple",
+        "name:en": "Shri Manshapurna Karni Mata Temple",
+        "name:hi": "श्री मंशापूर्ण करनी माता मंदिर",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7211855085,
+      "lat": 24.5745097,
+      "lon": 73.6880975,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "पाला गणेश मन्दिर",
+        "name:en": "Ganesh Temple"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7218036985,
+      "lat": 24.6130638,
+      "lon": 73.6634115,
+      "tags": {
+        "name:en": "Shilpgram",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7243883096,
+      "lat": 24.5790995,
+      "lon": 73.6824239,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Natural View Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7244864137,
+      "lat": 24.6568019,
+      "lon": 73.6819423,
+      "tags": {
+        "name": "Oyo Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7265626086,
+      "lat": 24.5807885,
+      "lon": 73.6803366,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hanuman Ghat Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7265775985,
+      "lat": 24.571094,
+      "lon": 73.6861924,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza",
+        "name:en": "My Lazzania"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7332544232,
+      "lat": 24.5749935,
+      "lon": 73.6834426,
+      "tags": {
+        "name": "Fateh Prakash Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7332544334,
+      "lat": 24.5754521,
+      "lon": 73.6830161,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sunset Terrace"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7332544385,
+      "lat": 24.5763387,
+      "lon": 73.683904,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Palki Khana"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7332544541,
+      "lat": 24.5792499,
+      "lon": 73.6824583,
+      "tags": {
+        "name": "Devraj Niwas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7332544542,
+      "lat": 24.5797365,
+      "lon": 73.6823966,
+      "tags": {
+        "historic": "castle",
+        "name": "Bagore-ki-Haveli"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7335450286,
+      "lat": 24.580828,
+      "lon": 73.6818252,
+      "tags": {
+        "name": "Old Jheel´s Guesthouse",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7360406248,
+      "lat": 24.5934926,
+      "lon": 73.6395872,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Chunda Palace",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7363359218,
+      "lat": 24.5931575,
+      "lon": 73.6391747,
+      "tags": {
+        "direction": "270",
+        "name": "Sunset View",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577884085,
+      "lat": 24.5786626,
+      "lon": 73.6829463,
+      "tags": {
+        "name:ja": "隠れ料理教室",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7598450385,
+      "lat": 24.5453168,
+      "lon": 73.7069854,
+      "tags": {
+        "leisure": "park",
+        "name": "Barkat Colony Park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7811736986,
+      "lat": 24.5851591,
+      "lon": 73.6980021,
+      "tags": {
+        "name:en": "OYO 2229 Hotel Golden Wings",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8070172185,
+      "lat": 24.5892494,
+      "lon": 73.6827214,
+      "tags": {
+        "name": "Swaroop Vilas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8266042994,
+      "lat": 24.5971439,
+      "lon": 73.7363398,
+      "tags": {
+        "addr:city": "udaipur",
+        "addr:housenumber": "netaji subash chandra bose hostel",
+        "addr:postcode": "313001",
+        "addr:street": "CTAE college",
+        "leisure": "park",
+        "name": "Maharana cabs",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "operator": "Tejas sahu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8530781296,
+      "lat": 24.5790706,
+      "lon": 73.6119489,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:country": "IN",
+        "addr:district": "Udaipur",
+        "addr:housenumber": "1,",
+        "addr:locality": "Forest Chowki",
+        "addr:postcode": "313031",
+        "addr:state": "Rajasthan",
+        "addr:street": "Kheemach Kheda, Village: Bhujra, Tehsil: Girwa Near Kodiyat,",
+        "amenity": "restaurant",
+        "name": "Taj Aravali Resort & Spa, Udaipur"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8581643556,
+      "lat": 24.575335,
+      "lon": 73.6999094,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Ganesha Bhojnalay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8609105708,
+      "lat": 24.6190308,
+      "lon": 73.6257917,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8676466765,
+      "lat": 24.5041901,
+      "lon": 73.780387,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8879476868,
+      "lat": 24.6014971,
+      "lon": 73.6873852,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "pizza;coffee_shop;sandwich",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Blendz Cafe",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9173656594,
+      "lat": 24.5731376,
+      "lon": 73.8109847,
+      "tags": {
+        "name": "Raffles Udaipur",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9734626017,
+      "lat": 24.5847312,
+      "lon": 73.6803039,
+      "tags": {
+        "contact:instagram": "homestay_chandralokvilla_",
+        "internet_access": "wlan",
+        "name:en": "Chandralok Villa",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10177779617,
+      "lat": 24.5753367,
+      "lon": 73.6913635,
+      "tags": {
+        "addr:street": "Gulab Bagh Road",
+        "internet_access": "wlan",
+        "name:en": "Nomadic Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10214436014,
+      "lat": 24.6015358,
+      "lon": 73.6639779,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "Rani Road",
+        "addr:postcode": "313001",
+        "addr:street": "Near Jain farms",
+        "amenity": "restaurant",
+        "cuisine": "regional;chinese;indian",
+        "name": "Udaipur Traditional restaurant",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+91 9636762622"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10264335409,
+      "lat": 24.6070549,
+      "lon": 73.6997474,
+      "tags": {
+        "historic": "monument",
+        "name": "आर के सर्किल",
+        "name:en": "RK circle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10267059209,
+      "lat": 24.59177,
+      "lon": 73.673402,
+      "tags": {
+        "addr:street": "Rani Road",
+        "amenity": "restaurant",
+        "name:en": "Le Baretto",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "website": "http://www.lebarettoudaipur.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10628600805,
+      "lat": 24.5892988,
+      "lon": 73.7306125,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bohra Ganesh"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10648805206,
+      "lat": 24.5815373,
+      "lon": 73.6826383,
+      "tags": {
+        "name": "Usai Haveli Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10651421005,
+      "lat": 24.5793686,
+      "lon": 73.6781228,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sailani Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10672321005,
+      "lat": 24.5794733,
+      "lon": 73.682835,
+      "tags": {
+        "check_date": "2026-08-15",
+        "internet_access": "wlan",
+        "name:en": "Dreamyard Udaipur",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10718221405,
+      "lat": 24.5818018,
+      "lon": 73.684988,
+      "tags": {
+        "name:en": "Friends",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10765763725,
+      "lat": 24.624235,
+      "lon": 73.6174631,
+      "tags": {
+        "name": "Bahubali viewpoint",
+        "name:en": "Bahubali Viewpoint",
+        "name:ru": "Хвост Дракона",
+        "note": "Seems to be called Bahubali hills locally",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10878662891,
+      "lat": 24.6884218,
+      "lon": 73.6393863,
+      "tags": {
+        "name": "Garuda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10878739904,
+      "lat": 24.6880826,
+      "lon": 73.6380189,
+      "tags": {
+        "name": "Spectrum",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10880989198,
+      "lat": 24.5776777,
+      "lon": 73.683714,
+      "tags": {
+        "historic": "cannon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10881001119,
+      "lat": 24.5801917,
+      "lon": 73.6822073,
+      "tags": {
+        "addr:full": "60, Gangour Ghat, Opposite Bagore Ki Haveli, Udaipur 313001",
+        "email": "piyushmundaniya123@gmail.com",
+        "name": "Govindam art gallery & handicraft",
+        "phone": "+919413831203",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10881004813,
+      "lat": 24.5776763,
+      "lon": 73.6836777,
+      "tags": {
+        "historic": "cannon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10881009914,
+      "lat": 24.5793215,
+      "lon": 73.6838279,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Millets of Mewar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10881016628,
+      "lat": 24.5856083,
+      "lon": 73.6806712,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Khamma Ghani"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10881017858,
+      "lat": 24.5887694,
+      "lon": 73.6825521,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:vegetarian": "only",
+        "level": "4",
+        "location": "rooftop",
+        "name": "Brahma Kamal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10899252562,
+      "lat": 24.5753203,
+      "lon": 73.6828525,
+      "tags": {
+        "name": "Bansi Ghat",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10899252565,
+      "lat": 24.5801037,
+      "lon": 73.6820749,
+      "tags": {
+        "historic": "city_gate"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10992702591,
+      "lat": 24.5795543,
+      "lon": 73.6849495,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "marvadi bhojnalaya"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11134970948,
+      "lat": 24.5959055,
+      "lon": 73.6940794,
+      "tags": {
+        "addr:city": "udaipur",
+        "addr:district": "udaipur",
+        "addr:housenumber": "11",
+        "addr:postcode": "313001",
+        "addr:street": "sardarpura",
+        "amenity": "restaurant",
+        "cuisine": "indian;italian",
+        "diet:non-vegetarian": "yes",
+        "name": "mocha cafe udaipur",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11145626836,
+      "lat": 24.503271,
+      "lon": 73.6590083,
+      "tags": {
+        "name": "Club Mahindra",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11273974969,
+      "lat": 24.5828268,
+      "lon": 73.6839581,
+      "tags": {
+        "addr:housenumber": "6/14",
+        "addr:postcode": "313001",
+        "addr:street": "Ila ji ka neem 'Ganesh gati'",
+        "internet_access": "wlan",
+        "name:en": "Chandrodaya Guesthouse",
+        "phone": "9351469099",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393510842,
+      "lat": 24.5957472,
+      "lon": 73.6888511,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Royal Rasoi, Udaipur"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11535042641,
+      "lat": 24.5784073,
+      "lon": 73.6825164,
+      "tags": {
+        "name": "Jagat Niwas Palace",
+        "tourism": "hotel",
+        "website": "https://www.jagatcollection.com/jagatniwas/index.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11535054673,
+      "lat": 24.5760448,
+      "lon": 73.6826544,
+      "tags": {
+        "name": "Akhada Ghat",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11561153364,
+      "lat": 24.5775034,
+      "lon": 73.6823858,
+      "tags": {
+        "name": "Pipli Ghat",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11561153365,
+      "lat": 24.5772296,
+      "lon": 73.6823945,
+      "tags": {
+        "name": "Roop Ghat",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11561214192,
+      "lat": 24.5780376,
+      "lon": 73.6824059,
+      "tags": {
+        "name": "Nav Ghat",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11578403669,
+      "lat": 24.5809963,
+      "lon": 73.6799125,
+      "tags": {
+        "name:en": "Hostel Funky Bunky",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11581792269,
+      "lat": 24.5856707,
+      "lon": 73.6782038,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11583706069,
+      "lat": 24.5976043,
+      "lon": 73.6793304,
+      "tags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11753076501,
+      "lat": 24.6024911,
+      "lon": 73.6899706,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:district": "Udaipur, Rajasthan",
+        "addr:housenumber": "170-A",
+        "addr:postcode": "313001",
+        "addr:street": "New Fatehpura, Near St. Mary's School",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "tea;healthy_meal;coffee_shop;bakery;light_meals;teas_shop;local_food",
+        "delivery": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Tapri Niwas",
+        "opening_hours": "Mo-Su 08:00-22:45",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "phone": "+91-9983344060",
+        "website": "https://tapri.net/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11753076502,
+      "lat": 24.6199537,
+      "lon": 73.7205477,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:district": "Udaipur, Rajasthan",
+        "addr:housenumber": "Plot-1",
+        "addr:postcode": "313001",
+        "addr:street": "Inside Thirdspace, Near Bhuwana Gram Panchayat, Chitrakoot Nagar",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "capacity": "70",
+        "cuisine": "coffee_shop;sandwich;italian;burger;pasta;dessert;tea;light_meals;local_snacks;bakery",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Tapri Satsang",
+        "opening_hours": "Mo-Su 12:30-20:30",
+        "outdoor_seating": "yes",
+        "phone": "+91-9983355123",
+        "takeaway": "yes",
+        "website": "https://www.tapri.net/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952033274,
+      "lat": 24.5912854,
+      "lon": 73.6763709,
+      "tags": {
+        "addr:city": "Udaipur, Rajasthan",
+        "addr:postcode": "313001",
+        "addr:street": "Alkapuri. Fatehsagar Lake Shore, Ambamata,",
+        "name": "Hotel Lakend",
+        "tourism": "hotel",
+        "website": "https://www.lakend.co.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12109980401,
+      "lat": 24.5808465,
+      "lon": 73.6823419,
+      "tags": {
+        "addr:street": "City Palace Rd",
+        "internet_access": "wlan",
+        "name": "Hosteller",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12152885965,
+      "lat": 24.5883562,
+      "lon": 73.6763674,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:district": "Udaipur",
+        "addr:housenumber": "48-B",
+        "addr:postcode": "313001",
+        "addr:street": "Ambamata Scheme, Nr Lake Fatehsagar",
+        "email": "info@hotelranipalace.in",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Hotel Rani Palace",
+        "phone": "+919414385587",
+        "rooms": "19",
+        "tourism": "hotel",
+        "website": "https://hotelranipalace.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12182034814,
+      "lat": 24.5963893,
+      "lon": 73.6907433,
+      "tags": {
+        "addr:city": "udaipur",
+        "addr:district": "Girwha",
+        "addr:housenumber": "15A",
+        "addr:postcode": "313001",
+        "addr:street": "Panchwati",
+        "amenity": "restaurant",
+        "diet:vegetarian": "yes",
+        "name": "House of Gourmet- HOG"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12182162221,
+      "lat": 24.5792918,
+      "lon": 73.6710991,
+      "tags": {
+        "name": "The Ramvilas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12182162223,
+      "lat": 24.579139,
+      "lon": 73.6712807,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "5",
+        "name": "The Biq Pot"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12182162224,
+      "lat": 24.5790971,
+      "lon": 73.6710269,
+      "tags": {
+        "name": "Jagdish Arts and Crafts",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12182162225,
+      "lat": 24.5792606,
+      "lon": 73.6703666,
+      "tags": {
+        "name": "Hotel Chunda Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12182162226,
+      "lat": 24.5793209,
+      "lon": 73.6712297,
+      "tags": {
+        "description": "Jewellery, Silver artefacts, Silver Furniture",
+        "name": "Artist Art",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12182162227,
+      "lat": 24.5790983,
+      "lon": 73.6812758,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mohan Mandir",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270299480,
+      "lat": 24.5804634,
+      "lon": 73.6774125,
+      "tags": {
+        "addr:street": "near Brahmpole",
+        "description": "Backpacker Hostel with comfortable amd affordable dorms, knowledgeable staff, beautiful location, baithak (common area) and rooftop cafes with the view of Lake Pichola",
+        "name": "Musafir Udaipur",
+        "phone": "9950122349",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270303177,
+      "lat": 24.5794029,
+      "lon": 73.6828537,
+      "tags": {
+        "description": "Dorms from 600 a day. Chandpole Parking nearby.",
+        "name": "Dreamyard Backpackers",
+        "phone": "7339986366",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270307201,
+      "lat": 24.5828241,
+      "lon": 73.6774249,
+      "tags": {
+        "description": "Public Parking space. Congested",
+        "name": "Brahmpole Public parking",
+        "tourism": "theme_park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12289968701,
+      "lat": 24.6310397,
+      "lon": 73.6368599,
+      "tags": {
+        "addr:postcode": "313011",
+        "name": "Nursing Boys Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12289972801,
+      "lat": 24.6306403,
+      "lon": 73.6361678,
+      "tags": {
+        "addr:postcode": "313011",
+        "name": "Nursing Girls Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12289972802,
+      "lat": 24.6301386,
+      "lon": 73.6366518,
+      "tags": {
+        "addr:postcode": "313011",
+        "name": "PG Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12289977801,
+      "lat": 24.6282847,
+      "lon": 73.6383321,
+      "tags": {
+        "addr:postcode": "313011",
+        "amenity": "restaurant",
+        "name": "Royal Ship Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12289995102,
+      "lat": 24.627021,
+      "lon": 73.6419367,
+      "tags": {
+        "addr:postcode": "313011",
+        "amenity": "restaurant",
+        "name": "Mile Stone Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12290316201,
+      "lat": 24.6275705,
+      "lon": 73.6408759,
+      "tags": {
+        "addr:postcode": "313011",
+        "amenity": "cafe",
+        "name": "Country Side Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12291033601,
+      "lat": 24.6257766,
+      "lon": 73.6458024,
+      "tags": {
+        "addr:postcode": "313011",
+        "name": "Hotel Golf View Retreat",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12397864742,
+      "lat": 24.550612,
+      "lon": 73.6947964,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:country": "IN",
+        "addr:housenumber": "3",
+        "addr:postcode": "313001",
+        "addr:street": "Ratanajeet Complex, Sector 13",
+        "addr:suburb": "Hiran Magri",
+        "email": "devendrashekhawat@gmail.com",
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "mobile": "+91 900 179 3293",
+        "name": "Jai Villa",
+        "operator": "Devendra Singh Shekhawat",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "rooms": "5",
+        "smoking": "outside",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12400279078,
+      "lat": 24.5484083,
+      "lon": 73.6944531,
+      "tags": {
+        "name": "Maanvad Garh",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12400279132,
+      "lat": 24.5505663,
+      "lon": 73.6951189,
+      "tags": {
+        "name": "Hill Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12400538979,
+      "lat": 24.5506834,
+      "lon": 73.6946945,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "La Mafiya"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12400538980,
+      "lat": 24.5507755,
+      "lon": 73.6948024,
+      "tags": {
+        "name": "Nand Mahal",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12400811953,
+      "lat": 24.5675828,
+      "lon": 73.6788627,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12400811954,
+      "lat": 24.5675968,
+      "lon": 73.6780668,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12402760745,
+      "lat": 24.5531353,
+      "lon": 73.694665,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Rasoi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12402760746,
+      "lat": 24.5530883,
+      "lon": 73.6946455,
+      "tags": {
+        "name": "Royal Icon",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12402760750,
+      "lat": 24.5512207,
+      "lon": 73.6944906,
+      "tags": {
+        "name": "Bnant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12408638201,
+      "lat": 24.5815814,
+      "lon": 73.6825282,
+      "tags": {
+        "name": "Jagat Villa",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409667803,
+      "lat": 24.5797611,
+      "lon": 73.6844108,
+      "tags": {
+        "name": "Baba Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409667804,
+      "lat": 24.5794923,
+      "lon": 73.6839415,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Radha Krishna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409668602,
+      "lat": 24.5823078,
+      "lon": 73.6796783,
+      "tags": {
+        "name": "Unplan",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409668603,
+      "lat": 24.5822882,
+      "lon": 73.6794536,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sindhi Khana Khazana"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409668605,
+      "lat": 24.5802421,
+      "lon": 73.683025,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sun N Moon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409668801,
+      "lat": 24.5816497,
+      "lon": 73.6799189,
+      "tags": {
+        "name": "Locky Art School and Gallery",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409668803,
+      "lat": 24.5807965,
+      "lon": 73.6822585,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Mavi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409668901,
+      "lat": 24.5821232,
+      "lon": 73.6797871,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lake Street"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409669004,
+      "lat": 24.580019,
+      "lon": 73.6833781,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Vyom Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409669201,
+      "lat": 24.5807336,
+      "lon": 73.6822393,
+      "tags": {
+        "name": "Shalom Backpackers",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409747703,
+      "lat": 24.5840306,
+      "lon": 73.6943876,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "food market"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409747902,
+      "lat": 24.5819404,
+      "lon": 73.6848273,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12409782501,
+      "lat": 24.5836523,
+      "lon": 73.696513,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Eat Out"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773402,
+      "lat": 24.5738257,
+      "lon": 73.6873706,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773404,
+      "lat": 24.5741445,
+      "lon": 73.6878861,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "masala chowk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773408,
+      "lat": 24.5767561,
+      "lon": 73.6851709,
+      "tags": {
+        "name": "Manuscript Jhilwara Haveli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773409,
+      "lat": 24.5772584,
+      "lon": 73.6852587,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773410,
+      "lat": 24.5772635,
+      "lon": 73.6851729,
+      "tags": {
+        "name": "Lakshmi Darshan Gokhanda Home Stay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773411,
+      "lat": 24.577479,
+      "lon": 73.6851676,
+      "tags": {
+        "name": "Hari Niwas",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773413,
+      "lat": 24.5799759,
+      "lon": 73.6843221,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Shree Vinayak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773415,
+      "lat": 24.5818721,
+      "lon": 73.6830762,
+      "tags": {
+        "name": "Madri Haveli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773603,
+      "lat": 24.5748226,
+      "lon": 73.6855158,
+      "tags": {
+        "name": "Shrikant Palace",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773605,
+      "lat": 24.5770332,
+      "lon": 73.6852518,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773606,
+      "lat": 24.5800218,
+      "lon": 73.6843349,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Anna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773703,
+      "lat": 24.5737432,
+      "lon": 73.686865,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Amritsariyat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773705,
+      "lat": 24.5778641,
+      "lon": 73.6851942,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Royal Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773801,
+      "lat": 24.5738056,
+      "lon": 73.6870038,
+      "tags": {
+        "name": "Praful Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773802,
+      "lat": 24.5750768,
+      "lon": 73.6854153,
+      "tags": {
+        "name": "Shakti Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773803,
+      "lat": 24.5752209,
+      "lon": 73.6853065,
+      "tags": {
+        "name": "Funky Backpackers Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773806,
+      "lat": 24.5780159,
+      "lon": 73.6851777,
+      "tags": {
+        "name": "Moon Flower",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773807,
+      "lat": 24.5782857,
+      "lon": 73.6850449,
+      "tags": {
+        "name": "Padm Laxmi Palace",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773814,
+      "lat": 24.5819074,
+      "lon": 73.6835051,
+      "tags": {
+        "name": "Mewar Avenue",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412773902,
+      "lat": 24.5785856,
+      "lon": 73.6851272,
+      "tags": {
+        "name": "Padam Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412775301,
+      "lat": 24.5776095,
+      "lon": 73.6852409,
+      "tags": {
+        "name": "Heritage City Palace View",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12412775501,
+      "lat": 24.5790018,
+      "lon": 73.6848046,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12415411402,
+      "lat": 24.5810438,
+      "lon": 73.679979,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Funky Bunky"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12415411501,
+      "lat": 24.5809962,
+      "lon": 73.6802165,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Helsinki"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12415411601,
+      "lat": 24.5816613,
+      "lon": 73.6817837,
+      "tags": {
+        "name": "Heritage Haveli",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12416831404,
+      "lat": 24.5822199,
+      "lon": 73.6835192,
+      "tags": {
+        "name": "Madri Haveli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12416831405,
+      "lat": 24.6305698,
+      "lon": 73.6702488,
+      "tags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12416831406,
+      "lat": 24.6248366,
+      "lon": 73.6718153,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "Maharana Pratap Statue",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12416831501,
+      "lat": 24.5829336,
+      "lon": 73.68272,
+      "tags": {
+        "name": "Dev Drishti",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12416831502,
+      "lat": 24.5830649,
+      "lon": 73.6828753,
+      "tags": {
+        "name": "Rahi",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12416831504,
+      "lat": 24.6311798,
+      "lon": 73.6699365,
+      "tags": {
+        "name": "sunset viewpoint",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12416831801,
+      "lat": 24.5836986,
+      "lon": 73.6837109,
+      "tags": {
+        "name": "alampat",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12421046804,
+      "lat": 24.5818418,
+      "lon": 73.6848968,
+      "tags": {
+        "name": "Kaladwas Lal Haveli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422128701,
+      "lat": 24.5593529,
+      "lon": 73.6698993,
+      "tags": {
+        "historic": "tank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422505803,
+      "lat": 24.5801985,
+      "lon": 73.6801065,
+      "tags": {
+        "name": "Sarovar",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422505804,
+      "lat": 24.5795873,
+      "lon": 73.6801898,
+      "tags": {
+        "name": "Madpackers",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422505805,
+      "lat": 24.5791869,
+      "lon": 73.6798306,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Foodiz"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422505817,
+      "lat": 24.5775489,
+      "lon": 73.6797893,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple Shree Sardar Swarup Shyam Ji"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422505818,
+      "lat": 24.5799105,
+      "lon": 73.6799731,
+      "tags": {
+        "name": "Udai Rothi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422505902,
+      "lat": 24.5791535,
+      "lon": 73.6802073,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Blue Moon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422506001,
+      "lat": 24.580446,
+      "lon": 73.6799793,
+      "tags": {
+        "name": "Shiv Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422506901,
+      "lat": 24.5801239,
+      "lon": 73.6801124,
+      "tags": {
+        "name": "Thamla Haveli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422506902,
+      "lat": 24.5809566,
+      "lon": 73.6817008,
+      "tags": {
+        "name": "ghat",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422507001,
+      "lat": 24.579595,
+      "lon": 73.6803063,
+      "tags": {
+        "name": "Lake Pichola",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422507004,
+      "lat": 24.5774819,
+      "lon": 73.6799506,
+      "tags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422507011,
+      "lat": 24.5777409,
+      "lon": 73.6797409,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple Shree Hanuman Ji"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422507014,
+      "lat": 24.5809165,
+      "lon": 73.6817606,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422996802,
+      "lat": 24.5802692,
+      "lon": 73.6820877,
+      "tags": {
+        "name": "Pichola Haveli",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422996803,
+      "lat": 24.5808955,
+      "lon": 73.6822879,
+      "tags": {
+        "name": "Athenas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422996904,
+      "lat": 24.580724,
+      "lon": 73.6819153,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lago"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422996905,
+      "lat": 24.5806704,
+      "lon": 73.6818285,
+      "tags": {
+        "name": "ghat",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422997003,
+      "lat": 24.5827713,
+      "lon": 73.6793989,
+      "tags": {
+        "name": "Footra",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422997004,
+      "lat": 24.5802015,
+      "lon": 73.6820595,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Green Grotto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422997005,
+      "lat": 24.5810743,
+      "lon": 73.6819402,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Corner Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422999902,
+      "lat": 24.5827226,
+      "lon": 73.6812251,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mannat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422999903,
+      "lat": 24.5827188,
+      "lon": 73.681113,
+      "tags": {
+        "name": "hide-in Mewar Villas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422999905,
+      "lat": 24.5805812,
+      "lon": 73.6818383,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422999906,
+      "lat": 24.5803122,
+      "lon": 73.6820538,
+      "tags": {
+        "name": "Barefoot Boutique",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422999907,
+      "lat": 24.5804384,
+      "lon": 73.6819464,
+      "tags": {
+        "name": "Jheel Kinara",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422999908,
+      "lat": 24.5812421,
+      "lon": 73.6823584,
+      "tags": {
+        "name": "Moustache",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12423064401,
+      "lat": 24.5809764,
+      "lon": 73.6801398,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Galaxy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650206,
+      "lat": 24.5838633,
+      "lon": 73.6829834,
+      "tags": {
+        "name": "Aasro",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650221,
+      "lat": 24.5705213,
+      "lon": 73.6980129,
+      "tags": {
+        "name": "Le Shelton",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650222,
+      "lat": 24.5755469,
+      "lon": 73.6951346,
+      "tags": {
+        "name": "Gulab Bagh",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650224,
+      "lat": 24.575902,
+      "lon": 73.6855118,
+      "tags": {
+        "name": "Jheel Mahal",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650227,
+      "lat": 24.5799636,
+      "lon": 73.6836002,
+      "tags": {
+        "name": "Patwa Haveli",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650228,
+      "lat": 24.5802454,
+      "lon": 73.6827981,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Natural Lake View"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650229,
+      "lat": 24.580443,
+      "lon": 73.6825863,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Namaste"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650230,
+      "lat": 24.5806219,
+      "lon": 73.6824533,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Village"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650239,
+      "lat": 24.5699244,
+      "lon": 73.6840974,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650241,
+      "lat": 24.5754662,
+      "lon": 73.6916359,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mumal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650242,
+      "lat": 24.5754586,
+      "lon": 73.6915581,
+      "tags": {
+        "name": "Shiv Shakti Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650243,
+      "lat": 24.5753621,
+      "lon": 73.6912756,
+      "tags": {
+        "name": "Gulmhar",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650244,
+      "lat": 24.5753283,
+      "lon": 73.6910381,
+      "tags": {
+        "name": "VIP",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424650246,
+      "lat": 24.5769893,
+      "lon": 73.6919092,
+      "tags": {
+        "name": "Mangal View Residency",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701805,
+      "lat": 24.5836979,
+      "lon": 73.6826368,
+      "tags": {
+        "name": "Bari Ghat",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701806,
+      "lat": 24.5818756,
+      "lon": 73.6818015,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Nothing Before Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701813,
+      "lat": 24.5718485,
+      "lon": 73.6978368,
+      "tags": {
+        "name": "Jav Neevan Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701816,
+      "lat": 24.571217,
+      "lon": 73.693102,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701820,
+      "lat": 24.5797982,
+      "lon": 73.6838397,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Old Legacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701821,
+      "lat": 24.5799099,
+      "lon": 73.6836393,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Marwadi Bhojnalya"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701822,
+      "lat": 24.5801267,
+      "lon": 73.682575,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Brew Villa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701823,
+      "lat": 24.5800551,
+      "lon": 73.6823939,
+      "tags": {
+        "name": "The Mama",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701824,
+      "lat": 24.5715289,
+      "lon": 73.6946509,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701827,
+      "lat": 24.5721759,
+      "lon": 73.6927311,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701833,
+      "lat": 24.5754671,
+      "lon": 73.6917187,
+      "tags": {
+        "name": "Ishani Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701836,
+      "lat": 24.5756395,
+      "lon": 73.6906202,
+      "tags": {
+        "name": "Rupamani Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424701840,
+      "lat": 24.5786493,
+      "lon": 73.693501,
+      "tags": {
+        "name": "Konark Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424703306,
+      "lat": 24.5754383,
+      "lon": 73.6857544,
+      "tags": {
+        "name": "Footprint",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424703308,
+      "lat": 24.5799088,
+      "lon": 73.6836798,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "cafe RA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424703309,
+      "lat": 24.5801133,
+      "lon": 73.6830523,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Wind View"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424703310,
+      "lat": 24.580197,
+      "lon": 73.6825685,
+      "tags": {
+        "name": "Gangaur Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424703311,
+      "lat": 24.5800854,
+      "lon": 73.6823559,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Boho"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424703312,
+      "lat": 24.5710088,
+      "lon": 73.69108,
+      "tags": {
+        "name": "Gulab Bagh Bird Park",
+        "tourism": "zoo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424703316,
+      "lat": 24.5754663,
+      "lon": 73.6918435,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Spicy Vibes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424703320,
+      "lat": 24.5782513,
+      "lon": 73.6925204,
+      "tags": {
+        "name": "Royal Dezire",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704607,
+      "lat": 24.5831764,
+      "lon": 73.6824187,
+      "tags": {
+        "name": "Lake Face",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704609,
+      "lat": 24.5823032,
+      "lon": 73.6821478,
+      "tags": {
+        "name": "Lake Bridge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704616,
+      "lat": 24.5718257,
+      "lon": 73.6991327,
+      "tags": {
+        "name": "Mohit",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704617,
+      "lat": 24.5715386,
+      "lon": 73.6986619,
+      "tags": {
+        "name": "Shreenath",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704618,
+      "lat": 24.5706389,
+      "lon": 73.6977403,
+      "tags": {
+        "name": "Sparkle Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704619,
+      "lat": 24.5707046,
+      "lon": 73.697399,
+      "tags": {
+        "name": "Pax Grand Blue",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704620,
+      "lat": 24.5727592,
+      "lon": 73.6961316,
+      "tags": {
+        "name": "Siddharta Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704621,
+      "lat": 24.5729484,
+      "lon": 73.6960757,
+      "tags": {
+        "name": "Hariyali Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704623,
+      "lat": 24.575582,
+      "lon": 73.6950681,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Rose Garden"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704626,
+      "lat": 24.5730115,
+      "lon": 73.6923255,
+      "tags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704703,
+      "lat": 24.5801237,
+      "lon": 73.6823629,
+      "tags": {
+        "historic": "city_gate"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704801,
+      "lat": 24.5869404,
+      "lon": 73.6861589,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Hathi Pole"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704802,
+      "lat": 24.5781026,
+      "lon": 73.6970991,
+      "tags": {
+        "name": "The Space",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704804,
+      "lat": 24.5702524,
+      "lon": 73.6980162,
+      "tags": {
+        "name": "Palash Regency",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704806,
+      "lat": 24.5800176,
+      "lon": 73.6823717,
+      "tags": {
+        "name": "The Tiger",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704812,
+      "lat": 24.5747792,
+      "lon": 73.6910833,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704814,
+      "lat": 24.5753289,
+      "lon": 73.6920561,
+      "tags": {
+        "name": "Palace View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424704817,
+      "lat": 24.5763991,
+      "lon": 73.6912145,
+      "tags": {
+        "name": "Manoj Prakash",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424706202,
+      "lat": 24.5758208,
+      "lon": 73.6948676,
+      "tags": {
+        "name": "Garden Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12424711801,
+      "lat": 24.5721903,
+      "lon": 73.6861157,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12430934002,
+      "lat": 24.5739611,
+      "lon": 73.6862322,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Blue Box Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12430934101,
+      "lat": 24.5739812,
+      "lon": 73.6882204,
+      "tags": {
+        "name": "Janak Vilas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12430934102,
+      "lat": 24.5745645,
+      "lon": 73.6892923,
+      "tags": {
+        "name": "Mahendra Prakash",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12430934103,
+      "lat": 24.5746173,
+      "lon": 73.6895897,
+      "tags": {
+        "name": "Naren Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12430934106,
+      "lat": 24.5701259,
+      "lon": 73.6942237,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12430934302,
+      "lat": 24.5805112,
+      "lon": 73.682531,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Namaste"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12430934303,
+      "lat": 24.5813686,
+      "lon": 73.6823758,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Shree Mateshwari"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12433801802,
+      "lat": 24.5788405,
+      "lon": 73.684909,
+      "tags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12433802002,
+      "lat": 24.5807314,
+      "lon": 73.6822652,
+      "tags": {
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12434196001,
+      "lat": 24.5824009,
+      "lon": 73.6805912,
+      "tags": {
+        "name": "whereabout",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12437137202,
+      "lat": 24.560629,
+      "lon": 73.6982181,
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12437137301,
+      "lat": 24.5661876,
+      "lon": 73.6965341,
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12437137401,
+      "lat": 24.5619087,
+      "lon": 73.6966841,
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12444672801,
+      "lat": 24.5775184,
+      "lon": 73.6987814,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Shiv Shakti"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12444672804,
+      "lat": 24.5792285,
+      "lon": 73.6967882,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12444672901,
+      "lat": 24.5779473,
+      "lon": 73.6976903,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Tummy's"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12444672902,
+      "lat": 24.5781151,
+      "lon": 73.6971796,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Shawarma King"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12444673004,
+      "lat": 24.5801035,
+      "lon": 73.6946811,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12445638904,
+      "lat": 24.5848162,
+      "lon": 73.6954026,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Meera"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12445638905,
+      "lat": 24.5848629,
+      "lon": 73.6953643,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Daya"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12445661404,
+      "lat": 24.5843211,
+      "lon": 73.6958648,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bandwal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12445666101,
+      "lat": 24.5849997,
+      "lon": 73.6950391,
+      "tags": {
+        "name": "Nandan Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12508956701,
+      "lat": 24.5798524,
+      "lon": 73.6837607,
+      "tags": {
+        "addr:street": "Gangaur Ghat",
+        "amenity": "restaurant",
+        "contact:instagram": "marwadi_bhojnalaya",
+        "cuisine": "indian;local;regional",
+        "diet:vegetarian": "yes",
+        "name": "Marwadi Bhojnalaya",
+        "name:en": "The Royal Taste if Marwar",
+        "opening_hours": "Mo-Su 10:00-23:30",
+        "phone": "+918952970560",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12523086901,
+      "lat": 24.5791206,
+      "lon": 73.6788182,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "breakfast;indian;local;tea",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Utopia"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12523088101,
+      "lat": 24.5791227,
+      "lon": 73.678734,
+      "tags": {
+        "name": "Hibiscus Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12548691990,
+      "lat": 24.5764223,
+      "lon": 73.6550446,
+      "tags": {
+        "name": "Fateh Niwas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596158936,
+      "lat": 24.5583481,
+      "lon": 73.7227918,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "shree charan kamal bhojnalay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596172126,
+      "lat": 24.5592617,
+      "lon": 73.7230572,
+      "tags": {
+        "name": "siddhi boys hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12596181443,
+      "lat": 24.5592476,
+      "lon": 73.7218923,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "i love wow chinese"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12643344401,
+      "lat": 24.5830714,
+      "lon": 73.6856887,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12643344701,
+      "lat": 24.5853498,
+      "lon": 73.6862331,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Street food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12652058071,
+      "lat": 24.6088903,
+      "lon": 73.6948068,
+      "tags": {
+        "addr:city": "udaipur",
+        "addr:district": "Udaipur",
+        "addr:housenumber": "2-A, Near New Pula Bridge",
+        "addr:postcode": "313001",
+        "addr:street": "Fatehpura",
+        "brand": "Zone by The Park Hotels",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Zone Connect by The Park",
+        "rooms": "41",
+        "tourism": "hotel",
+        "website": "https://www.zonebythepark.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12687850869,
+      "lat": 24.5435899,
+      "lon": 73.7081763,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12827920901,
+      "lat": 24.5794659,
+      "lon": 73.6943277,
+      "tags": {
+        "addr:street": "Surajpol-ki-Ander",
+        "amenity": "place_of_worship",
+        "name": "Shree Manshapurna Mahadev Mata Baan Devi Mandir"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13001066220,
+      "lat": 24.5455617,
+      "lon": 73.6785249,
+      "tags": {
+        "addr:city": "udaipur",
+        "addr:district": "udaipur",
+        "addr:housenumber": "C-20",
+        "addr:postcode": "313001",
+        "addr:street": "Shikarbadi",
+        "brand": "Hotel",
+        "email": "info@bohedamanor.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Boheda Manor",
+        "phone": "8000550564",
+        "rooms": "15",
+        "tourism": "hotel",
+        "website": "https://www.bohedamanor.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13019489503,
+      "lat": 24.5795338,
+      "lon": 73.7120106,
+      "tags": {
+        "addr:housenumber": "93",
+        "addr:postcode": "313001",
+        "addr:street": "Saraswati Marg, Kumharon Ka Bhatta, Central Area, Udaipur, Rajasthan",
+        "email": "raghumahalhotels@gmail.com",
+        "name": "Raghu Mahal Hotel & Flames Restaurant",
+        "phone": "+91 72300 47230",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13123587126,
+      "lat": 24.6028258,
+      "lon": 73.6881112,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:district": "Udaipur, Rajasthan",
+        "addr:housenumber": "The Bake Affair Cafe",
+        "addr:postcode": "313001",
+        "addr:street": "101 Akruti Complex",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "Head",
+        "cuisine": "coffee_shop;pasta;pizza;pastry;bakery",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "The Bake Affair",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:app": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+91 95097 50055",
+        "reservation": "yes",
+        "website": "https://thebakeaffair.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13284476001,
+      "lat": 24.5824346,
+      "lon": 73.6810637,
+      "tags": {
+        "addr:postcode": "313001",
+        "amenity": "cafe",
+        "email": "backyardcafeudr@gmail.com",
+        "name": "Backyard Cafe",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+918003182320"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13284815501,
+      "lat": 24.5802034,
+      "lon": 73.6783418,
+      "tags": {
+        "name": "Lassi Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13287207101,
+      "lat": 24.5803722,
+      "lon": 73.6799955,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tatya Cafe & Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13353874323,
+      "lat": 24.5810451,
+      "lon": 73.6802816,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "breakfast;indian",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "only",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kool Korner Kaffe",
+        "opening_hours": "Mo-Su 07:30-23:30",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13392425801,
+      "lat": 24.5751722,
+      "lon": 73.699202,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Raghunandan Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13417935503,
+      "lat": 24.5802013,
+      "lon": 73.6791058,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Mild Life Hostel",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13526200343,
+      "lat": 24.5736166,
+      "lon": 73.7153783,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;ice_cream;dessert",
+        "internet_access": "yes",
+        "name": "Gazab Gulfi",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:upi": "yes",
+        "phone": "9610868900"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13533999501,
+      "lat": 24.6181449,
+      "lon": 73.7257528,
+      "tags": {
+        "addr:housenumber": "330 A",
+        "addr:postcode": "313001",
+        "addr:street": "Chitrakoot Nagar, Bhuwana",
+        "internet_access": "wlan",
+        "name": "Clover Inn",
+        "phone": "+919414171070",
+        "self_service": "no",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13653855601,
+      "lat": 24.5801835,
+      "lon": 73.682623,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Nagar Restaurant",
+        "opening_hours": "Mo-Su 07:30-21:30",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14031978901,
+      "lat": 24.5826131,
+      "lon": 73.6809057,
+      "tags": {
+        "name": "Turtle Hostel Udaipur",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14067515002,
+      "lat": 24.5170052,
+      "lon": 73.5774201,
+      "tags": {
+        "name": "Bichu maggi point",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31831854,
+      "center": {
+        "lat": 24.5760342,
+        "lon": 73.6834938
+      },
+      "tags": {
+        "historic": "castle",
+        "name": "City Palace",
+        "toilets:wheelchair": "yes",
+        "tourism": "attraction",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31831855,
+      "center": {
+        "lat": 24.5726375,
+        "lon": 73.6918433
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Saijan Niwas gardens"
+      }
+    },
+    {
+      "type": "way",
+      "id": 80250348,
+      "center": {
+        "lat": 24.5768541,
+        "lon": 73.6838845
+      },
+      "tags": {
+        "leisure": "garden",
+        "source": "GPS"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108770539,
+      "center": {
+        "lat": 24.5761512,
+        "lon": 73.7000864
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108776755,
+      "center": {
+        "lat": 24.5962515,
+        "lon": 73.6733955
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Nerhu Island Park",
+        "place": "island",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108777714,
+      "center": {
+        "lat": 24.5956766,
+        "lon": 73.6732033
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108781864,
+      "center": {
+        "lat": 24.60305,
+        "lon": 73.6854857
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Saheliyon-Ki-Bari",
+        "tourism": "attraction",
+        "wikidata": "Q7399592",
+        "wikimedia_commons": "Category:Sahelion Ki Bari, Udaipur",
+        "wikipedia": "en:Saheliyon-ki-Bari"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108791185,
+      "center": {
+        "lat": 24.5738583,
+        "lon": 73.6835641
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108799765,
+      "center": {
+        "lat": 24.5748827,
+        "lon": 73.6878022
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108804846,
+      "center": {
+        "lat": 24.5972664,
+        "lon": 73.690089
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Panchwati Circle"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108850322,
+      "center": {
+        "lat": 24.5836514,
+        "lon": 73.6695554
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Malla Talai"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108888861,
+      "center": {
+        "lat": 24.5552528,
+        "lon": 73.7074247
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 111321620,
+      "center": {
+        "lat": 24.579616,
+        "lon": 73.683703
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Jagdish Mandir",
+        "opening_hours": "week 08-36 05:00-14:30,16:00-22:30 unknown \"Listed as summer timings; not sure which months this covers.\"; week 37-07 05:30-14:30,16:00-22:00 unknown \"Listed as winter timings; not sure which months this covers.\"",
+        "religion": "hindu",
+        "source": "GPS",
+        "wheelchair": "no",
+        "wikidata": "Q6122350",
+        "wikipedia": "en:Jagdish Temple, Udaipur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 111324917,
+      "center": {
+        "lat": 24.5735889,
+        "lon": 73.692297
+      },
+      "tags": {
+        "amenity": "fountain",
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 111334929,
+      "center": {
+        "lat": 24.5938507,
+        "lon": 73.6404527
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 111334933,
+      "center": {
+        "lat": 24.5931974,
+        "lon": 73.6394582
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "yes",
+        "name": "Sajjan Garh - Monsoon Palace",
+        "tourism": "attraction",
+        "wikidata": "Q3321537",
+        "wikimedia_commons": "Category:Monsoon Palace",
+        "wikipedia": "fr:Monsoon Palace"
+      }
+    },
+    {
+      "type": "way",
+      "id": 111334941,
+      "center": {
+        "lat": 24.5937488,
+        "lon": 73.6400321
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 180744100,
+      "center": {
+        "lat": 24.5771569,
+        "lon": 73.6697789
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 243617417,
+      "center": {
+        "lat": 24.5751104,
+        "lon": 73.6801248
+      },
+      "tags": {
+        "landuse": "grass",
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 243618504,
+      "center": {
+        "lat": 24.5844313,
+        "lon": 73.6716702
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Bal Udyan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 264323572,
+      "center": {
+        "lat": 24.5830028,
+        "lon": 73.6744228
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "way",
+      "id": 289198548,
+      "center": {
+        "lat": 24.5787475,
+        "lon": 73.6834528
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Jagat Shiromani",
+        "religion": "hindu",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 289198549,
+      "center": {
+        "lat": 24.566104,
+        "lon": 73.6892464
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 289198550,
+      "center": {
+        "lat": 24.5673327,
+        "lon": 73.6888537
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 318176163,
+      "center": {
+        "lat": 24.6070165,
+        "lon": 73.6466018
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Royal Retreat",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 395303076,
+      "center": {
+        "lat": 24.5838102,
+        "lon": 73.6889054
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "dawoodi_bohra",
+        "name": "Sayyedi Luqmanji Saheb Dargah",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "way",
+      "id": 395303078,
+      "center": {
+        "lat": 24.5844031,
+        "lon": 73.6883265
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "dawoodi_bohra",
+        "name": "Moyyedpura Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410537328,
+      "center": {
+        "lat": 24.5813418,
+        "lon": 73.6822059
+      },
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housename": "Rampuri Ji Ki Haveli",
+        "addr:housenumber": "56",
+        "addr:postcode": "313001",
+        "addr:street": "Ganesh Ghati",
+        "building": "yes",
+        "name": "Nukkad",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 422923971,
+      "center": {
+        "lat": 24.5856472,
+        "lon": 73.6903573
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Basti Ram Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 486737828,
+      "center": {
+        "lat": 24.5607782,
+        "lon": 73.6952547
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 486817475,
+      "center": {
+        "lat": 24.5777887,
+        "lon": 73.6796298
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Manji Ka Ghat Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 492865452,
+      "center": {
+        "lat": 24.5591245,
+        "lon": 73.6956851
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 492865458,
+      "center": {
+        "lat": 24.5474598,
+        "lon": 73.6854103
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Smriti Van"
+      }
+    },
+    {
+      "type": "way",
+      "id": 509600074,
+      "center": {
+        "lat": 24.5751389,
+        "lon": 73.6996093
+      },
+      "tags": {
+        "addr:city": "udaipur",
+        "addr:street": "Uadipol Road",
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hotel udai palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 519019714,
+      "center": {
+        "lat": 24.5891057,
+        "lon": 73.6697123
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Grace Landmark Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 519223671,
+      "center": {
+        "lat": 24.586023,
+        "lon": 73.7097922
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Shree Mohanlal Sukhadiya Memorial Foundation Park",
+        "name:etymology:wikidata": "Q1942799"
+      }
+    },
+    {
+      "type": "way",
+      "id": 519234909,
+      "center": {
+        "lat": 24.59709,
+        "lon": 73.6609788
+      },
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:postcode": "313001",
+        "addr:street": "Rani Road",
+        "charge": "100 INR",
+        "fee": "yes",
+        "leisure": "park",
+        "name": "Rajiv Gandhi Garden",
+        "name:en": "Rajiv Gandhi Garden",
+        "name:etymology:wikidata": "Q4593",
+        "name:hi": "राजीव गांधी उद्यान",
+        "tourism": "attraction",
+        "wikidata": "Q24895427",
+        "wikipedia": "en:Rajiv Gandhi Garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 519481946,
+      "center": {
+        "lat": 24.5894093,
+        "lon": 73.6809101
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Ambavgarh Dargah & Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "way",
+      "id": 519488952,
+      "center": {
+        "lat": 24.5843634,
+        "lon": 73.668058
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 519491117,
+      "center": {
+        "lat": 24.5701843,
+        "lon": 73.6605082
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Pratap Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 519858834,
+      "center": {
+        "lat": 24.5869338,
+        "lon": 73.7129524
+      },
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:postcode": "313001",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Madina Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "way",
+      "id": 519868381,
+      "center": {
+        "lat": 24.5791524,
+        "lon": 73.7085785
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Gurudwara Sach Khand Darbar, Udaipur",
+        "religion": "sikh"
+      }
+    },
+    {
+      "type": "way",
+      "id": 520191210,
+      "center": {
+        "lat": 24.597822,
+        "lon": 73.6782595
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Guru Gobind Singh Park",
+        "name:etymology:wikidata": "Q312967"
+      }
+    },
+    {
+      "type": "way",
+      "id": 520192793,
+      "center": {
+        "lat": 24.5914221,
+        "lon": 73.6830536
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Vivakanand Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521974741,
+      "center": {
+        "lat": 24.5827734,
+        "lon": 73.6973433
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "City Council Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 522813379,
+      "center": {
+        "lat": 24.5723625,
+        "lon": 73.6834387
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 528928937,
+      "center": {
+        "lat": 24.6008587,
+        "lon": 73.7793033
+      },
+      "tags": {
+        "building": "yes",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 528928938,
+      "center": {
+        "lat": 24.6005242,
+        "lon": 73.7794288
+      },
+      "tags": {
+        "building": "yes",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 528928939,
+      "center": {
+        "lat": 24.6003219,
+        "lon": 73.7795028
+      },
+      "tags": {
+        "building": "yes",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 528947667,
+      "center": {
+        "lat": 24.5781243,
+        "lon": 73.7154803
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Boys Hostel MB College",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 528951026,
+      "center": {
+        "lat": 24.5141668,
+        "lon": 73.6792018
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529366184,
+      "center": {
+        "lat": 24.5117669,
+        "lon": 73.6788847
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529366216,
+      "center": {
+        "lat": 24.5133261,
+        "lon": 73.6803755
+      },
+      "tags": {
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529368043,
+      "center": {
+        "lat": 24.5118406,
+        "lon": 73.6819715
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529368047,
+      "center": {
+        "lat": 24.5159823,
+        "lon": 73.6801066
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529386347,
+      "center": {
+        "lat": 24.5026862,
+        "lon": 73.6585223
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529853241,
+      "center": {
+        "lat": 24.5623573,
+        "lon": 73.668024
+      },
+      "tags": {
+        "access:conditional": "yes @ guided",
+        "charge": "150 INR",
+        "fee": "yes",
+        "leisure": "park",
+        "name": "Jungle Safari Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530447473,
+      "center": {
+        "lat": 24.5184581,
+        "lon": 73.68019
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530447483,
+      "center": {
+        "lat": 24.5185721,
+        "lon": 73.6790059
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530447484,
+      "center": {
+        "lat": 24.5172957,
+        "lon": 73.6786005
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530448061,
+      "center": {
+        "lat": 24.5187745,
+        "lon": 73.682161
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530448062,
+      "center": {
+        "lat": 24.5187327,
+        "lon": 73.6825384
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530448063,
+      "center": {
+        "lat": 24.5186915,
+        "lon": 73.6828462
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530448070,
+      "center": {
+        "lat": 24.5183111,
+        "lon": 73.6825654
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530448622,
+      "center": {
+        "lat": 24.6211984,
+        "lon": 73.8059736
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531371927,
+      "center": {
+        "lat": 24.5669631,
+        "lon": 73.6844247
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Pandit Deendayal Upadhyay Park",
+        "name:etymology:wikidata": "Q3631426"
+      }
+    },
+    {
+      "type": "way",
+      "id": 543934239,
+      "center": {
+        "lat": 24.5865822,
+        "lon": 73.6642765
+      },
+      "tags": {
+        "amenity": "fountain",
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544017966,
+      "center": {
+        "lat": 24.5932917,
+        "lon": 73.6906603
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Mohata Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544021562,
+      "center": {
+        "lat": 24.593921,
+        "lon": 73.6475513
+      },
+      "tags": {
+        "barrier": "wall",
+        "name": "SajjanGarh Biological Park",
+        "name:etymology:wikidata": "Q12446066",
+        "opening_hours": "Mo-Su 09:00-17:00",
+        "phone": "+912942800009",
+        "tourism": "zoo",
+        "website": "http://www.sajjangarhbiologicalpark.com/",
+        "wikidata": "Q22080053",
+        "wikipedia": "en:Sajjangarh Biological Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544463834,
+      "center": {
+        "lat": 24.5878314,
+        "lon": 73.7119342
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544464093,
+      "center": {
+        "lat": 24.5883122,
+        "lon": 73.7126876
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "A-One Garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 546491873,
+      "center": {
+        "lat": 24.5448862,
+        "lon": 73.6823667
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Smartcity Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549681024,
+      "center": {
+        "lat": 24.5904609,
+        "lon": 73.6747719
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mahakaleshwar Mandir",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 551067444,
+      "center": {
+        "lat": 24.5572922,
+        "lon": 73.6927043
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Balkacharya Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554851238,
+      "center": {
+        "lat": 24.597425,
+        "lon": 73.6795881
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554851244,
+      "center": {
+        "lat": 24.5956769,
+        "lon": 73.6649125
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554851245,
+      "center": {
+        "lat": 24.5953043,
+        "lon": 73.6651626
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554851247,
+      "center": {
+        "lat": 24.5943848,
+        "lon": 73.6671273
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554851256,
+      "center": {
+        "lat": 24.5923992,
+        "lon": 73.6702187
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556461297,
+      "center": {
+        "lat": 24.5383883,
+        "lon": 73.6828395
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556461298,
+      "center": {
+        "lat": 24.5465489,
+        "lon": 73.6841175
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556461301,
+      "center": {
+        "lat": 24.5464981,
+        "lon": 73.6841307
+      },
+      "tags": {
+        "building": "yes",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 557489395,
+      "center": {
+        "lat": 24.6011008,
+        "lon": 73.6915089
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Sukhadia Circle",
+        "name:etymology:wikidata": "Q1942799"
+      }
+    },
+    {
+      "type": "way",
+      "id": 561003373,
+      "center": {
+        "lat": 24.5455027,
+        "lon": 73.7131749
+      },
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "Nikhileshwar Mahadev",
+        "addr:postcode": "313001",
+        "addr:street": "C Block, Sector 9",
+        "leisure": "park",
+        "name": "Nikhileshwar Mahadev Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 562941141,
+      "center": {
+        "lat": 24.5843025,
+        "lon": 73.6832608
+      },
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "302",
+        "addr:postcode": "313001",
+        "addr:street": "Purohito Ki Haveli",
+        "building": "yes",
+        "building:levels": "7",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Mewari Villa Hotel and Rooftop Restaurant Jalsa",
+        "operator": "R.Salim",
+        "rooms": "19",
+        "smoking": "no",
+        "tourism": "hotel",
+        "website": "https://www.mewarivilla.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 570844821,
+      "center": {
+        "lat": 24.5884801,
+        "lon": 73.6614738
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Mastan Baba Dargah and Masjid",
+        "religion": "shinto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 576958097,
+      "center": {
+        "lat": 24.58111,
+        "lon": 73.6591801
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Rimzim Vatika"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586466481,
+      "center": {
+        "lat": 24.5464113,
+        "lon": 73.7118172
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586466482,
+      "center": {
+        "lat": 24.5478278,
+        "lon": 73.7125157
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586466483,
+      "center": {
+        "lat": 24.5500789,
+        "lon": 73.7140988
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586466484,
+      "center": {
+        "lat": 24.5507537,
+        "lon": 73.7153144
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586466485,
+      "center": {
+        "lat": 24.5530131,
+        "lon": 73.7139227
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586466486,
+      "center": {
+        "lat": 24.5497125,
+        "lon": 73.7130237
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 589482921,
+      "center": {
+        "lat": 24.5873979,
+        "lon": 73.6661516
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 643274825,
+      "center": {
+        "lat": 24.5647568,
+        "lon": 73.6634539
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Golden Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 643274826,
+      "center": {
+        "lat": 24.5412497,
+        "lon": 73.7096748
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Satvik Paradise"
+      }
+    },
+    {
+      "type": "way",
+      "id": 643274827,
+      "center": {
+        "lat": 24.5443923,
+        "lon": 73.7102327
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 667026975,
+      "center": {
+        "lat": 24.6128312,
+        "lon": 73.6340874
+      },
+      "tags": {
+        "alt_name": "Sajjangarh WLS",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "name": "Sajjangarh Wildlife Sanctuary",
+        "protect_class": "4",
+        "wikidata": "Q65068086",
+        "wikipedia": "en:Sajjangarh Wildlife Sanctuary"
+      }
+    },
+    {
+      "type": "way",
+      "id": 670781183,
+      "center": {
+        "lat": 24.5978477,
+        "lon": 73.6793043
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Circuit House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 684433333,
+      "center": {
+        "lat": 24.735136,
+        "lon": 73.7163641
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "area": "yes",
+        "name": "Sahasra Bahu Temples",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706692575,
+      "center": {
+        "lat": 24.5460845,
+        "lon": 73.6863447
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706692576,
+      "center": {
+        "lat": 24.5445204,
+        "lon": 73.6859624
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706692577,
+      "center": {
+        "lat": 24.5440418,
+        "lon": 73.6858505
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Goverdhan Sagar Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706692578,
+      "center": {
+        "lat": 24.5447356,
+        "lon": 73.6861651
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Swarn Jayanti Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 706692585,
+      "center": {
+        "lat": 24.5356287,
+        "lon": 73.6796793
+      },
+      "tags": {
+        "leisure": "water_park",
+        "name": "Marvel Water Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 758366877,
+      "center": {
+        "lat": 24.5721072,
+        "lon": 73.6928633
+      },
+      "tags": {
+        "leisure": "garden",
+        "name": "Gulab Vatika - Rose Garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 758366879,
+      "center": {
+        "lat": 24.5733432,
+        "lon": 73.6918928
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2023-08-04",
+        "name": "Navlakha Hanuman Mandir",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 758366880,
+      "center": {
+        "lat": 24.5729173,
+        "lon": 73.6919659
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2023-08-04",
+        "name": "Mahadev Mandir",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 761751212,
+      "center": {
+        "lat": 24.6136837,
+        "lon": 73.7200512
+      },
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:country": "IN",
+        "addr:housenumber": "Plot No. 8 Nr. Mahila Police Thana",
+        "addr:postcode": "313001",
+        "addr:quarter": "Bhuwana",
+        "addr:street": "100 Feet Road Roop Nagar",
+        "brand": "Saagasa Hotels",
+        "building": "yes",
+        "name": "Hotel Yois Udaipur",
+        "tourism": "hotel",
+        "website": "https://www.saagasahotels.com/yois"
+      }
+    },
+    {
+      "type": "way",
+      "id": 769126551,
+      "center": {
+        "lat": 24.5939183,
+        "lon": 73.7697237
+      },
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "Plot No.10 Nr. Maa Gayatri Hospital",
+        "addr:postcode": "313003",
+        "addr:street": "Airport Road",
+        "addr:suburb": "Pratapnagar",
+        "brand": "Traavista",
+        "building": "yes",
+        "name": "Valley View",
+        "tourism": "hotel",
+        "website": "https://www.traavista.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 771677065,
+      "center": {
+        "lat": 24.6211402,
+        "lon": 73.8067482
+      },
+      "tags": {
+        "access": "residents",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Aahar"
+      }
+    },
+    {
+      "type": "way",
+      "id": 784851206,
+      "center": {
+        "lat": 24.5763347,
+        "lon": 73.6839968
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 784851226,
+      "center": {
+        "lat": 24.5770387,
+        "lon": 73.6840299
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 785572475,
+      "center": {
+        "lat": 24.5675763,
+        "lon": 73.6780201
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824084985,
+      "center": {
+        "lat": 24.5703401,
+        "lon": 73.6607098
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824084986,
+      "center": {
+        "lat": 24.570205,
+        "lon": 73.6607154
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 833902122,
+      "center": {
+        "lat": 24.5541173,
+        "lon": 73.6965706
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 869009229,
+      "center": {
+        "lat": 24.5792807,
+        "lon": 73.6604214
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 910027251,
+      "center": {
+        "lat": 24.5402193,
+        "lon": 73.696458
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 910029741,
+      "center": {
+        "lat": 24.5386076,
+        "lon": 73.7006775
+      },
+      "tags": {
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963983411,
+      "center": {
+        "lat": 24.559106,
+        "lon": 73.6955737
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mahakaleshwar Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963983413,
+      "center": {
+        "lat": 24.561084,
+        "lon": 73.6936917
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Paras Mahal",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963983420,
+      "center": {
+        "lat": 24.5528476,
+        "lon": 73.6966676
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963983423,
+      "center": {
+        "lat": 24.5537321,
+        "lon": 73.6942151
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963983424,
+      "center": {
+        "lat": 24.5536367,
+        "lon": 73.6941883
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963983428,
+      "center": {
+        "lat": 24.5558283,
+        "lon": 73.6952458
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Ram Mandir",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1101576609,
+      "center": {
+        "lat": 24.5830152,
+        "lon": 73.669918
+      },
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:housenumber": "A2",
+        "addr:postcode": "313001",
+        "addr:street": "Haridas ji magri",
+        "building": "yes",
+        "email": "bawaudaipur@bawahotels.com",
+        "internet_access": "wlan",
+        "name": "Anetos ( Bawa )",
+        "note": "Swimming Pool : Yes",
+        "opening_hours": "24/7",
+        "phone": "+91 7045063636",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "tourism": "hotel",
+        "website": "https://www.bawahotels.com/bawa-udaipur/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122204281,
+      "center": {
+        "lat": 24.5858073,
+        "lon": 73.6669362
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Mulla Talai Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1173042523,
+      "center": {
+        "lat": 24.5886007,
+        "lon": 73.6827855
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Brahma Niwas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1244585540,
+      "center": {
+        "lat": 24.6201666,
+        "lon": 73.5616753
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ubeshwar Mahadev Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340811034,
+      "center": {
+        "lat": 24.5651187,
+        "lon": 73.6893252
+      },
+      "tags": {
+        "historic": "fort"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350368231,
+      "center": {
+        "lat": 24.5715833,
+        "lon": 73.6858304
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350396495,
+      "center": {
+        "lat": 24.5761061,
+        "lon": 73.6995926
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350396496,
+      "center": {
+        "lat": 24.5761055,
+        "lon": 73.699304
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "city_gate",
+        "name": "Udaipol"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350440039,
+      "center": {
+        "lat": 24.5853744,
+        "lon": 73.6950442
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "city_gate",
+        "name": "Delhi Gate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350440049,
+      "center": {
+        "lat": 24.5794731,
+        "lon": 73.6962263
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350440050,
+      "center": {
+        "lat": 24.5794754,
+        "lon": 73.6960841
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "city_gate",
+        "name": "Suraj Pol (Sun Gate)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350440053,
+      "center": {
+        "lat": 24.5794458,
+        "lon": 73.696895
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350449883,
+      "center": {
+        "lat": 24.5820093,
+        "lon": 73.6972515
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350449884,
+      "center": {
+        "lat": 24.5819942,
+        "lon": 73.697572
+      },
+      "tags": {
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350449885,
+      "center": {
+        "lat": 24.5820427,
+        "lon": 73.6969802
+      },
+      "tags": {
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360412833,
+      "center": {
+        "lat": 24.5698439,
+        "lon": 73.7224479
+      },
+      "tags": {
+        "building": "yes",
+        "name": "hansa palace",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360414109,
+      "center": {
+        "lat": 24.5675835,
+        "lon": 73.6780685
+      },
+      "tags": {
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "jagmandir palace"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360630720,
+      "center": {
+        "lat": 24.571355,
+        "lon": 73.7366481
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "hanuman park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360631349,
+      "center": {
+        "lat": 24.5693257,
+        "lon": 73.7360281
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "omkareshwarya temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360632678,
+      "center": {
+        "lat": 24.5699997,
+        "lon": 73.7330884
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "pashupati nath temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360636501,
+      "center": {
+        "lat": 24.5699518,
+        "lon": 73.731441
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "bheruji bhavji ka devra",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360637761,
+      "center": {
+        "lat": 24.5709876,
+        "lon": 73.7298414
+      },
+      "tags": {
+        "leisure": "garden",
+        "name": "ganpat vatika"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360637962,
+      "center": {
+        "lat": 24.5724153,
+        "lon": 73.7290561
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "shiv mandir",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360641839,
+      "center": {
+        "lat": 24.5649536,
+        "lon": 73.721839
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "vasant vihar park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360643191,
+      "center": {
+        "lat": 24.5657342,
+        "lon": 73.7254583
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "mangleshwar mahadev mandir",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360645147,
+      "center": {
+        "lat": 24.5644861,
+        "lon": 73.73087
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "shiv temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360645375,
+      "center": {
+        "lat": 24.5628503,
+        "lon": 73.7294022
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "mateshwari 2 restaurant"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360681757,
+      "center": {
+        "lat": 24.5582744,
+        "lon": 73.7244204
+      },
+      "tags": {
+        "leisure": "garden",
+        "name": "nand vatika"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360683150,
+      "center": {
+        "lat": 24.5593445,
+        "lon": 73.7233312
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "sai baba temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360686515,
+      "center": {
+        "lat": 24.5602757,
+        "lon": 73.717632
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "hanuman mandir",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360688017,
+      "center": {
+        "lat": 24.5638972,
+        "lon": 73.7225653
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "udai park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434390178,
+      "center": {
+        "lat": 24.5907724,
+        "lon": 73.7742691
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434390179,
+      "center": {
+        "lat": 24.5908595,
+        "lon": 73.7748217
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434390180,
+      "center": {
+        "lat": 24.5904849,
+        "lon": 73.7752598
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1434390185,
+      "center": {
+        "lat": 24.5902356,
+        "lon": 73.7667378
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1435911544,
+      "center": {
+        "lat": 24.5207697,
+        "lon": 73.7293547
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1436919680,
+      "center": {
+        "lat": 24.5939166,
+        "lon": 73.7289492
+      },
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1436919686,
+      "center": {
+        "lat": 24.5939109,
+        "lon": 73.7289478
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1446476713,
+      "center": {
+        "lat": 24.5915244,
+        "lon": 73.6723745
+      },
+      "tags": {
+        "addr:city": "Udaipur, Rajasthan",
+        "addr:housenumber": "758/280",
+        "addr:postcode": "313001",
+        "addr:street": "Rani Road, Fateh Sagar Lake",
+        "building": "yes",
+        "email": "admin@hotelpannavilas.com",
+        "name": "Panna Vilas",
+        "tourism": "hotel",
+        "website": "https://www.hotelpannavilas.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1463151084,
+      "center": {
+        "lat": 24.5729017,
+        "lon": 73.7230511
+      },
+      "tags": {
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1463371101,
+      "center": {
+        "lat": 24.6015989,
+        "lon": 73.6895803
+      },
+      "tags": {
+        "building": "residential",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1463371106,
+      "center": {
+        "lat": 24.6026432,
+        "lon": 73.6891102
+      },
+      "tags": {
+        "building": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1481315955,
+      "center": {
+        "lat": 24.6252811,
+        "lon": 73.6715656
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "mobile": "+91-9468545516",
+        "museum": "history",
+        "name": "Pratap Gaurav Kendra Rashtriya Tirth",
+        "opening_hours": "Mo-Su 09:30-18:00",
+        "tourism": "museum",
+        "website": "https://pratapgauravkendra.org/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1544754822,
+      "center": {
+        "lat": 24.5445751,
+        "lon": 73.6985744
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1544859946,
+      "center": {
+        "lat": 24.6181095,
+        "lon": 73.7246614
+      },
+      "tags": {
+        "addr:city": "udaipur",
+        "addr:district": "Udaipur",
+        "addr:postcode": "313001",
+        "addr:street": "chitrakoot nagar, bhuwana",
+        "dog": "yes",
+        "leisure": "park",
+        "name": "Luv Kush Park",
+        "opening_hours": "24/7",
+        "operator": "common",
+        "operator:type": "community"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7621887,
+      "center": {
+        "lat": 24.5034805,
+        "lon": 73.6591
+      },
+      "tags": {
+        "building": "yes",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10910637,
+      "center": {
+        "lat": 24.5741791,
+        "lon": 73.6838883
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Shiv Niwas Palace",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "wikidata": "Q7499209",
+        "wikipedia": "en:Shiv Niwas Palace"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10910639,
+      "center": {
+        "lat": 24.5769045,
+        "lon": 73.6832086
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "yes",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10910640,
+      "center": {
+        "lat": 24.5796615,
+        "lon": 73.6824074
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "castle",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

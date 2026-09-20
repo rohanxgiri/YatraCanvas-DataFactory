@@ -1,0 +1,101 @@
+{
+  "schema_version": "3.0",
+  "city_pack_version": "v3",
+  "city_id": "udaipur",
+  "city_name": "Udaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "generated_at": "2026-09-19T16:00:00.415523+00:00",
+  "pipeline_health": "PASS",
+  "data_quality": "WARN",
+  "source_coverage": "PASS",
+  "source_versions": {
+    "wikivoyage": "113",
+    "wikidata": "90",
+    "openstreetmap": "516",
+    "overture": "14114"
+  },
+  "counts": {
+    "total_raw_candidates": 14833,
+    "accepted": 2861,
+    "rejected": 7066,
+    "quarantined": 4384,
+    "duplicate_merges": 522,
+    "with_images": 44,
+    "with_opening_hours": 38,
+    "with_wikidata": 80,
+    "category_conflicts": 44696,
+    "entity_conflicts": 0,
+    "alias_conflicts": 0,
+    "image_conflicts": 0,
+    "coordinate_conflicts": 199,
+    "by_tier": {
+      "core_destination": 63,
+      "support": 1117,
+      "recommended": 508,
+      "discovery": 1173
+    },
+    "by_tier_stats": {
+      "core_destination": {
+        "count": 63,
+        "with_wikidata": 53,
+        "with_wikipedia": 39,
+        "with_image": 44,
+        "with_hours": 6,
+        "with_website": 28,
+        "multi_source": 34
+      },
+      "recommended": {
+        "count": 508,
+        "with_wikidata": 0,
+        "with_wikipedia": 0,
+        "with_image": 0,
+        "with_hours": 27,
+        "with_website": 448,
+        "multi_source": 115
+      },
+      "discovery": {
+        "count": 1173,
+        "with_wikidata": 0,
+        "with_wikipedia": 0,
+        "with_image": 0,
+        "with_hours": 0,
+        "with_website": 1170,
+        "multi_source": 4
+      },
+      "support": {
+        "count": 1117,
+        "with_wikidata": 27,
+        "with_wikipedia": 0,
+        "with_image": 0,
+        "with_hours": 5,
+        "with_website": 1083,
+        "multi_source": 158
+      }
+    },
+    "by_category": {
+      "heritage": 68,
+      "religious": 42,
+      "nature": 19,
+      "park": 22,
+      "museum": 17,
+      "hotel": 1110,
+      "food": 316,
+      "cafe": 69,
+      "shopping": 94,
+      "arts_culture": 19,
+      "experience": 1078,
+      "transport": 7
+    }
+  },
+  "checksums": {
+    "city.json": "cf1d7a0f287cebf20537d981c0956b0f9f4d7f51d1e6d4304e62bcbe6641cb47",
+    "places.json": "7f283f7411afc4ce5d01fd58f83d0b8db31c72638dde480ccbf635c29ffd5568",
+    "places.jsonl": "6d100572f00a769b8a035f9f91e79035564d066c9041d91208c1aec3bd5d7d4f",
+    "places.parquet": "1106e20a7c2f7a4b25b4461cb0ee2d38ea198b8d3ed96b01c6fb73c78db1731b",
+    "image_manifest.json": "1dc2177146ad0c0239675c79af4b22981cc7d6d527cf8ce402e93ff932252dd3",
+    "source_manifest.json": "cacef17858307c5fde1d502cc6c5d1ced3f0347a80320e603a765e0c8e8a20d4",
+    "license_manifest.json": "ca96986da832c97a64b35585bf73b8e29dac70466f7089e7c5863a953ee6857d",
+    "yatracanvas.db": "2eb98652b5886ef70100238121c0433073316996b2b186cd372cbc98b48ecc3f"
+  }
+}

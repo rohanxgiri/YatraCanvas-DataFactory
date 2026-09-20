@@ -1,0 +1,35 @@
+{
+  "id": "varanasi",
+  "name": "Varanasi",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "iso_country": "IN",
+  "center": [
+    25.31668,
+    83.01041
+  ],
+  "bbox": [
+    82.89041,
+    25.19668,
+    83.13041,
+    25.43668
+  ],
+  "alternate_names": [
+    "Banaras",
+    "Banares",
+    "Banāras",
+    "Benares",
+    "Benarés",
+    "Bənarəs",
+    "Kashi",
+    "Kasi",
+    "Kāsi",
+    "VNS"
+  ],
+  "timezone": "Asia/Kolkata",
+  "osm_place_id": null,
+  "geonames_id": 1253405,
+  "wikidata_id": null,
+  "dataset_version": "2.0.0",
+  "generated_at": "2026-09-19T16:00:16.260413+00:00"
+}

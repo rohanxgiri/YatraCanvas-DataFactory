@@ -1,0 +1,35 @@
+{
+  "id": "udaipur",
+  "name": "Udaipur",
+  "state": "Rajasthan",
+  "country": "India",
+  "iso_country": "IN",
+  "center": [
+    24.58584,
+    73.71346
+  ],
+  "bbox": [
+    73.63346,
+    24.50584,
+    73.79346,
+    24.66584
+  ],
+  "alternate_names": [
+    "Oodeypore",
+    "UDR",
+    "Udajpur",
+    "adے pwr",
+    "awdy pwr",
+    "udaipuleu",
+    "udaipura",
+    "udaipuru",
+    "udayapur",
+    "udayapura"
+  ],
+  "timezone": "Asia/Kolkata",
+  "osm_place_id": null,
+  "geonames_id": 1253986,
+  "wikidata_id": null,
+  "dataset_version": "2.0.0",
+  "generated_at": "2026-09-19T15:57:56.837553+00:00"
+}
