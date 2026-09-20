@@ -1,0 +1,26 @@
+{
+  "id": "manali",
+  "name": "Manali",
+  "state": "Tamil Nadu",
+  "country": "India",
+  "iso_country": "IN",
+  "center": [
+    13.16667,
+    80.26667
+  ],
+  "bbox": [
+    80.18667,
+    13.08667,
+    80.34667,
+    13.24667
+  ],
+  "alternate_names": [
+    "மணலி"
+  ],
+  "timezone": "Asia/Kolkata",
+  "osm_place_id": null,
+  "geonames_id": 1263968,
+  "wikidata_id": null,
+  "dataset_version": "2.0.0",
+  "generated_at": "2026-09-19T18:52:27.320936+00:00"
+}

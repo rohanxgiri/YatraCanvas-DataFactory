@@ -1,0 +1,6 @@
+{
+  "status": "INVALID_CITY_RESOLUTION",
+  "reason": "Requested Manali, Himachal Pradesh, India but resolved to Manali, Tamil Nadu, India due to unconstrained state filter in GeoNames cities15000.",
+  "quarantined_at": "2026-09-20T01:05:00Z",
+  "valid_replacement_target": "releases/india/himachal_pradesh/manali/v3/"
+}

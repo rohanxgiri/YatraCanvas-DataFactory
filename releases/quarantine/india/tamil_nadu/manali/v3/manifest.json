@@ -1,0 +1,103 @@
+{
+  "schema_version": "3.0",
+  "city_pack_version": "v3",
+  "city_id": "manali",
+  "city_name": "Manali",
+  "state": "Tamil Nadu",
+  "country": "India",
+  "generated_at": "2026-09-19T18:55:28.299962+00:00",
+  "pipeline_health": "PASS",
+  "data_quality": "WARN",
+  "source_coverage": "PASS",
+  "source_versions": {
+    "wikivoyage": "62",
+    "wikidata": "101",
+    "openstreetmap": "473",
+    "overture": "30286"
+  },
+  "counts": {
+    "total_raw_candidates": 30922,
+    "accepted": 3758,
+    "rejected": 17838,
+    "quarantined": 8962,
+    "duplicate_merges": 363,
+    "with_images": 78,
+    "with_opening_hours": 25,
+    "with_wikidata": 109,
+    "category_conflicts": 75816,
+    "entity_conflicts": 0,
+    "alias_conflicts": 0,
+    "image_conflicts": 0,
+    "coordinate_conflicts": 911,
+    "by_tier": {
+      "core_destination": 78,
+      "support": 294,
+      "discovery": 2677,
+      "recommended": 709
+    },
+    "by_tier_stats": {
+      "core_destination": {
+        "count": 78,
+        "with_wikidata": 77,
+        "with_wikipedia": 72,
+        "with_image": 53,
+        "with_hours": 0,
+        "with_website": 28,
+        "multi_source": 17
+      },
+      "recommended": {
+        "count": 709,
+        "with_wikidata": 2,
+        "with_wikipedia": 2,
+        "with_image": 1,
+        "with_hours": 18,
+        "with_website": 612,
+        "multi_source": 166
+      },
+      "discovery": {
+        "count": 2677,
+        "with_wikidata": 10,
+        "with_wikipedia": 10,
+        "with_image": 5,
+        "with_hours": 1,
+        "with_website": 2657,
+        "multi_source": 13
+      },
+      "support": {
+        "count": 294,
+        "with_wikidata": 20,
+        "with_wikipedia": 19,
+        "with_image": 19,
+        "with_hours": 6,
+        "with_website": 267,
+        "multi_source": 30
+      }
+    },
+    "by_category": {
+      "heritage": 82,
+      "museum": 5,
+      "religious": 164,
+      "transport": 49,
+      "park": 16,
+      "nature": 4,
+      "experience": 2612,
+      "hotel": 245,
+      "food": 354,
+      "cafe": 38,
+      "entertainment": 5,
+      "viewpoint": 1,
+      "shopping": 172,
+      "arts_culture": 11
+    }
+  },
+  "checksums": {
+    "city.json": "ae38ee67d12e5c1653921f5948574d897fab1548998f1e462dc581d591c9301d",
+    "places.json": "3a6e0399614bffcb3aa6ae38493d5f69514886d98dcab42cc1ddf37a1125051b",
+    "places.jsonl": "cb6e0d9a5ac87b3b669bd2027641d9da4af26fc12cf729ca14b1ac047191b6fb",
+    "places.parquet": "536255924666a5469c6f82520348a9d8b50a3c13912f4abffa01eb1e4cc14b99",
+    "image_manifest.json": "5ee4738756692fda7653067a56bc8f80c91c0ca79e60c9815f842e2d9eeeac6d",
+    "source_manifest.json": "7f5596727b05094efa928868ca4ccef6822acccdf82ec1a58ea5e700a875d9c2",
+    "license_manifest.json": "ca96986da832c97a64b35585bf73b8e29dac70466f7089e7c5863a953ee6857d",
+    "yatracanvas.db": "5fa32784015c98593db610d78e1e7bfaee6f31e8deb37d38eb1c526167206d84"
+  }
+}
