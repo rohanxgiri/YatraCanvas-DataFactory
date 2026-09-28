@@ -89,8 +89,8 @@ def run_release(
             # Copy media files to release folder
             src_media = settings.media_dir / r["canonical_id"]
             dst_media = release_images_dir / r["canonical_id"]
-            if src_media.exists() and not dst_media.exists():
-                shutil.copytree(src_media, dst_media)
+            if src_media.exists():
+                shutil.copytree(src_media, dst_media, dirs_exist_ok=True)
 
         for g in r.get("gallery_metadata", []):
             gallery_imgs.append(ImageMetadata(**g))

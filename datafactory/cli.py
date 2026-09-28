@@ -33,6 +33,12 @@ from .pipeline.classify import run_classify
 from .pipeline.deduplicate import run_deduplicate
 from .pipeline.enrich import run_enrich
 from .pipeline.images import run_process_images
+from .pipeline.curation import (
+    CurationApplicationError,
+    apply_human_curation,
+    reapply_human_overrides,
+    write_reconciliation,
+)
 from .pipeline.score import run_score
 from .pipeline.validate import run_validate_and_quarantine, validate_release_package
 from .pipeline.release import run_release
@@ -112,10 +118,47 @@ def build(
         refresh_images=refresh_images,
     )
 
+    # Human curation is durable input, not a patch to generated release output.
+    # Apply it after provider refresh and before scoring, then restore authoritative
+    # human fields after generated scoring defaults have run.
+    canonical_city_id = str(city_meta.id or city_slug)
+    canonical_curation_dir = settings.curated_dir / canonical_city_id
+    legacy_slug_dir = settings.curated_dir / city_slug
+    curation_dir = (
+        canonical_curation_dir
+        if canonical_curation_dir.is_dir() or not legacy_slug_dir.is_dir()
+        else legacy_slug_dir
+    )
+    try:
+        curated_places, images_manifest, curation_report = apply_human_curation(
+            places_with_images,
+            city_id=canonical_city_id,
+            curation_dir=curation_dir,
+            media_dir=settings.media_dir,
+            images_manifest=images_manifest,
+        )
+    except CurationApplicationError as exc:
+        if exc.report is not None:
+            write_reconciliation(
+                staging_dir / "curation_reconciliation.json",
+                exc.report,
+                curation_dir=curation_dir,
+            )
+        raise
+    write_reconciliation(
+        staging_dir / "curation_reconciliation.json",
+        curation_report,
+        curation_dir=curation_dir,
+    )
+
     # Stage 12: Score Quality, Travel Relevance, Prominence, and Planning (with Core De-inflation)
     scored_places = run_score(
-        places=places_with_images,
+        places=curated_places,
         city_bbox=city_meta.bbox,
+    )
+    scored_places = reapply_human_overrides(
+        scored_places,
+        curation_dir=curation_dir,
     )
 
     # Stage 13: Semantic Validation and Quarantine

@@ -10,9 +10,10 @@ Given an input city such as `Jaipur, Rajasthan, India`, DataFactory automaticall
 5. Deduplicates cross-provider entries using spatial grid indexing, coordinate proximity, and fuzzy string matching.
 6. Enriches high-priority attractions with Wikidata entities, Wikipedia articles, and structured metadata.
 7. Retrieves verified Wikimedia Commons imagery with strict license checks (CC / Public Domain) and converts to WebP formats (`primary.webp`, `thumbnail.webp`).
-8. Computes quality confidence scores and planning heuristics (recommended visit duration, tourism priority).
-9. Quarantines low-quality, ambiguous, or out-of-boundary records.
-10. Validates dataset integrity and exports JSON, JSONL, Parquet, SQLite (`yatracanvas.db`), checksums, and an interactive HTML quality report.
+8. Reconciles durable CityPack Lab additions, exact-ID overrides, exclusions, and attributed media from `data/curated/<city_id>/`; malformed, conflicting, or orphaned work stops the build.
+9. Computes quality confidence scores and planning heuristics (recommended visit duration, tourism priority), then restores authoritative human fields.
+10. Quarantines low-quality, ambiguous, or out-of-boundary records.
+11. Validates dataset integrity and exports JSON, JSONL, Parquet, SQLite (`yatracanvas.db`), checksums, and an interactive HTML quality report.
 
 ---
 
@@ -98,7 +99,8 @@ YatraCanvas-DataFactory/
 │   │       ├── osm/places_raw.json
 │   │       └── city_resolved.json
 │   ├── cache/                # Disk cache for HTTP and API responses
-│   ├── staging/              # Staging logs: rejected_places.jsonl, duplicates.jsonl, quarantine/
+│   ├── curated/              # Durable CityPack Lab curation and referenced media by city ID
+│   ├── staging/              # Rejections, duplicates, quarantine, and curation reconciliation
 │   └── media/                # Processed WebP images
 │
 ├── releases/                 # Final versioned City Packs
@@ -148,4 +150,4 @@ Run the complete test suite with `pytest`:
 ```bash
 pytest -v
 ```
-Tests cover schema validation, coordinate geometry, taxonomy mapping, rejection filters, spatial deduplication, quarantine logic, SQLite queries, and manifest checksums.
+Tests cover schema validation, coordinate geometry, taxonomy mapping, rejection filters, spatial deduplication, durable curation precedence, quarantine logic, SQLite queries, and manifest checksums.
