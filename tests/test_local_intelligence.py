@@ -7,6 +7,7 @@ from datafactory.local_intelligence.config import LocalConfig
 from datafactory.local_intelligence.duplicates import DuplicateIndex
 from datafactory.local_intelligence.hours import validate_hours
 from datafactory.local_intelligence.media import LocalMediaRanker, LABELS
+from datafactory.local_intelligence.media import SigLIPBackend as ActualSigLIPBackend
 from datafactory.local_intelligence.text import LocalTextSimilarity
 from datafactory.models.media_candidate import MediaCandidate
 from datafactory.pipeline.media_assurance import MediaAssurance
@@ -212,3 +213,91 @@ def test_missing_javascript_parser_is_safe(monkeypatch):
     monkeypatch.setattr(module.shutil, "which", lambda name: None)
     assert validate_hours("24/7", "javascript")["status"] == "UNAVAILABLE"
     assert validate_hours("24/7", "python")["valid"]
+
+
+def test_contradictory_entity_cannot_be_overridden_by_siglip(tmp_path, sample_place, sample_city_metadata):
+    class NoCloud:
+        def analyze(self, *args, **kwargs):
+            raise AssertionError("Contradictory entity must be rejected before cloud")
+    media = MediaAssurance(sample_city_metadata.model_dump(), NoCloud(), tmp_path)
+    bad = candidate(related_entity_id="Q999999", match_method="wikidata_p18", source_confidence=.99)
+    result = media.assess(sample_place.model_dump(), bad, photo(), local={"relevance":1.,"confidence":"HIGH"})
+    assert result["action"] == "REJECT" and result["reason_codes"] == ["CONTRADICTORY_ENTITY_EVIDENCE"]
+
+
+def test_calibrated_ranking_margin_is_not_identity_verification(tmp_path, sample_place, sample_city_metadata):
+    paths=[]
+    for i in range(2):
+        p=tmp_path/f"{i}.png"; p.write_bytes(photo(variant=i)); paths.append((candidate(title=f"{i}.jpg"),p))
+    cfg=LocalConfig(local_media_min_relevance=.05,local_media_relevance_threshold=.15,local_media_ambiguity_margin=.05)
+    ranked=LocalMediaRanker(tmp_path/"cache",cfg,Backend()).rank(sample_place.model_dump(),sample_city_metadata.model_dump(),paths)
+    assert ranked[0]["local"]["confidence"]=="HIGH" and ranked[0]["local"]["supporting_evidence_only"]
+    assert ranked[0]["local"]["top_margin"]==pytest.approx(.1)
+
+
+def test_siglip_backend_config_cache_and_tensor_interface(tmp_path, monkeypatch):
+    import sys
+    from types import SimpleNamespace
+    from contextlib import nullcontext
+    calls=[]
+    class Tensor:
+        def to(self,device): return self
+        def sigmoid(self): return self
+        def cpu(self): return self
+        def tolist(self): return [[.8,.1]]
+    class Processor:
+        @classmethod
+        def from_pretrained(cls,model,**kwargs):
+            calls.append(("processor",model,kwargs)); return cls()
+        def __call__(self,**kwargs):
+            assert kwargs["padding"]=="max_length" and kwargs["return_tensors"]=="pt"
+            return {"pixel_values":Tensor()}
+    class Model:
+        @classmethod
+        def from_pretrained(cls,model,**kwargs):
+            calls.append(("model",model,kwargs)); return cls()
+        def to(self,device): assert device=="cpu"; return self
+        def eval(self): return self
+        def __call__(self,**kwargs): return SimpleNamespace(logits_per_image=Tensor())
+    monkeypatch.setitem(sys.modules,"torch",SimpleNamespace(set_num_threads=lambda n:None,inference_mode=nullcontext))
+    monkeypatch.setitem(sys.modules,"transformers",SimpleNamespace(AutoModel=Model,AutoProcessor=Processor))
+    cfg=LocalConfig(local_media_model="fixture/model",local_media_revision="fixture-revision",local_media_model_cache=tmp_path,local_media_allow_download=False)
+    backend=ActualSigLIPBackend(cfg)
+    assert backend.score([Image.new("RGB",(224,224))],["a","b"])==[[.8,.1]]
+    assert all(c[1]=="fixture/model" and c[2]["revision"]=="fixture-revision" and c[2]["local_files_only"] and not c[2]["trust_remote_code"] and c[2]["cache_dir"]==str(tmp_path) for c in calls)
+    assert calls[1][2]["use_safetensors"]
+
+
+def test_changed_model_does_not_reuse_calibrated_thresholds(tmp_path, sample_place, sample_city_metadata):
+    path=tmp_path/"a.png";path.write_bytes(photo())
+    cfg=LocalConfig(local_media_model="another/model")
+    result=LocalMediaRanker(tmp_path/"cache",cfg,Backend()).rank(sample_place.model_dump(),sample_city_metadata.model_dump(),[(candidate(),path)])
+    assert result[0]["local"]["confidence"]=="UNCALIBRATED"
+
+
+def test_general_usability_cannot_hide_required_photo_gap(tmp_path, sample_place, sample_city_metadata):
+    import copy
+    from datafactory.pipeline.usability import usability
+    place=sample_place.model_dump(mode="json")
+    for field in ("local_path","thumbnail_path"):
+        asset=tmp_path/place["images"]["primary"][field];asset.parent.mkdir(parents=True,exist_ok=True);asset.write_bytes(photo())
+    places=[]
+    for i in range(100):
+        p=copy.deepcopy(place);p["id"]=f"fixture_{i}";p["external_ids"]["wikidata_id"]=None;p["tier"]="discovery";places.append(p)
+    places[-1]["tier"]="core_destination";places[-1]["images"]["primary"]=None
+    result=usability(places,sample_city_metadata.model_dump(),tmp_path)
+    assert result["GENERAL_USABILITY"]==99 and result["REAL_REQUIRED_MEDIA_COVERAGE"]==0
+    assert not result["SOURCE_DATA_READY"] and result["critical_blockers"]["CORE_MEDIA_UNRESOLVED"]==1
+
+
+def test_prepare_entity_contradiction_skips_model_and_cloud(tmp_path, sample_place, sample_city_metadata):
+    class NoModel:
+        def score(self,*args): raise AssertionError("Contradictory source skips SigLIP")
+    class NoCloud:
+        def analyze(self,*args,**kwargs): raise AssertionError("Contradictory source skips cloud")
+    class CachedMedia(MediaAssurance):
+        def download(self,candidate): return photo()
+    ranker=LocalMediaRanker(tmp_path/"scores",backend=NoModel())
+    media=CachedMedia(sample_city_metadata.model_dump(),NoCloud(),tmp_path,ranker=ranker)
+    ready,rejected=media.prepare(sample_place.model_dump(),[candidate(related_entity_id="Q999999")])
+    assert not ready and rejected[0]["reason_codes"]==["CONTRADICTORY_ENTITY_EVIDENCE"]

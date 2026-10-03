@@ -1,0 +1,309 @@
+{
+  "fixture_only": true,
+  "fixture_root": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\scratch\\fixture-roundtrip-sfh0eevl",
+  "export": {
+    "city": {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "handoff_id": "handoff_2a6f0ff2bb48f294c752a747",
+    "total": 3,
+    "filtered_total_before_limit": 3,
+    "remaining_in_filter": 0,
+    "actionable": 3,
+    "deferred_optional": 0,
+    "do_not_research": 0,
+    "by_type": {
+      "OPENING_HOURS": 1,
+      "REAL_PRIMARY_IMAGE": 1,
+      "WEBSITE": 0,
+      "DESCRIPTION": 1,
+      "COORDINATE_RESEARCH": 0,
+      "IDENTITY_RESEARCH": 0
+    },
+    "by_priority": {
+      "P0": 1,
+      "P1": 0,
+      "P2": 2,
+      "P3": 0,
+      "P4": 0
+    },
+    "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\scratch\\fixture-roundtrip-sfh0eevl\\handoff",
+    "zero_candidate_media_tasks": 1
+  },
+  "dry_run": {
+    "schema_version": "1.0",
+    "handoff_id": "handoff_2a6f0ff2bb48f294c752a747",
+    "input_sha256": "3f6cfacf71737cd7dc7699f08227a32ba19f61774d16421f7fd57bbe1a643dab",
+    "imported_at": "2026-10-03T15:01:21.156816+00:00",
+    "mode": "DRY_RUN",
+    "city": {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "source_pack": "india/rajasthan/jaipur/v3",
+    "decisions": [
+      {
+        "task_id": "research_863f17b51c16f18833a47391",
+        "place_id": "fixture_venue",
+        "type": "OPENING_HOURS",
+        "sources": [
+          {
+            "url": "https://fixture-venue.example",
+            "source_id": null,
+            "source_name": "Official venue",
+            "retrieved_at": "2026-10-03T15:01:13.663779+00:00",
+            "source_text": "Mo-Sa 09:00-17:00; Su off",
+            "quality": "OFFICIAL",
+            "confidence": 0.95
+          }
+        ],
+        "action": "AUTO_APPLY",
+        "field": "opening_hours",
+        "value": {
+          "raw": "Mo-Sa 09:00-17:00; Su off",
+          "normalized": "Mo-Sa 09:00-17:00; Su off",
+          "source": "Official venue",
+          "retrieved_at": "2026-10-03T15:01:13.663779+00:00",
+          "confidence": 0.95,
+          "verified": true,
+          "conflicts": []
+        },
+        "confidence": 0.95,
+        "reason_codes": [
+          "SOURCE_GROUNDED_LOCAL_VALIDATION"
+        ]
+      },
+      {
+        "task_id": "research_cc2fedad2cecec4f965cd281",
+        "place_id": "fixture_venue",
+        "type": "REAL_PRIMARY_IMAGE",
+        "sources": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Garden.jpg",
+            "source_id": null,
+            "source_name": "Wikimedia Commons",
+            "retrieved_at": "2026-10-03T15:01:13.674214+00:00",
+            "source_text": "Garden photograph",
+            "quality": "CURATED_REFERENCE",
+            "confidence": 0.85
+          }
+        ],
+        "action": "REVIEW",
+        "reason_codes": [
+          "MEDIA_VERIFICATION_REQUIRED"
+        ],
+        "checks": {
+          "accepted": true,
+          "reason_codes": [],
+          "sha256": "4503d926c86a2e5c983909629f4493bc9c990314677a31bba1a279308bee9920",
+          "dimensions": [
+            800,
+            600
+          ]
+        },
+        "local": {
+          "status": "UNAVAILABLE"
+        }
+      }
+    ],
+    "summary": {
+      "tasks_supplied": 2,
+      "matched": 2,
+      "valid": 2,
+      "auto_applicable": 1,
+      "review": 1,
+      "rejected": 0,
+      "missing_pois": 0,
+      "invalid_sources": 0,
+      "invalid_schedules": 0,
+      "media_requiring_verification": 1,
+      "applied": 0,
+      "unresolved": 0,
+      "accepted": 1
+    },
+    "ai_usage": {
+      "AI_MODE": "FREE_ONLY",
+      "stats": {
+        "calls": 0,
+        "groq_calls": 0,
+        "gemini_calls": 0
+      },
+      "paid_providers_invoked": 0,
+      "paid_feature_calls": 0
+    },
+    "local_intelligence": {
+      "groq_calls": 0,
+      "gemini_calls": 0,
+      "cloud_verification_jobs": 1,
+      "ranker": {
+        "failures": 1
+      }
+    }
+  },
+  "apply": {
+    "schema_version": "1.0",
+    "handoff_id": "handoff_2a6f0ff2bb48f294c752a747",
+    "input_sha256": "3f6cfacf71737cd7dc7699f08227a32ba19f61774d16421f7fd57bbe1a643dab",
+    "imported_at": "2026-10-03T15:01:21.251049+00:00",
+    "mode": "APPLY",
+    "city": {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "source_pack": "india/rajasthan/jaipur/v3",
+    "decisions": [
+      {
+        "task_id": "research_863f17b51c16f18833a47391",
+        "place_id": "fixture_venue",
+        "type": "OPENING_HOURS",
+        "sources": [
+          {
+            "url": "https://fixture-venue.example",
+            "source_id": null,
+            "source_name": "Official venue",
+            "retrieved_at": "2026-10-03T15:01:13.663779+00:00",
+            "source_text": "Mo-Sa 09:00-17:00; Su off",
+            "quality": "OFFICIAL",
+            "confidence": 0.95
+          }
+        ],
+        "action": "AUTO_APPLY",
+        "field": "opening_hours",
+        "value": {
+          "raw": "Mo-Sa 09:00-17:00; Su off",
+          "normalized": "Mo-Sa 09:00-17:00; Su off",
+          "source": "Official venue",
+          "retrieved_at": "2026-10-03T15:01:13.663779+00:00",
+          "confidence": 0.95,
+          "verified": true,
+          "conflicts": []
+        },
+        "confidence": 0.95,
+        "reason_codes": [
+          "SOURCE_GROUNDED_LOCAL_VALIDATION"
+        ]
+      },
+      {
+        "task_id": "research_cc2fedad2cecec4f965cd281",
+        "place_id": "fixture_venue",
+        "type": "REAL_PRIMARY_IMAGE",
+        "sources": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Garden.jpg",
+            "source_id": null,
+            "source_name": "Wikimedia Commons",
+            "retrieved_at": "2026-10-03T15:01:13.674214+00:00",
+            "source_text": "Garden photograph",
+            "quality": "CURATED_REFERENCE",
+            "confidence": 0.85
+          }
+        ],
+        "action": "AUTO_APPLY",
+        "reason_codes": [
+          "EXPLICIT_SYNTHETIC_FIXTURE"
+        ],
+        "checks": {
+          "accepted": true,
+          "reason_codes": [],
+          "sha256": "4503d926c86a2e5c983909629f4493bc9c990314677a31bba1a279308bee9920",
+          "dimensions": [
+            800,
+            600
+          ]
+        },
+        "local": {
+          "status": "UNAVAILABLE"
+        },
+        "field": "images.primary",
+        "value": {
+          "image_type": "real",
+          "fallback_category": null,
+          "fallback_asset_id": null,
+          "content_sha256": "4503d926c86a2e5c983909629f4493bc9c990314677a31bba1a279308bee9920",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Garden.jpg",
+          "original_file": "Garden.jpg",
+          "author": "Photographer",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Photographer / CC BY-SA 4.0",
+          "width": 800,
+          "height": 600,
+          "match_method": "research_import",
+          "match_confidence": 0.95,
+          "downloaded_at": "2026-10-03T15:01:21.403302+00:00",
+          "local_path": "images/fixture_venue/primary.webp",
+          "thumbnail_path": "images/fixture_venue/thumbnail.webp"
+        }
+      }
+    ],
+    "summary": {
+      "tasks_supplied": 2,
+      "matched": 2,
+      "valid": 2,
+      "auto_applicable": 2,
+      "review": 0,
+      "rejected": 0,
+      "missing_pois": 0,
+      "invalid_sources": 0,
+      "invalid_schedules": 0,
+      "media_requiring_verification": 0,
+      "applied": 2,
+      "unresolved": 0,
+      "accepted": 2
+    },
+    "ai_usage": {
+      "AI_MODE": "FREE_ONLY",
+      "stats": {
+        "calls": 0
+      },
+      "fixture_router": true,
+      "paid_providers_invoked": 0,
+      "paid_feature_calls": 0
+    },
+    "local_intelligence": {
+      "groq_calls": 0,
+      "gemini_calls": 0,
+      "cloud_verification_jobs": 1,
+      "ranker": {
+        "failures": 1
+      }
+    },
+    "output_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\scratch\\fixture-roundtrip-sfh0eevl\\releases\\india\\rajasthan\\jaipur\\v3-research"
+  },
+  "command_exit_codes": {
+    "research-import --dry-run": 0,
+    "research-import --apply": 0
+  },
+  "offline_rebuild": "Completed atomically by apply; validate_release_package passed for JSON/JSONL/Parquet/SQLite/media/checksums",
+  "changed_place_fields": [
+    "opening_hours",
+    "images"
+  ],
+  "provenance_rows": 2,
+  "original_v3_preserved": true,
+  "readiness_before": {
+    "GENERAL_USABILITY": 0.0,
+    "REAL_REQUIRED_MEDIA_COVERAGE": 0.0,
+    "SOURCE_DATA_READY": false,
+    "critical_blockers": {
+      "CORE_MEDIA_UNRESOLVED": 1,
+      "MEDIA_NOT_RENDERABLE": 1
+    }
+  },
+  "readiness_after": {
+    "GENERAL_USABILITY": 100.0,
+    "REAL_REQUIRED_MEDIA_COVERAGE": 100.0,
+    "SOURCE_DATA_READY": true,
+    "critical_blockers": {}
+  },
+  "live_cloud_calls": 0,
+  "real_research_results_applied": 0
+}

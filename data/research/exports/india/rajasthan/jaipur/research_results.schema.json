@@ -1,0 +1,778 @@
+{
+  "$defs": {
+    "CoordinatePayload": {
+      "additionalProperties": false,
+      "properties": {
+        "coordinate_sources": {
+          "items": {
+            "$ref": "#/$defs/CoordinatePoint"
+          },
+          "maxItems": 10,
+          "title": "Coordinate Sources",
+          "type": "array"
+        }
+      },
+      "title": "CoordinatePayload",
+      "type": "object"
+    },
+    "CoordinatePoint": {
+      "additionalProperties": false,
+      "properties": {
+        "latitude": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "Latitude",
+          "type": "number"
+        },
+        "longitude": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "Longitude",
+          "type": "number"
+        },
+        "source_id": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_url": {
+          "maxLength": 2048,
+          "minLength": 1,
+          "title": "Source Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude",
+        "source_id",
+        "source_url"
+      ],
+      "title": "CoordinatePoint",
+      "type": "object"
+    },
+    "CoordinateResult": {
+      "additionalProperties": false,
+      "properties": {
+        "task_id": {
+          "pattern": "^research_[a-f0-9]{24}$",
+          "title": "Task Id",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 250,
+          "minLength": 1,
+          "title": "Place Id",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "FOUND",
+            "PARTIAL",
+            "UNRESOLVED",
+            "CONFLICT"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "maxItems": 10,
+          "title": "Sources",
+          "type": "array"
+        },
+        "research_notes": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Research Notes",
+          "type": "string"
+        },
+        "type": {
+          "const": "COORDINATE_RESEARCH",
+          "title": "Type",
+          "type": "string"
+        },
+        "result": {
+          "$ref": "#/$defs/CoordinatePayload"
+        }
+      },
+      "required": [
+        "task_id",
+        "place_id",
+        "status",
+        "type",
+        "result"
+      ],
+      "title": "CoordinateResult",
+      "type": "object"
+    },
+    "DescriptionPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        }
+      },
+      "title": "DescriptionPayload",
+      "type": "object"
+    },
+    "DescriptionResult": {
+      "additionalProperties": false,
+      "properties": {
+        "task_id": {
+          "pattern": "^research_[a-f0-9]{24}$",
+          "title": "Task Id",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 250,
+          "minLength": 1,
+          "title": "Place Id",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "FOUND",
+            "PARTIAL",
+            "UNRESOLVED",
+            "CONFLICT"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "maxItems": 10,
+          "title": "Sources",
+          "type": "array"
+        },
+        "research_notes": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Research Notes",
+          "type": "string"
+        },
+        "type": {
+          "const": "DESCRIPTION",
+          "title": "Type",
+          "type": "string"
+        },
+        "result": {
+          "$ref": "#/$defs/DescriptionPayload"
+        }
+      },
+      "required": [
+        "task_id",
+        "place_id",
+        "status",
+        "type",
+        "result"
+      ],
+      "title": "DescriptionResult",
+      "type": "object"
+    },
+    "HoursPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "opening_hours": {
+          "anyOf": [
+            {
+              "maxLength": 2048,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Opening Hours"
+        },
+        "source_text": {
+          "anyOf": [
+            {
+              "maxLength": 5000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Text"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "maxLength": 2048,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        },
+        "source_name": {
+          "anyOf": [
+            {
+              "maxLength": 200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Name"
+        },
+        "retrieved_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Retrieved At"
+        }
+      },
+      "title": "HoursPayload",
+      "type": "object"
+    },
+    "HoursResult": {
+      "additionalProperties": false,
+      "properties": {
+        "task_id": {
+          "pattern": "^research_[a-f0-9]{24}$",
+          "title": "Task Id",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 250,
+          "minLength": 1,
+          "title": "Place Id",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "FOUND",
+            "PARTIAL",
+            "UNRESOLVED",
+            "CONFLICT"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "maxItems": 10,
+          "title": "Sources",
+          "type": "array"
+        },
+        "research_notes": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Research Notes",
+          "type": "string"
+        },
+        "type": {
+          "const": "OPENING_HOURS",
+          "title": "Type",
+          "type": "string"
+        },
+        "result": {
+          "$ref": "#/$defs/HoursPayload"
+        }
+      },
+      "required": [
+        "task_id",
+        "place_id",
+        "status",
+        "type",
+        "result"
+      ],
+      "title": "HoursResult",
+      "type": "object"
+    },
+    "IdentityPayload": {
+      "additionalProperties": false,
+      "properties": {
+        "wikidata_id": {
+          "anyOf": [
+            {
+              "pattern": "^Q[1-9]\\d*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Wikidata Id"
+        },
+        "explanation": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Explanation",
+          "type": "string"
+        }
+      },
+      "title": "IdentityPayload",
+      "type": "object"
+    },
+    "IdentityResult": {
+      "additionalProperties": false,
+      "properties": {
+        "task_id": {
+          "pattern": "^research_[a-f0-9]{24}$",
+          "title": "Task Id",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 250,
+          "minLength": 1,
+          "title": "Place Id",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "FOUND",
+            "PARTIAL",
+            "UNRESOLVED",
+            "CONFLICT"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "maxItems": 10,
+          "title": "Sources",
+          "type": "array"
+        },
+        "research_notes": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Research Notes",
+          "type": "string"
+        },
+        "type": {
+          "const": "IDENTITY_RESEARCH",
+          "title": "Type",
+          "type": "string"
+        },
+        "result": {
+          "$ref": "#/$defs/IdentityPayload"
+        }
+      },
+      "required": [
+        "task_id",
+        "place_id",
+        "status",
+        "type",
+        "result"
+      ],
+      "title": "IdentityResult",
+      "type": "object"
+    },
+    "ImagePayload": {
+      "additionalProperties": false,
+      "properties": {
+        "source_page_url": {
+          "anyOf": [
+            {
+              "maxLength": 2048,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Page Url"
+        },
+        "direct_media_url": {
+          "anyOf": [
+            {
+              "maxLength": 2048,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Direct Media Url"
+        },
+        "local_file": {
+          "anyOf": [
+            {
+              "maxLength": 400,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Local File"
+        },
+        "source_provider": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Provider"
+        },
+        "creator": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Creator"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        },
+        "license_url": {
+          "anyOf": [
+            {
+              "maxLength": 2048,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License Url"
+        },
+        "attribution": {
+          "anyOf": [
+            {
+              "maxLength": 1000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Attribution"
+        },
+        "notes": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "title": "ImagePayload",
+      "type": "object"
+    },
+    "ImageResult": {
+      "additionalProperties": false,
+      "properties": {
+        "task_id": {
+          "pattern": "^research_[a-f0-9]{24}$",
+          "title": "Task Id",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 250,
+          "minLength": 1,
+          "title": "Place Id",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "FOUND",
+            "PARTIAL",
+            "UNRESOLVED",
+            "CONFLICT"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "maxItems": 10,
+          "title": "Sources",
+          "type": "array"
+        },
+        "research_notes": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Research Notes",
+          "type": "string"
+        },
+        "type": {
+          "const": "REAL_PRIMARY_IMAGE",
+          "title": "Type",
+          "type": "string"
+        },
+        "result": {
+          "$ref": "#/$defs/ImagePayload"
+        }
+      },
+      "required": [
+        "task_id",
+        "place_id",
+        "status",
+        "type",
+        "result"
+      ],
+      "title": "ImageResult",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "anyOf": [
+            {
+              "maxLength": 2048,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        },
+        "source_id": {
+          "anyOf": [
+            {
+              "maxLength": 200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Id"
+        },
+        "source_name": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Source Name",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "source_text": {
+          "default": "",
+          "maxLength": 5000,
+          "title": "Source Text",
+          "type": "string"
+        },
+        "claimed_quality": {
+          "anyOf": [
+            {
+              "maxLength": 40,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Claimed Quality"
+        }
+      },
+      "required": [
+        "source_name",
+        "retrieved_at"
+      ],
+      "title": "Source",
+      "type": "object"
+    },
+    "WebsitePayload": {
+      "additionalProperties": false,
+      "properties": {
+        "website": {
+          "anyOf": [
+            {
+              "maxLength": 2048,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Website"
+        }
+      },
+      "title": "WebsitePayload",
+      "type": "object"
+    },
+    "WebsiteResult": {
+      "additionalProperties": false,
+      "properties": {
+        "task_id": {
+          "pattern": "^research_[a-f0-9]{24}$",
+          "title": "Task Id",
+          "type": "string"
+        },
+        "place_id": {
+          "maxLength": 250,
+          "minLength": 1,
+          "title": "Place Id",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "FOUND",
+            "PARTIAL",
+            "UNRESOLVED",
+            "CONFLICT"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "maxItems": 10,
+          "title": "Sources",
+          "type": "array"
+        },
+        "research_notes": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Research Notes",
+          "type": "string"
+        },
+        "type": {
+          "const": "WEBSITE",
+          "title": "Type",
+          "type": "string"
+        },
+        "result": {
+          "$ref": "#/$defs/WebsitePayload"
+        }
+      },
+      "required": [
+        "task_id",
+        "place_id",
+        "status",
+        "type",
+        "result"
+      ],
+      "title": "WebsiteResult",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "handoff_id": {
+      "pattern": "^handoff_[a-f0-9]{24}$",
+      "title": "Handoff Id",
+      "type": "string"
+    },
+    "results": {
+      "items": {
+        "discriminator": {
+          "mapping": {
+            "COORDINATE_RESEARCH": "#/$defs/CoordinateResult",
+            "DESCRIPTION": "#/$defs/DescriptionResult",
+            "IDENTITY_RESEARCH": "#/$defs/IdentityResult",
+            "OPENING_HOURS": "#/$defs/HoursResult",
+            "REAL_PRIMARY_IMAGE": "#/$defs/ImageResult",
+            "WEBSITE": "#/$defs/WebsiteResult"
+          },
+          "propertyName": "type"
+        },
+        "oneOf": [
+          {
+            "$ref": "#/$defs/HoursResult"
+          },
+          {
+            "$ref": "#/$defs/ImageResult"
+          },
+          {
+            "$ref": "#/$defs/WebsiteResult"
+          },
+          {
+            "$ref": "#/$defs/DescriptionResult"
+          },
+          {
+            "$ref": "#/$defs/CoordinateResult"
+          },
+          {
+            "$ref": "#/$defs/IdentityResult"
+          }
+        ]
+      },
+      "maxItems": 5000,
+      "title": "Results",
+      "type": "array"
+    }
+  },
+  "required": [
+    "handoff_id",
+    "results"
+  ],
+  "title": "ResultBundle",
+  "type": "object"
+}

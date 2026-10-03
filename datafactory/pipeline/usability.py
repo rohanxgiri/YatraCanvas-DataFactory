@@ -67,18 +67,23 @@ def usability(places: list[dict], city: dict, root: Path, assurance: dict | None
                         "renderable": renderable, "usable": not blockers,
                         "descriptions": bool(place.get("description")), "opening_hours": bool(place.get("opening_hours", {}).get("raw")),
                         "addresses": bool(place.get("location", {}).get("address"))})
-        policy_metrics[policy].update({"total": 1, kind: 1, "verified_real": kind == "real" and assessment.get("media", {}).get("verified") is True,
+        policy_metrics[policy].update({"total": 1, kind: 1, "verified_real": kind == "real" and renderable and "MEDIA_PROVENANCE_INCOMPLETE" not in blockers and assessment.get("media", {}).get("verified") is True,
                                        "required_unresolved": "CORE_MEDIA_UNRESOLVED" in blockers})
         rows.append({"place_id": pid, "name": place["name"], "media_policy": policy, "image_type": kind,
                      "usable": not blockers, "critical_blockers": sorted(set(blockers)), "geography": region})
     count = len(places)
     pct = round(metrics["usable"] / count * 100, 2) if count else 0
     critical = Counter(code for row in rows for code in row["critical_blockers"])
-    source_ready = bool(count and not critical and pct >= cfg.get("target_usability", .95)*100)
+    required = policy_metrics[MediaPolicy.REAL_REQUIRED.value]
+    required_count = required["total"]
+    required_coverage = round(required["verified_real"] / required_count * 100, 2) if required_count else 100.0
+    source_ready = bool(count and not critical and pct >= cfg.get("target_usability", .95)*100 and required_coverage == 100)
     return {"city": {k: city[k] for k in ("id", "name", "state", "country")}, "published": count,
             **dict(metrics), "media_policies": {k: dict(v) for k, v in policy_metrics.items()},
             "critical_blockers": dict(critical), "critical_blocker_pois": sum(bool(r["critical_blockers"]) for r in rows),
             "overall_usable_count": metrics["usable"], "overall_usable_percentage": pct,
+            "GENERAL_USABILITY": pct, "REAL_REQUIRED_MEDIA_COVERAGE": required_coverage,
+            "real_required_total": required_count, "real_required_verified": required["verified_real"],
             "target_percentage": cfg.get("target_usability", .95)*100,
             "DRAFT_OFFLINE_READY": bool(count and all(valid_coordinates(*coordinates(p)) for p in places) and all(ids[p["id"]] == 1 for p in places)),
             "CERTIFICATION_READY_SOURCE_DATA": source_ready, "SOURCE_DATA_READY": source_ready,

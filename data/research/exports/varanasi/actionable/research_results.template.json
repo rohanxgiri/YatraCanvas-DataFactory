@@ -1,0 +1,1842 @@
+{
+  "schema_version": "1.0",
+  "handoff_id": "handoff_bbe2b03304f0c93796e21f64",
+  "results": [
+    {
+      "task_id": "research_58bcf607f1a429a7ccc9dd54",
+      "place_id": "yc_in_up_varanasi_alamgir_mosque",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_86fc306a1ceb8a3da104c13b",
+      "place_id": "yc_in_up_varanasi_assi_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e82912bfd794aec0f8bef431",
+      "place_id": "yc_in_up_varanasi_dhamek_stupa",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b4a90257e334cd9e51aa56d9",
+      "place_id": "yc_in_up_varanasi_gyanvapi_mosque",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_14dfd065d8b50c5938a30a67",
+      "place_id": "yc_in_up_varanasi_kashi_vishwanath_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_06792ce0fb24a40005ed3827",
+      "place_id": "yc_in_up_varanasi_lalita_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b7b2a9688b8592dfa8e4ba7c",
+      "place_id": "yc_in_up_varanasi_malviya_bridge",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_188018819041d44c50667b1e",
+      "place_id": "yc_in_up_varanasi_manikarnika_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9307ab45f1635f7ef4f51496",
+      "place_id": "yc_in_up_varanasi_new_vishwanath_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_25e6e0bd90615c59a79e910d",
+      "place_id": "yc_in_up_varanasi_sankat_mochan_hanuman_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ddcf29d5680d5ff8258ea947",
+      "place_id": "yc_in_up_varanasi_sant_ravidas_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e6123adc1a6f54fc518e84f7",
+      "place_id": "yc_in_up_varanasi_sarnath_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c21c8461f05854af948cda4b",
+      "place_id": "yc_in_up_varanasi_shivala_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_31152b0a5fe4c891f84f00fe",
+      "place_id": "yc_in_up_varanasi_tulsi_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_bd69cb4c06acadf74bdd52e2",
+      "place_id": "yc_in_up_varanasi_annapurna_devi_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_bfdb9a44bc87fcf80e6a14b4",
+      "place_id": "yc_in_up_varanasi_bharat_mata_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_dbb48d1434416b0591011a16",
+      "place_id": "yc_in_up_varanasi_durga_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5fa8f3bbfae42aff4c0a7775",
+      "place_id": "yc_in_up_varanasi_hindu_temples_in_varanasi",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b4fa0983cc57f18b366a2b76",
+      "place_id": "yc_in_up_varanasi_kaal_bhairav_mandir_varanasi",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e22cccf33a128d51311f30b4",
+      "place_id": "yc_in_up_varanasi_lal_khan_tomb",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_eeccd5bb5083b2410fbdfc12",
+      "place_id": "yc_in_up_varanasi_man_singh_observatory",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_95815f8b8ea6411af72dd2ee",
+      "place_id": "yc_in_up_varanasi_mrityunjay_mahadev_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_17100bc268a4b669c32d5c48",
+      "place_id": "yc_in_up_varanasi_munshi_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ee5bf08150a00197fcf84c0e",
+      "place_id": "yc_in_up_varanasi_ratneshwar_mahadev_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ec05d8883fb4e7498ae039d1",
+      "place_id": "yc_in_up_varanasi_sankata_devi_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5f8f7bf8139bcd115e42ec23",
+      "place_id": "yc_in_up_varanasi_shri_tilbhandeshwar_mahadev_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_fd2f21ec354fa2b8934f083e",
+      "place_id": "yc_in_up_varanasi_st_marys_cathedral",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9fa04d817488c9fdc4da5ce9",
+      "place_id": "yc_in_up_varanasi_tulsi_manas_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b5ee2ea2ac432d264e62b99f",
+      "place_id": "yc_in_up_varanasi_varuna_river",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c311e6002037333875475e8e",
+      "place_id": "yc_in_up_varanasi_indian_institute_of_technology_bhu_varanasi",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_13aa797609f74dcb7de791cb",
+      "place_id": "yc_in_up_varanasi_roman_catholic_diocese_of_varanasi",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5e241a5283ec6922ab7f490c",
+      "place_id": "yc_in_up_varanasi_assi_river",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_139a4e606e3cd2b467f1493d",
+      "place_id": "yc_in_up_varanasi_baba_keenaram_sthal",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3406562501e666f24962eefb",
+      "place_id": "yc_in_up_varanasi_benares_state",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c290732edb5cb541c907e8b7",
+      "place_id": "yc_in_up_varanasi_brijrama_palace_varanasi",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_32c850a77d2c19913ac69482",
+      "place_id": "yc_in_up_varanasi_dalmandi",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_60c65eaf2705b4f15d00e5fb",
+      "place_id": "yc_in_up_varanasi_dalmia_bhawan",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_bbe727480ddb96f70646eb71",
+      "place_id": "yc_in_up_varanasi_durga_mandir_varanasi",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4d37111048961e9e04b5ffa9",
+      "place_id": "yc_in_up_varanasi_jagadamba_nepali_dharmashala",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e030994ed4a0534bb0f00322",
+      "place_id": "yc_in_up_varanasi_lalita_gauri_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5b077287315c08655f07e765",
+      "place_id": "yc_in_up_varanasi_lion_capital_of_asoka",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_dd493a02eae4c7a1183b55a4",
+      "place_id": "yc_in_up_varanasi_parshvanath_jain_temples_varanasi",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_479ac497e2cc6870b9c4038f",
+      "place_id": "yc_in_up_varanasi_sarnath_deer_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_751dc9233799206a2718d318",
+      "place_id": "yc_in_up_varanasi_shri_guru_ravidass_janam_asthan",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c55218ed1bdd16118c36a5a1",
+      "place_id": "yc_in_up_varanasi_stay_banaras",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a842816206966226743c9ccd",
+      "place_id": "yc_in_up_varanasi_shree_ganesha_palace",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3a886f8c5f3bc7c6e810e4b0",
+      "place_id": "yc_in_up_varanasi_moti_jhil",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_eeb9f0bfa11aecc09a862a8f",
+      "place_id": "yc_in_up_varanasi_harishchandra_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c2980a440fb4246667828e52",
+      "place_id": "yc_in_up_varanasi_lali_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6477139a11af97b6bc53596f",
+      "place_id": "yc_in_up_varanasi_kachhua_sanctuary",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a000ca4ab7d1e2ec782d409d",
+      "place_id": "yc_in_up_varanasi_manikarnikeswarar_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_db34317d4e4920844b692ee9",
+      "place_id": "yc_in_up_varanasi_varanasi_port",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b6cff5dee9c3a24abe9b9698",
+      "place_id": "yc_in_up_varanasi_ashram",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_dd90e232ccfa6344d6e773d5",
+      "place_id": "yc_in_up_varanasi_ganga_mahal_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f1e5012c23d9b702a4750289",
+      "place_id": "yc_in_up_varanasi_lal_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3831f8d58dca0c1870e5c837",
+      "place_id": "yc_in_up_varanasi_manmandir_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b33aaf69bf668bd8453e574b",
+      "place_id": "yc_in_up_varanasi_meer_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d6cf040b6bfc0c230845b9b3",
+      "place_id": "yc_in_up_varanasi_raj_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ade87414b685220f2e46f84f",
+      "place_id": "yc_in_up_varanasi_sakka_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_76f550fbb6569cdba20d6900",
+      "place_id": "yc_in_up_varanasi_shitala_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cbdb59b004031a666f6a719e",
+      "place_id": "yc_in_up_varanasi_trilochan_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e38fb45448ee5be875a802aa",
+      "place_id": "yc_in_up_varanasi_backpackers_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6f2fe0f4ff67b4d564d86792",
+      "place_id": "yc_in_up_varanasi_ashokan_pillar",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0aee63053d3ec29071d96283",
+      "place_id": "yc_in_up_varanasi_dr_rajendra_prasad_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_436c4c180d5ec065dd858e63",
+      "place_id": "yc_in_up_varanasi_ganga_aarti",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d01e45802b2a8fed64154970",
+      "place_id": "yc_in_up_varanasi_gularia_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0c5949c571f11d27934409dd",
+      "place_id": "yc_in_up_varanasi_mosque",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c6382206ee67a343871b5c43",
+      "place_id": "yc_in_up_varanasi_namo_ghat_var",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5389f55a7887d6dc5c8d65a1",
+      "place_id": "yc_in_up_varanasi_narad_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a6fed1278ed1d7a5412f6d26",
+      "place_id": "yc_in_up_varanasi_prahlad_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_fbf33618760344f8622d5949",
+      "place_id": "yc_in_up_varanasi_ram_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7ef17560f70f8a3cf677afdc",
+      "place_id": "yc_in_up_varanasi_vaccharaja_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ebd4f7afbce361378c01b701",
+      "place_id": "yc_in_up_varanasi_jantar_mantar",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ee9154ddd15c7f3e240b58d8",
+      "place_id": "yc_in_up_varanasi_kedar_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5f6dbaa860a40ae5c65feb3e",
+      "place_id": "yc_in_up_varanasi_niranjani_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_161818e64826dd268797a337",
+      "place_id": "yc_in_up_varanasi_rana_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cb169daece5a515c8ab38079",
+      "place_id": "yc_in_up_varanasi_ganj_e_shaheedan_mosque",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2e56552c014233af8e390e3b",
+      "place_id": "yc_in_up_varanasi_brahma_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b6de247003cf8ade7c11d33e",
+      "place_id": "yc_in_up_varanasi_chauki_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5eb01cfb8fa676695641b72d",
+      "place_id": "yc_in_up_varanasi_chousatti_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_822f00cfbaaca8186befafe9",
+      "place_id": "yc_in_up_varanasi_lolark_kund",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7f59e6c498ea7c7b755969da",
+      "place_id": "yc_in_up_varanasi_chet_singh_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_28895be3c6d78249d03f6fbf",
+      "place_id": "yc_in_up_varanasi_gola_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9d771cbc3698df0e74dc770f",
+      "place_id": "yc_in_up_varanasi_karnataka_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e312d9c1d7d10f6cee8a558b",
+      "place_id": "yc_in_up_varanasi_naya_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0994b68018f103fd6c9cfab3",
+      "place_id": "yc_in_up_varanasi_rajghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_623566e90d9e62ffed3244d7",
+      "place_id": "yc_in_up_varanasi_sankatha_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_dd7f6f31030eda32472be2e5",
+      "place_id": "yc_in_up_varanasi_shri_guru_ravidass_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_686fd1f09a8ed36eaff9f49b",
+      "place_id": "yc_in_up_varanasi_kiran_center",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e89460358efeb539fd6038a6",
+      "place_id": "yc_in_up_varanasi_tulsi_manas_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4c45ade9f84028d2a5a97fb7",
+      "place_id": "yc_in_up_varanasi_aircraft",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4b6f19e3b7802559ff9ffeff",
+      "place_id": "yc_in_up_varanasi_badrinarayan_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b1be78e119e3a2a3e6e2a549",
+      "place_id": "yc_in_up_varanasi_nishadraj_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3f9c7a6edf8167c570ec7f5f",
+      "place_id": "yc_in_up_varanasi_ranamahal_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4c201002b1f009649ca9ecb2",
+      "place_id": "yc_in_up_varanasi_swastika",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_08e7c33062dfba476eda1468",
+      "place_id": "yc_in_up_varanasi_telianala_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ad4de5a60d61faabfd498b29",
+      "place_id": "yc_in_up_varanasi_kriti_gallery",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8a86721e8c145f1489ecdffb",
+      "place_id": "yc_in_up_varanasi_aghoreshwar_bhagwam_ram_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0548d91bea493afbe1ca1a23",
+      "place_id": "yc_in_up_varanasi_darbhanga_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4a8b077efe710b9b7001a5f4",
+      "place_id": "yc_in_up_varanasi_flower_market",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_558bb2e840704ad7b698b303",
+      "place_id": "yc_in_up_varanasi_gaay_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6fc54b75ae30296f5e9c3e54",
+      "place_id": "yc_in_up_varanasi_ganesh_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_fcbd3f63b166b3a660e79264",
+      "place_id": "yc_in_up_varanasi_handicraft_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8107b2d1143091f2ce39437d",
+      "place_id": "yc_in_up_varanasi_janki_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e0816597e838168c4949717c",
+      "place_id": "yc_in_up_varanasi_jatar_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d163f8820cad3a220edf902c",
+      "place_id": "yc_in_up_varanasi_kschemeschwar_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4c8f1365e82b4d5cc0cc4616",
+      "place_id": "yc_in_up_varanasi_lanka_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a77c5fd397f00818cd27db64",
+      "place_id": "yc_in_up_varanasi_manasarowa_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1e4b4fd8483d7a3a4e0a1cf2",
+      "place_id": "yc_in_up_varanasi_nandeshwar_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3a7d006a5b42a3041121e380",
+      "place_id": "yc_in_up_varanasi_panchkot_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_06bac2d3f7b75cae10f4e39c",
+      "place_id": "yc_in_up_varanasi_gauri_matha_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6be5ff733b23f75edffda870",
+      "place_id": "yc_in_up_varanasi_manleshwar_mahadev",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8996c950fe45dede8f39fb63",
+      "place_id": "yc_in_up_varanasi_alamgir_mosque",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8abd0dd87c021d3b7f062e4b",
+      "place_id": "yc_in_up_varanasi_alamgir_mosque",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e913a0b622cec206bc3f1bb7",
+      "place_id": "yc_in_up_varanasi_kashi_vishwanath_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_32b598153c881197e0d300f9",
+      "place_id": "yc_in_up_varanasi_nepali_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c694f553cbb3ddbf35fcda67",
+      "place_id": "yc_in_up_varanasi_nepali_mandir",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_df7190d135500db1448d1a24",
+      "place_id": "yc_in_up_varanasi_new_vishwanath_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c1f8788af6b64dafb934f993",
+      "place_id": "yc_in_up_varanasi_sankat_mochan_hanuman_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e2c23577cc7a5658ee3cfb9b",
+      "place_id": "yc_in_up_varanasi_sant_ravidas_ghat",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_046ab842f17789c941c00ccc",
+      "place_id": "yc_in_up_varanasi_sarnath_museum",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8419469cdee8f17749149d34",
+      "place_id": "yc_in_up_varanasi_annapurna_devi_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cfdc6e2fd8c29e2d70485b8a",
+      "place_id": "yc_in_up_varanasi_annapurna_devi_mandir",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_38ad9d3a66779a2b25831675",
+      "place_id": "yc_in_up_varanasi_bharat_mata_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1b342fed6f9a65aaeabbfdc1",
+      "place_id": "yc_in_up_varanasi_bharat_mata_mandir",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_78244d895f76f4d6f209a771",
+      "place_id": "yc_in_up_varanasi_durga_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0357535c958dee4dbc24d099",
+      "place_id": "yc_in_up_varanasi_durga_mandir",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_304e740fdabb981d1020580e",
+      "place_id": "yc_in_up_varanasi_hindu_temples_in_varanasi",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_619bd467f6de5cf41d3d6a2c",
+      "place_id": "yc_in_up_varanasi_hindu_temples_in_varanasi",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7abb7349f6d19af199f868be",
+      "place_id": "yc_in_up_varanasi_kaal_bhairav_mandir_varanasi",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_554958d2638b58bf1464b872",
+      "place_id": "yc_in_up_varanasi_kaal_bhairav_mandir_varanasi",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5d5eed4398d3d02ee53105be",
+      "place_id": "yc_in_up_varanasi_man_singh_observatory",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_01bacd1266dabdce73a9adf1",
+      "place_id": "yc_in_up_varanasi_man_singh_observatory",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ffcc7240a4109e598ac128c8",
+      "place_id": "yc_in_up_varanasi_mrityunjay_mahadev_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9a3989cdbaed997123ead492",
+      "place_id": "yc_in_up_varanasi_mrityunjay_mahadev_mandir",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d4470aa54dc46b1336d92686",
+      "place_id": "yc_in_up_varanasi_ratneshwar_mahadev_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_82a098b7afdc69e097189e17",
+      "place_id": "yc_in_up_varanasi_ratneshwar_mahadev_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f02edfdd9febaf74ccd56a31",
+      "place_id": "yc_in_up_varanasi_sankata_devi_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9ddb174309f266013d90389b",
+      "place_id": "yc_in_up_varanasi_sankata_devi_mandir",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e21b57c5d1d6252557e8e332",
+      "place_id": "yc_in_up_varanasi_shri_tilbhandeshwar_mahadev_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0c3e0805fe165d0f29b8fec6",
+      "place_id": "yc_in_up_varanasi_shri_tilbhandeshwar_mahadev_mandir",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6b5ccaca32e0c591fc59e8bf",
+      "place_id": "yc_in_up_varanasi_st_marys_cathedral",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ff5936c98706dc5add25f14d",
+      "place_id": "yc_in_up_varanasi_st_marys_cathedral",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_903df48f195cf033e586ad3e",
+      "place_id": "yc_in_up_varanasi_tulsi_manas_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3be1a84a38d8a2645f53b097",
+      "place_id": "yc_in_up_varanasi_tulsi_manas_mandir",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5a42f6ff569b224b22926842",
+      "place_id": "yc_in_up_varanasi_vishalakshi_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_467acc017b042cc9541a5fca",
+      "place_id": "yc_in_up_varanasi_vishalakshi_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_95138429e337d38440fd901e",
+      "place_id": "yc_in_up_varanasi_roman_catholic_diocese_of_varanasi",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f9830de0bd8415affa5c9b87",
+      "place_id": "yc_in_up_varanasi_baba_keenaram_sthal",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_75455adfbfaa3126ef2f24c2",
+      "place_id": "yc_in_up_varanasi_baba_keenaram_sthal",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c4ebb2de6c5d4f21c8b8503b",
+      "place_id": "yc_in_up_varanasi_brijrama_palace_varanasi",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_320117745074e1207f1bc1ca",
+      "place_id": "yc_in_up_varanasi_durga_mandir_varanasi",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c9844d67b56b87938c784c1d",
+      "place_id": "yc_in_up_varanasi_durga_mandir_varanasi",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d50ffec2b52cd86458e5aab7",
+      "place_id": "yc_in_up_varanasi_lalita_gauri_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_19d9968222d120b88b7d5f92",
+      "place_id": "yc_in_up_varanasi_lalita_gauri_mandir",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e0971af6ee0f0ff5b0a683f0",
+      "place_id": "yc_in_up_varanasi_parshvanath_jain_temples_varanasi",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e6cae94a93d2997c784888be",
+      "place_id": "yc_in_up_varanasi_parshvanath_jain_temples_varanasi",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9fc998c293fc5519a0e830e0",
+      "place_id": "yc_in_up_varanasi_sarnath_deer_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_dd484876ad0838b99b7186f7",
+      "place_id": "yc_in_up_varanasi_sarnath_deer_park",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_25ae5e135e2f532957a79517",
+      "place_id": "yc_in_up_varanasi_shree_ganesha_palace",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_73c47496b635a18d945a4d3d",
+      "place_id": "yc_in_up_varanasi_moti_jhil",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_264a2b4ad20751cdd380b70b",
+      "place_id": "yc_in_up_varanasi_manikarnikeswarar_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5b20352684aaef7f75541fe6",
+      "place_id": "yc_in_up_varanasi_manikarnikeswarar_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_76abd6ae4bb74318ce58f87f",
+      "place_id": "yc_in_up_varanasi_backpackers_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4d501078fff374a54f524530",
+      "place_id": "yc_in_up_varanasi_backpackers_park",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_63a755133d870f0f6a92abc5",
+      "place_id": "yc_in_up_varanasi_dr_rajendra_prasad_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8838e7529dfbff9b7d7acc6a",
+      "place_id": "yc_in_up_varanasi_ganga_aarti",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_bb275bb66dd27a60e2c5e84d",
+      "place_id": "yc_in_up_varanasi_namo_ghat_var",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7e3d211709ca6444cebc45dd",
+      "place_id": "yc_in_up_varanasi_ganj_e_shaheedan_mosque",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4bc75e4258839edd726ee0f1",
+      "place_id": "yc_in_up_varanasi_ganj_e_shaheedan_mosque",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5670ab4f5fae346c0b517da9",
+      "place_id": "yc_in_up_varanasi_brahma_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e37eb5f6a45d892acf82d14d",
+      "place_id": "yc_in_up_varanasi_chauki_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1c12cdf3a40f6ed80d7c2d9d",
+      "place_id": "yc_in_up_varanasi_chousatti_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b3cd83b8d45a595579e8642d",
+      "place_id": "yc_in_up_varanasi_lolark_kund",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1aeeb0eac75812b7f1fd716e",
+      "place_id": "yc_in_up_varanasi_kiran_center",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1577bf0d7f53e5453f80fdb1",
+      "place_id": "yc_in_up_varanasi_kiran_center",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_45a47584cb736e52f5425991",
+      "place_id": "yc_in_up_varanasi_tulsi_manas_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b21f22d4eb02ac57785c6b0d",
+      "place_id": "yc_in_up_varanasi_tulsi_manas_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5ff8d4b41342118588d65fcd",
+      "place_id": "yc_in_up_varanasi_aircraft",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_bfb38541a02798c6346bf9ef",
+      "place_id": "yc_in_up_varanasi_badrinarayan_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_088111016a969b29cd136656",
+      "place_id": "yc_in_up_varanasi_nishadraj_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d1d4a33e3d0f8f36c0fa41a0",
+      "place_id": "yc_in_up_varanasi_ranamahal_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cd428f08cc4687aa4ade6085",
+      "place_id": "yc_in_up_varanasi_swastika",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_af2cd21ea8c72a53333291ba",
+      "place_id": "yc_in_up_varanasi_telianala_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_971f0abe6f062bf10fc84f23",
+      "place_id": "yc_in_up_varanasi_kriti_gallery",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e0fdee9b0ee673f58f580cce",
+      "place_id": "yc_in_up_varanasi_kriti_gallery",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_668d2eaaf97be0b648bae364",
+      "place_id": "yc_in_up_varanasi_aghoreshwar_bhagwam_ram_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_957c2ab81cbccca5589b7805",
+      "place_id": "yc_in_up_varanasi_darbhanga_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7fc7ab210cc66c93daefea0a",
+      "place_id": "yc_in_up_varanasi_flower_market",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_df89cb678c09093a61d902b0",
+      "place_id": "yc_in_up_varanasi_gaay_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a26397e834651d9845d3cdc3",
+      "place_id": "yc_in_up_varanasi_ganesh_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8c4d90b561e12710c71d6b46",
+      "place_id": "yc_in_up_varanasi_handicraft_museum",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_939dfdc9286886bb3daf3cba",
+      "place_id": "yc_in_up_varanasi_handicraft_museum",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1224abef7d448fd7ba3d8270",
+      "place_id": "yc_in_up_varanasi_handicraft_museum",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a6cb08247867c2e05edcb324",
+      "place_id": "yc_in_up_varanasi_janki_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_98799401b6b8d58e0b20522f",
+      "place_id": "yc_in_up_varanasi_jatar_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_15604ecee8a1df3c4e227c06",
+      "place_id": "yc_in_up_varanasi_kschemeschwar_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4d6be2ad18b14c3dac8a677e",
+      "place_id": "yc_in_up_varanasi_lanka_gate",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d1ef977672baa11c85084d34",
+      "place_id": "yc_in_up_varanasi_manasarowa_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9e903f1c50511749ae8ddad8",
+      "place_id": "yc_in_up_varanasi_nandeshwar_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e6fdc3e7c62a1e8a987a2e37",
+      "place_id": "yc_in_up_varanasi_panchkot_ghat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0cc0e6fc7b480cf63906a9c1",
+      "place_id": "yc_in_up_varanasi_gauri_matha_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_fc4935972b077f335e728114",
+      "place_id": "yc_in_up_varanasi_gauri_matha_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a8d8ba0277cea5a130069409",
+      "place_id": "yc_in_up_varanasi_manleshwar_mahadev",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    }
+  ]
+}

@@ -16,6 +16,15 @@ def local_ai_status(config=None):
               "device": config.local_media_device, "model_cached_locally": False, "model_load": "FAIL", "inference_test": "FAIL"}
     if config.local_media_enabled:
         try:
+            from pathlib import Path
+            from huggingface_hub import try_to_load_from_cache
+            from ..config.settings import get_settings
+            cache = config.local_media_model_cache or get_settings().cache_dir / "models"
+            weights = try_to_load_from_cache(config.local_media_model, "model.safetensors", cache_dir=cache, revision=config.local_media_revision)
+            report["model_cached_locally"] = isinstance(weights, str) and Path(weights).is_file()
+        except (ImportError, OSError, ValueError):
+            pass
+        try:
             backend = SigLIPBackend(config.model_copy(update={"local_media_allow_download": False}))
             report["model_cached_locally"] = True
         except Exception as exc:

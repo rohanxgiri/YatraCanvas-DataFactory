@@ -2,12 +2,12 @@
   "label_basis": "Source-linked reference photographs, visually inspected. Explicit cross-POI distractors. No production special cases.",
   "cases": [
     {"place_id":"yc_in_rj_jaipur_albert_hall_museum","unrelated_place_ids":["yc_in_hp_manali_bhrigu_lake","yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple"]},
-    {"place_id":"yc_in_rj_jaipur_jantar_mantar","unrelated_place_ids":["yc_in_hp_manali_bhrigu_lake","yc_in_hp_manali_hidimba_devi_temple_dhungri_manali"]},
-    {"place_id":"yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple","unrelated_place_ids":["yc_in_rj_jaipur_jantar_mantar","yc_in_hp_manali_bhrigu_lake"]},
+    {"place_id":"yc_in_rj_jaipur_sisodia_rani_palace_and_garden","unrelated_place_ids":["yc_in_hp_manali_bhrigu_lake","yc_in_hp_manali_hidimba_devi_temple_dhungri_manali"]},
+    {"place_id":"yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple","unrelated_place_ids":["yc_in_rj_jaipur_sisodia_rani_palace_and_garden","yc_in_hp_manali_bhrigu_lake"]},
     {"place_id":"yc_in_rj_jaipur_galtaji","unrelated_place_ids":["yc_in_rj_jaipur_albert_hall_museum","yc_in_hp_manali_hidimba_devi_temple_dhungri_manali"]},
     {"place_id":"yc_in_rj_jaipur_kesar_kyari","unrelated_place_ids":["yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple","yc_in_hp_manali_hidimba_devi_temple_dhungri_manali"]},
     {"place_id":"yc_in_rj_udaipur_city_palace_udaipur","unrelated_place_ids":["yc_in_rj_jaipur_albert_hall_museum","yc_in_hp_manali_bhrigu_lake"]},
-    {"place_id":"yc_in_hp_manali_bhrigu_lake","unrelated_place_ids":["yc_in_rj_jaipur_jantar_mantar","yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple"]},
+    {"place_id":"yc_in_hp_manali_bhrigu_lake","unrelated_place_ids":["yc_in_rj_jaipur_sisodia_rani_palace_and_garden","yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple"]},
     {"place_id":"yc_in_hp_manali_hidimba_devi_temple_dhungri_manali","unrelated_place_ids":["yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple","yc_in_rj_jaipur_kesar_kyari"]}
   ]
 }

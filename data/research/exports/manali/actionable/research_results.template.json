@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0",
+  "handoff_id": "handoff_348e6bd9af4855e6bdadebf5",
+  "results": [
+    {
+      "task_id": "research_187ea1541ed466558b922ed6",
+      "place_id": "yc_in_hp_manali_manali",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2e3c355c8284af586cdf777b",
+      "place_id": "yc_in_hp_manali_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_47ac773bf53e6ffee567a919",
+      "place_id": "yc_in_hp_manali_bhrigu_lake",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_64a2aa86921ad3c9c03e464b",
+      "place_id": "yc_in_hp_manali_hidimba_devi_temple_dhungri_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2f45d7d3243bab7694c45b1c",
+      "place_id": "yc_in_hp_manali_lehmanali_highway",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6e349565457ff3c1cb601fcf",
+      "place_id": "yc_in_hp_manali_miniature_siva_temple_jagatsukh",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_bc712cead4c9a7266d1e13a1",
+      "place_id": "yc_in_hp_manali_national_highway_3",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_50d1a1aae3f348802634049e",
+      "place_id": "yc_in_hp_manali_tourist_locations_in_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_35a3e2467b7a212635314542",
+      "place_id": "yc_in_hp_manali_museum_of_himachal_culture_folk_arts",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8463678755049ca01372be05",
+      "place_id": "yc_in_hp_manali_old_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0b6a9ea463b98d58c807de73",
+      "place_id": "yc_in_hp_manali_kartik_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c661cbecbef86b6058c56391",
+      "place_id": "yc_in_hp_manali_vashist_hot_water_springs_and_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c4151f425318b0453ac68cc2",
+      "place_id": "yc_in_hp_manali_great_hadimba_weavers_welfare",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_728694e12950a49e55dd2620",
+      "place_id": "yc_in_hp_manali_studio_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_826bb85f13b2f4593848b9a5",
+      "place_id": "yc_in_hp_manali_mata_docha_mocha_temple",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_872707512d051a12865c222c",
+      "place_id": "yc_in_hp_manali_aisle_cafe",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e2e39c634af36f7c1d358ed2",
+      "place_id": "yc_in_hp_manali_camp_jungle_brooks",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6648936567f7661d10f9d28c",
+      "place_id": "yc_in_hp_manali_ramhani_cottages",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_df4abb72c1d62930b8f33006",
+      "place_id": "yc_in_hp_manali_fabhotel_17_mile_stone",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2e6389bc341fd51c90efabd4",
+      "place_id": "yc_in_hp_manali_fabhotel_jamdagni_bb",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6faffeb62c9bff4815dd8210",
+      "place_id": "yc_in_hp_manali_shivadya",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_95bf3065f20aeab8206dd1e7",
+      "place_id": "yc_in_hp_manali_bhrigu_lake",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_406688454ee02f5aaa33b33b",
+      "place_id": "yc_in_hp_manali_hidimba_devi_temple_dhungri_manali",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_96826d8c46445e3a46c675b2",
+      "place_id": "yc_in_hp_manali_hidimba_devi_temple_dhungri_manali",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c289b771ca416641977fca2e",
+      "place_id": "yc_in_hp_manali_miniature_siva_temple_jagatsukh",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ce91597e29ef41285ecae00f",
+      "place_id": "yc_in_hp_manali_tourist_locations_in_manali",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2c79a20341eff64441f1fc23",
+      "place_id": "yc_in_hp_manali_museum_of_himachal_culture_folk_arts",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_488b9e952127f449f6c6d8f0",
+      "place_id": "yc_in_hp_manali_museum_of_himachal_culture_folk_arts",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_05659d2bbf4e01846bdfcaf6",
+      "place_id": "yc_in_hp_manali_kartik_temple",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_78cd30a2a5cb3180071310da",
+      "place_id": "yc_in_hp_manali_kartik_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7a9e75c803523ba08df8a36e",
+      "place_id": "yc_in_hp_manali_kartik_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_54c4391131d3fd1feecc8a8c",
+      "place_id": "yc_in_hp_manali_vashist_hot_water_springs_and_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ca8321db113e5e45668f9e64",
+      "place_id": "yc_in_hp_manali_vashist_hot_water_springs_and_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_42d2d1dd03b963631abed78b",
+      "place_id": "yc_in_hp_manali_great_hadimba_weavers_welfare",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5fcc80696c0bec42962c27ff",
+      "place_id": "yc_in_hp_manali_studio_manali",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6cccefaab227d00eb36e17c6",
+      "place_id": "yc_in_hp_manali_studio_manali",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    }
+  ]
+}

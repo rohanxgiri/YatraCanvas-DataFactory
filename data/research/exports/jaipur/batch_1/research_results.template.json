@@ -1,0 +1,681 @@
+{
+  "schema_version": "1.0",
+  "handoff_id": "handoff_94e20cc348cdae4f4b52c644",
+  "results": [
+    {
+      "task_id": "research_8aa838020f9d6e0974707f78",
+      "place_id": "yc_in_rj_jaipur_albert_hall_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a896d5cc87f5043de0c60997",
+      "place_id": "yc_in_rj_jaipur_amrapali_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_51a3cc7b0eb0bf08e07bfe7b",
+      "place_id": "yc_in_rj_jaipur_anokhi_museum_of_hand_printing",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a10d57f0ff6ab818ef4744ae",
+      "place_id": "yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2178b190292274bcba5abdbc",
+      "place_id": "yc_in_rj_jaipur_city_palace",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_36ac56128dd6f11d22af9d63",
+      "place_id": "yc_in_rj_jaipur_galtaji",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3a60571ce74994a0af12c78a",
+      "place_id": "yc_in_rj_jaipur_govind_devji_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c69dbb8529a7c2334e66fae8",
+      "place_id": "yc_in_rj_jaipur_jantar_mantar",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0d698ea4ce42e26154ccc53a",
+      "place_id": "yc_in_rj_jaipur_jawahar_circle",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_47ddcc42bcad354356575985",
+      "place_id": "yc_in_rj_jaipur_ram_niwas_garden",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_407b3bb38da90f2267317118",
+      "place_id": "yc_in_rj_jaipur_ram_niwas_garden",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c3f26da7e3de691706b489a2",
+      "place_id": "yc_in_rj_jaipur_shri_digamber_jain_atishya_kshetra_mandir_sanghiji",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9d5a01fadc3e58a1e45a5fe8",
+      "place_id": "yc_in_rj_jaipur_sisodia_rani_palace_and_garden",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6f4dd983019e1e72cd7b7fe7",
+      "place_id": "yc_in_rj_jaipur_dalaram_bagh",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1f013c4faef9c59080c83aea",
+      "place_id": "yc_in_rj_jaipur_nahargarh_wildlife_sanctuary",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a28b93c96ccb4a0cf521f6aa",
+      "place_id": "yc_in_rj_jaipur_nahargarh_wildlife_sanctuary",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3be86488cb86733209a6b2a1",
+      "place_id": "yc_in_rj_jaipur_kesar_kyari",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5dd470cf3705b7561740fe8a",
+      "place_id": "yc_in_rj_jaipur_jhalanaamagarh_leopard_conservation_reserve",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3cd5b6fe05426df566fee2f3",
+      "place_id": "yc_in_rj_jaipur_akshardham_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_995c45850284bf597cc7066d",
+      "place_id": "yc_in_rj_jaipur_jawahar_kala_kendra",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_eb6b80ab67823f11fcde7b4c",
+      "place_id": "yc_in_rj_jaipur_akabar_ke_kos_chinha",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5ce00f3b12fc29935457a809",
+      "place_id": "yc_in_rj_jaipur_royal_gaitor",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c1ef13be45dbed0a005457e2",
+      "place_id": "yc_in_rj_jaipur_lake_palace",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9d74a6b53f3d470c87db41de",
+      "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_629d060c5306fa38364fbae9",
+      "place_id": "yc_in_rj_jaipur_jaipur_wax_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2e1a64970981b33cc92951e3",
+      "place_id": "yc_in_rj_jaipur_patrika_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b77612498dba9468920c05c2",
+      "place_id": "yc_in_rj_jaipur_statue_circle",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5f560ee9c012560327db16b8",
+      "place_id": "yc_in_rj_jaipur_moti_doongri_fort",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_67ce46dfdbb27020b2dce714",
+      "place_id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6846f9220bdaffab6754a88c",
+      "place_id": "yc_in_rj_jaipur_nakati_mata_temple",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_aae17862fe77f1f873f2e052",
+      "place_id": "yc_in_rj_jaipur_nakati_mata_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_82d44b4d740f3bf7c62a89a3",
+      "place_id": "yc_in_rj_jaipur_man_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0d0f713f7bb780ecec39789b",
+      "place_id": "yc_in_rj_jaipur_paanch_batti",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8e55483c59e4cb6a51d8f10e",
+      "place_id": "yc_in_rj_jaipur_sanganeri_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a0c487b6f3684390aeab7b09",
+      "place_id": "yc_in_rj_jaipur_sattais_kacheri",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a914a1697b1e9b4936f03b86",
+      "place_id": "yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6035e2625fd512b5152cd5fd",
+      "place_id": "yc_in_rj_jaipur_gaitore",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1833a628ca538c58e5b52670",
+      "place_id": "yc_in_rj_jaipur_galwar_bagh",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e8a6966046199590f69e21ae",
+      "place_id": "yc_in_rj_jaipur_jain_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a880b8e8dcff60151c4f144a",
+      "place_id": "yc_in_rj_jaipur_vidyadhar_garden",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e2f7da77655aa4878572e0c3",
+      "place_id": "yc_in_rj_jaipur_haveli",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_fb6526da1eacaaf21aa3696e",
+      "place_id": "yc_in_rj_jaipur_india_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b33155cc53ce5b31a0ed71ba",
+      "place_id": "yc_in_rj_jaipur_maharaniyon",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b43d445e1d777d4686e15739",
+      "place_id": "yc_in_rj_jaipur_moon_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_167df503abe36472619baa51",
+      "place_id": "yc_in_rj_jaipur_sun_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3b474339ecee01f77a83e6ae",
+      "place_id": "yc_in_rj_jaipur_chulgiri_digamber_jain_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_125bbd89adcf57d2adffcb00",
+      "place_id": "yc_in_rj_jaipur_diwan_i_am",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_995b58ee2c0d27c96e389578",
+      "place_id": "yc_in_rj_jaipur_elejungle_jaipur_elephant_ride",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_74a80f5530a30023abf074cb",
+      "place_id": "yc_in_rj_jaipur_elephant_riding",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_48322e0971188a47493fb796",
+      "place_id": "yc_in_rj_jaipur_ajmeri_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9c153f7c54a2fc5e4f5f2b54",
+      "place_id": "yc_in_rj_jaipur_ganesh_pol",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3817f84ad726744294081ccd",
+      "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_047e0d0403bba5883d4f529a",
+      "place_id": "yc_in_rj_jaipur_sawai_mansingh_townhall",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f9ac8be6835c1a0317b43c94",
+      "place_id": "yc_in_rj_jaipur_oyo_16578_rs_palace",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_de35cb25fa8a3613e8dc68ec",
+      "place_id": "yc_in_rj_jaipur_albert_hall_museum",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cbefacbb1ad8648915faed60",
+      "place_id": "yc_in_rj_jaipur_amrapali_museum",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_85f8390cb9a941833bda22bd",
+      "place_id": "yc_in_rj_jaipur_anokhi_museum_of_hand_printing",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_069699650553d5d6de946b6f",
+      "place_id": "yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5d48626b4c82254d6098e00c",
+      "place_id": "yc_in_rj_jaipur_city_palace",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b567ee797530b1aa21d1e1db",
+      "place_id": "yc_in_rj_jaipur_govind_devji_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7b5f7743cca052c76d68ac36",
+      "place_id": "yc_in_rj_jaipur_moti_dungri_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_decfa101bf95b62f4685b29e",
+      "place_id": "yc_in_rj_jaipur_ram_niwas_garden",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1314f64ec5d940a3f565e3bc",
+      "place_id": "yc_in_rj_jaipur_ram_niwas_garden",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5a0c8170459cefc35529f9b4",
+      "place_id": "yc_in_rj_jaipur_shri_digamber_jain_atishya_kshetra_mandir_sanghiji",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c7d1aa24633b6178ef64ca56",
+      "place_id": "yc_in_rj_jaipur_shri_digamber_jain_atishya_kshetra_mandir_sanghiji",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e231dd6bdf823b25828394ab",
+      "place_id": "yc_in_rj_jaipur_sisodia_rani_palace_and_garden",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1785f3d006d6de58aadf9720",
+      "place_id": "yc_in_rj_jaipur_dalaram_bagh",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_60bd090c328f9be991e4afac",
+      "place_id": "yc_in_rj_jaipur_dalaram_bagh",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cf816d42af2b706cd57c6493",
+      "place_id": "yc_in_rj_jaipur_kesar_kyari",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a019ecf0808aedbe9ded8907",
+      "place_id": "yc_in_rj_jaipur_kesar_kyari",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cbda034623b7ba458e6ea480",
+      "place_id": "yc_in_rj_jaipur_akshardham_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7419f3739fbe82fc880e3c8f",
+      "place_id": "yc_in_rj_jaipur_akshardham_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_929aad5ad7b61885eefeb593",
+      "place_id": "yc_in_rj_jaipur_jawahar_kala_kendra",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_761eb9ec70ecaf2c2968223e",
+      "place_id": "yc_in_rj_jaipur_akabar_ke_kos_chinha",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_59ddc61be469c75127a806e6",
+      "place_id": "yc_in_rj_jaipur_lake_palace",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    }
+  ]
+}

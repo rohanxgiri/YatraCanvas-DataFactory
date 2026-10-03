@@ -1,0 +1,13 @@
+# Provisional calibration on eight visually checked, source-linked POI references
+# against two cross-place distractors each. See reports/local_intelligence/
+# siglip_calibration.md. These scores guide review, never prove entity identity.
+local_media_revision: "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed"
+local_media_calibration_model: "google/siglip-base-patch16-224"
+local_media_calibration_revision: "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed"
+# Midpoint of Galtaji (.61809) and the lowest high-score reference (.86984).
+local_media_relevance_threshold: 0.743963748216629
+# Midpoint of the largest unrelated score (.005826) and Kesar Kyari (.140758).
+# Bhrigu Lake is a known correct low-score case: LOW routes to review, not rejection.
+local_media_min_relevance: 0.07329191989265382
+# Midpoint of the moderate Kesar (.134932) and decisive Galtaji (.617865) margins.
+local_media_ambiguity_margin: 0.37639855653833365

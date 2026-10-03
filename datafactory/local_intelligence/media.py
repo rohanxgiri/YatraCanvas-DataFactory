@@ -51,7 +51,7 @@ class LocalMediaRanker:
         return [f"photograph of {place['name']} {city['name']} {city.get('state', '')} {city.get('country', '')}",
                 f"photograph of a {category} in {city['name']}"] + [f"an image of a {label}" for label in LABELS]
 
-    def rank(self, place, city, candidates, *, persist=True):
+    def rank(self, place, city, candidates, *, persist=True, use_cache=True):
         """Candidates are (MediaCandidate, validated local analysis/original path)."""
         candidates = list(candidates)[:self.config.local_media_max_candidates]
         if not candidates or not self.config.local_media_enabled:
@@ -71,6 +71,8 @@ class LocalMediaRanker:
             key = hashlib.sha256((identity + file_hash).encode()).hexdigest()
             cache = self.cache_dir / f"{key}.json"
             try:
+                if not use_cache:
+                    raise ValueError("Fresh inference requested")
                 scores = json.loads(cache.read_text(encoding="utf-8"))["scores"]
                 if len(scores) != len(prompts) or any(not isinstance(v, (int, float)) or not 0 <= v <= 1 for v in scores):
                     raise ValueError("Invalid scores")
@@ -123,7 +125,9 @@ class LocalMediaRanker:
             margin = score - scored[1]["local"]["relevance"] if i == 0 and len(scored) > 1 else None
             cfg = self.config
             confidence = "UNCALIBRATED"
-            if all(v is not None for v in (cfg.local_media_min_relevance, cfg.local_media_relevance_threshold, cfg.local_media_ambiguity_margin)):
+            calibrated_model = (not cfg.local_media_calibration_model or cfg.local_media_model == cfg.local_media_calibration_model)
+            calibrated_revision = (not cfg.local_media_calibration_revision or cfg.local_media_revision == cfg.local_media_calibration_revision)
+            if calibrated_model and calibrated_revision and all(v is not None for v in (cfg.local_media_min_relevance, cfg.local_media_relevance_threshold, cfg.local_media_ambiguity_margin)):
                 confidence = "LOW" if score < cfg.local_media_min_relevance else "HIGH" if i == 0 and margin is not None and score >= cfg.local_media_relevance_threshold and margin >= cfg.local_media_ambiguity_margin else "AMBIGUOUS"
             row["local"].update(confidence=confidence, candidate_rank=i+1, top_margin=margin)
         return ranked

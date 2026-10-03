@@ -1,0 +1,27 @@
+{
+  "siglip_configured": true,
+  "model": "google/siglip-base-patch16-224",
+  "device": "cpu",
+  "model_cached_locally": true,
+  "model_load": "PASS",
+  "inference_test": "PASS",
+  "load_seconds": 5.8450176999904215,
+  "cache_dir": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\cache\\models",
+  "inference_seconds": 0.46726800000760704,
+  "scores": [
+    [
+      5.29004137206357e-06,
+      3.5573575019043346e-07
+    ]
+  ],
+  "duplicate_detector": "PASS",
+  "text_similarity": "PASS",
+  "text_details": {
+    "fuzzy": 0.8769230769230769,
+    "semantic": null,
+    "semantic_status": "DISABLED"
+  },
+  "geometry_engine": "PASS",
+  "hours_validator": "PASS",
+  "cloud_calls": 0
+}

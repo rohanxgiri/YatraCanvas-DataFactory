@@ -988,10 +988,11 @@ def local_ai_smoke_command(
     cities: str = typer.Option("Jaipur,Udaipur,Varanasi,Manali", "--cities"),
     fixture: Optional[Path] = typer.Option(None, "--fixture", exists=True),
     output: Path = typer.Option(Path("reports/local_intelligence/siglip_opportunities"), "--output"),
+    refresh_scores: bool = typer.Option(False, "--refresh-scores", help="Measure fresh inference while reusing downloaded model weights"),
 ):
     """Opt-in real cached-image inference; requires cached weights and never calls cloud AI."""
     from .local_intelligence.validation import run_validation
-    result = run_validation([n.strip() for n in cities.split(",")], output, get_settings(), fixture)
+    result = run_validation([n.strip() for n in cities.split(",")], output, get_settings(), fixture, refresh_scores=refresh_scores)
     console.print_json(data={k:v for k,v in result.items() if k != "rows"})
     if result["counts"].get("failures"):
         raise typer.Exit(1)

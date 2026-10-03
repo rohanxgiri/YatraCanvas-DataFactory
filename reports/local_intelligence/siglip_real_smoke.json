@@ -1,0 +1,918 @@
+{
+  "model": "google/siglip-base-patch16-224",
+  "revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+  "device": "cpu",
+  "model_load_seconds": 6.689946700003929,
+  "total_seconds": 62.710573599964846,
+  "inference_seconds": 12.107354199979454,
+  "seconds_per_candidate": 0.5044730916658106,
+  "counts": {
+    "ranking_opportunities": 24,
+    "processed_locally": 24,
+    "failures": 0,
+    "deterministic_entity_resolved": 0,
+    "high_confidence_ranking": 5,
+    "high_confidence_with_strong_source": 0,
+    "low_relevance": 17,
+    "ambiguous": 2,
+    "groq_candidate_checks_needed": 24,
+    "smoke_cases": 8,
+    "top1_correct": 8,
+    "top3_contains_correct": 8,
+    "research_handoff_zero_cached_candidate_groups": 85,
+    "clear_confidence_cases": 5,
+    "ambiguous_cases": 2,
+    "low_confidence_cases": 1,
+    "incorrect_rankings": 0
+  },
+  "ranker_stats": {
+    "ranked": 24,
+    "batches": 8
+  },
+  "cloud_calls": {
+    "groq": 0,
+    "gemini": 0,
+    "paid": 0
+  },
+  "gemini_needed": "Unknown until Groq returns unavailable/ambiguous; no live cloud calls made",
+  "incremental_cloud_savings_from_siglip": 0,
+  "limitations": [
+    "SigLIP similarity is not calibrated identity probability.",
+    "Entity-linked checks already avoided cloud before this phase.",
+    "All-candidate counts are candidate checks, not measured provider requests.",
+    "Top-3 in three-candidate smoke groups is a weak metric; Top-1 and margins matter.",
+    "Cached candidate absence is not proof that no photograph exists on the web."
+  ],
+  "rows": [
+    {
+      "place_id": "yc_in_rj_jaipur_albert_hall_museum",
+      "name": "Albert Hall Museum",
+      "category": "heritage",
+      "city": "Jaipur",
+      "expected": "Entity-linked reference should outrank the explicitly unrelated cross-place distractors",
+      "correct_rank": 1,
+      "inference_seconds": 1.4272913000313565,
+      "top_margin": 0.9642189976116242,
+      "candidates": [
+        {
+          "rank": 1,
+          "correct_reference": true,
+          "title": "Albert Hall museum, Jaipur.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Albert_Hall_museum,_Jaipur.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_albert_hall_museum\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.9642207622528076,
+            "category_relevance": 0.2590827941894531,
+            "labels": {
+              "real photograph": 1.3689760635315906e-05,
+              "map": 1.0178772669178215e-07,
+              "diagram": 1.3939069898327716e-09,
+              "logo": 8.286870079032838e-10,
+              "poster": 3.5996179370556547e-09,
+              "document": 4.421268240406562e-09,
+              "generic landscape": 1.604060315685274e-07,
+              "interior": 1.092801653612696e-06,
+              "exterior landmark": 0.0001493403105996549,
+              "unrelated building": 5.573313683271408e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "HIGH",
+            "candidate_rank": 1,
+            "top_margin": 0.9642189976116242
+          }
+        },
+        {
+          "rank": 2,
+          "correct_reference": false,
+          "title": "Jaipur - Birla Temple (7122464805).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Jaipur_-_Birla_Temple_(7122464805).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 1.7646411833993625e-06,
+            "category_relevance": 0.0036140948068350554,
+            "labels": {
+              "real photograph": 6.8090112108620815e-06,
+              "map": 7.281493452637733e-08,
+              "diagram": 1.3276902910419608e-09,
+              "logo": 3.830012307304287e-09,
+              "poster": 6.811931019257145e-09,
+              "document": 9.776512044368246e-09,
+              "generic landscape": 1.3110650343151065e-07,
+              "interior": 7.774864911880286e-07,
+              "exterior landmark": 0.00012340256944298744,
+              "unrelated building": 1.3950514585303608e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 2,
+            "top_margin": null
+          }
+        },
+        {
+          "rank": 3,
+          "correct_reference": false,
+          "title": "Bhrigu Lake by Ahmad Faiz Mustafa (4).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bhrigu_Lake_by_Ahmad_Faiz_Mustafa_(4).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks\\images\\yc_in_hp_manali_bhrigu_lake\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 3.361938548732124e-13,
+            "category_relevance": 2.2723385395551077e-09,
+            "labels": {
+              "real photograph": 0.0005340470233932137,
+              "map": 2.1052856027381495e-06,
+              "diagram": 5.147363779656189e-08,
+              "logo": 1.3123505837597804e-08,
+              "poster": 1.3414330624073045e-07,
+              "document": 8.948381946538575e-08,
+              "generic landscape": 0.0004335837147664279,
+              "interior": 1.2056776768076816e-06,
+              "exterior landmark": 1.3517800653062295e-05,
+              "unrelated building": 5.310123015078716e-06
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 3,
+            "top_margin": null
+          }
+        }
+      ]
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_sisodia_rani_palace_and_garden",
+      "name": "Sisodia Rani Palace and Garden",
+      "category": "heritage",
+      "city": "Jaipur",
+      "expected": "Entity-linked reference should outrank the explicitly unrelated cross-place distractors",
+      "correct_rank": 1,
+      "inference_seconds": 1.5666926999692805,
+      "top_margin": 0.9462777689917221,
+      "candidates": [
+        {
+          "rank": 1,
+          "correct_reference": true,
+          "title": "Rani Sisodia Garden.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Rani_Sisodia_Garden.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_sisodia_rani_palace_and_garden\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.9462777972221375,
+            "category_relevance": 0.7445560693740845,
+            "labels": {
+              "real photograph": 2.7068244889960624e-06,
+              "map": 1.4604077591684472e-07,
+              "diagram": 2.9667708290048722e-09,
+              "logo": 1.0442250397701969e-09,
+              "poster": 1.1448053172102846e-08,
+              "document": 1.0908151715227632e-08,
+              "generic landscape": 1.393978692476594e-07,
+              "interior": 1.0987845371346339e-06,
+              "exterior landmark": 8.217446520575322e-06,
+              "unrelated building": 1.9143115423503332e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "HIGH",
+            "candidate_rank": 1,
+            "top_margin": 0.9462777689917221
+          }
+        },
+        {
+          "rank": 2,
+          "correct_reference": false,
+          "title": "Hidimba Temple Manali.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hidimba_Temple_Manali.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks\\images\\yc_in_hp_manali_hidimba_devi_temple_dhungri_manali\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 2.8230415338725834e-08,
+            "category_relevance": 7.424072805406468e-07,
+            "labels": {
+              "real photograph": 5.849070021213265e-06,
+              "map": 1.2285462958061544e-07,
+              "diagram": 1.494492352094312e-08,
+              "logo": 1.3343797178322347e-09,
+              "poster": 1.3048326863440707e-08,
+              "document": 8.043794963441542e-09,
+              "generic landscape": 3.3977875091295573e-07,
+              "interior": 6.924948934283748e-07,
+              "exterior landmark": 0.00015320831153076142,
+              "unrelated building": 0.0003319909446872771
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 2,
+            "top_margin": null
+          }
+        },
+        {
+          "rank": 3,
+          "correct_reference": false,
+          "title": "Bhrigu Lake by Ahmad Faiz Mustafa (4).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bhrigu_Lake_by_Ahmad_Faiz_Mustafa_(4).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks\\images\\yc_in_hp_manali_bhrigu_lake\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 1.0919859461111514e-10,
+            "category_relevance": 2.2723385395551077e-09,
+            "labels": {
+              "real photograph": 0.0005340470233932137,
+              "map": 2.1052856027381495e-06,
+              "diagram": 5.147363779656189e-08,
+              "logo": 1.3123505837597804e-08,
+              "poster": 1.3414330624073045e-07,
+              "document": 8.948381946538575e-08,
+              "generic landscape": 0.0004335837147664279,
+              "interior": 1.2056776768076816e-06,
+              "exterior landmark": 1.3517800653062295e-05,
+              "unrelated building": 5.310123015078716e-06
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 3,
+            "top_margin": null
+          }
+        }
+      ]
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple",
+      "name": "Birla Mandir (aka The Marble Temple)",
+      "category": "heritage",
+      "city": "Jaipur",
+      "expected": "Entity-linked reference should outrank the explicitly unrelated cross-place distractors",
+      "correct_rank": 1,
+      "inference_seconds": 1.401203399989754,
+      "top_margin": 0.9278348999796435,
+      "candidates": [
+        {
+          "rank": 1,
+          "correct_reference": true,
+          "title": "Jaipur - Birla Temple (7122464805).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Jaipur_-_Birla_Temple_(7122464805).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.9281485080718994,
+            "category_relevance": 0.0036140948068350554,
+            "labels": {
+              "real photograph": 6.8090112108620815e-06,
+              "map": 7.281493452637733e-08,
+              "diagram": 1.3276902910419608e-09,
+              "logo": 3.830012307304287e-09,
+              "poster": 6.811931019257145e-09,
+              "document": 9.776512044368246e-09,
+              "generic landscape": 1.3110650343151065e-07,
+              "interior": 7.774864911880286e-07,
+              "exterior landmark": 0.00012340256944298744,
+              "unrelated building": 1.3950514585303608e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "HIGH",
+            "candidate_rank": 1,
+            "top_margin": 0.9278348999796435
+          }
+        },
+        {
+          "rank": 2,
+          "correct_reference": false,
+          "title": "Rani Sisodia Garden.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Rani_Sisodia_Garden.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_sisodia_rani_palace_and_garden\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.00031360809225589037,
+            "category_relevance": 0.7445560693740845,
+            "labels": {
+              "real photograph": 2.7068244889960624e-06,
+              "map": 1.4604077591684472e-07,
+              "diagram": 2.9667708290048722e-09,
+              "logo": 1.0442250397701969e-09,
+              "poster": 1.1448053172102846e-08,
+              "document": 1.0908151715227632e-08,
+              "generic landscape": 1.393978692476594e-07,
+              "interior": 1.0987845371346339e-06,
+              "exterior landmark": 8.217446520575322e-06,
+              "unrelated building": 1.9143115423503332e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 2,
+            "top_margin": null
+          }
+        },
+        {
+          "rank": 3,
+          "correct_reference": false,
+          "title": "Bhrigu Lake by Ahmad Faiz Mustafa (4).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bhrigu_Lake_by_Ahmad_Faiz_Mustafa_(4).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks\\images\\yc_in_hp_manali_bhrigu_lake\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 1.724053816376525e-10,
+            "category_relevance": 2.2723385395551077e-09,
+            "labels": {
+              "real photograph": 0.0005340470233932137,
+              "map": 2.1052856027381495e-06,
+              "diagram": 5.147363779656189e-08,
+              "logo": 1.3123505837597804e-08,
+              "poster": 1.3414330624073045e-07,
+              "document": 8.948381946538575e-08,
+              "generic landscape": 0.0004335837147664279,
+              "interior": 1.2056776768076816e-06,
+              "exterior landmark": 1.3517800653062295e-05,
+              "unrelated building": 5.310123015078716e-06
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 3,
+            "top_margin": null
+          }
+        }
+      ]
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_galtaji",
+      "name": "Galtaji",
+      "category": "heritage",
+      "city": "Jaipur",
+      "expected": "Entity-linked reference should outrank the explicitly unrelated cross-place distractors",
+      "correct_rank": 1,
+      "inference_seconds": 1.5083280999679118,
+      "top_margin": 0.617864758518408,
+      "candidates": [
+        {
+          "rank": 1,
+          "correct_reference": true,
+          "title": "GaltaTempleOverview.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:GaltaTempleOverview.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_galtaji\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.6180882453918457,
+            "category_relevance": 0.10992663353681564,
+            "labels": {
+              "real photograph": 1.523877699582954e-06,
+              "map": 2.4627965444778965e-07,
+              "diagram": 1.2060269449776229e-09,
+              "logo": 1.1920484044303237e-10,
+              "poster": 9.091959407570016e-10,
+              "document": 1.5634796790564565e-09,
+              "generic landscape": 9.176657300713487e-08,
+              "interior": 3.348336008457409e-07,
+              "exterior landmark": 7.995018904694007e-07,
+              "unrelated building": 1.0750655974334222e-06
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "AMBIGUOUS",
+            "candidate_rank": 1,
+            "top_margin": 0.617864758518408
+          }
+        },
+        {
+          "rank": 2,
+          "correct_reference": false,
+          "title": "Albert Hall museum, Jaipur.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Albert_Hall_museum,_Jaipur.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_albert_hall_museum\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.0002234868734376505,
+            "category_relevance": 0.2590827941894531,
+            "labels": {
+              "real photograph": 1.3689760635315906e-05,
+              "map": 1.0178772669178215e-07,
+              "diagram": 1.3939069898327716e-09,
+              "logo": 8.286870079032838e-10,
+              "poster": 3.5996179370556547e-09,
+              "document": 4.421268240406562e-09,
+              "generic landscape": 1.604060315685274e-07,
+              "interior": 1.092801653612696e-06,
+              "exterior landmark": 0.0001493403105996549,
+              "unrelated building": 5.573313683271408e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 2,
+            "top_margin": null
+          }
+        },
+        {
+          "rank": 3,
+          "correct_reference": false,
+          "title": "Hidimba Temple Manali.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hidimba_Temple_Manali.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks\\images\\yc_in_hp_manali_hidimba_devi_temple_dhungri_manali\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 5.050845519605218e-09,
+            "category_relevance": 7.424072805406468e-07,
+            "labels": {
+              "real photograph": 5.849070021213265e-06,
+              "map": 1.2285462958061544e-07,
+              "diagram": 1.494492352094312e-08,
+              "logo": 1.3343797178322347e-09,
+              "poster": 1.3048326863440707e-08,
+              "document": 8.043794963441542e-09,
+              "generic landscape": 3.3977875091295573e-07,
+              "interior": 6.924948934283748e-07,
+              "exterior landmark": 0.00015320831153076142,
+              "unrelated building": 0.0003319909446872771
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 3,
+            "top_margin": null
+          }
+        }
+      ]
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_kesar_kyari",
+      "name": "Kesar Kyari",
+      "category": "park",
+      "city": "Jaipur",
+      "expected": "Entity-linked reference should outrank the explicitly unrelated cross-place distractors",
+      "correct_rank": 1,
+      "inference_seconds": 1.6980237000389025,
+      "top_margin": 0.13493235455825925,
+      "candidates": [
+        {
+          "rank": 1,
+          "correct_reference": true,
+          "title": "Amber Palace-Kesar Kyari Garden VJC-20131017.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Amber_Palace-Kesar_Kyari_Garden_VJC-20131017.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_kesar_kyari\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.14075809717178345,
+            "category_relevance": 0.02736024186015129,
+            "labels": {
+              "real photograph": 1.4084106396694551e-06,
+              "map": 9.448853234061971e-06,
+              "diagram": 6.883585683681304e-07,
+              "logo": 1.6100544231179015e-09,
+              "poster": 3.2134164218433625e-09,
+              "document": 4.9083801911820046e-08,
+              "generic landscape": 1.7747737729223445e-05,
+              "interior": 1.4901480653861654e-06,
+              "exterior landmark": 1.7032234609359875e-05,
+              "unrelated building": 1.0159614248550497e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "AMBIGUOUS",
+            "candidate_rank": 1,
+            "top_margin": 0.13493235455825925
+          }
+        },
+        {
+          "rank": 2,
+          "correct_reference": false,
+          "title": "Jaipur - Birla Temple (7122464805).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Jaipur_-_Birla_Temple_(7122464805).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.0058257426135241985,
+            "category_relevance": 0.02142428234219551,
+            "labels": {
+              "real photograph": 6.8090112108620815e-06,
+              "map": 7.281493452637733e-08,
+              "diagram": 1.3276902910419608e-09,
+              "logo": 3.830012307304287e-09,
+              "poster": 6.811931019257145e-09,
+              "document": 9.776512044368246e-09,
+              "generic landscape": 1.3110650343151065e-07,
+              "interior": 7.774864911880286e-07,
+              "exterior landmark": 0.00012340256944298744,
+              "unrelated building": 1.3950514585303608e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 2,
+            "top_margin": null
+          }
+        },
+        {
+          "rank": 3,
+          "correct_reference": false,
+          "title": "Hidimba Temple Manali.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hidimba_Temple_Manali.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks\\images\\yc_in_hp_manali_hidimba_devi_temple_dhungri_manali\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 2.8144611405878095e-06,
+            "category_relevance": 3.0309552130347583e-06,
+            "labels": {
+              "real photograph": 5.849070021213265e-06,
+              "map": 1.2285462958061544e-07,
+              "diagram": 1.494492352094312e-08,
+              "logo": 1.3343797178322347e-09,
+              "poster": 1.3048326863440707e-08,
+              "document": 8.043794963441542e-09,
+              "generic landscape": 3.3977875091295573e-07,
+              "interior": 6.924948934283748e-07,
+              "exterior landmark": 0.00015320831153076142,
+              "unrelated building": 0.0003319909446872771
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 3,
+            "top_margin": null
+          }
+        }
+      ]
+    },
+    {
+      "place_id": "yc_in_rj_udaipur_city_palace_udaipur",
+      "name": "City Palace, Udaipur",
+      "category": "heritage",
+      "city": "Udaipur",
+      "expected": "Entity-linked reference should outrank the explicitly unrelated cross-place distractors",
+      "correct_rank": 1,
+      "inference_seconds": 1.6626770999864675,
+      "top_margin": 0.8651448306627572,
+      "candidates": [
+        {
+          "rank": 1,
+          "correct_reference": true,
+          "title": "Udaipur-Stadtpalast-04-2018-gje.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Udaipur-Stadtpalast-04-2018-gje.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\udaipur\\v3-app-fallbacks\\images\\yc_in_rj_udaipur_city_palace_udaipur\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.8698392510414124,
+            "category_relevance": 0.7571089267730713,
+            "labels": {
+              "real photograph": 2.018642408074811e-05,
+              "map": 5.187136480344634e-07,
+              "diagram": 6.180003619959962e-09,
+              "logo": 3.6949956427889674e-09,
+              "poster": 6.0519345090881416e-09,
+              "document": 1.0185372545379323e-08,
+              "generic landscape": 2.7051652295995154e-07,
+              "interior": 5.449967943604861e-07,
+              "exterior landmark": 0.00019949844863731414,
+              "unrelated building": 2.7499976567924023e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "HIGH",
+            "candidate_rank": 1,
+            "top_margin": 0.8651448306627572
+          }
+        },
+        {
+          "rank": 2,
+          "correct_reference": false,
+          "title": "Albert Hall museum, Jaipur.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Albert_Hall_museum,_Jaipur.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_albert_hall_museum\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.004694420378655195,
+            "category_relevance": 0.06013190746307373,
+            "labels": {
+              "real photograph": 1.3689760635315906e-05,
+              "map": 1.0178772669178215e-07,
+              "diagram": 1.3939069898327716e-09,
+              "logo": 8.286870079032838e-10,
+              "poster": 3.5996179370556547e-09,
+              "document": 4.421268240406562e-09,
+              "generic landscape": 1.604060315685274e-07,
+              "interior": 1.092801653612696e-06,
+              "exterior landmark": 0.0001493403105996549,
+              "unrelated building": 5.573313683271408e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 2,
+            "top_margin": null
+          }
+        },
+        {
+          "rank": 3,
+          "correct_reference": false,
+          "title": "Bhrigu Lake by Ahmad Faiz Mustafa (4).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bhrigu_Lake_by_Ahmad_Faiz_Mustafa_(4).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks\\images\\yc_in_hp_manali_bhrigu_lake\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 3.086153999021235e-09,
+            "category_relevance": 5.0826429287553765e-08,
+            "labels": {
+              "real photograph": 0.0005340470233932137,
+              "map": 2.1052856027381495e-06,
+              "diagram": 5.147363779656189e-08,
+              "logo": 1.3123505837597804e-08,
+              "poster": 1.3414330624073045e-07,
+              "document": 8.948381946538575e-08,
+              "generic landscape": 0.0004335837147664279,
+              "interior": 1.2056776768076816e-06,
+              "exterior landmark": 1.3517800653062295e-05,
+              "unrelated building": 5.310123015078716e-06
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 3,
+            "top_margin": null
+          }
+        }
+      ]
+    },
+    {
+      "place_id": "yc_in_hp_manali_bhrigu_lake",
+      "name": "Bhrigu Lake",
+      "category": "nature",
+      "city": "Manali",
+      "expected": "Entity-linked reference should outrank the explicitly unrelated cross-place distractors",
+      "correct_rank": 1,
+      "inference_seconds": 1.3969132999773137,
+      "top_margin": 9.683217049066828e-05,
+      "candidates": [
+        {
+          "rank": 1,
+          "correct_reference": true,
+          "title": "Bhrigu Lake by Ahmad Faiz Mustafa (4).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bhrigu_Lake_by_Ahmad_Faiz_Mustafa_(4).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks\\images\\yc_in_hp_manali_bhrigu_lake\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 9.68329914030619e-05,
+            "category_relevance": 5.510104529093951e-05,
+            "labels": {
+              "real photograph": 0.0005340470233932137,
+              "map": 2.1052856027381495e-06,
+              "diagram": 5.147363779656189e-08,
+              "logo": 1.3123505837597804e-08,
+              "poster": 1.3414330624073045e-07,
+              "document": 8.948381946538575e-08,
+              "generic landscape": 0.0004335837147664279,
+              "interior": 1.2056776768076816e-06,
+              "exterior landmark": 1.3517800653062295e-05,
+              "unrelated building": 5.310123015078716e-06
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 1,
+            "top_margin": 9.683217049066828e-05
+          }
+        },
+        {
+          "rank": 2,
+          "correct_reference": false,
+          "title": "Jaipur - Birla Temple (7122464805).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Jaipur_-_Birla_Temple_(7122464805).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 8.209123936175899e-10,
+            "category_relevance": 6.425013054922601e-08,
+            "labels": {
+              "real photograph": 6.8090112108620815e-06,
+              "map": 7.281493452637733e-08,
+              "diagram": 1.3276902910419608e-09,
+              "logo": 3.830012307304287e-09,
+              "poster": 6.811931019257145e-09,
+              "document": 9.776512044368246e-09,
+              "generic landscape": 1.3110650343151065e-07,
+              "interior": 7.774864911880286e-07,
+              "exterior landmark": 0.00012340256944298744,
+              "unrelated building": 1.3950514585303608e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 2,
+            "top_margin": null
+          }
+        },
+        {
+          "rank": 3,
+          "correct_reference": false,
+          "title": "Rani Sisodia Garden.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Rani_Sisodia_Garden.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_sisodia_rani_palace_and_garden\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 8.234646471649842e-12,
+            "category_relevance": 2.4083124117169064e-07,
+            "labels": {
+              "real photograph": 2.7068244889960624e-06,
+              "map": 1.4604077591684472e-07,
+              "diagram": 2.9667708290048722e-09,
+              "logo": 1.0442250397701969e-09,
+              "poster": 1.1448053172102846e-08,
+              "document": 1.0908151715227632e-08,
+              "generic landscape": 1.393978692476594e-07,
+              "interior": 1.0987845371346339e-06,
+              "exterior landmark": 8.217446520575322e-06,
+              "unrelated building": 1.9143115423503332e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 3,
+            "top_margin": null
+          }
+        }
+      ]
+    },
+    {
+      "place_id": "yc_in_hp_manali_hidimba_devi_temple_dhungri_manali",
+      "name": "Hidimba Devi Temple, Dhungri Manali",
+      "category": "religious",
+      "city": "Manali",
+      "expected": "Entity-linked reference should outrank the explicitly unrelated cross-place distractors",
+      "correct_rank": 1,
+      "inference_seconds": 1.4462246000184678,
+      "top_margin": 0.9926614711813828,
+      "candidates": [
+        {
+          "rank": 1,
+          "correct_reference": true,
+          "title": "Hidimba Temple Manali.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hidimba_Temple_Manali.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks\\images\\yc_in_hp_manali_hidimba_devi_temple_dhungri_manali\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 0.9926614761352539,
+            "category_relevance": 0.4962635636329651,
+            "labels": {
+              "real photograph": 5.849070021213265e-06,
+              "map": 1.2285462958061544e-07,
+              "diagram": 1.494492352094312e-08,
+              "logo": 1.3343797178322347e-09,
+              "poster": 1.3048326863440707e-08,
+              "document": 8.043794963441542e-09,
+              "generic landscape": 3.3977875091295573e-07,
+              "interior": 6.924948934283748e-07,
+              "exterior landmark": 0.00015320831153076142,
+              "unrelated building": 0.0003319909446872771
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "HIGH",
+            "candidate_rank": 1,
+            "top_margin": 0.9926614711813828
+          }
+        },
+        {
+          "rank": 2,
+          "correct_reference": false,
+          "title": "Jaipur - Birla Temple (7122464805).jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Jaipur_-_Birla_Temple_(7122464805).jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 4.95387109111789e-09,
+            "category_relevance": 5.1638185141200665e-06,
+            "labels": {
+              "real photograph": 6.8090112108620815e-06,
+              "map": 7.281493452637733e-08,
+              "diagram": 1.3276902910419608e-09,
+              "logo": 3.830012307304287e-09,
+              "poster": 6.811931019257145e-09,
+              "document": 9.776512044368246e-09,
+              "generic landscape": 1.3110650343151065e-07,
+              "interior": 7.774864911880286e-07,
+              "exterior landmark": 0.00012340256944298744,
+              "unrelated building": 1.3950514585303608e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 2,
+            "top_margin": null
+          }
+        },
+        {
+          "rank": 3,
+          "correct_reference": false,
+          "title": "Amber Palace-Kesar Kyari Garden VJC-20131017.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Amber_Palace-Kesar_Kyari_Garden_VJC-20131017.jpg",
+          "path": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks\\images\\yc_in_rj_jaipur_kesar_kyari\\primary.webp",
+          "match_method": "wikidata_p18",
+          "local": {
+            "status": "OK",
+            "model": "google/siglip-base-patch16-224",
+            "relevance": 1.4685360566479844e-11,
+            "category_relevance": 1.5957586363413157e-09,
+            "labels": {
+              "real photograph": 1.4084106396694551e-06,
+              "map": 9.448853234061971e-06,
+              "diagram": 6.883585683681304e-07,
+              "logo": 1.6100544231179015e-09,
+              "poster": 3.2134164218433625e-09,
+              "document": 4.9083801911820046e-08,
+              "generic landscape": 1.7747737729223445e-05,
+              "interior": 1.4901480653861654e-06,
+              "exterior landmark": 1.7032234609359875e-05,
+              "unrelated building": 1.0159614248550497e-05
+            },
+            "label": "uncertain",
+            "non_photo_review": false,
+            "supporting_evidence_only": true,
+            "confidence": "LOW",
+            "candidate_rank": 3,
+            "top_margin": null
+          }
+        }
+      ]
+    }
+  ],
+  "peak_working_set_mb": 1210.57421875,
+  "thresholds": {
+    "high_relevance": 0.743963748216629,
+    "min_relevance": 0.07329191989265382,
+    "ambiguity_margin": 0.37639855653833365
+  }
+}

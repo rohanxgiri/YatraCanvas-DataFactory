@@ -1,7 +1,7 @@
 # Local intelligence and research handoff
 
 DataFactory uses deterministic/local evidence before the existing free-only Groq
-then Gemini router. Missing external evidence becomes a research task immediately:
+then Gemini router. Missing important external evidence becomes a research task:
 empty discovery has no image to inspect; absent source hours cannot be inferred
 from model memory. ChatGPT Web or a human researches exported tasks and returns
 structured results. No new paid API, OpenAI API, local LLM or backend service.
@@ -42,9 +42,9 @@ python -m pip install -e '.[local-models]'
 ```
 
 First use may download model weights only when `LOCAL_MEDIA_ALLOW_DOWNLOAD=true`
-or `LOCAL_TEXT_ALLOW_DOWNLOAD=true`. Later runs use the normal Hugging Face cache.
-Defaults are cache-only; restore flags to false after preparation. `HF_HOME` chooses
-the cache directory. Pin `LOCAL_MEDIA_REVISION` to a model commit for reproducibility.
+or `LOCAL_TEXT_ALLOW_DOWNLOAD=true`. SigLIP uses `data/cache/models` by default;
+`LOCAL_MEDIA_MODEL_CACHE` overrides that path. Later runs are cache-only. The checked
+revision is pinned in `config/local_media.yaml`; environment overrides remain supported.
 SigLIP base has about 200M parameters: allow roughly 1GB for weights plus runtime
 overhead. Default tests require neither model weights nor the optional ML packages.
 
@@ -79,8 +79,9 @@ review. There is no custom schedule grammar fallback.
 
 RapidFuzz and Shapely were already dependencies. ImageHash 4.3.2 and
 opening-hours-py 2.1.4 installs were exercised on Windows Python 3.12. The optional
-ML stack was not installed in this acceptance pass. This avoids large model/runtime
-downloads in contributor setup and CI. No FAISS, vector database or new service.
+ML stack has now been installed and exercised locally. Protobuf is required by the
+SigLIP tokenizer (`protobuf>=4,<7` is included in the optional extra). Normal tests
+still require no model download. No FAISS, vector database or new service.
 
 Primary references for maintenance, compatibility and license checks:
 [ImageHash](https://pypi.org/project/ImageHash/),
@@ -98,21 +99,31 @@ Default model licenses are Apache-2.0; check a replacement model's license separ
 ## Research export
 
 ```powershell
-python -m datafactory.cli research-export --city Jaipur --state Rajasthan --country India --all
-python -m datafactory.cli research-export --city Jaipur --type OPENING_HOURS
-python -m datafactory.cli research-export --city Jaipur --priority P0,P1
-python -m datafactory.cli research-export --cities Jaipur,Udaipur,Varanasi,Manali --all
+python -m datafactory.cli research-export --city Jaipur --priority P0,P1,P2 --limit 75
+python -m datafactory.cli research-export --city Jaipur --type REAL_PRIMARY_IMAGE --priority P0
+python -m datafactory.cli research-export --city Jaipur --type OPENING_HOURS --priority P2
+python -m datafactory.cli research-export --cities Jaipur,Udaipur,Varanasi,Manali
+python -m datafactory.cli research-export --city Jaipur --all
 ```
 
 Default source is the latest research-imported head, then `v3-app-fallbacks`, then
 `v3`. `--version` chooses an explicit snapshot. Same-name cities require state/country
-disambiguation. `--all` includes all unresolved task types for important POIs.
-Ordinary commercial POIs are excluded unless `--include-optional` is explicit.
-Important means core destinations, destinations requiring/preferring real imagery,
-and recommended travel experiences; recommended cafes with ordinary fallback
-policy do not create hours/website/description tasks by default.
-Prominent required-image cafes/food destinations still get P0 tasks. Descriptions
-are restricted to core and important recommended attractions/experiences.
+disambiguation. Default export includes only P0/P1/P2. `--all` (or legacy
+`--include-optional`) opts into P3/P4, but never DO_NOT_RESEARCH. Explicit priorities
+override the default. Types, priorities and a positive limit combine; ordering is
+priority, tier, travel relevance, prominence, category importance, place ID and type.
+Limits do not change task IDs. A repeated identical batch remains identical; select
+another filter or import completed work and re-export to advance the queue.
+
+`research_worthiness` is deterministic and field-specific. Required real photos are
+always P0. Important unresolved identity/coordinate conflicts are P0/P1. Core venue
+hours are P2 when scheduling matters; recommended venue hours are normally P3.
+Generic urban parks, viewpoints and open landmarks without venue evidence do not
+require hours research. Missing descriptions prioritize important attractions;
+websites prioritize useful visit-planning evidence. Ordinary optional metadata is
+P4; support metadata and fallback-allowed photo gaps are DO_NOT_RESEARCH.
+Named museums/temples/forts/palaces/gardens also establish scheduling relevance when
+the existing category is generic heritage; they never establish an actual schedule.
 
 Outputs under `data/research/exports/<country>/<state>/<city>/`:
 
@@ -122,11 +133,15 @@ Outputs under `data/research/exports/<country>/<state>/<city>/`:
 - `research_handoff.csv`: optional spreadsheet review; not an import format.
 - `research_results.schema.json`: strict typed payloads, no researcher confidence.
 - `research_results.template.json`: UNRESOLVED entries ready to fill.
+- `research_inventory.json`: all candidate gaps, including P3/P4 and suppressed
+  tasks with `why_not_research`. This is for internal audit; do not upload it as the
+  normal handoff. `reason_codes` and `why_research` explain exported work.
 
 Types: OPENING_HOURS, REAL_PRIMARY_IMAGE, WEBSITE, DESCRIPTION, COORDINATE_RESEARCH,
 IDENTITY_RESEARCH. Future types extend the enum/schema/selector/validator, leaving
-the interchange intact. Priority: P0 required photographs; P1 identity/coordinates;
-P2 important hours; P3 preferred photographs; P4 optional metadata.
+the interchange intact. Priority: P0 critical required photographs/identity/coordinate
+conflicts; P1 important conflicts/prominent preferred media; P2 important hours,
+descriptions and useful websites; P3 useful later research; P4 optional metadata.
 
 Upload the Markdown/JSON/schema to ChatGPT Web. Request current source research
 and a completed template. Save `research_results.json`, preserving handoff_id,
@@ -207,9 +222,56 @@ quotes and timestamps. No external research results are fabricated by tests.
 Published-ID tasks do not revive upstream quarantined candidates or match by name.
 
 ```powershell
-python -m scripts.report_local_research
+python -m scripts.report_research_optimization
+python -m scripts.verify_research_roundtrip
 python -m pytest -q -p no:cacheprovider --basetemp=scratch/local-research-verification
 ```
 
 The report measures cached local/model/cloud counts, without monetary claims or
 invented savings. Optional real model integration is separate from default tests.
+
+## Real model diagnostics and measured calibration
+
+```powershell
+python -m datafactory.cli local-ai-status --download  # first preparation only
+$env:HF_HUB_OFFLINE = '1'
+python -m datafactory.cli local-ai-status             # cached weights, no cloud
+python -m datafactory.cli local-ai-smoke --fixture tests/fixtures/siglip_real_cases.json --refresh-scores --output reports/local_intelligence/siglip_real_smoke
+python -m datafactory.cli local-ai-smoke --output reports/local_intelligence/siglip_opportunities
+```
+
+The health command reports load/inference, device/cache, duplicates, fuzzy text,
+geometry and hours validation. Disabled optional semantic text is shown explicitly.
+`local-ai-smoke` is opt-in, performs actual inference on cached candidate files, and
+never invokes Groq/Gemini. `--refresh-scores` bypasses score caches while reusing model
+weights; without it, score caches are reused. Normal pytest runs disable model loads;
+`RUN_LOCAL_MODEL_TESTS=1` allows them, but the smoke command is the reproducible real
+integration check. Never enable automatic downloads in ordinary tests.
+
+The eight reference cases and provisional thresholds are documented in
+`reports/local_intelligence/siglip_calibration.md`. Scores are similarity evidence,
+not identity probabilities. LOW is a review route, not image rejection. Unavailable
+or ambiguous local ranking preserves existing cloud assurance. Deterministic P18
+evidence can already accept without cloud; contradictory entity IDs are rejected
+before either local scores or cloud can override them. A high SigLIP score alone
+never accepts an image. The existing router stops after a decisive Groq answer;
+Gemini is used for unavailable/rate-limited Groq or important ambiguity.
+
+## Practical sequence
+
+1. Build or repair a city; deterministic filters, duplicates and source evidence run first.
+2. Local SigLIP ranks available candidates. Strong identity evidence resolves safe
+   media locally; cloud assurance runs only where necessary. Empty discovery goes to handoff.
+3. Export P0/P1/P2 with `--limit 75`; upload the Markdown, JSON and schema to ChatGPT Web.
+4. Save the returned `research_results.json`; run import `--dry-run`, then `--apply`.
+5. Apply rebuilds JSON/JSONL/Parquet/SQLite/media and recalculates usability, required
+   media coverage, critical blockers and source readiness atomically in a new pack.
+6. Review both `GENERAL_USABILITY` (target >=95%) and `REAL_REQUIRED_MEDIA_COVERAGE`
+   (target 100%); source readiness also requires all other critical gates.
+7. Re-export remaining research. Sync the improved pack to City Lab later; this
+   phase does not modify City Lab.
+
+Generated Jaipur batches are under `data/research/exports/jaipur/`: `batch_1/`,
+`required_images/` and `core_hours/`. Round-trip artifacts live in an explicitly
+synthetic `scratch/fixture-roundtrip-*` workspace. No real schedule or license is
+invented or applied to production to demonstrate that workflow.

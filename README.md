@@ -191,3 +191,36 @@ Fallback presentation belongs to the YatraCanvas app. `fallbacks.strategy: app` 
 `audit-identity --city ... --state ... --review-manifest <path>` reads a review queue locally and records collisions, pairwise evidence and proposed new candidate IDs. `--ai` explicitly enables transfer of reduced names, aliases, coordinates, categories and source identifiers to the configured providers; curator notes stay local. It never applies a published-ID migration or writes City Lab files. Missing/unsafe optional gallery references are pruned from new exports with an audit trail; primary-photo blockers remain explicit.
 
 See `docs/architecture-audit.md` and the generated `reports/offline_assurance_acceptance.md` for acceptance evidence and limitations. `reports/app_fallback_transition.md` records the later removal of generated artwork from all four exports and gives the current pack paths. The original acceptance figures remain historical evidence.
+
+## Local-first intelligence and selective research
+
+Real CPU SigLIP is available through the optional `local-models` extra (including
+the tokenizer's protobuf dependency). Run `local-ai-status --download` once; later
+`local-ai-status` runs load `data/cache/models` without downloading. The configured
+model revision and provisional measured thresholds live in `config/local_media.yaml`.
+SigLIP guides candidate ranking; entity contradictions, licensing and assurance
+remain authoritative. Decisive source evidence skips cloud AI. Empty candidate pools
+go directly to research. Groq handles unresolved finalists; Gemini handles provider
+unavailability or important ambiguity under the existing FREE_ONLY policy.
+
+```powershell
+python -m datafactory.cli local-ai-status
+python -m datafactory.cli research-export --city Jaipur --priority P0,P1,P2 --limit 75
+python -m datafactory.cli research-export --city Jaipur --type REAL_PRIMARY_IMAGE --priority P0
+python -m datafactory.cli research-export --city Jaipur --type OPENING_HOURS --priority P2
+python -m datafactory.cli research-import --file research_results.json --dry-run
+python -m datafactory.cli research-import --file research_results.json --apply
+```
+
+Default handoffs contain P0/P1/P2 only. `--all` opts into P3/P4. Every task includes
+deterministic `research_worthiness` and reasons. `research_inventory.json` retains
+deferred and DO_NOT_RESEARCH gaps internally. Fallback-allowed images and low-value
+optional hours do not flood normal handoffs. Unknown hours remain acceptable.
+
+Build/repair, export the actionable batch, upload the supplied instructions/schema
+to ChatGPT Web, save results, dry-run, apply, then review the rebuilt offline pack.
+Apply rebuilds and validates every projection and recalculates
+`GENERAL_USABILITY` (>=95% target), `REAL_REQUIRED_MEDIA_COVERAGE` (100% target),
+critical blockers and source readiness. Original v3 packs are preserved. City Lab
+sync is a later step. See [the workflow](docs/local-research-workflow.md) and
+[measured acceptance](reports/local_intelligence/optimization_final.md).

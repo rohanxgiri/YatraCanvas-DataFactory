@@ -1,0 +1,275 @@
+{
+  "baseline_total": 1637,
+  "actionable_total": 459,
+  "reduction_percent": 71.96,
+  "siglip": {
+    "model": "google/siglip-base-patch16-224",
+    "revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+    "device": "cpu",
+    "model_load_seconds": 6.689946700003929,
+    "total_seconds": 62.710573599964846,
+    "inference_seconds": 12.107354199979454,
+    "seconds_per_candidate": 0.5044730916658106,
+    "counts": {
+      "ranking_opportunities": 24,
+      "processed_locally": 24,
+      "failures": 0,
+      "deterministic_entity_resolved": 0,
+      "high_confidence_ranking": 5,
+      "high_confidence_with_strong_source": 0,
+      "low_relevance": 17,
+      "ambiguous": 2,
+      "groq_candidate_checks_needed": 24,
+      "smoke_cases": 8,
+      "top1_correct": 8,
+      "top3_contains_correct": 8,
+      "research_handoff_zero_cached_candidate_groups": 85,
+      "clear_confidence_cases": 5,
+      "ambiguous_cases": 2,
+      "low_confidence_cases": 1,
+      "incorrect_rankings": 0
+    },
+    "ranker_stats": {
+      "ranked": 24,
+      "batches": 8
+    },
+    "cloud_calls": {
+      "groq": 0,
+      "gemini": 0,
+      "paid": 0
+    },
+    "gemini_needed": "Unknown until Groq returns unavailable/ambiguous; no live cloud calls made",
+    "incremental_cloud_savings_from_siglip": 0,
+    "limitations": [
+      "SigLIP similarity is not calibrated identity probability.",
+      "Entity-linked checks already avoided cloud before this phase.",
+      "All-candidate counts are candidate checks, not measured provider requests.",
+      "Top-3 in three-candidate smoke groups is a weak metric; Top-1 and margins matter.",
+      "Cached candidate absence is not proof that no photograph exists on the web."
+    ],
+    "peak_working_set_mb": 1210.57421875,
+    "thresholds": {
+      "high_relevance": 0.743963748216629,
+      "min_relevance": 0.07329191989265382,
+      "ambiguity_margin": 0.37639855653833365
+    }
+  },
+  "media_opportunities": {
+    "model": "google/siglip-base-patch16-224",
+    "revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+    "device": "cpu",
+    "model_load_seconds": 5.933651399973314,
+    "total_seconds": 47.68985620001331,
+    "inference_seconds": 2.1014393999939784,
+    "seconds_per_candidate": 0.00850785182183797,
+    "counts": {
+      "ranking_opportunities": 247,
+      "processed_locally": 247,
+      "failures": 0,
+      "deterministic_entity_resolved": 3,
+      "existing_verified_reference_reused": 8,
+      "high_confidence_ranking": 9,
+      "high_confidence_with_strong_source": 0,
+      "low_relevance": 91,
+      "ambiguous": 147,
+      "unverified_candidate_checks_remaining": 236,
+      "candidate_groups": 152,
+      "groups_resolved_without_cloud": 8,
+      "groq_required_groups": 144,
+      "research_handoff_missing_images_no_cached_candidates": 350,
+      "incorrect_rankings": 0
+    },
+    "ranker_stats": {
+      "cache_hits": 247
+    },
+    "cloud_calls": {
+      "groq": 0,
+      "gemini": 0,
+      "paid": 0
+    },
+    "gemini_needed": "Unknown until Groq returns unavailable/ambiguous; no live cloud calls made",
+    "incremental_cloud_savings_from_siglip": 0,
+    "limitations": [
+      "SigLIP similarity is not calibrated identity probability.",
+      "Entity-linked checks already avoided cloud before this phase.",
+      "All-candidate counts are candidate checks, not measured provider requests.",
+      "Top-3 in three-candidate smoke groups is a weak metric; Top-1 and margins matter.",
+      "Cached candidate absence is not proof that no photograph exists on the web."
+    ],
+    "peak_working_set_mb": 744.09375,
+    "group_confidence": {
+      "AMBIGUOUS": 99,
+      "HIGH": 9,
+      "LOW": 44
+    },
+    "fresh_pass_performance": {
+      "model_load_seconds": 6.659346000000369,
+      "total_seconds": 212.48586209997302,
+      "inference_seconds": 166.7379363994114,
+      "seconds_per_candidate": 0.6750523740866858,
+      "peak_working_set_mb": 1287.84765625,
+      "ranker_stats": {
+        "ranked": 239,
+        "batches": 150,
+        "cache_hits": 8
+      }
+    },
+    "cache_reuse_performance": {
+      "model_load_seconds": 5.933651399973314,
+      "total_seconds": 47.68985620001331,
+      "inference_seconds": 2.1014393999939784,
+      "seconds_per_candidate": 0.00850785182183797,
+      "peak_working_set_mb": 744.09375,
+      "ranker_stats": {
+        "cache_hits": 247
+      }
+    },
+    "thresholds": {
+      "high_relevance": 0.743963748216629,
+      "min_relevance": 0.07329191989265382,
+      "ambiguity_margin": 0.37639855653833365
+    },
+    "thresholds_scope": "Provisional, eight reference groups; source evidence is always required for acceptance."
+  },
+  "health": {
+    "siglip_configured": true,
+    "model": "google/siglip-base-patch16-224",
+    "device": "cpu",
+    "model_cached_locally": true,
+    "model_load": "PASS",
+    "inference_test": "PASS",
+    "load_seconds": 5.8450176999904215,
+    "cache_dir": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\cache\\models",
+    "inference_seconds": 0.46726800000760704,
+    "scores": [
+      [
+        5.29004137206357e-06,
+        3.5573575019043346e-07
+      ]
+    ],
+    "duplicate_detector": "PASS",
+    "text_similarity": "PASS",
+    "text_details": {
+      "fuzzy": 0.8769230769230769,
+      "semantic": null,
+      "semantic_status": "DISABLED"
+    },
+    "geometry_engine": "PASS",
+    "hours_validator": "PASS",
+    "cloud_calls": 0
+  },
+  "jaipur_batch_1": {
+    "city": {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "handoff_id": "handoff_94e20cc348cdae4f4b52c644",
+    "total": 75,
+    "filtered_total_before_limit": 110,
+    "remaining_in_filter": 35,
+    "actionable": 110,
+    "deferred_optional": 924,
+    "do_not_research": 1098,
+    "by_type": {
+      "OPENING_HOURS": 15,
+      "REAL_PRIMARY_IMAGE": 50,
+      "WEBSITE": 5,
+      "DESCRIPTION": 1,
+      "COORDINATE_RESEARCH": 4,
+      "IDENTITY_RESEARCH": 0
+    },
+    "by_priority": {
+      "P0": 53,
+      "P1": 1,
+      "P2": 21,
+      "P3": 0,
+      "P4": 0
+    },
+    "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\exports\\jaipur\\batch_1",
+    "zero_candidate_media_tasks": 23
+  },
+  "roundtrip": {
+    "fixture_only": true,
+    "fixture_root": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\scratch\\fixture-roundtrip-sfh0eevl",
+    "export": {
+      "city": {
+        "id": "jaipur",
+        "name": "Jaipur",
+        "state": "Rajasthan",
+        "country": "India"
+      },
+      "handoff_id": "handoff_2a6f0ff2bb48f294c752a747",
+      "total": 3,
+      "filtered_total_before_limit": 3,
+      "remaining_in_filter": 0,
+      "actionable": 3,
+      "deferred_optional": 0,
+      "do_not_research": 0,
+      "by_type": {
+        "OPENING_HOURS": 1,
+        "REAL_PRIMARY_IMAGE": 1,
+        "WEBSITE": 0,
+        "DESCRIPTION": 1,
+        "COORDINATE_RESEARCH": 0,
+        "IDENTITY_RESEARCH": 0
+      },
+      "by_priority": {
+        "P0": 1,
+        "P1": 0,
+        "P2": 2,
+        "P3": 0,
+        "P4": 0
+      },
+      "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\scratch\\fixture-roundtrip-sfh0eevl\\handoff",
+      "zero_candidate_media_tasks": 1
+    },
+    "command_exit_codes": {
+      "research-import --dry-run": 0,
+      "research-import --apply": 0
+    },
+    "offline_rebuild": "Completed atomically by apply; validate_release_package passed for JSON/JSONL/Parquet/SQLite/media/checksums",
+    "changed_place_fields": [
+      "opening_hours",
+      "images"
+    ],
+    "provenance_rows": 2,
+    "original_v3_preserved": true,
+    "readiness_before": {
+      "GENERAL_USABILITY": 0.0,
+      "REAL_REQUIRED_MEDIA_COVERAGE": 0.0,
+      "SOURCE_DATA_READY": false,
+      "critical_blockers": {
+        "CORE_MEDIA_UNRESOLVED": 1,
+        "MEDIA_NOT_RENDERABLE": 1
+      }
+    },
+    "readiness_after": {
+      "GENERAL_USABILITY": 100.0,
+      "REAL_REQUIRED_MEDIA_COVERAGE": 100.0,
+      "SOURCE_DATA_READY": true,
+      "critical_blockers": {}
+    },
+    "live_cloud_calls": 0,
+    "real_research_results_applied": 0
+  },
+  "preservation": {
+    "Jaipur": {
+      "source": true,
+      "v3": true
+    },
+    "Udaipur": {
+      "source": true,
+      "v3": true
+    },
+    "Varanasi": {
+      "source": true,
+      "v3": true
+    },
+    "Manali": {
+      "source": true,
+      "v3": true
+    }
+  }
+}

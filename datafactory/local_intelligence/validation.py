@@ -8,8 +8,10 @@ from .config import LocalConfig
 from .duplicates import DuplicateIndex
 from .media import LocalMediaRanker, SigLIPBackend
 from ..models.media_candidate import MediaCandidate
-from ..pipeline.media_assurance import deterministic_filter
-from ..research.export import find_pack, read_assurance
+from ..pipeline.media_assurance import deterministic_filter, media_signature
+from ..pipeline.identity_assurance import compact_identity
+from ..ai.router import digest
+from ..research.export import find_pack, read_assurance, make_tasks
 from ..utils.atomic import atomic_json
 from ..utils.hashing import slugify
 
@@ -20,7 +22,15 @@ def cached_groups(names, settings):
         city = json.loads((pack / "city.json").read_text(encoding="utf-8"))
         scope = Path(slugify(city["country"])) / slugify(city["state"]) / slugify(city["name"])
         assurance = read_assurance(pack)
-        for place in json.loads((pack / "places.json").read_text(encoding="utf-8")):
+        places = json.loads((pack / "places.json").read_text(encoding="utf-8"))
+        missing = {t["place_id"] for t in make_tasks(places, city, pack, assurance) if t["type"] == "REAL_PRIMARY_IMAGE"}
+        for place in places:
+            place["_validation_missing_image"] = place["id"] in missing
+            media = assurance.get(place["id"], {}).get("media", {})
+            primary = place.get("images", {}).get("primary") or {}
+            valid_identity = not media.get("identity_hash") or media["identity_hash"] == digest(compact_identity(place))
+            valid_signature = not media.get("verification_hash") or media["verification_hash"] == media_signature(pack, primary)
+            place["_validation_verified_primary"] = str(pack / primary["local_path"]) if primary.get("local_path") and media.get("verified") is True and valid_identity and valid_signature else None
             ready, seen, pool = [], set(), DuplicateIndex()
             for row in assurance.get(place["id"], {}).get("media", {}).get("candidates", []):
                 if not row.get("candidate"):
@@ -42,7 +52,7 @@ def cached_groups(names, settings):
             yield city, place, ready
 
 
-def run_validation(names, output, settings, fixture=None, config=None):
+def run_validation(names, output, settings, fixture=None, config=None, refresh_scores=False):
     config = config or LocalConfig(local_media_allow_download=False)
     started = time.perf_counter()
     backend = SigLIPBackend(config)
@@ -66,13 +76,14 @@ def run_validation(names, output, settings, fixture=None, config=None):
     durations = []
     for city, place, candidates, expected in selected:
         begin = time.perf_counter()
-        ranked = ranker.rank(place, city, candidates)
+        ranked = ranker.rank(place, city, candidates, use_cache=not refresh_scores)
         durations.append(time.perf_counter() - begin)
         scored = sorted(ranked, key=lambda r: -r["local"].get("relevance", 0))
         valid = [r for r in scored if r["local"].get("status") in {"OK", "CACHE_HIT"}]
         counts["ranking_opportunities"] += len(candidates)
         counts["processed_locally"] += len(valid)
         counts["failures"] += len(candidates) - len(valid)
+        group_resolved = False
         for entry in valid:
             local = entry["local"]
             qid = place.get("external_ids", {}).get("wikidata_id")
@@ -80,16 +91,25 @@ def run_validation(names, output, settings, fixture=None, config=None):
             strong = bool(qid and candidate.related_entity_id == qid and candidate.match_method == "wikidata_p18"
                           and candidate.source == "Wikimedia Commons" and candidate.source_confidence >= .98 and candidate.original_license_verified)
             counts["deterministic_entity_resolved"] += strong
+            reused = str(entry["path"]) == place.get("_validation_verified_primary")
+            counts["existing_verified_reference_reused"] += reused
+            group_resolved = group_resolved or strong or reused
             counts["high_confidence_ranking"] += local.get("confidence") == "HIGH"
             counts["high_confidence_with_strong_source"] += strong and local.get("confidence") == "HIGH"
             counts["low_relevance"] += local.get("confidence") == "LOW"
             counts["ambiguous"] += local.get("confidence") in {"AMBIGUOUS", "UNCALIBRATED"}
-            counts["groq_candidate_checks_needed"] += not strong and not local.get("non_photo_review")
+            counts["unverified_candidate_checks_remaining"] += not strong and not reused and not local.get("non_photo_review")
+        counts["candidate_groups"] += 1
+        counts["groups_resolved_without_cloud"] += group_resolved
+        counts["groq_required_groups"] += not group_resolved and bool(valid)
         correct_rank = next((i+1 for i,r in enumerate(scored) if r["candidate"].media_url == expected), None) if expected else None
         if expected:
             counts["smoke_cases"] += 1
             counts["top1_correct"] += correct_rank == 1
             counts["top3_contains_correct"] += correct_rank is not None and correct_rank <= 3
+            counts["clear_confidence_cases"] += scored[0]["local"].get("confidence") == "HIGH"
+            counts["ambiguous_cases"] += scored[0]["local"].get("confidence") == "AMBIGUOUS"
+            counts["low_confidence_cases"] += scored[0]["local"].get("confidence") == "LOW"
         rows.append({"place_id":place["id"], "name":place["name"], "category":place["classification"]["category"], "city":city["name"],
                      "expected":"Entity-linked reference should outrank the explicitly unrelated cross-place distractors" if expected else None,
                      "correct_rank":correct_rank, "inference_seconds":durations[-1],
@@ -97,8 +117,10 @@ def run_validation(names, output, settings, fixture=None, config=None):
                      "candidates":[{"rank":i+1,"correct_reference":r["candidate"].media_url==expected if expected else None,
                                     "title":r["candidate"].title,"source_page":r["candidate"].source_url,"path":str(r["path"]),
                                     "match_method":r["candidate"].match_method,"local":r["local"]} for i,r in enumerate(scored)]})
-    counts["research_handoff_zero_cached_candidate_groups"] = sum(not c for _,p,c in groups if (p.get("tier")=="core_destination"))
+    counts["research_handoff_missing_images_no_cached_candidates"] = sum(not c and p["_validation_missing_image"] for _,p,c in groups)
+    counts["incorrect_rankings"] = counts["smoke_cases"] - counts["top1_correct"]
     report = {"model":config.local_media_model,"revision":config.local_media_revision,"device":config.local_media_device,
+              "thresholds": {"high":config.local_media_relevance_threshold,"minimum":config.local_media_min_relevance,"ambiguity_margin":config.local_media_ambiguity_margin},
               "model_load_seconds":backend.load_seconds,"total_seconds":time.perf_counter()-started,
               "inference_seconds":sum(durations),"seconds_per_candidate":sum(durations)/counts["processed_locally"] if counts["processed_locally"] else None,
               "counts":dict(counts),"ranker_stats":dict(ranker.stats),"cloud_calls":{"groq":0,"gemini":0,"paid":0},
@@ -112,6 +134,7 @@ def run_validation(names, output, settings, fixture=None, config=None):
             _fields_ = [("cb",wintypes.DWORD),("PageFaultCount",wintypes.DWORD)]+[(k,ctypes.c_size_t) for k in ("PeakWorkingSetSize","WorkingSetSize","QuotaPeakPagedPoolUsage","QuotaPagedPoolUsage","QuotaPeakNonPagedPoolUsage","QuotaNonPagedPoolUsage","PagefileUsage","PeakPagefileUsage")]
         info=Memory(); info.cb=ctypes.sizeof(info)
         ctypes.windll.kernel32.GetCurrentProcess.restype=wintypes.HANDLE
+        ctypes.windll.psapi.GetProcessMemoryInfo.argtypes=[wintypes.HANDLE,ctypes.POINTER(Memory),wintypes.DWORD]
         if ctypes.windll.psapi.GetProcessMemoryInfo(ctypes.windll.kernel32.GetCurrentProcess(),ctypes.byref(info),info.cb):
             report["peak_working_set_mb"]=info.PeakWorkingSetSize/1024**2
     except (AttributeError,OSError):

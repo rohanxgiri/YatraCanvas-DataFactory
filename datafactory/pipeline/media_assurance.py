@@ -132,6 +132,12 @@ class MediaAssurance:
                                  "action": "REJECT" if not checks["accepted"] else "UNRESOLVED",
                                  "reason_codes": checks["reason_codes"] or ["DOWNLOAD_UNAVAILABLE"]})
                 continue
+            qid = place.get("external_ids", {}).get("wikidata_id") or place.get("wikidata_id")
+            if qid and candidate.related_entity_id and candidate.related_entity_id != qid:
+                rejected.append({"candidate": candidate.model_dump(), "checks": checks, "action": "REJECT",
+                                 "reason_codes": ["CONTRADICTORY_ENTITY_EVIDENCE"]})
+                self.stats["entity_contradiction_rejections"] += 1
+                continue
             # Analysis copies are small; originals stay in the existing download cache.
             path = self.work_dir / "analysis" / (hashlib.sha256(content).hexdigest() + ".webp")
             if not path.exists():
@@ -264,7 +270,9 @@ class MediaAssurance:
             image.save(stream, "WEBP", quality=80)
         router_stats = getattr(self.router, "stats", {})
         before = {provider: router_stats.get(f"{provider}_calls", 0) for provider in ("groq", "gemini")}
-        ai = self.router.analyze(compact_identity(place), "media_audit", candidate.model_dump(), [stream.getvalue()], important=True)
+        from .media_policy import media_policy, MediaPolicy
+        important = media_policy(place) in {MediaPolicy.REAL_REQUIRED, MediaPolicy.REAL_PREFERRED}
+        ai = self.router.analyze(compact_identity(place), "media_audit", candidate.model_dump(), [stream.getvalue()], important=important)
         for provider in before:
             self.stats[f"{provider}_calls"] += router_stats.get(f"{provider}_calls", 0) - before[provider]
         self.stats["cloud_verification_jobs"] += 1

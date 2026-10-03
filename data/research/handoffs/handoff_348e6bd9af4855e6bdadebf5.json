@@ -1,0 +1,3417 @@
+{
+  "schema_version": "1.0",
+  "handoff_id": "handoff_348e6bd9af4855e6bdadebf5",
+  "city": {
+    "id": "manali",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "country": "India"
+  },
+  "generated_at": "2026-10-03T15:19:38.169346+00:00",
+  "tasks": [
+    {
+      "task_id": "research_187ea1541ed466558b922ed6",
+      "place_id": "yc_in_hp_manali_manali",
+      "type": "COORDINATE_RESEARCH",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_research": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Coordinate or travel-region uncertainty",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Manali",
+        "aliases": [
+          "Manali Sanctuary",
+          "Van Vihar Manali (Gate 1)",
+          "manali Crown",
+          "Manali Sweets & Bakers",
+          "Hotel Rosewood - Mall Road Manali",
+          "Manali Packages By Hello Hotels India",
+          "Hotel Himgiri Manali",
+          "Siyal Inn Manali"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 1.0,
+        "prominence_score": 1.0,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.244964,
+          "lon": 77.188205
+        },
+        "wikidata_id": "Q83443",
+        "website": "https://www.honeymoonpackagesmanali.in/himachal-pradesh"
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "3c9b9fe6-4a0f-4da4-acab-e89446619993",
+          "osm_id": "node/860850927",
+          "wikidata_id": "Q83443",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 0.102,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/860850927",
+            "latitude": 32.242476,
+            "longitude": 77.189343,
+            "identity_match": true
+          },
+          {
+            "source": "wikidata",
+            "source_id": "Q83443",
+            "latitude": 32.244964,
+            "longitude": 77.188205,
+            "identity_match": true
+          },
+          {
+            "source": "wikidata",
+            "source_id": "Q6746838",
+            "latitude": 32.247,
+            "longitude": 77.19,
+            "identity_match": true
+          },
+          {
+            "source": "openstreetmap",
+            "source_id": "node/2380691364",
+            "latitude": 32.243387,
+            "longitude": 77.187227,
+            "identity_match": true
+          },
+          {
+            "source": "openstreetmap",
+            "source_id": "node/6066153686",
+            "latitude": 32.244058,
+            "longitude": 77.18883,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Rishabh gaur",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Rishabh gaur / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hadimba_Devi_Mandir.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "COORDINATE_RESEARCH",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_2e3c355c8284af586cdf777b",
+      "place_id": "yc_in_hp_manali_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Manali",
+        "aliases": [
+          "Manali Sanctuary",
+          "Van Vihar Manali (Gate 1)",
+          "manali Crown",
+          "Manali Sweets & Bakers",
+          "Hotel Rosewood - Mall Road Manali",
+          "Manali Packages By Hello Hotels India",
+          "Hotel Himgiri Manali",
+          "Siyal Inn Manali"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 1.0,
+        "prominence_score": 1.0,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.244964,
+          "lon": 77.188205
+        },
+        "wikidata_id": "Q83443",
+        "website": "https://www.honeymoonpackagesmanali.in/himachal-pradesh"
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "3c9b9fe6-4a0f-4da4-acab-e89446619993",
+          "osm_id": "node/860850927",
+          "wikidata_id": "Q83443",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 0.102,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/860850927",
+            "latitude": 32.242476,
+            "longitude": 77.189343,
+            "identity_match": true
+          },
+          {
+            "source": "wikidata",
+            "source_id": "Q83443",
+            "latitude": 32.244964,
+            "longitude": 77.188205,
+            "identity_match": true
+          },
+          {
+            "source": "wikidata",
+            "source_id": "Q6746838",
+            "latitude": 32.247,
+            "longitude": 77.19,
+            "identity_match": true
+          },
+          {
+            "source": "openstreetmap",
+            "source_id": "node/2380691364",
+            "latitude": 32.243387,
+            "longitude": 77.187227,
+            "identity_match": true
+          },
+          {
+            "source": "openstreetmap",
+            "source_id": "node/6066153686",
+            "latitude": 32.244058,
+            "longitude": 77.18883,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Rishabh gaur",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Rishabh gaur / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hadimba_Devi_Mandir.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_47ac773bf53e6ffee567a919",
+      "place_id": "yc_in_hp_manali_bhrigu_lake",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Bhrigu Lake",
+        "aliases": [
+          "Brighu Lake"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.95,
+        "prominence_score": 1.0,
+        "category": "nature",
+        "coordinates": {
+          "lat": 32.29342,
+          "lon": 77.24249
+        },
+        "wikidata_id": "Q4902074",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "7232aec2-2d1e-4906-b557-bbebcb9c55dc",
+          "osm_id": null,
+          "wikidata_id": "Q4902074",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 7.441,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q4902074",
+            "latitude": 32.29342,
+            "longitude": 77.24249,
+            "identity_match": true
+          },
+          {
+            "source": "wikidata",
+            "source_id": "Q4967844",
+            "latitude": 32.29342,
+            "longitude": 77.24249,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "In Transit",
+          "license": "CC BY 4.0",
+          "attribution": "In Transit / Wikimedia Commons / CC BY 4.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bhrigu_Lake_by_Ahmad_Faiz_Mustafa_(4).jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_64a2aa86921ad3c9c03e464b",
+      "place_id": "yc_in_hp_manali_hidimba_devi_temple_dhungri_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Hidimba Devi Temple, Dhungri Manali",
+        "aliases": [
+          "Hidimba Temple",
+          "Hidimba"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.9,
+        "prominence_score": 1.0,
+        "category": "religious",
+        "coordinates": {
+          "lat": 32.24803,
+          "lon": 77.1805
+        },
+        "wikidata_id": "Q15223867",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": null,
+          "osm_id": null,
+          "wikidata_id": "Q15223867",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": "wv_manali_hidimba_temple",
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 0.7,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q15223867",
+            "latitude": 32.24803,
+            "longitude": 77.1805,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Kondephy",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Kondephy / Wikimedia Commons / CC BY-SA 3.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hidimba_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_2f45d7d3243bab7694c45b1c",
+      "place_id": "yc_in_hp_manali_lehmanali_highway",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Leh–Manali Highway",
+        "aliases": [],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.85,
+        "prominence_score": 1.0,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.249579,
+          "lon": 77.190505
+        },
+        "wikidata_id": "Q251599",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": null,
+          "osm_id": null,
+          "wikidata_id": "Q251599",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 0.549,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q251599",
+            "latitude": 32.249579,
+            "longitude": 77.190505,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Mann Mishra",
+          "license": "CC BY 3.0",
+          "attribution": "Mann Mishra / Wikimedia Commons / CC BY 3.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Highway_To_Thrill_(233024297).jpeg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_6e349565457ff3c1cb601fcf",
+      "place_id": "yc_in_hp_manali_miniature_siva_temple_jagatsukh",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Miniature Siva Temple, Jagatsukh",
+        "aliases": [
+          "Jagatsukh",
+          "Prachin Gayatri Mandir Jagatsukh"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.85,
+        "prominence_score": 1.0,
+        "category": "religious",
+        "coordinates": {
+          "lat": 32.198333,
+          "lon": 77.202667
+        },
+        "wikidata_id": "Q56985696",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "8d78c9c1-3299-468f-a7b9-8ee7193f0252",
+          "osm_id": null,
+          "wikidata_id": "Q56985696",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 5.436,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q56985696",
+            "latitude": 32.198333,
+            "longitude": 77.202667,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Pdhang",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Pdhang / Wikimedia Commons / CC BY-SA 3.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Miniature_Shiv_Temple.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_bc712cead4c9a7266d1e13a1",
+      "place_id": "yc_in_hp_manali_national_highway_3",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "National Highway 3",
+        "aliases": [],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.85,
+        "prominence_score": 1.0,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.168247,
+          "lon": 77.177031
+        },
+        "wikidata_id": "Q25203039",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": null,
+          "osm_id": null,
+          "wikidata_id": "Q25203039",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 8.64,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q25203039",
+            "latitude": 32.168247,
+            "longitude": 77.177031,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Vishalbhatia93",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Vishalbhatia93 / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Best_place_to_drive,Rohtang_pass.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_50d1a1aae3f348802634049e",
+      "place_id": "yc_in_hp_manali_tourist_locations_in_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Tourist locations in Manali",
+        "aliases": [
+          "Manali"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.7,
+        "prominence_score": 1.0,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.27,
+          "lon": 77.17
+        },
+        "wikidata_id": "Q3632315",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "c26bd2ea-ba3f-4705-a516-208d18cadb40",
+          "osm_id": null,
+          "wikidata_id": "Q3632315",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 3.176,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q3632315",
+            "latitude": 32.27,
+            "longitude": 77.17,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Timothy Gonsalves",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Timothy Gonsalves / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Grass_Deodar_Monsoon_Mist_Manali_Sep20_R16_04026.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_35a3e2467b7a212635314542",
+      "place_id": "yc_in_hp_manali_museum_of_himachal_culture_folk_arts",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Museum of Himachal Culture & Folk Arts",
+        "aliases": [
+          "Museum of Himachal Culture and Folk Arts"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.6,
+        "prominence_score": 0.9,
+        "category": "museum",
+        "coordinates": {
+          "lat": 32.246144,
+          "lon": 77.180771
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "89415af0-989f-4fa4-9dd1-ef68b612ee5d",
+          "osm_id": "node/4347327289",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 0.618,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/4347327289",
+            "latitude": 32.246144,
+            "longitude": 77.180771,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "SpeakingArch",
+          "license": "CC BY-SA 4.0",
+          "attribution": "SpeakingArch / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Chhattahar_,_a_traditional_Kullu_necklace_Museum_of_Himachal_Culture_and_Folk_Arts,_Manali,_Himachal_Pradesh.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_8463678755049ca01372be05",
+      "place_id": "yc_in_hp_manali_old_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Old Manali",
+        "aliases": [
+          "The Hosteller Manali, Old Manali",
+          "Himalayan Kitchen Old Manali",
+          "Hotel Old Manali Retreat",
+          "High Beat Cafe Old Manali",
+          "The Hosteller Manali",
+          "Hotel Beas Ganga, Old Manali",
+          "Cafe Nirvana Old Manali",
+          "Beas View Guest House-Old Manali"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.6,
+        "prominence_score": 0.9,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.25215,
+          "lon": 77.17871
+        },
+        "wikidata_id": null,
+        "website": "https://www.thehosteller.com/hostels/the-hosteller-old-manali"
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "f7f025d5-6de6-49e0-92f7-758a6b26dab4",
+          "osm_id": null,
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": "wv_manali_old_manali",
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikivoyage",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 1.098,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Aslam Kuttayi",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Aslam Kuttayi / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_exact_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Old_Manali_2.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_0b6a9ea463b98d58c807de73",
+      "place_id": "yc_in_hp_manali_kartik_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Kartik Temple",
+        "aliases": [
+          "Temple",
+          "Swami Kartikey Temple"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.55,
+        "prominence_score": 0.9,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.177554,
+          "lon": 77.195442
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "864556a8-854a-4f3d-93ca-a6aee1fb7a3b",
+          "osm_id": "node/9521403838",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 7.59,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/9521403838",
+            "latitude": 32.177844,
+            "longitude": 77.195235,
+            "identity_match": true
+          },
+          {
+            "source": "openstreetmap",
+            "source_id": "node/2086702608",
+            "latitude": 32.177554,
+            "longitude": 77.195442,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Swamipremkamal",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Swamipremkamal / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ghotkach_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_c661cbecbef86b6058c56391",
+      "place_id": "yc_in_hp_manali_vashist_hot_water_springs_and_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Vashist Hot Water Springs and Temple",
+        "aliases": [
+          "temple",
+          "Hot Water Spring -Vashist Temple Manali.",
+          "hot springs"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.55,
+        "prominence_score": 0.9,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.26684,
+          "lon": 77.18753
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "b43f420b-3bfb-4b6e-9309-355ab9433e8a",
+          "osm_id": "node/877072855",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": "wv_manali_vashist_hot_water_springs_and_temple",
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikivoyage",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 2.377,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/877072855",
+            "latitude": 32.26601,
+            "longitude": 77.18735,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Swamipremkamal",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Swamipremkamal / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ghotkach_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_c4151f425318b0453ac68cc2",
+      "place_id": "yc_in_hp_manali_great_hadimba_weavers_welfare",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Great Hadimba Weavers welfare",
+        "aliases": [
+          "Great Hadimba",
+          "בית מלאכה של אריגה מסורתית וחנות",
+          "Great Hadimba Weavers Welfare"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.45,
+        "prominence_score": 0.85,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.257177,
+          "lon": 77.176181
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "f74c7c71-7986-4ca7-a66e-e47295e139e9",
+          "osm_id": "node/6746746088",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 1.67,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/6746746088",
+            "latitude": 32.257177,
+            "longitude": 77.176181,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_728694e12950a49e55dd2620",
+      "place_id": "yc_in_hp_manali_studio_manali",
+      "type": "REAL_PRIMARY_IMAGE",
+      "priority": "P0",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_research": [
+        "REAL_REQUIRED_IMAGE_MISSING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Required real photograph unresolved",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Studio Manali",
+        "aliases": [],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.4,
+        "prominence_score": 0.85,
+        "category": "museum",
+        "coordinates": {
+          "lat": 32.289764,
+          "lon": 77.171361
+        },
+        "wikidata_id": null,
+        "website": "https://studiomanali.com/"
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": null,
+          "osm_id": "node/11971245769",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": true,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": "Mo-Fr 11:00-17:00",
+          "normalized": "Mo-Fr 11:00-17:00",
+          "source": "openstreetmap",
+          "retrieved_at": "2026-09-19T19:39:29.847970+00:00",
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 5.149,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/11971245769",
+            "latitude": 32.289764,
+            "longitude": 77.171361,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "REAL_PRIMARY_IMAGE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_826bb85f13b2f4593848b9a5",
+      "place_id": "yc_in_hp_manali_mata_docha_mocha_temple",
+      "type": "COORDINATE_RESEARCH",
+      "priority": "P1",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_research": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Coordinate or travel-region uncertainty",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Mata Docha Mocha temple",
+        "aliases": [
+          "Mata Docha Mocha"
+        ],
+        "tier": "recommended",
+        "travel_relevance_score": 0.1,
+        "prominence_score": 0.6,
+        "category": "religious",
+        "coordinates": {
+          "lat": 32.16119,
+          "lon": 77.188473
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "a948ef09-3ce5-40f6-85c9-2aa151b132f3",
+          "osm_id": "node/12751815892",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_PREFERRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "SUSPICIOUS",
+          "reason_codes": [
+            "OUTLYING_REGION_ASSOCIATION_UNVERIFIED"
+          ],
+          "distance_from_center_km": 9.371,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/12751815892",
+            "latitude": 32.16119,
+            "longitude": 77.188473,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "COORDINATE_RESEARCH",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_872707512d051a12865c222c",
+      "place_id": "yc_in_hp_manali_aisle_cafe",
+      "type": "COORDINATE_RESEARCH",
+      "priority": "P1",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_research": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Coordinate or travel-region uncertainty",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "AISLE cafe",
+        "aliases": [],
+        "tier": "recommended",
+        "travel_relevance_score": 0.05,
+        "prominence_score": 0.6,
+        "category": "cafe",
+        "coordinates": {
+          "lat": 32.164935,
+          "lon": 77.191771
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "e3522a13-672c-44b2-9679-ae572904ae9d",
+          "osm_id": null,
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "FALLBACK_ALLOWED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "overture",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "SUSPICIOUS",
+          "reason_codes": [
+            "OUTLYING_REGION_ASSOCIATION_UNVERIFIED"
+          ],
+          "distance_from_center_km": 8.964,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "COORDINATE_RESEARCH",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_e2e39c634af36f7c1d358ed2",
+      "place_id": "yc_in_hp_manali_camp_jungle_brooks",
+      "type": "COORDINATE_RESEARCH",
+      "priority": "P1",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_research": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Coordinate or travel-region uncertainty",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Camp Jungle Brooks",
+        "aliases": [],
+        "tier": "discovery",
+        "travel_relevance_score": 0.05,
+        "prominence_score": 0.3,
+        "category": "experience",
+        "coordinates": {
+          "lat": 32.165218,
+          "lon": 77.178445
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "d1f9ac51-1d54-48b0-910c-8208d5d6be73",
+          "osm_id": null,
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "FALLBACK_ALLOWED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "overture",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "SUSPICIOUS",
+          "reason_codes": [
+            "OUTLYING_REGION_ASSOCIATION_UNVERIFIED"
+          ],
+          "distance_from_center_km": 8.961,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "COORDINATE_RESEARCH",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_6648936567f7661d10f9d28c",
+      "place_id": "yc_in_hp_manali_ramhani_cottages",
+      "type": "COORDINATE_RESEARCH",
+      "priority": "P1",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_research": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Coordinate or travel-region uncertainty",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Ramhani Cottages",
+        "aliases": [],
+        "tier": "discovery",
+        "travel_relevance_score": 0.05,
+        "prominence_score": 0.3,
+        "category": "experience",
+        "coordinates": {
+          "lat": 32.165255,
+          "lon": 77.193148
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "9b56e9bc-ddd5-4a28-8abc-157385365436",
+          "osm_id": null,
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "FALLBACK_ALLOWED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "overture",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "SUSPICIOUS",
+          "reason_codes": [
+            "OUTLYING_REGION_ASSOCIATION_UNVERIFIED"
+          ],
+          "distance_from_center_km": 8.935,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "COORDINATE_RESEARCH",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_df4abb72c1d62930b8f33006",
+      "place_id": "yc_in_hp_manali_fabhotel_17_mile_stone",
+      "type": "COORDINATE_RESEARCH",
+      "priority": "P1",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_research": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Coordinate or travel-region uncertainty",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "FabHotel 17 Mile Stone",
+        "aliases": [],
+        "tier": "support",
+        "travel_relevance_score": 0.05,
+        "prominence_score": 0.5,
+        "category": "hotel",
+        "coordinates": {
+          "lat": 32.164465,
+          "lon": 77.176498
+        },
+        "wikidata_id": null,
+        "website": "https://www.fabhotels.com/hotels-in-manali/fabhotel-17-mile-stone.htmlutm_source=Google_Maps&utm_medium=organic&utm_campaign=Google_Maps_Clicks"
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "854fa3c4-43d1-4f9b-9fd2-6ee3054f178c",
+          "osm_id": null,
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "FALLBACK_ALLOWED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "overture",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "SUSPICIOUS",
+          "reason_codes": [
+            "OUTLYING_REGION_ASSOCIATION_UNVERIFIED"
+          ],
+          "distance_from_center_km": 9.063,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "COORDINATE_RESEARCH",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_2e6389bc341fd51c90efabd4",
+      "place_id": "yc_in_hp_manali_fabhotel_jamdagni_bb",
+      "type": "COORDINATE_RESEARCH",
+      "priority": "P1",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_research": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Coordinate or travel-region uncertainty",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "FabHotel Jamdagni B&B",
+        "aliases": [],
+        "tier": "support",
+        "travel_relevance_score": 0.05,
+        "prominence_score": 0.5,
+        "category": "hotel",
+        "coordinates": {
+          "lat": 32.161925,
+          "lon": 77.174614
+        },
+        "wikidata_id": null,
+        "website": "https://www.fabhotels.com/hotels-in-manali/fabhotel-jamdagni-bb.html"
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "454ce217-39a3-428e-a0b8-96c692368724",
+          "osm_id": null,
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "FALLBACK_ALLOWED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "overture",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "SUSPICIOUS",
+          "reason_codes": [
+            "OUTLYING_REGION_ASSOCIATION_UNVERIFIED"
+          ],
+          "distance_from_center_km": 9.365,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "COORDINATE_RESEARCH",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_6faffeb62c9bff4815dd8210",
+      "place_id": "yc_in_hp_manali_shivadya",
+      "type": "COORDINATE_RESEARCH",
+      "priority": "P1",
+      "research_worthiness": "RESEARCH_REQUIRED",
+      "reason_codes": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_research": [
+        "COORDINATE_OR_REGION_CONFLICT"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Coordinate or travel-region uncertainty",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "ShivAdya",
+        "aliases": [],
+        "tier": "support",
+        "travel_relevance_score": 0.05,
+        "prominence_score": 0.5,
+        "category": "hotel",
+        "coordinates": {
+          "lat": 32.163167,
+          "lon": 77.190082
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "c2c0f5f4-b7dc-4203-94a3-9d9365eecf6c",
+          "osm_id": null,
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "FALLBACK_ALLOWED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "overture",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "SUSPICIOUS",
+          "reason_codes": [
+            "OUTLYING_REGION_ASSOCIATION_UNVERIFIED"
+          ],
+          "distance_from_center_km": 9.154,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "COORDINATE_RESEARCH",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_95bf3065f20aeab8206dd1e7",
+      "place_id": "yc_in_hp_manali_bhrigu_lake",
+      "type": "DESCRIPTION",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_research": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Useful attraction description missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Bhrigu Lake",
+        "aliases": [
+          "Brighu Lake"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.95,
+        "prominence_score": 1.0,
+        "category": "nature",
+        "coordinates": {
+          "lat": 32.29342,
+          "lon": 77.24249
+        },
+        "wikidata_id": "Q4902074",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "7232aec2-2d1e-4906-b557-bbebcb9c55dc",
+          "osm_id": null,
+          "wikidata_id": "Q4902074",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 7.441,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q4902074",
+            "latitude": 32.29342,
+            "longitude": 77.24249,
+            "identity_match": true
+          },
+          {
+            "source": "wikidata",
+            "source_id": "Q4967844",
+            "latitude": 32.29342,
+            "longitude": 77.24249,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "In Transit",
+          "license": "CC BY 4.0",
+          "attribution": "In Transit / Wikimedia Commons / CC BY 4.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bhrigu_Lake_by_Ahmad_Faiz_Mustafa_(4).jpg"
+        }
+      },
+      "requested_output": {
+        "type": "DESCRIPTION",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_406688454ee02f5aaa33b33b",
+      "place_id": "yc_in_hp_manali_hidimba_devi_temple_dhungri_manali",
+      "type": "OPENING_HOURS",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_research": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Source-backed valid schedule missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Hidimba Devi Temple, Dhungri Manali",
+        "aliases": [
+          "Hidimba Temple",
+          "Hidimba"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.9,
+        "prominence_score": 1.0,
+        "category": "religious",
+        "coordinates": {
+          "lat": 32.24803,
+          "lon": 77.1805
+        },
+        "wikidata_id": "Q15223867",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": null,
+          "osm_id": null,
+          "wikidata_id": "Q15223867",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": "wv_manali_hidimba_temple",
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 0.7,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q15223867",
+            "latitude": 32.24803,
+            "longitude": 77.1805,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Kondephy",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Kondephy / Wikimedia Commons / CC BY-SA 3.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hidimba_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "OPENING_HOURS",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_96826d8c46445e3a46c675b2",
+      "place_id": "yc_in_hp_manali_hidimba_devi_temple_dhungri_manali",
+      "type": "WEBSITE",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "OFFICIAL_SITE_FOR_VISIT_PLANNING"
+      ],
+      "why_research": [
+        "OFFICIAL_SITE_FOR_VISIT_PLANNING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Official website missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Hidimba Devi Temple, Dhungri Manali",
+        "aliases": [
+          "Hidimba Temple",
+          "Hidimba"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.9,
+        "prominence_score": 1.0,
+        "category": "religious",
+        "coordinates": {
+          "lat": 32.24803,
+          "lon": 77.1805
+        },
+        "wikidata_id": "Q15223867",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": null,
+          "osm_id": null,
+          "wikidata_id": "Q15223867",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": "wv_manali_hidimba_temple",
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 0.7,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q15223867",
+            "latitude": 32.24803,
+            "longitude": 77.1805,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Kondephy",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Kondephy / Wikimedia Commons / CC BY-SA 3.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hidimba_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "WEBSITE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_c289b771ca416641977fca2e",
+      "place_id": "yc_in_hp_manali_miniature_siva_temple_jagatsukh",
+      "type": "OPENING_HOURS",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_research": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Source-backed valid schedule missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Miniature Siva Temple, Jagatsukh",
+        "aliases": [
+          "Jagatsukh",
+          "Prachin Gayatri Mandir Jagatsukh"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.85,
+        "prominence_score": 1.0,
+        "category": "religious",
+        "coordinates": {
+          "lat": 32.198333,
+          "lon": 77.202667
+        },
+        "wikidata_id": "Q56985696",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "8d78c9c1-3299-468f-a7b9-8ee7193f0252",
+          "osm_id": null,
+          "wikidata_id": "Q56985696",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 5.436,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q56985696",
+            "latitude": 32.198333,
+            "longitude": 77.202667,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Pdhang",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Pdhang / Wikimedia Commons / CC BY-SA 3.0",
+          "match_method": "wikidata_p18",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Miniature_Shiv_Temple.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "OPENING_HOURS",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_ce91597e29ef41285ecae00f",
+      "place_id": "yc_in_hp_manali_tourist_locations_in_manali",
+      "type": "DESCRIPTION",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_research": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Useful attraction description missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Tourist locations in Manali",
+        "aliases": [
+          "Manali"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.7,
+        "prominence_score": 1.0,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.27,
+          "lon": 77.17
+        },
+        "wikidata_id": "Q3632315",
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "c26bd2ea-ba3f-4705-a516-208d18cadb40",
+          "osm_id": null,
+          "wikidata_id": "Q3632315",
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikidata",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 3.176,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "wikidata",
+            "source_id": "Q3632315",
+            "latitude": 32.27,
+            "longitude": 77.17,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Timothy Gonsalves",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Timothy Gonsalves / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Grass_Deodar_Monsoon_Mist_Manali_Sep20_R16_04026.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "DESCRIPTION",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_2c79a20341eff64441f1fc23",
+      "place_id": "yc_in_hp_manali_museum_of_himachal_culture_folk_arts",
+      "type": "DESCRIPTION",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_research": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Useful attraction description missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Museum of Himachal Culture & Folk Arts",
+        "aliases": [
+          "Museum of Himachal Culture and Folk Arts"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.6,
+        "prominence_score": 0.9,
+        "category": "museum",
+        "coordinates": {
+          "lat": 32.246144,
+          "lon": 77.180771
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "89415af0-989f-4fa4-9dd1-ef68b612ee5d",
+          "osm_id": "node/4347327289",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 0.618,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/4347327289",
+            "latitude": 32.246144,
+            "longitude": 77.180771,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "SpeakingArch",
+          "license": "CC BY-SA 4.0",
+          "attribution": "SpeakingArch / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Chhattahar_,_a_traditional_Kullu_necklace_Museum_of_Himachal_Culture_and_Folk_Arts,_Manali,_Himachal_Pradesh.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "DESCRIPTION",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_488b9e952127f449f6c6d8f0",
+      "place_id": "yc_in_hp_manali_museum_of_himachal_culture_folk_arts",
+      "type": "OPENING_HOURS",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_research": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Source-backed valid schedule missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Museum of Himachal Culture & Folk Arts",
+        "aliases": [
+          "Museum of Himachal Culture and Folk Arts"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.6,
+        "prominence_score": 0.9,
+        "category": "museum",
+        "coordinates": {
+          "lat": 32.246144,
+          "lon": 77.180771
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "89415af0-989f-4fa4-9dd1-ef68b612ee5d",
+          "osm_id": "node/4347327289",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 0.618,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/4347327289",
+            "latitude": 32.246144,
+            "longitude": 77.180771,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "SpeakingArch",
+          "license": "CC BY-SA 4.0",
+          "attribution": "SpeakingArch / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Chhattahar_,_a_traditional_Kullu_necklace_Museum_of_Himachal_Culture_and_Folk_Arts,_Manali,_Himachal_Pradesh.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "OPENING_HOURS",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_05659d2bbf4e01846bdfcaf6",
+      "place_id": "yc_in_hp_manali_kartik_temple",
+      "type": "DESCRIPTION",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_research": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Useful attraction description missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Kartik Temple",
+        "aliases": [
+          "Temple",
+          "Swami Kartikey Temple"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.55,
+        "prominence_score": 0.9,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.177554,
+          "lon": 77.195442
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "864556a8-854a-4f3d-93ca-a6aee1fb7a3b",
+          "osm_id": "node/9521403838",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 7.59,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/9521403838",
+            "latitude": 32.177844,
+            "longitude": 77.195235,
+            "identity_match": true
+          },
+          {
+            "source": "openstreetmap",
+            "source_id": "node/2086702608",
+            "latitude": 32.177554,
+            "longitude": 77.195442,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Swamipremkamal",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Swamipremkamal / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ghotkach_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "DESCRIPTION",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_78cd30a2a5cb3180071310da",
+      "place_id": "yc_in_hp_manali_kartik_temple",
+      "type": "OPENING_HOURS",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_research": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Source-backed valid schedule missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Kartik Temple",
+        "aliases": [
+          "Temple",
+          "Swami Kartikey Temple"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.55,
+        "prominence_score": 0.9,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.177554,
+          "lon": 77.195442
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "864556a8-854a-4f3d-93ca-a6aee1fb7a3b",
+          "osm_id": "node/9521403838",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 7.59,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/9521403838",
+            "latitude": 32.177844,
+            "longitude": 77.195235,
+            "identity_match": true
+          },
+          {
+            "source": "openstreetmap",
+            "source_id": "node/2086702608",
+            "latitude": 32.177554,
+            "longitude": 77.195442,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Swamipremkamal",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Swamipremkamal / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ghotkach_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "OPENING_HOURS",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_7a9e75c803523ba08df8a36e",
+      "place_id": "yc_in_hp_manali_kartik_temple",
+      "type": "WEBSITE",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "OFFICIAL_SITE_FOR_VISIT_PLANNING"
+      ],
+      "why_research": [
+        "OFFICIAL_SITE_FOR_VISIT_PLANNING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Official website missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Kartik Temple",
+        "aliases": [
+          "Temple",
+          "Swami Kartikey Temple"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.55,
+        "prominence_score": 0.9,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.177554,
+          "lon": 77.195442
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "864556a8-854a-4f3d-93ca-a6aee1fb7a3b",
+          "osm_id": "node/9521403838",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 7.59,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/9521403838",
+            "latitude": 32.177844,
+            "longitude": 77.195235,
+            "identity_match": true
+          },
+          {
+            "source": "openstreetmap",
+            "source_id": "node/2086702608",
+            "latitude": 32.177554,
+            "longitude": 77.195442,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Swamipremkamal",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Swamipremkamal / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ghotkach_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "WEBSITE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_54c4391131d3fd1feecc8a8c",
+      "place_id": "yc_in_hp_manali_vashist_hot_water_springs_and_temple",
+      "type": "OPENING_HOURS",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_research": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Source-backed valid schedule missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Vashist Hot Water Springs and Temple",
+        "aliases": [
+          "temple",
+          "Hot Water Spring -Vashist Temple Manali.",
+          "hot springs"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.55,
+        "prominence_score": 0.9,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.26684,
+          "lon": 77.18753
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "b43f420b-3bfb-4b6e-9309-355ab9433e8a",
+          "osm_id": "node/877072855",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": "wv_manali_vashist_hot_water_springs_and_temple",
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikivoyage",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 2.377,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/877072855",
+            "latitude": 32.26601,
+            "longitude": 77.18735,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Swamipremkamal",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Swamipremkamal / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ghotkach_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "OPENING_HOURS",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_ca8321db113e5e45668f9e64",
+      "place_id": "yc_in_hp_manali_vashist_hot_water_springs_and_temple",
+      "type": "WEBSITE",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "OFFICIAL_SITE_FOR_VISIT_PLANNING"
+      ],
+      "why_research": [
+        "OFFICIAL_SITE_FOR_VISIT_PLANNING"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Official website missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Vashist Hot Water Springs and Temple",
+        "aliases": [
+          "temple",
+          "Hot Water Spring -Vashist Temple Manali.",
+          "hot springs"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.55,
+        "prominence_score": 0.9,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.26684,
+          "lon": 77.18753
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "b43f420b-3bfb-4b6e-9309-355ab9433e8a",
+          "osm_id": "node/877072855",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": "wv_manali_vashist_hot_water_springs_and_temple",
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [
+          "AI_RESULT_INVALID"
+        ],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "wikivoyage",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 2.377,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/877072855",
+            "latitude": 32.26601,
+            "longitude": 77.18735,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": "real",
+          "source": "Wikimedia Commons",
+          "author": "Swamipremkamal",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Swamipremkamal / Wikimedia Commons / CC BY-SA 4.0",
+          "match_method": "commons_alt_name_search",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ghotkach_Temple_Manali.jpg"
+        }
+      },
+      "requested_output": {
+        "type": "WEBSITE",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_42d2d1dd03b963631abed78b",
+      "place_id": "yc_in_hp_manali_great_hadimba_weavers_welfare",
+      "type": "DESCRIPTION",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_research": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Useful attraction description missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Great Hadimba Weavers welfare",
+        "aliases": [
+          "Great Hadimba",
+          "בית מלאכה של אריגה מסורתית וחנות",
+          "Great Hadimba Weavers Welfare"
+        ],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.45,
+        "prominence_score": 0.85,
+        "category": "heritage",
+        "coordinates": {
+          "lat": 32.257177,
+          "lon": 77.176181
+        },
+        "wikidata_id": null,
+        "website": null
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": "f74c7c71-7986-4ca7-a66e-e47295e139e9",
+          "osm_id": "node/6746746088",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": null,
+          "normalized": null,
+          "source": "openstreetmap",
+          "retrieved_at": null,
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 1.67,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/6746746088",
+            "latitude": 32.257177,
+            "longitude": 77.176181,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "DESCRIPTION",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_5fcc80696c0bec42962c27ff",
+      "place_id": "yc_in_hp_manali_studio_manali",
+      "type": "DESCRIPTION",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_research": [
+        "DESTINATION_SELECTION_DESCRIPTION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Useful attraction description missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Studio Manali",
+        "aliases": [],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.4,
+        "prominence_score": 0.85,
+        "category": "museum",
+        "coordinates": {
+          "lat": 32.289764,
+          "lon": 77.171361
+        },
+        "wikidata_id": null,
+        "website": "https://studiomanali.com/"
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": null,
+          "osm_id": "node/11971245769",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": "Mo-Fr 11:00-17:00",
+          "normalized": "Mo-Fr 11:00-17:00",
+          "source": "openstreetmap",
+          "retrieved_at": "2026-09-19T19:39:29.847970+00:00",
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 5.149,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/11971245769",
+            "latitude": 32.289764,
+            "longitude": 77.171361,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "DESCRIPTION",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    },
+    {
+      "task_id": "research_6cccefaab227d00eb36e17c6",
+      "place_id": "yc_in_hp_manali_studio_manali",
+      "type": "OPENING_HOURS",
+      "priority": "P2",
+      "research_worthiness": "RESEARCH_RECOMMENDED",
+      "reason_codes": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_research": [
+        "HOURS_NEEDED_FOR_ITINERARY",
+        "CORE_DESTINATION"
+      ],
+      "why_not_research": [],
+      "priority_reason": "Source-backed valid schedule missing",
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "place": {
+        "name": "Studio Manali",
+        "aliases": [],
+        "tier": "core_destination",
+        "travel_relevance_score": 0.4,
+        "prominence_score": 0.85,
+        "category": "museum",
+        "coordinates": {
+          "lat": 32.289764,
+          "lon": 77.171361
+        },
+        "wikidata_id": null,
+        "website": "https://studiomanali.com/"
+      },
+      "known_evidence": {
+        "public_sources": [],
+        "external_ids": {
+          "overture_id": null,
+          "osm_id": "node/11971245769",
+          "wikidata_id": null,
+          "foursquare_id": null,
+          "wikivoyage_listing_id": null,
+          "alltheplaces_id": null
+        },
+        "media_policy": "REAL_REQUIRED",
+        "candidate_count": 0,
+        "zero_candidates": false,
+        "reason_codes": [],
+        "opening_hours": {
+          "raw": "Mo-Fr 11:00-17:00",
+          "normalized": "Mo-Fr 11:00-17:00",
+          "source": "openstreetmap",
+          "retrieved_at": "2026-09-19T19:39:29.847970+00:00",
+          "verified": false
+        },
+        "geography": {
+          "status": "VALID",
+          "reason_codes": [
+            "INSIDE_CITY_BOUNDARY"
+          ],
+          "distance_from_center_km": 5.149,
+          "municipal_geometry": null,
+          "regional_geometry": null
+        },
+        "coordinate_sources": [
+          {
+            "source": "openstreetmap",
+            "source_id": "node/11971245769",
+            "latitude": 32.289764,
+            "longitude": 77.171361,
+            "identity_match": true
+          }
+        ],
+        "existing_media": {
+          "image_type": null,
+          "source": null,
+          "author": null,
+          "license": null,
+          "attribution": null,
+          "match_method": null,
+          "source_page": null
+        }
+      },
+      "requested_output": {
+        "type": "OPENING_HOURS",
+        "schema_file": "research_results.schema.json",
+        "status": "FOUND / PARTIAL / UNRESOLVED / CONFLICT"
+      }
+    }
+  ],
+  "source_pack": "india/himachal_pradesh/manali/v3-app-fallbacks",
+  "snapshot": {
+    "places.json": "2381c7182c5ab7033c9b461286c177789cb187348ed418c6364d969b2a9b5fba",
+    "city.json": "e28aa5e44e7070e521be8f43a0c780fb5fcf4f19b9be26eff36507be056736c6",
+    "media_assurance.json": "98b9f1929ee6f749c09145d1baf7157aef588ea9ad4dc0e40cfd9575bdcef32e",
+    "field_provenance.json": "cd0ef3d7c32b178fb7276f02236fe5815e47c7aed983ee72f92099057323f9be",
+    "checksums.json": "d165f0a117a62b943bb483dc1868ca10c5deef7acf0e7960539d2052859331c2"
+  }
+}

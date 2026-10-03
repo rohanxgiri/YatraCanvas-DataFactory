@@ -1,0 +1,2382 @@
+{
+  "schema_version": "1.0",
+  "handoff_id": "handoff_4f301f1a53af7f69a2c50b6d",
+  "results": [
+    {
+      "task_id": "research_99f025967d7b9f3756cd1e0d",
+      "place_id": "yc_in_rj_udaipur_agasthyavanam_biological_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e020533165a9e5e921886486",
+      "place_id": "yc_in_rj_udaipur_ahar_cenotaphs",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_51687e6f87ad6f2486069d90",
+      "place_id": "yc_in_rj_udaipur_ahar_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e877146fe9d295fd4dbf43de",
+      "place_id": "yc_in_rj_udaipur_ambamata_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cb7c2b261b013f9ba2917e52",
+      "place_id": "yc_in_rj_udaipur_ambrai_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5af900b1443ffd844274864b",
+      "place_id": "yc_in_rj_udaipur_bagore_ki_haveli",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7625adcf59c84b2b11bb50c4",
+      "place_id": "yc_in_rj_udaipur_bharatiya_lok_kala_mandal",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4530aec0c9d16ad1730a0996",
+      "place_id": "yc_in_rj_udaipur_bohra_ganesh_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e971d00801ef0bbc5bc85a65",
+      "place_id": "yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_334dd6da13d6c05750c542e8",
+      "place_id": "yc_in_rj_udaipur_chandpole",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ed1370cd952bda92a42a8c4c",
+      "place_id": "yc_in_rj_udaipur_chunda_palace",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_42f77132e3aaa3e6fff04663",
+      "place_id": "yc_in_rj_udaipur_city_palace_udaipur",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_02f33f550a0bf3836b34c0a2",
+      "place_id": "yc_in_rj_udaipur_daiji_bridge_pol",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_394bb8800ba70e452960762f",
+      "place_id": "yc_in_rj_udaipur_delhi_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4c42d1d106b69ff37ba15348",
+      "place_id": "yc_in_rj_udaipur_doodh_talai_lake",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b24fbac03315d865f2ba87e8",
+      "place_id": "yc_in_rj_udaipur_fms_udaipur",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_109c52f5825c4193dc91e30e",
+      "place_id": "yc_in_rj_udaipur_gangaur_ghat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_44880773075a8d90621e4720",
+      "place_id": "yc_in_rj_udaipur_gangodbhav_kund",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5c6a749ae18fb29a72d3215f",
+      "place_id": "yc_in_rj_udaipur_gulab_bagh_and_zoo",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a7f95d30071f0ce0fc9dc21b",
+      "place_id": "yc_in_rj_udaipur_gupteshwar_mahadev_udaipur",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1def8ae1a2e4a76ad00e3787",
+      "place_id": "yc_in_rj_udaipur_hathi_pol_elephant_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_572cc3062cfcbdecafe233da",
+      "place_id": "yc_in_rj_udaipur_jag_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e3ac8a96e54ba99de49e2339",
+      "place_id": "yc_in_rj_udaipur_jagdish_temple_udaipur",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9fafc6125a213928f8869d1f",
+      "place_id": "yc_in_rj_udaipur_jagmandir_palace",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5a28bc59f5ea1e19e28c6124",
+      "place_id": "yc_in_rj_udaipur_karni_mata_udaipur",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0a2806be57cefae15464a84f",
+      "place_id": "yc_in_rj_udaipur_kingdom_of_mewar",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_df285a96d3ae1127d717fd4c",
+      "place_id": "yc_in_rj_udaipur_kishan_pol",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0930da58edb62b5747776592",
+      "place_id": "yc_in_rj_udaipur_meera_temple_ahar",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_028d204e2130aa964c847573",
+      "place_id": "yc_in_rj_udaipur_monsoon_palace",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c0725120cab37fecb40cc669",
+      "place_id": "yc_in_rj_udaipur_moti_magari_ke_prasad",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4b9fcf2c0603abec404ad201",
+      "place_id": "yc_in_rj_udaipur_neemach_mata_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c6b9a861e6151db9a7b18b9f",
+      "place_id": "yc_in_rj_udaipur_pala_ganesh_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3a435de81927365183e0f382",
+      "place_id": "yc_in_rj_udaipur_pratap_gaurav_kendra_rashtriya_tirth",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5cf1323640c9cc3df97cb79a",
+      "place_id": "yc_in_rj_udaipur_pratap_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_abad91971dbb83ad62f1c415",
+      "place_id": "yc_in_rj_udaipur_rajiv_gandhi_garden",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f9671d903787e3663390f04d",
+      "place_id": "yc_in_rj_udaipur_rampratap_palace_by_fateh_collection",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_af6ed42eb4bc688d11ef7eb1",
+      "place_id": "yc_in_rj_udaipur_rang_sagar_lake",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_628da50647c02dcec26ff034",
+      "place_id": "yc_in_rj_udaipur_rk_circle",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_dcef6e17ef25063df7bebfe0",
+      "place_id": "yc_in_rj_udaipur_roman_catholic_diocese_of_udaipur",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6f2bf8cc57f006095843d67d",
+      "place_id": "yc_in_rj_udaipur_sahastrabahu_temples_sas_bahu_temples",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_99989d9633ec7ce7cb5b4c1d",
+      "place_id": "yc_in_rj_udaipur_saheliyon_ki_bari",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_047b7ed53f46a484a8e546e6",
+      "place_id": "yc_in_rj_udaipur_sajjangarh",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ab2967094de778cf5b07f453",
+      "place_id": "yc_in_rj_udaipur_sajjangarh_biological_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2a080fb252266555dc10ce22",
+      "place_id": "yc_in_rj_udaipur_sajjangarh_wildlife_sanctuary",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_62a15b2e247667a0a1f7481f",
+      "place_id": "yc_in_rj_udaipur_sanchareswar_mahadev_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9b31414d7c3f7368b73b9371",
+      "place_id": "yc_in_rj_udaipur_shilpgram",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a02494814bac9c3229d4fe3e",
+      "place_id": "yc_in_rj_udaipur_shiv_niwas_palace",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_51d2643f6e7aa15b43b2d220",
+      "place_id": "yc_in_rj_udaipur_shiv_temple_group_ahar",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_705ff9e81ddbedaf892fcebd",
+      "place_id": "yc_in_rj_udaipur_sukhadia_circle",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e2544ff2837faed7a667b798",
+      "place_id": "yc_in_rj_udaipur_taj_fateh_prakash_palace",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e117bbab203a915a1644ea48",
+      "place_id": "yc_in_rj_udaipur_the_new_lake_front",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1bbea14c98f8ef2098f54bf0",
+      "place_id": "yc_in_rj_udaipur_the_royal_lake_view_villa",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_56e0691a7b3d97545127e326",
+      "place_id": "yc_in_rj_udaipur_udaipur_solar_observatory",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_475b16671bba8324688398d6",
+      "place_id": "yc_in_rj_udaipur_vintage_and_classic_car_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ab6847ff182db0374601e331",
+      "place_id": "yc_in_rj_udaipur_palace_on_the_way",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d059431b3bc513a6b5e27baa",
+      "place_id": "yc_in_rj_udaipur_sajjangarh_wildlife_sanctuary",
+      "type": "COORDINATE_RESEARCH",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7e2bad0e084dc8bdabbf6d65",
+      "place_id": "yc_in_rj_udaipur_agasthyavanam_biological_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8eb3d0a295a4e3333c39fcf6",
+      "place_id": "yc_in_rj_udaipur_ahar_cenotaphs",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_331ac22fb1b4ae8d930f5e0a",
+      "place_id": "yc_in_rj_udaipur_ahar_museum",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2bbd085d19a485c5d1eb0f60",
+      "place_id": "yc_in_rj_udaipur_ambamata_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3a61a287cb4498adc918d0e0",
+      "place_id": "yc_in_rj_udaipur_ambrai_ghat",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_60d0e5fd883c68b403574374",
+      "place_id": "yc_in_rj_udaipur_ambrai_villa_4_bhk_swimming_pool_garden",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_aaf236b056e71ffae1557f79",
+      "place_id": "yc_in_rj_udaipur_art_stone_gallery",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_729e0ec54756fd41a8e9e39e",
+      "place_id": "yc_in_rj_udaipur_b_g_sharma_art_gallery",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c7f8fab3df644be5db20238d",
+      "place_id": "yc_in_rj_udaipur_bagore_ki_haveli",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7fdfba7325bd1b16312f5d12",
+      "place_id": "yc_in_rj_udaipur_bharatiya_lok_kala_mandal",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_529e38b1363865efc4b790bb",
+      "place_id": "yc_in_rj_udaipur_bohra_ganesh_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b6decb4ffe15b65cbd8f7a8b",
+      "place_id": "yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cac168008beb20cca897e381",
+      "place_id": "yc_in_rj_udaipur_chandpole",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_23e8afe12fe9e9e1806867bb",
+      "place_id": "yc_in_rj_udaipur_chitralaya_gallery",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9952e71f85a392928a4283c6",
+      "place_id": "yc_in_rj_udaipur_chunda_palace",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a57d3205cef658621777d725",
+      "place_id": "yc_in_rj_udaipur_city_palace_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_207b49041ef96ec10187025c",
+      "place_id": "yc_in_rj_udaipur_crimson_park_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_797fc2a2ecae6b8aabecb193",
+      "place_id": "yc_in_rj_udaipur_crystal_gallery",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_79d0a10770e8252d18fabcea",
+      "place_id": "yc_in_rj_udaipur_daiji_bridge_pol",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4e6388c912f70b71229d1ea2",
+      "place_id": "yc_in_rj_udaipur_delhi_gate",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c81e39906a43e907f01b7b3f",
+      "place_id": "yc_in_rj_udaipur_doodh_talai_lake",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ff43fe80808b4e6f43155441",
+      "place_id": "yc_in_rj_udaipur_fms_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3f358a8ffd4e7f8955f5cf7f",
+      "place_id": "yc_in_rj_udaipur_gallery_artoz",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_988782f02d1bb461b8e493d0",
+      "place_id": "yc_in_rj_udaipur_gallery_contemporary",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_485b5d998d038bdb08b52c2a",
+      "place_id": "yc_in_rj_udaipur_ganesh_mehandi_art",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_08bf05e0724f50ee827fedaa",
+      "place_id": "yc_in_rj_udaipur_gangaur_ghat",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b8bb8390af7d951c1e1d3da8",
+      "place_id": "yc_in_rj_udaipur_gangodbhav_kund",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_30994dbde8075f91e303bd10",
+      "place_id": "yc_in_rj_udaipur_gm_exports",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_448d3e12959a9416c6ff6a4d",
+      "place_id": "yc_in_rj_udaipur_gulab_bagh_and_zoo",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e5faf5103bdd821bedc80ece",
+      "place_id": "yc_in_rj_udaipur_gupteshwar_mahadev_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_362c3bea5bc79e0ff205adf8",
+      "place_id": "yc_in_rj_udaipur_hathi_pol_elephant_gate",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9d58895cb1083cc4d3f5608f",
+      "place_id": "yc_in_rj_udaipur_hill_garden_retreat",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ba21f2d30c3278ff14f4a1a3",
+      "place_id": "yc_in_rj_udaipur_jag_mandir",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_75c1f0244f1f35474d126cbf",
+      "place_id": "yc_in_rj_udaipur_jagdish_temple_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_93d0056494b81fb738f4c2ad",
+      "place_id": "yc_in_rj_udaipur_jagmandir_palace",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9ab897c7d1ae02bbca0223a7",
+      "place_id": "yc_in_rj_udaipur_jeel_water_park_gardens",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f93733a78ecbeeedf060ab2e",
+      "place_id": "yc_in_rj_udaipur_karni_mata_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_49af2ec1bd0a022ff0302861",
+      "place_id": "yc_in_rj_udaipur_kingdom_of_mewar",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4fef29dd9ee033f2370bacd6",
+      "place_id": "yc_in_rj_udaipur_kishan_pol",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_858a536f40c4febabef9ba6d",
+      "place_id": "yc_in_rj_udaipur_laxman_vatika",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f1e85b38efb6d5bfd96e9d94",
+      "place_id": "yc_in_rj_udaipur_locky_art_school_and_gallery",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_bf5fe31ec6d17cead5d5ec53",
+      "place_id": "yc_in_rj_udaipur_luv_kush_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a9c7449e3e361ccb8f5c1fd6",
+      "place_id": "yc_in_rj_udaipur_maharana_cabs",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_eac2edd12025f6f6fbf6b074",
+      "place_id": "yc_in_rj_udaipur_maharana_pratap_smarak_samiti_moti_magri",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6a5f3d43ef7511cd6bf36a55",
+      "place_id": "yc_in_rj_udaipur_mani_balaji_arts_crafts",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_11bcf1fb80803c5874eb6f6a",
+      "place_id": "yc_in_rj_udaipur_marvel_water_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_25ec3466f0f422e9acb98559",
+      "place_id": "yc_in_rj_udaipur_meera_temple_ahar",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f22e8e0ceeb00b49ba7b7e42",
+      "place_id": "yc_in_rj_udaipur_mewar_art_gallery",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1599c1557f3c3d18611030da",
+      "place_id": "yc_in_rj_udaipur_mohata_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e3d3d474b3a3aa70ad04b088",
+      "place_id": "yc_in_rj_udaipur_monsoon_palace",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_950f26727b9f57c59b4c31b0",
+      "place_id": "yc_in_rj_udaipur_moti_magari_ke_prasad",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4eb5808eea25eb52d8bb6360",
+      "place_id": "yc_in_rj_udaipur_neemach_mata_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_561602a0484d8f292cf2c3b6",
+      "place_id": "yc_in_rj_udaipur_pacific_art",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4e5f05619d417c8908f2ea9b",
+      "place_id": "yc_in_rj_udaipur_pala_ganesh_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1c88fd23c4e7e02ba63a8085",
+      "place_id": "yc_in_rj_udaipur_panchwati_circle",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f825cde5966881a172a9dfc8",
+      "place_id": "yc_in_rj_udaipur_pichwai_painting_artist",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9000b049524d21e62d004462",
+      "place_id": "yc_in_rj_udaipur_picture_palace_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9cad00ed22a592cf5d5751f6",
+      "place_id": "yc_in_rj_udaipur_pratap_gaurav_kendra_rashtriya_tirth",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9fa81298058167f36730c449",
+      "place_id": "yc_in_rj_udaipur_pratap_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c9fc9ad67b4ff554e48cd41b",
+      "place_id": "yc_in_rj_udaipur_rajiv_gandhi_garden",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b8943c594a8d44b8d670aaba",
+      "place_id": "yc_in_rj_udaipur_rama_art_gallery",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4601ba44aab714a1814bf24c",
+      "place_id": "yc_in_rj_udaipur_rampratap_palace_by_fateh_collection",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9524e58c3edb9b3a8f1f1e04",
+      "place_id": "yc_in_rj_udaipur_rang_sagar_lake",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9c13503bf56bcfad24954f36",
+      "place_id": "yc_in_rj_udaipur_rk_circle",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_40523c1e65fb306e544c12b4",
+      "place_id": "yc_in_rj_udaipur_roman_catholic_diocese_of_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8b05f88a96023f17146d2696",
+      "place_id": "yc_in_rj_udaipur_saahas_art_foundation",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b2fc612ac0231ffef1d57f85",
+      "place_id": "yc_in_rj_udaipur_sahastrabahu_temples_sas_bahu_temples",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1a4a9963c6caea33d3019aa0",
+      "place_id": "yc_in_rj_udaipur_saheliyon_ki_bari",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2525cf8283c0a73c7797b9ff",
+      "place_id": "yc_in_rj_udaipur_sajjangarh",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_962ac7f3c12e85c9597bf5b9",
+      "place_id": "yc_in_rj_udaipur_sajjangarh_biological_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_810a0926adfb38a2c7a29dec",
+      "place_id": "yc_in_rj_udaipur_sajjangarh_wildlife_sanctuary",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1ccf711a8c81a7bf321113fd",
+      "place_id": "yc_in_rj_udaipur_sanchareswar_mahadev_temple",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_082f2a591534f3441e56dae1",
+      "place_id": "yc_in_rj_udaipur_shilpgram",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_54cf97ef0af0889a0174501e",
+      "place_id": "yc_in_rj_udaipur_shiv_niwas_palace",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a3de214f261eb2960b808b5a",
+      "place_id": "yc_in_rj_udaipur_shiv_temple_group_ahar",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7c68b75bc4591f1184a59a36",
+      "place_id": "yc_in_rj_udaipur_shree_mohanlal_sukhadiya_memorial_foundation_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1a721d5c0c2fbc0ff5238cca",
+      "place_id": "yc_in_rj_udaipur_shree_nakoda_bhairav_arts",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e9fb96ca1850ebb5e17bbde6",
+      "place_id": "yc_in_rj_udaipur_snow_park_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_424e31c9a244d1e9b1a012d5",
+      "place_id": "yc_in_rj_udaipur_sukhadia_circle",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_eb663ff3ba3606993535e5f2",
+      "place_id": "yc_in_rj_udaipur_taj_fateh_prakash_palace",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f2833663b589276e91ebe03e",
+      "place_id": "yc_in_rj_udaipur_the_chitrakala",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_71332963817e1e132436cd2d",
+      "place_id": "yc_in_rj_udaipur_the_hosteller_opera_house",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2bfcdb164df6c6da8aee7e86",
+      "place_id": "yc_in_rj_udaipur_the_new_lake_front",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3a6bd1898f2c6c3feafa7996",
+      "place_id": "yc_in_rj_udaipur_the_royal_lake_view_villa",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_051c20c24e445e8c7fd22b60",
+      "place_id": "yc_in_rj_udaipur_udaipur",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_da050a3b5bae5ce61855b281",
+      "place_id": "yc_in_rj_udaipur_udaipur_solar_observatory",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_883dddb83804871d1326b12e",
+      "place_id": "yc_in_rj_udaipur_vakao_theme_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9cdb808cdc8789dd3450cfb2",
+      "place_id": "yc_in_rj_udaipur_vasant_vihar_park",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_893769aeb5d976275ac6123e",
+      "place_id": "yc_in_rj_udaipur_vintage_and_classic_car_museum",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_53d892049a5a661e506b4d0e",
+      "place_id": "yc_in_rj_udaipur_શરનથજ_હથબનવટ_પઈનટગ_shrinathjihand_made_paintings",
+      "type": "OPENING_HOURS",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8fb6bb0a7b9d6797511699ad",
+      "place_id": "yc_in_rj_udaipur_ambrai_villa_4_bhk_swimming_pool_garden",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_699213aaf9ee77a27ab01346",
+      "place_id": "yc_in_rj_udaipur_art_stone_gallery",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cb08fe4c6e88abb28be592df",
+      "place_id": "yc_in_rj_udaipur_b_g_sharma_art_gallery",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_34d528225f512315bdbc8a74",
+      "place_id": "yc_in_rj_udaipur_chitralaya_gallery",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a8b5f09eaf2b2b3600caac45",
+      "place_id": "yc_in_rj_udaipur_crimson_park_udaipur",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cd6ad416b621e8d6a1ebb98f",
+      "place_id": "yc_in_rj_udaipur_crystal_gallery",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0749d13d448854965fa1d07e",
+      "place_id": "yc_in_rj_udaipur_gallery_artoz",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_531d242225313b77ab877cb2",
+      "place_id": "yc_in_rj_udaipur_gallery_contemporary",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_dcdf37783b3da7deef1d6bff",
+      "place_id": "yc_in_rj_udaipur_ganesh_mehandi_art",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_34d95790b5fb61d28f12209c",
+      "place_id": "yc_in_rj_udaipur_gm_exports",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d561f210bc2dd6db510f5f21",
+      "place_id": "yc_in_rj_udaipur_hill_garden_retreat",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_256ab782a2437cd095f05b2e",
+      "place_id": "yc_in_rj_udaipur_jeel_water_park_gardens",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_68c14fb0d319d87547e96646",
+      "place_id": "yc_in_rj_udaipur_laxman_vatika",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4f8ce340380646d00e78b6fe",
+      "place_id": "yc_in_rj_udaipur_locky_art_school_and_gallery",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6e9e247525091522ebb096e1",
+      "place_id": "yc_in_rj_udaipur_luv_kush_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6716cb5d78de93382cec1b7d",
+      "place_id": "yc_in_rj_udaipur_maharana_cabs",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2fe2264bc449d275ae7c7359",
+      "place_id": "yc_in_rj_udaipur_maharana_pratap_smarak_samiti_moti_magri",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8133de3c73ae90eb2bd99022",
+      "place_id": "yc_in_rj_udaipur_mani_balaji_arts_crafts",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_bf336ca509b9472f5fb993cd",
+      "place_id": "yc_in_rj_udaipur_marvel_water_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_15315200cc12fd495bba4270",
+      "place_id": "yc_in_rj_udaipur_mewar_art_gallery",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e5761281f2687de482cf8297",
+      "place_id": "yc_in_rj_udaipur_mohata_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_99fc86074909365fb5ca926f",
+      "place_id": "yc_in_rj_udaipur_pacific_art",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a4b41b0ded9e34a06493ce47",
+      "place_id": "yc_in_rj_udaipur_panchwati_circle",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d56285c23f64c2c7fa6e2ce1",
+      "place_id": "yc_in_rj_udaipur_pichwai_painting_artist",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cc2e58562c94217ff9c73f11",
+      "place_id": "yc_in_rj_udaipur_picture_palace_udaipur",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cd093492cfb71bddba9c7299",
+      "place_id": "yc_in_rj_udaipur_rama_art_gallery",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d2d4f8254d95f9feab383fe0",
+      "place_id": "yc_in_rj_udaipur_saahas_art_foundation",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5fb95ab5bd934f2f444cc01a",
+      "place_id": "yc_in_rj_udaipur_shree_mohanlal_sukhadiya_memorial_foundation_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_86c3e7da3c13ce985d8ee539",
+      "place_id": "yc_in_rj_udaipur_shree_nakoda_bhairav_arts",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9ae09f7fcfe2d97262954c75",
+      "place_id": "yc_in_rj_udaipur_snow_park_udaipur",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_938f3aa09be7fdffa5ca3569",
+      "place_id": "yc_in_rj_udaipur_the_chitrakala",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c1b43973d0a5e47eb4f360f6",
+      "place_id": "yc_in_rj_udaipur_the_hosteller_opera_house",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2d6a9b4081c91da25151957b",
+      "place_id": "yc_in_rj_udaipur_vakao_theme_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_2c2340ea509bddec48bfa120",
+      "place_id": "yc_in_rj_udaipur_vasant_vihar_park",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_560115d61672082cd35bd675",
+      "place_id": "yc_in_rj_udaipur_શરનથજ_હથબનવટ_પઈનટગ_shrinathjihand_made_paintings",
+      "type": "REAL_PRIMARY_IMAGE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f51bd3cb492016e445a88fb0",
+      "place_id": "yc_in_rj_udaipur_agasthyavanam_biological_park",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_02cbea3dd867797b23e796de",
+      "place_id": "yc_in_rj_udaipur_ahar_museum",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_5a276d9f645c8649245f0825",
+      "place_id": "yc_in_rj_udaipur_ahar_museum",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c5c4b154c6818ec5ae090f0b",
+      "place_id": "yc_in_rj_udaipur_ambamata_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8320bc096c4dd7efacd5db9f",
+      "place_id": "yc_in_rj_udaipur_ambrai_villa_4_bhk_swimming_pool_garden",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e027dc9d3a350752168720aa",
+      "place_id": "yc_in_rj_udaipur_art_stone_gallery",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_01e5fc397d3df8ee2a3865cd",
+      "place_id": "yc_in_rj_udaipur_b_g_sharma_art_gallery",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d98c485c1bbf936f849cc50a",
+      "place_id": "yc_in_rj_udaipur_bohra_ganesh_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_cfe0943cccb5fac4d2250858",
+      "place_id": "yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e0a2b846b7f443fd3480da03",
+      "place_id": "yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a4abcfa414176611507aeb06",
+      "place_id": "yc_in_rj_udaipur_chitralaya_gallery",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_936d7f823c8d03eabfbaab6a",
+      "place_id": "yc_in_rj_udaipur_crimson_park_udaipur",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_812852178f85f14520c43be9",
+      "place_id": "yc_in_rj_udaipur_crystal_gallery",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_81c18c4f99352f23f92216c5",
+      "place_id": "yc_in_rj_udaipur_daiji_bridge_pol",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ac4d4e65dc0a9e1803522fff",
+      "place_id": "yc_in_rj_udaipur_daiji_bridge_pol",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_205640ce2fb5bc67f456bf88",
+      "place_id": "yc_in_rj_udaipur_delhi_gate",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1518b42e94c06eb5af06279e",
+      "place_id": "yc_in_rj_udaipur_doodh_talai_lake",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6bbc9fe4006408d4b74390ac",
+      "place_id": "yc_in_rj_udaipur_gallery_artoz",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4619e3cee0ba8b0b19f847cf",
+      "place_id": "yc_in_rj_udaipur_gallery_contemporary",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_10ef2f30f73e5c593905ddc9",
+      "place_id": "yc_in_rj_udaipur_ganesh_mehandi_art",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8b0a301671794e73c5543dee",
+      "place_id": "yc_in_rj_udaipur_gangodbhav_kund",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0abf7e11bc5f0426efccdbe2",
+      "place_id": "yc_in_rj_udaipur_gm_exports",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0f055e583d265bde6427fa82",
+      "place_id": "yc_in_rj_udaipur_gulab_bagh_and_zoo",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3b244e1c98868ef87682c29b",
+      "place_id": "yc_in_rj_udaipur_gupteshwar_mahadev_udaipur",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b978e27ae48d8cb938e3aa99",
+      "place_id": "yc_in_rj_udaipur_hathi_pol_elephant_gate",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_04e120a57ef6a09c2be7b267",
+      "place_id": "yc_in_rj_udaipur_hathi_pol_elephant_gate",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7cd029c95817a9e121419aa1",
+      "place_id": "yc_in_rj_udaipur_hill_garden_retreat",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e7449a9523228f223c27e346",
+      "place_id": "yc_in_rj_udaipur_jeel_water_park_gardens",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_75894e897823cbd0b0c5870e",
+      "place_id": "yc_in_rj_udaipur_karni_mata_udaipur",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8dc8b17eac49a92ff793a020",
+      "place_id": "yc_in_rj_udaipur_kingdom_of_mewar",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e834ffee5b30945f4651cd6c",
+      "place_id": "yc_in_rj_udaipur_kishan_pol",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_17a04d0fd039647e537402a5",
+      "place_id": "yc_in_rj_udaipur_kishan_pol",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_923f2ff675c18a2a198fd6c0",
+      "place_id": "yc_in_rj_udaipur_laxman_vatika",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3a2e58c664c89cdba7da7075",
+      "place_id": "yc_in_rj_udaipur_locky_art_school_and_gallery",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_936014540668f3e1b0ace0e6",
+      "place_id": "yc_in_rj_udaipur_locky_art_school_and_gallery",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7b001d1cbfe2313fd9653fca",
+      "place_id": "yc_in_rj_udaipur_luv_kush_park",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_99eedf04f2f557bde775b985",
+      "place_id": "yc_in_rj_udaipur_luv_kush_park",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7bf8757e105e2486e737638f",
+      "place_id": "yc_in_rj_udaipur_maharana_cabs",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_0dd0d393186462d7b5463eb1",
+      "place_id": "yc_in_rj_udaipur_maharana_cabs",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1d5a1758da5741524db4e9f9",
+      "place_id": "yc_in_rj_udaipur_maharana_pratap_smarak_samiti_moti_magri",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b43e7ba04ce9f7560b3424dc",
+      "place_id": "yc_in_rj_udaipur_mani_balaji_arts_crafts",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_44c1fe079d1179be086d14f4",
+      "place_id": "yc_in_rj_udaipur_marvel_water_park",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_c1f7d6fe025342827cef7a80",
+      "place_id": "yc_in_rj_udaipur_meera_temple_ahar",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f8b529a4e6db9b88272a5a9d",
+      "place_id": "yc_in_rj_udaipur_meera_temple_ahar",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_52e5431ebf2ef1c0e597fe94",
+      "place_id": "yc_in_rj_udaipur_mewar_art_gallery",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_e73f676122258359cbf53ba6",
+      "place_id": "yc_in_rj_udaipur_mohata_park",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f0c09f8ed49b0e238a3fd4ee",
+      "place_id": "yc_in_rj_udaipur_mohata_park",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a1641d983d969e6040a76b71",
+      "place_id": "yc_in_rj_udaipur_moti_magari_ke_prasad",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_77d66d8e1cc89fb5656a9637",
+      "place_id": "yc_in_rj_udaipur_moti_magari_ke_prasad",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b680324bfacf60c9fc51756e",
+      "place_id": "yc_in_rj_udaipur_neemach_mata_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a6eb80330a05c860dc0bd893",
+      "place_id": "yc_in_rj_udaipur_pacific_art",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3356c50981e4e1420f05283c",
+      "place_id": "yc_in_rj_udaipur_pala_ganesh_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a18c869c1096739b9b3f6dc3",
+      "place_id": "yc_in_rj_udaipur_panchwati_circle",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_054f0383ebd943c6aba8d429",
+      "place_id": "yc_in_rj_udaipur_panchwati_circle",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f14c7fc0a221200317c2af5d",
+      "place_id": "yc_in_rj_udaipur_pichwai_painting_artist",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_8df9b01a005212115a01ea06",
+      "place_id": "yc_in_rj_udaipur_picture_palace_udaipur",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b7930d660b075fcb8fb2966b",
+      "place_id": "yc_in_rj_udaipur_pratap_park",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_20b53e3c4d129bdee61fd1ba",
+      "place_id": "yc_in_rj_udaipur_rajiv_gandhi_garden",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1c3102cb23881aeabf0df549",
+      "place_id": "yc_in_rj_udaipur_rama_art_gallery",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_a2ea6f5c6d7c4bf5474ac155",
+      "place_id": "yc_in_rj_udaipur_rampratap_palace_by_fateh_collection",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_1b77b167cee9555d236b0451",
+      "place_id": "yc_in_rj_udaipur_rang_sagar_lake",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_15b3de51f064bdada69ca230",
+      "place_id": "yc_in_rj_udaipur_rk_circle",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7cc5d8d464f426262bd5bab7",
+      "place_id": "yc_in_rj_udaipur_rk_circle",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_74c9d4d0d028a40a5391e307",
+      "place_id": "yc_in_rj_udaipur_saahas_art_foundation",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4de660d2a862cf494e6aeca2",
+      "place_id": "yc_in_rj_udaipur_sajjangarh",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_6f64c3cae64d4b740b47599f",
+      "place_id": "yc_in_rj_udaipur_sajjangarh_wildlife_sanctuary",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_945bfb1b9268793ff2c74473",
+      "place_id": "yc_in_rj_udaipur_sanchareswar_mahadev_temple",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_07fdac13636a2fb0bb9adc45",
+      "place_id": "yc_in_rj_udaipur_shilpgram",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_221187d359f4478acfa648eb",
+      "place_id": "yc_in_rj_udaipur_shiv_temple_group_ahar",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b7a72364f31d0807655bd45a",
+      "place_id": "yc_in_rj_udaipur_shiv_temple_group_ahar",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_3642ef987a8dda0ecc0ee2e9",
+      "place_id": "yc_in_rj_udaipur_shree_mohanlal_sukhadiya_memorial_foundation_park",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_7fd62fd138aed6b65f80c0ae",
+      "place_id": "yc_in_rj_udaipur_shree_mohanlal_sukhadiya_memorial_foundation_park",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_87d28f1835627f80fe8bba4e",
+      "place_id": "yc_in_rj_udaipur_shree_nakoda_bhairav_arts",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_67db8ea5cfe3f4faac6a8dce",
+      "place_id": "yc_in_rj_udaipur_snow_park_udaipur",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_f1889a3c91b1872caa339dd0",
+      "place_id": "yc_in_rj_udaipur_sukhadia_circle",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_b1901159c9e0a50ae4624a64",
+      "place_id": "yc_in_rj_udaipur_the_chitrakala",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4790e33996c7a873ab321925",
+      "place_id": "yc_in_rj_udaipur_the_hosteller_opera_house",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_d0873742d03815f14c689c31",
+      "place_id": "yc_in_rj_udaipur_the_new_lake_front",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_ee4c05227a5bbc039ce3fb6a",
+      "place_id": "yc_in_rj_udaipur_the_royal_lake_view_villa",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_9884adbf4ba0afc9e85c3ded",
+      "place_id": "yc_in_rj_udaipur_vakao_theme_park",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_bb44475d8b0d14a380407d7e",
+      "place_id": "yc_in_rj_udaipur_vasant_vihar_park",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_4c0a133134dacc0a3f090edb",
+      "place_id": "yc_in_rj_udaipur_vasant_vihar_park",
+      "type": "WEBSITE",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    },
+    {
+      "task_id": "research_20ffaca37d93fb9c0b817458",
+      "place_id": "yc_in_rj_udaipur_શરનથજ_હથબનવટ_પઈનટગ_shrinathjihand_made_paintings",
+      "type": "DESCRIPTION",
+      "status": "UNRESOLVED",
+      "result": {},
+      "sources": [],
+      "research_notes": ""
+    }
+  ]
+}

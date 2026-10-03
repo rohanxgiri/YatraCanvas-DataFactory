@@ -1,4 +1,5 @@
 """Field-specific, deterministic value of research to itinerary users."""
+import re
 from ..pipeline.media_policy import media_policy, MediaPolicy
 
 ATTRACTIONS = {"heritage", "museum", "religious", "nature", "park", "viewpoint", "arts_culture", "experience", "adventure"}
@@ -16,6 +17,10 @@ def research_worthiness(place, kind, *, critical=False):
     recommended = tier == "recommended"
     prominent = place.get("prominence_score", 0) >= .8
     relevant = place.get("travel_relevance_score", 0) >= .7
+    # Existing generic heritage classifications lose the venue subtype. Use names
+    # only to establish that visit scheduling is useful, never to invent hours.
+    named_venue = category in ATTRACTIONS and bool(re.search(r"\b(museum|temple|mandir|fort|palace|garden|bagh|zoo|observatory)\b", place.get("name", ""), re.I))
+    scheduling = category in SCHEDULED or subcategory in CONTROLLED or subcategory in MARKETS or named_venue
     policy = media_policy(place)
     priority, codes = "P4", ["OPTIONAL_METADATA"]
     if kind in {"IDENTITY_RESEARCH", "COORDINATE_RESEARCH"}:
@@ -32,7 +37,6 @@ def research_worthiness(place, kind, *, critical=False):
     elif tier == "support" or category in {"hotel", "transport", "service"}:
         return decision(None, ["SUPPORT_METADATA"])
     elif kind == "OPENING_HOURS":
-        scheduling = category in SCHEDULED or subcategory in CONTROLLED or subcategory in MARKETS
         if scheduling and (core or recommended and prominent):
             priority, codes = "P2", ["HOURS_NEEDED_FOR_ITINERARY", "CORE_DESTINATION" if core else "PROMINENT_DESTINATION"]
         elif scheduling and recommended:
@@ -49,7 +53,7 @@ def research_worthiness(place, kind, *, critical=False):
         else:
             priority, codes = "P4", ["DISCOVERY_POI_DESCRIPTION" if not recommended else "ORDINARY_POI_DESCRIPTION"]
     elif kind == "WEBSITE":
-        if (core or recommended and prominent) and (category in SCHEDULED or subcategory in CONTROLLED):
+        if (core or recommended and prominent) and scheduling:
             priority, codes = "P2", ["OFFICIAL_SITE_FOR_VISIT_PLANNING"]
         else:
             priority, codes = "P4", ["OPTIONAL_WEBSITE"]
@@ -61,7 +65,7 @@ def decision(priority, codes):
              else "RESEARCH_RECOMMENDED" if priority in {"P2", "P3"} else "OPTIONAL_DEFER")
     return {"priority": priority or "NO_RESEARCH", "research_worthiness": worth,
             "reason_codes": codes, "why_research": codes if priority in {"P0", "P1", "P2", "P3"} else [],
-            "why_not_research": codes if priority in {None, "P4"} else []}
+            "why_not_research": codes if priority in {None, "P4"} else ["DEFERRED_UNTIL_HIGHER_PRIORITIES_RESOLVED"] if priority == "P3" else []}
 
 
 def task_order(task):

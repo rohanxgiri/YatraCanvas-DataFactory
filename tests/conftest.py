@@ -1,4 +1,5 @@
 import pytest
+import os
 from pathlib import Path
 from datafactory.models.city import CityMetadata, CityRef
 from datafactory.models.place import (
@@ -13,6 +14,15 @@ from datafactory.models.place import (
 )
 from datafactory.models.image import ImageMetadata, PlaceImages
 from datafactory.models.provenance import SourceRecord, FieldProvenance
+
+
+@pytest.fixture(autouse=True)
+def no_implicit_model_load(monkeypatch):
+    if os.environ.get("RUN_LOCAL_MODEL_TESTS") != "1":
+        import datafactory.local_intelligence.media as module
+        def disabled(config):
+            raise OSError("Real model tests are opt-in; use local-ai-smoke")
+        monkeypatch.setattr(module, "SigLIPBackend", disabled)
 
 
 @pytest.fixture(autouse=True)

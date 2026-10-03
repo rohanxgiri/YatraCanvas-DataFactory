@@ -349,7 +349,10 @@ def run_repair(source_pack: Path, *, apply=False, allow_network=False, output_ve
         report["output_pack"] = str(output)
         report["usability_after"] = actual_usability
     from ..research.export import make_tasks
-    report["research_tasks"] = make_tasks(places, city, Path(report.get("output_pack", source_pack)), assurance)
+    inventory = make_tasks(places, city, Path(report.get("output_pack", source_pack)), assurance, include_optional=True)
+    report["research_inventory"] = inventory
+    report["research_tasks"] = [task for task in inventory if task["priority"] in {"P0", "P1", "P2"}]
+    report["research_worthiness_summary"] = dict(Counter(task["research_worthiness"] for task in inventory))
     report["research_handoff_count"] = len(report["research_tasks"])
     name = "ai_repair" if apply else "ai_repair_dry_run"
     atomic_json(report_dir / f"{name}.json", report)
