@@ -154,6 +154,9 @@ rejection_rules:
     - real_estate_service
     - construction_site
     - general_contractor
+    - building_or_construction_service
+    - construction_services
+    - home_developer
     - parking
     - parking_space
     - ticket_counter
@@ -171,6 +174,8 @@ rejection_rules:
     - tire_shop
     - motorcycle_dealer
     - motorcycle_repair
+    - vehicle_dealer
+    - motorsport_vehicle_dealer
     - coaching_centre
     - coaching_class
     - place_of_learning
@@ -184,6 +189,8 @@ rejection_rules:
     - middle_school
     - high_school
     - driving_school
+    - research_institute
+    - educational_research_institute
     - warehouse
     - logistics_facility
     - industrial
@@ -204,11 +211,20 @@ rejection_rules:
     - hospital_admin
     - specialized_health_care
     - diagnostics_imaging_or_lab_service
+    - outpatient_care_facility
+    - vision_or_eye_care_clinic
+    - eye_care_clinic
+    - reproductive_perinatal_and_womens_care
+    - obstetrics_and_gynecology
+    - physical_medicine_and_rehabilitation
+    - physical_therapy
+    - health_care
     - veterinary
     - veterinary_care
     - courier_service
     - shipping_and_logistics
     - post_office_admin
+    - freight_and_cargo_service
     - dry_cleaner
     - laundromat
     - hardware_home_and_garden_store
@@ -218,15 +234,27 @@ rejection_rules:
     - pest_control
     - gym
     - fitness_center
+    - fitness_studio
+    - yoga_studio
     - government_office
     - public_and_government_association
     - non_profit_organization
     - event_or_party_service
+    - party_and_event_planning
+    - event_planning
     - travel_service
     - media_service
     - wellness_service
     - tutoring_service
     - b2b_service
+    - b2b_transportation_and_storage_service
+    - b2b_office_and_professional_service
+    - b2b_science_and_technology_service
+    - b2b_energy_and_utility_service
+    - b2b_oil_and_gas
+    - b2b_oil_and_gas_extraction
+    - b2b_business_management_service
+    - b2b_rubber_and_plastics
     - supplier_or_distributor
     - vehicle_parts_store
     - design_service
@@ -234,17 +262,47 @@ rejection_rules:
     - fashion_and_apparel_store
     - electronics_store
     - food_and_beverage_store
+    - electronic_parts_supplier
+    - auto_parts_and_supply_store
+    - business_equipment_and_supply
+    - business_storage_and_transportation
+    - rubber_and_plastics_manufacturer
+    - plastic_fabrication_company
+    - pipeline_transportation
+    - inspection_service
+    - inspection_services
+    - beauty_salon
+    - hair_salon
+    - nail_salon
+    - barbershop
+    - spa_and_personal_care
+
+  blocked_hierarchies:
+    - services_and_business
+    - b2b_service
+    - health_care
+    - outpatient_care_facility
+    - building_or_construction_service
+    - b2b_transportation_and_storage_service
+    - b2b_office_and_professional_service
+    - b2b_science_and_technology_service
+    - b2b_energy_and_utility_service
+    - public_and_government_service
 
   blocked_name_patterns:
     - '(?i)\b(parking|car park|motorcycle park)\b'
     - '(?i)\b(ticket counter|ticket booth|entry gate \d+|exit gate \d+)\b'
-    - '(?i)\b(coaching|classes|institute of competitive|ias academy|tutorials)\b'
-    - '(?i)\b(atm|bank branch|mini atm)\b'
-    - '(?i)\b(godown|warehouse|logistics hub)\b'
+    - '(?i)\b(coaching|classes|institute of competitive|ias academy|tutorials|tuition|vidyalaya|public school|convent school)\b'
+    - '(?i)\b(atm|bank branch|mini atm|cash point|grameen bank|co-operative bank|sahakari bank)\b'
+    - '(?i)\b(godown|warehouse|logistics hub|freight|cargo|packers and movers|packers & movers|courier)\b'
     - '(?i)\b(substation|power station|grid station)\b'
-    - '(?i)\b(police station|police booth|police chowki)\b'
+    - '(?i)\b(police station|police booth|police chowki|chowki)\b'
     - '(?i)\b(petrol pump|fuel station|cng station)\b'
-    - '(?i)\b(xerox|photocopy|copier|flex print)\b'
+    - '(?i)\b(xerox|photocopy|copier|flex print|printing press)\b'
+    - '(?i)\b(pvt ltd|pvt\. ltd|private limited|limited|llp|enterprises|traders|agency|consultancy|consultants|infotech|technologies)\b'
+    - '(?i)\b(apartment|apartments|housing society|enclave|flats|builders|developers|realtors|realty|real estate|colonizers)\b'
+    - '(?i)\b(tyres|tyre|motor repair|car repair|auto parts|spare parts|workshop|garage|welding|body works)\b'
+    - '(?i)\b(hospital|clinic|nursing home|dispensary|dental|physiotherapy|pathology|diagnostic|chemist|medical store)\b'
 
   # Whitelist exceptions to avoid false positives (e.g. Ajmeri Gate, Chandpole Gate are historic gates, not parking ticket booths)
   whitelist_name_patterns:
@@ -279,12 +337,22 @@ source_mappings:
     cafe: { category: "cafe", subcategory: "coffee_shop" }
     coffee_shop: { category: "cafe", subcategory: "coffee_shop" }
     tea_house: { category: "cafe", subcategory: "tea_house" }
+    tea_room: { category: "cafe", subcategory: "tea_house" }
+    non_alcoholic_beverage_venue: { category: "cafe", subcategory: "beverage_shop" }
     bakery: { category: "food", subcategory: "bakery" }
+    sweet_shop: { category: "food", subcategory: "confectionery" }
+    confectionery: { category: "food", subcategory: "confectionery" }
     shopping_mall: { category: "shopping", subcategory: "shopping_mall" }
     market: { category: "shopping", subcategory: "bazaar" }
+    arts_crafts_and_hobby_store: { category: "shopping", subcategory: "craft_and_handicraft" }
+    arts_and_crafts: { category: "shopping", subcategory: "craft_and_handicraft" }
+    handicraft: { category: "shopping", subcategory: "craft_and_handicraft" }
+    art_and_craft_goods_store: { category: "shopping", subcategory: "craft_and_handicraft" }
     hotel: { category: "hotel", subcategory: "hotel" }
     resort: { category: "hotel", subcategory: "resort" }
     hostel: { category: "hotel", subcategory: "hostel" }
+    heritage_hotel: { category: "hotel", subcategory: "heritage_hotel" }
+    bed_and_breakfast: { category: "hotel", subcategory: "guest_house" }
     train_station: { category: "transport", subcategory: "railway_station" }
     airport: { category: "transport", subcategory: "airport" }
     bus_station: { category: "transport", subcategory: "bus_station" }
@@ -320,9 +388,22 @@ source_mappings:
       restaurant: { category: "food", subcategory: "restaurant" }
       cafe: { category: "cafe", subcategory: "coffee_shop" }
       fast_food: { category: "food", subcategory: "street_food" }
+      bar: { category: "food", subcategory: "bar" }
+      pub: { category: "food", subcategory: "bar" }
+      ice_cream: { category: "food", subcategory: "ice_cream" }
       theatre: { category: "arts_culture", subcategory: "theatre" }
       cinema: { category: "entertainment", subcategory: "cinema" }
+      arts_centre: { category: "arts_culture", subcategory: "cultural_centre" }
       marketplace: { category: "shopping", subcategory: "bazaar" }
+
+    # shop tag
+    shop:
+      craft: { category: "shopping", subcategory: "craft_and_handicraft" }
+      art: { category: "arts_culture", subcategory: "art_gallery" }
+      books: { category: "shopping", subcategory: "bookstore" }
+      confectionery: { category: "food", subcategory: "confectionery" }
+      pastry: { category: "food", subcategory: "bakery" }
+      tea: { category: "cafe", subcategory: "tea_house" }
 
     # leisure tag
     leisure:

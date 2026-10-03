@@ -1,48 +1,47 @@
 {
   "city": "udaipur",
-  "total_core_destinations": 63,
-  "with_wikidata": 53,
+  "total_core_destinations": 55,
+  "with_wikidata": 45,
   "with_wikipedia": 39,
-  "with_wikivoyage": 10,
-  "with_osm_travel": 32,
-  "supported_only_by_overture": 7,
+  "with_wikivoyage": 9,
+  "with_osm_travel": 29,
+  "supported_only_by_overture": 0,
   "travel_relevance_distribution": {
     "0.0-0.2": 0,
     "0.2-0.4": 0,
-    "0.4-0.6": 12,
-    "0.6-0.8": 15,
-    "0.8-1.0": 36
+    "0.4-0.6": 9,
+    "0.6-0.8": 11,
+    "0.8-1.0": 35
   },
   "categories": {
-    "heritage": 34,
+    "heritage": 29,
     "religious": 12,
-    "nature": 9,
+    "nature": 6,
     "park": 5,
     "museum": 3
   },
   "subcategories": {
-    "heritage/attraction": 15,
+    "heritage/attraction": 13,
     "religious/place_of_worship": 12,
-    "heritage/monument": 10,
-    "nature/lake": 9,
+    "heritage/monument": 8,
+    "nature/lake": 6,
     "park/garden": 5,
     "museum/history_museum": 3,
     "heritage/historical_monument": 3,
     "heritage/ruin": 3,
-    "heritage/palace": 1,
     "heritage/fort": 1,
     "heritage/gate": 1
   },
   "source_combinations": {
-    "openstreetmap,overture": 24,
-    "wikidata": 17,
-    "overture": 7,
-    "openstreetmap,overture,wikivoyage": 4,
-    "overture,wikivoyage": 3,
-    "openstreetmap": 3,
-    "wikivoyage": 2,
-    "openstreetmap,overture,wikidata": 1,
+    "wikidata": 15,
+    "openstreetmap,overture,wikidata": 12,
+    "openstreetmap,overture": 9,
+    "overture,wikidata": 7,
+    "openstreetmap,overture,wikidata,wikivoyage": 4,
+    "overture,wikidata,wikivoyage": 3,
+    "openstreetmap,wikidata": 2,
     "wikidata,wikivoyage": 1,
-    "overture,wikidata": 1
+    "openstreetmap,overture,wikivoyage": 1,
+    "openstreetmap": 1
   }
 }

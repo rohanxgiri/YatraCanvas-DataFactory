@@ -1,0 +1,52 @@
+{
+  "artifact_json_files_scanned": 5268,
+  "credential_values_found": 0,
+  "city_lab_source_manifests_unchanged": true,
+  "cities": [
+    {
+      "city": "Manali",
+      "published": 1702,
+      "usable": 98.82,
+      "required_unresolved": 13,
+      "optional_gallery_pruned": 10,
+      "structural_validation": "PASS",
+      "legacy_semantic_quality": "PASS",
+      "source_ready": false
+    },
+    {
+      "city": "Jaipur",
+      "published": 684,
+      "usable": 92.54,
+      "required_unresolved": 50,
+      "optional_gallery_pruned": 30,
+      "structural_validation": "PASS",
+      "legacy_semantic_quality": "PASS",
+      "source_ready": false
+    },
+    {
+      "city": "Udaipur",
+      "published": 324,
+      "usable": 83.02,
+      "required_unresolved": 54,
+      "optional_gallery_pruned": 38,
+      "structural_validation": "PASS",
+      "legacy_semantic_quality": "PASS",
+      "source_ready": false
+    },
+    {
+      "city": "Varanasi",
+      "published": 348,
+      "usable": 67.82,
+      "required_unresolved": 112,
+      "optional_gallery_pruned": 64,
+      "structural_validation": "PASS",
+      "legacy_semantic_quality": "PASS",
+      "source_ready": false
+    }
+  ],
+  "tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m pytest -q -p no:cacheprovider --basetemp=scratch/test-assurance-final-8 --tb=short",
+    "passed": 149,
+    "seconds": 23.84
+  }
+}

@@ -1,0 +1,830 @@
+[
+  {
+    "place_id": "yc_in_rj_jaipur_nahargarh_wildlife_sanctuary",
+    "media_policy": "REAL_REQUIRED",
+    "identity_blocker": false,
+    "coordinate": {
+      "status": "SUSPICIOUS",
+      "original_coordinates": [
+        26.9993,
+        75.8374
+      ],
+      "source_coordinates": [
+        {
+          "source": "openstreetmap",
+          "source_id": "way/667244115",
+          "name": "Nahargarh WLS",
+          "alternate_names": [
+            ""
+          ],
+          "latitude": 26.9961313,
+          "longitude": 75.831817,
+          "wikidata_id": "Q134581467",
+          "opening_hours": null,
+          "check_date": null,
+          "address": null,
+          "website": null,
+          "retrieved_at": "2026-09-19T09:39:36Z",
+          "identity_match": true,
+          "identity_name_match": true,
+          "distance_m": 655.8352756890994
+        },
+        {
+          "wikidata_id": "Q134581467",
+          "label": "Nahargarh Wildlife Sanctuary",
+          "label_en": "Nahargarh Wildlife Sanctuary",
+          "label_hi": null,
+          "description": "protected area in Rajasthan",
+          "p18_image": null,
+          "coordinates": [
+            26.9993,
+            75.8374
+          ],
+          "commons_category": null,
+          "official_website": null,
+          "wikipedia_url": null,
+          "source": "wikidata",
+          "source_id": "Q134581467",
+          "name": "Nahargarh Wildlife Sanctuary",
+          "latitude": 26.9993,
+          "longitude": 75.8374,
+          "identity_match": true,
+          "identity_name_match": true,
+          "wikidata_p18": null
+        }
+      ],
+      "distance_comparisons": [
+        {
+          "a": {
+            "source": "openstreetmap",
+            "source_id": "way/667244115",
+            "name": "Nahargarh WLS",
+            "alternate_names": [
+              ""
+            ],
+            "latitude": 26.9961313,
+            "longitude": 75.831817,
+            "wikidata_id": "Q134581467",
+            "opening_hours": null,
+            "check_date": null,
+            "address": null,
+            "website": null,
+            "retrieved_at": "2026-09-19T09:39:36Z",
+            "identity_match": true,
+            "identity_name_match": true,
+            "distance_m": 655.8352756890994
+          },
+          "b": {
+            "wikidata_id": "Q134581467",
+            "label": "Nahargarh Wildlife Sanctuary",
+            "label_en": "Nahargarh Wildlife Sanctuary",
+            "label_hi": null,
+            "description": "protected area in Rajasthan",
+            "p18_image": null,
+            "coordinates": [
+              26.9993,
+              75.8374
+            ],
+            "commons_category": null,
+            "official_website": null,
+            "wikipedia_url": null,
+            "source": "wikidata",
+            "source_id": "Q134581467",
+            "name": "Nahargarh Wildlife Sanctuary",
+            "latitude": 26.9993,
+            "longitude": 75.8374,
+            "identity_match": true,
+            "identity_name_match": true,
+            "wikidata_p18": null
+          },
+          "distance_m": 655.8
+        }
+      ],
+      "original_source_comparisons": [
+        {
+          "source": "openstreetmap",
+          "source_id": "way/667244115",
+          "distance_m": 655.8
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q134581467",
+          "distance_m": 0.0
+        }
+      ],
+      "action": "REVIEW"
+    },
+    "geography": {
+      "original_coordinates": [
+        26.9993,
+        75.8374
+      ],
+      "city_bbox": [
+        75.658982,
+        26.755458,
+        75.978982,
+        27.075458
+      ],
+      "region_bbox": null,
+      "evidence": [],
+      "distance_from_center_km": 9.5,
+      "status": "VALID",
+      "reason_codes": [
+        "INSIDE_CITY_BOUNDARY"
+      ]
+    },
+    "media": {
+      "verified": false,
+      "reason_codes": [
+        "CORE_MEDIA_UNRESOLVED"
+      ],
+      "candidates": []
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_nakati_mata_temple",
+    "media_policy": "REAL_REQUIRED",
+    "identity_blocker": false,
+    "coordinate": {
+      "status": "UNVERIFIED",
+      "original_coordinates": [
+        26.8825,
+        75.637222
+      ],
+      "source_coordinates": [
+        {
+          "source": "wikidata",
+          "source_id": "Q97119535",
+          "wikidata_id": "Q97119535",
+          "name": "Nakati Mata Temple",
+          "description": null,
+          "latitude": 26.8825,
+          "longitude": 75.637222,
+          "category": "religious",
+          "subcategory": "place_of_worship",
+          "suggested_tier": "core_destination",
+          "website": null,
+          "wikipedia_url": null,
+          "commons_category": null,
+          "wikidata_p18": null,
+          "heritage": "http://www.wikidata.org/entity/Q17047640",
+          "retrieved_at": "2026-09-19T10:48:00.466787+00:00",
+          "identity_match": true,
+          "identity_name_match": true,
+          "distance_m": 0.0
+        },
+        {
+          "wikidata_id": "Q97119535",
+          "label": "Nakati Mata Temple",
+          "label_en": "Nakati Mata Temple",
+          "label_hi": null,
+          "description": null,
+          "p18_image": null,
+          "coordinates": [
+            26.8825,
+            75.63722222222222
+          ],
+          "commons_category": null,
+          "official_website": null,
+          "wikipedia_url": null,
+          "source": "wikidata",
+          "source_id": "Q97119535",
+          "name": "Nakati Mata Temple",
+          "latitude": 26.8825,
+          "longitude": 75.63722222222222,
+          "identity_match": true,
+          "identity_name_match": true,
+          "wikidata_p18": null
+        }
+      ],
+      "distance_comparisons": [],
+      "original_source_comparisons": [
+        {
+          "source": "wikidata",
+          "source_id": "Q97119535",
+          "distance_m": 0.0
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q97119535",
+          "distance_m": 0.0
+        }
+      ],
+      "action": "UNRESOLVED"
+    },
+    "geography": {
+      "original_coordinates": [
+        26.8825,
+        75.637222
+      ],
+      "city_bbox": [
+        75.658982,
+        26.755458,
+        75.978982,
+        27.075458
+      ],
+      "region_bbox": null,
+      "evidence": [],
+      "distance_from_center_km": 18.393,
+      "status": "SUSPICIOUS",
+      "reason_codes": [
+        "OUTLYING_REGION_ASSOCIATION_UNVERIFIED"
+      ]
+    },
+    "media": {
+      "verified": false,
+      "reason_codes": [
+        "CORE_MEDIA_UNRESOLVED"
+      ],
+      "candidates": []
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_ram_niwas_garden",
+    "media_policy": "REAL_REQUIRED",
+    "identity_blocker": false,
+    "coordinate": {
+      "status": "SUSPICIOUS",
+      "original_coordinates": [
+        26.9153,
+        75.8187
+      ],
+      "source_coordinates": [
+        {
+          "source": "openstreetmap",
+          "source_id": "way/272783001",
+          "name": "Ram Niwas Public Gardens",
+          "alternate_names": [
+            ""
+          ],
+          "latitude": 26.9120324,
+          "longitude": 75.81969,
+          "wikidata_id": "Q2770471",
+          "opening_hours": null,
+          "check_date": null,
+          "address": null,
+          "website": null,
+          "retrieved_at": "2026-09-19T09:39:36Z",
+          "identity_match": true,
+          "identity_name_match": true,
+          "distance_m": 376.36645018848475
+        },
+        {
+          "wikidata_id": "Q2770471",
+          "label": "Ram Niwas Garden",
+          "label_en": "Ram Niwas Garden",
+          "label_hi": "राम निवास बाग",
+          "description": "garden in Jaipur, Rajasthan, India",
+          "p18_image": null,
+          "coordinates": [
+            26.9153,
+            75.8187
+          ],
+          "commons_category": null,
+          "official_website": null,
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Ram_Niwas_Garden",
+          "source": "wikidata",
+          "source_id": "Q2770471",
+          "name": "Ram Niwas Garden",
+          "latitude": 26.9153,
+          "longitude": 75.8187,
+          "identity_match": true,
+          "identity_name_match": true,
+          "wikidata_p18": null
+        }
+      ],
+      "distance_comparisons": [
+        {
+          "a": {
+            "source": "openstreetmap",
+            "source_id": "way/272783001",
+            "name": "Ram Niwas Public Gardens",
+            "alternate_names": [
+              ""
+            ],
+            "latitude": 26.9120324,
+            "longitude": 75.81969,
+            "wikidata_id": "Q2770471",
+            "opening_hours": null,
+            "check_date": null,
+            "address": null,
+            "website": null,
+            "retrieved_at": "2026-09-19T09:39:36Z",
+            "identity_match": true,
+            "identity_name_match": true,
+            "distance_m": 376.36645018848475
+          },
+          "b": {
+            "wikidata_id": "Q2770471",
+            "label": "Ram Niwas Garden",
+            "label_en": "Ram Niwas Garden",
+            "label_hi": "राम निवास बाग",
+            "description": "garden in Jaipur, Rajasthan, India",
+            "p18_image": null,
+            "coordinates": [
+              26.9153,
+              75.8187
+            ],
+            "commons_category": null,
+            "official_website": null,
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Ram_Niwas_Garden",
+            "source": "wikidata",
+            "source_id": "Q2770471",
+            "name": "Ram Niwas Garden",
+            "latitude": 26.9153,
+            "longitude": 75.8187,
+            "identity_match": true,
+            "identity_name_match": true,
+            "wikidata_p18": null
+          },
+          "distance_m": 376.4
+        }
+      ],
+      "original_source_comparisons": [
+        {
+          "source": "openstreetmap",
+          "source_id": "way/272783001",
+          "distance_m": 376.4
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q2770471",
+          "distance_m": 0.0
+        }
+      ],
+      "action": "REVIEW"
+    },
+    "geography": {
+      "original_coordinates": [
+        26.9153,
+        75.8187
+      ],
+      "city_bbox": [
+        75.658982,
+        26.755458,
+        75.978982,
+        27.075458
+      ],
+      "region_bbox": null,
+      "evidence": [],
+      "distance_from_center_km": 0.033,
+      "status": "VALID",
+      "reason_codes": [
+        "INSIDE_CITY_BOUNDARY"
+      ]
+    },
+    "media": {
+      "verified": false,
+      "reason_codes": [
+        "CORE_MEDIA_UNRESOLVED"
+      ],
+      "candidates": [
+        {
+          "candidate": {
+            "source": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Albert_Hall_Museum,_Ram_Niwas_Garden,_Jaipur,_Rajasthan,_India_(2009)_1.jpg",
+            "media_url": "https://commons.wikimedia.org/wiki/File:Albert_Hall_Museum,_Ram_Niwas_Garden,_Jaipur,_Rajasthan,_India_(2009)_1.jpg",
+            "title": "Albert Hall Museum, Ram Niwas Garden, Jaipur, Rajasthan, India (2009) 1.jpg",
+            "creator": "Anandaggarwal1812",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "attribution": "Anandaggarwal1812 / Wikimedia Commons / CC BY-SA 4.0",
+            "width": 1280,
+            "height": 960,
+            "mime_type": "image/webp",
+            "related_entity_id": null,
+            "commons_category": null,
+            "source_confidence": 0.75,
+            "match_method": "commons_exact_name_search",
+            "original_license_verified": true
+          },
+          "checks": {
+            "accepted": true,
+            "reason_codes": [],
+            "sha256": "acda9bba93866ac8b7773be8ba08d762063715053f901dfff339dafdaf4f795d",
+            "dhash": "14080834663e3650",
+            "dimensions": [
+              1280,
+              960
+            ]
+          },
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "media_audit",
+            "input_hash": "c42dadc30f4c9196f949c3b2b6c9d7915ce7b281e97b27389510422422c6b1ee",
+            "created_at": "2026-10-03T07:30:51.167981+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "jaipur",
+                "name": "Jaipur",
+                "state": "Rajasthan",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  26.915458,
+                  75.818982
+                ],
+                "bbox": [
+                  75.658982,
+                  26.755458,
+                  75.978982,
+                  27.075458
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "id": "yc_in_rj_jaipur_ram_niwas_garden",
+                "name": "Ram Niwas Garden",
+                "aliases": [
+                  "Ram Niwas Public Gardens"
+                ],
+                "coordinates": [
+                  26.9153,
+                  75.8187
+                ],
+                "city": {
+                  "id": "jaipur",
+                  "name": "Jaipur",
+                  "state": "Rajasthan",
+                  "country": "India"
+                },
+                "category": "heritage",
+                "external_ids": {
+                  "overture_id": "fc28ccba-9b56-4c94-8626-a4c847313115",
+                  "osm_id": "way/272783001",
+                  "wikidata_id": "Q2770471",
+                  "foursquare_id": null,
+                  "wikivoyage_listing_id": "wv_jaipur_ram_niwas_garden",
+                  "alltheplaces_id": null
+                },
+                "sources": [
+                  {
+                    "source": "wikivoyage",
+                    "source_id": "wv_jaipur_ram_niwas_garden",
+                    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+                    "url": null,
+                    "license": null
+                  },
+                  {
+                    "source": "openstreetmap",
+                    "source_id": "way/272783001",
+                    "retrieved_at": "2026-10-01T09:33:50.231036+00:00",
+                    "url": null,
+                    "license": null
+                  },
+                  {
+                    "source": "overture",
+                    "source_id": "fc28ccba-9b56-4c94-8626-a4c847313115",
+                    "retrieved_at": "2026-10-01T09:33:50.231036+00:00",
+                    "url": null,
+                    "license": null
+                  }
+                ]
+              },
+              "operation": "media_audit",
+              "evidence": {
+                "source": "Wikimedia Commons",
+                "source_url": "https://commons.wikimedia.org/wiki/File:Albert_Hall_Museum,_Ram_Niwas_Garden,_Jaipur,_Rajasthan,_India_(2009)_1.jpg",
+                "media_url": "https://commons.wikimedia.org/wiki/File:Albert_Hall_Museum,_Ram_Niwas_Garden,_Jaipur,_Rajasthan,_India_(2009)_1.jpg",
+                "title": "Albert Hall Museum, Ram Niwas Garden, Jaipur, Rajasthan, India (2009) 1.jpg",
+                "creator": "Anandaggarwal1812",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "attribution": "Anandaggarwal1812 / Wikimedia Commons / CC BY-SA 4.0",
+                "width": 1280,
+                "height": 960,
+                "mime_type": "image/webp",
+                "related_entity_id": null,
+                "commons_category": null,
+                "source_confidence": 0.75,
+                "match_method": "commons_exact_name_search",
+                "original_license_verified": true
+              },
+              "image_hashes": [
+                "2c0d934ab016cf3c959fc96c702f5371821d7210289e7c40cc89d951abe5f329"
+              ],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "3577849e52906a4fcaa22fb1c3a68535e0f5980795956b6a2cd1064ec0cde764"
+            }
+          },
+          "reason_codes": [
+            "AI_UNAVAILABLE"
+          ],
+          "existing": true
+        },
+        {
+          "candidate": {
+            "source": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Albert_Hall_Museum,_Ram_Niwas_Garden,_Jaipur,_Rajasthan,_India_(2009)_1.jpg",
+            "media_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Albert_Hall_Museum%2C_Ram_Niwas_Garden%2C_Jaipur%2C_Rajasthan%2C_India_%282009%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "title": "Albert Hall Museum, Ram Niwas Garden, Jaipur, Rajasthan, India (2009) 1.jpg",
+            "creator": "Anandaggarwal1812",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "attribution": "Anandaggarwal1812 / Wikimedia Commons / CC BY-SA 4.0",
+            "width": 3264,
+            "height": 2448,
+            "mime_type": "image/jpeg",
+            "related_entity_id": "Q2770471",
+            "commons_category": null,
+            "source_confidence": 0.7,
+            "match_method": "commons_contextual_search",
+            "original_license_verified": true
+          },
+          "checks": {
+            "accepted": true,
+            "reason_codes": [],
+            "sha256": "f17f85bb53d3e5f14f0c94def272f775a87bff3b03054c3299d430e222720243",
+            "dhash": "14080834663e3650",
+            "dimensions": [
+              3264,
+              2448
+            ]
+          },
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "media_audit",
+            "input_hash": "3f61dd6baf291e4cad23832a096b1684f3b54bfcad865bf5f1caf28281a4e4b9",
+            "created_at": "2026-10-03T07:30:51.445439+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "jaipur",
+                "name": "Jaipur",
+                "state": "Rajasthan",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  26.915458,
+                  75.818982
+                ],
+                "bbox": [
+                  75.658982,
+                  26.755458,
+                  75.978982,
+                  27.075458
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "id": "yc_in_rj_jaipur_ram_niwas_garden",
+                "name": "Ram Niwas Garden",
+                "aliases": [
+                  "Ram Niwas Public Gardens"
+                ],
+                "coordinates": [
+                  26.9153,
+                  75.8187
+                ],
+                "city": {
+                  "id": "jaipur",
+                  "name": "Jaipur",
+                  "state": "Rajasthan",
+                  "country": "India"
+                },
+                "category": "heritage",
+                "external_ids": {
+                  "overture_id": "fc28ccba-9b56-4c94-8626-a4c847313115",
+                  "osm_id": "way/272783001",
+                  "wikidata_id": "Q2770471",
+                  "foursquare_id": null,
+                  "wikivoyage_listing_id": "wv_jaipur_ram_niwas_garden",
+                  "alltheplaces_id": null
+                },
+                "sources": [
+                  {
+                    "source": "wikivoyage",
+                    "source_id": "wv_jaipur_ram_niwas_garden",
+                    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+                    "url": null,
+                    "license": null
+                  },
+                  {
+                    "source": "openstreetmap",
+                    "source_id": "way/272783001",
+                    "retrieved_at": "2026-10-01T09:33:50.231036+00:00",
+                    "url": null,
+                    "license": null
+                  },
+                  {
+                    "source": "overture",
+                    "source_id": "fc28ccba-9b56-4c94-8626-a4c847313115",
+                    "retrieved_at": "2026-10-01T09:33:50.231036+00:00",
+                    "url": null,
+                    "license": null
+                  }
+                ]
+              },
+              "operation": "media_audit",
+              "evidence": {
+                "source": "Wikimedia Commons",
+                "source_url": "https://commons.wikimedia.org/wiki/File:Albert_Hall_Museum,_Ram_Niwas_Garden,_Jaipur,_Rajasthan,_India_(2009)_1.jpg",
+                "media_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Albert_Hall_Museum%2C_Ram_Niwas_Garden%2C_Jaipur%2C_Rajasthan%2C_India_%282009%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "title": "Albert Hall Museum, Ram Niwas Garden, Jaipur, Rajasthan, India (2009) 1.jpg",
+                "creator": "Anandaggarwal1812",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "attribution": "Anandaggarwal1812 / Wikimedia Commons / CC BY-SA 4.0",
+                "width": 3264,
+                "height": 2448,
+                "mime_type": "image/jpeg",
+                "related_entity_id": "Q2770471",
+                "commons_category": null,
+                "source_confidence": 0.7,
+                "match_method": "commons_contextual_search",
+                "original_license_verified": true
+              },
+              "image_hashes": [
+                "7178a839b2f3cb41d638f55ea9c386567115a6a70343c4b035553f146363c6cb"
+              ],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "3577849e52906a4fcaa22fb1c3a68535e0f5980795956b6a2cd1064ec0cde764"
+            }
+          },
+          "reason_codes": [
+            "AI_UNAVAILABLE"
+          ]
+        },
+        {
+          "candidate": {
+            "source": "Openverse/wikimedia",
+            "source_url": "https://commons.wikimedia.org/w/index.php?curid=51243790",
+            "media_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Albert_Hall_Museum_%28exterior%29%2C_Ram_Niwas_Garden%2C_Jaipur%2C_Rajasthan%2C_India_%282016%29_2.jpg",
+            "title": "Albert Hall Museum (exterior), Ram Niwas Garden, Jaipur, Rajasthan, India (2016) 2",
+            "creator": "Girishathreya",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "attribution": "\"Albert Hall Museum (exterior), Ram Niwas Garden, Jaipur, Rajasthan, India (2016) 2\" by Girishathreya is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/.",
+            "width": 4128,
+            "height": 2322,
+            "mime_type": "image/jpeg",
+            "related_entity_id": null,
+            "commons_category": null,
+            "source_confidence": 0.65,
+            "match_method": "openverse_contextual_search",
+            "original_license_verified": false
+          },
+          "checks": {
+            "accepted": true,
+            "reason_codes": [],
+            "sha256": "265233f57dbac51105a7dd9d13dc2957cb97fffa12902b761d74bc469bdc1845",
+            "dhash": "83e080e68b85e5d9",
+            "dimensions": [
+              4128,
+              2322
+            ]
+          },
+          "action": "REVIEW",
+          "reason_codes": [
+            "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+          ]
+        },
+        {
+          "candidate": {
+            "source": "Openverse/wikimedia",
+            "source_url": "https://commons.wikimedia.org/w/index.php?curid=51243795",
+            "media_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Albert_Hall_Museum_%28exterior%29%2C_Ram_Niwas_Garden%2C_Jaipur%2C_Rajasthan%2C_India_%282016%29_6.jpg",
+            "title": "Albert Hall Museum (exterior), Ram Niwas Garden, Jaipur, Rajasthan, India (2016) 6",
+            "creator": "Girishathreya",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "attribution": "\"Albert Hall Museum (exterior), Ram Niwas Garden, Jaipur, Rajasthan, India (2016) 6\" by Girishathreya is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/.",
+            "width": 4128,
+            "height": 2322,
+            "mime_type": "image/jpeg",
+            "related_entity_id": null,
+            "commons_category": null,
+            "source_confidence": 0.65,
+            "match_method": "openverse_contextual_search",
+            "original_license_verified": false
+          },
+          "checks": {
+            "accepted": true,
+            "reason_codes": [],
+            "sha256": "77b0c2dbdc557d084a8d638ad25a0f7645d7d5931e257c68016b9dcfda20bbc3",
+            "dhash": "8ecad9dce464e4c4",
+            "dimensions": [
+              4128,
+              2322
+            ]
+          },
+          "action": "REVIEW",
+          "reason_codes": [
+            "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_oyo_16578_rs_palace",
+    "media_policy": "FALLBACK_ALLOWED",
+    "identity_blocker": false,
+    "coordinate": {
+      "status": "UNVERIFIED",
+      "original_coordinates": [
+        26.850723,
+        75.637147
+      ],
+      "source_coordinates": [
+        {
+          "source": "wikidata",
+          "source_id": "Q111062830",
+          "wikidata_id": "Q111062830",
+          "name": "OYO 16578 Rs Palace",
+          "description": "hotel in pushkar, india",
+          "latitude": 26.850723,
+          "longitude": 75.637147,
+          "category": "heritage",
+          "subcategory": "monument",
+          "suggested_tier": "recommended",
+          "website": null,
+          "wikipedia_url": null,
+          "commons_category": null,
+          "wikidata_p18": null,
+          "heritage": null,
+          "retrieved_at": "2026-09-19T10:48:00.466787+00:00",
+          "identity_match": true,
+          "identity_name_match": true,
+          "distance_m": 0.0
+        },
+        {
+          "wikidata_id": "Q111062830",
+          "label": "OYO 16578 Rs Palace",
+          "label_en": "OYO 16578 Rs Palace",
+          "label_hi": null,
+          "description": "hotel in Pushkar, India",
+          "p18_image": null,
+          "coordinates": [
+            26.8507233,
+            75.6371467
+          ],
+          "commons_category": null,
+          "official_website": null,
+          "wikipedia_url": null,
+          "source": "wikidata",
+          "source_id": "Q111062830",
+          "name": "OYO 16578 Rs Palace",
+          "latitude": 26.8507233,
+          "longitude": 75.6371467,
+          "identity_match": true,
+          "identity_name_match": true,
+          "wikidata_p18": null
+        }
+      ],
+      "distance_comparisons": [],
+      "original_source_comparisons": [
+        {
+          "source": "wikidata",
+          "source_id": "Q111062830",
+          "distance_m": 0.0
+        },
+        {
+          "source": "wikidata",
+          "source_id": "Q111062830",
+          "distance_m": 0.0
+        }
+      ],
+      "action": "UNRESOLVED"
+    },
+    "geography": {
+      "original_coordinates": [
+        26.850723,
+        75.637147
+      ],
+      "city_bbox": [
+        75.658982,
+        26.755458,
+        75.978982,
+        27.075458
+      ],
+      "region_bbox": null,
+      "evidence": [],
+      "distance_from_center_km": 19.418,
+      "status": "SUSPICIOUS",
+      "reason_codes": [
+        "OUTLYING_REGION_ASSOCIATION_UNVERIFIED"
+      ]
+    },
+    "media": {
+      "verified": false,
+      "reason_codes": [],
+      "candidates": []
+    }
+  }
+]

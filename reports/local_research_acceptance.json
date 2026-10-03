@@ -1,0 +1,399 @@
+{
+  "cities": [
+    {
+      "city": {
+        "id": "jaipur",
+        "name": "Jaipur",
+        "state": "Rajasthan",
+        "country": "India"
+      },
+      "handoff_id": "handoff_b58acd5936c16aed29ca7dcb",
+      "total": 771,
+      "by_type": {
+        "OPENING_HOURS": 236,
+        "REAL_PRIMARY_IMAGE": 230,
+        "WEBSITE": 100,
+        "DESCRIPTION": 201,
+        "COORDINATE_RESEARCH": 4,
+        "IDENTITY_RESEARCH": 0
+      },
+      "by_priority": {
+        "P0": 50,
+        "P1": 4,
+        "P2": 236,
+        "P3": 180,
+        "P4": 301
+      },
+      "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\exports\\india\\rajasthan\\jaipur",
+      "zero_candidate_media_tasks": 203,
+      "source_pack": "releases/india/rajasthan/jaipur/v3-app-fallbacks",
+      "analysis": {
+        "candidate_records": 117,
+        "valid_cached_candidates": 102,
+        "duplicates_removed": 19,
+        "local_ranking_opportunities": 83,
+        "local_rankings": 0,
+        "entity_linked_acceptance_opportunities": 0,
+        "locally_valid_schedule_strings": 62
+      },
+      "local_model": {
+        "model": "google/siglip-base-patch16-224",
+        "batch_size": 4,
+        "max_candidates": 20,
+        "stats": {
+          "failures": 1
+        }
+      },
+      "zero_candidate_required_images": 23,
+      "zero_candidate_required_examples": [
+        {
+          "place_id": "yc_in_rj_jaipur_ajmeri_gate",
+          "name": "Ajmeri Gate",
+          "task_id": "research_48322e0971188a47493fb796"
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+          "name": "Alice Garg Seashell Museum",
+          "task_id": "research_67ce46dfdbb27020b2dce714"
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_chulgiri_digamber_jain_temple",
+          "name": "Chulgiri Digamber Jain Temple",
+          "task_id": "research_3b474339ecee01f77a83e6ae"
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_elejungle_jaipur_elephant_ride",
+          "name": "EleJungle- Jaipur Elephant Ride",
+          "task_id": "research_995b58ee2c0d27c96e389578"
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_haveli",
+          "name": "Haveli",
+          "task_id": "research_e2f7da77655aa4878572e0c3"
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_india_gate",
+          "name": "India gate",
+          "task_id": "research_fb6526da1eacaaf21aa3696e"
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat",
+          "name": "Iswari Minar Swarga Sali (Isarlat)",
+          "task_id": "research_a914a1697b1e9b4936f03b86"
+        },
+        {
+          "place_id": "yc_in_rj_jaipur_jawahar_kala_kendra",
+          "name": "Jawahar Kala Kendra",
+          "task_id": "research_995c45850284bf597cc7066d"
+        }
+      ],
+      "ai_usage": {
+        "groq_calls": 0,
+        "gemini_calls": 0,
+        "paid_calls": 0,
+        "measured_cloud_call_reduction": 0
+      }
+    },
+    {
+      "city": {
+        "id": "udaipur",
+        "name": "Udaipur",
+        "state": "Rajasthan",
+        "country": "India"
+      },
+      "handoff_id": "handoff_4f301f1a53af7f69a2c50b6d",
+      "total": 264,
+      "by_type": {
+        "OPENING_HOURS": 90,
+        "REAL_PRIMARY_IMAGE": 89,
+        "WEBSITE": 38,
+        "DESCRIPTION": 45,
+        "COORDINATE_RESEARCH": 2,
+        "IDENTITY_RESEARCH": 0
+      },
+      "by_priority": {
+        "P0": 54,
+        "P1": 2,
+        "P2": 90,
+        "P3": 35,
+        "P4": 83
+      },
+      "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\exports\\india\\rajasthan\\udaipur",
+      "zero_candidate_media_tasks": 63,
+      "source_pack": "releases/india/rajasthan/udaipur/v3-app-fallbacks",
+      "analysis": {
+        "candidate_records": 108,
+        "valid_cached_candidates": 79,
+        "duplicates_removed": 15,
+        "local_ranking_opportunities": 64,
+        "local_rankings": 0,
+        "entity_linked_acceptance_opportunities": 0,
+        "locally_valid_schedule_strings": 27
+      },
+      "local_model": {
+        "model": "google/siglip-base-patch16-224",
+        "batch_size": 4,
+        "max_candidates": 20,
+        "stats": {
+          "failures": 1
+        }
+      },
+      "zero_candidate_required_images": 28,
+      "zero_candidate_required_examples": [
+        {
+          "place_id": "yc_in_rj_udaipur_ahar_museum",
+          "name": "Ahar Museum",
+          "task_id": "research_51687e6f87ad6f2486069d90"
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_ambamata_temple",
+          "name": "Ambamata Temple",
+          "task_id": "research_e877146fe9d295fd4dbf43de"
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_ambrai_ghat",
+          "name": "Ambrai Ghat",
+          "task_id": "research_cb7c2b261b013f9ba2917e52"
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_bohra_ganesh_temple",
+          "name": "Bohra Ganesh Temple",
+          "task_id": "research_4530aec0c9d16ad1730a0996"
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_chunda_palace",
+          "name": "Chunda Palace",
+          "task_id": "research_ed1370cd952bda92a42a8c4c"
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_daiji_bridge_pol",
+          "name": "Daiji Bridge Pol",
+          "task_id": "research_02f33f550a0bf3836b34c0a2"
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_delhi_gate",
+          "name": "Delhi Gate",
+          "task_id": "research_394bb8800ba70e452960762f"
+        },
+        {
+          "place_id": "yc_in_rj_udaipur_doodh_talai_lake",
+          "name": "Doodh Talai Lake",
+          "task_id": "research_4c42d1d106b69ff37ba15348"
+        }
+      ],
+      "ai_usage": {
+        "groq_calls": 0,
+        "gemini_calls": 0,
+        "paid_calls": 0,
+        "measured_cloud_call_reduction": 0
+      }
+    },
+    {
+      "city": {
+        "id": "varanasi",
+        "name": "Varanasi",
+        "state": "Uttar Pradesh",
+        "country": "India"
+      },
+      "handoff_id": "handoff_859b95fce1d770af382a8597",
+      "total": 471,
+      "by_type": {
+        "OPENING_HOURS": 151,
+        "REAL_PRIMARY_IMAGE": 146,
+        "WEBSITE": 111,
+        "DESCRIPTION": 63,
+        "COORDINATE_RESEARCH": 0,
+        "IDENTITY_RESEARCH": 0
+      },
+      "by_priority": {
+        "P0": 112,
+        "P1": 0,
+        "P2": 151,
+        "P3": 34,
+        "P4": 174
+      },
+      "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\exports\\india\\uttar_pradesh\\varanasi",
+      "zero_candidate_media_tasks": 104,
+      "source_pack": "releases/india/uttar_pradesh/varanasi/v3-app-fallbacks",
+      "analysis": {
+        "candidate_records": 158,
+        "valid_cached_candidates": 101,
+        "duplicates_removed": 12,
+        "local_ranking_opportunities": 89,
+        "local_rankings": 0,
+        "entity_linked_acceptance_opportunities": 3,
+        "locally_valid_schedule_strings": 23
+      },
+      "local_model": {
+        "model": "google/siglip-base-patch16-224",
+        "batch_size": 4,
+        "max_candidates": 20,
+        "stats": {
+          "failures": 1
+        }
+      },
+      "zero_candidate_required_images": 70,
+      "zero_candidate_required_examples": [
+        {
+          "place_id": "yc_in_up_varanasi_aghoreshwar_bhagwam_ram_ghat",
+          "name": "Aghoreshwar Bhagwam Ram Ghat",
+          "task_id": "research_8a86721e8c145f1489ecdffb"
+        },
+        {
+          "place_id": "yc_in_up_varanasi_aircraft",
+          "name": "Aircraft",
+          "task_id": "research_4c45ade9f84028d2a5a97fb7"
+        },
+        {
+          "place_id": "yc_in_up_varanasi_ashokan_pillar",
+          "name": "Ashokan Pillar",
+          "task_id": "research_6f2fe0f4ff67b4d564d86792"
+        },
+        {
+          "place_id": "yc_in_up_varanasi_ashram",
+          "name": "Ashram",
+          "task_id": "research_b6cff5dee9c3a24abe9b9698"
+        },
+        {
+          "place_id": "yc_in_up_varanasi_backpackers_park",
+          "name": "Backpackers Park",
+          "task_id": "research_e38fb45448ee5be875a802aa"
+        },
+        {
+          "place_id": "yc_in_up_varanasi_badrinarayan_ghat",
+          "name": "Badrinarayan Ghat",
+          "task_id": "research_4b6f19e3b7802559ff9ffeff"
+        },
+        {
+          "place_id": "yc_in_up_varanasi_benares_state",
+          "name": "Benares State",
+          "task_id": "research_3406562501e666f24962eefb"
+        },
+        {
+          "place_id": "yc_in_up_varanasi_brahma_ghat",
+          "name": "Brahma Ghat",
+          "task_id": "research_2e56552c014233af8e390e3b"
+        }
+      ],
+      "ai_usage": {
+        "groq_calls": 0,
+        "gemini_calls": 0,
+        "paid_calls": 0,
+        "measured_cloud_call_reduction": 0
+      }
+    },
+    {
+      "city": {
+        "id": "manali",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "country": "India"
+      },
+      "handoff_id": "handoff_aa9f7914553959dd7b55c088",
+      "total": 131,
+      "by_type": {
+        "OPENING_HOURS": 43,
+        "REAL_PRIMARY_IMAGE": 29,
+        "WEBSITE": 15,
+        "DESCRIPTION": 36,
+        "COORDINATE_RESEARCH": 8,
+        "IDENTITY_RESEARCH": 0
+      },
+      "by_priority": {
+        "P0": 13,
+        "P1": 8,
+        "P2": 43,
+        "P3": 16,
+        "P4": 51
+      },
+      "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\exports\\india\\himachal_pradesh\\manali",
+      "zero_candidate_media_tasks": 29,
+      "source_pack": "releases/india/himachal_pradesh/manali/v3-app-fallbacks",
+      "analysis": {
+        "candidate_records": 11,
+        "valid_cached_candidates": 11,
+        "duplicates_removed": 0,
+        "local_ranking_opportunities": 11,
+        "local_rankings": 0,
+        "entity_linked_acceptance_opportunities": 0,
+        "locally_valid_schedule_strings": 12
+      },
+      "local_model": {
+        "model": "google/siglip-base-patch16-224",
+        "batch_size": 4,
+        "max_candidates": 20,
+        "stats": {
+          "failures": 1
+        }
+      },
+      "zero_candidate_required_images": 13,
+      "zero_candidate_required_examples": [
+        {
+          "place_id": "yc_in_hp_manali_bhrigu_lake",
+          "name": "Bhrigu Lake",
+          "task_id": "research_47ac773bf53e6ffee567a919"
+        },
+        {
+          "place_id": "yc_in_hp_manali_great_hadimba_weavers_welfare",
+          "name": "Great Hadimba Weavers welfare",
+          "task_id": "research_c4151f425318b0453ac68cc2"
+        },
+        {
+          "place_id": "yc_in_hp_manali_hidimba_devi_temple_dhungri_manali",
+          "name": "Hidimba Devi Temple, Dhungri Manali",
+          "task_id": "research_64a2aa86921ad3c9c03e464b"
+        },
+        {
+          "place_id": "yc_in_hp_manali_kartik_temple",
+          "name": "Kartik Temple",
+          "task_id": "research_0b6a9ea463b98d58c807de73"
+        },
+        {
+          "place_id": "yc_in_hp_manali_lehmanali_highway",
+          "name": "Leh–Manali Highway",
+          "task_id": "research_2f45d7d3243bab7694c45b1c"
+        },
+        {
+          "place_id": "yc_in_hp_manali_manali",
+          "name": "Manali",
+          "task_id": "research_2e3c355c8284af586cdf777b"
+        },
+        {
+          "place_id": "yc_in_hp_manali_miniature_siva_temple_jagatsukh",
+          "name": "Miniature Siva Temple, Jagatsukh",
+          "task_id": "research_6e349565457ff3c1cb601fcf"
+        },
+        {
+          "place_id": "yc_in_hp_manali_museum_of_himachal_culture_folk_arts",
+          "name": "Museum of Himachal Culture & Folk Arts",
+          "task_id": "research_35a3e2467b7a212635314542"
+        }
+      ],
+      "ai_usage": {
+        "groq_calls": 0,
+        "gemini_calls": 0,
+        "paid_calls": 0,
+        "measured_cloud_call_reduction": 0
+      }
+    }
+  ],
+  "total_tasks": 1637,
+  "preservation": {
+    "Jaipur": {
+      "source_pack_unchanged": true,
+      "original_v3_unchanged": true
+    },
+    "Udaipur": {
+      "source_pack_unchanged": true,
+      "original_v3_unchanged": true
+    },
+    "Varanasi": {
+      "source_pack_unchanged": true,
+      "original_v3_unchanged": true
+    },
+    "Manali": {
+      "source_pack_unchanged": true,
+      "original_v3_unchanged": true
+    }
+  }
+}

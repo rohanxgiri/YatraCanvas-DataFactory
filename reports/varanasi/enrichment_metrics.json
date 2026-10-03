@@ -1,0 +1,29 @@
+{
+  "before": {
+    "total_keep": 862,
+    "missing_image": 810,
+    "missing_description": 862,
+    "missing_opening_hours": 826,
+    "missing_wikidata_id": 787,
+    "missing_wikipedia_url": 806,
+    "missing_website": 659,
+    "missing_address": 367
+  },
+  "after": {
+    "total_keep": 862,
+    "with_image": 103,
+    "with_description": 124,
+    "with_opening_hours": 36,
+    "with_wikidata_id": 85,
+    "with_wikipedia_url": 109,
+    "images_recovered": 51,
+    "descriptions_recovered": 124,
+    "hours_recovered": 0,
+    "wikidata_recovered": 10,
+    "wikipedia_recovered": 53,
+    "duplicates_merged": 607,
+    "still_missing_image": 759,
+    "still_missing_description": 738,
+    "still_missing_opening_hours": 826
+  }
+}

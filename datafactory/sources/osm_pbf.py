@@ -202,7 +202,9 @@ class OSMPbfSource:
         If PBF is not yet downloaded and existing raw JSON exists, seamlessly loads it.
         """
         # Check if output_raw_path or city cache already exists
-        city_cached = self.cache_dir / f"{city_slug}_places.json"
+        city_cache_dir = getattr(self, "city_cache_dir", self.cache_dir)
+        city_cache_dir.mkdir(parents=True, exist_ok=True)
+        city_cached = city_cache_dir / f"{city_slug}_places.json"
         if output_raw_path and output_raw_path.exists():
             print(f"[OSM] Loading raw OSM places from {output_raw_path}")
             return self._load_from_json(output_raw_path)
@@ -213,7 +215,7 @@ class OSMPbfSource:
             if output_raw_path:
                 output_raw_path.parent.mkdir(parents=True, exist_ok=True)
                 with open(output_raw_path, "w", encoding="utf-8") as f:
-                    json.dump({"elements": [p.get("tags", {}) for p in places]}, f)
+                    json.dump({"elements": places}, f)
             return places
 
         # Try to ensure and parse local PBF

@@ -1,14 +1,22 @@
 {
   "city": "udaipur",
-  "total_core_destinations": 63,
-  "core_with_image": 44,
-  "core_missing_image": 19,
+  "total_core_destinations": 55,
+  "core_with_image": 37,
+  "core_missing_image": 18,
   "failure_reasons_summary": {
-    "wikipedia_no_image": 8,
-    "no_P18": 6,
-    "no_wikidata": 5
+    "wikipedia_no_image": 9,
+    "no_P18": 4,
+    "no_wikidata": 4,
+    "commons_category_empty": 1
   },
   "failed_destinations": [
+    {
+      "id": "yc_in_rj_udaipur_roman_catholic_diocese_of_udaipur",
+      "name": "Roman Catholic Diocese of Udaipur",
+      "category": "religious",
+      "wikidata_id": "Q391531",
+      "failure_reason": "commons_category_empty"
+    },
     {
       "id": "yc_in_rj_udaipur_doodh_talai_lake",
       "name": "Doodh Talai Lake",
@@ -24,10 +32,10 @@
       "failure_reason": "wikipedia_no_image"
     },
     {
-      "id": "yc_in_rj_udaipur_swaroop_sagar_lake",
-      "name": "Swaroop Sagar Lake",
+      "id": "yc_in_rj_udaipur_gangaur_ghat",
+      "name": "Gangaur Ghat",
       "category": "nature",
-      "wikidata_id": "Q30624169",
+      "wikidata_id": "Q28154058",
       "failure_reason": "wikipedia_no_image"
     },
     {
@@ -80,20 +88,6 @@
       "failure_reason": "no_P18"
     },
     {
-      "id": "yc_in_rj_udaipur_jagat_niwas_palace",
-      "name": "Jagat Niwas Palace",
-      "category": "heritage",
-      "wikidata_id": "Q111402018",
-      "failure_reason": "no_P18"
-    },
-    {
-      "id": "yc_in_rj_udaipur_the_leela_palace_udaipur",
-      "name": "The Leela Palace Udaipur",
-      "category": "heritage",
-      "wikidata_id": "Q111402027",
-      "failure_reason": "no_P18"
-    },
-    {
       "id": "yc_in_rj_udaipur_rampratap_palace_by_fateh_collection",
       "name": "Rampratap Palace by Fateh Collection",
       "category": "heritage",
@@ -108,6 +102,13 @@
       "failure_reason": "no_P18"
     },
     {
+      "id": "yc_in_rj_udaipur_sahastrabahu_temples_sas_bahu_temples",
+      "name": "SahastraBahu Temples (Sas Bahu Temples)",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
       "id": "yc_in_rj_udaipur_kishan_pol",
       "name": "Kishan Pol",
       "category": "heritage",
@@ -117,13 +118,6 @@
     {
       "id": "yc_in_rj_udaipur_daiji_bridge_pol",
       "name": "Daiji Bridge Pol",
-      "category": "heritage",
-      "wikidata_id": null,
-      "failure_reason": "no_wikidata"
-    },
-    {
-      "id": "yc_in_rj_udaipur_moti_magri_memorial",
-      "name": "Moti Magri Memorial",
       "category": "heritage",
       "wikidata_id": null,
       "failure_reason": "no_wikidata"

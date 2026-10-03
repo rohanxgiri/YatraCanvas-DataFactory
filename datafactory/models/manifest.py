@@ -11,6 +11,7 @@ class ManifestRecordCounts(BaseModel):
     with_images: int = 0
     with_opening_hours: int = 0
     with_wikidata: int = 0
+    with_descriptions: int = 0
     category_conflicts: int = 0
     entity_conflicts: int = 0
     alias_conflicts: int = 0
@@ -35,3 +36,5 @@ class CityManifest(BaseModel):
     source_versions: Dict[str, str] = Field(default_factory=dict)
     counts: ManifestRecordCounts
     checksums: Dict[str, str] = Field(default_factory=dict)
+    offline_assurance: Dict[str, Any] = Field(default_factory=dict)
+    ai_cost_safety: Dict[str, Any] = Field(default_factory=dict)

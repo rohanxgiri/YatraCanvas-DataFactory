@@ -35,6 +35,15 @@ data/media/
 *.pbf
 data/source_cache/osm/
 scratch/
+node_modules/
+data/research/
+releases/**/.offline-*/
+releases/**/v3-offline/
 *.log
 .DS_Store
 Thumbs.db
+
+# Environment secrets
+.env
+.env.*
+!.env.example

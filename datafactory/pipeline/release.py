@@ -146,6 +146,7 @@ def run_release(
             name=r["name"],
             name_en=r.get("name_en") or r["name"],
             name_hi=r.get("name_hi"),
+            description=r.get("description"),
             alternate_names=r.get("alternate_names", []),
             alternate_name_records=r.get("alternate_name_records", []),
             city=city_ref,
@@ -316,6 +317,12 @@ def run_release(
     sqlite_path = release_dir / "yatracanvas.db"
     export_sqlite(city_meta, canonical_places, sqlite_path)
 
+    # All v3 releases expose transparent draft/source readiness, including legacy builds.
+    from .usability import usability
+    from ..utils.atomic import atomic_json
+    offline_assurance = usability([p.model_dump() for p in canonical_places], city_meta.model_dump(), release_dir)
+    atomic_json(release_dir / "usability.json", offline_assurance)
+
     # 5. Generate Checksums
     checksums = {}
     release_files = [
@@ -327,6 +334,7 @@ def run_release(
         "source_manifest.json",
         "license_manifest.json",
         "yatracanvas.db",
+        "usability.json",
     ]
     for fn in release_files:
         fp = release_dir / fn
@@ -342,6 +350,7 @@ def run_release(
     places_with_images = sum(1 for p in canonical_places if p.images.primary is not None)
     places_with_hours = sum(1 for p in canonical_places if p.opening_hours.raw is not None)
     places_with_wiki = sum(1 for p in canonical_places if p.external_ids.wikidata_id is not None)
+    places_with_desc = sum(1 for p in canonical_places if p.description is not None)
 
     for p in canonical_places:
         category_counts[p.classification.category] += 1
@@ -374,6 +383,7 @@ def run_release(
         with_images=places_with_images,
         with_opening_hours=places_with_hours,
         with_wikidata=places_with_wiki,
+        with_descriptions=places_with_desc,
         category_conflicts=category_conflicts_count,
         entity_conflicts=entity_conflicts_count,
         alias_conflicts=alias_conflicts_count,
@@ -398,6 +408,7 @@ def run_release(
         source_versions={k: str(v) for k, v in sources_count.items()},
         counts=manifest_counts,
         checksums=checksums,
+        offline_assurance={k: v for k, v in offline_assurance.items() if k != "places"},
     )
 
     manifest_path = release_dir / "manifest.json"
@@ -441,6 +452,8 @@ def run_release(
         "with_opening_hours_count": places_with_hours,
         "wikidata_coverage_pct": round(places_with_wiki / len(canonical_places) * 100, 1) if canonical_places else 0.0,
         "with_wikidata_count": places_with_wiki,
+        "description_coverage_pct": round(places_with_desc / len(canonical_places) * 100, 1) if canonical_places else 0.0,
+        "with_descriptions_count": places_with_desc,
         "category_breakdown": dict(category_counts),
         "generated_at": now_iso,
     }
@@ -456,6 +469,7 @@ def run_release(
     print(f"       Support: {tier_counts.get('support', 0)}")
     print(f"       Places with exact images: {places_with_images}")
     print(f"       Places with verified Wikidata: {places_with_wiki}")
+    print(f"       Places with Wikipedia descriptions: {places_with_desc}")
     print(f"       Places with opening hours: {places_with_hours}")
 
     return release_dir, city_manifest

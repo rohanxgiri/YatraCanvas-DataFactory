@@ -40,6 +40,7 @@ def export_sqlite(city_meta: CityMetadata, places: List[Place], output_db_path: 
         city_id TEXT NOT NULL,
         name TEXT NOT NULL,
         name_hi TEXT,
+        description TEXT,
         latitude REAL NOT NULL,
         longitude REAL NOT NULL,
         address TEXT,
@@ -129,12 +130,21 @@ def export_sqlite(city_meta: CityMetadata, places: List[Place], output_db_path: 
         primary_img = p.images.primary
         tier_val = p.tier.value if hasattr(p.tier, "value") else str(p.tier)
         cur.execute("""
-        INSERT INTO places VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO places (
+            id, city_id, name, name_hi, description, latitude, longitude, address,
+            category, subcategory, primary_entity_type, tier,
+            travel_relevance_score, prominence_score, recommended_visit_minutes,
+            tourism_priority, family_friendly, best_time, website, phone,
+            opening_hours, overture_id, osm_id, wikidata_id, foursquare_id,
+            wikivoyage_listing_id, quality_overall, anomaly_score,
+            primary_image_path, thumbnail_image_path, generated_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             p.id,
             p.city.id,
             p.name,
             p.name_hi,
+            p.description,
             p.location.latitude,
             p.location.longitude,
             p.location.address,

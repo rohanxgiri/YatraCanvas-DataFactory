@@ -1,0 +1,15 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "health": {
+    "provider": "gemini",
+    "key": "configured",
+    "model": "gemini-3.8-flash",
+    "health": "OK"
+  },
+  "diagnostic_inference_calls": 1,
+  "paid_feature_calls": 0,
+  "http_status": 503,
+  "error_status": "UNAVAILABLE",
+  "diagnostic": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+}

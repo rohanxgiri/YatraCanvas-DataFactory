@@ -21,12 +21,12 @@ class WikidataEnricher:
 
     SPARQL_URL = "https://query.wikidata.org/sparql"
 
-    # Keywords for travel-relevant destinations
+    # Keywords for travel-relevant destinations (whole-word matching only)
     TRAVEL_KEYWORDS = {
         "fort", "palace", "mahal", "museum", "gallery", "monument", "memorial",
         "temple", "mandir", "mosque", "masjid", "dargah", "church", "cathedral",
         "gurudwara", "stepwell", "baori", "ghat", "cenotaph", "chhatri", "stupa",
-        "gate", "darwaza", "garden", "bagh", "park", "lake", "sarovar", "talab",
+        "gate", "darwaza", "garden", "bagh", "lake", "talab",
         "observatory", "zoo", "sanctuary", "heritage", "attraction", "tourist",
         "bazaar", "market", "viewpoint"
     }
@@ -34,7 +34,13 @@ class WikidataEnricher:
     REJECT_KEYWORDS = {
         "human", "politician", "cricketer", "actor", "actress", "film", "song",
         "book", "album", "company", "corporation", "district", "constituency",
-        "tehsil", "administrative", "village", "suburb"
+        "tehsil", "administrative", "village", "suburb", "bank", "atm", "branch",
+        "financial", "finance", "insurance", "hospital", "clinic", "dispensary",
+        "dental", "school", "college", "vidyalaya", "university", "academy",
+        "coaching", "tuition", "office", "apartment", "apartments", "residential",
+        "housing", "courier", "packers", "cargo", "repair", "automotive",
+        "dealer", "depot", "substation", "police", "chowki", "factory",
+        "warehouse", "godown"
     }
 
     def __init__(self):
@@ -45,6 +51,66 @@ class WikidataEnricher:
         self.sources_cfg = self.settings.sources_config.get("sources", {}).get("wikidata", {})
         self.api_url = self.sources_cfg.get("api_url", "https://www.wikidata.org/w/api.php")
         self.timeout = self.sources_cfg.get("timeout_seconds", 30.0)
+
+    def _is_travel_relevant_text(self, name_lower: str, desc: str) -> bool:
+        """Helper to match travel keywords using strict word boundaries without locality false-positives."""
+        text = f"{name_lower} {desc}"
+        for kw in self.TRAVEL_KEYWORDS:
+            if kw == "lake" or kw == "talab":
+                if re.search(r"\b(lake|talab|waterfall)\b", text):
+                    return True
+            elif kw == "sarovar":
+                if re.search(r"\bsarovar\b", text):
+                    return True
+            elif kw == "garden":
+                if re.search(r"\b(garden|bagh|udyan)\b", text):
+                    return True
+            elif kw == "park":
+                if re.search(r"\bpark\b", text) and not re.search(r"\b(locality|neighbourhood|neighborhood|suburb|residential)\b", desc):
+                    return True
+            else:
+                if re.search(r"\b" + re.escape(kw) + r"\b", text):
+                    return True
+        return False
+
+    def _is_rejected_entity(self, name_lower: str, desc: str) -> bool:
+        """Check if entity matches any strong non-travel reject keywords."""
+        text = f"{name_lower} {desc}"
+        for rk in self.REJECT_KEYWORDS:
+            if re.search(r"\b" + re.escape(rk) + r"\b", text):
+                return True
+        return False
+
+    def _sanitize_places(self, places: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Filter out non-travel records and fix misclassified categories in discovered places."""
+        cleaned = []
+        for p in places:
+            name_lower = p.get("name", "").lower()
+            desc = (p.get("description") or "").lower()
+            if self._is_rejected_entity(name_lower, desc):
+                continue
+
+            item = dict(p)
+            # Reclassify lodging and transit
+            is_lodging = any(re.search(r"\b" + re.escape(k) + r"\b", name_lower) for k in [
+                "hotel", "resort", "inn", "guest house", "guesthouse", "oyo",
+                "treebo", "fabhotel", "dharamshala", "homestay", "bhavan", "hostel", "motel"
+            ])
+            is_transit = any(re.search(r"\b" + re.escape(k) + r"\b", name_lower) for k in [
+                "metro station", "railway station", "bus stand", "bus stop", "bus terminal", "airport"
+            ])
+
+            if is_lodging:
+                item["category"] = "hotel"
+                item["subcategory"] = "hotel"
+            elif is_transit:
+                item["category"] = "transport"
+                item["subcategory"] = "station"
+            elif item.get("category") in {"nature", "park"} and re.search(r"\b(locality|neighbourhood|neighborhood|suburb|residential)\b", desc):
+                continue
+
+            cleaned.append(item)
+        return cleaned
 
     def discover_city_attractions(
         self,
@@ -61,7 +127,8 @@ class WikidataEnricher:
         if cached_file.exists():
             print(f"[Wikidata] Loading cached spatial attractions from {cached_file}")
             with open(cached_file, "r", encoding="utf-8") as f:
-                return json.load(f)
+                raw = json.load(f)
+            return self._sanitize_places(raw)
 
         min_lon, min_lat, max_lon, max_lat = bbox
 
@@ -116,9 +183,10 @@ LIMIT 300
                 continue
 
             desc = b.get("itemDescription", {}).get("value", "").lower()
+            name_lower = name.lower()
 
-            # Reject non-places
-            if any(k in desc for k in self.REJECT_KEYWORDS):
+            # Reject non-places or non-travel entities
+            if self._is_rejected_entity(name_lower, desc):
                 continue
 
             # Parse coordinates from Point(lon lat)
@@ -144,11 +212,8 @@ LIMIT 300
             wikipedia = b.get("sitelink", {}).get("value")
             heritage = b.get("heritage", {}).get("value")
 
-            name_lower = name.lower()
             is_travel_relevant = (
-                any(k in name_lower for k in self.TRAVEL_KEYWORDS) or
-                any(k in desc for k in self.TRAVEL_KEYWORDS) or
-                bool(p18_fn) or
+                self._is_travel_relevant_text(name_lower, desc) or
                 bool(heritage) or
                 bool(commons_cat)
             )
@@ -161,8 +226,13 @@ LIMIT 300
             subcat = "attraction"
 
             # 0. Lodging / Transit Negative Guards (Highest Priority)
-            is_lodging = any(k in name_lower or k in desc for k in ["hotel", "resort", "inn", "guest house", "guesthouse", "oyo", "treebo", "fabhotel", "dharamshala", "homestay", "bhavan", "hostel", "motel"])
-            is_transit = any(k in name_lower or k in desc for k in ["metro station", "railway station", "bus stand", "bus stop", "bus terminal", "airport", "junction"])
+            is_lodging = any(re.search(r"\b" + re.escape(k) + r"\b", name_lower) for k in [
+                "hotel", "resort", "inn", "guest house", "guesthouse", "oyo",
+                "treebo", "fabhotel", "dharamshala", "homestay", "bhavan", "hostel", "motel"
+            ])
+            is_transit = any(re.search(r"\b" + re.escape(k) + r"\b", name_lower) for k in [
+                "metro station", "railway station", "bus stand", "bus stop", "bus terminal", "airport"
+            ])
 
             if is_lodging:
                 cat = "hotel"
@@ -196,7 +266,7 @@ LIMIT 300
                 cat = "park"
                 subcat = "garden"
             # 5. Lakes, water bodies, and ghats (only if not a palace, hotel, or station)
-            elif any(k in name_lower or k in desc for k in ["lake", "sarovar", "talab", "waterfall"]):
+            elif re.search(r"\b(sarovar|lake|talab|waterfall)\b", f"{name_lower} {desc}"):
                 cat = "nature"
                 subcat = "lake"
             elif any(k in name_lower or k in desc for k in ["ghat"]):
@@ -315,6 +385,10 @@ LIMIT 300
             "commons_category": commons_cat,
             "official_website": website,
             "wikipedia_url": wikipedia_url,
+            "source_url": f"https://www.wikidata.org/wiki/{qid}",
+            "retrieved_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "location_hierarchy": [c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id")
+                                   for c in claims.get("P131", []) if isinstance(c.get("mainsnak", {}).get("datavalue", {}).get("value"), dict)],
         }
 
         self.cache.set(f"entity_{qid}", res)

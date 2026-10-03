@@ -1,4 +1,4 @@
-from typing import List, Optional, Tuple
+from typing import List, Optional, Tuple, Dict, Any
 from pydantic import BaseModel, Field
 
 
@@ -26,4 +26,11 @@ class CityMetadata(BaseModel):
     generated_at: str
     resolution_source: Optional[str] = None
     resolution_confidence: Optional[float] = None
+    administrative_ids: Dict[str, str] = Field(default_factory=dict)
+    boundary_geometry: Optional[Dict[str, Any]] = None
+    region_bbox: Optional[Tuple[float, float, float, float]] = None
+    region_geometry: Optional[Dict[str, Any]] = None
+    boundary_buffer_m: float = Field(default=0, ge=0)
+    region_buffer_m: float = Field(default=0, ge=0)
+    source_identifiers: Dict[str, str] = Field(default_factory=dict)
 

@@ -1,5 +1,19 @@
 # YatraCanvas-DataFactory
 
+Local intelligence and Research Handoff extend the existing free-only assurance
+pipeline. See [the workflow](docs/local-research-workflow.md) for SigLIP, local
+duplicate/text/geometry/hours validation, public research exports and safe imports.
+
+```powershell
+python -m datafactory.cli research-export --city Jaipur --all
+python -m datafactory.cli research-import --file research_results.json --dry-run
+python -m datafactory.cli research-import --file research_results.json --apply
+```
+
+Apply publishes a complete new offline pack; original v3 packs and City Lab remain
+untouched. See [the architecture audit](docs/local-research-architecture.md) and
+[four-city acceptance](reports/local_research_acceptance.md).
+
 An autonomous, multi-source open-data extraction, deduplication, enrichment, and validation pipeline for generating offline-ready, structured city travel datasets (City Packs).
 
 Given an input city such as `Jaipur, Rajasthan, India`, DataFactory automatically:
@@ -20,9 +34,9 @@ Given an input city such as `Jaipur, Rajasthan, India`, DataFactory automaticall
 ## Zero-Hallucination Policy
 
 DataFactory adheres to a strict zero-hallucination principle:
-- If a place does not have a verified Wikidata P18 image or confirmed Commons category match, its primary image is recorded as `null`.
+- Important destinations require licensed real photography with source identity evidence and visual assurance. Missing or uncertain required photos remain unresolved.
 - Missing opening hours or websites are stored as `null` or marked unverified.
-- Generic category fallback images (e.g. assigning a generic mountain photo to a missing museum) are strictly prohibited.
+- Less prominent places may use explicitly tagged category illustrations from licensed local pools. Fallback artwork never satisfies `REAL_REQUIRED` and never claims to depict a real destination.
 
 ---
 
@@ -151,3 +165,29 @@ Run the complete test suite with `pytest`:
 pytest -v
 ```
 Tests cover schema validation, coordinate geometry, taxonomy mapping, rejection filters, spatial deduplication, durable curation precedence, quarantine logic, SQLite queries, and manifest checksums.
+
+## Free-only offline assurance
+
+Copy `.env.example` to `.env` and enter `GROQ_API_KEY` and `GEMINI_API_KEY`. The local file is ignored by Git; keys are never printed. Process environment variables override `.env`. Confirm `GROQ_FREE_TIER_CONFIRMED=true` and `GEMINI_FREE_TIER_CONFIRMED=true` only for free accounts with paid billing disabled. `AI_MODE=FREE_ONLY` permits only the approved model list in `config/ai.yaml`. No paid provider, search, grounding or image-generation API is enabled. Source extraction works without either key.
+
+```powershell
+.\.venv\Scripts\python.exe -m datafactory ai-status
+.\.venv\Scripts\python.exe -m datafactory ai-smoke --city Jaipur --state Rajasthan --place-id yc_in_rj_jaipur_kesar_kyari
+.\.venv\Scripts\python.exe -m datafactory repair --city Jaipur --state Rajasthan --dry-run
+.\.venv\Scripts\python.exe -m datafactory repair --city Jaipur --state Rajasthan --apply --network
+.\.venv\Scripts\python.exe -m datafactory build-offline --city Manali --state "Himachal Pradesh" --from-release --network
+```
+
+`repair` defaults to a release-read-only audit using cached sources. It may populate decision caches and reports. `--network` permits bounded approved-source retrieval. Apply shares one AI budget with its preceding audit, bundles relative WebP paths and thumbnails, validates JSON/JSONL/Parquet/SQLite consistency and checksums, and publishes a separate immutable snapshot. Repeated output names receive a unique suffix; the console and report give the actual path. Published ID collisions stop apply for a reviewed migration. Verified human overrides and media remain authoritative. Fresh `build-offline` runs the existing source pipeline before repair; `--from-release` audits a snapshot without fresh discovery.
+
+Reports live under `reports/<country>/<state>/<city>/assurance/`. The same sidecars are bundled with draft packs: `media_assurance.json`, `field_provenance.json`, `ai_repair.json`, and `usability.json`. Schema version 3.0 and existing SQLite columns remain compatible. Image metadata adds `image_type`, fallback identity, and content hash.
+
+`DRAFT_OFFLINE_READY` means a structurally valid bundle suitable for review with unresolved issues recorded. `SOURCE_DATA_READY` additionally requires at least 95% usable published POIs and no critical blockers. Required real photos, identity, coordinate conflicts, travel-region association, attribution and local media are checked explicitly. Hours, descriptions and addresses measure coverage but are not fabricated to improve usability.
+
+Default budgets: 30 inference requests, 20 vision requests, 5 escalations per city/build; source research and network media discovery each cover at most 20 places. Unchanged decisions reuse caches keyed by city, full identity, evidence, image bytes, prompt/schema, provider and model. Quota, timeout and unavailable jobs are saved for later retry; no long quota waits.
+
+Fallback presentation belongs to the YatraCanvas app. `fallbacks.strategy: app` is the default: missing photos stay `images.primary: null`, so the app uses its existing local fallback images. Factory-generated artwork is removed from new exports of earlier repaired packs; authentic photos and verified human media choices are preserved. No app artwork is copied into a pack or labelled as destination photography. Pack renderability/usability remains a strict measure of bundled media; app fallback display is not counted as verified source media. The earlier artwork pools remain available only through an explicit `fallbacks.strategy: bundled` opt-in; authoring is never automatic.
+
+`audit-identity --city ... --state ... --review-manifest <path>` reads a review queue locally and records collisions, pairwise evidence and proposed new candidate IDs. `--ai` explicitly enables transfer of reduced names, aliases, coordinates, categories and source identifiers to the configured providers; curator notes stay local. It never applies a published-ID migration or writes City Lab files. Missing/unsafe optional gallery references are pruned from new exports with an audit trail; primary-photo blockers remain explicit.
+
+See `docs/architecture-audit.md` and the generated `reports/offline_assurance_acceptance.md` for acceptance evidence and limitations. `reports/app_fallback_transition.md` records the later removal of generated artwork from all four exports and gives the current pack paths. The original acceptance figures remain historical evidence.

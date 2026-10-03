@@ -1,47 +1,48 @@
 {
   "city": "varanasi",
-  "total_core_destinations": 131,
-  "with_wikidata": 73,
-  "with_wikipedia": 60,
-  "with_wikivoyage": 14,
-  "with_osm_travel": 82,
-  "supported_only_by_overture": 11,
+  "total_core_destinations": 117,
+  "with_wikidata": 57,
+  "with_wikipedia": 81,
+  "with_wikivoyage": 17,
+  "with_osm_travel": 81,
+  "supported_only_by_overture": 0,
   "travel_relevance_distribution": {
     "0.0-0.2": 0,
     "0.2-0.4": 2,
-    "0.4-0.6": 54,
-    "0.6-0.8": 17,
-    "0.8-1.0": 58
+    "0.4-0.6": 34,
+    "0.6-0.8": 28,
+    "0.8-1.0": 53
   },
   "categories": {
-    "heritage": 91,
-    "religious": 23,
-    "nature": 10,
+    "heritage": 80,
+    "religious": 24,
+    "nature": 7,
     "museum": 4,
-    "park": 3
+    "park": 2
   },
   "subcategories": {
-    "heritage/historical_monument": 45,
-    "heritage/attraction": 40,
-    "religious/place_of_worship": 23,
-    "nature/lake": 10,
+    "heritage/historical_monument": 46,
+    "heritage/attraction": 29,
+    "religious/place_of_worship": 24,
+    "nature/lake": 7,
     "museum/history_museum": 4,
-    "heritage/monument": 3,
-    "park/garden": 3,
+    "park/garden": 2,
+    "heritage/monument": 2,
     "heritage/memorial": 2,
     "heritage/gate": 1
   },
   "source_combinations": {
-    "openstreetmap,overture": 58,
-    "wikidata": 30,
-    "openstreetmap": 15,
-    "overture": 11,
-    "wikivoyage": 5,
-    "openstreetmap,overture,wikivoyage": 5,
-    "overture,wikidata": 2,
-    "openstreetmap,wikivoyage": 2,
-    "openstreetmap,overture,wikidata": 1,
-    "overture,wikivoyage": 1,
-    "openstreetmap,overture,wikidata,wikivoyage": 1
+    "openstreetmap,overture": 39,
+    "wikidata": 18,
+    "openstreetmap,overture,wikidata": 16,
+    "openstreetmap": 13,
+    "overture,wikidata": 12,
+    "openstreetmap,overture,wikivoyage": 6,
+    "wikivoyage": 4,
+    "openstreetmap,wikidata,wikivoyage": 3,
+    "openstreetmap,wikidata": 2,
+    "openstreetmap,overture,wikidata,wikivoyage": 2,
+    "overture,wikidata,wikivoyage": 1,
+    "overture,wikivoyage": 1
   }
 }

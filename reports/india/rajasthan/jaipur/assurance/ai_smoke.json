@@ -1,0 +1,155 @@
+{
+  "health": {
+    "AI_MODE": "FREE_ONLY",
+    "providers": [
+      {
+        "provider": "groq",
+        "key": "configured",
+        "model": "qwen/qwen3.8-27b",
+        "health": "OK"
+      },
+      {
+        "provider": "gemini",
+        "key": "configured",
+        "model": "gemini-3.8-flash",
+        "health": "OK"
+      }
+    ],
+    "paid_providers": "DISABLED",
+    "paid_feature_calls": 0
+  },
+  "assessment": {
+    "candidate": {
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amber_Palace-Kesar_Kyari_Garden_VJC-20131017.jpg",
+      "media_url": "https://commons.wikimedia.org/wiki/File:Amber_Palace-Kesar_Kyari_Garden_VJC-20131017.jpg",
+      "title": "Amber Palace-Kesar Kyari Garden VJC-20131017.jpg",
+      "creator": "Daniel VILLAFRUELA",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_VILLAFRUELA\" title=\"User:Daniel VILLAFRUELA\"> Daniel VILLAFRUELA</a>",
+      "width": 1280,
+      "height": 853,
+      "mime_type": "image/webp",
+      "related_entity_id": null,
+      "commons_category": null,
+      "source_confidence": 1.0,
+      "match_method": "wikidata_p18",
+      "original_license_verified": true
+    },
+    "checks": {
+      "accepted": true,
+      "reason_codes": [],
+      "sha256": "db83188182ac969197a00facc41e601eb08c5274ec146b77dd8f58007553175c",
+      "dhash": "f4379fec4402a371",
+      "dimensions": [
+        1280,
+        853
+      ]
+    },
+    "action": "REVIEW",
+    "ai": {
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "prompt_version": "2026-10-02.1",
+      "input_hash": "dd049ac1ba5d7a3ec7b7c34e8a6f0df0b755c89020a5e7baa2d8884721e2d881",
+      "created_at": "2026-10-03T06:44:19.456667+00:00",
+      "status": "OK",
+      "result": {
+        "confidence": 0.95,
+        "reason_codes": [
+          "Identity confirmed by filename and visual context (Amber Palace floating garden)",
+          "Photos are authentic and lack watermarks",
+          "Image contains a large, empty white background section (likely from a vertical crop without padding or canvas), affecting aesthetic quality"
+        ],
+        "decision": "REVIEW",
+        "identity_match": true,
+        "identity_confidence": 0.98,
+        "real_photograph": true,
+        "landmark_prominence": 1.0,
+        "mobile_card_suitability": 0.5,
+        "hero_suitability": 0.4,
+        "watermark_or_obstruction": false,
+        "wrong_place_risk": 0.02
+      },
+      "decision": "REVIEW",
+      "confidence": 0.95,
+      "reason_codes": [
+        "Identity confirmed by filename and visual context (Amber Palace floating garden)",
+        "Photos are authentic and lack watermarks",
+        "Image contains a large, empty white background section (likely from a vertical crop without padding or canvas), affecting aesthetic quality"
+      ],
+      "opinions": [
+        {
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "2026-10-02.1",
+          "input_hash": "dd049ac1ba5d7a3ec7b7c34e8a6f0df0b755c89020a5e7baa2d8884721e2d881",
+          "created_at": "2026-10-03T06:44:19.456667+00:00",
+          "status": "OK",
+          "result": {
+            "confidence": 0.95,
+            "reason_codes": [
+              "Identity confirmed by filename and visual context (Amber Palace floating garden)",
+              "Photos are authentic and lack watermarks",
+              "Image contains a large, empty white background section (likely from a vertical crop without padding or canvas), affecting aesthetic quality"
+            ],
+            "decision": "REVIEW",
+            "identity_match": true,
+            "identity_confidence": 0.98,
+            "real_photograph": true,
+            "landmark_prominence": 1.0,
+            "mobile_card_suitability": 0.5,
+            "hero_suitability": 0.4,
+            "watermark_or_obstruction": false,
+            "wrong_place_risk": 0.02
+          },
+          "decision": "REVIEW",
+          "confidence": 0.95,
+          "reason_codes": [
+            "Identity confirmed by filename and visual context (Amber Palace floating garden)",
+            "Photos are authentic and lack watermarks",
+            "Image contains a large, empty white background section (likely from a vertical crop without padding or canvas), affecting aesthetic quality"
+          ]
+        }
+      ]
+    },
+    "reason_codes": [
+      "Identity confirmed by filename and visual context (Amber Palace floating garden)",
+      "Photos are authentic and lack watermarks",
+      "Image contains a large, empty white background section (likely from a vertical crop without padding or canvas), affecting aesthetic quality"
+    ],
+    "final_confidence": 0.95
+  },
+  "usage": {
+    "AI_MODE": "FREE_ONLY",
+    "enabled": true,
+    "stats": {
+      "calls": 1,
+      "images": 1,
+      "vision_calls": 1,
+      "escalations": 0,
+      "cache_hits": 0,
+      "cache_misses": 1,
+      "success": 1,
+      "rate_limit": 0,
+      "timeout": 0,
+      "fallback": 0,
+      "paid_feature_calls": 0,
+      "groq_calls": 1,
+      "media_audit_calls": 1
+    },
+    "events": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "OK",
+        "input_hash": "dd049ac1ba5d7a3ec7b7c34e8a6f0df0b755c89020a5e7baa2d8884721e2d881"
+      }
+    ],
+    "paid_providers": "DISABLED",
+    "paid_providers_invoked": 0,
+    "paid_feature_calls": 0
+  }
+}

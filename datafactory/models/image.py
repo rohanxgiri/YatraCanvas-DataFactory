@@ -3,6 +3,10 @@ from pydantic import BaseModel, Field
 
 
 class ImageMetadata(BaseModel):
+    image_type: str = "real"
+    fallback_category: Optional[str] = None
+    fallback_asset_id: Optional[str] = None
+    content_sha256: Optional[str] = None
     source: str = "Wikimedia Commons"
     source_page: Optional[str] = None
     original_file: str

@@ -1,6 +1,8 @@
 import datetime
 import io
 import re
+import hashlib
+import json
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
 import httpx
@@ -14,9 +16,9 @@ from ..utils.text import clean_string, normalize_name
 
 
 class WikimediaCommonsClient:
-    def __init__(self):
+    def __init__(self, *, read_only=False):
         self.settings = get_settings()
-        self.cache = DiskCache("wikimedia_meta")
+        self.cache = DiskCache("wikimedia_meta", create=not read_only)
         self.sources_cfg = self.settings.sources_config.get("sources", {}).get("wikimedia_commons", {})
         self.media_cfg = self.settings.sources_config.get("media", {})
         self.api_url = self.sources_cfg.get("api_url", "https://commons.wikimedia.org/w/api.php")
@@ -93,13 +95,8 @@ class WikimediaCommonsClient:
         """Check if license is open/free for redistribution."""
         if not license_name:
             return False
-        clean = license_name.strip().upper()
-        # Common free open licenses
-        if any(allowed.upper() in clean for allowed in self.allowed_licenses):
-            return True
-        if "CC BY" in clean or "CC-BY" in clean or "PUBLIC DOMAIN" in clean or "CC0" in clean:
-            return True
-        return False
+        from ..pipeline.media_assurance import license_allowed
+        return license_allowed(license_name)
 
     def get_wikipedia_lead_image(self, wiki_title_or_url: str) -> Optional[str]:
         """Fetch lead image filename from Wikipedia article using pageprops/pageimages."""
@@ -146,6 +143,10 @@ class WikimediaCommonsClient:
     def search_category_images(self, category_name: str, limit: int = 3) -> List[str]:
         """Search for images inside a Wikimedia Commons category (Tier 2)."""
         clean_cat = category_name.replace("Category:", "").strip()
+        cache_key = f"category_{clean_cat}_{limit}"
+        cached = self.cache.get(cache_key)
+        if cached is not None:
+            return cached
         params = {
             "action": "query",
             "list": "categorymembers",
@@ -161,7 +162,9 @@ class WikimediaCommonsClient:
                 if resp.status_code != 200:
                     return []
                 members = resp.json().get("query", {}).get("categorymembers", [])
-                return [m["title"].replace("File:", "") for m in members if m.get("title")]
+                files = [m["title"].replace("File:", "") for m in members if m.get("title")]
+                self.cache.set(cache_key, files)
+                return files
         except Exception:
             return []
 
@@ -222,6 +225,14 @@ class WikimediaCommonsClient:
         if not url:
             return None
 
+        orig_file = file_info.get("original_file", "").lower()
+        unsuitable_patterns = [
+            "logo", "map", "locator", "plan", "flag", "coat of arms",
+            "insignia", "emblem", "seal", "symbol", "icon", "diagram"
+        ]
+        if any(re.search(r"\b" + re.escape(p) + r"\b", orig_file) for p in unsuitable_patterns):
+            return None
+
         license_name = file_info.get("license", "")
         if not self.is_license_permitted(license_name):
             file_name = str(file_info.get('original_file', '')).encode('ascii', 'replace').decode('ascii')
@@ -231,21 +242,35 @@ class WikimediaCommonsClient:
         place_media_dir = output_dir / place_id
         primary_path = place_media_dir / "primary.webp"
         thumb_path = place_media_dir / "thumbnail.webp"
+        marker_path = place_media_dir / "source_content.json"
+        author = file_info.get("author")
+        attribution = file_info.get("attribution")
+        if not attribution and author and author.lower() != "unknown":
+            attribution = f"{author} / {file_info.get('source', 'Wikimedia Commons')} / {license_name}"
+        if not author or author.lower() == "unknown" or not attribution or not file_info.get("source_page") or not file_info.get("license_url"):
+            return None
+        marker = {}
+        if marker_path.exists():
+            try:
+                marker = json.loads(marker_path.read_text(encoding="utf-8"))
+            except (ValueError, OSError):
+                pass
 
-        if primary_path.exists() and thumb_path.exists() and not refresh:
+        if primary_path.exists() and thumb_path.exists() and not refresh and marker.get("url") == url and marker.get("original_file") == file_info["original_file"]:
             try:
                 with Image.open(primary_path) as im:
                     orig_w, orig_h = im.size
             except Exception:
-                orig_w, orig_h = (1280, 800)
+                return None
             return ImageMetadata(
-                source="Wikimedia Commons",
+                source=file_info.get("source", "Wikimedia Commons"),
                 source_page=file_info.get("source_page"),
                 original_file=file_info["original_file"],
                 author=file_info.get("author"),
                 license=license_name,
                 license_url=file_info.get("license_url"),
-                attribution=file_info.get("attribution"),
+                attribution=attribution,
+                content_sha256=marker.get("sha256"),
                 width=orig_w,
                 height=orig_h,
                 match_method=match_method,
@@ -255,16 +280,23 @@ class WikimediaCommonsClient:
                 thumbnail_path=f"images/{place_id}/thumbnail.webp",
             )
 
-        headers = {"User-Agent": self.settings.user_agent}
-        try:
-            with httpx.Client(headers=headers, timeout=30.0) as client:
-                resp = client.get(url)
-                if resp.status_code != 200:
-                    return None
-                img_bytes = resp.content
-        except Exception as e:
-            print(f"Failed to download image {url}: {e}")
-            return None
+        img_bytes = file_info.get("_content")
+        if img_bytes is None:
+            headers = {"User-Agent": self.settings.user_agent}
+            try:
+                with httpx.Client(headers=headers, timeout=30.0) as client:
+                    with client.stream("GET", url) as resp:
+                        if resp.status_code != 200 or resp.headers.get("content-type", "").split(";")[0] not in {"image/jpeg", "image/png", "image/webp"}:
+                            return None
+                        chunks, size = [], 0
+                        for chunk in resp.iter_bytes():
+                            size += len(chunk)
+                            if size > 20_000_000:
+                                return None
+                            chunks.append(chunk)
+                        img_bytes = b"".join(chunks)
+            except httpx.HTTPError:
+                return None
 
         try:
             im = Image.open(io.BytesIO(img_bytes))
@@ -279,6 +311,12 @@ class WikimediaCommonsClient:
                 im = im.convert("RGB")
 
             orig_w, orig_h = im.size
+            if orig_w < 350 or orig_h < 250:
+                return None
+            aspect_ratio = orig_w / orig_h
+            if aspect_ratio > 3.0 or aspect_ratio < 0.35:
+                return None
+
             place_media_dir = output_dir / place_id
             place_media_dir.mkdir(parents=True, exist_ok=True)
 
@@ -292,7 +330,9 @@ class WikimediaCommonsClient:
                 primary_im = im
 
             primary_path = place_media_dir / "primary.webp"
-            primary_im.save(primary_path, "WEBP", quality=self.media_cfg.get("webp_quality", 85))
+            primary_temp = primary_path.with_suffix(".tmp")
+            primary_im.save(primary_temp, "WEBP", quality=self.media_cfg.get("webp_quality", 85))
+            primary_temp.replace(primary_path)
 
             # Thumbnail webp (max width 400)
             max_w_thumb = self.media_cfg.get("thumbnail_max_width", 400)
@@ -304,20 +344,26 @@ class WikimediaCommonsClient:
                 thumb_im = im
 
             thumb_path = place_media_dir / "thumbnail.webp"
-            thumb_im.save(thumb_path, "WEBP", quality=80)
+            thumb_temp = thumb_path.with_suffix(".tmp")
+            thumb_im.save(thumb_temp, "WEBP", quality=80)
+            thumb_temp.replace(thumb_path)
+            from ..utils.atomic import atomic_json
+            sha = hashlib.sha256(img_bytes).hexdigest()
+            atomic_json(marker_path, {"url": url, "original_file": file_info["original_file"], "sha256": sha})
 
             # Relative paths for SQLite and release manifest
             rel_primary = f"images/{place_id}/primary.webp"
             rel_thumb = f"images/{place_id}/thumbnail.webp"
 
             return ImageMetadata(
-                source="Wikimedia Commons",
+                source=file_info.get("source", "Wikimedia Commons"),
                 source_page=file_info.get("source_page"),
                 original_file=file_info["original_file"],
                 author=file_info.get("author"),
                 license=license_name,
                 license_url=file_info.get("license_url"),
-                attribution=file_info.get("attribution"),
+                attribution=attribution,
+                content_sha256=sha,
                 width=orig_w,
                 height=orig_h,
                 match_method=match_method,

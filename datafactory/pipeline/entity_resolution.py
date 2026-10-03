@@ -1,5 +1,6 @@
 import json
 import re
+import hashlib
 from pathlib import Path
 from typing import Dict, Any, List, Tuple, Set, Optional
 from collections import defaultdict
@@ -8,6 +9,28 @@ from ..config.settings import get_settings
 from ..utils.geo import haversine_distance_meters, is_point_in_bbox
 from ..utils.text import normalize_name, fuzzy_name_similarity, clean_string
 from ..utils.hashing import generate_canonical_place_id
+
+
+def disambiguate_canonical_ids(entities):
+    """Assign stable member IDs only to colliding newly generated candidates."""
+    groups = defaultdict(list)
+    for entity in entities:
+        groups[entity["canonical_id"]].append(entity)
+    for base, group in groups.items():
+        if len(group) < 2:
+            continue
+        generated = set()
+        for entity in group:
+            identifiers = {source: sorted(set(values)) if isinstance(values, list) else values
+                           for source, values in entity.get("external_ids", {}).items()}
+            identity = json.dumps({"ids": identifiers, "coordinates": [entity.get("latitude"), entity.get("longitude")],
+                                   "category": entity.get("category")}, sort_keys=True)
+            identifier = base + "_" + hashlib.sha256(identity.encode()).hexdigest()[:12]
+            if identifier in generated:
+                raise ValueError("Indistinguishable canonical collision requires upstream deduplication")
+            generated.add(identifier)
+            entity.update(canonical_id=identifier, canonical_id_disambiguated_from=base)
+    return entities
 
 
 class CanonicalPlaceGraph:
@@ -162,6 +185,9 @@ class CanonicalPlaceGraph:
             canonical = self._build_canonical_record(base)
             canonical_entities.append(canonical)
 
+        # Disambiguate distinct entities sharing a name; preserve historical unique IDs.
+        disambiguate_canonical_ids(canonical_entities)
+
         # Write staging entity merges
         merges_output_path.parent.mkdir(parents=True, exist_ok=True)
         with open(merges_output_path, "w", encoding="utf-8") as f:
@@ -169,9 +195,10 @@ class CanonicalPlaceGraph:
                 f.write(json.dumps(m, ensure_ascii=False) + "\n")
 
         # Write reports/entity_conflicts.jsonl
-        conflicts_file = settings.reports_dir / "entity_conflicts.jsonl"
+        from ..utils.hashing import slugify
+        conflicts_file = settings.reports_dir / slugify(self.country_name) / slugify(self.state_name) / slugify(self.city_name) / "entity_conflicts.jsonl"
         conflicts_file.parent.mkdir(parents=True, exist_ok=True)
-        with open(conflicts_file, "a", encoding="utf-8") as f:
+        with open(conflicts_file, "w", encoding="utf-8") as f:
             for c in self.conflicts_log:
                 f.write(json.dumps(c, ensure_ascii=False) + "\n")
 
@@ -198,23 +225,35 @@ class CanonicalPlaceGraph:
         base_site = base.get("website")
         cand_site = cand.get("website")
 
-        # Calculate max name similarity across names and known aliases
-        names_base = [base_name] + base.get("alternate_names", [])
-        names_cand = [cand_name] + cand.get("alternate_names", [])
-
-        max_sim = 0.0
-        for nb in names_base:
-            for nc in names_cand:
-                sim = fuzzy_name_similarity(nb, nc)
-                if sim > max_sim:
-                    max_sim = sim
-
+        # Fast distance check first: if places are > 300m apart and don't share QID or website, cannot be duplicate
         dist = None
+        has_shared_id = (base_qid and cand_qid and base_qid == cand_qid) or (base_site and cand_site and base_site == cand_site)
         if base_lat is not None and base_lon is not None and cand_lat is not None and cand_lon is not None:
             dist = haversine_distance_meters(base_lat, base_lon, cand_lat, cand_lon)
+            if dist > 300 and not has_shared_id:
+                return False, None, 0.0, None
+
+        # Calculate name similarity (primary names first, then aliases only if needed)
+        max_sim = fuzzy_name_similarity(base_name, cand_name)
+        if max_sim < 0.85:
+            names_base = [base_name] + base.get("alternate_names", [])
+            names_cand = [cand_name] + cand.get("alternate_names", [])
+            for nb in names_base:
+                for nc in names_cand:
+                    sim = fuzzy_name_similarity(nb, nc)
+                    if sim > max_sim:
+                        max_sim = sim
+
+        if base_qid and cand_qid and base_qid != cand_qid:
+            return False, None, 0.0, None
+        if base_qid and base_qid == cand_qid and dist is not None and dist > 300:
+            self.coordinate_conflicts_count += 1
+            return False, None, 0.0, {"reason_for_conflict": "shared_qid_coordinate_conflict",
+                "names": [base_name, cand_name], "coordinates": [[base_lat, base_lon], [cand_lat, cand_lon]],
+                "distance_m": dist, "external_ids": {"wikidata_id": base_qid}}
 
         # -------------------------------------------------------------
-        # 1. External ID Conflict Check (e.g. Sankat Mochan vs Durga Mandir)
+        # 1. External ID Conflict Check
         # -------------------------------------------------------------
         if base_qid and cand_qid and base_qid == cand_qid:
             # If QIDs match, but name similarity is low and no distinctive token overlaps
@@ -456,15 +495,49 @@ class CanonicalPlaceGraph:
 
         # Merge source provenance
         prov = base.setdefault("sources_provenance", [])
+        base_src = base.get("source")
+        base_src_id = base.get("source_id") or base.get("id")
+        if not prov and base_src:
+            prov.append({
+                "source": base_src,
+                "source_id": base_src_id,
+                "retrieved_at": base.get("retrieved_at"),
+            })
+        existing_keys = {(s.get("source"), s.get("source_id")) for s in prov}
         cand_prov = cand.get("sources_provenance")
         if cand_prov:
-            prov.extend(cand_prov)
+            for cp in cand_prov:
+                k = (cp.get("source"), cp.get("source_id"))
+                if k not in existing_keys:
+                    prov.append(cp)
+                    existing_keys.add(k)
         else:
-            prov.append({
-                "source": cand_source,
-                "source_id": cand_src_id,
-                "retrieved_at": cand.get("retrieved_at"),
-            })
+            k = (cand_source, cand_src_id)
+            if k not in existing_keys:
+                prov.append({
+                    "source": cand_source,
+                    "source_id": cand_src_id,
+                    "retrieved_at": cand.get("retrieved_at"),
+                })
+                existing_keys.add(k)
+
+        # Merge relevance stage (upgrade if candidate has strong travel evidence)
+        cand_stage = cand.get("relevance_stage1")
+        if cand_stage == "TRAVEL_CANDIDATE":
+            base["relevance_stage1"] = "TRAVEL_CANDIDATE"
+            base["relevance_reason1"] = cand.get("relevance_reason1", "MERGED_TRAVEL_EVIDENCE")
+        elif cand_stage == "SECONDARY_TRAVEL_CANDIDATE" and base.get("relevance_stage1") != "TRAVEL_CANDIDATE":
+            base["relevance_stage1"] = "SECONDARY_TRAVEL_CANDIDATE"
+
+        # Merge OSM tags if present
+        if cand.get("osm_tags"):
+            base_osm = base.setdefault("osm_tags", {})
+            for k, v in cand["osm_tags"].items():
+                base_osm.setdefault(k, v)
+        elif isinstance(cand.get("tags"), dict):
+            base_osm = base.setdefault("osm_tags", {})
+            for k, v in cand["tags"].items():
+                base_osm.setdefault(k, v)
 
     def _build_canonical_record(self, raw: Dict[str, Any]) -> Dict[str, Any]:
         name = clean_string(raw.get("name", ""))
@@ -502,7 +575,7 @@ class CanonicalPlaceGraph:
             "alternate_name_records": raw.get("alternate_name_records", []),
             "latitude": raw.get("latitude"),
             "longitude": raw.get("longitude"),
-            "category": raw.get("category", "experience"),
+            "category": raw.get("category", "unknown"),
             "subcategory": raw.get("subcategory"),
             "category_votes": raw.get("category_votes", []),
             "tier": tier,
@@ -518,10 +591,13 @@ class CanonicalPlaceGraph:
             "commons_image": raw.get("commons_image"),
             "commons_category": raw.get("commons_category"),
             "tags": raw.get("tags", []),
+            "osm_tags": raw.get("osm_tags") or (raw.get("tags") if isinstance(raw.get("tags"), dict) else {}),
             "prose": raw.get("prose"),
             "external_ids": ext,
             "sources_provenance": prov,
             "confidence": raw.get("confidence", 0.70),
+            "relevance_stage1": raw.get("relevance_stage1", "REVIEW_CANDIDATE"),
+            "relevance_reason1": raw.get("relevance_reason1", "UNCLASSIFIED_REQUIRES_RESOLUTION"),
         }
 
     def _classify_place_tier(self, p: Dict[str, Any]) -> str:

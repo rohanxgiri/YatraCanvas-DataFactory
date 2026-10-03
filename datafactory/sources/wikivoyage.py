@@ -53,7 +53,8 @@ class WikivoyageSource:
         self,
         city_name: str,
         city_bbox: Optional[Tuple[float, float, float, float]] = None,
-        alternate_names: Optional[List[str]] = None
+        alternate_names: Optional[List[str]] = None,
+        city_context: Optional[Dict[str, Any]] = None,
     ) -> List[Dict[str, Any]]:
         """
         Fetch or load cached Wikivoyage listings for a city.
@@ -66,7 +67,7 @@ class WikivoyageSource:
             print(f"[Wikivoyage] Loading cached listings from {cached_file}")
             with open(cached_file, "r", encoding="utf-8") as f:
                 records = json.load(f)
-            return self._filter_by_bbox(records, city_bbox)
+            return self._filter_by_bbox(records, city_bbox, city_context)
 
         # Resolve article title using generic candidates (canonical, ASCII-folded, alternate names)
         title_res = self.resolve_article_title(city_name, alternate_names)
@@ -89,7 +90,7 @@ class WikivoyageSource:
             f.write(wikitext)
 
         print(f"[Wikivoyage] Extracted and cached {len(listings)} structured listings for {city_name} (article: '{resolved_title}')")
-        return self._filter_by_bbox(listings, city_bbox)
+        return self._filter_by_bbox(listings, city_bbox, city_context)
 
     def resolve_article_title(
         self,
@@ -296,7 +297,8 @@ class WikivoyageSource:
     def _filter_by_bbox(
         self,
         listings: List[Dict[str, Any]],
-        bbox: Optional[Tuple[float, float, float, float]]
+        bbox: Optional[Tuple[float, float, float, float]],
+        city_context: Optional[Dict[str, Any]] = None,
     ) -> List[Dict[str, Any]]:
         if not bbox:
             return listings
@@ -306,6 +308,16 @@ class WikivoyageSource:
         margin = 0.05
         filtered = []
         for l in listings:
+            if city_context:
+                from ..pipeline.geographic_assurance import geography
+                associated = dict(l)
+                associated["region_associations"] = [{"source": "wikivoyage", "source_id": l.get("source_id"),
+                    "city_id": city_context["id"], "relationship": "destination_listing",
+                    "source_url": l.get("prose", {}).get("source_article")}]
+                geo = geography(associated, city_context)
+                if geo["status"] == "VALID":
+                    filtered.append(associated)
+                    continue
             lat = l.get("latitude")
             lon = l.get("longitude")
             if lat is not None and lon is not None:

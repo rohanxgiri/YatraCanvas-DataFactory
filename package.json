@@ -1,0 +1,6 @@
+{
+  "name": "yatracanvas-local-hours",
+  "private": true,
+  "description": "Optional local opening_hours.js validator; Python backend requires no Node setup",
+  "dependencies": {"opening_hours": "3.14.0"}
+}

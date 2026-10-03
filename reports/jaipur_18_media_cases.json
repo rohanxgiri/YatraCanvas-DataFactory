@@ -1,0 +1,477 @@
+[
+  {
+    "place_id": "yc_in_rj_jaipur_ajmeri_gate",
+    "name": "Ajmeri Gate",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "NO_VERIFIED_CANDIDATE_IN_BOUNDED_PASS"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+    "name": "Alice Garg Seashell Museum",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "NO_VERIFIED_CANDIDATE_IN_BOUNDED_PASS"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_amer_palace",
+    "name": null,
+    "policy": null,
+    "status": "ID_ABSENT_REVIEW",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "ID_NOT_PRESENT_IN_CURRENT_DATAFACTORY_OR_CITY_LAB_SQLITE"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_chulgiri_digamber_jain_temple",
+    "name": "Chulgiri Digamber Jain Temple",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "NO_VERIFIED_CANDIDATE_IN_BOUNDED_PASS"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_diwan_i_khas",
+    "name": null,
+    "policy": null,
+    "status": "ID_ABSENT_REVIEW",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "ID_NOT_PRESENT_IN_CURRENT_DATAFACTORY_OR_CITY_LAB_SQLITE"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_elejungle_jaipur_elephant_ride",
+    "name": "EleJungle- Jaipur Elephant Ride",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "NO_VERIFIED_CANDIDATE_IN_BOUNDED_PASS"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_ganesh_pol",
+    "name": "Ganesh Pol",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 3,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+    ],
+    "ai_decisions": [],
+    "source_candidates": [
+      {
+        "source": "Openverse/flickr",
+        "source_url": "https://www.flickr.com/photos/58435577@N00/354971030",
+        "media_url": "https://live.staticflickr.com/133/354971030_3a3f6c4b80_b.jpg",
+        "title": "Ganesh Pol",
+        "creator": "diametrik",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "\"Ganesh Pol\" by diametrik is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+        "width": 1024,
+        "height": 683,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.65,
+        "match_method": "openverse_contextual_search",
+        "original_license_verified": false
+      },
+      {
+        "source": "Openverse/flickr",
+        "source_url": "https://www.flickr.com/photos/64924693@N00/6866985274",
+        "media_url": "https://live.staticflickr.com/7046/6866985274_a9a6191a98_b.jpg",
+        "title": "Ganesh Pol",
+        "creator": "Nagarjun",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "\"Ganesh Pol\" by Nagarjun is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+        "width": 1024,
+        "height": 640,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.65,
+        "match_method": "openverse_contextual_search",
+        "original_license_verified": false
+      },
+      {
+        "source": "Openverse/flickr",
+        "source_url": "https://www.flickr.com/photos/16069488@N00/4610528168",
+        "media_url": "https://live.staticflickr.com/4057/4610528168_4515e2f067_b.jpg",
+        "title": "Ganesh Gate - Amber Fort - Jaipur",
+        "creator": "string_bass_dave",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution": "\"Ganesh Gate - Amber Fort - Jaipur\" by string_bass_dave is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+        "width": 681,
+        "height": 1024,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.65,
+        "match_method": "openverse_contextual_search",
+        "original_license_verified": false
+      }
+    ]
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_handicraft_haveli",
+    "name": null,
+    "policy": null,
+    "status": "ID_ABSENT_REVIEW",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "ID_NOT_PRESENT_IN_CURRENT_DATAFACTORY_OR_CITY_LAB_SQLITE"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat",
+    "name": "Iswari Minar Swarga Sali (Isarlat)",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "NO_VERIFIED_CANDIDATE_IN_BOUNDED_PASS"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jaipur_palace",
+    "name": "Jaipur Palace",
+    "policy": "REAL_PREFERRED",
+    "status": "DOWNSTREAM_POLICY_MISMATCH_REVIEW",
+    "candidate_count": 0,
+    "final_media": {
+      "image_type": "fallback",
+      "fallback_category": "palace",
+      "fallback_asset_id": "contextual-palace-00",
+      "content_sha256": "01be75608a89f3e2b5a3707b5ff0ac745b0ac5cc8c5db0581f5cf18b014b4df5",
+      "source": "YatraCanvas contextual artwork",
+      "source_page": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "original_file": "palace/00.webp",
+      "author": "YatraCanvas contributors",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "YatraCanvas contextual illustration; generic artwork, not a photograph of this place",
+      "width": 960,
+      "height": 600,
+      "match_method": "category_fallback",
+      "match_confidence": 0.0,
+      "downloaded_at": "2026-10-03T07:31:13.680849+00:00",
+      "local_path": "images/yc_in_rj_jaipur_jaipur_palace/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_jaipur_palace/thumbnail.webp"
+    },
+    "real_photo_verified": false,
+    "reason_codes": [
+      "FALLBACK_DOES_NOT_RESOLVE_DOWNSTREAM_REAL_PHOTO_REQUEST"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jhalanaamagarh_leopard_conservation_reserve",
+    "name": "Jhalana–Amagarh Leopard Conservation Reserve",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "NO_VERIFIED_CANDIDATE_IN_BOUNDED_PASS"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_lakkar_haveli",
+    "name": "Lakkar Haveli",
+    "policy": "FALLBACK_ALLOWED",
+    "status": "DOWNSTREAM_POLICY_MISMATCH_REVIEW",
+    "candidate_count": 0,
+    "final_media": {
+      "image_type": "fallback",
+      "fallback_category": "palace",
+      "fallback_asset_id": "contextual-palace-03",
+      "content_sha256": "f5c8f494cae9515b3ddbabef1a4ae61ac5833734dad479aed12eace694ae54aa",
+      "source": "YatraCanvas contextual artwork",
+      "source_page": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "original_file": "palace/03.webp",
+      "author": "YatraCanvas contributors",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "YatraCanvas contextual illustration; generic artwork, not a photograph of this place",
+      "width": 960,
+      "height": 600,
+      "match_method": "category_fallback",
+      "match_confidence": 0.0,
+      "downloaded_at": "2026-10-03T07:31:21.336472+00:00",
+      "local_path": "images/yc_in_rj_jaipur_lakkar_haveli/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_lakkar_haveli/thumbnail.webp"
+    },
+    "real_photo_verified": false,
+    "reason_codes": [
+      "FALLBACK_DOES_NOT_RESOLVE_DOWNSTREAM_REAL_PHOTO_REQUEST"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_lohaghar_fort",
+    "name": "LohaGhar Fort",
+    "policy": "FALLBACK_ALLOWED",
+    "status": "DOWNSTREAM_POLICY_MISMATCH_REVIEW",
+    "candidate_count": 0,
+    "final_media": {
+      "image_type": "fallback",
+      "fallback_category": "fort",
+      "fallback_asset_id": "contextual-fort-06",
+      "content_sha256": "c31161717c11dd94c1c697a1470436f63a32280c801ac709be7e86b1b1c3117e",
+      "source": "YatraCanvas contextual artwork",
+      "source_page": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "original_file": "fort/06.webp",
+      "author": "YatraCanvas contributors",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "YatraCanvas contextual illustration; generic artwork, not a photograph of this place",
+      "width": 960,
+      "height": 600,
+      "match_method": "category_fallback",
+      "match_confidence": 0.0,
+      "downloaded_at": "2026-10-03T07:31:20.226625+00:00",
+      "local_path": "images/yc_in_rj_jaipur_lohaghar_fort/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_lohaghar_fort/thumbnail.webp"
+    },
+    "real_photo_verified": false,
+    "reason_codes": [
+      "FALLBACK_DOES_NOT_RESOLVE_DOWNSTREAM_REAL_PHOTO_REQUEST"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_nahargarh_wildlife_sanctuary",
+    "name": "Nahargarh Wildlife Sanctuary",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "NO_VERIFIED_CANDIDATE_IN_BOUNDED_PASS"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_nakati_mata_temple",
+    "name": "Nakati Mata Temple",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "NO_VERIFIED_CANDIDATE_IN_BOUNDED_PASS"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_sawai_mansingh_townhall",
+    "name": "Sawai Mansingh Townhall",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 0,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "NO_VERIFIED_CANDIDATE_IN_BOUNDED_PASS"
+    ],
+    "ai_decisions": [],
+    "source_candidates": []
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+    "name": "Suraj Pol Gate",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 3,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "DUPLICATE_IMAGE",
+      "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+    ],
+    "ai_decisions": [],
+    "source_candidates": [
+      {
+        "source": "Openverse/wikimedia",
+        "source_url": "https://commons.wikimedia.org/w/index.php?curid=99526329",
+        "media_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Amer_%2825182306644%29.jpg",
+        "title": "Amer (25182306644)",
+        "creator": "lensnmatter",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "\"Amer (25182306644)\" by lensnmatter is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+        "width": 6600,
+        "height": 3819,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.65,
+        "match_method": "openverse_contextual_search",
+        "original_license_verified": false
+      },
+      {
+        "source": "Openverse/flickr",
+        "source_url": "https://www.flickr.com/photos/21013862@N08/2278187822",
+        "media_url": "https://live.staticflickr.com/2096/2278187822_d3673aec56_b.jpg",
+        "title": "Suraj-Pol, Amber Fort",
+        "creator": "twiga_swala",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution": "\"Suraj-Pol, Amber Fort\" by twiga_swala is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+        "width": 1024,
+        "height": 768,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.65,
+        "match_method": "openverse_contextual_search",
+        "original_license_verified": false
+      },
+      {
+        "source": "Openverse/flickr",
+        "source_url": "https://www.flickr.com/photos/43519045@N07/25182306644",
+        "media_url": "https://live.staticflickr.com/1712/25182306644_a0897b70d9_b.jpg",
+        "title": "amer",
+        "creator": "lensnmatter",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "\"amer\" by lensnmatter is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+        "width": 1024,
+        "height": 593,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.65,
+        "match_method": "openverse_contextual_search",
+        "original_license_verified": false
+      }
+    ]
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_vidyadhar_garden",
+    "name": "Vidyadhar Garden",
+    "policy": "REAL_REQUIRED",
+    "status": "UNRESOLVED_REQUIRED_PHOTO",
+    "candidate_count": 3,
+    "final_media": null,
+    "real_photo_verified": false,
+    "reason_codes": [
+      "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+    ],
+    "ai_decisions": [],
+    "source_candidates": [
+      {
+        "source": "Openverse/flickr",
+        "source_url": "https://www.flickr.com/photos/148369523@N05/32980881650",
+        "media_url": "https://live.staticflickr.com/3702/32980881650_a011a366da_b.jpg",
+        "title": "Vidyadhar Bagh",
+        "creator": "Don't just travel explore",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution": "\"Vidyadhar Bagh\" by Don't just travel explore is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+        "width": 1024,
+        "height": 683,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.65,
+        "match_method": "openverse_contextual_search",
+        "original_license_verified": false
+      },
+      {
+        "source": "Openverse/flickr",
+        "source_url": "https://www.flickr.com/photos/148369523@N05/33363412275",
+        "media_url": "https://live.staticflickr.com/685/33363412275_780f6cfff6_b.jpg",
+        "title": "Vidyadhar Bagh",
+        "creator": "Don't just travel explore",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution": "\"Vidyadhar Bagh\" by Don't just travel explore is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+        "width": 1024,
+        "height": 683,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.65,
+        "match_method": "openverse_contextual_search",
+        "original_license_verified": false
+      },
+      {
+        "source": "Openverse/flickr",
+        "source_url": "https://www.flickr.com/photos/8721758@N06/4499845296",
+        "media_url": "https://live.staticflickr.com/4018/4499845296_8df0da9447_b.jpg",
+        "title": "Jaipur, the Pink City",
+        "creator": "Jorge Lascar",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "\"Jaipur, the Pink City\" by Jorge Lascar is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+        "width": 1024,
+        "height": 768,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.65,
+        "match_method": "openverse_contextual_search",
+        "original_license_verified": false
+      }
+    ]
+  }
+]

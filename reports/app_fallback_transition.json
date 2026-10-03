@@ -1,0 +1,62 @@
+{
+  "fallback_strategy": "app",
+  "ai_calls": 0,
+  "source_network_calls": 0,
+  "app_files_modified": 0,
+  "city_lab_files_modified": 0,
+  "cities": [
+    {
+      "city": "Manali",
+      "source_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-offline-validated",
+      "output_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\himachal_pradesh\\manali\\v3-app-fallbacks",
+      "factory_artwork_removed": 1688,
+      "missing_primary_for_app_fallback": 1690,
+      "strict_pack_usability": 0.06,
+      "required_photos_unresolved": 13,
+      "DRAFT_OFFLINE_READY": true,
+      "SOURCE_DATA_READY": false,
+      "structural_validation": "PASS",
+      "ai_calls": 0
+    },
+    {
+      "city": "Jaipur",
+      "source_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-offline-validated",
+      "output_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-app-fallbacks",
+      "factory_artwork_removed": 626,
+      "missing_primary_for_app_fallback": 644,
+      "strict_pack_usability": 1.17,
+      "required_photos_unresolved": 50,
+      "DRAFT_OFFLINE_READY": true,
+      "SOURCE_DATA_READY": false,
+      "structural_validation": "PASS",
+      "ai_calls": 0
+    },
+    {
+      "city": "Udaipur",
+      "source_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\udaipur\\v3-offline-validated",
+      "output_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\udaipur\\v3-app-fallbacks",
+      "factory_artwork_removed": 267,
+      "missing_primary_for_app_fallback": 290,
+      "strict_pack_usability": 0.93,
+      "required_photos_unresolved": 54,
+      "DRAFT_OFFLINE_READY": true,
+      "SOURCE_DATA_READY": false,
+      "structural_validation": "PASS",
+      "ai_calls": 0
+    },
+    {
+      "city": "Varanasi",
+      "source_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\uttar_pradesh\\varanasi\\v3-offline-validated",
+      "output_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\uttar_pradesh\\varanasi\\v3-app-fallbacks",
+      "factory_artwork_removed": 226,
+      "missing_primary_for_app_fallback": 278,
+      "strict_pack_usability": 2.87,
+      "required_photos_unresolved": 112,
+      "DRAFT_OFFLINE_READY": true,
+      "SOURCE_DATA_READY": false,
+      "structural_validation": "PASS",
+      "ai_calls": 0
+    }
+  ],
+  "metrics_note": "Strict pack usability counts bundled media only. App fallback display is not verified source photography."
+}

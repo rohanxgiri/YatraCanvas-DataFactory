@@ -8,7 +8,7 @@ from datafactory.pipeline.entity_resolution import CanonicalPlaceGraph
 from datafactory.pipeline.score import run_score
 
 
-def test_geonames_bulk_resolution():
+def test_geonames_bulk_resolution(geonames_fixture):
     source = GeoNamesBulkSource()
     meta = source.resolve_city("Jaipur", "Rajasthan", "India")
     assert meta.name == "Jaipur"

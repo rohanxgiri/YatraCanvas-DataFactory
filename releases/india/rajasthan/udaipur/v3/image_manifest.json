@@ -12,7 +12,7 @@
       "height": 767,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:19.049005+00:00",
+      "downloaded_at": "2026-10-01T09:35:23.468286+00:00",
       "local_path": "images/yc_in_rj_udaipur_udaipur/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_udaipur/thumbnail.webp"
     },
@@ -29,7 +29,7 @@
         "height": 695,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:20.053771+00:00",
+        "downloaded_at": "2026-10-01T09:35:24.236165+00:00",
         "local_path": "images/yc_in_rj_udaipur_udaipur_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_udaipur_g1/thumbnail.webp"
       },
@@ -45,7 +45,7 @@
         "height": 692,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:20.062626+00:00",
+        "downloaded_at": "2026-10-01T09:35:24.243764+00:00",
         "local_path": "images/yc_in_rj_udaipur_udaipur_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_udaipur_g2/thumbnail.webp"
       }
@@ -64,7 +64,7 @@
       "height": 854,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:20.069975+00:00",
+      "downloaded_at": "2026-10-01T09:35:24.252184+00:00",
       "local_path": "images/yc_in_rj_udaipur_lake_palace/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_lake_palace/thumbnail.webp"
     },
@@ -81,7 +81,7 @@
         "height": 854,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:20.727735+00:00",
+        "downloaded_at": "2026-10-01T09:35:24.908072+00:00",
         "local_path": "images/yc_in_rj_udaipur_lake_palace_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_lake_palace_g1/thumbnail.webp"
       },
@@ -97,30 +97,11 @@
         "height": 853,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:20.735912+00:00",
+        "downloaded_at": "2026-10-01T09:35:24.915292+00:00",
         "local_path": "images/yc_in_rj_udaipur_lake_palace_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_lake_palace_g2/thumbnail.webp"
       }
     ]
-  },
-  "yc_in_rj_udaipur_roman_catholic_diocese_of_udaipur": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Map_of_Roman_Catholic_Diocese_of_Udaipur.png",
-      "original_file": "Map of Roman Catholic Diocese of Udaipur.png",
-      "author": "Croberto68",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": null,
-      "width": 1051,
-      "height": 880,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:20.742886+00:00",
-      "local_path": "images/yc_in_rj_udaipur_roman_catholic_diocese_of_udaipur/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_roman_catholic_diocese_of_udaipur/thumbnail.webp"
-    },
-    "gallery": []
   },
   "yc_in_rj_udaipur_bharatiya_lok_kala_mandal": {
     "primary": {
@@ -135,7 +116,7 @@
       "height": 584,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:21.524856+00:00",
+      "downloaded_at": "2026-10-01T09:35:26.216791+00:00",
       "local_path": "images/yc_in_rj_udaipur_bharatiya_lok_kala_mandal/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_bharatiya_lok_kala_mandal/thumbnail.webp"
     },
@@ -152,7 +133,7 @@
         "height": 2188,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:22.295095+00:00",
+        "downloaded_at": "2026-10-01T09:35:26.847810+00:00",
         "local_path": "images/yc_in_rj_udaipur_bharatiya_lok_kala_mandal_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_bharatiya_lok_kala_mandal_g1/thumbnail.webp"
       },
@@ -168,49 +149,11 @@
         "height": 1861,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:22.304621+00:00",
+        "downloaded_at": "2026-10-01T09:35:26.856534+00:00",
         "local_path": "images/yc_in_rj_udaipur_bharatiya_lok_kala_mandal_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_bharatiya_lok_kala_mandal_g2/thumbnail.webp"
       }
     ]
-  },
-  "yc_in_rj_udaipur_college_of_technology_engineering_udaipur": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:College_of_Technology_&_Engineering,_Udaipur.png",
-      "original_file": "College of Technology & Engineering, Udaipur.png",
-      "author": "UtsavRavi",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "attribution": null,
-      "width": 781,
-      "height": 694,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:22.311726+00:00",
-      "local_path": "images/yc_in_rj_udaipur_college_of_technology_engineering_udaipur/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_college_of_technology_engineering_udaipur/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_maharana_pratap_university_of_agriculture_and_technology": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Mpuat_udaipur.png",
-      "original_file": "Mpuat udaipur.png",
-      "author": "Ravi.audichya",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": null,
-      "width": 313,
-      "height": 289,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:22.320598+00:00",
-      "local_path": "images/yc_in_rj_udaipur_maharana_pratap_university_of_agriculture_and_technology/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_maharana_pratap_university_of_agriculture_and_technology/thumbnail.webp"
-    },
-    "gallery": []
   },
   "yc_in_rj_udaipur_lake_pichola": {
     "primary": {
@@ -225,7 +168,7 @@
       "height": 853,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:22.327967+00:00",
+      "downloaded_at": "2026-10-01T09:35:26.865412+00:00",
       "local_path": "images/yc_in_rj_udaipur_lake_pichola/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_lake_pichola/thumbnail.webp"
     },
@@ -242,7 +185,7 @@
         "height": 1925,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:23.024904+00:00",
+        "downloaded_at": "2026-10-01T09:35:27.500453+00:00",
         "local_path": "images/yc_in_rj_udaipur_lake_pichola_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_lake_pichola_g1/thumbnail.webp"
       },
@@ -258,7 +201,7 @@
         "height": 587,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:23.032278+00:00",
+        "downloaded_at": "2026-10-01T09:35:27.509166+00:00",
         "local_path": "images/yc_in_rj_udaipur_lake_pichola_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_lake_pichola_g2/thumbnail.webp"
       }
@@ -277,7 +220,7 @@
       "height": 496,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:23.040312+00:00",
+      "downloaded_at": "2026-10-01T09:35:27.518457+00:00",
       "local_path": "images/yc_in_rj_udaipur_city_palace_udaipur/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_city_palace_udaipur/thumbnail.webp"
     },
@@ -294,7 +237,7 @@
         "height": 712,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:23.926619+00:00",
+        "downloaded_at": "2026-10-01T09:35:28.169966+00:00",
         "local_path": "images/yc_in_rj_udaipur_city_palace_udaipur_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_city_palace_udaipur_g1/thumbnail.webp"
       },
@@ -310,7 +253,7 @@
         "height": 851,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:23.935154+00:00",
+        "downloaded_at": "2026-10-01T09:35:28.179374+00:00",
         "local_path": "images/yc_in_rj_udaipur_city_palace_udaipur_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_city_palace_udaipur_g2/thumbnail.webp"
       }
@@ -329,7 +272,7 @@
       "height": 853,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:23.941862+00:00",
+      "downloaded_at": "2026-10-01T09:35:28.188015+00:00",
       "local_path": "images/yc_in_rj_udaipur_jag_mandir/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_jag_mandir/thumbnail.webp"
     },
@@ -346,7 +289,7 @@
         "height": 2270,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:24.564675+00:00",
+        "downloaded_at": "2026-10-01T09:35:28.814994+00:00",
         "local_path": "images/yc_in_rj_udaipur_jag_mandir_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_jag_mandir_g1/thumbnail.webp"
       },
@@ -362,7 +305,7 @@
         "height": 960,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:24.571622+00:00",
+        "downloaded_at": "2026-10-01T09:35:28.821924+00:00",
         "local_path": "images/yc_in_rj_udaipur_jag_mandir_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_jag_mandir_g2/thumbnail.webp"
       }
@@ -381,7 +324,7 @@
       "height": 639,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:24.579299+00:00",
+      "downloaded_at": "2026-10-01T09:35:28.831182+00:00",
       "local_path": "images/yc_in_rj_udaipur_bagore_ki_haveli/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_bagore_ki_haveli/thumbnail.webp"
     },
@@ -398,7 +341,7 @@
         "height": 851,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:25.224403+00:00",
+        "downloaded_at": "2026-10-01T09:35:29.408186+00:00",
         "local_path": "images/yc_in_rj_udaipur_bagore_ki_haveli_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_bagore_ki_haveli_g1/thumbnail.webp"
       },
@@ -414,7 +357,7 @@
         "height": 851,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:25.231911+00:00",
+        "downloaded_at": "2026-10-01T09:35:29.416076+00:00",
         "local_path": "images/yc_in_rj_udaipur_bagore_ki_haveli_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_bagore_ki_haveli_g2/thumbnail.webp"
       }
@@ -433,7 +376,7 @@
       "height": 834,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:25.240450+00:00",
+      "downloaded_at": "2026-10-01T09:35:29.416896+00:00",
       "local_path": "images/yc_in_rj_udaipur_jagdish_temple_udaipur/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_jagdish_temple_udaipur/thumbnail.webp"
     },
@@ -450,7 +393,7 @@
         "height": 851,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:25.902021+00:00",
+        "downloaded_at": "2026-10-01T09:35:30.111196+00:00",
         "local_path": "images/yc_in_rj_udaipur_jagdish_temple_udaipur_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_jagdish_temple_udaipur_g1/thumbnail.webp"
       },
@@ -466,7 +409,7 @@
         "height": 1925,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:25.910575+00:00",
+        "downloaded_at": "2026-10-01T09:35:30.119143+00:00",
         "local_path": "images/yc_in_rj_udaipur_jagdish_temple_udaipur_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_jagdish_temple_udaipur_g2/thumbnail.webp"
       }
@@ -485,7 +428,7 @@
       "height": 837,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:25.918006+00:00",
+      "downloaded_at": "2026-10-01T09:35:30.128006+00:00",
       "local_path": "images/yc_in_rj_udaipur_shiv_niwas_palace/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_shiv_niwas_palace/thumbnail.webp"
     },
@@ -502,7 +445,7 @@
         "height": 810,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:26.536723+00:00",
+        "downloaded_at": "2026-10-01T09:35:30.878495+00:00",
         "local_path": "images/yc_in_rj_udaipur_shiv_niwas_palace_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_shiv_niwas_palace_g1/thumbnail.webp"
       },
@@ -518,7 +461,7 @@
         "height": 853,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:26.544291+00:00",
+        "downloaded_at": "2026-10-01T09:35:30.887373+00:00",
         "local_path": "images/yc_in_rj_udaipur_shiv_niwas_palace_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_shiv_niwas_palace_g2/thumbnail.webp"
       }
@@ -537,7 +480,7 @@
       "height": 960,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:26.551722+00:00",
+      "downloaded_at": "2026-10-01T09:35:30.894273+00:00",
       "local_path": "images/yc_in_rj_udaipur_chandpole/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_chandpole/thumbnail.webp"
     },
@@ -556,7 +499,7 @@
       "height": 767,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:26.559093+00:00",
+      "downloaded_at": "2026-10-01T09:35:30.901663+00:00",
       "local_path": "images/yc_in_rj_udaipur_monsoon_palace/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_monsoon_palace/thumbnail.webp"
     },
@@ -573,7 +516,7 @@
         "height": 851,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:27.292569+00:00",
+        "downloaded_at": "2026-10-01T09:35:31.557185+00:00",
         "local_path": "images/yc_in_rj_udaipur_monsoon_palace_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_monsoon_palace_g1/thumbnail.webp"
       },
@@ -589,7 +532,7 @@
         "height": 1925,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:27.300371+00:00",
+        "downloaded_at": "2026-10-01T09:35:31.564909+00:00",
         "local_path": "images/yc_in_rj_udaipur_monsoon_palace_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_monsoon_palace_g2/thumbnail.webp"
       }
@@ -608,7 +551,7 @@
       "height": 853,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:27.307763+00:00",
+      "downloaded_at": "2026-10-01T09:35:31.565523+00:00",
       "local_path": "images/yc_in_rj_udaipur_ahar_cenotaphs/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_ahar_cenotaphs/thumbnail.webp"
     },
@@ -625,7 +568,7 @@
         "height": 1706,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:28.094141+00:00",
+        "downloaded_at": "2026-10-01T09:35:32.217256+00:00",
         "local_path": "images/yc_in_rj_udaipur_ahar_cenotaphs_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_ahar_cenotaphs_g1/thumbnail.webp"
       },
@@ -641,7 +584,7 @@
         "height": 720,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:28.102795+00:00",
+        "downloaded_at": "2026-10-01T09:35:32.217879+00:00",
         "local_path": "images/yc_in_rj_udaipur_ahar_cenotaphs_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_ahar_cenotaphs_g2/thumbnail.webp"
       }
@@ -660,7 +603,7 @@
       "height": 478,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.178282+00:00",
+      "downloaded_at": "2026-10-01T09:37:04.968061+00:00",
       "local_path": "images/yc_in_rj_udaipur_fateh_sagar_lake/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_fateh_sagar_lake/thumbnail.webp"
     },
@@ -679,7 +622,7 @@
       "height": 2275,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:28.910897+00:00",
+      "downloaded_at": "2026-10-01T09:35:32.833946+00:00",
       "local_path": "images/yc_in_rj_udaipur_gulab_bagh_and_zoo/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_gulab_bagh_and_zoo/thumbnail.webp"
     },
@@ -696,7 +639,7 @@
         "height": 2261,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:29.588269+00:00",
+        "downloaded_at": "2026-10-01T09:35:33.450356+00:00",
         "local_path": "images/yc_in_rj_udaipur_gulab_bagh_and_zoo_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_gulab_bagh_and_zoo_g1/thumbnail.webp"
       },
@@ -712,7 +655,7 @@
         "height": 720,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:29.596736+00:00",
+        "downloaded_at": "2026-10-01T09:35:33.458757+00:00",
         "local_path": "images/yc_in_rj_udaipur_gulab_bagh_and_zoo_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_gulab_bagh_and_zoo_g2/thumbnail.webp"
       }
@@ -731,7 +674,7 @@
       "height": 716,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:29.605314+00:00",
+      "downloaded_at": "2026-10-01T09:35:33.466482+00:00",
       "local_path": "images/yc_in_rj_udaipur_saheliyon_ki_bari/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_saheliyon_ki_bari/thumbnail.webp"
     },
@@ -748,7 +691,7 @@
         "height": 652,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:30.332434+00:00",
+        "downloaded_at": "2026-10-01T09:35:34.117876+00:00",
         "local_path": "images/yc_in_rj_udaipur_saheliyon_ki_bari_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_saheliyon_ki_bari_g1/thumbnail.webp"
       },
@@ -764,7 +707,7 @@
         "height": 1912,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:30.342033+00:00",
+        "downloaded_at": "2026-10-01T09:35:34.126350+00:00",
         "local_path": "images/yc_in_rj_udaipur_saheliyon_ki_bari_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_saheliyon_ki_bari_g2/thumbnail.webp"
       }
@@ -783,7 +726,7 @@
       "height": 853,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.955822+00:00",
+      "downloaded_at": "2026-10-01T09:35:34.134713+00:00",
       "local_path": "images/yc_in_rj_udaipur_udaipur_city_railway_station/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_udaipur_city_railway_station/thumbnail.webp"
     },
@@ -802,7 +745,7 @@
       "height": 960,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:31.187119+00:00",
+      "downloaded_at": "2026-10-01T09:35:34.141982+00:00",
       "local_path": "images/yc_in_rj_udaipur_rana_pratap_nagar_railway_station/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_rana_pratap_nagar_railway_station/thumbnail.webp"
     },
@@ -821,7 +764,7 @@
       "height": 720,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:31.195393+00:00",
+      "downloaded_at": "2026-10-01T09:35:34.150992+00:00",
       "local_path": "images/yc_in_rj_udaipur_karni_mata_udaipur/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_karni_mata_udaipur/thumbnail.webp"
     },
@@ -838,7 +781,7 @@
         "height": 648,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:32.084673+00:00",
+        "downloaded_at": "2026-10-01T09:35:34.789854+00:00",
         "local_path": "images/yc_in_rj_udaipur_karni_mata_udaipur_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_karni_mata_udaipur_g1/thumbnail.webp"
       },
@@ -854,7 +797,7 @@
         "height": 960,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:32.092252+00:00",
+        "downloaded_at": "2026-10-01T09:35:34.797439+00:00",
         "local_path": "images/yc_in_rj_udaipur_karni_mata_udaipur_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_karni_mata_udaipur_g2/thumbnail.webp"
       }
@@ -873,7 +816,7 @@
       "height": 720,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:32.100090+00:00",
+      "downloaded_at": "2026-10-01T09:35:34.806317+00:00",
       "local_path": "images/yc_in_rj_udaipur_pala_ganesh_temple/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_pala_ganesh_temple/thumbnail.webp"
     },
@@ -892,7 +835,7 @@
       "height": 830,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:32.106707+00:00",
+      "downloaded_at": "2026-10-01T09:35:34.813287+00:00",
       "local_path": "images/yc_in_rj_udaipur_pratap_park/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_pratap_park/thumbnail.webp"
     },
@@ -911,7 +854,7 @@
       "height": 853,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:58:32.910397+00:00",
+      "downloaded_at": "2026-10-01T09:35:35.517472+00:00",
       "local_path": "images/yc_in_rj_udaipur_udaipur_solar_observatory/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_udaipur_solar_observatory/thumbnail.webp"
     },
@@ -930,7 +873,7 @@
       "height": 480,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:32.916888+00:00",
+      "downloaded_at": "2026-10-01T09:35:35.524552+00:00",
       "local_path": "images/yc_in_rj_udaipur_fms_udaipur/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_fms_udaipur/thumbnail.webp"
     },
@@ -949,7 +892,7 @@
       "height": 853,
       "match_method": "commons_category",
       "match_confidence": 0.85,
-      "downloaded_at": "2026-09-19T15:58:33.689467+00:00",
+      "downloaded_at": "2026-10-01T09:35:36.295138+00:00",
       "local_path": "images/yc_in_rj_udaipur_sajjangarh_biological_park/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_sajjangarh_biological_park/thumbnail.webp"
     },
@@ -966,7 +909,7 @@
         "height": 720,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:34.484986+00:00",
+        "downloaded_at": "2026-10-01T09:35:36.909872+00:00",
         "local_path": "images/yc_in_rj_udaipur_sajjangarh_biological_park_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_sajjangarh_biological_park_g1/thumbnail.webp"
       },
@@ -982,7 +925,7 @@
         "height": 853,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:34.492999+00:00",
+        "downloaded_at": "2026-10-01T09:35:36.916803+00:00",
         "local_path": "images/yc_in_rj_udaipur_sajjangarh_biological_park_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_sajjangarh_biological_park_g2/thumbnail.webp"
       }
@@ -1001,7 +944,7 @@
       "height": 853,
       "match_method": "commons_category",
       "match_confidence": 0.85,
-      "downloaded_at": "2026-09-19T15:58:35.288137+00:00",
+      "downloaded_at": "2026-10-01T09:35:37.582634+00:00",
       "local_path": "images/yc_in_rj_udaipur_agasthyavanam_biological_park/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_agasthyavanam_biological_park/thumbnail.webp"
     },
@@ -1018,7 +961,7 @@
         "height": 1920,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:36.088532+00:00",
+        "downloaded_at": "2026-10-01T09:35:38.398249+00:00",
         "local_path": "images/yc_in_rj_udaipur_agasthyavanam_biological_park_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_agasthyavanam_biological_park_g1/thumbnail.webp"
       },
@@ -1034,7 +977,7 @@
         "height": 961,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:36.097186+00:00",
+        "downloaded_at": "2026-10-01T09:35:38.407956+00:00",
         "local_path": "images/yc_in_rj_udaipur_agasthyavanam_biological_park_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_agasthyavanam_biological_park_g2/thumbnail.webp"
       }
@@ -1053,7 +996,7 @@
       "height": 1536,
       "match_method": "commons_category",
       "match_confidence": 0.85,
-      "downloaded_at": "2026-09-19T15:58:36.892413+00:00",
+      "downloaded_at": "2026-10-01T09:35:39.118379+00:00",
       "local_path": "images/yc_in_rj_udaipur_kingdom_of_mewar/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_kingdom_of_mewar/thumbnail.webp"
     },
@@ -1070,7 +1013,7 @@
         "height": 1301,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:37.590037+00:00",
+        "downloaded_at": "2026-10-01T09:35:40.774370+00:00",
         "local_path": "images/yc_in_rj_udaipur_kingdom_of_mewar_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_kingdom_of_mewar_g1/thumbnail.webp"
       },
@@ -1086,30 +1029,11 @@
         "height": 721,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:37.597173+00:00",
+        "downloaded_at": "2026-10-01T09:35:40.782102+00:00",
         "local_path": "images/yc_in_rj_udaipur_kingdom_of_mewar_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_kingdom_of_mewar_g2/thumbnail.webp"
       }
     ]
-  },
-  "yc_in_rj_udaipur_gangaur_ghat": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Ambrai_ghat.jpg",
-      "original_file": "Ambrai ghat.jpg",
-      "author": "Professor108",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": null,
-      "width": 1280,
-      "height": 960,
-      "match_method": "commons_alt_name_search",
-      "match_confidence": 0.7,
-      "downloaded_at": "2026-09-19T15:58:45.382087+00:00",
-      "local_path": "images/yc_in_rj_udaipur_gangaur_ghat/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_gangaur_ghat/thumbnail.webp"
-    },
-    "gallery": []
   },
   "yc_in_rj_udaipur_ambrai_ghat": {
     "primary": {
@@ -1124,7 +1048,7 @@
       "height": 960,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:58:46.047679+00:00",
+      "downloaded_at": "2026-10-01T09:35:48.900398+00:00",
       "local_path": "images/yc_in_rj_udaipur_ambrai_ghat/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_ambrai_ghat/thumbnail.webp"
     },
@@ -1143,7 +1067,7 @@
       "height": 192,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:58:53.054932+00:00",
+      "downloaded_at": "2026-10-01T09:35:55.401367+00:00",
       "local_path": "images/yc_in_rj_udaipur_neemach_mata_temple/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_neemach_mata_temple/thumbnail.webp"
     },
@@ -1162,7 +1086,7 @@
       "height": 2275,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:53.061989+00:00",
+      "downloaded_at": "2026-10-01T09:35:55.409166+00:00",
       "local_path": "images/yc_in_rj_udaipur_rajiv_gandhi_garden/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_rajiv_gandhi_garden/thumbnail.webp"
     },
@@ -1181,7 +1105,7 @@
       "height": 856,
       "match_method": "commons_category",
       "match_confidence": 0.85,
-      "downloaded_at": "2026-09-19T15:58:55.611065+00:00",
+      "downloaded_at": "2026-10-01T09:35:57.841510+00:00",
       "local_path": "images/yc_in_rj_udaipur_vintage_and_classic_car_museum/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_vintage_and_classic_car_museum/thumbnail.webp"
     },
@@ -1198,7 +1122,7 @@
         "height": 856,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:56.256295+00:00",
+        "downloaded_at": "2026-10-01T09:35:58.513377+00:00",
         "local_path": "images/yc_in_rj_udaipur_vintage_and_classic_car_museum_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_vintage_and_classic_car_museum_g1/thumbnail.webp"
       },
@@ -1214,7 +1138,7 @@
         "height": 856,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:58:56.265358+00:00",
+        "downloaded_at": "2026-10-01T09:35:58.521017+00:00",
         "local_path": "images/yc_in_rj_udaipur_vintage_and_classic_car_museum_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_vintage_and_classic_car_museum_g2/thumbnail.webp"
       }
@@ -1233,7 +1157,7 @@
       "height": 960,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:58:56.274340+00:00",
+      "downloaded_at": "2026-10-01T09:35:58.528952+00:00",
       "local_path": "images/yc_in_rj_udaipur_sajjangarh/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_sajjangarh/thumbnail.webp"
     },
@@ -1252,7 +1176,7 @@
       "height": 960,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:00.694574+00:00",
+      "downloaded_at": "2026-10-01T09:36:02.564624+00:00",
       "local_path": "images/yc_in_rj_udaipur_moti_magari_ke_prasad/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_moti_magari_ke_prasad/thumbnail.webp"
     },
@@ -1269,7 +1193,7 @@
         "height": 720,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:59:01.526493+00:00",
+        "downloaded_at": "2026-10-01T09:36:03.370469+00:00",
         "local_path": "images/yc_in_rj_udaipur_moti_magari_ke_prasad_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_moti_magari_ke_prasad_g1/thumbnail.webp"
       },
@@ -1285,7 +1209,7 @@
         "height": 2275,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:59:01.534962+00:00",
+        "downloaded_at": "2026-10-01T09:36:03.379767+00:00",
         "local_path": "images/yc_in_rj_udaipur_moti_magari_ke_prasad_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_moti_magari_ke_prasad_g2/thumbnail.webp"
       }
@@ -1304,7 +1228,7 @@
       "height": 960,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:01.543709+00:00",
+      "downloaded_at": "2026-10-01T09:36:03.386837+00:00",
       "local_path": "images/yc_in_rj_udaipur_gangodbhav_kund/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_gangodbhav_kund/thumbnail.webp"
     },
@@ -1321,7 +1245,7 @@
         "height": 1706,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:59:02.235055+00:00",
+        "downloaded_at": "2026-10-01T09:36:04.133772+00:00",
         "local_path": "images/yc_in_rj_udaipur_gangodbhav_kund_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_gangodbhav_kund_g1/thumbnail.webp"
       },
@@ -1337,7 +1261,7 @@
         "height": 853,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:59:02.243430+00:00",
+        "downloaded_at": "2026-10-01T09:36:04.142285+00:00",
         "local_path": "images/yc_in_rj_udaipur_gangodbhav_kund_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_gangodbhav_kund_g2/thumbnail.webp"
       }
@@ -1356,7 +1280,7 @@
       "height": 853,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:02.267036+00:00",
+      "downloaded_at": "2026-10-01T09:36:04.168113+00:00",
       "local_path": "images/yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar/thumbnail.webp"
     },
@@ -1373,7 +1297,7 @@
         "height": 1706,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:59:02.894613+00:00",
+        "downloaded_at": "2026-10-01T09:36:04.854080+00:00",
         "local_path": "images/yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar_g1/thumbnail.webp"
       },
@@ -1389,7 +1313,7 @@
         "height": 720,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:59:02.896043+00:00",
+        "downloaded_at": "2026-10-01T09:36:04.854716+00:00",
         "local_path": "images/yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_cenotaph_of_raja_rama_shahs_sons_ahar_g2/thumbnail.webp"
       }
@@ -1408,9 +1332,28 @@
       "height": 1706,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:02.906201+00:00",
+      "downloaded_at": "2026-10-01T09:36:04.862472+00:00",
       "local_path": "images/yc_in_rj_udaipur_meera_temple_ahar/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_meera_temple_ahar/thumbnail.webp"
+    },
+    "gallery": []
+  },
+  "yc_in_rj_udaipur_maharana_pratap_airport": {
+    "primary": {
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Airport-Udaipur_Terminal.JPG",
+      "original_file": "Airport-Udaipur Terminal.JPG",
+      "author": "Northside",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "<a href=\"https://de.wikipedia.org/wiki/User:Northside\" class=\"extiw\" title=\"de:User:Northside\">Northside</a>",
+      "width": 1280,
+      "height": 853,
+      "match_method": "wikidata_p18",
+      "match_confidence": 1.0,
+      "downloaded_at": "2026-10-01T09:36:05.717845+00:00",
+      "local_path": "images/yc_in_rj_udaipur_maharana_pratap_airport/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_udaipur_maharana_pratap_airport/thumbnail.webp"
     },
     "gallery": []
   },
@@ -1427,7 +1370,7 @@
       "height": 719,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:59:04.300574+00:00",
+      "downloaded_at": "2026-10-01T09:36:06.399253+00:00",
       "local_path": "images/yc_in_rj_udaipur_sukhadia_circle/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_sukhadia_circle/thumbnail.webp"
     },
@@ -1446,7 +1389,7 @@
       "height": 853,
       "match_method": "commons_alt_name_search",
       "match_confidence": 0.7,
-      "downloaded_at": "2026-09-19T15:59:09.212611+00:00",
+      "downloaded_at": "2026-10-01T09:36:12.553819+00:00",
       "local_path": "images/yc_in_rj_udaipur_taj_fateh_prakash_palace/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_taj_fateh_prakash_palace/thumbnail.webp"
     },
@@ -1465,7 +1408,7 @@
       "height": 1706,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:59:12.414264+00:00",
+      "downloaded_at": "2026-10-01T09:36:16.973508+00:00",
       "local_path": "images/yc_in_rj_udaipur_chunda_palace/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_chunda_palace/thumbnail.webp"
     },
@@ -1484,7 +1427,7 @@
       "height": 853,
       "match_method": "commons_alt_name_search",
       "match_confidence": 0.7,
-      "downloaded_at": "2026-09-19T15:59:15.364797+00:00",
+      "downloaded_at": "2026-10-01T09:36:21.254868+00:00",
       "local_path": "images/yc_in_rj_udaipur_pratap_gaurav_kendra_rashtriya_tirth/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_pratap_gaurav_kendra_rashtriya_tirth/thumbnail.webp"
     },
@@ -1503,7 +1446,7 @@
       "height": 853,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:59:26.173501+00:00",
+      "downloaded_at": "2026-10-01T09:36:31.500753+00:00",
       "local_path": "images/yc_in_rj_udaipur_sheesh_mahal/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_sheesh_mahal/thumbnail.webp"
     },
@@ -1522,28 +1465,9 @@
       "height": 449,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:59:28.251280+00:00",
+      "downloaded_at": "2026-10-01T09:36:33.396274+00:00",
       "local_path": "images/yc_in_rj_udaipur_nehru_garden/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_nehru_garden/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_kitchen_of_mewar": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:2002.34_bw.webp",
-      "original_file": "2002.34 bw.webp",
-      "author": "Ghasi",
-      "license": "Public domain",
-      "license_url": "",
-      "attribution": null,
-      "width": 1056,
-      "height": 1536,
-      "match_method": "commons_category",
-      "match_confidence": 0.85,
-      "downloaded_at": "2026-09-19T15:59:33.494269+00:00",
-      "local_path": "images/yc_in_rj_udaipur_kitchen_of_mewar/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_kitchen_of_mewar/thumbnail.webp"
     },
     "gallery": []
   },
@@ -1560,7 +1484,7 @@
       "height": 1474,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:59:33.509198+00:00",
+      "downloaded_at": "2026-10-01T09:36:37.855790+00:00",
       "local_path": "images/yc_in_rj_udaipur_sunset_point/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_sunset_point/thumbnail.webp"
     },
@@ -1579,7 +1503,7 @@
       "height": 579,
       "match_method": "commons_alt_name_search",
       "match_confidence": 0.7,
-      "downloaded_at": "2026-09-19T15:59:36.761929+00:00",
+      "downloaded_at": "2026-10-01T09:36:43.207272+00:00",
       "local_path": "images/yc_in_rj_udaipur_hathi_pol_elephant_gate/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_hathi_pol_elephant_gate/thumbnail.webp"
     },
@@ -1598,7 +1522,7 @@
       "height": 1280,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:59:42.652151+00:00",
+      "downloaded_at": "2026-10-01T09:36:49.194257+00:00",
       "local_path": "images/yc_in_rj_udaipur_jagmandir_palace/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_jagmandir_palace/thumbnail.webp"
     },
@@ -1607,8 +1531,8 @@
   "yc_in_rj_udaipur_ahar_museum": {
     "primary": {
       "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Storage_Jar,_Ahar_Museum_01.jpg",
-      "original_file": "Storage Jar, Ahar Museum 01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grinding_Stone,_Ahar_Museum.jpg",
+      "original_file": "Grinding Stone, Ahar Museum.jpg",
       "author": "Deepank Ranka",
       "license": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0",
@@ -1617,7 +1541,7 @@
       "height": 1843,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:59:42.664415+00:00",
+      "downloaded_at": "2026-10-01T09:36:49.211490+00:00",
       "local_path": "images/yc_in_rj_udaipur_ahar_museum/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_ahar_museum/thumbnail.webp"
     },
@@ -1636,7 +1560,7 @@
       "height": 853,
       "match_method": "wikidata_p18",
       "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:42.665672+00:00",
+      "downloaded_at": "2026-10-01T09:36:49.212209+00:00",
       "local_path": "images/yc_in_rj_udaipur_royal_cenotaphs/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_royal_cenotaphs/thumbnail.webp"
     },
@@ -1653,7 +1577,7 @@
         "height": 1706,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:59:43.438317+00:00",
+        "downloaded_at": "2026-10-01T09:36:49.882342+00:00",
         "local_path": "images/yc_in_rj_udaipur_royal_cenotaphs_g1/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_royal_cenotaphs_g1/thumbnail.webp"
       },
@@ -1669,30 +1593,11 @@
         "height": 720,
         "match_method": "commons_category_gallery",
         "match_confidence": 0.8,
-        "downloaded_at": "2026-09-19T15:59:43.439584+00:00",
+        "downloaded_at": "2026-10-01T09:36:49.883143+00:00",
         "local_path": "images/yc_in_rj_udaipur_royal_cenotaphs_g2/primary.webp",
         "thumbnail_path": "images/yc_in_rj_udaipur_royal_cenotaphs_g2/thumbnail.webp"
       }
     ]
-  },
-  "yc_in_rj_udaipur_ganesh_temple": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:PalaGaneshUdaipur.jpg",
-      "original_file": "PalaGaneshUdaipur.jpg",
-      "author": "Vishal0soni at Wikipedia",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": "<a href=\"https://en.wikipedia.org/wiki/User:Vishal0soni\" class=\"extiw\" title=\"wikipedia:User:Vishal0soni\">Vishal0soni</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
-      "width": 1280,
-      "height": 720,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:43.440504+00:00",
-      "local_path": "images/yc_in_rj_udaipur_ganesh_temple/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_ganesh_temple/thumbnail.webp"
-    },
-    "gallery": []
   },
   "yc_in_rj_udaipur_shilpgram": {
     "primary": {
@@ -1707,161 +1612,9 @@
       "height": 791,
       "match_method": "commons_exact_name_search",
       "match_confidence": 0.75,
-      "downloaded_at": "2026-09-19T15:59:43.455013+00:00",
+      "downloaded_at": "2026-10-01T09:36:51.322674+00:00",
       "local_path": "images/yc_in_rj_udaipur_shilpgram/primary.webp",
       "thumbnail_path": "images/yc_in_rj_udaipur_shilpgram/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_oyo_13379_home_heritage_stay_jagdish_temple_chowk": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:JagdishTemple-Udaipur-Rajasthan_JM34.jpg",
-      "original_file": "JagdishTemple-Udaipur-Rajasthan JM34.jpg",
-      "author": "Jmadhu",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": null,
-      "width": 1280,
-      "height": 834,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.182907+00:00",
-      "local_path": "images/yc_in_rj_udaipur_oyo_13379_home_heritage_stay_jagdish_temple_chowk/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_oyo_13379_home_heritage_stay_jagdish_temple_chowk/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_turban_roopgarh_resort_and_spa_udaipur": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:FMS_Udaipur.jpg",
-      "original_file": "FMS Udaipur.jpg",
-      "author": "Asawa.fms",
-      "license": "Public domain",
-      "license_url": "",
-      "attribution": null,
-      "width": 640,
-      "height": 480,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.184882+00:00",
-      "local_path": "images/yc_in_rj_udaipur_turban_roopgarh_resort_and_spa_udaipur/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_turban_roopgarh_resort_and_spa_udaipur/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_fateh_sagar_udaipur": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Lac_Fateh_Sagar.jpg",
-      "original_file": "Lac Fateh Sagar.jpg",
-      "author": "Shakti",
-      "license": "CC BY-SA 3.0",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "attribution": null,
-      "width": 1280,
-      "height": 478,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.187444+00:00",
-      "local_path": "images/yc_in_rj_udaipur_fateh_sagar_udaipur/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_fateh_sagar_udaipur/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_rana_pratap_nagar": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Rana_Pratap_Nagar_Railway_Station.jpg",
-      "original_file": "Rana Pratap Nagar Railway Station.jpg",
-      "author": "Ganesh Mohan T",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "attribution": null,
-      "width": 1280,
-      "height": 960,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.957292+00:00",
-      "local_path": "images/yc_in_rj_udaipur_rana_pratap_nagar/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_rana_pratap_nagar/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_udaipur_enterprises": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:FMS_Udaipur.jpg",
-      "original_file": "FMS Udaipur.jpg",
-      "author": "Asawa.fms",
-      "license": "Public domain",
-      "license_url": "",
-      "attribution": null,
-      "width": 640,
-      "height": 480,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.958221+00:00",
-      "local_path": "images/yc_in_rj_udaipur_udaipur_enterprises/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_udaipur_enterprises/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_maestro_kingdom_udaipur": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:FMS_Udaipur.jpg",
-      "original_file": "FMS Udaipur.jpg",
-      "author": "Asawa.fms",
-      "license": "Public domain",
-      "license_url": "",
-      "attribution": null,
-      "width": 640,
-      "height": 480,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.958957+00:00",
-      "local_path": "images/yc_in_rj_udaipur_maestro_kingdom_udaipur/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_maestro_kingdom_udaipur/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_dosa_and_chutny_udaipur": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:FMS_Udaipur.jpg",
-      "original_file": "FMS Udaipur.jpg",
-      "author": "Asawa.fms",
-      "license": "Public domain",
-      "license_url": "",
-      "attribution": null,
-      "width": 640,
-      "height": 480,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.959762+00:00",
-      "local_path": "images/yc_in_rj_udaipur_dosa_and_chutny_udaipur/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_dosa_and_chutny_udaipur/thumbnail.webp"
-    },
-    "gallery": []
-  },
-  "yc_in_rj_udaipur_maggi_hotspot_udaipur": {
-    "primary": {
-      "source": "Wikimedia Commons",
-      "source_page": "https://commons.wikimedia.org/wiki/File:FMS_Udaipur.jpg",
-      "original_file": "FMS Udaipur.jpg",
-      "author": "Asawa.fms",
-      "license": "Public domain",
-      "license_url": "",
-      "attribution": null,
-      "width": 640,
-      "height": 480,
-      "match_method": "wikidata_p18",
-      "match_confidence": 1.0,
-      "downloaded_at": "2026-09-19T15:59:59.960426+00:00",
-      "local_path": "images/yc_in_rj_udaipur_maggi_hotspot_udaipur/primary.webp",
-      "thumbnail_path": "images/yc_in_rj_udaipur_maggi_hotspot_udaipur/thumbnail.webp"
     },
     "gallery": []
   }

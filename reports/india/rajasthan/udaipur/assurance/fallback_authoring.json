@@ -1,0 +1,97 @@
+{
+  "optional": true,
+  "external_generation_required": false,
+  "categories": [
+    {
+      "category": "cafe",
+      "published_pois": 10,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic cafe contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "culture",
+      "published_pois": 19,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic culture contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "fort",
+      "published_pois": 1,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic fort contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "garden",
+      "published_pois": 6,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic garden contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "heritage",
+      "published_pois": 24,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic heritage contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "hotel",
+      "published_pois": 141,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic hotel contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "lake",
+      "published_pois": 10,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic lake contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "museum",
+      "published_pois": 14,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic museum contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "palace",
+      "published_pois": 8,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic palace contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "park",
+      "published_pois": 9,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic park contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "restaurant",
+      "published_pois": 22,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic restaurant contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "shopping",
+      "published_pois": 3,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic shopping contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    },
+    {
+      "category": "transport",
+      "published_pois": 2,
+      "assets_available": 8,
+      "additional_artwork_requested": 0,
+      "brief": "Generic transport contextual travel illustration. No named place, real venue claims, logos or text. Clearly fallback art."
+    }
+  ]
+}

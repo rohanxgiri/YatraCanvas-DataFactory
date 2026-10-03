@@ -1,0 +1,1261 @@
+{
+  "city": {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "alternate_names": [],
+    "center": [
+      24.578721,
+      73.686257
+    ],
+    "bbox": [
+      73.526257,
+      24.418721,
+      73.846257,
+      24.738721
+    ],
+    "timezone": "Asia/Kolkata",
+    "administrative_ids": null,
+    "source_identifiers": null,
+    "boundary_geometry": null,
+    "region_bbox": null
+  },
+  "source_manifest": "C:\\Users\\girir\\Documents\\YatraCanvas-CityPack-Lab\\assets\\city_packs\\udaipur\\review_candidates.json",
+  "source_sha256": "4425f63af3bda90f47d1947b4ca5383ae63345f11b1295d6c921efb3b8ef37cd",
+  "groups_found": 3,
+  "members_withheld": 6,
+  "auto_resolved": 0,
+  "review": 3,
+  "unresolved": 3,
+  "decisions": {
+    "UPSTREAM_CANONICAL_ID_BUG": 3
+  },
+  "groups": [
+    {
+      "canonical_id": "yc_in_rj_udaipur_the_little_prince",
+      "decision": "UPSTREAM_CANONICAL_ID_BUG",
+      "action": "REVIEW",
+      "members": [
+        {
+          "canonical_id": "yc_in_rj_udaipur_the_little_prince",
+          "name": "The Little Prince",
+          "name_en": "The Little Prince",
+          "name_hi": null,
+          "alternate_names": [
+            "The Little Prince Heritage Home"
+          ],
+          "alternate_name_records": [
+            {
+              "name": "The Little Prince Heritage Home",
+              "source": "overture",
+              "confidence": 1.0,
+              "evidence": "spatial_proximity_96m_name_sim_1.0"
+            }
+          ],
+          "latitude": 24.580225,
+          "longitude": 73.679109,
+          "category": "cafe",
+          "subcategory": "coffee_shop",
+          "category_votes": [
+            {
+              "category": "cafe",
+              "subcategory": "coffee_shop",
+              "source": "openstreetmap",
+              "weight": 3.5
+            },
+            {
+              "category": "cafe",
+              "subcategory": "coffee_shop",
+              "source": "overture",
+              "weight": 2.0
+            },
+            {
+              "category": "hotel",
+              "subcategory": "hotel",
+              "source": "overture",
+              "weight": 2.0
+            }
+          ],
+          "tier": "recommended",
+          "address": "Outside Chand Pole, Cross The Bridge",
+          "website": "http://www.thelittleprince.in/",
+          "phone": "+912942430529",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "openstreetmap",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "cafe",
+            "coffee_shop",
+            "beverage",
+            "hangout"
+          ],
+          "osm_tags": {
+            "amenity": "cafe",
+            "name": "The Little Prince"
+          },
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "60c7b8e8-605d-4a4b-9091-463593dd70cb"
+            ],
+            "openstreetmap_ids": [
+              "node/2595261675"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "openstreetmap",
+              "source_id": "node/2595261675"
+            },
+            {
+              "source": "overture",
+              "source_id": "60c7b8e8-605d-4a4b-9091-463593dd70cb"
+            }
+          ],
+          "confidence": 0.85,
+          "relevance_stage1": "SECONDARY_TRAVEL_CANDIDATE",
+          "relevance_reason1": "OSM_AMENITY_CAFE",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Multi-provider confirmation (2 sources)"
+            ],
+            "directory_signals": [
+              "Official website verified",
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 3.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours"
+          ],
+          "source_count": 2
+        },
+        {
+          "canonical_id": "yc_in_rj_udaipur_the_little_prince",
+          "name": "The Little Prince",
+          "name_en": "The Little Prince",
+          "name_hi": null,
+          "alternate_names": [
+            "The Little Prince Restaurant"
+          ],
+          "alternate_name_records": [
+            {
+              "name": "The Little Prince Restaurant",
+              "source": "overture",
+              "confidence": 1.0,
+              "evidence": "spatial_proximity_17m_name_sim_1.0"
+            }
+          ],
+          "latitude": 24.581507,
+          "longitude": 73.680934,
+          "category": "food",
+          "subcategory": "restaurant",
+          "category_votes": [
+            {
+              "category": "food",
+              "subcategory": "restaurant",
+              "source": "openstreetmap",
+              "weight": 3.5
+            },
+            {
+              "category": "food",
+              "subcategory": "restaurant",
+              "source": "overture",
+              "weight": 2.0
+            },
+            {
+              "category": "food",
+              "subcategory": "restaurant",
+              "source": "overture",
+              "weight": 2.0
+            }
+          ],
+          "tier": "recommended",
+          "address": "Chand Pol Rd, near Hanuman Ghat, beside walking bridge",
+          "website": null,
+          "phone": "+919001922643",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "openstreetmap",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "food",
+            "restaurant",
+            "dining",
+            "local_cuisine"
+          ],
+          "osm_tags": {
+            "amenity": "restaurant",
+            "name": "The Little Prince"
+          },
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "4a280fc1-c1c7-4109-89d3-4a8a5dfed56f"
+            ],
+            "openstreetmap_ids": [
+              "node/4524882389"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "openstreetmap",
+              "source_id": "node/4524882389"
+            },
+            {
+              "source": "overture",
+              "source_id": "4a280fc1-c1c7-4109-89d3-4a8a5dfed56f"
+            }
+          ],
+          "confidence": 0.85,
+          "relevance_stage1": "SECONDARY_TRAVEL_CANDIDATE",
+          "relevance_reason1": "OSM_AMENITY_RESTAURANT",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Multi-provider confirmation (2 sources)"
+            ],
+            "directory_signals": [
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 2.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours",
+            "website"
+          ],
+          "source_count": 2
+        }
+      ],
+      "pair_assessments": [
+        {
+          "members": [
+            {
+              "id": "yc_in_rj_udaipur_the_little_prince",
+              "name": "The Little Prince",
+              "aliases": [
+                "The Little Prince Heritage Home"
+              ],
+              "coordinates": [
+                24.580225,
+                73.679109
+              ],
+              "city": {
+                "id": "udaipur",
+                "name": "Udaipur",
+                "state": "Rajasthan",
+                "country": "India"
+              },
+              "category": "cafe",
+              "external_ids": {
+                "overture_ids": [
+                  "60c7b8e8-605d-4a4b-9091-463593dd70cb"
+                ],
+                "openstreetmap_ids": [
+                  "node/2595261675"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "openstreetmap",
+                  "source_id": "node/2595261675"
+                },
+                {
+                  "source": "overture",
+                  "source_id": "60c7b8e8-605d-4a4b-9091-463593dd70cb"
+                }
+              ]
+            },
+            {
+              "id": "yc_in_rj_udaipur_the_little_prince",
+              "name": "The Little Prince",
+              "aliases": [
+                "The Little Prince Restaurant"
+              ],
+              "coordinates": [
+                24.581507,
+                73.680934
+              ],
+              "city": {
+                "id": "udaipur",
+                "name": "Udaipur",
+                "state": "Rajasthan",
+                "country": "India"
+              },
+              "category": "food",
+              "external_ids": {
+                "overture_ids": [
+                  "4a280fc1-c1c7-4109-89d3-4a8a5dfed56f"
+                ],
+                "openstreetmap_ids": [
+                  "node/4524882389"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "openstreetmap",
+                  "source_id": "node/4524882389"
+                },
+                {
+                  "source": "overture",
+                  "source_id": "4a280fc1-c1c7-4109-89d3-4a8a5dfed56f"
+                }
+              ]
+            }
+          ],
+          "distance_m": 233.18686281999,
+          "name_similarity": 1.0,
+          "qids": [
+            null,
+            null
+          ],
+          "categories": [
+            "cafe",
+            "food"
+          ],
+          "decision": "UNRESOLVED",
+          "confidence": 0.0,
+          "reason_codes": [
+            "INSUFFICIENT_IDENTITY_CORROBORATION"
+          ],
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "identity_audit",
+            "input_hash": "e62019b5d9f6370cafe8e7faaae2498e60db8acc4c0993c3e42c9ac1bf502967",
+            "created_at": "2026-10-03T07:03:21.080796+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "udaipur",
+                "name": "Udaipur",
+                "state": "Rajasthan",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  24.578721,
+                  73.686257
+                ],
+                "bbox": [
+                  73.526257,
+                  24.418721,
+                  73.846257,
+                  24.738721
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "pair": [
+                  {
+                    "id": "yc_in_rj_udaipur_the_little_prince",
+                    "name": "The Little Prince",
+                    "aliases": [
+                      "The Little Prince Heritage Home"
+                    ],
+                    "coordinates": [
+                      24.580225,
+                      73.679109
+                    ],
+                    "city": {
+                      "id": "udaipur",
+                      "name": "Udaipur",
+                      "state": "Rajasthan",
+                      "country": "India"
+                    },
+                    "category": "cafe",
+                    "external_ids": {
+                      "overture_ids": [
+                        "60c7b8e8-605d-4a4b-9091-463593dd70cb"
+                      ],
+                      "openstreetmap_ids": [
+                        "node/2595261675"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "openstreetmap",
+                        "source_id": "node/2595261675"
+                      },
+                      {
+                        "source": "overture",
+                        "source_id": "60c7b8e8-605d-4a4b-9091-463593dd70cb"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yc_in_rj_udaipur_the_little_prince",
+                    "name": "The Little Prince",
+                    "aliases": [
+                      "The Little Prince Restaurant"
+                    ],
+                    "coordinates": [
+                      24.581507,
+                      73.680934
+                    ],
+                    "city": {
+                      "id": "udaipur",
+                      "name": "Udaipur",
+                      "state": "Rajasthan",
+                      "country": "India"
+                    },
+                    "category": "food",
+                    "external_ids": {
+                      "overture_ids": [
+                        "4a280fc1-c1c7-4109-89d3-4a8a5dfed56f"
+                      ],
+                      "openstreetmap_ids": [
+                        "node/4524882389"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "openstreetmap",
+                        "source_id": "node/4524882389"
+                      },
+                      {
+                        "source": "overture",
+                        "source_id": "4a280fc1-c1c7-4109-89d3-4a8a5dfed56f"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "operation": "identity_audit",
+              "evidence": {
+                "distance_m": 233.18686281999,
+                "name_similarity": 1.0,
+                "qids": [
+                  null,
+                  null
+                ],
+                "categories": [
+                  "cafe",
+                  "food"
+                ]
+              },
+              "image_hashes": [],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "040504d79027e1b753449b39aca87140b804c4db17b637b107fa040adb44c7ed"
+            }
+          }
+        }
+      ],
+      "proposed_new_candidate_ids": [
+        "yc_in_rj_udaipur_the_little_prince_349c377dd3ba",
+        "yc_in_rj_udaipur_the_little_prince_9bad575e9f32"
+      ],
+      "reason_codes": [
+        "MULTIPLE_SOURCE_MEMBERS_SHARE_NAME_BASED_CANONICAL_ID"
+      ],
+      "migration_applied": false
+    },
+    {
+      "canonical_id": "yc_in_rj_udaipur_oyo_hotel",
+      "decision": "UPSTREAM_CANONICAL_ID_BUG",
+      "action": "REVIEW",
+      "members": [
+        {
+          "canonical_id": "yc_in_rj_udaipur_oyo_hotel",
+          "name": "Oyo Hotel",
+          "name_en": "Oyo Hotel",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 24.656802,
+          "longitude": 73.681942,
+          "category": "hotel",
+          "subcategory": "hotel",
+          "category_votes": [
+            {
+              "category": "hotel",
+              "subcategory": "hotel",
+              "source": "openstreetmap",
+              "weight": 3.5
+            },
+            {
+              "category": "hotel",
+              "subcategory": "hotel",
+              "source": "overture",
+              "weight": 2.0
+            },
+            {
+              "category": "hotel",
+              "subcategory": "hotel",
+              "source": "name_heuristic",
+              "weight": 4.0
+            }
+          ],
+          "tier": "support",
+          "address": null,
+          "website": null,
+          "phone": null,
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "openstreetmap",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "hotel",
+            "accommodation",
+            "stay"
+          ],
+          "osm_tags": {
+            "name": "Oyo Hotel",
+            "tourism": "hotel"
+          },
+          "prose": null,
+          "external_ids": {
+            "openstreetmap_ids": [
+              "node/7244864137"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "openstreetmap",
+              "source_id": "node/7244864137"
+            }
+          ],
+          "confidence": 0.85,
+          "relevance_stage1": "SECONDARY_TRAVEL_CANDIDATE",
+          "relevance_reason1": "OSM_HOSPITALITY_HOTEL",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "OSM tourism tag"
+            ],
+            "directory_signals": [],
+            "travel_points": 2,
+            "total_points": 2.0
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours",
+            "website",
+            "address"
+          ],
+          "source_count": 1
+        },
+        {
+          "canonical_id": "yc_in_rj_udaipur_oyo_hotel",
+          "name": "OYO Hotel",
+          "name_en": "OYO Hotel",
+          "name_hi": null,
+          "alternate_names": [
+            "OYO 16381 Hotel Shivani"
+          ],
+          "alternate_name_records": [
+            {
+              "name": "OYO 16381 Hotel Shivani",
+              "source": "overture",
+              "confidence": 0.9,
+              "evidence": "spatial_proximity_30m_name_sim_0.9"
+            }
+          ],
+          "latitude": 24.622828,
+          "longitude": 73.68986,
+          "category": "hotel",
+          "subcategory": "hotel",
+          "category_votes": [
+            {
+              "category": "hotel",
+              "subcategory": "hotel",
+              "source": "overture",
+              "weight": 2.0
+            },
+            {
+              "category": "hotel",
+              "subcategory": "hotel",
+              "source": "name_heuristic",
+              "weight": 4.0
+            },
+            {
+              "category": "hotel",
+              "subcategory": "hotel",
+              "source": "overture",
+              "weight": 2.0
+            }
+          ],
+          "tier": "support",
+          "address": "Rnb Shivani Udaipur, 6, Syphon Circle, Bedla Road, Mahaveer Colony Park",
+          "website": "https://www.oyorooms.com/h/39196?utm_source=FB_locations&utm_medium=listing&utm_campaign=UDP239",
+          "phone": "+912942450546",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "hotel",
+            "accommodation",
+            "stay"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "e9058b54-4ccf-4518-8ff3-a0a961937916",
+              "3eb59687-bad7-4970-a462-bfc7bf3c9a4c"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "3eb59687-bad7-4970-a462-bfc7bf3c9a4c"
+            },
+            {
+              "source": "overture",
+              "source_id": "e9058b54-4ccf-4518-8ff3-a0a961937916"
+            }
+          ],
+          "confidence": 0.7301433682441711,
+          "relevance_stage1": "SECONDARY_TRAVEL_CANDIDATE",
+          "relevance_reason1": "SECONDARY_COMMERCIAL_PREFILTER",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Multi-provider confirmation (2 sources)"
+            ],
+            "directory_signals": [
+              "Official website verified",
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 3.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours"
+          ],
+          "source_count": 2
+        }
+      ],
+      "pair_assessments": [
+        {
+          "members": [
+            {
+              "id": "yc_in_rj_udaipur_oyo_hotel",
+              "name": "Oyo Hotel",
+              "aliases": [],
+              "coordinates": [
+                24.656802,
+                73.681942
+              ],
+              "city": {
+                "id": "udaipur",
+                "name": "Udaipur",
+                "state": "Rajasthan",
+                "country": "India"
+              },
+              "category": "hotel",
+              "external_ids": {
+                "openstreetmap_ids": [
+                  "node/7244864137"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "openstreetmap",
+                  "source_id": "node/7244864137"
+                }
+              ]
+            },
+            {
+              "id": "yc_in_rj_udaipur_oyo_hotel",
+              "name": "OYO Hotel",
+              "aliases": [
+                "OYO 16381 Hotel Shivani"
+              ],
+              "coordinates": [
+                24.622828,
+                73.68986
+              ],
+              "city": {
+                "id": "udaipur",
+                "name": "Udaipur",
+                "state": "Rajasthan",
+                "country": "India"
+              },
+              "category": "hotel",
+              "external_ids": {
+                "overture_ids": [
+                  "e9058b54-4ccf-4518-8ff3-a0a961937916",
+                  "3eb59687-bad7-4970-a462-bfc7bf3c9a4c"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "3eb59687-bad7-4970-a462-bfc7bf3c9a4c"
+                },
+                {
+                  "source": "overture",
+                  "source_id": "e9058b54-4ccf-4518-8ff3-a0a961937916"
+                }
+              ]
+            }
+          ],
+          "distance_m": 3861.5711114323235,
+          "name_similarity": 1.0,
+          "qids": [
+            null,
+            null
+          ],
+          "categories": [
+            "hotel",
+            "hotel"
+          ],
+          "decision": "UNRESOLVED",
+          "confidence": 0.0,
+          "reason_codes": [
+            "INSUFFICIENT_IDENTITY_CORROBORATION"
+          ],
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "identity_audit",
+            "input_hash": "7aa215536a45096ef3ef9883261a5de3b3514163c2b69fc5d725969cfc147af3",
+            "created_at": "2026-10-03T07:03:21.083397+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "udaipur",
+                "name": "Udaipur",
+                "state": "Rajasthan",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  24.578721,
+                  73.686257
+                ],
+                "bbox": [
+                  73.526257,
+                  24.418721,
+                  73.846257,
+                  24.738721
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "pair": [
+                  {
+                    "id": "yc_in_rj_udaipur_oyo_hotel",
+                    "name": "Oyo Hotel",
+                    "aliases": [],
+                    "coordinates": [
+                      24.656802,
+                      73.681942
+                    ],
+                    "city": {
+                      "id": "udaipur",
+                      "name": "Udaipur",
+                      "state": "Rajasthan",
+                      "country": "India"
+                    },
+                    "category": "hotel",
+                    "external_ids": {
+                      "openstreetmap_ids": [
+                        "node/7244864137"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "openstreetmap",
+                        "source_id": "node/7244864137"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yc_in_rj_udaipur_oyo_hotel",
+                    "name": "OYO Hotel",
+                    "aliases": [
+                      "OYO 16381 Hotel Shivani"
+                    ],
+                    "coordinates": [
+                      24.622828,
+                      73.68986
+                    ],
+                    "city": {
+                      "id": "udaipur",
+                      "name": "Udaipur",
+                      "state": "Rajasthan",
+                      "country": "India"
+                    },
+                    "category": "hotel",
+                    "external_ids": {
+                      "overture_ids": [
+                        "e9058b54-4ccf-4518-8ff3-a0a961937916",
+                        "3eb59687-bad7-4970-a462-bfc7bf3c9a4c"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "3eb59687-bad7-4970-a462-bfc7bf3c9a4c"
+                      },
+                      {
+                        "source": "overture",
+                        "source_id": "e9058b54-4ccf-4518-8ff3-a0a961937916"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "operation": "identity_audit",
+              "evidence": {
+                "distance_m": 3861.5711114323235,
+                "name_similarity": 1.0,
+                "qids": [
+                  null,
+                  null
+                ],
+                "categories": [
+                  "hotel",
+                  "hotel"
+                ]
+              },
+              "image_hashes": [],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "040504d79027e1b753449b39aca87140b804c4db17b637b107fa040adb44c7ed"
+            }
+          }
+        }
+      ],
+      "proposed_new_candidate_ids": [
+        "yc_in_rj_udaipur_oyo_hotel_1b9cd985f91a",
+        "yc_in_rj_udaipur_oyo_hotel_3adf74311f49"
+      ],
+      "reason_codes": [
+        "MULTIPLE_SOURCE_MEMBERS_SHARE_NAME_BASED_CANONICAL_ID"
+      ],
+      "migration_applied": false
+    },
+    {
+      "canonical_id": "yc_in_rj_udaipur_reliance_smart_bazaar",
+      "decision": "UPSTREAM_CANONICAL_ID_BUG",
+      "action": "REVIEW",
+      "members": [
+        {
+          "canonical_id": "yc_in_rj_udaipur_reliance_smart_bazaar",
+          "name": "Reliance SMART Bazaar",
+          "name_en": "Reliance SMART Bazaar",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 24.59446,
+          "longitude": 73.69985,
+          "category": "shopping",
+          "subcategory": "bazaar",
+          "category_votes": [
+            {
+              "category": "shopping",
+              "subcategory": "bazaar",
+              "source": "name_heuristic",
+              "weight": 0.5
+            }
+          ],
+          "tier": "recommended",
+          "address": "Forum Celebration Mall, NH 8, Bhuwana",
+          "website": "https://stores.reliancesmartbazaar.com/reliance-smart-bazaar-shopping-outlet-bhuwana-udaipur-279925/Home?utm_source=locator&utm_medium=bing",
+          "phone": "18008910001",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "shopping",
+            "bazaar",
+            "market",
+            "local_crafts",
+            "souvenirs"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "8592b963-38e8-457f-b81e-8f7492d38849"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "8592b963-38e8-457f-b81e-8f7492d38849"
+            }
+          ],
+          "confidence": 0.85,
+          "relevance_stage1": "SECONDARY_TRAVEL_CANDIDATE",
+          "relevance_reason1": "SECONDARY_COMMERCIAL_PREFILTER",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Recognized craft, bazaar, or specialty venue"
+            ],
+            "directory_signals": [
+              "Official website verified",
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 3.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours"
+          ],
+          "source_count": 1
+        },
+        {
+          "canonical_id": "yc_in_rj_udaipur_reliance_smart_bazaar",
+          "name": "Reliance SMART Bazaar",
+          "name_en": "Reliance SMART Bazaar",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 24.59115,
+          "longitude": 73.70023,
+          "category": "shopping",
+          "subcategory": "bazaar",
+          "category_votes": [
+            {
+              "category": "shopping",
+              "subcategory": "bazaar",
+              "source": "name_heuristic",
+              "weight": 0.5
+            }
+          ],
+          "tier": "recommended",
+          "address": "Ground Floor, Kumbha Marg",
+          "website": "https://stores.reliancesmartbazaar.com/reliance-smart-bazaar-shopping-outlet-kumbha-marg-udaipur-280617/Home?utm_source=locator&utm_medium=bing",
+          "phone": "18008910001",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "shopping",
+            "bazaar",
+            "market",
+            "local_crafts",
+            "souvenirs"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "f75a5aed-abe2-4731-9290-d28423317dc4"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "f75a5aed-abe2-4731-9290-d28423317dc4"
+            }
+          ],
+          "confidence": 0.85,
+          "relevance_stage1": "SECONDARY_TRAVEL_CANDIDATE",
+          "relevance_reason1": "SECONDARY_COMMERCIAL_PREFILTER",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Recognized craft, bazaar, or specialty venue"
+            ],
+            "directory_signals": [
+              "Official website verified",
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 3.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours"
+          ],
+          "source_count": 1
+        }
+      ],
+      "pair_assessments": [
+        {
+          "members": [
+            {
+              "id": "yc_in_rj_udaipur_reliance_smart_bazaar",
+              "name": "Reliance SMART Bazaar",
+              "aliases": [],
+              "coordinates": [
+                24.59446,
+                73.69985
+              ],
+              "city": {
+                "id": "udaipur",
+                "name": "Udaipur",
+                "state": "Rajasthan",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "8592b963-38e8-457f-b81e-8f7492d38849"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "8592b963-38e8-457f-b81e-8f7492d38849"
+                }
+              ]
+            },
+            {
+              "id": "yc_in_rj_udaipur_reliance_smart_bazaar",
+              "name": "Reliance SMART Bazaar",
+              "aliases": [],
+              "coordinates": [
+                24.59115,
+                73.70023
+              ],
+              "city": {
+                "id": "udaipur",
+                "name": "Udaipur",
+                "state": "Rajasthan",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "f75a5aed-abe2-4731-9290-d28423317dc4"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "f75a5aed-abe2-4731-9290-d28423317dc4"
+                }
+              ]
+            }
+          ],
+          "distance_m": 370.0551570836424,
+          "name_similarity": 1.0,
+          "qids": [
+            null,
+            null
+          ],
+          "categories": [
+            "shopping",
+            "shopping"
+          ],
+          "decision": "UNRESOLVED",
+          "confidence": 0.0,
+          "reason_codes": [
+            "INSUFFICIENT_IDENTITY_CORROBORATION"
+          ],
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "identity_audit",
+            "input_hash": "f67b8e7555422d0fdb5d603dc96cafa4ba50f72a46d967eea2dc1b168d9dd2ed",
+            "created_at": "2026-10-03T07:03:21.086468+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "udaipur",
+                "name": "Udaipur",
+                "state": "Rajasthan",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  24.578721,
+                  73.686257
+                ],
+                "bbox": [
+                  73.526257,
+                  24.418721,
+                  73.846257,
+                  24.738721
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "pair": [
+                  {
+                    "id": "yc_in_rj_udaipur_reliance_smart_bazaar",
+                    "name": "Reliance SMART Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      24.59446,
+                      73.69985
+                    ],
+                    "city": {
+                      "id": "udaipur",
+                      "name": "Udaipur",
+                      "state": "Rajasthan",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "8592b963-38e8-457f-b81e-8f7492d38849"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "8592b963-38e8-457f-b81e-8f7492d38849"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yc_in_rj_udaipur_reliance_smart_bazaar",
+                    "name": "Reliance SMART Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      24.59115,
+                      73.70023
+                    ],
+                    "city": {
+                      "id": "udaipur",
+                      "name": "Udaipur",
+                      "state": "Rajasthan",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "f75a5aed-abe2-4731-9290-d28423317dc4"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "f75a5aed-abe2-4731-9290-d28423317dc4"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "operation": "identity_audit",
+              "evidence": {
+                "distance_m": 370.0551570836424,
+                "name_similarity": 1.0,
+                "qids": [
+                  null,
+                  null
+                ],
+                "categories": [
+                  "shopping",
+                  "shopping"
+                ]
+              },
+              "image_hashes": [],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "040504d79027e1b753449b39aca87140b804c4db17b637b107fa040adb44c7ed"
+            }
+          }
+        }
+      ],
+      "proposed_new_candidate_ids": [
+        "yc_in_rj_udaipur_reliance_smart_bazaar_d41330c790a1",
+        "yc_in_rj_udaipur_reliance_smart_bazaar_65bf0ce48634"
+      ],
+      "reason_codes": [
+        "MULTIPLE_SOURCE_MEMBERS_SHARE_NAME_BASED_CANONICAL_ID"
+      ],
+      "migration_applied": false
+    }
+  ],
+  "ai_usage": {
+    "AI_MODE": "FREE_ONLY",
+    "enabled": true,
+    "stats": {
+      "calls": 0,
+      "images": 0,
+      "vision_calls": 0,
+      "escalations": 0,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "success": 0,
+      "rate_limit": 0,
+      "timeout": 0,
+      "fallback": 0,
+      "paid_feature_calls": 0,
+      "deferred_jobs": 3
+    },
+    "events": [],
+    "paid_providers": "DISABLED",
+    "paid_providers_invoked": 0,
+    "paid_feature_calls": 0
+  },
+  "downstream_files_modified": 0
+}

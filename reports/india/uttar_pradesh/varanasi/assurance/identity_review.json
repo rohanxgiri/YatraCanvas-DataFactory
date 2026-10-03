@@ -1,0 +1,1554 @@
+{
+  "city": {
+    "id": "varanasi",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "alternate_names": [],
+    "center": [
+      25.335649,
+      83.007629
+    ],
+    "bbox": [
+      82.847629,
+      25.175649,
+      83.167629,
+      25.495649
+    ],
+    "timezone": "Asia/Kolkata",
+    "administrative_ids": null,
+    "source_identifiers": null,
+    "boundary_geometry": null,
+    "region_bbox": null
+  },
+  "source_manifest": "C:\\Users\\girir\\Documents\\YatraCanvas-CityPack-Lab\\assets\\city_packs\\varanasi\\review_candidates.json",
+  "source_sha256": "8afb5a583122b3df59478bf57d6728ba2b67b274f932a2eccf2a554589583936",
+  "groups_found": 3,
+  "members_withheld": 7,
+  "auto_resolved": 0,
+  "review": 3,
+  "unresolved": 3,
+  "decisions": {
+    "UPSTREAM_CANONICAL_ID_BUG": 3
+  },
+  "groups": [
+    {
+      "canonical_id": "yc_in_up_varanasi_reliance_smart_bazaar",
+      "decision": "UPSTREAM_CANONICAL_ID_BUG",
+      "action": "REVIEW",
+      "members": [
+        {
+          "canonical_id": "yc_in_up_varanasi_reliance_smart_bazaar",
+          "name": "Reliance SMART Bazaar",
+          "name_en": "Reliance SMART Bazaar",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 25.293291,
+          "longitude": 83.099103,
+          "category": "shopping",
+          "subcategory": "bazaar",
+          "category_votes": [
+            {
+              "category": "shopping",
+              "subcategory": "bazaar",
+              "source": "name_heuristic",
+              "weight": 0.5
+            }
+          ],
+          "tier": "recommended",
+          "address": "IP Mughal Mall",
+          "website": "https://stores.reliancesmartbazaar.com/reliance-smart-bazaar-shopping-outlet-mughalsarai-mughalsarai-280201/Home?utm_source=locator&utm_medium=bing",
+          "phone": "18008910001",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "shopping",
+            "bazaar",
+            "market",
+            "local_crafts",
+            "souvenirs"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "f58278db-151b-4594-93ca-474f40170ae2"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "f58278db-151b-4594-93ca-474f40170ae2"
+            }
+          ],
+          "confidence": 0.9475483745336533,
+          "relevance_stage1": "SECONDARY_TRAVEL_CANDIDATE",
+          "relevance_reason1": "SECONDARY_COMMERCIAL_PREFILTER",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Recognized craft, bazaar, or specialty venue"
+            ],
+            "directory_signals": [
+              "Official website verified",
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 3.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours"
+          ],
+          "source_count": 1
+        },
+        {
+          "canonical_id": "yc_in_up_varanasi_reliance_smart_bazaar",
+          "name": "Reliance SMART Bazaar",
+          "name_en": "Reliance SMART Bazaar",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 25.317009,
+          "longitude": 82.991153,
+          "category": "shopping",
+          "subcategory": "bazaar",
+          "category_votes": [
+            {
+              "category": "shopping",
+              "subcategory": "bazaar",
+              "source": "name_heuristic",
+              "weight": 0.5
+            }
+          ],
+          "tier": "recommended",
+          "address": "IP Grand, Gulab Bagh Sigra",
+          "website": "https://stores.reliancesmartbazaar.com/reliance-smart-bazaar-shopping-outlet-gulab-bagh-sigra-varanasi-280203/Home?utm_source=locator&utm_medium=bing",
+          "phone": "18008910001",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "shopping",
+            "bazaar",
+            "market",
+            "local_crafts",
+            "souvenirs"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "2175aae2-6e04-4daf-9302-a3017777dda8"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "2175aae2-6e04-4daf-9302-a3017777dda8"
+            }
+          ],
+          "confidence": 0.85,
+          "relevance_stage1": "SECONDARY_TRAVEL_CANDIDATE",
+          "relevance_reason1": "SECONDARY_COMMERCIAL_PREFILTER",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Recognized craft, bazaar, or specialty venue"
+            ],
+            "directory_signals": [
+              "Official website verified",
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 3.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours"
+          ],
+          "source_count": 1
+        },
+        {
+          "canonical_id": "yc_in_up_varanasi_reliance_smart_bazaar",
+          "name": "Reliance SMART Bazaar",
+          "name_en": "Reliance SMART Bazaar",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 25.347475,
+          "longitude": 82.980583,
+          "category": "shopping",
+          "subcategory": "bazaar",
+          "category_votes": [
+            {
+              "category": "shopping",
+              "subcategory": "bazaar",
+              "source": "name_heuristic",
+              "weight": 0.5
+            }
+          ],
+          "tier": "recommended",
+          "address": "Plot No S3/76, Raj Complex, Ordely Mall, Orderly Bazar",
+          "website": "https://stores.reliancesmartbazaar.com/reliance-smart-bazaar-shopping-outlet-orderly-bazar-varanasi-280204/Home?utm_source=locator&utm_medium=bing",
+          "phone": "18008910001",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "shopping",
+            "bazaar",
+            "market",
+            "local_crafts",
+            "souvenirs"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+            }
+          ],
+          "confidence": 0.85,
+          "relevance_stage1": "SECONDARY_TRAVEL_CANDIDATE",
+          "relevance_reason1": "SECONDARY_COMMERCIAL_PREFILTER",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Recognized craft, bazaar, or specialty venue"
+            ],
+            "directory_signals": [
+              "Official website verified",
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 3.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours"
+          ],
+          "source_count": 1
+        }
+      ],
+      "pair_assessments": [
+        {
+          "members": [
+            {
+              "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+              "name": "Reliance SMART Bazaar",
+              "aliases": [],
+              "coordinates": [
+                25.293291,
+                83.099103
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "f58278db-151b-4594-93ca-474f40170ae2"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "f58278db-151b-4594-93ca-474f40170ae2"
+                }
+              ]
+            },
+            {
+              "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+              "name": "Reliance SMART Bazaar",
+              "aliases": [],
+              "coordinates": [
+                25.317009,
+                82.991153
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "2175aae2-6e04-4daf-9302-a3017777dda8"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "2175aae2-6e04-4daf-9302-a3017777dda8"
+                }
+              ]
+            }
+          ],
+          "distance_m": 11167.567378005922,
+          "name_similarity": 1.0,
+          "qids": [
+            null,
+            null
+          ],
+          "categories": [
+            "shopping",
+            "shopping"
+          ],
+          "decision": "UNRESOLVED",
+          "confidence": 0.0,
+          "reason_codes": [
+            "INSUFFICIENT_IDENTITY_CORROBORATION"
+          ],
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "identity_audit",
+            "input_hash": "dc12b672d12e2e8016530b1001a62daed758dad14b7a5732f071458fc177e33c",
+            "created_at": "2026-10-03T07:03:21.104668+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  25.335649,
+                  83.007629
+                ],
+                "bbox": [
+                  82.847629,
+                  25.175649,
+                  83.167629,
+                  25.495649
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "pair": [
+                  {
+                    "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+                    "name": "Reliance SMART Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      25.293291,
+                      83.099103
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "f58278db-151b-4594-93ca-474f40170ae2"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "f58278db-151b-4594-93ca-474f40170ae2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+                    "name": "Reliance SMART Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      25.317009,
+                      82.991153
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "2175aae2-6e04-4daf-9302-a3017777dda8"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "2175aae2-6e04-4daf-9302-a3017777dda8"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "operation": "identity_audit",
+              "evidence": {
+                "distance_m": 11167.567378005922,
+                "name_similarity": 1.0,
+                "qids": [
+                  null,
+                  null
+                ],
+                "categories": [
+                  "shopping",
+                  "shopping"
+                ]
+              },
+              "image_hashes": [],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "040504d79027e1b753449b39aca87140b804c4db17b637b107fa040adb44c7ed"
+            }
+          }
+        },
+        {
+          "members": [
+            {
+              "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+              "name": "Reliance SMART Bazaar",
+              "aliases": [],
+              "coordinates": [
+                25.293291,
+                83.099103
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "f58278db-151b-4594-93ca-474f40170ae2"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "f58278db-151b-4594-93ca-474f40170ae2"
+                }
+              ]
+            },
+            {
+              "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+              "name": "Reliance SMART Bazaar",
+              "aliases": [],
+              "coordinates": [
+                25.347475,
+                82.980583
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+                }
+              ]
+            }
+          ],
+          "distance_m": 13349.6735938929,
+          "name_similarity": 1.0,
+          "qids": [
+            null,
+            null
+          ],
+          "categories": [
+            "shopping",
+            "shopping"
+          ],
+          "decision": "UNRESOLVED",
+          "confidence": 0.0,
+          "reason_codes": [
+            "INSUFFICIENT_IDENTITY_CORROBORATION"
+          ],
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "identity_audit",
+            "input_hash": "7bdc23f6db26536dc1a249eae87f7dc2119c33bf3db289c856f89d3d4a51f374",
+            "created_at": "2026-10-03T07:03:21.107753+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  25.335649,
+                  83.007629
+                ],
+                "bbox": [
+                  82.847629,
+                  25.175649,
+                  83.167629,
+                  25.495649
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "pair": [
+                  {
+                    "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+                    "name": "Reliance SMART Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      25.293291,
+                      83.099103
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "f58278db-151b-4594-93ca-474f40170ae2"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "f58278db-151b-4594-93ca-474f40170ae2"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+                    "name": "Reliance SMART Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      25.347475,
+                      82.980583
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "operation": "identity_audit",
+              "evidence": {
+                "distance_m": 13349.6735938929,
+                "name_similarity": 1.0,
+                "qids": [
+                  null,
+                  null
+                ],
+                "categories": [
+                  "shopping",
+                  "shopping"
+                ]
+              },
+              "image_hashes": [],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "040504d79027e1b753449b39aca87140b804c4db17b637b107fa040adb44c7ed"
+            }
+          }
+        },
+        {
+          "members": [
+            {
+              "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+              "name": "Reliance SMART Bazaar",
+              "aliases": [],
+              "coordinates": [
+                25.317009,
+                82.991153
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "2175aae2-6e04-4daf-9302-a3017777dda8"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "2175aae2-6e04-4daf-9302-a3017777dda8"
+                }
+              ]
+            },
+            {
+              "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+              "name": "Reliance SMART Bazaar",
+              "aliases": [],
+              "coordinates": [
+                25.347475,
+                82.980583
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+                }
+              ]
+            }
+          ],
+          "distance_m": 3550.3211478019616,
+          "name_similarity": 1.0,
+          "qids": [
+            null,
+            null
+          ],
+          "categories": [
+            "shopping",
+            "shopping"
+          ],
+          "decision": "UNRESOLVED",
+          "confidence": 0.0,
+          "reason_codes": [
+            "INSUFFICIENT_IDENTITY_CORROBORATION"
+          ],
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "identity_audit",
+            "input_hash": "89e8a9e33bb837a2e22a82d53ddf31d11589913414d0fe5bc885b86923d1caf2",
+            "created_at": "2026-10-03T07:03:21.109286+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  25.335649,
+                  83.007629
+                ],
+                "bbox": [
+                  82.847629,
+                  25.175649,
+                  83.167629,
+                  25.495649
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "pair": [
+                  {
+                    "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+                    "name": "Reliance SMART Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      25.317009,
+                      82.991153
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "2175aae2-6e04-4daf-9302-a3017777dda8"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "2175aae2-6e04-4daf-9302-a3017777dda8"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yc_in_up_varanasi_reliance_smart_bazaar",
+                    "name": "Reliance SMART Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      25.347475,
+                      82.980583
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "623edb10-0eb2-4cc2-8a1d-2dc94619d826"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "operation": "identity_audit",
+              "evidence": {
+                "distance_m": 3550.3211478019616,
+                "name_similarity": 1.0,
+                "qids": [
+                  null,
+                  null
+                ],
+                "categories": [
+                  "shopping",
+                  "shopping"
+                ]
+              },
+              "image_hashes": [],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "040504d79027e1b753449b39aca87140b804c4db17b637b107fa040adb44c7ed"
+            }
+          }
+        }
+      ],
+      "proposed_new_candidate_ids": [
+        "yc_in_up_varanasi_reliance_smart_bazaar_c0cc70bcf4fd",
+        "yc_in_up_varanasi_reliance_smart_bazaar_9d48b265e0ee",
+        "yc_in_up_varanasi_reliance_smart_bazaar_c9872aa3a02e"
+      ],
+      "reason_codes": [
+        "MULTIPLE_SOURCE_MEMBERS_SHARE_NAME_BASED_CANONICAL_ID"
+      ],
+      "migration_applied": false
+    },
+    {
+      "canonical_id": "yc_in_up_varanasi_agrawal_toys_emporium",
+      "decision": "UPSTREAM_CANONICAL_ID_BUG",
+      "action": "REVIEW",
+      "members": [
+        {
+          "canonical_id": "yc_in_up_varanasi_agrawal_toys_emporium",
+          "name": "Agrawal toys emporium",
+          "name_en": "Agrawal toys emporium",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 25.291116,
+          "longitude": 83.00552,
+          "category": "shopping",
+          "subcategory": "bazaar",
+          "category_votes": [
+            {
+              "category": "shopping",
+              "subcategory": "bazaar",
+              "source": "name_heuristic",
+              "weight": 0.5
+            }
+          ],
+          "tier": "recommended",
+          "address": "B 2/44 Lolark Kund Road Tulsi Ghat",
+          "website": "http://agrawaltoysemporium.com/",
+          "phone": "+919415225024",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "shopping",
+            "bazaar",
+            "market",
+            "local_crafts",
+            "souvenirs"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "2a7a4407-6aa4-46f6-9da5-189b9ef87a97"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "2a7a4407-6aa4-46f6-9da5-189b9ef87a97"
+            }
+          ],
+          "confidence": 0.6257659792900085,
+          "relevance_stage1": "REVIEW_CANDIDATE",
+          "relevance_reason1": "UNCLASSIFIED_REQUIRES_RESOLUTION",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Recognized craft, bazaar, or specialty venue"
+            ],
+            "directory_signals": [
+              "Official website verified",
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 3.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours"
+          ],
+          "source_count": 1
+        },
+        {
+          "canonical_id": "yc_in_up_varanasi_agrawal_toys_emporium",
+          "name": "Agrawal Toys Emporium",
+          "name_en": "Agrawal Toys Emporium",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 25.310208,
+          "longitude": 82.979176,
+          "category": "shopping",
+          "subcategory": "bazaar",
+          "category_votes": [
+            {
+              "category": "shopping",
+              "subcategory": "bazaar",
+              "source": "name_heuristic",
+              "weight": 0.5
+            }
+          ],
+          "tier": "recommended",
+          "address": "D,10/56 Vishwanathgali",
+          "website": null,
+          "phone": "+919415225024",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "shopping",
+            "bazaar",
+            "market",
+            "local_crafts",
+            "souvenirs"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "f0d844dc-074f-4d86-9d09-7f0cb7786644"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "f0d844dc-074f-4d86-9d09-7f0cb7786644"
+            }
+          ],
+          "confidence": 0.5525100827217102,
+          "relevance_stage1": "REVIEW_CANDIDATE",
+          "relevance_reason1": "UNCLASSIFIED_REQUIRES_RESOLUTION",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Recognized craft, bazaar, or specialty venue"
+            ],
+            "directory_signals": [
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 2.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours",
+            "website"
+          ],
+          "source_count": 1
+        }
+      ],
+      "pair_assessments": [
+        {
+          "members": [
+            {
+              "id": "yc_in_up_varanasi_agrawal_toys_emporium",
+              "name": "Agrawal toys emporium",
+              "aliases": [],
+              "coordinates": [
+                25.291116,
+                83.00552
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "2a7a4407-6aa4-46f6-9da5-189b9ef87a97"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "2a7a4407-6aa4-46f6-9da5-189b9ef87a97"
+                }
+              ]
+            },
+            {
+              "id": "yc_in_up_varanasi_agrawal_toys_emporium",
+              "name": "Agrawal Toys Emporium",
+              "aliases": [],
+              "coordinates": [
+                25.310208,
+                82.979176
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "f0d844dc-074f-4d86-9d09-7f0cb7786644"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "f0d844dc-074f-4d86-9d09-7f0cb7786644"
+                }
+              ]
+            }
+          ],
+          "distance_m": 3394.187431358912,
+          "name_similarity": 1.0,
+          "qids": [
+            null,
+            null
+          ],
+          "categories": [
+            "shopping",
+            "shopping"
+          ],
+          "decision": "UNRESOLVED",
+          "confidence": 0.0,
+          "reason_codes": [
+            "INSUFFICIENT_IDENTITY_CORROBORATION"
+          ],
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "identity_audit",
+            "input_hash": "8214f11a7b6a0b1f6148f9aa4f80b60ec16f811b89b479d2730a4928a9ba5527",
+            "created_at": "2026-10-03T07:03:21.112501+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  25.335649,
+                  83.007629
+                ],
+                "bbox": [
+                  82.847629,
+                  25.175649,
+                  83.167629,
+                  25.495649
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "pair": [
+                  {
+                    "id": "yc_in_up_varanasi_agrawal_toys_emporium",
+                    "name": "Agrawal toys emporium",
+                    "aliases": [],
+                    "coordinates": [
+                      25.291116,
+                      83.00552
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "2a7a4407-6aa4-46f6-9da5-189b9ef87a97"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "2a7a4407-6aa4-46f6-9da5-189b9ef87a97"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yc_in_up_varanasi_agrawal_toys_emporium",
+                    "name": "Agrawal Toys Emporium",
+                    "aliases": [],
+                    "coordinates": [
+                      25.310208,
+                      82.979176
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "f0d844dc-074f-4d86-9d09-7f0cb7786644"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "f0d844dc-074f-4d86-9d09-7f0cb7786644"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "operation": "identity_audit",
+              "evidence": {
+                "distance_m": 3394.187431358912,
+                "name_similarity": 1.0,
+                "qids": [
+                  null,
+                  null
+                ],
+                "categories": [
+                  "shopping",
+                  "shopping"
+                ]
+              },
+              "image_hashes": [],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "040504d79027e1b753449b39aca87140b804c4db17b637b107fa040adb44c7ed"
+            }
+          }
+        }
+      ],
+      "proposed_new_candidate_ids": [
+        "yc_in_up_varanasi_agrawal_toys_emporium_372bb626d4fb",
+        "yc_in_up_varanasi_agrawal_toys_emporium_472c616e3429"
+      ],
+      "reason_codes": [
+        "MULTIPLE_SOURCE_MEMBERS_SHARE_NAME_BASED_CANONICAL_ID"
+      ],
+      "migration_applied": false
+    },
+    {
+      "canonical_id": "yc_in_up_varanasi_big_bazaar",
+      "decision": "UPSTREAM_CANONICAL_ID_BUG",
+      "action": "REVIEW",
+      "members": [
+        {
+          "canonical_id": "yc_in_up_varanasi_big_bazaar",
+          "name": "Big Bazaar",
+          "name_en": "Big Bazaar",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 25.328599,
+          "longitude": 82.994633,
+          "category": "shopping",
+          "subcategory": "bazaar",
+          "category_votes": [
+            {
+              "category": "shopping",
+              "subcategory": "bazaar",
+              "source": "name_heuristic",
+              "weight": 0.5
+            }
+          ],
+          "tier": "recommended",
+          "address": "Nai Sarak",
+          "website": "https://m.youtube.com/channel/UCYZEAX9La_3Jnv8d8e-VVTg",
+          "phone": "+919559269510",
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "shopping",
+            "bazaar",
+            "market",
+            "local_crafts",
+            "souvenirs"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "c14429b0-a815-4372-b04c-04ce50e1f057"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "c14429b0-a815-4372-b04c-04ce50e1f057"
+            }
+          ],
+          "confidence": 0.05672088637948036,
+          "relevance_stage1": "REVIEW_CANDIDATE",
+          "relevance_reason1": "UNCLASSIFIED_REQUIRES_RESOLUTION",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Recognized craft, bazaar, or specialty venue"
+            ],
+            "directory_signals": [
+              "Official website verified",
+              "Contact details complete"
+            ],
+            "travel_points": 2,
+            "total_points": 3.5
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours"
+          ],
+          "source_count": 1
+        },
+        {
+          "canonical_id": "yc_in_up_varanasi_big_bazaar",
+          "name": "Big Bazaar",
+          "name_en": "Big Bazaar",
+          "name_hi": null,
+          "alternate_names": [],
+          "alternate_name_records": [],
+          "latitude": 25.31665,
+          "longitude": 82.97797,
+          "category": "shopping",
+          "subcategory": "bazaar",
+          "category_votes": [
+            {
+              "category": "shopping",
+              "subcategory": "bazaar",
+              "source": "name_heuristic",
+              "weight": 0.5
+            }
+          ],
+          "tier": "recommended",
+          "address": null,
+          "website": null,
+          "phone": null,
+          "email": null,
+          "opening_hours": null,
+          "opening_hours_source": "overture",
+          "wikidata_id": null,
+          "wikipedia_url": null,
+          "wikidata_p18": null,
+          "commons_image": null,
+          "commons_category": null,
+          "tags": [
+            "shopping",
+            "bazaar",
+            "market",
+            "local_crafts",
+            "souvenirs"
+          ],
+          "osm_tags": {},
+          "prose": null,
+          "external_ids": {
+            "overture_ids": [
+              "ff482c12-9a13-4956-8f21-bd2c662a64ca"
+            ]
+          },
+          "sources_provenance": [
+            {
+              "source": "overture",
+              "source_id": "ff482c12-9a13-4956-8f21-bd2c662a64ca"
+            }
+          ],
+          "confidence": 0.3719196021556854,
+          "relevance_stage1": "REVIEW_CANDIDATE",
+          "relevance_reason1": "UNCLASSIFIED_REQUIRES_RESOLUTION",
+          "review_priority": "HIGH",
+          "suggested_action": "APPROVE_AS_SECONDARY_DESTINATION",
+          "travel_relevance_decision": "REVIEW",
+          "travel_relevance_reason": "SECONDARY_COMMERCIAL_REQUIRES_AUDIT",
+          "travel_relevance_score": 0.45,
+          "travel_relevance_evidence": {
+            "travel_signals": [
+              "Recognized craft, bazaar, or specialty venue"
+            ],
+            "directory_signals": [],
+            "travel_points": 2,
+            "total_points": 2.0
+          },
+          "missing_fields": [
+            "primary_image",
+            "description",
+            "opening_hours",
+            "website",
+            "address"
+          ],
+          "source_count": 1
+        }
+      ],
+      "pair_assessments": [
+        {
+          "members": [
+            {
+              "id": "yc_in_up_varanasi_big_bazaar",
+              "name": "Big Bazaar",
+              "aliases": [],
+              "coordinates": [
+                25.328599,
+                82.994633
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "c14429b0-a815-4372-b04c-04ce50e1f057"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "c14429b0-a815-4372-b04c-04ce50e1f057"
+                }
+              ]
+            },
+            {
+              "id": "yc_in_up_varanasi_big_bazaar",
+              "name": "Big Bazaar",
+              "aliases": [],
+              "coordinates": [
+                25.31665,
+                82.97797
+              ],
+              "city": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India"
+              },
+              "category": "shopping",
+              "external_ids": {
+                "overture_ids": [
+                  "ff482c12-9a13-4956-8f21-bd2c662a64ca"
+                ]
+              },
+              "sources": [
+                {
+                  "source": "overture",
+                  "source_id": "ff482c12-9a13-4956-8f21-bd2c662a64ca"
+                }
+              ]
+            }
+          ],
+          "distance_m": 2137.8359441218226,
+          "name_similarity": 1.0,
+          "qids": [
+            null,
+            null
+          ],
+          "categories": [
+            "shopping",
+            "shopping"
+          ],
+          "decision": "UNRESOLVED",
+          "confidence": 0.0,
+          "reason_codes": [
+            "INSUFFICIENT_IDENTITY_CORROBORATION"
+          ],
+          "action": "REVIEW",
+          "ai": {
+            "status": "AI_UNAVAILABLE",
+            "operation": "identity_audit",
+            "input_hash": "2356a2151443b3954f0529463f4e5042c5672102a506f60f8d30063a73f46955",
+            "created_at": "2026-10-03T07:03:21.115181+00:00",
+            "reason_codes": [
+              "AI_UNAVAILABLE"
+            ],
+            "inputs": {
+              "city_context": {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "state": "Uttar Pradesh",
+                "country": "India",
+                "alternate_names": [],
+                "center": [
+                  25.335649,
+                  83.007629
+                ],
+                "bbox": [
+                  82.847629,
+                  25.175649,
+                  83.167629,
+                  25.495649
+                ],
+                "timezone": "Asia/Kolkata",
+                "administrative_ids": null,
+                "source_identifiers": null,
+                "boundary_geometry": null,
+                "region_bbox": null
+              },
+              "place": {
+                "pair": [
+                  {
+                    "id": "yc_in_up_varanasi_big_bazaar",
+                    "name": "Big Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      25.328599,
+                      82.994633
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "c14429b0-a815-4372-b04c-04ce50e1f057"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "c14429b0-a815-4372-b04c-04ce50e1f057"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yc_in_up_varanasi_big_bazaar",
+                    "name": "Big Bazaar",
+                    "aliases": [],
+                    "coordinates": [
+                      25.31665,
+                      82.97797
+                    ],
+                    "city": {
+                      "id": "varanasi",
+                      "name": "Varanasi",
+                      "state": "Uttar Pradesh",
+                      "country": "India"
+                    },
+                    "category": "shopping",
+                    "external_ids": {
+                      "overture_ids": [
+                        "ff482c12-9a13-4956-8f21-bd2c662a64ca"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "source": "overture",
+                        "source_id": "ff482c12-9a13-4956-8f21-bd2c662a64ca"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "operation": "identity_audit",
+              "evidence": {
+                "distance_m": 2137.8359441218226,
+                "name_similarity": 1.0,
+                "qids": [
+                  null,
+                  null
+                ],
+                "categories": [
+                  "shopping",
+                  "shopping"
+                ]
+              },
+              "image_hashes": [],
+              "prompt_version": "2026-10-02.1",
+              "schema_hash": "040504d79027e1b753449b39aca87140b804c4db17b637b107fa040adb44c7ed"
+            }
+          }
+        }
+      ],
+      "proposed_new_candidate_ids": [
+        "yc_in_up_varanasi_big_bazaar_a589ddef358d",
+        "yc_in_up_varanasi_big_bazaar_b932486b8fd2"
+      ],
+      "reason_codes": [
+        "MULTIPLE_SOURCE_MEMBERS_SHARE_NAME_BASED_CANONICAL_ID"
+      ],
+      "migration_applied": false
+    }
+  ],
+  "ai_usage": {
+    "AI_MODE": "FREE_ONLY",
+    "enabled": true,
+    "stats": {
+      "calls": 0,
+      "images": 0,
+      "vision_calls": 0,
+      "escalations": 0,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "success": 0,
+      "rate_limit": 0,
+      "timeout": 0,
+      "fallback": 0,
+      "paid_feature_calls": 0,
+      "deferred_jobs": 5
+    },
+    "events": [],
+    "paid_providers": "DISABLED",
+    "paid_providers_invoked": 0,
+    "paid_feature_calls": 0
+  },
+  "downstream_files_modified": 0
+}

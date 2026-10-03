@@ -1,13 +1,12 @@
 {
   "city": "varanasi",
-  "total_core_destinations": 131,
-  "core_with_image": 93,
-  "core_missing_image": 38,
+  "total_core_destinations": 117,
+  "core_with_image": 82,
+  "core_missing_image": 35,
   "failure_reasons_summary": {
-    "no_wikidata": 27,
-    "no_P18": 6,
-    "wikipedia_no_image": 4,
-    "commons_category_empty": 1
+    "no_wikidata": 17,
+    "wikipedia_no_image": 16,
+    "no_P18": 2
   },
   "failed_destinations": [
     {
@@ -18,24 +17,10 @@
       "failure_reason": "wikipedia_no_image"
     },
     {
-      "id": "yc_in_up_varanasi_mahatma_gandhi_kashi_vidyapeeth",
-      "name": "Mahatma Gandhi Kashi Vidyapeeth",
-      "category": "heritage",
-      "wikidata_id": "Q5628071",
-      "failure_reason": "commons_category_empty"
-    },
-    {
       "id": "yc_in_up_varanasi_kachhua_sanctuary",
       "name": "Kachhua Sanctuary",
       "category": "heritage",
       "wikidata_id": "Q6344663",
-      "failure_reason": "wikipedia_no_image"
-    },
-    {
-      "id": "yc_in_up_varanasi_rajghat_besant_school",
-      "name": "Rajghat Besant School",
-      "category": "nature",
-      "wikidata_id": "Q7286119",
       "failure_reason": "wikipedia_no_image"
     },
     {
@@ -46,11 +31,11 @@
       "failure_reason": "wikipedia_no_image"
     },
     {
-      "id": "yc_in_up_varanasi_w_h_smith_memorial_school",
-      "name": "W. H. Smith Memorial School",
+      "id": "yc_in_up_varanasi_jantar_mantar",
+      "name": "Jantar Mantar",
       "category": "heritage",
-      "wikidata_id": "Q24906786",
-      "failure_reason": "no_P18"
+      "wikidata_id": null,
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_backpackers_park",
@@ -64,7 +49,7 @@
       "name": "Shree Ganesha Palace",
       "category": "heritage",
       "wikidata_id": "Q111861483",
-      "failure_reason": "no_P18"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_ganj_e_shaheedan_mosque",
@@ -74,18 +59,11 @@
       "failure_reason": "no_P18"
     },
     {
-      "id": "yc_in_up_varanasi_hdfc_bank_orderly_bazaar_varanasi_branch",
-      "name": "HDFC Bank Orderly Bazaar varanasi branch",
+      "id": "yc_in_up_varanasi_rajghat",
+      "name": "Rajghat",
       "category": "heritage",
-      "wikidata_id": "Q66640421",
-      "failure_reason": "no_P18"
-    },
-    {
-      "id": "yc_in_up_varanasi_hdfc_bank_nichibagh_branch",
-      "name": "HDFC Bank Nichibagh branch",
-      "category": "park",
-      "wikidata_id": "Q66655184",
-      "failure_reason": "no_P18"
+      "wikidata_id": null,
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_kiran_center",
@@ -99,14 +77,14 @@
       "name": "Rana Ghat",
       "category": "heritage",
       "wikidata_id": null,
-      "failure_reason": "no_wikidata"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_kedar_ghat",
       "name": "Kedar Ghat",
       "category": "heritage",
       "wikidata_id": null,
-      "failure_reason": "no_wikidata"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_gauri_matha_temple",
@@ -120,7 +98,7 @@
       "name": "Tulsi Manas Temple",
       "category": "heritage",
       "wikidata_id": null,
-      "failure_reason": "no_wikidata"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_kriti_gallery",
@@ -141,6 +119,13 @@
       "name": "Karnataka Ghat",
       "category": "heritage",
       "wikidata_id": null,
+      "failure_reason": "wikipedia_no_image"
+    },
+    {
+      "id": "yc_in_up_varanasi_ganesh_ghat",
+      "name": "Ganesh Ghat",
+      "category": "heritage",
+      "wikidata_id": null,
       "failure_reason": "no_wikidata"
     },
     {
@@ -148,14 +133,7 @@
       "name": "Sankatha Ghat",
       "category": "heritage",
       "wikidata_id": null,
-      "failure_reason": "no_wikidata"
-    },
-    {
-      "id": "yc_in_up_varanasi_anandamayee_ghat",
-      "name": "Anandamayee Ghat",
-      "category": "heritage",
-      "wikidata_id": null,
-      "failure_reason": "no_wikidata"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_darbhanga_ghat",
@@ -179,13 +157,6 @@
       "failure_reason": "no_wikidata"
     },
     {
-      "id": "yc_in_up_varanasi_mahanirvani_ghat",
-      "name": "Mahanirvani Ghat",
-      "category": "heritage",
-      "wikidata_id": null,
-      "failure_reason": "no_wikidata"
-    },
-    {
       "id": "yc_in_up_varanasi_nandeshwar_ghat",
       "name": "Nandeshwar Ghat",
       "category": "heritage",
@@ -197,14 +168,14 @@
       "name": "Niranjani Ghat",
       "category": "heritage",
       "wikidata_id": null,
-      "failure_reason": "no_wikidata"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_naya_ghat",
       "name": "Naya Ghat",
       "category": "heritage",
       "wikidata_id": null,
-      "failure_reason": "no_wikidata"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_panchkot_ghat",
@@ -232,11 +203,18 @@
       "name": "Gola Ghat",
       "category": "heritage",
       "wikidata_id": null,
-      "failure_reason": "no_wikidata"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_janki_ghat",
       "name": "janki ghat",
+      "category": "heritage",
+      "wikidata_id": null,
+      "failure_reason": "no_wikidata"
+    },
+    {
+      "id": "yc_in_up_varanasi_manleshwar_mahadev",
+      "name": "Manleshwar Mahadev",
       "category": "heritage",
       "wikidata_id": null,
       "failure_reason": "no_wikidata"
@@ -253,14 +231,14 @@
       "name": "Shri Guru Ravidass Gate",
       "category": "heritage",
       "wikidata_id": null,
-      "failure_reason": "no_wikidata"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_chet_singh_ghat",
       "name": "Chet Singh Ghat",
       "category": "heritage",
       "wikidata_id": null,
-      "failure_reason": "no_wikidata"
+      "failure_reason": "wikipedia_no_image"
     },
     {
       "id": "yc_in_up_varanasi_handicraft_museum",

@@ -15,6 +15,26 @@ from datafactory.models.image import ImageMetadata, PlaceImages
 from datafactory.models.provenance import SourceRecord, FieldProvenance
 
 
+@pytest.fixture(autouse=True)
+def no_live_http(monkeypatch):
+    import httpx
+    def reject_live_http(self, request):
+        raise AssertionError("Live HTTP is disabled in tests; use a fixture or MockTransport")
+    monkeypatch.setattr(httpx.HTTPTransport,"handle_request",reject_live_http)
+
+
+@pytest.fixture
+def geonames_fixture(monkeypatch):
+    from datafactory.sources.geonames_bulk import GeoNamesBulkSource
+    rows = []
+    for i,(name,state,lat,lon) in enumerate([("Jaipur","Rajasthan",26.9124,75.7873),
+        ("Manali","Tamil Nadu",13.16,80.26),("Shimla","Himachal Pradesh",31.10,77.17)]):
+        rows.append({"geoname_id":str(100+i),"name":name,"asciiname":name,"alternate_names":[],
+            "latitude":lat,"longitude":lon,"country_code":"IN","state":state,"population":100000,
+            "timezone":"Asia/Kolkata"})
+    monkeypatch.setattr(GeoNamesBulkSource,"_load_cities",lambda self: rows)
+
+
 @pytest.fixture
 def sample_city_metadata():
     return CityMetadata(

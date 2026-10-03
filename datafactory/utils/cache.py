@@ -1,25 +1,33 @@
 import json
 import time
+import hashlib
 from pathlib import Path
 from typing import Any, Optional
 from ..config.settings import get_settings
 
 
 class DiskCache:
-    def __init__(self, cache_subdir: str = "http"):
+    def __init__(self, cache_subdir: str = "http", *, create=True):
         self.settings = get_settings()
         self.cache_dir = self.settings.cache_dir / cache_subdir
-        self.cache_dir.mkdir(parents=True, exist_ok=True)
+        if create:
+            self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.ttl = self.settings.cache_ttl_seconds
 
     def _get_path(self, key: str) -> Path:
-        safe_key = "".join(c if c.isalnum() or c in "._-" else "_" for c in key)
+        safe_key = hashlib.sha256(key.encode("utf-8")).hexdigest()
         return self.cache_dir / f"{safe_key}.json"
 
     def get(self, key: str) -> Optional[Any]:
         path = self._get_path(key)
         if not path.exists():
-            return None
+            # Preserve existing caches during migration to collision-free hashed keys.
+            legacy = "".join(c if c.isalnum() or c in "._-" else "_" for c in key)
+            if len(legacy) > 180:
+                return None
+            path = self.cache_dir / f"{legacy}.json"
+            if not path.exists():
+                return None
         try:
             with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -33,10 +41,10 @@ class DiskCache:
     def set(self, key: str, value: Any) -> None:
         path = self._get_path(key)
         try:
-            with open(path, "w", encoding="utf-8") as f:
-                json.dump({
+            from .atomic import atomic_json
+            atomic_json(path, {
                     "_cached_at": time.time(),
                     "payload": value
-                }, f, ensure_ascii=False, indent=2)
+                })
         except Exception:
             pass

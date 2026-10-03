@@ -1,0 +1,20 @@
+target_usability: 0.95
+identity_threshold: 0.90
+visual_threshold: 0.90
+region_max_distance_km: 120
+coordinate_agreement_m: 100
+coordinate_minor_variance_m: 300
+coordinate_conflict_m: 2000
+hours_freshness_days: 90
+source_research_max_places: 20
+media_discovery_max_places: 20
+media:
+  minimum_width: 350
+  minimum_height: 250
+  maximum_bytes: 20000000
+  finalists: 3
+fallbacks:
+  # The YatraCanvas app owns category placeholders when a photo is absent.
+  strategy: app
+  variants_per_category: 8
+  directory: assets/fallbacks

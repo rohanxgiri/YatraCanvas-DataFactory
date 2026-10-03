@@ -1,0 +1,41 @@
+[
+  {
+    "place_id": "yc_in_up_varanasi_narad_ghat",
+    "field": "description",
+    "value": "The ghat on which bathing with spouse is not advised because of the myth of contention.",
+    "source": "wikivoyage",
+    "source_id": "wv_varanasi_narad_ghat",
+    "source_url": "https://en.wikivoyage.org/wiki/Varanasi",
+    "retrieved_at": "2026-09-19T10:47:30.840360+00:00",
+    "original_source_text": "The ghat on which bathing with spouse is not advised because of the myth of contention.",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_up_varanasi_gauri_matha_temple",
+    "field": "description",
+    "value": "The devi at this temple is supposed to be the sister of the lord Kashi Vishwanath. It is a tradition to visit her just before you leave Kashi. You buy sea shells at this place and offer them to God saying that the virtues of donating the shells go to her while you keep the virtues of having visited the holy shrines in Kashi and bathing in the Ganges. The trip to Kashi is expected to yield results only after completing this custom.",
+    "source": "wikivoyage",
+    "source_id": "wv_varanasi_gauri_matha_temple",
+    "source_url": "https://en.wikivoyage.org/wiki/Varanasi",
+    "retrieved_at": "2026-09-19T10:47:30.840360+00:00",
+    "original_source_text": "The devi at this temple is supposed to be the sister of the lord Kashi Vishwanath. It is a tradition to visit her just before you leave Kashi. You buy sea shells at this place and offer them to God saying that the virtues of donating the shells go to her while you keep the virtues of having visited the holy shrines in Kashi and bathing in the Ganges. The trip to Kashi is expected to yield results only after completing this custom.",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_up_varanasi_gowdalia_chowk",
+    "field": "description",
+    "value": "One of the most busy shopping areas in Varanasi. Products that are available here include silk and ''zari'' sarees, ''salwar'' suits, garments, bags and handicrafts.",
+    "source": "wikivoyage",
+    "source_id": "wv_varanasi_gowdalia_chowk",
+    "source_url": "https://en.wikivoyage.org/wiki/Varanasi",
+    "retrieved_at": "2026-09-19T10:47:30.840360+00:00",
+    "original_source_text": "One of the most busy shopping areas in Varanasi. Products that are available here include silk and ''zari'' sarees, ''salwar'' suits, garments, bags and handicrafts.",
+    "check_date": "2020-02-09",
+    "confidence": 0.95,
+    "ai_assisted": false
+  }
+]

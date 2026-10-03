@@ -1,10 +1,10 @@
 {
-  "city.json": "cf1d7a0f287cebf20537d981c0956b0f9f4d7f51d1e6d4304e62bcbe6641cb47",
-  "places.json": "7f283f7411afc4ce5d01fd58f83d0b8db31c72638dde480ccbf635c29ffd5568",
-  "places.jsonl": "6d100572f00a769b8a035f9f91e79035564d066c9041d91208c1aec3bd5d7d4f",
-  "places.parquet": "1106e20a7c2f7a4b25b4461cb0ee2d38ea198b8d3ed96b01c6fb73c78db1731b",
-  "image_manifest.json": "1dc2177146ad0c0239675c79af4b22981cc7d6d527cf8ce402e93ff932252dd3",
-  "source_manifest.json": "cacef17858307c5fde1d502cc6c5d1ced3f0347a80320e603a765e0c8e8a20d4",
+  "city.json": "4a48efbd65ee52c17e863e72b317f2ec2caee10e8d0f21c694741c5dda85141d",
+  "places.json": "cb1be819732a10503c0257b1ed3a2f43fcbaa9c0aad9dda99167cccdca711199",
+  "places.jsonl": "3e6593605bfcee87e616a37da740baba8094d7b3990e8efb20d19ad632a8b04a",
+  "places.parquet": "7be5f35c57337e3428470ab72ef91eb04a145c293cd0039692cbf897768f9050",
+  "image_manifest.json": "d7e5a2d4fc34b2d304f1e2f1807b2f89139ce8713845c6e0183c615bce15e18a",
+  "source_manifest.json": "ef6b1cfabe169712d7d345983619a0f83fff2d9b566ade4363d6de87cc878c16",
   "license_manifest.json": "ca96986da832c97a64b35585bf73b8e29dac70466f7089e7c5863a953ee6857d",
-  "yatracanvas.db": "2eb98652b5886ef70100238121c0433073316996b2b186cd372cbc98b48ecc3f"
+  "yatracanvas.db": "cf908e4ffe3508b7f4c8689d5ba880d7e96e7dd47bdd436fff3e8114c83c2764"
 }

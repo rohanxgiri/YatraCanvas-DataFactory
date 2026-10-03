@@ -73,15 +73,25 @@ class Settings(BaseSettings):
             d.mkdir(parents=True, exist_ok=True)
 
     def load_yaml(self, filename: str) -> Dict[str, Any]:
+        if not hasattr(self, "_yaml_cache"):
+            self._yaml_cache = {}
+        if filename in self._yaml_cache:
+            return self._yaml_cache[filename]
         file_path = self.config_dir / filename
         if not file_path.exists():
             return {}
         with open(file_path, "r", encoding="utf-8") as f:
-            return yaml.safe_load(f) or {}
+            data = yaml.safe_load(f) or {}
+            self._yaml_cache[filename] = data
+            return data
 
     @property
     def categories_config(self) -> Dict[str, Any]:
         return self.load_yaml("categories.yaml")
+
+    @property
+    def category_config(self) -> Dict[str, Any]:
+        return self.categories_config
 
     @property
     def quality_config(self) -> Dict[str, Any]:

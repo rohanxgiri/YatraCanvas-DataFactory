@@ -1,0 +1,200 @@
+{
+  "schema_version": "3.0",
+  "city_pack_version": "v3-app-fallbacks",
+  "city_id": "manali",
+  "city_name": "Manali",
+  "state": "Himachal Pradesh",
+  "country": "India",
+  "generated_at": "2026-09-19T19:41:43.812813+00:00",
+  "pipeline_health": "PASS",
+  "data_quality": "WARN",
+  "source_coverage": "PASS",
+  "source_versions": {
+    "wikivoyage": "74",
+    "wikidata": "20",
+    "openstreetmap": "504",
+    "overture": "3499"
+  },
+  "counts": {
+    "total_raw_candidates": 4097,
+    "accepted": 1702,
+    "rejected": 650,
+    "quarantined": 1372,
+    "duplicate_merges": 373,
+    "with_images": 12,
+    "with_opening_hours": 14,
+    "with_wikidata": 18,
+    "category_conflicts": 18590,
+    "entity_conflicts": 0,
+    "alias_conflicts": 0,
+    "image_conflicts": 0,
+    "coordinate_conflicts": 57,
+    "by_tier": {
+      "core_destination": 13,
+      "support": 1278,
+      "recommended": 147,
+      "discovery": 264
+    },
+    "by_tier_stats": {
+      "core_destination": {
+        "count": 13,
+        "with_wikidata": 7,
+        "with_wikipedia": 5,
+        "with_image": 11,
+        "with_hours": 1,
+        "with_website": 6,
+        "multi_source": 8
+      },
+      "recommended": {
+        "count": 147,
+        "with_wikidata": 0,
+        "with_wikipedia": 0,
+        "with_image": 0,
+        "with_hours": 7,
+        "with_website": 106,
+        "multi_source": 67
+      },
+      "discovery": {
+        "count": 264,
+        "with_wikidata": 0,
+        "with_wikipedia": 0,
+        "with_image": 0,
+        "with_hours": 1,
+        "with_website": 263,
+        "multi_source": 1
+      },
+      "support": {
+        "count": 1278,
+        "with_wikidata": 11,
+        "with_wikipedia": 1,
+        "with_image": 1,
+        "with_hours": 5,
+        "with_website": 1237,
+        "multi_source": 161
+      }
+    },
+    "by_category": {
+      "heritage": 11,
+      "nature": 6,
+      "religious": 10,
+      "hotel": 1278,
+      "food": 53,
+      "experience": 269,
+      "museum": 3,
+      "cafe": 65,
+      "viewpoint": 1,
+      "park": 5,
+      "shopping": 1
+    },
+    "with_descriptions": 8
+  },
+  "checksums": {
+    "ai_repair.json": "7dc96029c7b37c22aa6ede1de27e7416a70e534f3bc4007646f4160c9df61ee0",
+    "city.json": "e28aa5e44e7070e521be8f43a0c780fb5fcf4f19b9be26eff36507be056736c6",
+    "field_provenance.json": "cd0ef3d7c32b178fb7276f02236fe5815e47c7aed983ee72f92099057323f9be",
+    "images_manifest.json": "dd8d4c884a028fa33a20159596bc600dbc023ca08e84f207ba677f5605c6d66a",
+    "image_manifest.json": "dd8d4c884a028fa33a20159596bc600dbc023ca08e84f207ba677f5605c6d66a",
+    "license_manifest.json": "ca96986da832c97a64b35585bf73b8e29dac70466f7089e7c5863a953ee6857d",
+    "media_assurance.json": "98b9f1929ee6f749c09145d1baf7157aef588ea9ad4dc0e40cfd9575bdcef32e",
+    "places.json": "2381c7182c5ab7033c9b461286c177789cb187348ed418c6364d969b2a9b5fba",
+    "places.jsonl": "d34bf4f21be314a0dd34c02c2af012448e5e8de0a3f0fceaca8cd16a40b10aba",
+    "places.parquet": "2b9742b16777b3a9d28a3b736b30b8b7a34db6a9cd6f7a92be04b509aeee5ddb",
+    "quality_report.html": "1d8116f50237e2eebcb4b42cea2c992f643b15728c205c15a7347a0cb6efaf02",
+    "source_manifest.json": "97697b7e701f8cf98c1def4196ea67d69bac3c789172893fa7efb635e64858ec",
+    "usability.json": "f56b8dbc93ce9a46f7c8b694543d15730e724bf0d12ed921bc994c5e6160141c",
+    "yatracanvas.db": "e0069752d57fad0955f43c18a8c9b9fdf363239fd0e7d2ed94fcfebb6b2d7679",
+    "images/yc_in_hp_manali_bhrigu_lake/primary.webp": "d00a0b3d5af5594e64fb7caf975664066c9c41e7d73d9afb3da276f1aeff045a",
+    "images/yc_in_hp_manali_bhrigu_lake/thumbnail.webp": "f26d1837aa339907bfb782d4f38b2a83cd8bd20f114de90d30a5f06c840a333b",
+    "images/yc_in_hp_manali_hidimba_devi_temple_dhungri_manali/primary.webp": "82fde4e1aeddf05db5c45facdb4001f4d4961feaf31002f8addc7a91d3b638a3",
+    "images/yc_in_hp_manali_hidimba_devi_temple_dhungri_manali/thumbnail.webp": "63bb3a8666c6384e7d24e729098b63cf2ce1f35e775e72a8b030fcedd4ee7e06",
+    "images/yc_in_hp_manali_kartik_temple/primary.webp": "68b1442d1c4a959f6920c25590af5ec6963ea52a8af6df93975787b8ee7d3a44",
+    "images/yc_in_hp_manali_kartik_temple/thumbnail.webp": "816165c0896a62c1afdb980cbc9c14d69a8e61a21d9e79e75fb884320b9d8ffb",
+    "images/yc_in_hp_manali_lehmanali_highway/primary.webp": "eedf872c72cffbec9e1175ff542b3d6604b89eaefb002bdbf9ddfca48f833e1c",
+    "images/yc_in_hp_manali_lehmanali_highway/thumbnail.webp": "68b187bd5df95b4f51d574e9b5d82cfb253cfe7a63635d875a42fc8345be1b0e",
+    "images/yc_in_hp_manali_manali/primary.webp": "8fea163fcc98ca5a2f29baebe60deaf7d25f5a2bc8695a5159467480d7b690fd",
+    "images/yc_in_hp_manali_manali/thumbnail.webp": "b7e785d71c183d5aace0f34392ea455dae8fb7e0d54d0746b3100b7b61c315bc",
+    "images/yc_in_hp_manali_miniature_siva_temple_jagatsukh/primary.webp": "89fb4ac1a96499a8c27089ae232651ce9b77c13638d6fa01a047dd6e42ac20d5",
+    "images/yc_in_hp_manali_miniature_siva_temple_jagatsukh/thumbnail.webp": "eeaa6ba82f72ece039d0e1c9304e14524442d1daa3ec50b6f755b6c14b86ba79",
+    "images/yc_in_hp_manali_museum_of_himachal_culture_folk_arts/primary.webp": "37ffc9ebae7d502350500dcd4dcb18f50b30a1aed7ca4723c77ae0de3f1efab5",
+    "images/yc_in_hp_manali_museum_of_himachal_culture_folk_arts/thumbnail.webp": "539a26ea620f704a3566b1360af734bdc885ffd037da4edb4ca8f94efcc2ac10",
+    "images/yc_in_hp_manali_national_highway_3/primary.webp": "755873c494aaac95d289bc8822b1cd0a1d9d7de6b785316ef0483bbb0e285bdc",
+    "images/yc_in_hp_manali_national_highway_3/thumbnail.webp": "a47baf41366e87b380abbac861851a54ef50f857e196677116d4ca64df8699c6",
+    "images/yc_in_hp_manali_old_manali/primary.webp": "ae7ccc8b3838740f2009ef2d5d96242fb5436210117a4de0afa8087d5a3149b3",
+    "images/yc_in_hp_manali_old_manali/thumbnail.webp": "33eb5ed65516a398f4c9c6f1bb891e4c9a43113a85ff71d139a168237b54030a",
+    "images/yc_in_hp_manali_solang_valley/primary.webp": "b4487769c2126050aeefc9568967bad4abf4dbc2d24f0c10bc32023202521087",
+    "images/yc_in_hp_manali_solang_valley/thumbnail.webp": "5013d46d2bc07739c1b4dbb43b8651c23b944bd5984a681b7935f9510e4f7f60",
+    "images/yc_in_hp_manali_tourist_locations_in_manali/primary.webp": "8c0d981a4977065e56febb56341b11290073ec9603a3ca85cc5fa182b5a9b31f",
+    "images/yc_in_hp_manali_tourist_locations_in_manali/thumbnail.webp": "58c3a116dec2c0fdd5491a3c512ca0ab3e5f0355dbe499c9af71bf683a5c8916",
+    "images/yc_in_hp_manali_vashist_hot_water_springs_and_temple/primary.webp": "68b1442d1c4a959f6920c25590af5ec6963ea52a8af6df93975787b8ee7d3a44",
+    "images/yc_in_hp_manali_vashist_hot_water_springs_and_temple/thumbnail.webp": "816165c0896a62c1afdb980cbc9c14d69a8e61a21d9e79e75fb884320b9d8ffb"
+  },
+  "offline_assurance": {
+    "city": {
+      "id": "manali",
+      "name": "Manali",
+      "state": "Himachal Pradesh",
+      "country": "India"
+    },
+    "published": 1702,
+    "identity_valid": 1702,
+    "coordinates_valid": 1701,
+    "classification_valid": 1702,
+    "region_valid": 1695,
+    "renderable": 12,
+    "usable": 1,
+    "descriptions": 8,
+    "opening_hours": 14,
+    "addresses": 1590,
+    "media_policies": {
+      "REAL_REQUIRED": {
+        "total": 13,
+        "real": 11,
+        "verified_real": 0,
+        "required_unresolved": 13,
+        "missing": 2
+      },
+      "FALLBACK_ALLOWED": {
+        "total": 1673,
+        "real": 1,
+        "verified_real": 0,
+        "required_unresolved": 0,
+        "missing": 1672
+      },
+      "REAL_PREFERRED": {
+        "total": 16,
+        "missing": 16,
+        "verified_real": 0,
+        "required_unresolved": 0
+      }
+    },
+    "critical_blockers": {
+      "COORDINATE_INVALID_OR_CONFLICT": 1,
+      "CORE_MEDIA_UNRESOLVED": 13,
+      "MEDIA_NOT_RENDERABLE": 1690,
+      "TRAVEL_REGION_SUSPICIOUS": 7
+    },
+    "critical_blocker_pois": 1701,
+    "overall_usable_count": 1,
+    "overall_usable_percentage": 0.06,
+    "target_percentage": 95.0,
+    "DRAFT_OFFLINE_READY": true,
+    "CERTIFICATION_READY_SOURCE_DATA": false,
+    "SOURCE_DATA_READY": false,
+    "pack_status": "DRAFT_OFFLINE_PACK"
+  },
+  "ai_cost_safety": {
+    "AI_MODE": "FREE_ONLY",
+    "enabled": false,
+    "stats": {
+      "calls": 0,
+      "paid_feature_calls": 0
+    },
+    "events": []
+  },
+  "repair_source_version": "v3-offline-validated",
+  "fallback_presentation": {
+    "strategy": "app",
+    "missing_photo_representation": "images.primary=null",
+    "required_real_media_checks_unchanged": true
+  }
+}

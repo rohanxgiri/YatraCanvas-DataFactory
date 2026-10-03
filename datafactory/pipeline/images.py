@@ -151,6 +151,7 @@ def run_process_images(
             total_images_downloaded += 1
             item["image_metadata"] = primary_meta.model_dump()
             item["gallery_metadata"] = [g.model_dump() for g in gallery_metas]
+            item["image_missing_reason"] = None
             images_manifest[place_id] = {
                 "primary": primary_meta.model_dump(),
                 "gallery": [g.model_dump() for g in gallery_metas]
@@ -159,8 +160,30 @@ def run_process_images(
             # STRICT ZERO-HALLUCINATION RULE: primary_image = null if not verified
             item["image_metadata"] = None
             item["gallery_metadata"] = []
+            if not (p18_file or wv_image or commons_cat or wiki_url):
+                item["image_missing_reason"] = "NO_ENTITY_MATCH"
+            else:
+                item["image_missing_reason"] = "NO_COMMONS_MEDIA"
 
         places_with_images.append(item)
 
-    print(f"       Verified exact images processed: {total_images_downloaded} / {len(places_with_images)} places")
+    tier_img_counts = {}
+    tier_totals = {}
+    reason_counts = {}
+    for p in places_with_images:
+        t = p.get("tier", "discovery")
+        tier_totals[t] = tier_totals.get(t, 0) + 1
+        if p.get("image_metadata"):
+            tier_img_counts[t] = tier_img_counts.get(t, 0) + 1
+        else:
+            r = p.get("image_missing_reason") or "UNKNOWN"
+            reason_counts[r] = reason_counts.get(r, 0) + 1
+
+    print(f"       Verified exact images processed: {total_images_downloaded} / {len(places_with_images)} places ({total_images_downloaded/max(1, len(places_with_images))*100:.1f}%)")
+    for t, total in tier_totals.items():
+        cnt = tier_img_counts.get(t, 0)
+        print(f"         - {t}: {cnt} / {total} images ({cnt/max(1, total)*100:.1f}%)")
+    if reason_counts:
+        print(f"       Missing image reason diagnostics: {reason_counts}")
+
     return places_with_images, images_manifest

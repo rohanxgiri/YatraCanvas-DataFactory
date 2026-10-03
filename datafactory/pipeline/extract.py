@@ -12,6 +12,7 @@ from ..sources.foursquare_os import FoursquareOSSource
 from ..sources.alltheplaces import AllThePlacesSource
 from ..utils.geo import expand_bbox
 from ..utils.text import slugify
+from ..utils.source_scope import scope_source_cache
 
 
 def run_extract(
@@ -37,22 +38,22 @@ def run_extract(
     overture_raw_path = raw_base / "overture" / "places_raw.parquet"
     osm_raw_path = raw_base / "osm" / "places_raw.json"
 
-    # Expand city bbox slightly (3%) to capture border attractions (e.g. Amber Fort, Jaigarh)
-    search_bbox = expand_bbox(city_meta.bbox, margin_ratio=0.03)
+    # A supplied travel-region bbox enables regional discovery; municipal bounds are not universal.
+    search_bbox = city_meta.region_bbox or expand_bbox(city_meta.bbox, margin_ratio=0.03)
 
     discovered_sources: Dict[str, List[Dict[str, Any]]] = {}
 
     # Source 1: Wikivoyage Travel Listings
     print(f"[Stage 2/20] Discovering Wikivoyage travel listings for {city_meta.name}...")
-    wv_source = WikivoyageSource()
-    wv_places = wv_source.fetch_city_listings(city_meta.name, search_bbox, alternate_names=city_meta.alternate_names)
+    wv_source = scope_source_cache(WikivoyageSource(), city_meta)
+    wv_places = wv_source.fetch_city_listings(city_meta.name, search_bbox, alternate_names=city_meta.alternate_names, city_context=city_meta.model_dump())
     discovered_sources["wikivoyage"] = wv_places
 
     print(f"       Wikivoyage listings: {len(wv_places)}")
 
     # Source 2: Wikidata Spatial Attractions Discovery
     print(f"[Stage 3/20] Discovering Wikidata spatial travel attractions for {city_meta.name}...")
-    wiki_enricher = WikidataEnricher()
+    wiki_enricher = scope_source_cache(WikidataEnricher(), city_meta)
     wd_places = wiki_enricher.discover_city_attractions(search_bbox, city_meta.name)
     discovered_sources["wikidata"] = wd_places
     print(f"       Wikidata spatial attractions: {len(wd_places)}")
@@ -60,6 +61,8 @@ def run_extract(
     # Source 3: OpenStreetMap Local PBF Extraction
     print(f"[Stage 4/20] Extracting OpenStreetMap local travel POIs for {city_meta.name}...")
     osm_source = OSMPbfSource()
+    # Regional PBFs remain global; extracted city records have a full administrative scope.
+    osm_source.city_cache_dir = settings.source_cache_dir / "osm" / c_slug / s_slug / city_slug
     osm_places = osm_source.extract_city_places(search_bbox, city_meta.state, city_slug, osm_raw_path)
     discovered_sources["openstreetmap"] = osm_places
     print(f"       OSM places candidates: {len(osm_places)}")
@@ -73,14 +76,14 @@ def run_extract(
 
     # Source 5: Foursquare OS Places (Optional)
     print(f"[Stage 6/20] Checking Foursquare OS Places for {city_meta.name}...")
-    fsq_source = FoursquareOSSource()
+    fsq_source = scope_source_cache(FoursquareOSSource(), city_meta)
     fsq_places = fsq_source.fetch_places(search_bbox, city_meta.name)
     if fsq_places:
         discovered_sources["foursquare"] = fsq_places
         print(f"       Foursquare places: {len(fsq_places)}")
 
     # Source 6: AllThePlaces (Optional)
-    atp_source = AllThePlacesSource()
+    atp_source = scope_source_cache(AllThePlacesSource(), city_meta)
     atp_places = atp_source.extract_places(search_bbox, city_slug)
     if atp_places:
         discovered_sources["alltheplaces"] = atp_places

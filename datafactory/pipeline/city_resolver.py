@@ -124,7 +124,7 @@ class CityResolutionPipeline:
             with httpx.Client(headers=headers, timeout=15.0) as client:
                 resp = client.get(
                     search_url,
-                    params={"q": query, "format": "json", "addressdetails": 1, "limit": 5}
+                    params={"q": query, "format": "json", "addressdetails": 1, "polygon_geojson": 1, "limit": 5}
                 )
                 if resp.status_code != 200:
                     return None
@@ -184,6 +184,7 @@ class CityResolutionPipeline:
                 generated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
                 resolution_source="nominatim_osm",
                 resolution_confidence=0.90,
+                boundary_geometry=item.get("geojson") if (item.get("geojson") or {}).get("type") in {"Polygon","MultiPolygon"} else None,
             )
 
             return {
@@ -400,6 +401,11 @@ class CityResolutionPipeline:
                 raise CityResolutionConflict(
                     f"CITY_RESOLUTION_CONFLICT: Source '{cand['source']}' resolved state '{cand_state}', which contradicts requested state '{requested_state}' for destination '{city_name}'."
                 )
+            cand_country = cand.get("country", "")
+            aliases = {"in":"india", "us":"united states", "usa":"united states", "uk":"united kingdom"}
+            normalized_country = lambda value: aliases.get(value.strip().casefold(),value.strip().casefold())
+            if normalized_country(cand_country) != normalized_country(requested_country):
+                raise CityResolutionConflict(f"CITY_RESOLUTION_CONFLICT: Source '{cand['source']}' resolved another country")
 
         # Coordinate agreement cross-check across sources
         if len(candidates) >= 2:
@@ -417,7 +423,26 @@ class CityResolutionPipeline:
 
         # Best candidate is highest confidence
         best_cand = max(candidates, key=lambda x: x["confidence"])
-        return best_cand["meta"]
+        best = best_cand["meta"]
+        if isinstance(best,CityMetadata):
+            identifiers = dict(best.source_identifiers)
+            administrative = dict(best.administrative_ids)
+            for candidate in candidates:
+                metadata = candidate["meta"]
+                if not isinstance(metadata,CityMetadata):
+                    continue
+                if metadata.geonames_id:
+                    identifiers["geonames"] = str(metadata.geonames_id)
+                if metadata.osm_place_id:
+                    identifiers["nominatim_place_id"] = str(metadata.osm_place_id)
+                if metadata.wikidata_id:
+                    identifiers["wikidata"] = metadata.wikidata_id
+                    administrative["city_wikidata"] = metadata.wikidata_id
+                if not best.boundary_geometry and metadata.boundary_geometry:
+                    best = best.model_copy(update={"boundary_geometry":metadata.boundary_geometry})
+            best = best.model_copy(update={"source_identifiers":identifiers,"administrative_ids":administrative,
+                                          "wikidata_id":best.wikidata_id or identifiers.get("wikidata")})
+        return best
 
     def _print_preflight_report(
         self,

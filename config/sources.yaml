@@ -1,6 +1,9 @@
 # Data Sources Configuration
 
 sources:
+  openverse:
+    api_url: "https://api.openverse.org/v1/images/"
+    timeout_seconds: 15
   nominatim:
     search_url: "https://nominatim.openstreetmap.org/search"
     reverse_url: "https://nominatim.openstreetmap.org/reverse"

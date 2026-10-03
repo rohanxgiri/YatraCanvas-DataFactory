@@ -9,7 +9,7 @@ NAME_HEURISTICS = [
     # Lodging / Hospitality guards (Higher priority to avoid misclassifying hotels as palaces/monuments)
     (re.compile(r"(?i)\b(hotel|resort|palace hotel|residency|guest house|guesthouse|inn|homestay|dharamshala|bhavan|hostel|motel)\b"), "hotel", "hotel", "support", 4.0),
     (re.compile(r"(?i)\b(oyo|treebo|fabhotel)\b"), "hotel", "hotel", "support", 4.0),
-    # Transit guards (avoid misclassifying metro stations like Mansarovar as lakes; require structured evidence)
+    # Transit guards require structured evidence before classifying a named station.
     (re.compile(r"(?i)\b(railway station|metro station|bus stand|bus terminal|bus stop)\b"), "transport", "station", "support", 1.5),
     # Core Heritage Structures
     (re.compile(r"(?i)\b(fort|garh|qila)\b"), "heritage", "fort", "core_destination", 0.5),
@@ -27,8 +27,8 @@ NAME_HEURISTICS = [
     (re.compile(r"(?i)\b(gurudwara|gurdwara)\b"), "religious", "gurudwara", "recommended", 0.5),
     (re.compile(r"(?i)\b(jain mandir|derasar)\b"), "religious", "jain_temple", "recommended", 0.5),
     # Nature & Parks
-    (re.compile(r"(?i)\b(lake|sarovar|talab|dam|waterfall)\b"), "nature", "lake", "recommended", 0.5),
-    (re.compile(r"(?i)\b(garden|bagh|udyan|park)\b"), "park", "garden", "recommended", 0.5),
+    (re.compile(r"(?i)(?<!man)\b(lake|sarovar|talab|dam|waterfall)\b"), "nature", "lake", "recommended", 0.5),
+    (re.compile(r"(?i)(?<!raja\s)(?<!bani\s)(?<!indra\s)\b(garden|bagh|udyan|park)\b"), "park", "garden", "recommended", 0.5),
     (re.compile(r"(?i)\b(viewpoint|sunset point|sunrise point)\b"), "viewpoint", "scenic_viewpoint", "recommended", 0.5),
     # Food & Nightlife
     (re.compile(r"(?i)\b(cafe|coffee|roastery)\b"), "cafe", "coffee_shop", "discovery", 0.5),
@@ -155,6 +155,8 @@ def determine_primary_entity_type(
         return "arts_venue"
     elif cat == "experience":
         return "experience"
+    elif cat == "unknown":
+        return "unclassified"
 
     return "other"
 
@@ -186,6 +188,19 @@ def vote_category(
     name_lower = name.lower()
 
     # Pre-detect strong negative signals
+    raw_tags = candidate.get("tags")
+    tags = raw_tags if isinstance(raw_tags, dict) else {}
+    osm_amenity = tags.get("amenity", "").lower() if isinstance(tags, dict) else ""
+
+    is_bank_or_finance = (
+        osm_amenity in ("bank", "atm", "bureau_de_change") or
+        bool(re.search(r"(?i)\b(bank|atm|mini atm|finance|financial|branch)\b", name_lower))
+    )
+    is_office_or_corp = bool(re.search(r"(?i)\b(pvt ltd|pvt\. ltd|private limited|corporation|enterprises|traders|agency|consultancy|consultants|logistics|courier|packers|freight)\b", name_lower))
+    is_medical = bool(re.search(r"(?i)\b(hospital|clinic|dental|nursing home|dispensary|pharmacy|chemist)\b", name_lower))
+    is_residential = bool(re.search(r"(?i)\b(apartment|apartments|villas|housing society|flats|enclave)\b", name_lower)) and not any(k in name_lower for k in ["haveli", "palace", "resort", "hotel"])
+    is_repair_industrial = bool(re.search(r"(?i)\b(tyres|tyre|car repair|motor repair|auto parts|workshop|garage)\b", name_lower))
+
     is_lodging_name = any(re.search(r"\b" + re.escape(k) + r"\b", name_lower) for k in LODGING_KEYWORDS)
     is_restaurant_name = any(re.search(r"\b" + re.escape(k) + r"\b", name_lower) for k in RESTAURANT_KEYWORDS)
     is_shop_name = any(re.search(r"\b" + re.escape(k) + r"\b", name_lower) for k in SHOP_KEYWORDS)
@@ -318,6 +333,10 @@ def vote_category(
         if not has_structured_transport_evidence(candidate):
             votes = {k: v for k, v in votes.items() if k[0] != "transport"}
 
+    # Strict negative purge: Banks, corporate offices, medical clinics, residential buildings, and repair shops
+    # must NEVER receive votes for tourism/heritage/nature/park/religious/museum/viewpoint!
+    if is_bank_or_finance or is_office_or_corp or is_medical or is_residential or is_repair_industrial:
+        votes = {k: v for k, v in votes.items() if k[0] not in ("heritage", "nature", "park", "museum", "viewpoint", "religious", "experience")}
 
     # 7. Decide Winner
     if votes:
@@ -335,13 +354,14 @@ def vote_category(
         candidate["secondary_tags"] = secondary_tags
         return winning_cat, winning_subcat, confidence, votes_list
 
-    # Fallback: If it has shop keywords (e.g. A.L store Udaipur, stationery), classify as shopping/shop, NOT experience!
-    if is_shop_name:
+    # Fallback: If it has shop keywords (e.g. A.L store Udaipur, stationery), classify as shopping/shop
+    if is_shop_name and not (is_bank_or_finance or is_office_or_corp or is_medical or is_residential):
         candidate["secondary_tags"] = []
         return "shopping", "shop", 0.40, [{"category": "shopping", "subcategory": "shop", "source": "shop_guard", "weight": 2.0}]
 
     candidate["secondary_tags"] = []
-    return "experience", "general_poi", 0.20, []
+    # Explicitly unknown/unclassified. NEVER default to experience/general_poi!
+    return "unknown", "unclassified", 0.0, []
 
 
 def run_classify(candidates: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -378,6 +398,8 @@ def run_classify(candidates: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         canonical_cats = cat_cfg.get("canonical_categories", {})
         default_tags = canonical_cats.get(cat, {}).get("default_tags", []) if cat else []
         current_tags = item.get("tags") or []
+        if isinstance(current_tags, dict) and "osm_tags" not in item:
+            item["osm_tags"] = current_tags
         tag_elements = [cat, subcat, primary_entity_type] + default_tags + sec_tags
         if isinstance(current_tags, list):
             tag_elements = current_tags + tag_elements

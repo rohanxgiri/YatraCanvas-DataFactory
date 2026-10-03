@@ -15,7 +15,7 @@ from datafactory.pipeline.entity_resolution import CanonicalPlaceGraph
 class TestResolverHardening:
     """Deterministic regression tests for city resolution, constraints, and fallback."""
 
-    def test_same_city_name_in_multiple_states_requested_state_wins(self):
+    def test_same_city_name_in_multiple_states_requested_state_wins(self, geonames_fixture):
         """When a city exists in multiple states (e.g. Manali in Tamil Nadu), requesting Tamil Nadu must return TN."""
         source = GeoNamesBulkSource()
         meta = source.resolve_city(city_name="Manali", state_name="Tamil Nadu", country_name="India")
@@ -23,16 +23,24 @@ class TestResolverHardening:
         assert meta.country == "India"
         assert 12.5 <= meta.center[0] <= 13.5  # Chennai latitude
 
-    def test_missing_city_in_requested_state_raises_exception_and_does_not_fall_back(self):
+    def test_missing_city_in_requested_state_raises_exception_and_does_not_fall_back(self, geonames_fixture):
         """When Manali is requested in Himachal Pradesh, GeoNames cities15000 must NOT silently return TN."""
         source = GeoNamesBulkSource()
         with pytest.raises(CityNotFoundInRequestedState) as excinfo:
             source.resolve_city(city_name="Manali", state_name="Himachal Pradesh", country_name="India")
         assert "CITY_NOT_FOUND_IN_REQUESTED_STATE" in str(excinfo.value)
 
-    def test_small_town_fallback_resolves_manali_hp(self):
+    def test_small_town_fallback_resolves_manali_hp(self, monkeypatch, geonames_fixture, sample_city_metadata):
         """Small tourism town fallback resolves Manali, HP through Nominatim/OSM or Wikidata."""
         resolver = CityResolutionPipeline()
+        resolver.cache = MagicMock(get=lambda key: None)
+        meta_fixture = sample_city_metadata.model_copy(update={"id":"manali","name":"Manali","state":"Himachal Pradesh",
+            "center":(32.24,77.18),"bbox":(77.1,32.1,77.3,32.3),"resolution_source":"nominatim_osm","resolution_confidence":.9})
+        candidate={"source":"nominatim_osm","meta":meta_fixture,"lat":32.24,"lon":77.18,
+            "state":"Himachal Pradesh","country":"India","confidence":.9}
+        monkeypatch.setattr(resolver,"_resolve_via_nominatim",lambda *args: candidate)
+        monkeypatch.setattr(resolver,"_resolve_via_overpass_boundary",lambda *args: None)
+        monkeypatch.setattr(resolver,"_resolve_via_wikidata",lambda *args: None)
         meta = resolver.resolve(city_name="Manali", state_name="Himachal Pradesh", country_name="India")
         assert meta.name == "Manali"
         assert meta.state == "Himachal Pradesh"
@@ -84,13 +92,29 @@ class TestResolverHardening:
             resolver._perform_consistency_check("Manali", "Himachal Pradesh", "India", [cand])
         assert "contradicts requested state" in str(excinfo.value)
 
+    def test_resolver_preserves_corroborated_identifiers_and_country(self,sample_city_metadata):
+        resolver=CityResolutionPipeline()
+        base=sample_city_metadata.model_copy(update={"geonames_id":123})
+        corroborating=base.model_copy(update={"wikidata_id":"Q456","geonames_id":None})
+        candidates=[{"source":source,"meta":meta,"lat":base.center[0],"lon":base.center[1],
+                     "state":base.state,"country":base.country,"confidence":confidence}
+                    for source,meta,confidence in [("geonames",base,.95),("wikidata",corroborating,.9)]]
+        result=resolver._perform_consistency_check(base.name,base.state,base.country,candidates)
+        assert result.wikidata_id == "Q456" and result.administrative_ids["city_wikidata"] == "Q456"
+        assert result.source_identifiers == {"geonames":"123","wikidata":"Q456"}
+        candidates[1]["country"]="Another Country"
+        with pytest.raises(CityResolutionConflict,match="another country"):
+            resolver._perform_consistency_check(base.name,base.state,base.country,candidates)
+
 
 class TestWikivoyageTitleNormalization:
     """Deterministic regression tests for Wikivoyage title normalization."""
 
-    def test_diacritic_ascii_mediawiki_title_lookup(self):
+    def test_diacritic_ascii_mediawiki_title_lookup(self, monkeypatch, tmp_path):
         """Rishīkesh (with macron) resolves to ASCII 'Rishikesh'."""
         wv = WikivoyageSource()
+        wv.cache_dir = tmp_path
+        monkeypatch.setattr(wv, "_fetch_article_wikitext", lambda title: "A source fixture. " * 100 if title == "Rishikesh" else None)
         title_res = wv.resolve_article_title("Rishīkesh")
         assert title_res is not None
         resolved_title, wikitext = title_res

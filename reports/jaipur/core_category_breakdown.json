@@ -1,45 +1,43 @@
 {
   "city": "jaipur",
-  "total_core_destinations": 80,
-  "with_wikidata": 47,
-  "with_wikipedia": 24,
-  "with_wikivoyage": 8,
-  "with_osm_travel": 52,
-  "supported_only_by_overture": 3,
+  "total_core_destinations": 52,
+  "with_wikidata": 22,
+  "with_wikipedia": 23,
+  "with_wikivoyage": 25,
+  "with_osm_travel": 43,
+  "supported_only_by_overture": 0,
   "travel_relevance_distribution": {
     "0.0-0.2": 0,
-    "0.2-0.4": 1,
-    "0.4-0.6": 40,
-    "0.6-0.8": 16,
-    "0.8-1.0": 23
+    "0.2-0.4": 0,
+    "0.4-0.6": 23,
+    "0.6-0.8": 13,
+    "0.8-1.0": 16
   },
   "categories": {
-    "heritage": 59,
-    "nature": 14,
+    "heritage": 46,
     "museum": 3,
-    "park": 2,
     "religious": 1,
+    "park": 1,
     "viewpoint": 1
   },
   "subcategories": {
-    "heritage/attraction": 34,
-    "heritage/historical_monument": 16,
-    "nature/lake": 14,
+    "heritage/attraction": 24,
+    "heritage/historical_monument": 13,
     "heritage/gate": 5,
     "heritage/fort": 3,
     "museum/history_museum": 3,
-    "park/garden": 2,
     "religious/place_of_worship": 1,
+    "park/garden": 1,
     "viewpoint/scenic_viewpoint": 1,
     "heritage/palace": 1
   },
   "source_combinations": {
-    "openstreetmap,overture": 37,
-    "wikidata": 20,
-    "openstreetmap": 12,
+    "openstreetmap,overture": 14,
+    "openstreetmap,overture,wikivoyage": 12,
+    "openstreetmap": 11,
+    "openstreetmap,wikivoyage": 6,
     "wikivoyage": 5,
-    "overture": 3,
-    "openstreetmap,overture,wikivoyage": 2,
-    "openstreetmap,wikivoyage": 1
+    "overture,wikivoyage": 2,
+    "wikidata": 2
   }
 }

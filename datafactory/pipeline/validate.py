@@ -11,7 +11,8 @@ def run_validate_and_quarantine(
     places: List[Dict[str, Any]],
     city_bbox: Tuple[float, float, float, float],
     quarantine_output_path: Path,
-    media_dir: Path
+    media_dir: Path,
+    city_context: Dict[str, Any] | None = None,
 ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
     """
     Validate canonical places against quality, coordinate, schema, and semantic rules.
@@ -62,6 +63,12 @@ def run_validate_and_quarantine(
             quarantine_reasons.append("missing_coordinates")
         elif not (-90.0 <= lat <= 90.0 and -180.0 <= lon <= 180.0):
             quarantine_reasons.append("out_of_range_coordinates")
+        elif city_context:
+            from .geographic_assurance import geography
+            geo = geography(p, city_context, settings.load_yaml("assurance.yaml").get("region_max_distance_km", 120))
+            p["geographic_assurance"] = geo
+            if geo["status"] != "VALID":
+                quarantine_reasons.append("coordinates_region_" + geo["status"].lower())
         elif not is_point_in_bbox(lat, lon, allowed_bbox):
             quarantine_reasons.append("coordinates_outside_city_boundary")
 
@@ -187,13 +194,53 @@ def validate_release_package(release_path: Path) -> Dict[str, Any]:
     with open(release_path / "places.json", "r", encoding="utf-8") as f:
         places = json.load(f)
 
+    # Check the bundle itself before reporting semantic coverage. Never trust a
+    # manifest checksum path that can escape the release directory.
+    from ..models.place import Place
+    from ..utils.hashing import compute_sha256
+    checksums = json.loads((release_path / "checksums.json").read_text(encoding="utf-8"))
+    for relative, expected in checksums.items():
+        target = (release_path / relative).resolve()
+        if not target.is_relative_to(release_path.resolve()) or not target.is_file():
+            raise ValueError("Invalid or missing checksummed artifact")
+        if compute_sha256(target) != expected:
+            raise ValueError(f"Checksum mismatch: {relative}")
+    parsed = [Place.model_validate(p) for p in places]
+    from .media_assurance import local_asset
+    from PIL import Image
+    for p in parsed:
+        for media in ([p.images.primary] if p.images.primary else []) + p.images.gallery:
+            for relative in (media.local_path,media.thumbnail_path):
+                asset = local_asset(release_path,relative)
+                if asset is None:
+                    raise ValueError(f"Missing referenced local media for {p.id}")
+                with Image.open(asset) as image:
+                    image.verify()
+    if len({p.id for p in parsed}) != len(parsed):
+        raise ValueError("Duplicate published IDs")
+    jsonl = [json.loads(line) for line in (release_path / "places.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+    if jsonl != places:
+        raise ValueError("JSONL differs from places.json")
+    import pyarrow.parquet as pq
+    parquet = pq.read_table(release_path / "places.parquet").to_pylist()
+    def projection(p):
+        image = p.images.primary
+        return (p.id, p.name, p.location.latitude, p.location.longitude, p.classification.category,
+                p.opening_hours.raw, image.local_path if image else None)
+    expected_rows = sorted(projection(p) for p in parsed)
+    if sorted((p["id"], p["name"], p["latitude"], p["longitude"], p["category"], p["opening_hours"], p["primary_image_path"]) for p in parquet) != expected_rows:
+        raise ValueError("Parquet differs from places.json")
+
     # 1. SQLite Verification
     db_path = release_path / "yatracanvas.db"
-    conn = sqlite3.connect(db_path)
-    cur = conn.cursor()
-    cur.execute("SELECT count(*) FROM places;")
-    row_count = cur.fetchone()[0]
-    conn.close()
+    from contextlib import closing
+    with closing(sqlite3.connect(db_path)) as conn:
+        if conn.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
+            raise ValueError("SQLite integrity check failed")
+        row_count = conn.execute("SELECT count(*) FROM places").fetchone()[0]
+        sql_rows = sorted(conn.execute("SELECT id, name, latitude, longitude, category, opening_hours, primary_image_path FROM places").fetchall())
+        if sql_rows != expected_rows:
+            raise ValueError("SQLite differs from places.json")
 
     if row_count != len(places):
         raise ValueError(f"SQLite row count ({row_count}) does not match places.json ({len(places)})")

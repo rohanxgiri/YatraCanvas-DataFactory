@@ -87,6 +87,7 @@ class Place(BaseModel):
     name: str
     name_en: Optional[str] = None
     name_hi: Optional[str] = None
+    description: Optional[str] = None
     alternate_names: List[str] = Field(default_factory=list)
     alternate_name_records: List[Dict[str, Any]] = Field(default_factory=list)
     city: CityRef
@@ -105,5 +106,6 @@ class Place(BaseModel):
     quality: QualityScore
     sources: List[SourceRecord] = Field(default_factory=list)
     provenance_records: List[FieldProvenance] = Field(default_factory=list)
+    region_associations: List[Dict[str, Any]] = Field(default_factory=list)
     generated_at: str
     schema_version: str = "3.0"

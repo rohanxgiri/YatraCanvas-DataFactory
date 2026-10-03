@@ -31,7 +31,7 @@ def run_resolve_city(
             data = json.load(f)
         meta = CityMetadata(**data)
         # Ensure state matches request even on resume
-        if meta.state.lower() != state_name.lower():
+        if any(getattr(meta, k).casefold() != value.casefold() for k, value in [("name", city_name), ("state", state_name), ("country", country_name)]):
             print(f"[Stage 1] Warning: Cached resolution state '{meta.state}' != requested '{state_name}'. Re-resolving...")
         else:
             return meta
@@ -46,7 +46,7 @@ def run_resolve_city(
         json.dump(city_meta.model_dump(), f, ensure_ascii=False, indent=2)
 
     # Save generated city config
-    city_cfg_path = settings.config_dir / "generated_cities" / f"{city_slug}.yaml"
+    city_cfg_path = settings.config_dir / "generated_cities" / c_slug / s_slug / f"{city_slug}.yaml"
     city_cfg_path.parent.mkdir(parents=True, exist_ok=True)
     with open(city_cfg_path, "w", encoding="utf-8") as f:
         yaml.dump(city_meta.model_dump(), f, sort_keys=False)
