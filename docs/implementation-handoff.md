@@ -44,3 +44,8 @@ remaining required-media blockers, followed by another bounded repair pass when
 free quota is available. Resolve the absent/policy-mismatched 18-case IDs explicitly.
 Keep factual corroboration independent of model opinions. Existing user changes,
 original v3 sources and human curation must be preserved.
+
+
+## Bundled city-data loop — 2026-10-04
+
+`[IMPLEMENTED]` See [the city-data loop](CITY_DATA_DEV_LOOP.md) for the new immutable app export, base-bound human repair patch and safe sync commands. Existing strict certification/provider architecture remains intact. `[PARTIAL]` Physical-phone acceptance remains unverified. No production migration or paid provider call is part of this loop.

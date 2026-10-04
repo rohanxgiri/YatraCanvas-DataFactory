@@ -54,3 +54,7 @@ media:
   primary_image_max_width: 1280
   thumbnail_max_width: 400
   webp_quality: 85
+  # Download cap stays at or below the existing 20 MB safety ceiling.
+  commons_max_download_bytes: 20000000
+  # Primary output is 1280 px wide; this leaves bounded room for display/crops.
+  commons_derivative_long_edge: 1920

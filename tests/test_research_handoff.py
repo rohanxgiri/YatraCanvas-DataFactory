@@ -254,6 +254,41 @@ def test_image_dry_run_requires_verification_and_wrong_image_rejected(research_p
     assert rejected["summary"]["rejected"] == 1 and rejected["summary"]["applied"] == 0
 
 
+@pytest.mark.parametrize("metadata_conflict", [False, True])
+def test_image_semicolon_filename_preserves_metadata_and_verification_checks(research_pack, monkeypatch, metadata_conflict):
+    from datafactory.sources.wikimedia import WikimediaCommonsClient
+    file = image_result(research_pack)
+    data = json.loads(file.read_text())
+    row = data["results"][0]
+    filename = "Garden;_January_2024.jpg"
+    page = f"https://commons.wikimedia.org/wiki/File:{filename}"
+    row["result"]["source_page_url"] = row["sources"][0]["url"] = page
+    atomic_json(file, data)
+    info = WikimediaCommonsClient(read_only=True).cache.get("img_Garden.jpg")
+    info.update(original_file=filename, source_page=page)
+    if metadata_conflict:
+        info["author"] = "Different photographer"
+    lookups = []
+    def image_info(self, requested):
+        lookups.append(requested)
+        return info
+    monkeypatch.setattr(WikimediaCommonsClient, "get_image_info", image_info)
+    from datafactory.research.media_evidence import ResearchMediaEvidence
+    monkeypatch.setattr(ResearchMediaEvidence, "entity", lambda self, place: None)
+    class HoldRouter:
+        def analyze(self, *args, **kwargs):
+            return {"status":"MEDIA_VERIFICATION_REQUIRED"}
+        def report(self):
+            return {"AI_MODE":"FREE_ONLY", "stats":{"calls":0}, "paid_providers_invoked":0, "paid_feature_calls":0}
+    report = import_research(file, settings=research_pack[0], apply=True, allow_network=True, router=HoldRouter())
+    assert lookups == [filename.replace("_", " ")]
+    assert report["summary"]["matched"] == report["summary"]["valid"] == 1
+    assert report["summary"]["review"] == 1 and report["summary"]["applied"] == 0
+    expected = "ORIGINAL_SOURCE_METADATA_CONFLICT" if metadata_conflict else "MEDIA_VERIFICATION_REQUIRED"
+    assert expected in report["decisions"][0]["reason_codes"]
+    assert "output_pack" not in report and report["ai_usage"]["stats"]["calls"] == 0
+
+
 def test_manual_image_assurance_webp_complete_export(research_pack):
     from datafactory.pipeline.validate import validate_release_package
     file = image_result(research_pack)
@@ -309,7 +344,7 @@ def test_import_schedule_mapping_conflict_and_staleness(research_pack):
     assert "RECHECK_RECOMMENDED" in import_research(file, settings=research_pack[0])["decisions"][0]["reason_codes"]
 
 
-def test_duplicate_existing_image_stays_review(research_pack):
+def test_unattributed_existing_image_still_requires_identity_review(research_pack):
     file = image_result(research_pack)
     settings, pack, *_ = research_pack
     local = pack / "images/existing.png"
@@ -324,7 +359,8 @@ def test_duplicate_existing_image_stays_review(research_pack):
     data["handoff_id"] = new["handoff_id"]
     atomic_json(file, data)
     report = import_research(file, settings=settings)
-    assert "DUPLICATE_IMAGE" in report["decisions"][0]["reason_codes"]
+    assert report["summary"]["review"] == 1 and report["summary"]["applied"] == 0
+    assert "MEDIA_VERIFICATION_REQUIRED" in report["decisions"][0]["reason_codes"]
 
 
 def test_identity_tasks_and_coordinate_source_matching(research_pack):

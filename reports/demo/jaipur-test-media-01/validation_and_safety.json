@@ -1,0 +1,48 @@
+{
+  "validation": {
+    "total_places": 684,
+    "core_count": 50,
+    "core_with_wikidata": 23,
+    "core_with_image": 36,
+    "core_with_hours": 11,
+    "semantic_errors": 0,
+    "pipeline_health": "PASS",
+    "data_quality": "PASS",
+    "source_coverage": "WARN"
+  },
+  "strict_metrics_unchanged": true,
+  "strict_verified_count": 17,
+  "strict_required_total": 50,
+  "strict_required_coverage": 34.0,
+  "source_readiness": false,
+  "demo_metrics": {
+    "published": 684,
+    "demo_renderable_count": 18,
+    "demo_renderable_media_coverage": 2.63,
+    "required_total": 50,
+    "demo_required_renderable_count": 18,
+    "demo_required_renderable_coverage": 36.0,
+    "test_only_renderable_count": 1,
+    "not_source_readiness_metrics": true
+  },
+  "historical_releases_unchanged": true,
+  "city_lab_unchanged": true,
+  "protected_files_checked": 42459,
+  "protected_changes": [],
+  "intended_code_changes": [
+    "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\datafactory\\cli.py",
+    "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\datafactory\\pipeline\\test_media.py"
+  ],
+  "strict_head_unchanged": true,
+  "production_assurance_unchanged": true,
+  "verified_assets_preserved": 17,
+  "paid_ai_calls": 0,
+  "provider_calls": 0,
+  "suraj_status": {
+    "identity_status": "RESOLVED",
+    "demo_media_status": "RESOLVED",
+    "strict_verified_media_status": "UNRESOLVED",
+    "strict_license": "UNVERIFIED"
+  },
+  "offline_card_and_detail_asset_validation": "PASS"
+}

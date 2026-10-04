@@ -36,3 +36,8 @@ New snapshots retire only factory-authored artwork and preserve authentic photos
 verified human media. Strict bundle usability continues to require actual bundled
 media, so its earlier artwork-based percentages are historical rather than a claim
 about app rendering. See `reports/app_fallback_transition.md` for current exports.
+
+
+## Bundled city-data loop — 2026-10-04
+
+`[IMPLEMENTED]` See [the city-data loop](CITY_DATA_DEV_LOOP.md) for the new immutable app export, base-bound human repair patch and safe sync commands. Existing strict certification/provider architecture remains intact. `[PARTIAL]` Physical-phone acceptance remains unverified. No production migration or paid provider call is part of this loop.

@@ -25,6 +25,8 @@ wheels/
 
 # Testing
 .pytest_cache/
+.pytest_*/
+**/pytest-*/
 .coverage
 htmlcov/
 

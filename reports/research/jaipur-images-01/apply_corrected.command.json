@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\.venv\\Scripts\\python.exe",
+    "-m",
+    "datafactory.cli",
+    "research-import",
+    "--file",
+    "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\import_inputs\\jaipur_image_research_results.canonicalized.json",
+    "--apply",
+    "--network",
+    "--output-version",
+    "v3-research-jaipur-images-01"
+  ],
+  "started_at": "2026-10-03T16:16:55.711521+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T16:21:23.622781+00:00"
+}

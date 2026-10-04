@@ -1,0 +1,38 @@
+{
+  "city": {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  },
+  "handoff_id": "handoff_52e106bcb2e1e8881d37ee23",
+  "total": 16,
+  "filtered_total_before_limit": 16,
+  "remaining_in_filter": 0,
+  "actionable": 96,
+  "deferred_optional": 924,
+  "do_not_research": 1098,
+  "by_type": {
+    "OPENING_HOURS": 0,
+    "REAL_PRIMARY_IMAGE": 16,
+    "WEBSITE": 0,
+    "DESCRIPTION": 0,
+    "COORDINATE_RESEARCH": 0,
+    "IDENTITY_RESEARCH": 0
+  },
+  "by_priority": {
+    "P0": 16,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0
+  },
+  "output": "reports\\research\\jaipur-resolution-queues\\normal-export-check",
+  "zero_candidate_media_tasks": 9,
+  "excluded_resolution_queues": {
+    "PROVIDER_RETRY": 16,
+    "MANUAL_REVIEW": 4
+  }
+}
+Upload research_handoff.md/json and research_results.schema.json to ChatGPT Web.
+Save results, then run research-import --dry-run.

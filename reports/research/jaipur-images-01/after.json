@@ -1,0 +1,55 @@
+{
+  "time": "2026-10-03T16:23:59.299044+00:00",
+  "output_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-research-jaipur-images-01",
+  "before": {
+    "published": 684,
+    "GENERAL_USABILITY": 1.17,
+    "REAL_REQUIRED_MEDIA_COVERAGE": 3.85,
+    "real_required_total": 52,
+    "real_required_verified": 2,
+    "critical_blockers": {
+      "MEDIA_NOT_RENDERABLE": 644,
+      "CORE_MEDIA_UNRESOLVED": 50,
+      "COORDINATE_INVALID_OR_CONFLICT": 2,
+      "TRAVEL_REGION_SUSPICIOUS": 2
+    },
+    "critical_blocker_pois": 676,
+    "SOURCE_DATA_READY": false
+  },
+  "after": {
+    "published": 684,
+    "GENERAL_USABILITY": 1.32,
+    "REAL_REQUIRED_MEDIA_COVERAGE": 5.77,
+    "real_required_total": 52,
+    "real_required_verified": 3,
+    "critical_blockers": {
+      "MEDIA_NOT_RENDERABLE": 643,
+      "CORE_MEDIA_UNRESOLVED": 49,
+      "COORDINATE_INVALID_OR_CONFLICT": 2,
+      "TRAVEL_REGION_SUSPICIOUS": 2
+    },
+    "critical_blocker_pois": 675,
+    "SOURCE_DATA_READY": false
+  },
+  "source_pack_metrics_unchanged": true,
+  "preservation": {
+    "protected_files_checked": 23626,
+    "changed": [],
+    "missing": [],
+    "all_original_releases_unchanged": true,
+    "curation_unchanged": true,
+    "ai_configuration_unchanged": true,
+    "registered_handoffs_unchanged": true,
+    "original_input_unchanged": true,
+    "source_snapshot_still_matches": true,
+    "city_lab_files_touched": 0
+  },
+  "paid_ai_calls": 0,
+  "ai_mode": "FREE_ONLY",
+  "validation": {
+    "exit_code": 0,
+    "pipeline_health": "PASS",
+    "data_quality": "PASS",
+    "source_coverage": "WARN"
+  }
+}

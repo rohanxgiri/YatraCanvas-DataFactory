@@ -951,6 +951,27 @@ def research_export(
     console.print("Upload research_handoff.md/json and research_results.schema.json to ChatGPT Web. Save results, then run research-import --dry-run.")
 
 
+@app.command("research-queues")
+def research_queues(
+    city: str = typer.Option(..., "--city"),
+    state: Optional[str] = typer.Option(None, "--state"),
+    country: Optional[str] = typer.Option(None, "--country"),
+    output: Optional[Path] = typer.Option(None, "--output"),
+):
+    """Package required media into provider retry, new research and manual review."""
+    from .research.export import find_pack
+    from .research.resolution import export_resolution_queues
+    settings = get_settings()
+    try:
+        pack = find_pack(city, state, country, settings=settings)
+        meta = json.loads((pack / "city.json").read_text(encoding="utf-8"))
+        destination = output or settings.data_dir / "research/exports" / slugify(meta["name"]) / "required_images_remaining"
+        report = export_resolution_queues(pack, destination, settings=settings)
+    except (ValueError, OSError) as exc:
+        raise typer.BadParameter(str(exc)) from None
+    console.print_json(data=report)
+
+
 @app.command("research-import")
 def research_import(
     file: Path = typer.Option(..., "--file", exists=True, dir_okay=False),
@@ -967,6 +988,21 @@ def research_import(
         raise typer.BadParameter("--network requires --apply; dry runs never download or call AI")
     try:
         report = import_research(file, apply=apply, allow_network=network, output_version=output_version)
+    except (ValueError, OSError) as exc:
+        raise typer.BadParameter(str(exc)) from None
+    console.print_json(data=report)
+
+
+@app.command("research-retry")
+def research_retry(
+    previous_file: Path = typer.Option(..., "--previous-file", exists=True, dir_okay=False),
+    handoff_id: str = typer.Option(..., "--handoff-id"),
+    output: Path = typer.Option(..., "--output"),
+):
+    """Safely map prior evidence to a fresh registered handoff; import separately."""
+    from .research.retry import build_retry_bundle
+    try:
+        report = build_retry_bundle(previous_file, handoff_id, output)
     except (ValueError, OSError) as exc:
         raise typer.BadParameter(str(exc)) from None
     console.print_json(data=report)
@@ -996,6 +1032,66 @@ def local_ai_smoke_command(
     console.print_json(data={k:v for k,v in result.items() if k != "rows"})
     if result["counts"].get("failures"):
         raise typer.Exit(1)
+
+
+@app.command('test-media-import')
+def test_media_import(
+    image_file: Path = typer.Option(..., '--image-file', exists=True, dir_okay=False),
+    confirmation_file: Path = typer.Option(..., '--confirmation-file', exists=True, dir_okay=False),
+    source_pack: Path = typer.Option(..., '--source-pack', exists=True, file_okay=False),
+    output_version: str = typer.Option(..., '--output-version'),
+    allow_test_media: bool = typer.Option(False, '--allow-test-media', envvar='ALLOW_TEST_MEDIA'),
+):
+    """Opt-in human-confirmed local demo media; never production verification."""
+    from .pipeline.test_media import publish_test_media
+    try:
+        result = publish_test_media(source_pack, image_file, confirmation_file,
+            output_version=output_version, allow_test_media=allow_test_media)
+    except (ValueError, OSError) as exc:
+        raise typer.BadParameter(str(exc)) from None
+    console.print_json(data=result)
+
+
+
+# City Lab and app runtime commands
+@app.command("app-pack")
+def app_pack_command(
+    city: str = typer.Option(..., "--city"),
+    version: Optional[str] = typer.Option(None, "--version"),
+    output: Optional[Path] = typer.Option(None, "--output"),
+    state: Optional[str] = typer.Option(None, "--state"),
+    country: Optional[str] = typer.Option(None, "--country"),
+    dry_run: bool = typer.Option(False, "--dry-run"),
+    allow_test_media: bool = typer.Option(False, "--allow-test-media"),
+):
+    """Export a validated indexed SQLite pack for Flutter assets."""
+    from .app_pack import export_app_pack
+    try:
+        console.print_json(data=export_app_pack(city, version=version, output=output, state=state,
+            country=country, dry_run=dry_run, allow_test_media=allow_test_media))
+    except (ValueError, OSError) as exc:
+        raise typer.BadParameter(str(exc)) from None
+
+
+@app.command("citylab-import")
+def citylab_import_command(
+    file: Path = typer.Option(..., "--file", exists=True, dir_okay=False),
+    apply: bool = typer.Option(False, "--apply"),
+    dry_run: bool = typer.Option(False, "--dry-run"),
+    output_version: Optional[str] = typer.Option(None, "--output-version"),
+    allow_test_media: bool = typer.Option(False, "--allow-test-media"),
+):
+    """Validate repairs and publish a NEW immutable canonical release."""
+    from .citylab_patch import import_citylab_patch
+    if apply and dry_run:
+        raise typer.BadParameter("Choose --apply or --dry-run")
+    try:
+        result = import_citylab_patch(file, apply=apply, output_version=output_version, allow_test_media=allow_test_media)
+        console.print_json(data=result)
+        if result['summary'].get('REJECT') or result['summary'].get('REVIEW'):
+            raise typer.Exit(1)
+    except (ValueError, OSError) as exc:
+        raise typer.BadParameter(str(exc)) from None
 
 
 main = app

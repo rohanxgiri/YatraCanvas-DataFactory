@@ -22,6 +22,8 @@ class MediaCandidate(BaseModel):
 
     @classmethod
     def from_commons(cls, info: dict, method: str, confidence: float, qid=None):
+        from ..utils.media_metadata import canonical_commons_metadata
+        info = canonical_commons_metadata(info)
         creator = info.get("author")
         attribution = info.get("attribution")
         if not attribution and creator and creator.lower() != "unknown":

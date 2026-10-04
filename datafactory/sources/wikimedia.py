@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
+from urllib.parse import quote
 import httpx
 from PIL import Image
 Image.MAX_IMAGE_PIXELS = 400_000_000
@@ -13,10 +14,12 @@ from ..config.settings import get_settings
 from ..models.image import ImageMetadata
 from ..utils.cache import DiskCache
 from ..utils.text import clean_string, normalize_name
+from ..utils.media_metadata import commons_filename, commons_file_key
 
 
 class WikimediaCommonsClient:
     def __init__(self, *, read_only=False):
+        self.read_only = read_only
         self.settings = get_settings()
         self.cache = DiskCache("wikimedia_meta", create=not read_only)
         self.sources_cfg = self.settings.sources_config.get("sources", {}).get("wikimedia_commons", {})
@@ -25,15 +28,30 @@ class WikimediaCommonsClient:
         self.timeout = self.sources_cfg.get("timeout_seconds", 20.0)
         self.allowed_licenses = set(self.media_cfg.get("allowed_licenses", []))
 
+    def cached_image_info(self, filename):
+        clean_fn = commons_filename(filename)
+        if not clean_fn:
+            return None
+        for name in dict.fromkeys((filename.removeprefix("File:"), clean_fn, clean_fn.replace(" ", "_"))):
+            cached = self.cache.get(f"img_{name}")
+            if (isinstance(cached, dict) and commons_file_key(cached.get("source_page")) == clean_fn
+                    and commons_file_key(cached.get("original_file")) == clean_fn):
+                return cached
+        return None
+
     def get_image_info(self, filename: str) -> Optional[Dict[str, Any]]:
         """Fetch file metadata from Commons MediaWiki API."""
         if not filename:
             return None
 
-        clean_fn = filename.replace("File:", "").replace("file:", "").strip()
-        cached = self.cache.get(f"img_{clean_fn}")
+        clean_fn = commons_filename(filename)
+        if not clean_fn:
+            return None
+        cached = self.cached_image_info(filename)
         if cached:
             return cached
+        if self.read_only:
+            return None
 
         params = {
             "action": "query",
@@ -59,6 +77,8 @@ class WikimediaCommonsClient:
             return None
 
         page = next(iter(pages.values()))
+        if commons_file_key(page.get("title", clean_fn)) != clean_fn:
+            return None
         imageinfo = page.get("imageinfo", [])
         if not imageinfo:
             return None
@@ -81,15 +101,54 @@ class WikimediaCommonsClient:
             "width": info.get("width", 0),
             "height": info.get("height", 0),
             "mime": info.get("mime", ""),
+            "size": info.get("size"),
             "author": artist,
             "license": license_name or "Unknown",
             "license_url": license_url,
             "attribution": attribution,
-            "source_page": f"https://commons.wikimedia.org/wiki/File:{clean_fn.replace(' ', '_')}",
+            "source_page": "https://commons.wikimedia.org/wiki/File:" + quote(clean_fn.replace(' ', '_'), safe=";(),':"),
         }
 
         self.cache.set(f"img_{clean_fn}", res)
         return res
+
+    def get_derivative_info(self, filename, long_edge=1920):
+        """Ask Commons for a bounded representation; never construct CDN URLs."""
+        from ..pipeline.media_assurance import public_url
+        from urllib.parse import urlsplit
+        clean_fn = commons_filename(filename)
+        if not clean_fn or not 1600 <= long_edge <= 2400:
+            return None
+        key = f"derivative_{long_edge}_{clean_fn}"
+        cached = self.cache.get(key)
+        if cached:
+            return cached
+        if self.read_only:
+            return None
+        params = {"action": "query", "titles": f"File:{clean_fn}", "prop": "imageinfo",
+                  "iiprop": "url|size|mime", "iiurlwidth": long_edge, "iiurlheight": long_edge,
+                  "format": "json"}
+        try:
+            with httpx.Client(headers={"User-Agent": self.settings.user_agent}, timeout=self.timeout) as client:
+                response = client.get(self.api_url, params=params)
+                if response.status_code != 200:
+                    return None
+                pages = response.json().get("query", {}).get("pages", {})
+            page = next(iter(pages.values()), {})
+            info = page.get("imageinfo", [{}])[0]
+            url, width, height = info.get("thumburl"), info.get("thumbwidth", 0), info.get("thumbheight", 0)
+            if (commons_file_key(page.get("title", clean_fn)) != clean_fn or not public_url(url or "")
+                    or urlsplit(url).hostname not in {"upload.wikimedia.org", "thumb.wikimedia.org"}
+                    or not urlsplit(url).path.startswith("/wikipedia/commons/thumb/")
+                    or not 350 <= width <= long_edge or not 250 <= height <= long_edge
+                    or not .35 <= width / height <= 3):
+                return None
+            result = {"url": url, "width": width, "height": height, "original_file": clean_fn,
+                      "source_page": "https://commons.wikimedia.org/wiki/File:" + quote(clean_fn.replace(' ', '_'), safe=";(),':")}
+            self.cache.set(key, result)
+            return result
+        except (httpx.HTTPError, ValueError, TypeError, IndexError):
+            return None
 
     def is_license_permitted(self, license_name: str) -> bool:
         """Check if license is open/free for redistribution."""
@@ -299,6 +358,8 @@ class WikimediaCommonsClient:
                 return None
 
         try:
+            from ..pipeline.image_content import normalize_primary_frame
+            img_bytes, _ = normalize_primary_frame(img_bytes)
             im = Image.open(io.BytesIO(img_bytes))
             # Convert RGBA or Palette to RGB for webp
             if im.mode in ("RGBA", "LA", "P"):

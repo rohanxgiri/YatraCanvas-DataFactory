@@ -1,0 +1,11 @@
+{
+  "source_file": "data\\research\\import_inputs\\jaipur_image_retry_results_02_derivative_all.json",
+  "source_sha256": "083e4082ec69ef39347445701984223a47bcf3ed674b94709a80bef173242213",
+  "output_file": "data\\research\\import_inputs\\jaipur_image_retry_results_02_derivative_govind.json",
+  "output_sha256": "321ed367f623da8b1c57dd7efe84ad106f68809f0577d6df1636d3a85f8ee479",
+  "registered_handoff_id": "handoff_e1c89154ae9bf304fd0e2ce8",
+  "selected_task_ids": [
+    "research_3a60571ce74994a0af12c78a"
+  ],
+  "reason": "Retry only the original-size hold after official Commons derivative host support; avoid repeating assurance calls for unchanged holds."
+}

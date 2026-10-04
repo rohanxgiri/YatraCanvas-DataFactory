@@ -1,0 +1,13 @@
+Validating City Pack at: 
+C:\Users\girir\Documents\YatraCanvas-DataFactory\releases\india\rajasthan\jaipur
+\v3-research-jaipur-images-01
+[OK] ALL STRUCTURAL AND SEMANTIC CHECKS PASSED for 
+C:\Users\girir\Documents\YatraCanvas-DataFactory\releases\india\rajasthan\jaipur
+\v3-research-jaipur-images-01!
+  Total Places: 684
+  Core Destinations: 52
+  Core with Wikidata: 23
+  Core with Images: 35
+  Pipeline Health: PASS
+  Data Quality: PASS
+  Source Coverage: WARN

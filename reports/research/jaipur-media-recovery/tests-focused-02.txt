@@ -1,0 +1,62 @@
+........................................................................ [ 54%]
+.....FFF...................................................              [100%]
+================================== FAILURES ===================================
+_ test_same_researched_primary_or_gallery_reuses_bytes_and_upgrades_provenance[False] _
+tests\test_research_media_recovery.py:78: in test_same_researched_primary_or_gallery_reuses_bytes_and_upgrades_provenance
+    report = import_research(file, settings=settings, apply=True, router=AcceptRouter())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+datafactory\research\importer.py:282: in import_research
+    return _import_research(file, apply=True, settings=settings, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+datafactory\research\importer.py:416: in _import_research
+    output, _ = export_offline(pack, pack.parent / output_version, places, work, pack_report)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+datafactory\pipeline\offline_export.py:31: in export_offline
+    parsed = [Place.model_validate(p) for p in places]
+              ^^^^^^^^^^^^^^^^^^^^^^^
+E   pydantic_core._pydantic_core.ValidationError: 1 validation error for Place
+E   images.primary.downloaded_at
+E     Field required [type=missing, input_value={'image_type': 'real', 's...7a31bba1a279308bee9920'}, input_type=dict]
+E       For further information visit https://errors.pydantic.dev/2.13/v/missing
+_ test_same_researched_primary_or_gallery_reuses_bytes_and_upgrades_provenance[True] _
+tests\test_research_media_recovery.py:78: in test_same_researched_primary_or_gallery_reuses_bytes_and_upgrades_provenance
+    report = import_research(file, settings=settings, apply=True, router=AcceptRouter())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+datafactory\research\importer.py:282: in import_research
+    return _import_research(file, apply=True, settings=settings, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+datafactory\research\importer.py:416: in _import_research
+    output, _ = export_offline(pack, pack.parent / output_version, places, work, pack_report)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+datafactory\pipeline\offline_export.py:31: in export_offline
+    parsed = [Place.model_validate(p) for p in places]
+              ^^^^^^^^^^^^^^^^^^^^^^^
+E   pydantic_core._pydantic_core.ValidationError: 2 validation errors for Place
+E   images.primary.downloaded_at
+E     Field required [type=missing, input_value={'image_type': 'real', 's...7a31bba1a279308bee9920'}, input_type=dict]
+E       For further information visit https://errors.pydantic.dev/2.13/v/missing
+E   images.gallery.0.downloaded_at
+E     Field required [type=missing, input_value={'image_type': 'real', 's...7a31bba1a279308bee9920'}, input_type=dict]
+E       For further information visit https://errors.pydantic.dev/2.13/v/missing
+_ test_existing_identity_bound_asset_avoids_cloud_and_dry_run_has_no_mutation _
+tests\test_research_media_recovery.py:101: in test_existing_identity_bound_asset_avoids_cloud_and_dry_run_has_no_mutation
+    report=import_research(file,settings=research_pack[0],apply=True,router=HoldRouter())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+datafactory\research\importer.py:282: in import_research
+    return _import_research(file, apply=True, settings=settings, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+datafactory\research\importer.py:416: in _import_research
+    output, _ = export_offline(pack, pack.parent / output_version, places, work, pack_report)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+datafactory\pipeline\offline_export.py:31: in export_offline
+    parsed = [Place.model_validate(p) for p in places]
+              ^^^^^^^^^^^^^^^^^^^^^^^
+E   pydantic_core._pydantic_core.ValidationError: 1 validation error for Place
+E   images.primary.downloaded_at
+E     Field required [type=missing, input_value={'image_type': 'real', 's...7a31bba1a279308bee9920'}, input_type=dict]
+E       For further information visit https://errors.pydantic.dev/2.13/v/missing
+=========================== short test summary info ===========================
+FAILED tests/test_research_media_recovery.py::test_same_researched_primary_or_gallery_reuses_bytes_and_upgrades_provenance[False]
+FAILED tests/test_research_media_recovery.py::test_same_researched_primary_or_gallery_reuses_bytes_and_upgrades_provenance[True]
+FAILED tests/test_research_media_recovery.py::test_existing_identity_bound_asset_avoids_cloud_and_dry_run_has_no_mutation
+3 failed, 128 passed in 13.66s

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\.venv\\Scripts\\python.exe",
+    "-m",
+    "datafactory.cli",
+    "validate",
+    "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-research-jaipur-images-01"
+  ],
+  "exit_code": 0
+}

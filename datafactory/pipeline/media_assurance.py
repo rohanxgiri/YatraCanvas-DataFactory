@@ -12,11 +12,13 @@ from ..sources.wikimedia import WikimediaCommonsClient
 from ..sources.openverse import OpenverseClient
 from ..utils.atomic import atomic_json
 from .identity_assurance import compact_identity
+from ..utils.media_metadata import canonical_license, commons_filename, commons_file_key
+from .image_content import normalize_primary_frame, ImageContentError, MAX_MEDIA_BYTES
+from ..ai.router import digest
 
 
 def license_allowed(value: str) -> bool:
-    value = re.sub(r"[\s_-]+", " ", value.strip()).upper()
-    return bool(re.fullmatch(r"(?:CC BY(?: SA)?(?: (?:1\.0|2\.0|2\.5|3\.0|4\.0))?|CC0(?: 1\.0)?|PUBLIC DOMAIN(?: MARK(?: 1\.0)?)?)", value))
+    return canonical_license(value) is not None
 
 
 def public_url(url: str) -> bool:
@@ -50,6 +52,13 @@ def deterministic_filter(candidate: MediaCandidate, content: bytes | None = None
         if len(content) > 20_000_000:
             return {"accepted": False, "reason_codes": ["IMAGE_BYTES_EXCEEDED"]}
         hashes["sha256"] = hashlib.sha256(content).hexdigest()
+        try:
+            content, normalized = normalize_primary_frame(content)
+            if normalized:
+                hashes["normalization_codes"] = normalized
+                hashes["normalized_sha256"] = hashlib.sha256(content).hexdigest()
+        except ImageContentError as exc:
+            return {"accepted": False, "reason_codes": [str(exc)], **hashes}
         try:
             with Image.open(io.BytesIO(content)) as image:
                 if image.width * image.height > 40_000_000:
@@ -107,6 +116,18 @@ class MediaAssurance:
         from ..local_intelligence.media import LocalMediaRanker
         self.ranker = ranker or LocalMediaRanker(work_dir / "local_scores")
         self.stats = Counter()
+        self.download_details = {}
+
+    def normalize(self, content):
+        try:
+            with Image.open(io.BytesIO(content)) as image:
+                self.stats["mpo_encountered"] += image.format == "MPO"
+        except (OSError, ValueError):
+            pass
+        content, codes = normalize_primary_frame(content)
+        if codes:
+            self.stats["mpo_normalized"] += 1
+        return content, codes
 
     def prepare(self, place, candidates):
         """Validate and deduplicate bounded candidates before local ranking/cloud AI."""
@@ -120,6 +141,12 @@ class MediaAssurance:
         for candidate in candidates[:self.ranker.config.local_media_max_candidates]:
             checks = deterministic_filter(candidate)
             content = self.download(candidate) if checks["accepted"] else None
+            if content is not None:
+                try:
+                    content, _ = self.normalize(content)
+                except ImageContentError as exc:
+                    checks = {"accepted": False, "reason_codes": [str(exc)]}
+                    content = None
             if content is not None:
                 checks = deterministic_filter(candidate, content)
                 if checks["accepted"]:
@@ -217,32 +244,80 @@ class MediaAssurance:
         allowed = {"upload.wikimedia.org", "live.staticflickr.com", "images.unsplash.com"}
         if urlparse(candidate.media_url).hostname not in allowed:
             return None
+        from ..config.settings import get_settings
+        cfg = get_settings().sources_config.get("media", {})
+        limit = min(MAX_MEDIA_BYTES, max(1024, int(cfg.get("commons_max_download_bytes", MAX_MEDIA_BYTES))))
+        long_edge = min(2400, max(1600, int(cfg.get("commons_derivative_long_edge", 1920))))
         cache_file = self.work_dir / "downloads" / (hashlib.sha256(candidate.media_url.encode()).hexdigest() + ".bin")
         if cache_file.exists():
-            return cache_file.read_bytes() if cache_file.stat().st_size <= 20_000_000 else None
+            return cache_file.read_bytes() if cache_file.stat().st_size <= limit else None
         if not self.allow_network:
             return None
-        try:
+        def fetch(url):
             with httpx.Client(timeout=20, follow_redirects=False) as client:
-                with client.stream("GET", candidate.media_url, headers={"User-Agent": self.commons.settings.user_agent}) as response:
+                with client.stream("GET", url, headers={"User-Agent": self.commons.settings.user_agent}) as response:
                     if response.status_code != 200 or response.headers.get("content-type", "").split(";")[0] not in {"image/jpeg", "image/png", "image/webp"}:
-                        return None
+                        return None, "DOWNLOAD_HTTP_OR_MIME_INVALID", response.status_code
+                    try:
+                        advertised = int(response.headers.get("content-length", "0"))
+                    except ValueError:
+                        advertised = 0
+                    if advertised > limit:
+                        return None, "DOWNLOAD_BYTES_EXCEEDED", response.status_code
                     chunks, size = [], 0
                     for chunk in response.iter_bytes():
                         size += len(chunk)
-                        if size > 20_000_000:
-                            return None
+                        if size > limit:
+                            return None, "DOWNLOAD_BYTES_EXCEEDED", response.status_code
                         chunks.append(chunk)
-            content = b"".join(chunks)
+            return b"".join(chunks), None, response.status_code
+        try:
+            fetched_url = candidate.media_url
+            content, error, status = fetch(fetched_url)
+            detail = {"original_url": candidate.media_url, "fetched_url": fetched_url,
+                      "http_status": status, "reason_codes": [error] if error else []}
+            if error == "DOWNLOAD_BYTES_EXCEEDED" and candidate.source == "Wikimedia Commons" and candidate.original_license_verified:
+                key = commons_filename(candidate.source_url, source_url=True)
+                derivative = self.commons.get_derivative_info(key, long_edge) if key else None
+                if (derivative and commons_file_key(derivative.get("original_file")) == key
+                        and public_url(derivative.get("url", ""))
+                        and urlparse(derivative["url"]).hostname in {"upload.wikimedia.org", "thumb.wikimedia.org"}
+                        and urlparse(derivative["url"]).path.startswith("/wikipedia/commons/thumb/")
+                        and 350 <= derivative.get("width", 0) <= long_edge
+                        and 250 <= derivative.get("height", 0) <= long_edge):
+                    fetched_url = derivative["url"]
+                    content, error, status = fetch(fetched_url)
+                    detail.update(fetched_url=fetched_url, http_status=status,
+                                  derivative_dimensions=[derivative["width"], derivative["height"]],
+                                  reason_codes=[error] if error else ["COMMONS_DERIVATIVE_USED"])
+                else:
+                    detail["reason_codes"].append("COMMONS_DERIVATIVE_UNAVAILABLE")
+            self.download_details[candidate.media_url] = detail
+            if content is None:
+                return None
+            if "COMMONS_DERIVATIVE_USED" in detail["reason_codes"]:
+                try:
+                    with Image.open(io.BytesIO(content)) as image:
+                        if (list(image.size) != detail["derivative_dimensions"] or max(image.size) > long_edge
+                                or image.width * image.height > 40_000_000):
+                            detail["reason_codes"] = ["COMMONS_DERIVATIVE_DIMENSIONS_INVALID"]
+                            return None
+                        image.load()
+                    self.stats["commons_derivatives_used"] += 1
+                except (OSError, ValueError):
+                    detail["reason_codes"] = ["COMMONS_DERIVATIVE_DECODE_FAILED"]
+                    return None
+            detail.update(bytes=len(content), sha256=hashlib.sha256(content).hexdigest())
             cache_file.parent.mkdir(parents=True, exist_ok=True)
             temp = cache_file.with_suffix(".tmp")
             temp.write_bytes(content)
             temp.replace(cache_file)
             return content
         except (httpx.HTTPError, OSError):
+            self.download_details[candidate.media_url] = {"reason_codes": ["DOWNLOAD_UNAVAILABLE"]}
             return None
 
-    def assess(self, place: dict, candidate: MediaCandidate, content: bytes, seen=None, local=None):
+    def assess(self, place: dict, candidate: MediaCandidate, content: bytes, seen=None, local=None, existing_verification=None, source_bytes_verified=True):
         checks = deterministic_filter(candidate, content, seen)
         result = {"candidate": candidate.model_dump(), "checks": checks, "action": "REVIEW"}
         if not checks["accepted"]:
@@ -253,8 +328,17 @@ class MediaAssurance:
         qid = place.get("external_ids", {}).get("wikidata_id") or place.get("wikidata_id")
         if qid and candidate.related_entity_id and candidate.related_entity_id != qid:
             return {**result, "action": "REJECT", "reason_codes": ["CONTRADICTORY_ENTITY_EVIDENCE"]}
+        if (existing_verification and existing_verification.get("place_id") == place["id"]
+                and existing_verification.get("identity_hash") == digest(compact_identity(place))
+                and existing_verification.get("content_sha256") == hashlib.sha256(content).hexdigest()
+                and existing_verification.get("source_key") == commons_file_key(candidate.source_url)):
+            self.stats["accepted_without_cloud_ai"] += 1
+            self.stats["cloud_jobs_avoided"] += 1
+            return {**result, "action": "AUTO_APPLY", "reason_codes": ["REUSE_EXISTING_VERIFIED_ASSET"], "final_confidence": .99}
         authoritative = (qid and candidate.related_entity_id == qid and candidate.match_method == "wikidata_p18"
                          and candidate.source == "Wikimedia Commons" and candidate.source_confidence >= .98)
+        if authoritative and not source_bytes_verified:
+            return {**result, "reason_codes": ["SOURCE_BYTES_VERIFICATION_REQUIRED"]}
         if authoritative:
             self.stats["accepted_without_cloud_ai"] += 1
             self.stats["cloud_jobs_avoided"] += 1
@@ -276,17 +360,28 @@ class MediaAssurance:
         for provider in before:
             self.stats[f"{provider}_calls"] += router_stats.get(f"{provider}_calls", 0) - before[provider]
         self.stats["cloud_verification_jobs"] += 1
-        result["ai"] = ai
+        result["ai"] = {key: ai[key] for key in ("status", "provider", "model", "result", "opinions", "diagnostics", "provider_failures") if key in ai}
         if ai["status"] != "OK":
-            return {**result, "reason_codes": [ai["status"]]}
+            provider_codes = [f"{row['provider'].upper()}_UNAVAILABLE" for row in ai.get("provider_failures", []) if row.get("provider") in {"groq", "gemini"}]
+            return {**result, "reason_codes": [ai["status"], "IDENTITY_EVIDENCE_INSUFFICIENT", *provider_codes]}
         decision = ai["result"]
         safe = (decision["decision"] == "ACCEPT" and decision["confidence"] >= 0.9
                 and decision["identity_match"] and decision["identity_confidence"] >= 0.9
                 and decision["real_photograph"] and decision["wrong_place_risk"] <= 0.05
                 and decision["landmark_prominence"] >= 0.65 and decision["mobile_card_suitability"] >= 0.7
                 and not decision["watermark_or_obstruction"] and candidate.source_confidence >= 0.9)
+        unmet = []
+        for field, minimum in (("confidence", .9), ("identity_confidence", .9), ("landmark_prominence", .65), ("mobile_card_suitability", .7)):
+            if decision[field] < minimum:
+                unmet.append(field)
+        if not decision["identity_match"] or not decision["real_photograph"] or decision["wrong_place_risk"] > .05 or decision["watermark_or_obstruction"]:
+            unmet.append("identity_or_photo_safety")
+        reasons = list(decision["reason_codes"])
+        if not safe:
+            reasons.append("MEDIA_ASSURANCE_THRESHOLD_NOT_MET")
         return {**result, "action": "AUTO_APPLY" if safe else ("REJECT" if decision["decision"] == "REJECT" else "REVIEW"),
-                "reason_codes": decision["reason_codes"], "final_confidence": min(candidate.source_confidence, decision["identity_confidence"], decision["confidence"])}
+                "reason_codes": reasons, "unmet_requirements": unmet,
+                "final_confidence": min(candidate.source_confidence, decision["identity_confidence"], decision["confidence"])}
 
     def apply(self, place: dict, candidate: MediaCandidate, assessment: dict, output_media_dir: Path, content=None):
         if assessment.get("action") != "AUTO_APPLY":

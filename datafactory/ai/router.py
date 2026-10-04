@@ -26,11 +26,12 @@ class AIRouter:
                              success=0, rate_limit=0, timeout=0, fallback=0, paid_feature_calls=0)
         self.events = []
         self.cooldowns = {}
+        self.provider_failures = {}
 
     def report(self):
         return {"AI_MODE": self.config.mode, "enabled": self.config.enabled, "stats": dict(self.stats),
                 "events": self.events, "paid_providers": "DISABLED", "paid_providers_invoked": 0,
-                "paid_feature_calls": 0}
+                "paid_feature_calls": 0, "provider_failures": list(self.provider_failures.values())}
 
     def health_check(self):
         return {"AI_MODE": self.config.mode, "providers": [p.health_check() for p in self.providers],
@@ -75,6 +76,7 @@ class AIRouter:
                 break
             if not self.config.permitted(provider.provider_id, provider.model):
                 last_code = "FREE_ONLY_BLOCKED"
+                self.provider_failures[provider.provider_id] = AIError(last_code, error_class="FREE_ONLY_POLICY", retryable=False).diagnostic(provider.provider_id)
                 continue
             # Reuse approved decisions without account/network access. Approved
             # alternate models retain their actual model-specific cache keys.
@@ -95,16 +97,26 @@ class AIRouter:
                 continue
             if entry is None and hasattr(provider, "key") and not provider.key:
                 last_code = "AI_UNAVAILABLE"
+                self.provider_failures[provider.provider_id] = AIError(last_code, error_class="API_KEY_MISSING", retryable=False).diagnostic(provider.provider_id)
                 continue
             if entry is None and hasattr(provider, "verified") and not provider.verified:
                 health = provider.health_check()
                 if health["health"] != "OK":
                     last_code = health["health"]
+                    if health.get("diagnostics"):
+                        self.provider_failures[provider.provider_id] = health["diagnostics"]
+                        self.events.append({"provider": provider.provider_id, "model": provider.model,
+                                            "operation": "provider_health", "status": last_code,
+                                            "diagnostics": health["diagnostics"]})
                     continue
             input_hash = digest({**base, "provider": provider.provider_id, "model": provider.model})
             path = self.cache_dir / digest(place_identity) / f"{operation}_{input_hash}.json"
             if entry is not None:
                 self.stats["cache_hits"] += 1
+                if entry["status"] != "OK":
+                    self.provider_failures[provider.provider_id] = entry.get("diagnostics") or {
+                        **AIError(entry["status"], error_class="CACHED_PROVIDER_FAILURE").diagnostic(provider.provider_id),
+                        "timestamp": entry.get("created_at")}
             else:
                 self.stats["cache_misses"] += 1
                 cooldown = self.cooldowns.get(provider.provider_id)
@@ -143,9 +155,15 @@ class AIRouter:
                         break
                     except ValidationError:
                         entry.update(status="AI_RESULT_INVALID")
+                        entry["diagnostics"] = {"provider": provider.provider_id, "status_category": "AI_RESULT_INVALID",
+                            "http_status": None, "error_class": "ValidationError", "rate_limited": False,
+                            "retryable": False, "timestamp": datetime.now(timezone.utc).isoformat()}
+                        self.provider_failures[provider.provider_id] = entry["diagnostics"]
                         break
                     except AIError as exc:
                         entry.update(status=exc.code)
+                        entry["diagnostics"] = exc.diagnostic(provider.provider_id)
+                        self.provider_failures[provider.provider_id] = entry["diagnostics"]
                         if exc.code == "AI_QUOTA_DEFERRED":
                             self.stats["rate_limit"] += 1
                             self.cooldowns[provider.provider_id] = (time.time() + max(60, exc.retry_after), exc.code)
@@ -161,7 +179,8 @@ class AIRouter:
                     entry["retry_at"] = time.time() + self.config.limits.get("deferred_retry_seconds", 3600)
                 atomic_json(path, entry)
                 self.events.append({"provider": provider.provider_id, "model": provider.model, "operation": operation,
-                                    "status": entry["status"], "input_hash": input_hash})
+                                    "status": entry["status"], "input_hash": input_hash,
+                                    **({"diagnostics": entry["diagnostics"]} if entry.get("diagnostics") else {})})
             last_code = entry["status"]
             if entry["status"] == "OK":
                 decisions.append(entry)
@@ -170,10 +189,11 @@ class AIRouter:
         if len(decisions) > 1 and decisions[0]["decision"] != decisions[1]["decision"]:
             return {"status": "REVIEW_AI_DISAGREEMENT", "opinions": decisions}
         if decisions:
-            return {**decisions[-1], "opinions": decisions}
+            return {**decisions[-1], "opinions": decisions, "provider_failures": list(self.provider_failures.values())}
         # Persist unresolved work even with absent/disabled providers and exhausted budgets.
         pending = {"status": last_code, "operation": operation, "input_hash": digest(base),
                    "created_at": datetime.now(timezone.utc).isoformat(), "reason_codes": [last_code], "inputs": base}
+        pending["provider_failures"] = list(self.provider_failures.values())
         self.stats["deferred_jobs"] += 1
         atomic_json(self.cache_dir / "pending" / f"{digest(base)}.json", pending)
         return pending

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "city": {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  },
+  "generated_at": "2026-10-03T19:48:01.165944+00:00",
+  "source_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-research-jaipur-images-03",
+  "source_snapshot": {
+    "places.json": "cc5e2fcd19599556ccdd876dadfa780e944d5e141606a4ce3c8a777a75894c3e",
+    "city.json": "c16e1b0d92b9c54b920c68d97d90b3ea26ca54e3025b5fbe9b12c1772f397e24",
+    "media_assurance.json": "e86b33b313834374fde87ffa6bd451fffebf28f4b6f3d9b53ead525b724bc131",
+    "field_provenance.json": "83d3700ae92299c0163bcb18e42093222842ff9a7d32a4f96589f0c71021843d",
+    "checksums.json": "a9d06e190ec9789b8edb31975a69b22f90c1e4a05b96bfdeb630f1bbdefe33d8"
+  },
+  "total_remaining": 35,
+  "resolution_queues": {
+    "PROVIDER_RETRY": 19,
+    "NEW_RESEARCH_REQUIRED": 10,
+    "MANUAL_REVIEW": 6
+  },
+  "problem_types": {
+    "ASSURANCE_HOLD": 19,
+    "RESEARCH_GAP": 10,
+    "IDENTITY_REVIEW": 6
+  },
+  "provider_retry_breakdown": {
+    "groq_429": 19,
+    "gemini_503": 19,
+    "other": 0
+  },
+  "provider_breakdown_scope": "affected records; categories overlap; router failure context",
+  "new_research_breakdown": {
+    "IDENTITY/SUITABILITY": 2,
+    "UNRESOLVED": 8
+  },
+  "new_research_handoff_id": "handoff_7b483895bbeed22d7bd2e61f",
+  "provider_retry_handoff_id": "handoff_428c4d743aec38945d42ba84",
+  "provider_calls": 0,
+  "paid_calls": 0,
+  "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\exports\\jaipur\\required_images_round3"
+}

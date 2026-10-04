@@ -1,0 +1,67 @@
+{
+  "protected_files_checked": 24252,
+  "changed_protected_files": [],
+  "verified_required_images": 17,
+  "remaining_required_images": 35,
+  "source_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-research-jaipur-images-03",
+  "resolution_queues": {
+    "PROVIDER_RETRY": 19,
+    "NEW_RESEARCH_REQUIRED": 10,
+    "MANUAL_REVIEW": 6
+  },
+  "new_research_handoff_id": "handoff_7b483895bbeed22d7bd2e61f",
+  "provider_retry_handoff_id": "handoff_428c4d743aec38945d42ba84",
+  "dry_runs": {
+    "new-research-dry-run.json": {
+      "tasks_supplied": 10,
+      "matched": 10,
+      "valid": 10,
+      "auto_applicable": 0,
+      "review": 0,
+      "rejected": 0,
+      "missing_pois": 0,
+      "invalid_sources": 0,
+      "invalid_schedules": 0,
+      "media_requiring_verification": 0,
+      "applied": 0,
+      "unresolved": 10
+    },
+    "provider-dry-run.json": {
+      "tasks_supplied": 19,
+      "matched": 19,
+      "valid": 19,
+      "auto_applicable": 0,
+      "review": 19,
+      "rejected": 0,
+      "missing_pois": 0,
+      "invalid_sources": 0,
+      "invalid_schedules": 0,
+      "media_requiring_verification": 19,
+      "applied": 0,
+      "unresolved": 0
+    }
+  },
+  "normal_web_export_tasks": 10,
+  "schema_unchanged": true,
+  "full_tests": {
+    "passed": 328,
+    "seconds": 46.42
+  },
+  "focused_tests": {
+    "passed": 134,
+    "seconds": 19.44
+  },
+  "provider_calls": 0,
+  "paid_calls": 0,
+  "validation": {
+    "total_places": 684,
+    "core_count": 52,
+    "core_with_wikidata": 23,
+    "core_with_image": 37,
+    "core_with_hours": 11,
+    "semantic_errors": 0,
+    "pipeline_health": "PASS",
+    "data_quality": "PASS",
+    "source_coverage": "WARN"
+  }
+}

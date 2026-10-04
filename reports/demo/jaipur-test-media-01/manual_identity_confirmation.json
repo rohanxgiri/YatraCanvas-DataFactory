@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+  "identity_hash": "aca968a5715edf4dd5d204a7c12b303870c169591c5f449592cd3e6bdf174d9d",
+  "input_sha256": "a3dcf425fc22eeb8eb08c11c203ce5287c4551a7135a11b14c6cebc6a5083273",
+  "source_name": "JaipurThruMyLens",
+  "source_page": "https://jaipurthrumylens.com/2016/10/06/history-old-city-gates-of-jaipur-architectural-design-elements/",
+  "reference_image_url": "https://jaipurthrumylens.com/wp-content/uploads/2016/10/surajpol-galta-gate-ramganj-bazaar-old-city-gates-in-jaipur-jaipurthrumylens.jpg?w=720",
+  "original_filename": "suraj_pol_old_jaipur_test.jpg",
+  "confirmed_by": "Human user supplied image and exact-identity confirmation in this request",
+  "identity_verified": true,
+  "real_photograph_confirmed": true,
+  "license_verified": false,
+  "identity_evidence": [
+    {
+      "id": "suraj_osm",
+      "url": "https://www.openstreetmap.org/way/863303428",
+      "supports": "Exact old-city gate way; saved API geometry and historic=monument/name tags.",
+      "evidence_strength": "primary"
+    },
+    {
+      "id": "suraj_wikidata",
+      "url": "https://www.wikidata.org/wiki/Q140770830",
+      "supports": "City gate labelled Suraj Pol Gate Jaipur; P625 agrees with the old-city coordinates. P1435 records a state-protected designation.",
+      "evidence_strength": "structured secondary",
+      "limitation": "Protection designation is a Wikidata claim; no gazette notification independently verified."
+    },
+    {
+      "id": "suraj_municipal",
+      "url": "https://pinkcity.jaipurmcheritage.org/Presentation/ExploreJaipur/OldGates.aspx",
+      "supports": "Surajpole is the eastern gateway of the old walled city, toward Galta and the Sun Temple.",
+      "evidence_strength": "primary"
+    },
+    {
+      "id": "suraj_ignca",
+      "url": "https://ignca.gov.in/asi_reports/RJJPR_358.pdf",
+      "supports": "Government heritage documentation identifies Suraj Pol in Pink City as a gateway.",
+      "evidence_strength": "primary",
+      "limitation": "Protection field is blank. Coarse coordinates and approach/orientation text are unsuitable for exact geolocation; municipal evidence and exact OSM/Wikidata anchors take precedence."
+    },
+    {
+      "url": "https://jaipurthrumylens.com/2016/10/06/history-old-city-gates-of-jaipur-architectural-design-elements/",
+      "supports": "The Surajpole section identifies the eastern walled-city gate, and its captioned Surajpol photograph visually matches the manually supplied image.",
+      "image_url": "https://jaipurthrumylens.com/wp-content/uploads/2016/10/surajpol-galta-gate-ramganj-bazaar-old-city-gates-in-jaipur-jaipurthrumylens.jpg?w=720"
+    }
+  ],
+  "excluded_entities": [
+    "Amber Fort Suraj Pol",
+    "Suraj Pol inside Amer Fort",
+    "Jorawar Singh Gate",
+    "Ajmeri Gate"
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "before": {
+    "GENERAL_USABILITY": 3.36,
+    "REAL_REQUIRED_MEDIA_COVERAGE": 32.69,
+    "real_required_total": 52,
+    "real_required_verified": 17,
+    "critical_blockers": {
+      "MEDIA_NOT_RENDERABLE": 641,
+      "CORE_MEDIA_UNRESOLVED": 35,
+      "COORDINATE_INVALID_OR_CONFLICT": 2,
+      "TRAVEL_REGION_SUSPICIOUS": 2
+    },
+    "critical_blocker_pois": 661,
+    "SOURCE_DATA_READY": false,
+    "pack_status": "DRAFT_OFFLINE_PACK"
+  },
+  "after": {
+    "GENERAL_USABILITY": 3.36,
+    "REAL_REQUIRED_MEDIA_COVERAGE": 32.69,
+    "real_required_total": 52,
+    "real_required_verified": 17,
+    "critical_blockers": {
+      "MEDIA_NOT_RENDERABLE": 641,
+      "CORE_MEDIA_UNRESOLVED": 35,
+      "COORDINATE_INVALID_OR_CONFLICT": 2,
+      "TRAVEL_REGION_SUSPICIOUS": 2
+    },
+    "critical_blocker_pois": 661,
+    "SOURCE_DATA_READY": false,
+    "pack_status": "DRAFT_OFFLINE_PACK"
+  },
+  "output_pack": null,
+  "apply_summary": {
+    "tasks_supplied": 10,
+    "matched": 10,
+    "valid": 10,
+    "auto_applicable": 0,
+    "review": 1,
+    "rejected": 0,
+    "missing_pois": 0,
+    "invalid_sources": 0,
+    "invalid_schedules": 0,
+    "media_requiring_verification": 1,
+    "applied": 0,
+    "unresolved": 9
+  },
+  "reason_codes": {
+    "Identity verified by structure and location labels": 1,
+    "High resolution image (4608x2592)": 1,
+    "Landmark is clearly visible and central": 1,
+    "Watermark or obstruction present": 1,
+    "MEDIA_ASSURANCE_THRESHOLD_NOT_MET": 1,
+    "LICENSE_CANONICALIZED": 1,
+    "LOCAL_ASSURANCE_AMBIGUOUS": 1,
+    "RESEARCH_UNRESOLVED": 9
+  },
+  "decisions": [
+    {
+      "place_id": "yc_in_rj_jaipur_jantar_mantar",
+      "action": "REVIEW",
+      "reason_codes": [
+        "Identity verified by structure and location labels",
+        "High resolution image (4608x2592)",
+        "Landmark is clearly visible and central",
+        "Watermark or obstruction present",
+        "MEDIA_ASSURANCE_THRESHOLD_NOT_MET",
+        "LICENSE_CANONICALIZED",
+        "LOCAL_ASSURANCE_AMBIGUOUS"
+      ],
+      "conflicting_fields": []
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_jawahar_circle",
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ],
+      "conflicting_fields": []
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_ram_niwas_garden",
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ],
+      "conflicting_fields": []
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_nahargarh_wildlife_sanctuary",
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ],
+      "conflicting_fields": []
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_jaipur_wax_museum",
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ],
+      "conflicting_fields": []
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ],
+      "conflicting_fields": []
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_nakati_mata_temple",
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ],
+      "conflicting_fields": []
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_vidyadhar_garden",
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ],
+      "conflicting_fields": []
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_chulgiri_digamber_jain_temple",
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ],
+      "conflicting_fields": []
+    },
+    {
+      "place_id": "yc_in_rj_jaipur_elejungle_jaipur_elephant_ride",
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ],
+      "conflicting_fields": []
+    }
+  ],
+  "ai_usage": {
+    "AI_MODE": "FREE_ONLY",
+    "enabled": true,
+    "stats": {
+      "calls": 2,
+      "images": 2,
+      "vision_calls": 2,
+      "escalations": 1,
+      "cache_hits": 0,
+      "cache_misses": 2,
+      "success": 1,
+      "rate_limit": 0,
+      "timeout": 0,
+      "fallback": 0,
+      "paid_feature_calls": 0,
+      "groq_calls": 1,
+      "media_audit_calls": 2,
+      "gemini_calls": 1
+    },
+    "events": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "OK",
+        "input_hash": "82c314351c57e5983478aa1ad8980028ad38901bd850ae78cb98348d15b61aa9"
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "operation": "media_audit",
+        "status": "AI_UNAVAILABLE",
+        "input_hash": "fa70b74c9cd357de02011ddba7b12b50c3d7c6a1e5aff0ac9abbdc159c05e14e",
+        "diagnostics": {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T20:05:37.282741+00:00"
+        }
+      }
+    ],
+    "paid_providers": "DISABLED",
+    "paid_providers_invoked": 0,
+    "paid_feature_calls": 0,
+    "provider_failures": [
+      {
+        "provider": "gemini",
+        "status_category": "AI_UNAVAILABLE",
+        "http_status": 503,
+        "error_class": "HTTP_SERVER_ERROR",
+        "rate_limited": false,
+        "retryable": true,
+        "timestamp": "2026-10-03T20:05:37.282741+00:00"
+      }
+    ]
+  },
+  "local_intelligence": {
+    "mpo_encountered": 0,
+    "groq_calls": 1,
+    "gemini_calls": 1,
+    "cloud_verification_jobs": 1,
+    "ranker": {
+      "ranked": 1,
+      "batches": 1
+    }
+  },
+  "protected_files_checked": 24236,
+  "changed_protected_files": [],
+  "changed_primary_images": [],
+  "validation": {
+    "total_places": 684,
+    "core_count": 52,
+    "core_with_wikidata": 23,
+    "core_with_image": 37,
+    "core_with_hours": 11,
+    "semantic_errors": 0,
+    "pipeline_health": "PASS",
+    "data_quality": "PASS",
+    "source_coverage": "WARN"
+  },
+  "head_unchanged": true,
+  "requested_output_not_published": true,
+  "original_download_input_unchanged": true,
+  "import_history": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\imports\\424490dd0bb74df403c5fa9d0753e1e6c6f59f3eaac0c2cbad53c525bc0948b4.json",
+  "jantar_mantar": {
+    "action": "REVIEW",
+    "unmet_requirements": [
+      "confidence",
+      "identity_or_photo_safety"
+    ],
+    "scores": {
+      "confidence": 0.85,
+      "reason_codes": [
+        "Identity verified by structure and location labels",
+        "High resolution image (4608x2592)",
+        "Landmark is clearly visible and central",
+        "Watermark or obstruction present"
+      ],
+      "decision": "ACCEPT",
+      "identity_match": true,
+      "identity_confidence": 0.95,
+      "real_photograph": true,
+      "landmark_prominence": 0.85,
+      "mobile_card_suitability": 0.9,
+      "hero_suitability": 0.9,
+      "watermark_or_obstruction": true,
+      "wrong_place_risk": 0.05
+    },
+    "license_verified": true,
+    "download_status": 200,
+    "dimensions": [
+      4608,
+      2592
+    ]
+  }
+}

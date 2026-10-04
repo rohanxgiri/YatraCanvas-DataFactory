@@ -1,0 +1,22 @@
+{
+  "preview_url": "http://127.0.0.1:8765/preview.html",
+  "test_method": "Codex browser DOM inspection and full-page screenshot",
+  "card_thumbnail": {
+    "loaded": true,
+    "width": 400,
+    "height": 287,
+    "local_path": "media/test_only/yc_in_rj_jaipur_suraj_pol_gate/a3dcf425fc22eeb8/thumbnail.webp"
+  },
+  "place_detail": {
+    "loaded": true,
+    "width": 640,
+    "height": 459,
+    "local_path": "media/test_only/yc_in_rj_jaipur_suraj_pol_gate/a3dcf425fc22eeb8/primary.webp"
+  },
+  "visible_media_class": "TEST_ONLY_REAL",
+  "visible_license_status": "reusable license unverified",
+  "visible_strict_verified_status": "UNRESOLVED",
+  "source_image_visually_matches_supplied_attachment": true,
+  "external_image_requests_required": false,
+  "separate_flutter_app_modified": false
+}

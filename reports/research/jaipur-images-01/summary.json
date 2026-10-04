@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.0",
+  "handoff_id": "handoff_fc76540c1776ad82dd87071b",
+  "task_types": {
+    "REAL_PRIMARY_IMAGE": 50
+  },
+  "input_file": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\import_inputs\\jaipur_image_research_results.json",
+  "canonicalized_input": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\import_inputs\\jaipur_image_research_results.canonicalized.json",
+  "input_correction_summary": "34 Creative Commons URL trailing slash corrections and 1 Unicode-equivalent creator spelling; all IDs and factual claims preserved",
+  "initial_dry_run": {
+    "tasks_supplied": 50,
+    "matched": 50,
+    "valid": 50,
+    "auto_applicable": 0,
+    "review": 42,
+    "rejected": 0,
+    "missing_pois": 0,
+    "invalid_sources": 15,
+    "invalid_schedules": 0,
+    "media_requiring_verification": 42,
+    "applied": 0,
+    "unresolved": 8
+  },
+  "initial_apply": {
+    "tasks_supplied": 50,
+    "matched": 50,
+    "valid": 50,
+    "auto_applicable": 0,
+    "review": 42,
+    "rejected": 0,
+    "missing_pois": 0,
+    "invalid_sources": 1,
+    "invalid_schedules": 0,
+    "media_requiring_verification": 42,
+    "applied": 0,
+    "unresolved": 8
+  },
+  "corrected_dry_run": {
+    "tasks_supplied": 50,
+    "matched": 50,
+    "valid": 50,
+    "auto_applicable": 0,
+    "review": 42,
+    "rejected": 0,
+    "missing_pois": 0,
+    "invalid_sources": 0,
+    "invalid_schedules": 0,
+    "media_requiring_verification": 42,
+    "applied": 0,
+    "unresolved": 8
+  },
+  "final_apply": {
+    "tasks_supplied": 50,
+    "matched": 50,
+    "valid": 46,
+    "auto_applicable": 1,
+    "review": 37,
+    "rejected": 4,
+    "missing_pois": 0,
+    "invalid_sources": 0,
+    "invalid_schedules": 0,
+    "media_requiring_verification": 37,
+    "applied": 1,
+    "unresolved": 8,
+    "accepted": 1
+  },
+  "image_counts": {
+    "accepted_real_primary": 1,
+    "deterministic_rejected": 4,
+    "duplicate_held": 16,
+    "license_metadata_held": 1,
+    "identity_quality_cloud_held": 12,
+    "download_size_held": 1,
+    "partial_conflicting_research": 7,
+    "unresolved": 8,
+    "downloaded_successfully": 33
+  },
+  "assurance_blockers": [
+    {
+      "name": "Albert Hall Museum",
+      "place_id": "yc_in_rj_jaipur_albert_hall_museum",
+      "barriers": [
+        "confidence 0.85 < 0.9"
+      ]
+    },
+    {
+      "name": "Anokhi Museum of Hand Printing",
+      "place_id": "yc_in_rj_jaipur_anokhi_museum_of_hand_printing",
+      "barriers": [
+        "confidence 0.85 < 0.9",
+        "generic_architecture",
+        "identity_confidence 0.15 < 0.9",
+        "identity_match is false",
+        "landmark_prominence 0.6 < 0.65",
+        "mobile_card_suitability 0.3 < 0.7",
+        "no_identity_markers",
+        "wrong_place_risk 0.7 > 0.05"
+      ]
+    },
+    {
+      "name": "Birla Mandir (aka The Marble Temple)",
+      "place_id": "yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple",
+      "barriers": [
+        "AI_UNAVAILABLE"
+      ]
+    },
+    {
+      "name": "Jantar Mantar",
+      "place_id": "yc_in_rj_jaipur_jantar_mantar",
+      "barriers": [
+        "AI_UNAVAILABLE"
+      ]
+    },
+    {
+      "name": "Jawahar Circle",
+      "place_id": "yc_in_rj_jaipur_jawahar_circle",
+      "barriers": [
+        "AI_UNAVAILABLE"
+      ]
+    },
+    {
+      "name": "Jhalana–Amagarh Leopard Conservation Reserve",
+      "place_id": "yc_in_rj_jaipur_jhalanaamagarh_leopard_conservation_reserve",
+      "barriers": [
+        "GOOD_QUALITY",
+        "IDENTITY_MATCH",
+        "NO_WATERMARK",
+        "REAL_PHOTOGRAPH",
+        "wrong_place_risk 0.1 > 0.05"
+      ]
+    },
+    {
+      "name": "Iswari Minar Swarga Sali (Isarlat)",
+      "place_id": "yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat",
+      "barriers": [
+        "IDENTITY_MATCH",
+        "LANDMARK_VISIBLE",
+        "wrong_place_risk 0.1 > 0.05"
+      ]
+    },
+    {
+      "name": "Galwar Bagh",
+      "place_id": "yc_in_rj_jaipur_galwar_bagh",
+      "barriers": [
+        "identity_match_source_title",
+        "typical_site_features_present",
+        "wrong_place_risk 0.2 > 0.05"
+      ]
+    },
+    {
+      "name": "Sun Gate",
+      "place_id": "yc_in_rj_jaipur_sun_gate",
+      "barriers": [
+        "AI_UNAVAILABLE"
+      ]
+    },
+    {
+      "name": "Diwan-i-Am",
+      "place_id": "yc_in_rj_jaipur_diwan_i_am",
+      "barriers": [
+        "AI_UNAVAILABLE"
+      ]
+    },
+    {
+      "name": "Ajmeri Gate",
+      "place_id": "yc_in_rj_jaipur_ajmeri_gate",
+      "barriers": [
+        "AI_UNAVAILABLE"
+      ]
+    },
+    {
+      "name": "Ganesh Pol",
+      "place_id": "yc_in_rj_jaipur_ganesh_pol",
+      "barriers": [
+        "AI_UNAVAILABLE"
+      ]
+    }
+  ],
+  "network_diagnostics": {
+    "govind_download": {
+      "name": "Govind Devji Temple",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Govind_Dev_Ji_Temple,_Jaipur,_20191218_1059_9092.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "24469664",
+      "download_limit_bytes": 20000000
+    },
+    "gemini_model": {
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "http_status": 200,
+      "error_status": null,
+      "error_code": null,
+      "supported_generation_methods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    }
+  },
+  "comparison": {
+    "time": "2026-10-03T16:23:59.299044+00:00",
+    "output_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-research-jaipur-images-01",
+    "before": {
+      "published": 684,
+      "GENERAL_USABILITY": 1.17,
+      "REAL_REQUIRED_MEDIA_COVERAGE": 3.85,
+      "real_required_total": 52,
+      "real_required_verified": 2,
+      "critical_blockers": {
+        "MEDIA_NOT_RENDERABLE": 644,
+        "CORE_MEDIA_UNRESOLVED": 50,
+        "COORDINATE_INVALID_OR_CONFLICT": 2,
+        "TRAVEL_REGION_SUSPICIOUS": 2
+      },
+      "critical_blocker_pois": 676,
+      "SOURCE_DATA_READY": false
+    },
+    "after": {
+      "published": 684,
+      "GENERAL_USABILITY": 1.32,
+      "REAL_REQUIRED_MEDIA_COVERAGE": 5.77,
+      "real_required_total": 52,
+      "real_required_verified": 3,
+      "critical_blockers": {
+        "MEDIA_NOT_RENDERABLE": 643,
+        "CORE_MEDIA_UNRESOLVED": 49,
+        "COORDINATE_INVALID_OR_CONFLICT": 2,
+        "TRAVEL_REGION_SUSPICIOUS": 2
+      },
+      "critical_blocker_pois": 675,
+      "SOURCE_DATA_READY": false
+    },
+    "source_pack_metrics_unchanged": true,
+    "preservation": {
+      "protected_files_checked": 23626,
+      "changed": [],
+      "missing": [],
+      "all_original_releases_unchanged": true,
+      "curation_unchanged": true,
+      "ai_configuration_unchanged": true,
+      "registered_handoffs_unchanged": true,
+      "original_input_unchanged": true,
+      "source_snapshot_still_matches": true,
+      "city_lab_files_touched": 0
+    },
+    "paid_ai_calls": 0,
+    "ai_mode": "FREE_ONLY",
+    "validation": {
+      "exit_code": 0,
+      "pipeline_health": "PASS",
+      "data_quality": "PASS",
+      "source_coverage": "WARN"
+    }
+  },
+  "tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m pytest tests\\test_research_handoff.py tests\\test_research_prioritization.py -q -p no:cacheprovider --basetemp C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\staging\\research-tests-semicolon-20261003-01 --tb=short",
+    "exit_code": 0,
+    "passed": 43,
+    "seconds": 6.8,
+    "evidence": "Captured collaboration tool output, not a separate saved pytest stdout file"
+  },
+  "ai_usage": {
+    "AI_MODE": "FREE_ONLY",
+    "enabled": true,
+    "stats": {
+      "calls": 11,
+      "images": 11,
+      "vision_calls": 11,
+      "escalations": 1,
+      "cache_hits": 0,
+      "cache_misses": 22,
+      "success": 6,
+      "rate_limit": 2,
+      "timeout": 0,
+      "fallback": 2,
+      "paid_feature_calls": 0,
+      "groq_calls": 8,
+      "media_audit_calls": 11,
+      "gemini_calls": 3,
+      "provider_cooldown_skips": 12,
+      "deferred_jobs": 7
+    },
+    "events": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "OK",
+        "input_hash": "ad06587546c5c5c12abd59d3c9879f865e5ff07a538b1200bfc2482d22442ea6"
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "operation": "media_audit",
+        "status": "AI_UNAVAILABLE",
+        "input_hash": "33cd15564d2e655249dcfb7ae4434abc8cb7e675c4f0358f287a1073b603b7b0"
+      },
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "OK",
+        "input_hash": "56d331c66d27325d716b3a765f4066894de6fa4f6382e5114187581731897781"
+      },
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "AI_QUOTA_DEFERRED",
+        "input_hash": "b2fe1a5dc97fd2ed58093681bcf428ca831c14e864b340f41f6d88233277e2ca"
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "operation": "media_audit",
+        "status": "AI_UNAVAILABLE",
+        "input_hash": "d535efef36f8fc89cac4ba9daf2bf9d04c23a1ed9b4db6eda63df96ab9a768a4"
+      },
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "OK",
+        "input_hash": "c167d9da4151568fa47a5f846a6ab5dbe296bec61ea4edd943fc85955a89af5b"
+      },
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "OK",
+        "input_hash": "56787261e1b17bde2253f48011eef3858f7eeb7b92d6e9b060fbffb7b51f2a42"
+      },
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "OK",
+        "input_hash": "6d7581afd11927b9daadd2d406fb227c83b7dd42503a2fd2dc1eb6244e22057b"
+      },
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "OK",
+        "input_hash": "f8be4eac8ec8b6a9d39628e43e0ed727d260f3b437b9fd6b32d1eb93587ba8c8"
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "operation": "media_audit",
+        "status": "AI_UNAVAILABLE",
+        "input_hash": "06d5f2fb6802163f4f2f6e392abbdccc2c4863a8c9689f6f986bcedd4e56f7d6"
+      }
+    ],
+    "paid_providers": "DISABLED",
+    "paid_providers_invoked": 0,
+    "paid_feature_calls": 0
+  },
+  "next_import_requires_fresh_handoff": true
+}

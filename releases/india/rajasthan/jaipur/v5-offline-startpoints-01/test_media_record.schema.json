@@ -1,0 +1,284 @@
+{
+  "$defs": {
+    "ImageMetadata": {
+      "properties": {
+        "image_type": {
+          "default": "real",
+          "title": "Image Type",
+          "type": "string"
+        },
+        "fallback_category": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fallback Category"
+        },
+        "fallback_asset_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fallback Asset Id"
+        },
+        "content_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Sha256"
+        },
+        "source": {
+          "default": "Wikimedia Commons",
+          "title": "Source",
+          "type": "string"
+        },
+        "source_page": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Page"
+        },
+        "original_file": {
+          "title": "Original File",
+          "type": "string"
+        },
+        "author": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author"
+        },
+        "license": {
+          "title": "License",
+          "type": "string"
+        },
+        "license_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License Url"
+        },
+        "attribution": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Attribution"
+        },
+        "width": {
+          "default": 0,
+          "title": "Width",
+          "type": "integer"
+        },
+        "height": {
+          "default": 0,
+          "title": "Height",
+          "type": "integer"
+        },
+        "match_method": {
+          "description": "wikidata_p18, commons_category, wikipedia_lead, or verified_search",
+          "title": "Match Method",
+          "type": "string"
+        },
+        "match_confidence": {
+          "default": 0.0,
+          "title": "Match Confidence",
+          "type": "number"
+        },
+        "downloaded_at": {
+          "title": "Downloaded At",
+          "type": "string"
+        },
+        "local_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Local Path"
+        },
+        "thumbnail_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Thumbnail Path"
+        }
+      },
+      "required": [
+        "original_file",
+        "license",
+        "match_method",
+        "downloaded_at"
+      ],
+      "title": "ImageMetadata",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "place_id": {
+      "title": "Place Id",
+      "type": "string"
+    },
+    "media_class": {
+      "const": "TEST_ONLY_REAL",
+      "default": "TEST_ONLY_REAL",
+      "title": "Media Class",
+      "type": "string"
+    },
+    "usage_scope": {
+      "const": "local_testing_only",
+      "default": "local_testing_only",
+      "title": "Usage Scope",
+      "type": "string"
+    },
+    "license_verified": {
+      "const": false,
+      "default": false,
+      "title": "License Verified",
+      "type": "boolean"
+    },
+    "identity_verified": {
+      "const": true,
+      "default": true,
+      "title": "Identity Verified",
+      "type": "boolean"
+    },
+    "counts_toward_source_readiness": {
+      "const": false,
+      "default": false,
+      "title": "Counts Toward Source Readiness",
+      "type": "boolean"
+    },
+    "identity_hash": {
+      "title": "Identity Hash",
+      "type": "string"
+    },
+    "input_sha256": {
+      "title": "Input Sha256",
+      "type": "string"
+    },
+    "source_name": {
+      "title": "Source Name",
+      "type": "string"
+    },
+    "source_page": {
+      "title": "Source Page",
+      "type": "string"
+    },
+    "reference_image_url": {
+      "title": "Reference Image Url",
+      "type": "string"
+    },
+    "original_filename": {
+      "title": "Original Filename",
+      "type": "string"
+    },
+    "imported_at": {
+      "title": "Imported At",
+      "type": "string"
+    },
+    "confirmed_by": {
+      "title": "Confirmed By",
+      "type": "string"
+    },
+    "identity_evidence": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Identity Evidence",
+      "type": "array"
+    },
+    "excluded_entities": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Excluded Entities",
+      "type": "array"
+    },
+    "primary_sha256": {
+      "title": "Primary Sha256",
+      "type": "string"
+    },
+    "thumbnail_sha256": {
+      "title": "Thumbnail Sha256",
+      "type": "string"
+    },
+    "image": {
+      "$ref": "#/$defs/ImageMetadata"
+    }
+  },
+  "required": [
+    "place_id",
+    "identity_hash",
+    "input_sha256",
+    "source_name",
+    "source_page",
+    "reference_image_url",
+    "original_filename",
+    "imported_at",
+    "confirmed_by",
+    "identity_evidence",
+    "primary_sha256",
+    "thumbnail_sha256",
+    "image"
+  ],
+  "title": "TestOnlyMediaRecord",
+  "type": "object"
+}

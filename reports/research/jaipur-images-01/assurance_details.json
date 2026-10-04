@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Albert Hall Museum",
+    "place_id": "yc_in_rj_jaipur_albert_hall_museum",
+    "action": "REVIEW",
+    "reason_codes": [],
+    "local_confidence": "AMBIGUOUS",
+    "provider_decisions": [
+      {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "status": "AI_UNAVAILABLE",
+        "result": null
+      },
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "status": "OK",
+        "result": {
+          "confidence": 0.85,
+          "reason_codes": [],
+          "decision": "ACCEPT",
+          "identity_match": true,
+          "identity_confidence": 0.95,
+          "real_photograph": true,
+          "landmark_prominence": 0.95,
+          "mobile_card_suitability": 0.9,
+          "hero_suitability": 0.85,
+          "watermark_or_obstruction": false,
+          "wrong_place_risk": 0.05
+        }
+      }
+    ]
+  },
+  {
+    "name": "Anokhi Museum of Hand Printing",
+    "place_id": "yc_in_rj_jaipur_anokhi_museum_of_hand_printing",
+    "action": "REVIEW",
+    "reason_codes": [
+      "no_identity_markers",
+      "generic_architecture"
+    ],
+    "local_confidence": "AMBIGUOUS",
+    "provider_decisions": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "status": "OK",
+        "result": {
+          "confidence": 0.85,
+          "reason_codes": [
+            "no_identity_markers",
+            "generic_architecture"
+          ],
+          "decision": "REVIEW",
+          "identity_match": false,
+          "identity_confidence": 0.15,
+          "real_photograph": true,
+          "landmark_prominence": 0.6,
+          "mobile_card_suitability": 0.3,
+          "hero_suitability": 0.2,
+          "watermark_or_obstruction": false,
+          "wrong_place_risk": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "name": "Birla Mandir (aka The Marble Temple)",
+    "place_id": "yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE"
+    ],
+    "local_confidence": "AMBIGUOUS",
+    "provider_decisions": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "status": "AI_QUOTA_DEFERRED",
+        "result": null
+      }
+    ]
+  },
+  {
+    "name": "Jantar Mantar",
+    "place_id": "yc_in_rj_jaipur_jantar_mantar",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE"
+    ],
+    "local_confidence": "LOW",
+    "provider_decisions": [
+      {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "status": "AI_UNAVAILABLE",
+        "result": null
+      }
+    ]
+  },
+  {
+    "name": "Jawahar Circle",
+    "place_id": "yc_in_rj_jaipur_jawahar_circle",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE"
+    ],
+    "local_confidence": "AMBIGUOUS",
+    "provider_decisions": []
+  },
+  {
+    "name": "Jhalana–Amagarh Leopard Conservation Reserve",
+    "place_id": "yc_in_rj_jaipur_jhalanaamagarh_leopard_conservation_reserve",
+    "action": "REVIEW",
+    "reason_codes": [
+      "REAL_PHOTOGRAPH",
+      "IDENTITY_MATCH",
+      "NO_WATERMARK",
+      "GOOD_QUALITY"
+    ],
+    "local_confidence": "LOW",
+    "provider_decisions": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "status": "OK",
+        "result": {
+          "confidence": 0.95,
+          "reason_codes": [
+            "REAL_PHOTOGRAPH",
+            "IDENTITY_MATCH",
+            "NO_WATERMARK",
+            "GOOD_QUALITY"
+          ],
+          "decision": "ACCEPT",
+          "identity_match": true,
+          "identity_confidence": 0.9,
+          "real_photograph": true,
+          "landmark_prominence": 0.8,
+          "mobile_card_suitability": 0.9,
+          "hero_suitability": 0.85,
+          "watermark_or_obstruction": false,
+          "wrong_place_risk": 0.1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Akshardham Temple",
+    "place_id": "yc_in_rj_jaipur_akshardham_temple",
+    "action": "AUTO_APPLY",
+    "reason_codes": [
+      "INTENDED_IDENTITY_MATCH",
+      "REAL_PHOTOGRAPH",
+      "HIGH_QUALITY"
+    ],
+    "local_confidence": "AMBIGUOUS",
+    "provider_decisions": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "status": "OK",
+        "result": {
+          "confidence": 0.95,
+          "reason_codes": [
+            "INTENDED_IDENTITY_MATCH",
+            "REAL_PHOTOGRAPH",
+            "HIGH_QUALITY"
+          ],
+          "decision": "ACCEPT",
+          "identity_match": true,
+          "identity_confidence": 0.95,
+          "real_photograph": true,
+          "landmark_prominence": 1.0,
+          "mobile_card_suitability": 0.9,
+          "hero_suitability": 0.9,
+          "watermark_or_obstruction": false,
+          "wrong_place_risk": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Iswari Minar Swarga Sali (Isarlat)",
+    "place_id": "yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat",
+    "action": "REVIEW",
+    "reason_codes": [
+      "LANDMARK_VISIBLE",
+      "IDENTITY_MATCH"
+    ],
+    "local_confidence": "AMBIGUOUS",
+    "provider_decisions": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "status": "OK",
+        "result": {
+          "confidence": 0.95,
+          "reason_codes": [
+            "LANDMARK_VISIBLE",
+            "IDENTITY_MATCH"
+          ],
+          "decision": "ACCEPT",
+          "identity_match": true,
+          "identity_confidence": 0.95,
+          "real_photograph": true,
+          "landmark_prominence": 0.9,
+          "mobile_card_suitability": 0.8,
+          "hero_suitability": 0.7,
+          "watermark_or_obstruction": false,
+          "wrong_place_risk": 0.1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Galwar Bagh",
+    "place_id": "yc_in_rj_jaipur_galwar_bagh",
+    "action": "REVIEW",
+    "reason_codes": [
+      "identity_match_source_title",
+      "typical_site_features_present"
+    ],
+    "local_confidence": "LOW",
+    "provider_decisions": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "status": "OK",
+        "result": {
+          "confidence": 0.93,
+          "reason_codes": [
+            "identity_match_source_title",
+            "typical_site_features_present"
+          ],
+          "decision": "ACCEPT",
+          "identity_match": true,
+          "identity_confidence": 0.92,
+          "real_photograph": true,
+          "landmark_prominence": 0.85,
+          "mobile_card_suitability": 0.85,
+          "hero_suitability": 0.7,
+          "watermark_or_obstruction": false,
+          "wrong_place_risk": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "name": "Sun Gate",
+    "place_id": "yc_in_rj_jaipur_sun_gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE"
+    ],
+    "local_confidence": "LOW",
+    "provider_decisions": [
+      {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "status": "AI_UNAVAILABLE",
+        "result": null
+      }
+    ]
+  },
+  {
+    "name": "Diwan-i-Am",
+    "place_id": "yc_in_rj_jaipur_diwan_i_am",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE"
+    ],
+    "local_confidence": "AMBIGUOUS",
+    "provider_decisions": []
+  },
+  {
+    "name": "Ajmeri Gate",
+    "place_id": "yc_in_rj_jaipur_ajmeri_gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE"
+    ],
+    "local_confidence": "AMBIGUOUS",
+    "provider_decisions": []
+  },
+  {
+    "name": "Ganesh Pol",
+    "place_id": "yc_in_rj_jaipur_ganesh_pol",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE"
+    ],
+    "local_confidence": "LOW",
+    "provider_decisions": []
+  }
+]

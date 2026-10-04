@@ -1,0 +1,352 @@
+{
+  "schema_version": "1.0",
+  "resolution_state": "MANUAL_REVIEW",
+  "city": {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  },
+  "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-02-derivative-01",
+  "source_snapshot": {
+    "places.json": "6ad941f341b474536fcf93b63aa3ca0225a6bcbb3dd5312d4b9c3a33576e10d8",
+    "city.json": "c16e1b0d92b9c54b920c68d97d90b3ea26ca54e3025b5fbe9b12c1772f397e24",
+    "media_assurance.json": "21db8ddf24fe4feeecdd21f6a76cdfc179157ef30f46ef0c29f4334843d23246",
+    "field_provenance.json": "781e6ad8111061b9b54a5cfa10f9eb04c982f8efb6557358712e717d122fa5e5",
+    "checksums.json": "8838844e7e98ba864929fd5aca4cfb7b551d8b8134b2ef2e32fed2945ce8c23f"
+  },
+  "tasks": [
+    {
+      "resolution_state": "MANUAL_REVIEW",
+      "problem_type": "IDENTITY_REVIEW",
+      "resolution_reason": "POI_IDENTITY_REQUIRES_HUMAN_REVIEW",
+      "breakdown": "CONFLICT",
+      "current_research_status": "CONFLICT",
+      "source_license_verified": false,
+      "deterministic_checks_passed": false,
+      "download_or_reuse_verified": false,
+      "web_search_needed": false,
+      "alternate_image_required": false,
+      "provider_failures": [],
+      "task_id": "research_9d74a6b53f3d470c87db41de",
+      "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "name": "Suraj Pol Gate",
+      "candidate": null,
+      "existing_candidate_available": false,
+      "research_evidence": {
+        "task_id": "research_9d74a6b53f3d470c87db41de",
+        "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+        "status": "CONFLICT",
+        "sources": [],
+        "research_notes": "The handoff's Suraj Pol Gate coordinates/identity do not match the well-documented Suraj Pol at Amber Fort. Do not attach an Amber Fort gate image until the place identity is resolved.",
+        "type": "REAL_PRIMARY_IMAGE",
+        "result": {
+          "source_page_url": null,
+          "direct_media_url": null,
+          "local_file": null,
+          "source_provider": null,
+          "creator": null,
+          "license": null,
+          "license_url": null,
+          "attribution": null,
+          "notes": "The handoff's Suraj Pol Gate coordinates/identity do not match the well-documented Suraj Pol at Amber Fort. Do not attach an Amber Fort gate image until the place identity is resolved."
+        }
+      },
+      "previous_attempt": {
+        "status": "REVIEW",
+        "reason_codes": [
+          "RESEARCH_CONFLICT"
+        ],
+        "source_page": null,
+        "direct_media_url": null,
+        "unmet_requirements": [],
+        "media_result": {},
+        "provider_status": null,
+        "provider_failure_scope": "router_context",
+        "assurance_run_started_at": "2026-10-03T17:43:37.974462+00:00",
+        "last_attempt_timestamp": null
+      },
+      "siglip": {},
+      "checks": {},
+      "download": {},
+      "reusable_asset": null,
+      "provider_routing": [
+        "groq",
+        "gemini"
+      ],
+      "providers_with_recorded_failures": [],
+      "research_history": {
+        "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+        "handoff_id": "handoff_5bc527aa3426a26aa66609b7",
+        "audit_file": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\imports\\28cabf37897e530c349e2f91cd9ce2891f06e35ec225ec47ca0c2bb851b3ea92.json",
+        "input_file": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\import_inputs\\jaipur_image_retry_results_02.json"
+      },
+      "earlier_attempts": [
+        {
+          "status": "REVIEW",
+          "reason_codes": [
+            "RESEARCH_CONFLICT"
+          ],
+          "attempted_at": "2026-10-03T16:09:33.428690+00:00"
+        },
+        {
+          "status": "REVIEW",
+          "reason_codes": [
+            "RESEARCH_CONFLICT"
+          ],
+          "attempted_at": "2026-10-03T16:16:57.355193+00:00"
+        }
+      ]
+    },
+    {
+      "resolution_state": "MANUAL_REVIEW",
+      "problem_type": "IDENTITY_REVIEW",
+      "resolution_reason": "POI_IDENTITY_REQUIRES_HUMAN_REVIEW",
+      "breakdown": "CONFLICT",
+      "current_research_status": "CONFLICT",
+      "source_license_verified": false,
+      "deterministic_checks_passed": false,
+      "download_or_reuse_verified": false,
+      "web_search_needed": false,
+      "alternate_image_required": false,
+      "provider_failures": [],
+      "task_id": "research_e8a6966046199590f69e21ae",
+      "place_id": "yc_in_rj_jaipur_jain_mandir",
+      "type": "REAL_PRIMARY_IMAGE",
+      "name": "Jain Mandir",
+      "candidate": null,
+      "existing_candidate_available": false,
+      "research_evidence": {
+        "task_id": "research_e8a6966046199590f69e21ae",
+        "place_id": "yc_in_rj_jaipur_jain_mandir",
+        "status": "CONFLICT",
+        "sources": [],
+        "research_notes": "The record alias 'Shivdas Pura' conflicts with the central-Jaipur coordinates in the handoff. Resolve place identity before selecting a primary image.",
+        "type": "REAL_PRIMARY_IMAGE",
+        "result": {
+          "source_page_url": null,
+          "direct_media_url": null,
+          "local_file": null,
+          "source_provider": null,
+          "creator": null,
+          "license": null,
+          "license_url": null,
+          "attribution": null,
+          "notes": "The record alias 'Shivdas Pura' conflicts with the central-Jaipur coordinates in the handoff. Resolve place identity before selecting a primary image."
+        }
+      },
+      "previous_attempt": {
+        "status": "REVIEW",
+        "reason_codes": [
+          "RESEARCH_CONFLICT"
+        ],
+        "source_page": null,
+        "direct_media_url": null,
+        "unmet_requirements": [],
+        "media_result": {},
+        "provider_status": null,
+        "provider_failure_scope": "router_context",
+        "assurance_run_started_at": "2026-10-03T17:43:37.974462+00:00",
+        "last_attempt_timestamp": null
+      },
+      "siglip": {},
+      "checks": {},
+      "download": {},
+      "reusable_asset": null,
+      "provider_routing": [
+        "groq",
+        "gemini"
+      ],
+      "providers_with_recorded_failures": [],
+      "research_history": {
+        "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+        "handoff_id": "handoff_5bc527aa3426a26aa66609b7",
+        "audit_file": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\imports\\28cabf37897e530c349e2f91cd9ce2891f06e35ec225ec47ca0c2bb851b3ea92.json",
+        "input_file": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\import_inputs\\jaipur_image_retry_results_02.json"
+      },
+      "earlier_attempts": [
+        {
+          "status": "REVIEW",
+          "reason_codes": [
+            "RESEARCH_CONFLICT"
+          ],
+          "attempted_at": "2026-10-03T16:09:33.428690+00:00"
+        },
+        {
+          "status": "REVIEW",
+          "reason_codes": [
+            "RESEARCH_CONFLICT"
+          ],
+          "attempted_at": "2026-10-03T16:16:57.355193+00:00"
+        }
+      ]
+    },
+    {
+      "resolution_state": "MANUAL_REVIEW",
+      "problem_type": "IDENTITY_REVIEW",
+      "resolution_reason": "POI_IDENTITY_REQUIRES_HUMAN_REVIEW",
+      "breakdown": "CONFLICT",
+      "current_research_status": "CONFLICT",
+      "source_license_verified": false,
+      "deterministic_checks_passed": false,
+      "download_or_reuse_verified": false,
+      "web_search_needed": false,
+      "alternate_image_required": false,
+      "provider_failures": [],
+      "task_id": "research_e2f7da77655aa4878572e0c3",
+      "place_id": "yc_in_rj_jaipur_haveli",
+      "type": "REAL_PRIMARY_IMAGE",
+      "name": "Haveli",
+      "candidate": null,
+      "existing_candidate_available": true,
+      "research_evidence": {
+        "task_id": "research_e2f7da77655aa4878572e0c3",
+        "place_id": "yc_in_rj_jaipur_haveli",
+        "status": "CONFLICT",
+        "sources": [],
+        "research_notes": "The place is generically named 'Haveli' while the current Commons media is specifically Samode Haveli; identity must be resolved before reuse.",
+        "type": "REAL_PRIMARY_IMAGE",
+        "result": {
+          "source_page_url": null,
+          "direct_media_url": null,
+          "local_file": null,
+          "source_provider": null,
+          "creator": null,
+          "license": null,
+          "license_url": null,
+          "attribution": null,
+          "notes": "The place is generically named 'Haveli' while the current Commons media is specifically Samode Haveli; identity must be resolved before reuse."
+        }
+      },
+      "previous_attempt": {
+        "status": "REVIEW",
+        "reason_codes": [
+          "RESEARCH_CONFLICT"
+        ],
+        "source_page": "https://commons.wikimedia.org/wiki/File:Jaipur-Samode_Haveli-20131017.jpg",
+        "direct_media_url": null,
+        "unmet_requirements": [],
+        "media_result": {},
+        "provider_status": null,
+        "provider_failure_scope": "router_context",
+        "assurance_run_started_at": "2026-10-03T17:43:37.974462+00:00",
+        "last_attempt_timestamp": null
+      },
+      "siglip": {},
+      "checks": {},
+      "download": {},
+      "reusable_asset": null,
+      "provider_routing": [
+        "groq",
+        "gemini"
+      ],
+      "providers_with_recorded_failures": [],
+      "research_history": {
+        "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+        "handoff_id": "handoff_5bc527aa3426a26aa66609b7",
+        "audit_file": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\imports\\28cabf37897e530c349e2f91cd9ce2891f06e35ec225ec47ca0c2bb851b3ea92.json",
+        "input_file": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\import_inputs\\jaipur_image_retry_results_02.json"
+      },
+      "earlier_attempts": [
+        {
+          "status": "REVIEW",
+          "reason_codes": [
+            "RESEARCH_CONFLICT"
+          ],
+          "attempted_at": "2026-10-03T16:09:33.428690+00:00"
+        },
+        {
+          "status": "REVIEW",
+          "reason_codes": [
+            "RESEARCH_CONFLICT"
+          ],
+          "attempted_at": "2026-10-03T16:16:57.355193+00:00"
+        }
+      ]
+    },
+    {
+      "resolution_state": "MANUAL_REVIEW",
+      "problem_type": "IDENTITY_REVIEW",
+      "resolution_reason": "POI_IDENTITY_REQUIRES_HUMAN_REVIEW",
+      "breakdown": "CONFLICT",
+      "current_research_status": "CONFLICT",
+      "source_license_verified": false,
+      "deterministic_checks_passed": false,
+      "download_or_reuse_verified": false,
+      "web_search_needed": false,
+      "alternate_image_required": false,
+      "provider_failures": [],
+      "task_id": "research_3817f84ad726744294081ccd",
+      "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+      "type": "REAL_PRIMARY_IMAGE",
+      "name": "Rooftop view stairs",
+      "candidate": null,
+      "existing_candidate_available": false,
+      "research_evidence": {
+        "task_id": "research_3817f84ad726744294081ccd",
+        "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+        "status": "CONFLICT",
+        "sources": [],
+        "research_notes": "The generic 'Rooftop view stairs' record lacks a stable public identity suitable for a REAL_REQUIRED primary photograph. Treat as identity/policy review, not an image search problem.",
+        "type": "REAL_PRIMARY_IMAGE",
+        "result": {
+          "source_page_url": null,
+          "direct_media_url": null,
+          "local_file": null,
+          "source_provider": null,
+          "creator": null,
+          "license": null,
+          "license_url": null,
+          "attribution": null,
+          "notes": "The generic 'Rooftop view stairs' record lacks a stable public identity suitable for a REAL_REQUIRED primary photograph. Treat as identity/policy review, not an image search problem."
+        }
+      },
+      "previous_attempt": {
+        "status": "REVIEW",
+        "reason_codes": [
+          "RESEARCH_CONFLICT"
+        ],
+        "source_page": null,
+        "direct_media_url": null,
+        "unmet_requirements": [],
+        "media_result": {},
+        "provider_status": null,
+        "provider_failure_scope": "router_context",
+        "assurance_run_started_at": "2026-10-03T17:43:37.974462+00:00",
+        "last_attempt_timestamp": null
+      },
+      "siglip": {},
+      "checks": {},
+      "download": {},
+      "reusable_asset": null,
+      "provider_routing": [
+        "groq",
+        "gemini"
+      ],
+      "providers_with_recorded_failures": [],
+      "research_history": {
+        "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+        "handoff_id": "handoff_5bc527aa3426a26aa66609b7",
+        "audit_file": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\imports\\28cabf37897e530c349e2f91cd9ce2891f06e35ec225ec47ca0c2bb851b3ea92.json",
+        "input_file": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\import_inputs\\jaipur_image_retry_results_02.json"
+      },
+      "earlier_attempts": [
+        {
+          "status": "REVIEW",
+          "reason_codes": [
+            "RESEARCH_CONFLICT"
+          ],
+          "attempted_at": "2026-10-03T16:09:33.428690+00:00"
+        },
+        {
+          "status": "REVIEW",
+          "reason_codes": [
+            "RESEARCH_CONFLICT"
+          ],
+          "attempted_at": "2026-10-03T16:16:57.355193+00:00"
+        }
+      ]
+    }
+  ]
+}

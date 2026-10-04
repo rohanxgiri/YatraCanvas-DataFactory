@@ -1,5 +1,6 @@
 """Validate research against registered immutable tasks, then publish one new pack."""
 import copy
+import hashlib
 import io
 import json
 import re
@@ -7,7 +8,7 @@ import uuid
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse, unquote
+from urllib.parse import urlparse, urlsplit, unquote
 from PIL import Image
 from pydantic import ValidationError, TypeAdapter
 from ..ai.router import AIRouter, digest
@@ -26,6 +27,9 @@ from ..utils.hashing import compute_sha256
 from .export import snapshot, city_key, read_assurance, task_id, hours_stale
 from .quality import public_source, source_quality
 from .schemas import ResearchResult
+from .media_evidence import ResearchMediaEvidence, metadata_conflicts
+from ..utils.media_metadata import commons_filename, canonical_license, canonical_license_url
+from ..pipeline.image_content import ImageContentError
 
 
 class ReadOnlyRouter:
@@ -79,32 +83,32 @@ def image_pool(place, pack, threshold):
     return pool
 
 
-def evaluate_image(result, place, sources, media, file_root, *, apply, allow_network, pool):
+def evaluate_image(result, place, sources, media, file_root, *, apply, allow_network, pool, evidence=None):
     payload = result.result
     if not all((payload.source_page_url, payload.creator, payload.license, payload.license_url, payload.attribution)):
         return {"action": "REVIEW", "reason_codes": ["IMAGE_LICENSE_OR_ATTRIBUTION_MISSING"]}
     if not re.fullmatch(r"[A-Za-z0-9_-]+", place["id"]):
         return {"action": "REJECT", "reason_codes": ["UNSAFE_PUBLISHED_PLACE_ID"]}
-    if not license_allowed(payload.license) or not public_source(payload.license_url):
+    legal_url = canonical_license_url(payload.license_url) or payload.license_url
+    if not canonical_license(payload.license, payload.license_url) or not public_source(legal_url):
         return {"action": "REVIEW", "reason_codes": ["IMAGE_LICENSE_INVALID"]}
     if not public_source(payload.source_page_url) or not any(s.get("url") == payload.source_page_url for s in sources):
         return {"action": "REVIEW", "reason_codes": ["IMAGE_SOURCE_INVALID"]}
-    # Commons is the existing independent license verification adapter. Unsupported
-    # original hosts remain reviewable, even with a manually supplied local file.
-    parsed = urlparse(payload.source_page_url)
-    if parsed.hostname != "commons.wikimedia.org" or not parsed.path.startswith("/wiki/File:"):
+    filename = commons_filename(payload.source_page_url, source_url=True)
+    if not filename:
         return {"action": "REVIEW", "reason_codes": ["ORIGINAL_SOURCE_UNSUPPORTED"]}
-    filename = unquote(parsed.path.split("/wiki/File:", 1)[1])
-    info = media.commons.get_image_info(filename) if apply and allow_network else media.commons.cache.get(f"img_{filename}")
+    info = media.commons.get_image_info(filename) if apply and allow_network else media.commons.cached_image_info(filename)
     if not info:
         return {"action": "REVIEW", "reason_codes": ["ORIGINAL_SOURCE_LICENSE_UNVERIFIED"]}
-    if (info.get("license") != payload.license or info.get("author") != payload.creator
-            or info.get("license_url") != payload.license_url
-            or info.get("source_page") != payload.source_page_url
-            or payload.direct_media_url and payload.direct_media_url != info.get("url")):
-        return {"action": "REVIEW", "reason_codes": ["ORIGINAL_SOURCE_METADATA_CONFLICT"]}
-    candidate = MediaCandidate.from_commons(info, "research_import", .95)
-    candidate.attribution = payload.attribution
+    conflicts = metadata_conflicts(payload, info)
+    if conflicts:
+        return {"action": "REVIEW", "reason_codes": ["ORIGINAL_SOURCE_METADATA_CONFLICT"], "conflicting_fields": conflicts}
+    if evidence:
+        candidate, merged = evidence.merge(place, payload, info)
+        if candidate is None:
+            return {"action": "REVIEW", **merged}
+    else:
+        candidate, merged = MediaCandidate.from_commons(info, "research_import", .95), {"reason_codes": []}
     path = local_file(file_root, payload.local_file) if payload.local_file else None
     if payload.local_file and path is None:
         return {"action": "REVIEW", "reason_codes": ["LOCAL_IMAGE_MISSING_OR_UNSAFE"]}
@@ -112,41 +116,77 @@ def evaluate_image(result, place, sources, media, file_root, *, apply, allow_net
     if not checks["accepted"]:
         return {"action": "REJECT", "reason_codes": checks["reason_codes"]}
     content = path.read_bytes() if path else media.download(candidate)
+    download = media.download_details.get(candidate.media_url, {})
     if content is None:
-        return {"action": "REVIEW", "reason_codes": ["MEDIA_DOWNLOAD_OR_VERIFICATION_REQUIRED"]}
+        return {"action": "REVIEW", "reason_codes": ["MEDIA_DOWNLOAD_OR_VERIFICATION_REQUIRED", *download.get("reason_codes", [])],
+                "evidence_merge": merged, "download": download, "candidate": candidate.model_dump()}
+    original_sha = hashlib.sha256(content).hexdigest()
+    source_bytes_verified = path is None
+    if path and apply and allow_network and candidate.match_method == "wikidata_p18":
+        remote = media.download(candidate)
+        source_bytes_verified = remote is not None and hashlib.sha256(remote).hexdigest() == original_sha
+    try:
+        content, normalized = media.normalize(content)
+    except ImageContentError as exc:
+        return {"action": "REJECT", "reason_codes": [str(exc)], "candidate": candidate.model_dump()}
     checks = deterministic_filter(candidate, content)
     if not checks["accepted"]:
-        return {"action": "REJECT", "reason_codes": checks["reason_codes"]}
-    duplicate = pool.check(content)
-    if duplicate["duplicate"]:
-        return {"action": "REVIEW", "reason_codes": ["DUPLICATE_IMAGE"], "duplicate": duplicate["method"]}
+        return {"action": "REJECT", "reason_codes": checks["reason_codes"], "checks": checks, "candidate": candidate.model_dump()}
+    reuse = evidence.existing(place, candidate, content, original_sha256=original_sha) if evidence else {}
+    if reuse.get("conflict"):
+        return {"action": "REVIEW", "reason_codes": ["DUPLICATE_IMAGE", reuse["conflict"]] if reuse["conflict"].startswith("DUPLICATE") else [reuse["conflict"]],
+                "other_place_ids": reuse.get("other_place_ids", []), "candidate": candidate.model_dump(), "checks": checks}
+    if not evidence:
+        duplicate = pool.check(content)
+        if duplicate["duplicate"]:
+            return {"action": "REVIEW", "reason_codes": ["DUPLICATE_IMAGE"], "duplicate": duplicate["method"]}
+    trusted_reuse = reuse.get("verified_identity")
+    if trusted_reuse and not info.get("attribution") and reuse["asset"]["image"].get("attribution"):
+        candidate.attribution = reuse["asset"]["image"]["attribution"]
+    if trusted_reuse and reuse["asset"]["image"].get("match_method") == "verified_human_curation":
+        candidate.match_method = "verified_human_curation"
     local = None
-    if path is None and apply:
-        import hashlib
+    deterministic_identity = trusted_reuse or candidate.match_method == "wikidata_p18" and source_bytes_verified
+    if (path is None or normalized) and apply and not deterministic_identity:
         path = media.work_dir / "analysis" / (hashlib.sha256(content).hexdigest() + ".webp")
         path.parent.mkdir(parents=True, exist_ok=True)
         with Image.open(io.BytesIO(content)) as image:
             image = image.convert("RGB")
             image.thumbnail((media.ranker.config.local_media_thumbnail_size,)*2)
             image.save(path, "WEBP", quality=85)
-    if path:
+    if path and not deterministic_identity:
         ranked = media.ranker.rank(place, media.city, [(candidate, path)], persist=apply)
         if ranked:
             local = ranked[0]["local"]
-    assessed = media.assess(place, candidate, content, local=local)
-    decision = {k: assessed[k] for k in ("action", "reason_codes", "checks", "local") if k in assessed}
+    assessed = media.assess(place, candidate, content, local=local, existing_verification=trusted_reuse,
+                           source_bytes_verified=source_bytes_verified)
+    decision = {k: assessed[k] for k in ("action", "reason_codes", "checks", "local", "ai", "unmet_requirements", "candidate") if k in assessed}
+    decision.update(evidence_merge=merged, download=download, original_content_sha256=original_sha)
+    if normalized:
+        decision["normalization"] = normalized
+    decision["reason_codes"] = list(dict.fromkeys([*decision["reason_codes"], *merged.get("reason_codes", []), *normalized, *download.get("reason_codes", [])]))
+    if reuse.get("asset"):
+        decision["reuse"] = {"existing_local_path": reuse["asset"]["image"]["local_path"], "same_poi": True}
+        decision["reason_codes"].append("EXISTING_ASSET_REUSE")
+    if local and local.get("confidence") in {"AMBIGUOUS", "LOW", "UNCALIBRATED"} and assessed["action"] == "REVIEW":
+        decision["reason_codes"].append("LOCAL_ASSURANCE_AMBIGUOUS")
     if assessed["action"] == "AUTO_APPLY":
+        if evidence:
+            evidence.register(place, candidate, content, original_sha)
         if apply:
-            image = media.apply(place, candidate, assessed, media.work_dir / "images", content=content)
+            image = (evidence.install(reuse["asset"], candidate, assessed, media.work_dir) if reuse.get("asset")
+                     else media.apply(place, candidate, assessed, media.work_dir / "images", content=content))
             if not image:
                 return {"action": "REVIEW", "reason_codes": ["ASSET_INSTALL_FAILED"]}
             decision.update(field="images.primary", value=image)
+            if reuse.get("asset"):
+                media.stats["existing_assets_reused"] += 1
         else:
             decision.update(field="images.primary", value=None)
     return decision
 
 
-def evaluate(result, task, place, city, media, file_root, locks, *, apply, allow_network, pool):
+def evaluate(result, task, place, city, media, file_root, locks, *, apply, allow_network, pool, evidence=None):
     sources = safe_sources(result, place)
     base = {"sources": sources}
     if result.status != "FOUND":
@@ -161,7 +201,7 @@ def evaluate(result, task, place, city, media, file_root, locks, *, apply, allow
         return {**base, "action": "REVIEW", "reason_codes": ["HUMAN_FIELD_LOCK"]}
     payload = result.result
     if result.type == "REAL_PRIMARY_IMAGE":
-        return {**base, **evaluate_image(result, place, sources, media, file_root, apply=apply, allow_network=allow_network, pool=pool)}
+        return {**base, **evaluate_image(result, place, sources, media, file_root, apply=apply, allow_network=allow_network, pool=pool, evidence=evidence)}
     if result.type == "IDENTITY_RESEARCH":
         return {**base, "action": "REVIEW", "reason_codes": ["PUBLISHED_IDENTITY_REQUIRES_REVIEW"]}
     if result.type == "COORDINATE_RESEARCH":
@@ -304,6 +344,8 @@ def _import_research(file: Path, *, apply=False, allow_network=False, output_ver
     media = (media_factory or MediaAssurance)(city, selected_router, work, apply and allow_network,
             ranker=LocalMediaRanker(settings.cache_dir / "local_media", local_config), read_only=not apply)
     assurance = copy.deepcopy(read_assurance(pack))
+    evidence = ResearchMediaEvidence(places, assurance, pack, allow_network=apply and allow_network,
+                                    threshold=local_config.local_duplicate_threshold)
     provenance_file = pack / "field_provenance.json"
     provenance = json.loads(provenance_file.read_text(encoding="utf-8")) if provenance_file.is_file() else []
     report = {"schema_version": "1.0", "handoff_id": handoff_id, "input_sha256": input_hash,
@@ -336,7 +378,7 @@ def _import_research(file: Path, *, apply=False, allow_network=False, output_ver
                 if place["id"] not in pools:
                     pools[place["id"]] = image_pool(place, pack, local_config.local_duplicate_threshold)
                 decision = evaluate(result, task, place, city, media, file.parent, locks, apply=apply,
-                                    allow_network=allow_network, pool=pools[place["id"]])
+                                    allow_network=allow_network, pool=pools[place["id"]], evidence=evidence)
                 record.update(decision)
                 counts["valid"] += record["action"] != "REJECT"
                 counts["invalid_sources"] += any("SOURCE" in code and any(v in code for v in ("INVALID", "MISSING", "UNSUPPORTED", "UNVERIFIED")) for code in record["reason_codes"])

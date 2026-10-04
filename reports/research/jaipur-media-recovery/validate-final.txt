@@ -1,0 +1,11 @@
+Validating City Pack at: 
+releases\india\rajasthan\jaipur\v3-research-jaipur-images-02-derivative-01
+[OK] ALL STRUCTURAL AND SEMANTIC CHECKS PASSED for 
+releases\india\rajasthan\jaipur\v3-research-jaipur-images-02-derivative-01!
+  Total Places: 684
+  Core Destinations: 52
+  Core with Wikidata: 23
+  Core with Images: 37
+  Pipeline Health: PASS
+  Data Quality: PASS
+  Source Coverage: WARN

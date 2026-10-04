@@ -1,0 +1,1251 @@
+[
+  {
+    "place_id": "yc_in_rj_jaipur_anokhi_museum_of_hand_printing",
+    "name": "Anokhi Museum of Hand Printing",
+    "action": "REJECT",
+    "reason_codes": [
+      "composite_layout",
+      "not_optimized",
+      "MEDIA_ASSURANCE_THRESHOLD_NOT_MET",
+      "LICENSE_CANONICALIZED"
+    ],
+    "unmet_requirements": [
+      "identity_confidence",
+      "landmark_prominence",
+      "mobile_card_suitability",
+      "identity_or_photo_safety"
+    ],
+    "ai": {
+      "status": "OK",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "result": {
+        "confidence": 0.9,
+        "reason_codes": [
+          "composite_layout",
+          "not_optimized"
+        ],
+        "decision": "REJECT",
+        "identity_match": true,
+        "identity_confidence": 0.85,
+        "real_photograph": true,
+        "landmark_prominence": 0.5,
+        "mobile_card_suitability": 0.1,
+        "hero_suitability": 0.1,
+        "watermark_or_obstruction": false,
+        "wrong_place_risk": 0.1
+      },
+      "opinions": [
+        {
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "2026-10-02.1",
+          "input_hash": "53ccbb3c0edcd30dc73ef68edb2d7983d7537eb693655a3a1fe1b7cd4ebbb48b",
+          "created_at": "2026-10-03T17:43:50.603946+00:00",
+          "status": "OK",
+          "diagnostics": {
+            "provider": "groq",
+            "status_category": "AI_QUOTA_DEFERRED",
+            "http_status": 429,
+            "error_class": "HTTP_RATE_LIMIT",
+            "rate_limited": true,
+            "retryable": true,
+            "timestamp": "2026-10-03T17:43:51.782681+00:00"
+          },
+          "result": {
+            "confidence": 0.9,
+            "reason_codes": [
+              "composite_layout",
+              "not_optimized"
+            ],
+            "decision": "REJECT",
+            "identity_match": true,
+            "identity_confidence": 0.85,
+            "real_photograph": true,
+            "landmark_prominence": 0.5,
+            "mobile_card_suitability": 0.1,
+            "hero_suitability": 0.1,
+            "watermark_or_obstruction": false,
+            "wrong_place_risk": 0.1
+          },
+          "decision": "REJECT",
+          "confidence": 0.9,
+          "reason_codes": [
+            "composite_layout",
+            "not_optimized"
+          ]
+        }
+      ],
+      "diagnostics": {
+        "provider": "groq",
+        "status_category": "AI_QUOTA_DEFERRED",
+        "http_status": 429,
+        "error_class": "HTTP_RATE_LIMIT",
+        "rate_limited": true,
+        "retryable": true,
+        "timestamp": "2026-10-03T17:43:51.782681+00:00"
+      },
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:43:51.782681+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_birla_mandir_aka_the_marble_temple",
+    "name": "Birla Mandir (aka The Marble Temple)",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:43:51.782681+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:44:15.067169+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_city_palace",
+    "name": "City Palace",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "MPO_PRIMARY_FRAME_NORMALIZED",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:43:51.782681+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:44:15.067169+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jantar_mantar",
+    "name": "Jantar Mantar",
+    "action": "REJECT",
+    "reason_codes": [
+      "subject_distant",
+      "poor_composition",
+      "distracting_foreground",
+      "MEDIA_ASSURANCE_THRESHOLD_NOT_MET",
+      "LICENSE_CANONICALIZED"
+    ],
+    "unmet_requirements": [
+      "confidence",
+      "landmark_prominence",
+      "mobile_card_suitability",
+      "identity_or_photo_safety"
+    ],
+    "ai": {
+      "status": "OK",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "result": {
+        "confidence": 0.85,
+        "reason_codes": [
+          "subject_distant",
+          "poor_composition",
+          "distracting_foreground"
+        ],
+        "decision": "REJECT",
+        "identity_match": true,
+        "identity_confidence": 0.9,
+        "real_photograph": true,
+        "landmark_prominence": 0.35,
+        "mobile_card_suitability": 0.3,
+        "hero_suitability": 0.25,
+        "watermark_or_obstruction": false,
+        "wrong_place_risk": 0.1
+      },
+      "opinions": [
+        {
+          "provider": "gemini",
+          "model": "gemini-3.8-flash",
+          "prompt_version": "2026-10-02.1",
+          "input_hash": "78d16761262c88e62e350e10a64924201252754a645a129d46a053e3bb17d28c",
+          "created_at": "2026-10-03T17:44:48.685260+00:00",
+          "status": "OK",
+          "result": {
+            "confidence": 0.85,
+            "reason_codes": [
+              "subject_distant",
+              "poor_composition",
+              "distracting_foreground"
+            ],
+            "decision": "REJECT",
+            "identity_match": true,
+            "identity_confidence": 0.9,
+            "real_photograph": true,
+            "landmark_prominence": 0.35,
+            "mobile_card_suitability": 0.3,
+            "hero_suitability": 0.25,
+            "watermark_or_obstruction": false,
+            "wrong_place_risk": 0.1
+          },
+          "decision": "REJECT",
+          "confidence": 0.85,
+          "reason_codes": [
+            "subject_distant",
+            "poor_composition",
+            "distracting_foreground"
+          ]
+        }
+      ],
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:43:51.782681+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:44:15.067169+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jawahar_circle",
+    "name": "Jawahar Circle",
+    "action": "REJECT",
+    "reason_codes": [
+      "identity_mismatch",
+      "wrong_subject",
+      "MEDIA_ASSURANCE_THRESHOLD_NOT_MET",
+      "LICENSE_CANONICALIZED"
+    ],
+    "unmet_requirements": [
+      "identity_confidence",
+      "landmark_prominence",
+      "mobile_card_suitability",
+      "identity_or_photo_safety"
+    ],
+    "ai": {
+      "status": "OK",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "result": {
+        "confidence": 0.95,
+        "reason_codes": [
+          "identity_mismatch",
+          "wrong_subject"
+        ],
+        "decision": "REJECT",
+        "identity_match": false,
+        "identity_confidence": 0.1,
+        "real_photograph": true,
+        "landmark_prominence": 0.4,
+        "mobile_card_suitability": 0.2,
+        "hero_suitability": 0.2,
+        "watermark_or_obstruction": false,
+        "wrong_place_risk": 0.9
+      },
+      "opinions": [
+        {
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "2026-10-02.1",
+          "input_hash": "9adbb3a23b1a7a020570d236427b33ed04ba05e3c2ad94b42102344d628ec5e4",
+          "created_at": "2026-10-03T17:44:57.395612+00:00",
+          "status": "OK",
+          "result": {
+            "confidence": 0.95,
+            "reason_codes": [
+              "identity_mismatch",
+              "wrong_subject"
+            ],
+            "decision": "REJECT",
+            "identity_match": false,
+            "identity_confidence": 0.1,
+            "real_photograph": true,
+            "landmark_prominence": 0.4,
+            "mobile_card_suitability": 0.2,
+            "hero_suitability": 0.2,
+            "watermark_or_obstruction": false,
+            "wrong_place_risk": 0.9
+          },
+          "decision": "REJECT",
+          "confidence": 0.95,
+          "reason_codes": [
+            "identity_mismatch",
+            "wrong_subject"
+          ]
+        }
+      ],
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:43:51.782681+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:44:15.067169+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_ram_niwas_garden",
+    "name": "Ram Niwas Garden",
+    "action": "REVIEW",
+    "reason_codes": [
+      "RESEARCH_PARTIAL"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_nahargarh_wildlife_sanctuary",
+    "name": "Nahargarh Wildlife Sanctuary",
+    "action": "UNRESOLVED",
+    "reason_codes": [
+      "RESEARCH_UNRESOLVED"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jhalanaamagarh_leopard_conservation_reserve",
+    "name": "Jhalana–Amagarh Leopard Conservation Reserve",
+    "action": "REVIEW",
+    "reason_codes": [
+      "STYLIZED_FORMAT",
+      "SUBJECt_QUALITY_HIGH",
+      "MEDIA_ASSURANCE_THRESHOLD_NOT_MET",
+      "LICENSE_CANONICALIZED",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": [
+      "identity_or_photo_safety"
+    ],
+    "ai": {
+      "status": "OK",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "result": {
+        "confidence": 0.95,
+        "reason_codes": [
+          "STYLIZED_FORMAT",
+          "SUBJECt_QUALITY_HIGH"
+        ],
+        "decision": "ACCEPT",
+        "identity_match": true,
+        "identity_confidence": 0.95,
+        "real_photograph": true,
+        "landmark_prominence": 0.7,
+        "mobile_card_suitability": 0.8,
+        "hero_suitability": 0.9,
+        "watermark_or_obstruction": false,
+        "wrong_place_risk": 0.1
+      },
+      "opinions": [
+        {
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "2026-10-02.1",
+          "input_hash": "d75393f8da2c4c886d4e02e6fe1da7ef3fd3b24328972999dc5e1b28bc64e78a",
+          "created_at": "2026-10-03T17:45:19.424877+00:00",
+          "status": "OK",
+          "diagnostics": {
+            "provider": "groq",
+            "status_category": "AI_QUOTA_DEFERRED",
+            "http_status": 429,
+            "error_class": "HTTP_RATE_LIMIT",
+            "rate_limited": true,
+            "retryable": true,
+            "timestamp": "2026-10-03T17:45:20.041329+00:00"
+          },
+          "result": {
+            "confidence": 0.95,
+            "reason_codes": [
+              "STYLIZED_FORMAT",
+              "SUBJECt_QUALITY_HIGH"
+            ],
+            "decision": "ACCEPT",
+            "identity_match": true,
+            "identity_confidence": 0.95,
+            "real_photograph": true,
+            "landmark_prominence": 0.7,
+            "mobile_card_suitability": 0.8,
+            "hero_suitability": 0.9,
+            "watermark_or_obstruction": false,
+            "wrong_place_risk": 0.1
+          },
+          "decision": "ACCEPT",
+          "confidence": 0.95,
+          "reason_codes": [
+            "STYLIZED_FORMAT",
+            "SUBJECt_QUALITY_HIGH"
+          ]
+        }
+      ],
+      "diagnostics": {
+        "provider": "groq",
+        "status_category": "AI_QUOTA_DEFERRED",
+        "http_status": 429,
+        "error_class": "HTTP_RATE_LIMIT",
+        "rate_limited": true,
+        "retryable": true,
+        "timestamp": "2026-10-03T17:45:20.041329+00:00"
+      },
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:20.041329+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:44:15.067169+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jawahar_kala_kendra",
+    "name": "Jawahar Kala Kendra",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "EXISTING_ASSET_REUSE",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:20.041329+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:34.132852+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_lake_palace",
+    "name": "Lake Palace",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "MPO_PRIMARY_FRAME_NORMALIZED",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:20.041329+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:34.132852+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+    "name": "Suraj Pol Gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "RESEARCH_CONFLICT"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jaipur_wax_museum",
+    "name": "Jaipur Wax Museum",
+    "action": "UNRESOLVED",
+    "reason_codes": [
+      "RESEARCH_UNRESOLVED"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_patrika_gate",
+    "name": "Patrika Gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "MPO_PRIMARY_FRAME_NORMALIZED",
+      "EXISTING_ASSET_REUSE",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:20.041329+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:34.132852+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_statue_circle",
+    "name": "Statue Circle",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "EXISTING_ASSET_REUSE",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:20.041329+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:34.132852+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_moti_doongri_fort",
+    "name": "Moti Doongri Fort",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "EXISTING_ASSET_REUSE",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:20.041329+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:34.132852+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+    "name": "Alice Garg Seashell Museum",
+    "action": "UNRESOLVED",
+    "reason_codes": [
+      "RESEARCH_UNRESOLVED"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_nakati_mata_temple",
+    "name": "Nakati Mata Temple",
+    "action": "UNRESOLVED",
+    "reason_codes": [
+      "RESEARCH_UNRESOLVED"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_man_gate",
+    "name": "Man Gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "RESEARCH_CONFLICT"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_paanch_batti",
+    "name": "Paanch Batti",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "EXISTING_ASSET_REUSE",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:20.041329+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:11.385740+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_sanganeri_gate",
+    "name": "Sanganeri Gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "EXISTING_ASSET_REUSE",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:45:20.041329+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:11.385740+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_gaitore",
+    "name": "Gaitore",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "EXISTING_ASSET_REUSE",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:38.882874+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:59.818086+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_galwar_bagh",
+    "name": "Galwar Bagh",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:38.882874+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:59.818086+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_jain_mandir",
+    "name": "Jain Mandir",
+    "action": "REVIEW",
+    "reason_codes": [
+      "RESEARCH_CONFLICT"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_vidyadhar_garden",
+    "name": "Vidyadhar Garden",
+    "action": "UNRESOLVED",
+    "reason_codes": [
+      "RESEARCH_UNRESOLVED"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_haveli",
+    "name": "Haveli",
+    "action": "REVIEW",
+    "reason_codes": [
+      "RESEARCH_CONFLICT"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_india_gate",
+    "name": "India gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "RESEARCH_CONFLICT"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_maharaniyon",
+    "name": "Maharaniyon",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "EXISTING_ASSET_REUSE",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:38.882874+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:59.818086+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_moon_gate",
+    "name": "Moon Gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "CREATOR_UNICODE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "EXISTING_ASSET_REUSE",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:38.882874+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:59.818086+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_sun_gate",
+    "name": "Sun Gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "EXISTING_SOURCE_METHOD_PRESERVED",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:38.882874+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:59.818086+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_chulgiri_digamber_jain_temple",
+    "name": "Chulgiri Digamber Jain Temple",
+    "action": "UNRESOLVED",
+    "reason_codes": [
+      "RESEARCH_UNRESOLVED"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_diwan_i_am",
+    "name": "Diwan-i-Am",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:38.882874+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:59.818086+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_elejungle_jaipur_elephant_ride",
+    "name": "EleJungle- Jaipur Elephant Ride",
+    "action": "UNRESOLVED",
+    "reason_codes": [
+      "RESEARCH_UNRESOLVED"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_elephant_riding",
+    "name": "Elephant Riding",
+    "action": "UNRESOLVED",
+    "reason_codes": [
+      "RESEARCH_UNRESOLVED"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_ajmeri_gate",
+    "name": "Ajmeri Gate",
+    "action": "REVIEW",
+    "reason_codes": [
+      "AI_UNAVAILABLE",
+      "IDENTITY_EVIDENCE_INSUFFICIENT",
+      "GROQ_UNAVAILABLE",
+      "GEMINI_UNAVAILABLE",
+      "LICENSE_CANONICALIZED",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": null,
+    "ai": {
+      "status": "AI_UNAVAILABLE",
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:38.882874+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:59.818086+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+    "name": "Rooftop view stairs",
+    "action": "REVIEW",
+    "reason_codes": [
+      "RESEARCH_CONFLICT"
+    ],
+    "unmet_requirements": null,
+    "ai": null
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_sawai_mansingh_townhall",
+    "name": "Sawai Mansingh Townhall",
+    "action": "REVIEW",
+    "reason_codes": [
+      "explicit_name_visible",
+      "high_quality_image",
+      "significant_white_crop",
+      "MEDIA_ASSURANCE_THRESHOLD_NOT_MET",
+      "LICENSE_CANONICALIZED",
+      "MPO_PRIMARY_FRAME_NORMALIZED",
+      "LOCAL_ASSURANCE_AMBIGUOUS"
+    ],
+    "unmet_requirements": [
+      "landmark_prominence",
+      "mobile_card_suitability"
+    ],
+    "ai": {
+      "status": "OK",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "result": {
+        "confidence": 0.98,
+        "reason_codes": [
+          "explicit_name_visible",
+          "high_quality_image",
+          "significant_white_crop"
+        ],
+        "decision": "REVIEW",
+        "identity_match": true,
+        "identity_confidence": 1.0,
+        "real_photograph": true,
+        "landmark_prominence": 0.5,
+        "mobile_card_suitability": 0.4,
+        "hero_suitability": 0.5,
+        "watermark_or_obstruction": false,
+        "wrong_place_risk": 0.0
+      },
+      "opinions": [
+        {
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "2026-10-02.1",
+          "input_hash": "369535bf1d6f4fe30e0da09112d3ed973d73ed17e0410f487ea29dc200f5a950",
+          "created_at": "2026-10-03T17:47:43.904396+00:00",
+          "status": "OK",
+          "result": {
+            "confidence": 0.98,
+            "reason_codes": [
+              "explicit_name_visible",
+              "high_quality_image",
+              "significant_white_crop"
+            ],
+            "decision": "REVIEW",
+            "identity_match": true,
+            "identity_confidence": 1.0,
+            "real_photograph": true,
+            "landmark_prominence": 0.5,
+            "mobile_card_suitability": 0.4,
+            "hero_suitability": 0.5,
+            "watermark_or_obstruction": false,
+            "wrong_place_risk": 0.0
+          },
+          "decision": "REVIEW",
+          "confidence": 0.98,
+          "reason_codes": [
+            "explicit_name_visible",
+            "high_quality_image",
+            "significant_white_crop"
+          ]
+        }
+      ],
+      "provider_failures": [
+        {
+          "provider": "groq",
+          "status_category": "AI_QUOTA_DEFERRED",
+          "http_status": 429,
+          "error_class": "HTTP_RATE_LIMIT",
+          "rate_limited": true,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:38.882874+00:00"
+        },
+        {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T17:46:59.818086+00:00"
+        }
+      ]
+    }
+  }
+]

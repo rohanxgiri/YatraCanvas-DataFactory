@@ -275,3 +275,116 @@ Generated Jaipur batches are under `data/research/exports/jaipur/`: `batch_1/`,
 `required_images/` and `core_hours/`. Round-trip artifacts live in an explicitly
 synthetic `scratch/fixture-roundtrip-*` workspace. No real schedule or license is
 invented or applied to production to demonstrate that workflow.
+
+## Research media recovery and fresh retries
+
+Research adds verified Commons metadata to existing source evidence. Known CC/CC0
+names and Creative Commons legal URLs use a finite canonical mapping; only known
+CC HTTP URLs upgrade to HTTPS. Creator comparisons use NFC, preserving meaningful
+characters. Commons filenames decode once and retain punctuation and Unicode.
+Different licenses, creators or original sources stay in review.
+
+An exact Commons source plus perceptual confirmation, or exact local bytes, can
+identify an existing primary/gallery asset for the same POI. Reuse still requires
+current deterministic checks and independent identity assurance. Existing verified
+identity must match the current POI digest and primary file signature. Verified
+metadata conflicts, unrelated gallery duplicates and cross-POI duplicates remain
+blocked. Reuse copies original WebP bytes into the new pack and upgrades provenance.
+
+Actual Wikidata entity claims can restore `wikidata_p18` only when the POI QID and
+P18 Commons filename both match. Filename similarity cannot establish that link.
+Other known source methods survive exact source matches. Verified reuse and P18
+run before local SigLIP and cloud routing; SigLIP alone never accepts an image.
+Groq/Gemini retain the existing FREE_ONLY gates, budgets and assurance thresholds.
+Failures record category, HTTP status, error class, retryability and timestamp,
+without response bodies, authorization headers or API keys.
+
+Confirmed MPO files have only their primary frame normalized to bounded RGB WebP
+before normal validation. The 20 MB input and 40 million pixel budgets still apply;
+corrupt frames reject. Oversized verified Commons originals may use API-provided
+derivatives with `media.commons_derivative_long_edge` (default 1920; bounded to
+1600–2400). `media.commons_max_download_bytes` cannot exceed 20,000,000. Downloaded
+dimensions must match Commons metadata. Derivatives may use only the exact
+`upload.wikimedia.org` or `thumb.wikimedia.org` hosts and the Commons thumbnail
+path; redirects and unrelated hosts stay blocked. Original file, source page, creator and
+license remain the provenance; the derivative URL is only the fetched representation.
+
+After a successful import, export remaining required images from the current head:
+
+```powershell
+.\.venv\Scripts\python.exe -m datafactory.cli research-export --city Jaipur --state Rajasthan --type REAL_PRIMARY_IMAGE --priority P0 --output data/research/exports/jaipur/required_images_retry
+.\.venv\Scripts\python.exe -m datafactory.cli research-retry --previous-file data/research/import_inputs/jaipur_image_research_results.json --handoff-id <fresh-registered-id> --output data/research/import_inputs/jaipur_image_retry_results.json
+.\.venv\Scripts\python.exe -m datafactory.cli research-import --file data/research/import_inputs/jaipur_image_retry_results.json --dry-run
+.\.venv\Scripts\python.exe -m datafactory.cli research-import --file data/research/import_inputs/jaipur_image_retry_results.json --apply --network --output-version v3-research-jaipur-images-02
+```
+
+`research-retry` verifies both registered snapshots and maps evidence only when
+place identity, task type and unresolved condition are unchanged. IDs come from
+the new registry. The mapping report classifies retryable evidence, new research,
+genuine conflict and unresolved sources. PARTIAL/CONFLICT/UNRESOLVED remain so;
+changed identity receives an unresolved request for new research. Original bundles,
+source packs and human curation remain unchanged. Import retains all existing
+snapshot, stale-head, license, media, transaction and offline publication gates.
+
+## Required-media resolution queues
+
+`research-export` now sends only media needing external evidence to web research.
+It uses deterministic registered import history and current assurance records;
+it never invokes a model to decide a queue. Required media remains in the inventory
+while temporary provider holds and identity reviews are excluded from the web handoff.
+
+```powershell
+.\.venv\Scripts\python.exe -m datafactory.cli research-queues --city Jaipur --state Rajasthan --output data/research/exports/jaipur/required_images_remaining
+```
+
+The command follows the unchanged latest research head and creates three queues:
+
+- `PROVIDER_RETRY` / `ASSURANCE_HOLD`: existing researched candidate, matching
+  verified legal/source metadata, successful download or reuse, passed deterministic
+  checks and a provider availability blocker. HTTP 429/503 never creates a research gap.
+- `NEW_RESEARCH_REQUIRED` / `RESEARCH_GAP`: unresolved/insufficient evidence, wrong
+  candidate or poor identity/composition. Tasks include prior public findings, source
+  URLs, identifiers, aliases, coordinates and explicit alternate-photo instructions.
+- `MANUAL_REVIEW` / `IDENTITY_REVIEW`: structured identity blockers or explicit
+  research findings requiring identity/policy judgment before an image search. A valid
+  candidate with incomplete internal assurance also remains in manual assurance review.
+
+Mobile-card suitability failures request a different composition, retain previous
+source exclusions and prioritize recognizable subjects with useful card framing.
+Observatory and park context adds instrument/park-specific guidance. Prior research
+notes and earlier source pages explain licensing and wrong-subject dead ends.
+Generic activity imagery never proves a specific operator, venue or listing.
+Unresolved generic activity names without an independently identified entity require
+manual identity/policy review. `MEDIA_POLICY_REVIEW_RECOMMENDED` is advisory: exports
+never change REAL_REQUIRED, published identities or assurance thresholds. A named,
+identified commercial venue can remain in exact-venue research with a policy flag.
+
+`status_report.md/json` inventories every remaining task. `new_research/` contains a
+registered ChatGPT-ready handoff, unchanged result schema and template. `manual_review/`
+contains public review context. `provider_retry/retry_tasks.json/md` retains candidate,
+legal/source evidence, deterministic checks, local SigLIP assessment, previous decisions,
+safe provider diagnostics and timestamps. Provider failure counts describe affected
+records and can overlap; shared router cooldown diagnostics do not imply one HTTP
+attempt per POI. Exact pending-assessment timestamps are recovered from matching cache
+entries where available; otherwise unknown timestamps remain null.
+
+Provider retries use the existing importer, without adding discovery or a retry service:
+
+```powershell
+.\.venv\Scripts\python.exe -m datafactory.cli research-import --file data/research/exports/jaipur/required_images_remaining/provider_retry/research_results.retry.json --dry-run
+# Later, when a controlled provider retry is authorized and availability permits:
+.\.venv\Scripts\python.exe -m datafactory.cli research-import --file data/research/exports/jaipur/required_images_remaining/provider_retry/research_results.retry.json --apply --network --output-version v3-research-provider-retry-01
+```
+
+The retry bundle is registered against the current source snapshot, preserves valid
+research and copies bounded local input files when needed. If an original input moved
+outside `data/research/import_inputs`, public candidate fields and source excerpts can
+be restored from its registered import receipt. This creates no new research claims.
+Unarchived or unsupported evidence with insufficient assurance stays manual rather
+than being treated as a provider-ready result.
+
+Actual apply retains deterministic checks, cache/SigLIP routing, Groq-first/Gemini
+fallback, FREE_ONLY, budgets and backoff. No retry is performed by queue generation.
+If the head changes, re-export queues; stale snapshots cannot apply. Existing accepted
+images, releases, human curation, historical registries and City Lab are untouched.
+The mechanism uses task/identity/evidence state and applies to every city.

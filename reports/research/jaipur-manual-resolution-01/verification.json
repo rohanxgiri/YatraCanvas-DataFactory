@@ -1,0 +1,23 @@
+{
+  "protected_files_checked": 24257,
+  "missing": [],
+  "changed": [],
+  "source_snapshot_unchanged": true,
+  "source_usability_unchanged": true,
+  "proposal_records": 6,
+  "followup_image_proposals": 3,
+  "applied": 0,
+  "real_required_verified": 17,
+  "real_required_total": 52,
+  "real_required_coverage": 32.69,
+  "image_imports": 0,
+  "provider_calls_during_research": 0,
+  "paid_ai_calls": 0,
+  "tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m pytest -q -p no:cacheprovider --basetemp reports/research/jaipur-manual-resolution-01/pytest-3f7557bd3c034657b4294fc973378678",
+    "passed": 358,
+    "initial_environment_error": "Default pytest temp directory denied Windows sandbox access; full suite passed using a fresh workspace temp directory."
+  },
+  "scope_note": "Preservation is relative to the captured start of this manual-review phase; pre-existing working-tree changes were not reverted.",
+  "city_lab": "No City Lab files were opened for editing or written during this phase; City Lab is not represented by a named path in the protected-file baseline."
+}

@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0",
+  "handoff_id": "handoff_52e106bcb2e1e8881d37ee23",
+  "input_sha256": "bce49b0c66238c0d39a423638480db57a25c3e937fbb4127b01156db113e6abe",
+  "imported_at": "2026-10-03T19:21:39.903798+00:00",
+  "mode": "DRY_RUN",
+  "city": {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  },
+  "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-02-derivative-01",
+  "decisions": [
+    {
+      "task_id": "research_51a3cc7b0eb0bf08e07bfe7b",
+      "place_id": "yc_in_rj_jaipur_anokhi_museum_of_hand_printing",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Anokhi_Museum.jpg",
+          "source_id": null,
+          "source_name": "Wikimedia Commons",
+          "retrieved_at": "2026-10-03T19:18:11+00:00",
+          "source_text": "Wikimedia Commons identifies this as Anokhi, Jaipur; own work by Ketayun, Katz, licensed CC BY-SA 4.0.",
+          "quality": "CURATED_REFERENCE",
+          "confidence": 0.85
+        }
+      ],
+      "action": "REVIEW",
+      "reason_codes": [
+        "MEDIA_DOWNLOAD_OR_VERIFICATION_REQUIRED"
+      ],
+      "evidence_merge": {
+        "reason_codes": [
+          "LICENSE_CANONICALIZED",
+          "WIKIDATA_P18_EVIDENCE_VERIFIED"
+        ],
+        "identity_evidence": {
+          "type": "wikidata_p18",
+          "wikidata_id": "Q61931254",
+          "p18_file": "Anokhi Museum.jpg",
+          "source_url": "https://www.wikidata.org/wiki/Q61931254",
+          "retrieved_at": null
+        }
+      },
+      "download": {},
+      "candidate": {
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anokhi_Museum.jpg",
+        "media_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Anokhi_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "title": "Anokhi Museum.jpg",
+        "creator": "Ketayun, Katz",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Ketayun, Katz / Wikimedia Commons / CC BY-SA 4.0",
+        "width": 3008,
+        "height": 2000,
+        "mime_type": "image/jpeg",
+        "related_entity_id": "Q61931254",
+        "commons_category": null,
+        "source_confidence": 0.99,
+        "match_method": "wikidata_p18",
+        "original_license_verified": true
+      }
+    },
+    {
+      "task_id": "research_c69dbb8529a7c2334e66fae8",
+      "place_id": "yc_in_rj_jaipur_jantar_mantar",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Jantar_Mantar_Jaipur.jpg",
+          "source_id": null,
+          "source_name": "Wikimedia Commons",
+          "retrieved_at": "2026-10-03T19:18:11+00:00",
+          "source_text": "Wikimedia Commons describes this as a view of the Jantar Mantar observatory at Jaipur (ASI monument S-RJ-92), photographed by Saranya Ghosh, CC BY-SA 3.0.",
+          "quality": "CURATED_REFERENCE",
+          "confidence": 0.85
+        }
+      ],
+      "action": "REVIEW",
+      "reason_codes": [
+        "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+      ]
+    },
+    {
+      "task_id": "research_0d698ea4ce42e26154ccc53a",
+      "place_id": "yc_in_rj_jaipur_jawahar_circle",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:A_Still_from_Jawahan_Circle_Garden,_Jaipur,_Rajasthan.jpg",
+          "source_id": null,
+          "source_name": "Wikimedia Commons",
+          "retrieved_at": "2026-10-03T19:18:11+00:00",
+          "source_text": "Wikimedia Commons describes this photograph as a still from Jawahan/Jawahar Circle Garden, Jaipur, Rajasthan; own work by Maneesh Verma, CC BY-SA 4.0.",
+          "quality": "CURATED_REFERENCE",
+          "confidence": 0.85
+        }
+      ],
+      "action": "REVIEW",
+      "reason_codes": [
+        "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+      ]
+    },
+    {
+      "task_id": "research_407b3bb38da90f2267317118",
+      "place_id": "yc_in_rj_jaipur_ram_niwas_garden",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_a28b93c96ccb4a0cf521f6aa",
+      "place_id": "yc_in_rj_jaipur_nahargarh_wildlife_sanctuary",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_5dd470cf3705b7561740fe8a",
+      "place_id": "yc_in_rj_jaipur_jhalanaamagarh_leopard_conservation_reserve",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Simbaa.jpg",
+          "source_id": null,
+          "source_name": "Wikimedia Commons",
+          "retrieved_at": "2026-10-03T19:18:11+00:00",
+          "source_text": "Wikimedia Commons describes this as Simbaa, a dominant male leopard of Jhalana leopard conservation reserve, Rajasthan; own work by Sohamthewild, CC BY-SA 4.0.",
+          "quality": "CURATED_REFERENCE",
+          "confidence": 0.85
+        }
+      ],
+      "action": "REVIEW",
+      "reason_codes": [
+        "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+      ]
+    },
+    {
+      "task_id": "research_629d060c5306fa38364fbae9",
+      "place_id": "yc_in_rj_jaipur_jaipur_wax_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_67ce46dfdbb27020b2dce714",
+      "place_id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_aae17862fe77f1f873f2e052",
+      "place_id": "yc_in_rj_jaipur_nakati_mata_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_82d44b4d740f3bf7c62a89a3",
+      "place_id": "yc_in_rj_jaipur_man_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Walled_city_of_jaipur.jpg",
+          "source_id": null,
+          "source_name": "Wikimedia Commons",
+          "retrieved_at": "2026-10-03T19:18:11+00:00",
+          "source_text": "Wikimedia Commons places this photograph in the New Gate Jaipur category; the file is own work by Yayawar monk, CC BY-SA 4.0, with object location 26.916850, 75.818770.",
+          "quality": "CURATED_REFERENCE",
+          "confidence": 0.85
+        }
+      ],
+      "action": "REVIEW",
+      "reason_codes": [
+        "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+      ]
+    },
+    {
+      "task_id": "research_a880b8e8dcff60151c4f144a",
+      "place_id": "yc_in_rj_jaipur_vidyadhar_garden",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_fb6526da1eacaaf21aa3696e",
+      "place_id": "yc_in_rj_jaipur_india_gate",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "REVIEW",
+      "reason_codes": [
+        "RESEARCH_CONFLICT"
+      ]
+    },
+    {
+      "task_id": "research_3b474339ecee01f77a83e6ae",
+      "place_id": "yc_in_rj_jaipur_chulgiri_digamber_jain_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_995b58ee2c0d27c96e389578",
+      "place_id": "yc_in_rj_jaipur_elejungle_jaipur_elephant_ride",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_74a80f5530a30023abf074cb",
+      "place_id": "yc_in_rj_jaipur_elephant_riding",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_047e0d0403bba5883d4f529a",
+      "place_id": "yc_in_rj_jaipur_sawai_mansingh_townhall",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:SMS_Town_Hall_facade_2016.jpg",
+          "source_id": null,
+          "source_name": "Wikimedia Commons",
+          "retrieved_at": "2026-10-03T19:18:11+00:00",
+          "source_text": "Wikimedia Commons explicitly describes this as the eastern facade of Sawai Man Singh Town Hall, Jaipur; own work by Logawi, CC BY-SA 4.0.",
+          "quality": "CURATED_REFERENCE",
+          "confidence": 0.85
+        }
+      ],
+      "action": "REVIEW",
+      "reason_codes": [
+        "ORIGINAL_SOURCE_LICENSE_UNVERIFIED"
+      ]
+    }
+  ],
+  "summary": {
+    "tasks_supplied": 16,
+    "matched": 16,
+    "valid": 16,
+    "auto_applicable": 0,
+    "review": 7,
+    "rejected": 0,
+    "missing_pois": 0,
+    "invalid_sources": 5,
+    "invalid_schedules": 0,
+    "media_requiring_verification": 7,
+    "applied": 0,
+    "unresolved": 9
+  },
+  "ai_usage": {
+    "AI_MODE": "FREE_ONLY",
+    "stats": {
+      "calls": 0,
+      "groq_calls": 0,
+      "gemini_calls": 0
+    },
+    "paid_providers_invoked": 0,
+    "paid_feature_calls": 0
+  },
+  "local_intelligence": {
+    "ranker": {}
+  }
+}

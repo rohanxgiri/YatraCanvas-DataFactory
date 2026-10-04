@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\.venv\\Scripts\\python.exe",
+    "-m",
+    "datafactory.cli",
+    "research-import",
+    "--file",
+    "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\data\\research\\import_inputs\\jaipur_image_research_results.json",
+    "--dry-run"
+  ],
+  "exit_code": 0
+}

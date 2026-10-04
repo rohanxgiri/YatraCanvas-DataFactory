@@ -1,0 +1,355 @@
+{
+  "schema_version": "1.0",
+  "handoff_id": "handoff_7b483895bbeed22d7bd2e61f",
+  "input_sha256": "a006ed58d6ead0e1203d8758fa698dfd68134c4c0e3159452d5be41fa78e3eea",
+  "imported_at": "2026-10-03T20:05:19.525181+00:00",
+  "mode": "APPLY",
+  "city": {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  },
+  "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03",
+  "decisions": [
+    {
+      "task_id": "research_c69dbb8529a7c2334e66fae8",
+      "place_id": "yc_in_rj_jaipur_jantar_mantar",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Samrat_yantra_at_jantar_mantar_,Jaipur.jpg",
+          "source_id": null,
+          "source_name": "Wikimedia Commons",
+          "retrieved_at": "2026-10-03T20:00:03+00:00",
+          "source_text": "Wikimedia Commons identifies this as 'Samrat yantra at jantar mantar, Jaipur'; own work by Swapnil.Karambelkar, camera location 26.924800, 75.824600, licensed CC BY-SA 4.0. The file is 4608×2592 JPEG and structured data depicts Jantar Mantar.",
+          "quality": "CURATED_REFERENCE",
+          "confidence": 0.85
+        }
+      ],
+      "action": "REVIEW",
+      "reason_codes": [
+        "Identity verified by structure and location labels",
+        "High resolution image (4608x2592)",
+        "Landmark is clearly visible and central",
+        "Watermark or obstruction present",
+        "MEDIA_ASSURANCE_THRESHOLD_NOT_MET",
+        "LICENSE_CANONICALIZED",
+        "LOCAL_ASSURANCE_AMBIGUOUS"
+      ],
+      "checks": {
+        "accepted": true,
+        "reason_codes": [],
+        "sha256": "33996dde0803a666ba4fe4d1ca893ee5bee69ab79c5d6b54062c57fc86097c01",
+        "dimensions": [
+          4608,
+          2592
+        ]
+      },
+      "local": {
+        "status": "OK",
+        "model": "google/siglip-base-patch16-224",
+        "relevance": 0.8851113319396973,
+        "category_relevance": 0.03398063778877258,
+        "labels": {
+          "real photograph": 1.2920463632326573e-05,
+          "map": 5.203094701755617e-07,
+          "diagram": 1.0646245129919407e-07,
+          "logo": 1.463491194897415e-08,
+          "poster": 9.65462021440544e-08,
+          "document": 1.5323868751693226e-07,
+          "generic landscape": 7.703899314037699e-07,
+          "interior": 2.3260108719114214e-06,
+          "exterior landmark": 0.0010197971714660525,
+          "unrelated building": 0.00013081645010970533
+        },
+        "label": "uncertain",
+        "non_photo_review": false,
+        "supporting_evidence_only": true,
+        "confidence": "AMBIGUOUS",
+        "candidate_rank": 1,
+        "top_margin": null
+      },
+      "ai": {
+        "status": "OK",
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "result": {
+          "confidence": 0.85,
+          "reason_codes": [
+            "Identity verified by structure and location labels",
+            "High resolution image (4608x2592)",
+            "Landmark is clearly visible and central",
+            "Watermark or obstruction present"
+          ],
+          "decision": "ACCEPT",
+          "identity_match": true,
+          "identity_confidence": 0.95,
+          "real_photograph": true,
+          "landmark_prominence": 0.85,
+          "mobile_card_suitability": 0.9,
+          "hero_suitability": 0.9,
+          "watermark_or_obstruction": true,
+          "wrong_place_risk": 0.05
+        },
+        "opinions": [
+          {
+            "provider": "groq",
+            "model": "qwen/qwen3.8-27b",
+            "prompt_version": "2026-10-02.1",
+            "input_hash": "82c314351c57e5983478aa1ad8980028ad38901bd850ae78cb98348d15b61aa9",
+            "created_at": "2026-10-03T20:05:32.495730+00:00",
+            "status": "OK",
+            "result": {
+              "confidence": 0.85,
+              "reason_codes": [
+                "Identity verified by structure and location labels",
+                "High resolution image (4608x2592)",
+                "Landmark is clearly visible and central",
+                "Watermark or obstruction present"
+              ],
+              "decision": "ACCEPT",
+              "identity_match": true,
+              "identity_confidence": 0.95,
+              "real_photograph": true,
+              "landmark_prominence": 0.85,
+              "mobile_card_suitability": 0.9,
+              "hero_suitability": 0.9,
+              "watermark_or_obstruction": true,
+              "wrong_place_risk": 0.05
+            },
+            "decision": "ACCEPT",
+            "confidence": 0.85,
+            "reason_codes": [
+              "Identity verified by structure and location labels",
+              "High resolution image (4608x2592)",
+              "Landmark is clearly visible and central",
+              "Watermark or obstruction present"
+            ]
+          }
+        ],
+        "provider_failures": [
+          {
+            "provider": "gemini",
+            "status_category": "AI_UNAVAILABLE",
+            "http_status": 503,
+            "error_class": "HTTP_SERVER_ERROR",
+            "rate_limited": false,
+            "retryable": true,
+            "timestamp": "2026-10-03T20:05:37.282741+00:00"
+          }
+        ]
+      },
+      "unmet_requirements": [
+        "confidence",
+        "identity_or_photo_safety"
+      ],
+      "candidate": {
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Samrat_yantra_at_jantar_mantar_,Jaipur.jpg",
+        "media_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Samrat_yantra_at_jantar_mantar_%2CJaipur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "title": "Samrat yantra at jantar mantar ,Jaipur.jpg",
+        "creator": "Swapnil.Karambelkar",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Swapnil.Karambelkar / Wikimedia Commons / CC BY-SA 4.0",
+        "width": 4608,
+        "height": 2592,
+        "mime_type": "image/jpeg",
+        "related_entity_id": null,
+        "commons_category": null,
+        "source_confidence": 0.95,
+        "match_method": "research_import",
+        "original_license_verified": true
+      },
+      "evidence_merge": {
+        "reason_codes": [
+          "LICENSE_CANONICALIZED"
+        ],
+        "identity_evidence": null
+      },
+      "download": {
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Samrat_yantra_at_jantar_mantar_%2CJaipur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "fetched_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Samrat_yantra_at_jantar_mantar_%2CJaipur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "http_status": 200,
+        "reason_codes": [],
+        "bytes": 5017950,
+        "sha256": "33996dde0803a666ba4fe4d1ca893ee5bee69ab79c5d6b54062c57fc86097c01"
+      },
+      "original_content_sha256": "33996dde0803a666ba4fe4d1ca893ee5bee69ab79c5d6b54062c57fc86097c01"
+    },
+    {
+      "task_id": "research_0d698ea4ce42e26154ccc53a",
+      "place_id": "yc_in_rj_jaipur_jawahar_circle",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_407b3bb38da90f2267317118",
+      "place_id": "yc_in_rj_jaipur_ram_niwas_garden",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_a28b93c96ccb4a0cf521f6aa",
+      "place_id": "yc_in_rj_jaipur_nahargarh_wildlife_sanctuary",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_629d060c5306fa38364fbae9",
+      "place_id": "yc_in_rj_jaipur_jaipur_wax_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_67ce46dfdbb27020b2dce714",
+      "place_id": "yc_in_rj_jaipur_alice_garg_seashell_museum",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_aae17862fe77f1f873f2e052",
+      "place_id": "yc_in_rj_jaipur_nakati_mata_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_a880b8e8dcff60151c4f144a",
+      "place_id": "yc_in_rj_jaipur_vidyadhar_garden",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_3b474339ecee01f77a83e6ae",
+      "place_id": "yc_in_rj_jaipur_chulgiri_digamber_jain_temple",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    },
+    {
+      "task_id": "research_995b58ee2c0d27c96e389578",
+      "place_id": "yc_in_rj_jaipur_elejungle_jaipur_elephant_ride",
+      "type": "REAL_PRIMARY_IMAGE",
+      "sources": [],
+      "action": "UNRESOLVED",
+      "reason_codes": [
+        "RESEARCH_UNRESOLVED"
+      ]
+    }
+  ],
+  "summary": {
+    "tasks_supplied": 10,
+    "matched": 10,
+    "valid": 10,
+    "auto_applicable": 0,
+    "review": 1,
+    "rejected": 0,
+    "missing_pois": 0,
+    "invalid_sources": 0,
+    "invalid_schedules": 0,
+    "media_requiring_verification": 1,
+    "applied": 0,
+    "unresolved": 9
+  },
+  "ai_usage": {
+    "AI_MODE": "FREE_ONLY",
+    "enabled": true,
+    "stats": {
+      "calls": 2,
+      "images": 2,
+      "vision_calls": 2,
+      "escalations": 1,
+      "cache_hits": 0,
+      "cache_misses": 2,
+      "success": 1,
+      "rate_limit": 0,
+      "timeout": 0,
+      "fallback": 0,
+      "paid_feature_calls": 0,
+      "groq_calls": 1,
+      "media_audit_calls": 2,
+      "gemini_calls": 1
+    },
+    "events": [
+      {
+        "provider": "groq",
+        "model": "qwen/qwen3.8-27b",
+        "operation": "media_audit",
+        "status": "OK",
+        "input_hash": "82c314351c57e5983478aa1ad8980028ad38901bd850ae78cb98348d15b61aa9"
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3.8-flash",
+        "operation": "media_audit",
+        "status": "AI_UNAVAILABLE",
+        "input_hash": "fa70b74c9cd357de02011ddba7b12b50c3d7c6a1e5aff0ac9abbdc159c05e14e",
+        "diagnostics": {
+          "provider": "gemini",
+          "status_category": "AI_UNAVAILABLE",
+          "http_status": 503,
+          "error_class": "HTTP_SERVER_ERROR",
+          "rate_limited": false,
+          "retryable": true,
+          "timestamp": "2026-10-03T20:05:37.282741+00:00"
+        }
+      }
+    ],
+    "paid_providers": "DISABLED",
+    "paid_providers_invoked": 0,
+    "paid_feature_calls": 0,
+    "provider_failures": [
+      {
+        "provider": "gemini",
+        "status_category": "AI_UNAVAILABLE",
+        "http_status": 503,
+        "error_class": "HTTP_SERVER_ERROR",
+        "rate_limited": false,
+        "retryable": true,
+        "timestamp": "2026-10-03T20:05:37.282741+00:00"
+      }
+    ]
+  },
+  "local_intelligence": {
+    "mpo_encountered": 0,
+    "groq_calls": 1,
+    "gemini_calls": 1,
+    "cloud_verification_jobs": 1,
+    "ranker": {
+      "ranked": 1,
+      "batches": 1
+    }
+  }
+}

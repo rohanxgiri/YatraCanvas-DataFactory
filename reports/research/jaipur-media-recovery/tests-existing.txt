@@ -1,0 +1,28 @@
+...................FF...F............................................... [ 93%]
+.....                                                                    [100%]
+================================== FAILURES ===================================
+_ test_image_semicolon_filename_preserves_metadata_and_verification_checks[False] _
+tests\test_research_handoff.py:282: in test_image_semicolon_filename_preserves_metadata_and_verification_checks
+    assert lookups == [filename]
+E   AssertionError: assert ['Garden; January 2024.jpg'] == ['Garden;_January_2024.jpg']
+E     
+E     At index 0 diff: 'Garden; January 2024.jpg' != 'Garden;_January_2024.jpg'
+E     Use -v to get more diff
+---------------------------- Captured stdout call -----------------------------
+Wikidata API error for Q836531: Live HTTP is disabled in tests; use a fixture or MockTransport
+_ test_image_semicolon_filename_preserves_metadata_and_verification_checks[True] _
+tests\test_research_handoff.py:282: in test_image_semicolon_filename_preserves_metadata_and_verification_checks
+    assert lookups == [filename]
+E   AssertionError: assert ['Garden; January 2024.jpg'] == ['Garden;_January_2024.jpg']
+E     
+E     At index 0 diff: 'Garden; January 2024.jpg' != 'Garden;_January_2024.jpg'
+E     Use -v to get more diff
+_________________ test_duplicate_existing_image_stays_review __________________
+tests\test_research_handoff.py:360: in test_duplicate_existing_image_stays_review
+    assert "DUPLICATE_IMAGE" in report["decisions"][0]["reason_codes"]
+E   AssertionError: assert 'DUPLICATE_IMAGE' in ['MEDIA_VERIFICATION_REQUIRED', 'IDENTITY_EVIDENCE_INSUFFICIENT']
+=========================== short test summary info ===========================
+FAILED tests/test_research_handoff.py::test_image_semicolon_filename_preserves_metadata_and_verification_checks[False]
+FAILED tests/test_research_handoff.py::test_image_semicolon_filename_preserves_metadata_and_verification_checks[True]
+FAILED tests/test_research_handoff.py::test_duplicate_existing_image_stays_review
+3 failed, 74 passed in 10.83s

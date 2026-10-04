@@ -1,0 +1,23 @@
+{
+  "patch_id": "citylab-6db7e0c018124349bc3c7747636e8136",
+  "source_release": "v3-research-jaipur-manual-01",
+  "source_snapshot": {
+    "places.json": "274d254cb40c1544e3152ae7ad1a9aad575e984b1007c1090a34a9eb4a534e90",
+    "city.json": "c16e1b0d92b9c54b920c68d97d90b3ea26ca54e3025b5fbe9b12c1772f397e24",
+    "media_assurance.json": "e86b33b313834374fde87ffa6bd451fffebf28f4b6f3d9b53ead525b724bc131",
+    "field_provenance.json": "0ba5d795080b360574670a041f8affea29bd71f01289fbb89411ecbee9422e0c",
+    "checksums.json": "e36b6eaaf5732603ac1f38210a8e984588cb78ec00cd24225fa2acb5aeac89b7"
+  },
+  "decisions": [
+    {
+      "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+      "action": "APPLY",
+      "reasons": []
+    }
+  ],
+  "summary": {
+    "APPLY": 1
+  },
+  "dry_run": false,
+  "output_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v4-citylab-offline-01"
+}

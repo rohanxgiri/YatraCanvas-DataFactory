@@ -1,0 +1,11 @@
+{
+  "total_places": 684,
+  "core_count": 52,
+  "core_with_wikidata": 23,
+  "core_with_image": 37,
+  "core_with_hours": 11,
+  "semantic_errors": 0,
+  "pipeline_health": "PASS",
+  "data_quality": "PASS",
+  "source_coverage": "WARN"
+}

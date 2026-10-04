@@ -1,0 +1,43 @@
+{
+  "validation": {
+    "total_places": 684,
+    "core_count": 50,
+    "core_with_wikidata": 23,
+    "core_with_image": 36,
+    "core_with_hours": 11,
+    "semantic_errors": 0,
+    "pipeline_health": "PASS",
+    "data_quality": "PASS",
+    "source_coverage": "WARN"
+  },
+  "protected_files_checked": 42337,
+  "changed_protected_files": [],
+  "intended_code_changes_after_baseline": [
+    "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\datafactory\\research\\resolution.py"
+  ],
+  "new_unexpected_protected_files": [],
+  "verified_images_preserved": 17,
+  "assurance_unchanged": true,
+  "unselected_records_unchanged": 681,
+  "provenance_history_preserved": true,
+  "reviewed_fields_match_sqlite_and_parquet": true,
+  "complete_checksum_inventory": true,
+  "city_lab_files_checked": 9983,
+  "paid_ai_calls": 0,
+  "fresh_registered_snapshot": true,
+  "manual_review_flags": {
+    "yc_in_rj_jaipur_jain_mandir": [
+      "MEDIA_POLICY_REVIEW_RECOMMENDED",
+      "IDENTITY_REVIEW",
+      "PIN_REVIEW_REQUIRED"
+    ],
+    "yc_in_rj_jaipur_haveli": [
+      "MEDIA_POLICY_REVIEW_RECOMMENDED",
+      "IDENTITY_REVIEW"
+    ],
+    "yc_in_rj_jaipur_elephant_riding": [
+      "MEDIA_POLICY_REVIEW_RECOMMENDED",
+      "IDENTITY_REVIEW"
+    ]
+  }
+}

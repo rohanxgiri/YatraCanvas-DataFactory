@@ -3,15 +3,23 @@ import base64
 import json
 import os
 import time
+from datetime import datetime, timezone
 from typing import Protocol
 import httpx
 from .config import AIConfig
 
 
 class AIError(Exception):
-    def __init__(self, code: str, retry_after: float = 0):
+    def __init__(self, code: str, retry_after: float = 0, *, http_status=None, error_class=None, retryable=None):
         super().__init__(code)
         self.code, self.retry_after = code, retry_after
+        self.http_status, self.error_class = http_status, error_class or code
+        self.retryable = retryable if retryable is not None else code in {"AI_TIMEOUT", "AI_QUOTA_DEFERRED", "AI_UNAVAILABLE"}
+
+    def diagnostic(self, provider):
+        return {"provider": provider, "status_category": self.code, "http_status": self.http_status,
+                "error_class": self.error_class, "rate_limited": self.code == "AI_QUOTA_DEFERRED",
+                "retryable": self.retryable, "timestamp": datetime.now(timezone.utc).isoformat()}
 
 
 class AIProvider(Protocol):
@@ -54,21 +62,21 @@ class HTTPProvider:
                     delay = float(response.headers.get("retry-after", "1"))
                 except ValueError:
                     delay = 1
-                raise AIError("AI_QUOTA_DEFERRED", max(0, delay))
+                raise AIError("AI_QUOTA_DEFERRED", max(0, delay), http_status=429, error_class="HTTP_RATE_LIMIT", retryable=True)
             if response.status_code in (401, 403, 404):
-                raise AIError("AI_UNAVAILABLE")
+                raise AIError("AI_UNAVAILABLE", http_status=response.status_code, error_class="HTTP_CLIENT_ERROR", retryable=False)
             if response.status_code in (502, 503, 504):
-                raise AIError("AI_UNAVAILABLE")
+                raise AIError("AI_UNAVAILABLE", http_status=response.status_code, error_class="HTTP_SERVER_ERROR", retryable=True)
             if response.status_code != 200:
-                raise AIError("AI_HTTP_ERROR")
+                raise AIError("AI_HTTP_ERROR", http_status=response.status_code, error_class="HTTP_ERROR", retryable=response.status_code >= 500)
             data = response.json()
             if not isinstance(data, dict):
                 raise AIError("AI_RESULT_INVALID")
             return data
         except httpx.TimeoutException:
-            raise AIError("AI_TIMEOUT") from None
-        except (httpx.HTTPError, ValueError):
-            raise AIError("AI_RESULT_INVALID") from None
+            raise AIError("AI_TIMEOUT", error_class="TimeoutException", retryable=True) from None
+        except (httpx.HTTPError, ValueError) as exc:
+            raise AIError("AI_RESULT_INVALID", error_class=type(exc).__name__, retryable=isinstance(exc, httpx.HTTPError)) from None
 
     def health_check(self) -> dict:
         result = {"provider": self.provider_id, "key": "configured" if self.key else "missing", "model": self.model, "health": "AI_UNAVAILABLE"}
@@ -87,9 +95,10 @@ class HTTPProvider:
                 if model in available and model in compatible and self.config.permitted(self.provider_id, model):
                     self.model, self.verified = model, True
                     return {**result, "model": model, "health": "OK"}
-            return {**result, "health": "MODEL_UNAVAILABLE"}
+            return {**result, "health": "MODEL_UNAVAILABLE", "diagnostics":
+                    AIError("MODEL_UNAVAILABLE", http_status=200, error_class="MODEL_NOT_LISTED", retryable=False).diagnostic(self.provider_id)}
         except AIError as exc:
-            return {**result, "health": exc.code}
+            return {**result, "health": exc.code, "diagnostics": exc.diagnostic(self.provider_id)}
 
     def _gate(self, images):
         if not self.config.enabled or not self.config.permitted(self.provider_id, self.model):

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+  "media_class": "TEST_ONLY_REAL",
+  "usage_scope": "local_testing_only",
+  "license_verified": false,
+  "identity_verified": true,
+  "counts_toward_source_readiness": false,
+  "identity_hash": "aca968a5715edf4dd5d204a7c12b303870c169591c5f449592cd3e6bdf174d9d",
+  "input_sha256": "25475c1e59306bdef5dcd666de420bc2c8c1d8b7d6504f99a2009d2fe6806beb",
+  "source_name": "JaipurThruMyLens",
+  "source_page": "https://jaipurthrumylens.com/2016/10/06/history-old-city-gates-of-jaipur-architectural-design-elements/",
+  "reference_image_url": "https://jaipurthrumylens.com/2016/10/06/history-old-city-gates-of-jaipur-architectural-design-elements/",
+  "original_filename": "suraj_pol_qa.webp",
+  "imported_at": "2026-10-04T07:14:14.825107+00:00",
+  "confirmed_by": "City loop acceptance QA",
+  "identity_evidence": [
+    {
+      "source": "manual_confirmation",
+      "supports": "User confirmed exact place and real photograph"
+    }
+  ],
+  "excluded_entities": [],
+  "primary_sha256": "9ab06767eb298c44bd2f044c142502b92599f345a8a06bf28fd786e528df395e",
+  "thumbnail_sha256": "ac07d592851951a218d31694265153e275d4dacc2ec9bd0687d01ea7e5394cf1",
+  "image": {
+    "image_type": "test_only_real",
+    "fallback_category": null,
+    "fallback_asset_id": null,
+    "content_sha256": "9ab06767eb298c44bd2f044c142502b92599f345a8a06bf28fd786e528df395e",
+    "source": "JaipurThruMyLens",
+    "source_page": "https://jaipurthrumylens.com/2016/10/06/history-old-city-gates-of-jaipur-architectural-design-elements/",
+    "original_file": "suraj_pol_qa.webp",
+    "author": "",
+    "license": "UNVERIFIED_TEST_ONLY",
+    "license_url": null,
+    "attribution": "Manually supplied, local testing only, license unverified",
+    "width": 640,
+    "height": 459,
+    "match_method": "manual_exact_identity_test_only",
+    "match_confidence": 0.0,
+    "downloaded_at": "2026-10-04T07:14:14.825107+00:00",
+    "local_path": "media/citylab/yc_in_rj_jaipur_suraj_pol_gate/25475c1e59306bde/primary.webp",
+    "thumbnail_path": "media/citylab/yc_in_rj_jaipur_suraj_pol_gate/25475c1e59306bde/thumbnail.webp"
+  }
+}

@@ -99,7 +99,6 @@ def export_offline(source: Path, output: Path, places: list[dict], work_root: Pa
     from .usability import usability
     final_usability = usability([p.model_dump() for p in parsed], city.model_dump(), temp, report["assurance"])
     report.update(output_pack=str(output), usability_after=final_usability)
-    atomic_json(temp / "ai_repair.json", report)
     atomic_json(temp / "usability.json", final_usability)
     manifest = json.loads((temp / "manifest.json").read_text(encoding="utf-8"))
     manifest.update(city_pack_version=output.name, offline_assurance={k: v for k, v in final_usability.items() if k != "places"},
@@ -109,11 +108,20 @@ def export_offline(source: Path, output: Path, places: list[dict], work_root: Pa
                                        "input_sha256": report["research_import"]["input_sha256"]}
     manifest["fallback_presentation"] = {"strategy":report.get("fallback_strategy", "bundled"),
         "missing_photo_representation":"images.primary=null", "required_real_media_checks_unchanged":True}
+    manifest["counts"]["accepted"] = len(parsed)
+    manifest["counts"]["by_category"] = dict(__import__("collections").Counter(p.classification.category for p in parsed))
     manifest["counts"]["with_images"] = len(images)
     manifest["counts"]["with_descriptions"] = sum(bool(p.description) for p in parsed)
     manifest["counts"]["with_opening_hours"] = sum(bool(p.opening_hours.raw) for p in parsed)
+    from collections import Counter
+    manifest['counts']['by_tier'] = dict(Counter(p.tier.value for p in parsed))
     for tier, stats in manifest["counts"].get("by_tier_stats", {}).items():
         members = [p for p in parsed if p.tier.value == tier]
+        stats['count'] = len(members)
+        stats['with_wikidata'] = sum(bool(p.external_ids.wikidata_id) for p in members)
+        stats['with_wikipedia'] = sum(any(s.source == 'wikipedia' for s in p.sources) for p in members)
+        stats['with_website'] = sum(bool(p.contact.website) for p in members)
+        stats['multi_source'] = sum(len(p.sources) > 1 for p in members)
         stats["with_image"] = sum(bool(p.images.primary) for p in members)
         stats["with_hours"] = sum(bool(p.opening_hours.raw) for p in members)
     source_manifest = json.loads((temp / "source_manifest.json").read_text(encoding="utf-8"))
@@ -129,6 +137,19 @@ def export_offline(source: Path, output: Path, places: list[dict], work_root: Pa
         "role": "Source excerpts with original article links in field_provenance.json"}
     atomic_json(temp / "source_manifest.json", source_manifest)
     atomic_json(temp / "manifest.json", manifest)
+    if report.get('test_media_records'):
+        from .test_media import export_test_media_projection
+        # Canonical places and strict assurance remain untouched. The opt-in
+        # projection owns its own test assets, metadata, and display metrics.
+        report['demo_media_metrics'] = export_test_media_projection(temp,
+            [p.model_dump(mode='json') for p in parsed], city.model_dump(mode='json'),
+            report['assurance'], report['test_media_records'], work_root)
+        manifest['test_media_presentation'] = {'default_enabled': False,
+            'configuration': 'ALLOW_TEST_MEDIA', 'usage_scope': 'local_testing_only',
+            'demo_pack': 'demo', 'manifest': 'test_media_manifest.json',
+            'counts_toward_source_readiness': False, 'demo_metrics': report['demo_media_metrics']}
+        atomic_json(temp / 'manifest.json', manifest)
+    atomic_json(temp / "ai_repair.json", report)
     from ..reports.html_reporter import generate_html_report
     from ..models.manifest import CityManifest
     generate_html_report(city_meta=city, places=parsed, manifest=CityManifest.model_validate(manifest), output_path=temp / "quality_report.html")

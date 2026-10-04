@@ -186,11 +186,32 @@ def export_research(pack: Path, output: Path, *, types=None, priorities=None, in
         if set(priorities) - {f"P{i}" for i in range(5)}:
             raise ValueError("Unknown research priority")
         tasks = [task for task in tasks if task["priority"] in priorities]
+    from .resolution import resolve_media_tasks, research_task, MEDIA_INSTRUCTIONS
+    resolutions = resolve_media_tasks(pack, tasks, settings=settings)
+    by_id = {row["task_id"]: row for row in resolutions}
+    excluded = Counter(row["resolution_state"] for row in resolutions if row["resolution_state"] != "NEW_RESEARCH_REQUIRED")
+    tasks = [research_task(task, by_id[task["task_id"]]) if task["task_id"] in by_id else task
+             for task in tasks if task["task_id"] not in by_id or by_id[task["task_id"]]["resolution_state"] == "NEW_RESEARCH_REQUIRED"]
     filtered_total = len(tasks)
     if limit is not None:
         if limit < 1:
             raise ValueError("Research limit must be positive")
         tasks = tasks[:limit]
+    result = _write_handoff(pack, output, city, tasks, inventory, settings,
+        instructions=MEDIA_INSTRUCTIONS + "\n" + INSTRUCTIONS if any(t["type"] == "REAL_PRIMARY_IMAGE" for t in tasks) else INSTRUCTIONS,
+        filtered_total=filtered_total)
+    result["excluded_resolution_queues"] = dict(excluded)
+    return result
+
+
+def _write_handoff(pack, output, city, tasks, inventory, settings, *, instructions=INSTRUCTIONS, filtered_total=None):
+    """Shared registered handoff serializer; queue export uses the same schema/IDs."""
+    filtered_total = len(tasks) if filtered_total is None else filtered_total
+    valid = {task["task_id"]: task for task in inventory}
+    if any(t["task_id"] not in valid or t["place_id"] != valid[t["task_id"]]["place_id"]
+           or t["type"] != valid[t["task_id"]]["type"]
+           or t["task_id"] != task_id(city, t["place_id"], t["type"]) for t in tasks):
+        raise ValueError("Handoff tasks must match the current task inventory")
     pack = pack.resolve()
     if not pack.is_relative_to(settings.releases_dir.resolve()):
         raise ValueError("Research source must be a DataFactory release")
@@ -199,6 +220,13 @@ def export_research(pack: Path, output: Path, *, types=None, priorities=None, in
     bundle = {"schema_version": "1.0", "handoff_id": handoff_id,
               "city": {k: city[k] for k in ("id", "name", "state", "country")},
               "generated_at": datetime.now(timezone.utc).isoformat(), "tasks": tasks}
+    registry_path = settings.data_dir / "research/handoffs" / f"{handoff_id}.json"
+    if registry_path.exists():
+        previous = json.loads(registry_path.read_text(encoding="utf-8"))
+        expected = {**bundle, "source_pack": pack.relative_to(settings.releases_dir.resolve()).as_posix(), "snapshot": signature}
+        if any(previous.get(key) != value for key, value in expected.items() if key != "generated_at"):
+            raise ValueError("Existing handoff registry conflicts with its immutable identity")
+        bundle["generated_at"] = previous["generated_at"]
     output.mkdir(parents=True, exist_ok=True)
     schema = ResultBundle.model_json_schema()
     atomic_json(output / "research_handoff.json", bundle)
@@ -210,7 +238,7 @@ def export_research(pack: Path, output: Path, *, types=None, priorities=None, in
     atomic_json(output / "research_inventory.json", {"tasks": inventory, "by_worthiness": dict(Counter(t["research_worthiness"] for t in inventory))})
     counts = Counter(task["type"] for task in tasks)
     priority_counts = Counter(task["priority"] for task in tasks)
-    lines = [f"# {city['name']} Research Handoff", "", INSTRUCTIONS, "",
+    lines = [f"# {city['name']} Research Handoff", "", instructions, "",
              f"Handoff ID: {handoff_id}", f"Total tasks: {len(tasks)}", "",
              "| Priority | Tasks |", "|---|---|"]
     lines.extend(f"| P{i} | {priority_counts[f'P{i}']} |" for i in range(5))
@@ -227,7 +255,8 @@ def export_research(pack: Path, output: Path, *, types=None, priorities=None, in
                 name = "'" + name
             writer.writerow([task["task_id"], task["place_id"], task["type"], task["priority"], city["name"], name])
     registry = {**bundle, "source_pack": pack.relative_to(settings.releases_dir.resolve()).as_posix(), "snapshot": signature}
-    atomic_json(settings.data_dir / "research" / "handoffs" / f"{handoff_id}.json", registry)
+    if not registry_path.exists():
+        atomic_json(registry_path, registry)
     return {"city": bundle["city"], "handoff_id": handoff_id, "total": len(tasks),
             "filtered_total_before_limit": filtered_total, "remaining_in_filter": filtered_total - len(tasks),
             "actionable": sum(t["priority"] in {"P0", "P1", "P2"} for t in inventory),

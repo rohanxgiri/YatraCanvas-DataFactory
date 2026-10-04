@@ -1,0 +1,80 @@
+{
+  "queues": {
+    "schema_version": "1.0",
+    "city": {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "generated_at": "2026-10-04T04:52:25.749614+00:00",
+    "source_pack": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\releases\\india\\rajasthan\\jaipur\\v3-research-jaipur-manual-01",
+    "source_snapshot": {
+      "places.json": "274d254cb40c1544e3152ae7ad1a9aad575e984b1007c1090a34a9eb4a534e90",
+      "city.json": "c16e1b0d92b9c54b920c68d97d90b3ea26ca54e3025b5fbe9b12c1772f397e24",
+      "media_assurance.json": "e86b33b313834374fde87ffa6bd451fffebf28f4b6f3d9b53ead525b724bc131",
+      "field_provenance.json": "0ba5d795080b360574670a041f8affea29bd71f01289fbb89411ecbee9422e0c",
+      "checksums.json": "e36b6eaaf5732603ac1f38210a8e984588cb78ec00cd24225fa2acb5aeac89b7"
+    },
+    "total_remaining": 33,
+    "resolution_queues": {
+      "PROVIDER_RETRY": 16,
+      "NEW_RESEARCH_REQUIRED": 14,
+      "MANUAL_REVIEW": 3
+    },
+    "problem_types": {
+      "ASSURANCE_HOLD": 16,
+      "RESEARCH_GAP": 14,
+      "IDENTITY_REVIEW": 3
+    },
+    "provider_retry_breakdown": {
+      "groq_429": 16,
+      "gemini_503": 16,
+      "other": 0
+    },
+    "provider_breakdown_scope": "affected records; categories overlap; router failure context",
+    "new_research_breakdown": {
+      "IDENTITY/SUITABILITY": 5,
+      "PARTIAL": 1,
+      "UNRESOLVED": 7,
+      "CONFLICT": 1
+    },
+    "new_research_handoff_id": "handoff_965c5929a6bb1cb64a630be6",
+    "provider_retry_handoff_id": "handoff_16b8503e795e52a8e254f5b2",
+    "provider_calls": 0,
+    "paid_calls": 0,
+    "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\reports\\research\\jaipur-safe-resolution-01\\resolution_queues-02"
+  },
+  "suraj_handoff": {
+    "city": {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India"
+    },
+    "handoff_id": "handoff_321f74590b9e8adf572da828",
+    "total": 1,
+    "filtered_total_before_limit": 1,
+    "remaining_in_filter": 0,
+    "actionable": 90,
+    "deferred_optional": 282,
+    "do_not_research": 0,
+    "by_type": {
+      "OPENING_HOURS": 0,
+      "REAL_PRIMARY_IMAGE": 1,
+      "WEBSITE": 0,
+      "DESCRIPTION": 0,
+      "COORDINATE_RESEARCH": 0,
+      "IDENTITY_RESEARCH": 0
+    },
+    "by_priority": {
+      "P0": 1,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0
+    },
+    "output": "C:\\Users\\girir\\Documents\\YatraCanvas-DataFactory\\reports\\research\\jaipur-safe-resolution-01\\suraj_pol_research",
+    "zero_candidate_media_tasks": 0
+  }
+}

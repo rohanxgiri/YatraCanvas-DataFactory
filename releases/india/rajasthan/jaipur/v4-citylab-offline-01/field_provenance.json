@@ -1,0 +1,1504 @@
+[
+  {
+    "place_id": "yc_in_rj_jaipur_vidyadhar_garden",
+    "field": "description",
+    "value": "The garden is a real treat for those who want to see a fusion of Mughal and Hindu culture.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_vidyadhar_garden",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "The garden is a real treat for those who want to see a fusion of Mughal and Hindu culture.",
+    "check_date": "2018-10-14",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat",
+    "field": "description",
+    "value": "A minaret with great views of Jaipur. There is an alternative to the minaret that's open 24/7. Just across the other side of the road (Chandpol Bazaar) from the minaret is a shopping complex with stairs up to a rooftop area where you can get basically the same view as from the minaret.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_iswari_minar_swarga_sal",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "A minaret with great views of Jaipur. There is an alternative to the minaret that's open 24/7. Just across the other side of the road (Chandpol Bazaar) from the minaret is a shopping complex with stairs up to a rooftop area where you can get basically the same view as from the minaret. To get there, go through the arched gateway almost opposite the minaret, then as soon as you get to the courtyard, look to the left for a metal spiral staircase and keep climbing until you reach the roof, walk around the corridor to the next set of stair and go up another floor until you know you can't go any higher.",
+    "check_date": "2026-03-07",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_lake_palace",
+    "field": "external_ids.wikidata_id",
+    "source": "wikidata",
+    "source_id": "Q2757538",
+    "retrieved_at": null,
+    "source_value": "Q2757538"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_galwar_bagh",
+    "field": "description",
+    "value": "Locals and tourists come here to feed the surprisingly tame monkeys, use the temples, and enjoy the views. You can climb to the top of the hill and then down into the valley to see the Monkey Temple, while enjoying the company of countless monkeys, goats and other animals. At the top of the hill, you turn right to reach the Sun Temple for one of the best views of the city, especially at sunset.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_galwar_bagh",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Locals and tourists come here to feed the surprisingly tame monkeys, use the temples, and enjoy the views. You can climb to the top of the hill and then down into the valley to see the Monkey Temple, while enjoying the company of countless monkeys, goats and other animals. At the top of the hill, you turn right to reach the Sun Temple for one of the best views of the city, especially at sunset. Monkey food is available for purchase at the bottom of the hill. Entrance to the temples are free, but local religious people may ask for donations and there is a ₹50 charge for using a camera.",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_gaitore",
+    "field": "description",
+    "value": "A royal cremation site of the rulers of Jaipur.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_gaitore",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "A royal cremation site of the rulers of Jaipur.",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_statue_circle",
+    "field": "description",
+    "value": "Statue Circle is exactly what it sounds like: a roundabout that contains a statue that is beautifully lit up at night. It is the life-size statue of the Great Ruler and Founder of Jaipur, Maharaja Sawai Jai Singh II",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_statue_circle",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Statue Circle is exactly what it sounds like: a roundabout that contains a statue that is beautifully lit up at night. It is the life-size statue of the Great Ruler and Founder of Jaipur, Maharaja Sawai Jai Singh II",
+    "check_date": "2015-03-22",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_ambrosia",
+    "field": "description",
+    "value": "Serving vegetarian and vegan, Chinese food and barbecue atop a 100-foot-high building providing a breathtaking view of the city.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_ambrosia",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Serving vegetarian and vegan, Chinese food and barbecue atop a 100-foot-high building providing a breathtaking view of the city.",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_peacock_rooftop_restaurant",
+    "field": "description",
+    "value": "A rooftop restaurant serving Indian, Western and Chinese food. Fast service and good value.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_peacock_rooftop_restaurant",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "A rooftop restaurant serving Indian, Western and Chinese food. Fast service and good value.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_four_seasons_restaurant",
+    "field": "description",
+    "value": "Indian and Chinese food, among the most popular vegetarian restaurants in Jaipur.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_four_seasons_restaurant",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Indian and Chinese food, among the most popular vegetarian restaurants in Jaipur.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_handi_restaurant",
+    "field": "description",
+    "value": "Specialising in meat dishes; chicken, mutton, kebab, tandoori and the super spicy Rajasthani speciality lal maas.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_handi_restaurant",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Specialising in meat dishes; chicken, mutton, kebab, tandoori and the super spicy Rajasthani speciality lal maas.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_little_italy",
+    "field": "description",
+    "value": "Part of a chain with restaurants around India and some other Asian countries, as the name reveals, this is a place to go to for Italian food. Wide selection of pizza, pasta and other typical Italian food, also some Mexican dishes. Large range of wines.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_little_italy",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Part of a chain with restaurants around India and some other Asian countries, as the name reveals, this is a place to go to for Italian food. Wide selection of pizza, pasta and other typical Italian food, also some Mexican dishes. Large range of wines.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_lmb",
+    "field": "description",
+    "value": "Good mid-range north Indian vegetarian restaurant. The restaurant sells good sweets and chat, Indian sweet and savory snacks, and is most famous for its Aloo ki Tikiya and Paneer Ghewar.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_lmb",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Good mid-range north Indian vegetarian restaurant. The restaurant sells good sweets and chat, Indian sweet and savory snacks, and is most famous for its Aloo ki Tikiya and Paneer Ghewar.",
+    "check_date": "2015-02-24",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_1135_ad_amber",
+    "field": "description",
+    "value": "Upscale restaurant in the Amber Fort complex. They serve traditional Rajasthani cuisine in royally decorated dining rooms.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_1135_ad_amber",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Upscale restaurant in the Amber Fort complex. They serve traditional Rajasthani cuisine in royally decorated dining rooms.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_cinnamon",
+    "field": "description",
+    "value": "Northern Indian cuisine in a romantic setting, however they are reportedly a bit overpriced.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_cinnamon",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Northern Indian cuisine in a romantic setting, however they are reportedly a bit overpriced.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_virasat_heritage_restaurant",
+    "field": "description",
+    "value": "Offers traditional Rajasthani and Marwari cuisine in a heritage-inspired setting and features several dining concepts, including royal-style and contemporary venues, along with facilities for weddings and other celebrations.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_virasat_heritage_restaurant",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Offers traditional Rajasthani and Marwari cuisine in a heritage-inspired setting and features several dining concepts, including royal-style and contemporary venues, along with facilities for weddings and other celebrations.",
+    "check_date": "2026-08-24",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_colorbar",
+    "field": "description",
+    "value": "On the top of the roof of Radission Blu Airport hotel, with nice views of the planes landing and taking off. Barbecue, pool and interesting luminescent chairs and tables.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_colorbar",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "On the top of the roof of Radission Blu Airport hotel, with nice views of the planes landing and taking off. Barbecue, pool and interesting luminescent chairs and tables.",
+    "check_date": "2015-04-19",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_district_9_lounge",
+    "field": "description",
+    "value": "Rooftop and indoor seating. More of a restaurant than a bar, with dishes from all over the world ranging from spring rolls to pizzas and fajitas to burritos.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_district_9_lounge",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Rooftop and indoor seating. More of a restaurant than a bar, with dishes from all over the world ranging from spring rolls to pizzas and fajitas to burritos.",
+    "check_date": "2015-04-19",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_henrys_the_pub",
+    "field": "description",
+    "value": "Cozy pub in the basement of the Prime Park Hotel, reportedly great for an evening out with your friends. Many different snacks and cocktails. On the downside some guests find the service is a bit slow.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_henrys_the_pub",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Cozy pub in the basement of the Prime Park Hotel, reportedly great for an evening out with your friends. Many different snacks and cocktails. On the downside some guests find the service is a bit slow.",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_skyfall_by_replay",
+    "field": "description",
+    "value": "Bar, restaurant and lounge with Mexican and Italian cuisine. Different sitting areas, which makes it a good place for private events.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_skyfall_by_replay",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Bar, restaurant and lounge with Mexican and Italian cuisine. Different sitting areas, which makes it a good place for private events.",
+    "check_date": "2015-04-19",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_3ds_restro_lounge",
+    "field": "description",
+    "value": "A lounge bar with two restaurants (fine dining and casual). A good place to hang out with your friends, and fairly popular among students.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_3ds_restro_lounge",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "A lounge bar with two restaurants (fine dining and casual). A good place to hang out with your friends, and fairly popular among students.",
+    "check_date": "2015-04-19",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_blackout",
+    "field": "description",
+    "value": "Bar and nightclub popular with the party crowd, though their food is apparently not very good. Great views of the city from the rooftop lounge.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_blackout",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Bar and nightclub popular with the party crowd, though their food is apparently not very good. Great views of the city from the rooftop lounge.",
+    "check_date": "2015-04-19",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_apno_gaon",
+    "field": "description",
+    "value": "Vegetarian food, including fresh vegetables and fruits. Slightly away from the main city: One has to go on a bumpy ride to reach there.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_apno_gaon",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Vegetarian food, including fresh vegetables and fruits. Slightly away from the main city: One has to go on a bumpy ride to reach there.",
+    "check_date": "2015-03-22",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_mamus_infusion",
+    "field": "description",
+    "value": "Serves Indian, Italian, Mexican, Chinese, Thai and Middle Eastern dishes. Quirky decor, large servings and friendly staff.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_mamus_infusion",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Serves Indian, Italian, Mexican, Chinese, Thai and Middle Eastern dishes. Quirky decor, large servings and friendly staff.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_zodiac",
+    "field": "description",
+    "value": "A buffet restaurant with North Indian dishes.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_zodiac",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "A buffet restaurant with North Indian dishes.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_steam",
+    "field": "description",
+    "value": "A train turned into an Italian restaurant, on the grounds of the Taj Rambagh palace. Popular among the upper class of Jaipur, they are also famous for their pizzas.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_steam",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "A train turned into an Italian restaurant, on the grounds of the Taj Rambagh palace. Popular among the upper class of Jaipur, they are also famous for their pizzas.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_amigos_bar_discoteque",
+    "field": "description",
+    "value": "Mexico-themed bar at the 9th floor of the OM Tower hotel, in the adjoining room there's a dance floor. Apparently a wider range of beverages and cocktails than at restaurants.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_amigos_bar_discoteque",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Mexico-themed bar at the 9th floor of the OM Tower hotel, in the adjoining room there's a dance floor. Apparently a wider range of beverages and cocktails than at restaurants.",
+    "check_date": "2015-04-19",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_drop_zone_lounge_bar",
+    "field": "description",
+    "value": "A bar with a pleasant rooftop seating with fantastic views, and they serve food as well.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_drop_zone_lounge_bar",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "A bar with a pleasant rooftop seating with fantastic views, and they serve food as well.",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_bm_birla_auditorium_and_conference_hall",
+    "field": "description",
+    "value": "These are at the heart of Jaipur. This auditorium is spread over 9.8 acres and includes a computer centre, interactive science museum, an information processing centre, library, a processing planetarium, eight research divisions, a dissemination cell and an auditorium. The auditorium has a seating capacity of 1,350 and is among the largest in India. This auditorium is built up to international conference standards.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_bm_birla_auditorium_and_conference_hall",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "These are at the heart of Jaipur. This auditorium is spread over 9.8 acres and includes a computer centre, interactive science museum, an information processing centre, library, a processing planetarium, eight research divisions, a dissemination cell and an auditorium. The auditorium has a seating capacity of 1,350 and is among the largest in India. This auditorium is built up to international conference standards. However, people visiting Jaipur for leisure are likely to be most interested in the [http://www.bisr.res.in/planetarium.php Planetarium] (all shows in Hindi) or [http://www.bisr.res.in/museum.php Science Museum] (under renovation as of November 2015) that are part of the complex.",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rajmandir_cinema",
+    "field": "description",
+    "value": "An experience in itself, and another \"don't miss\". Once known as the best cinema India, and still the best in Rajasthan, it offers an overwhelming experience. From the pushing, shoving, and general chaos in the ticket queue, to an audience that laughs, cries, cheers, claps, and consistently talks through the entire film, the Rajmandir provides an insight into Rajasthani culture.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_rajmandir_cinema",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "An experience in itself, and another \"don't miss\". Once known as the best cinema India, and still the best in Rajasthan, it offers an overwhelming experience. From the pushing, shoving, and general chaos in the ticket queue, to an audience that laughs, cries, cheers, claps, and consistently talks through the entire film, the Rajmandir provides an insight into Rajasthani culture. The films can be interesting; ''Masala'' movies are action, drama, mystery, suspense, and epics all wrapped into one single film, teeming with dances and obligatory wet sari scenes, and unabashedly lifting generous amounts of plot devices from Western films. The theatre-goers are very friendly and genuinely curious about overseas visitors who come to the Raj. Don't be put off by \"House Full\" notices at the entrance. The box office opens again a nominal 45 minutes before the next performance, and there are usually tickets available. Box seats at ₹120 go first, so it's worth going early to avoid disappointment. Shows at 12:30PM, 3:30PM, 6:30PM and 9:30PM. A great place to meet locals, with the nearby McDonald's as a central congregation spot.",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_anokhi_cafe",
+    "field": "description",
+    "value": "Mostly organic non-Indian-style (\"international flavour\") home-style cakes, freshly prepared sandwiches, pastries, savoury snacks plus organic coffee and a selection of good teas. Quiet, relaxing, good value for money, situated outside the Anokhi shop (see Anokhi Museum of Hand Printing listing in \"See\").",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_anokhi_cafe",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Mostly organic non-Indian-style (\"international flavour\") home-style cakes, freshly prepared sandwiches, pastries, savoury snacks plus organic coffee and a selection of good teas. Quiet, relaxing, good value for money, situated outside the Anokhi shop (see Anokhi Museum of Hand Printing listing in \"See\").",
+    "check_date": null,
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_natraj",
+    "field": "description",
+    "value": "Vegetarian, speciality is the Rajasthani thali. Credit cards are accepted and they do not serve alcohol. They also have a mithai (sweets) shop.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_natraj",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Vegetarian, speciality is the Rajasthani thali. Credit cards are accepted and they do not serve alcohol. They also have a mithai (sweets) shop.",
+    "check_date": "2015-03-22",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_niros",
+    "field": "description",
+    "value": "Niros is a 60-year-old restaurant serving mostly Indian and Indo-Chinese dishes. Opinions are divided between those who laud the restaurant and others who consider it overpriced and more hype than quality.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_niros",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Niros is a 60-year-old restaurant serving mostly Indian and Indo-Chinese dishes. Opinions are divided between those who laud the restaurant and others who consider it overpriced and more hype than quality.",
+    "check_date": "2015-03-22",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_club_seven",
+    "field": "description",
+    "value": "A nightclub with electronic music and different events every few weeks at the Byke Grassfield Resort, some 6-7 km southwest of the city centre.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_club_seven",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "A nightclub with electronic music and different events every few weeks at the Byke Grassfield Resort, some 6-7 km southwest of the city centre.",
+    "check_date": "2015-04-19",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_old_take_away",
+    "field": "description",
+    "value": "Various chicken and mutton dishes for take-away.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_old_take_away",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Various chicken and mutton dishes for take-away.",
+    "check_date": "2015-04-18",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_shrinat_lassiwala",
+    "field": "description",
+    "value": "Simple place for lassis, snacks and breakfast. Claiming to be the oldest lasso place in Jaipur.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_shrinat_lassiwala",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Simple place for lassis, snacks and breakfast. Claiming to be the oldest lasso place in Jaipur.",
+    "check_date": "2025-10-19",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_loharu_house",
+    "field": "description",
+    "value": "This is the house of a Royal Family in Civil Lines. Primarily a hotel, but they also serve food. You can call in advance and request a special dinner. Otherwise, dinners are served for in-house guests.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_loharu_house",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "This is the house of a Royal Family in Civil Lines. Primarily a hotel, but they also serve food. You can call in advance and request a special dinner. Otherwise, dinners are served for in-house guests.",
+    "check_date": "2015-03-22",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_okra",
+    "field": "description",
+    "value": "Both a large buffet and à la carte. Reservations are required.",
+    "source": "wikivoyage",
+    "source_id": "wv_jaipur_okra",
+    "source_url": "https://en.wikivoyage.org/wiki/Jaipur",
+    "retrieved_at": "2026-09-19T10:47:27.545782+00:00",
+    "original_source_text": "Both a large buffet and à la carte. Reservations are required.",
+    "check_date": "2026-03-07",
+    "confidence": 0.95,
+    "ai_assisted": false
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_akshardham_temple",
+    "field": "images.primary",
+    "task_id": "research_3cd5b6fe05426df566fee2f3",
+    "input_sha256": "890ce123c0f57ce478de6768dddb94c011c65bd4700d65ac7473a7df9eb8cb45",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Akshardham_Temple,_Jaipur.JPG",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Akshardham Temple; creator Pranavdadhich; license CC BY-SA 3.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "68d30ab1fd60d81646a81efce26c917407043776371938c8230db35db54be669",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Akshardham_Temple,_Jaipur.JPG",
+      "original_file": "Akshardham_Temple,_Jaipur.JPG",
+      "author": "Pranavdadhich",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Pranavdadhich / Wikimedia Commons / CC BY-SA 3.0",
+      "width": 4608,
+      "height": 2904,
+      "match_method": "research_import",
+      "match_confidence": 0.95,
+      "downloaded_at": "2026-10-03T16:18:55.638195+00:00",
+      "local_path": "images/yc_in_rj_jaipur_akshardham_temple/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_akshardham_temple/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_albert_hall_museum",
+    "field": "images.primary",
+    "task_id": "research_8aa838020f9d6e0974707f78",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Albert_Hall_Museum,_Jaipur,_Rajasthan,_India.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Albert Hall Museum; creator কুমুদ ঘোষ; license CC BY 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "b3d5c0c0b73e8511c71eed616217f296df57d9362841ce697890a698736d4a66",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Albert_Hall_Museum,_Jaipur,_Rajasthan,_India.jpg",
+      "original_file": "Albert_Hall_Museum,_Jaipur,_Rajasthan,_India.jpg",
+      "author": "কুমুদ ঘোষ",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "কুমুদ ঘোষ / Wikimedia Commons / CC BY 4.0",
+      "width": 4608,
+      "height": 3456,
+      "match_method": "research_import",
+      "match_confidence": 0.95,
+      "downloaded_at": "2026-10-03T17:43:46.374243+00:00",
+      "local_path": "images/yc_in_rj_jaipur_albert_hall_museum/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_albert_hall_museum/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_amrapali_museum",
+    "field": "images.primary",
+    "task_id": "research_a896d5cc87f5043de0c60997",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:AMRAPALI_MUSEUM,_JAIPUR.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Amrapali Museum; creator Neek-Theri; license CC BY-SA 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "76a5685d9c1dd1b211cdc1ffcf65e66202a56548ecf143f23a870cddb73a4651",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:AMRAPALI_MUSEUM,_JAIPUR.jpg",
+      "original_file": "AMRAPALI MUSEUM, JAIPUR.jpg",
+      "author": "Neek-Theri",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Neek-Theri / Wikimedia Commons / CC BY-SA 4.0",
+      "width": 1280,
+      "height": 1917,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:18.631247+00:00",
+      "local_path": "images/yc_in_rj_jaipur_amrapali_museum/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_amrapali_museum/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_galtaji",
+    "field": "images.primary",
+    "task_id": "research_36ac56128dd6f11d22af9d63",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:GaltaTempleOverview.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Galtaji; creator China Crisis; license CC BY-SA 3.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "6f08ce3737547a852839ee566b6750aa1581b1ccafc7de606f0d27538edf3d2e",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:GaltaTempleOverview.jpg",
+      "original_file": "GaltaTempleOverview.jpg",
+      "author": "China Crisis",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "China Crisis / Wikimedia Commons / CC BY-SA 3.0",
+      "width": 800,
+      "height": 600,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:16.649045+00:00",
+      "local_path": "images/yc_in_rj_jaipur_galtaji/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_galtaji/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_shri_digamber_jain_atishya_kshetra_mandir_sanghiji",
+    "field": "images.primary",
+    "task_id": "research_c3f26da7e3de691706b489a2",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Sangheji_jain_temple,sanganer,jaipur.JPG",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Shri Digamber Jain Atishya Kshetra Mandir, Sanghiji; creator Seema agarwal; license CC BY-SA 3.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "f8f6cdec9c4f8d8c4e492b96fcaa26de65991aa31af2e0c7bccc30d036b8b58a",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sangheji_jain_temple,sanganer,jaipur.JPG",
+      "original_file": "Sangheji jain temple,sanganer,jaipur.JPG",
+      "author": "Seema agarwal",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Seema agarwal / Wikimedia Commons / CC BY-SA 3.0",
+      "width": 1280,
+      "height": 720,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:21.194942+00:00",
+      "local_path": "images/yc_in_rj_jaipur_shri_digamber_jain_atishya_kshetra_mandir_sanghiji/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_shri_digamber_jain_atishya_kshetra_mandir_sanghiji/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_sisodia_rani_palace_and_garden",
+    "field": "images.primary",
+    "task_id": "research_9d5a01fadc3e58a1e45a5fe8",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Rani_Sisodia_Garden.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Sisodia Rani Palace and Garden; creator Shishir.k 96; license CC BY-SA 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "33b96b8368ff84886775a5923e91cac917c449af66ec9ee8d63e3c40687b7fac",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rani_Sisodia_Garden.jpg",
+      "original_file": "Rani Sisodia Garden.jpg",
+      "author": "Shishir.k 96",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Shishir.k 96 / Wikimedia Commons / CC BY-SA 4.0",
+      "width": 1280,
+      "height": 960,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:13.268777+00:00",
+      "local_path": "images/yc_in_rj_jaipur_sisodia_rani_palace_and_garden/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_sisodia_rani_palace_and_garden/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_dalaram_bagh",
+    "field": "images.primary",
+    "task_id": "research_6f4dd983019e1e72cd7b7fe7",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Dilaram_Bagh,_Amber_2016.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Dalaram Bagh; creator Logawi; license CC BY-SA 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "7023578784e06e925ef18fdb453fb24db2979bd2036d765d2625e91fd919d6f4",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dilaram_Bagh,_Amber_2016.jpg",
+      "original_file": "Dilaram Bagh, Amber 2016.jpg",
+      "author": "Logawi",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Logawi / Wikimedia Commons / CC BY-SA 4.0",
+      "width": 1280,
+      "height": 961,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:23.175724+00:00",
+      "local_path": "images/yc_in_rj_jaipur_dalaram_bagh/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_dalaram_bagh/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_kesar_kyari",
+    "field": "images.primary",
+    "task_id": "research_3be86488cb86733209a6b2a1",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Amber_Palace-Kesar_Kyari_Garden_VJC-20131017.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Kesar Kyari; creator Daniel VILLAFRUELA; license CC BY-SA 3.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "83576d8ec1eeaf13f8e0e199955bee71d6b82174b2f08a07afc0aba88cc4a342",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amber_Palace-Kesar_Kyari_Garden_VJC-20131017.jpg",
+      "original_file": "Amber Palace-Kesar Kyari Garden VJC-20131017.jpg",
+      "author": "Daniel VILLAFRUELA",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_VILLAFRUELA\" title=\"User:Daniel VILLAFRUELA\"> Daniel VILLAFRUELA</a>",
+      "width": 1280,
+      "height": 853,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:39.593682+00:00",
+      "local_path": "images/yc_in_rj_jaipur_kesar_kyari/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_kesar_kyari/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_akabar_ke_kos_chinha",
+    "field": "images.primary",
+    "task_id": "research_eb6b80ab67823f11fcde7b4c",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Kos_minar_IMG_20240916_121015_876.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Akabar Ke Kos Chinha; creator Vargau; license CC BY-SA 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "4d4fab850322026f5d2e12a4be75dfb096b3e462bafed233871e4542dcc85775",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kos_minar_IMG_20240916_121015_876.jpg",
+      "original_file": "Kos minar IMG 20240916 121015 876.jpg",
+      "author": "Vargau",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Vargau / Wikimedia Commons / CC BY-SA 4.0",
+      "width": 1280,
+      "height": 1706,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:35.788356+00:00",
+      "local_path": "images/yc_in_rj_jaipur_akabar_ke_kos_chinha/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_akabar_ke_kos_chinha/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_royal_gaitor",
+    "field": "images.primary",
+    "task_id": "research_5ce00f3b12fc29935457a809",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:20111024_-_051_-_Royal_Gaitor.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Royal Gaitor; creator Politvs; license CC BY-SA 3.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "816409fd0e18e0558791fd4538a5237eff179a7d86a792e053ff9c8a3e0a9581",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20111024_-_051_-_Royal_Gaitor.jpg",
+      "original_file": "20111024 - 051 - Royal Gaitor.jpg",
+      "author": "Politvs",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Politvs / Wikimedia Commons / CC BY-SA 3.0",
+      "width": 1280,
+      "height": 960,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:42.031959+00:00",
+      "local_path": "images/yc_in_rj_jaipur_royal_gaitor/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_royal_gaitor/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_sattais_kacheri",
+    "field": "images.primary",
+    "task_id": "research_a0c487b6f3684390aeab7b09",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Sattais_Kacheri,_Amber_Fort,_Jaipur,_20191219_1017_9532.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Sattais Kacheri; creator Jakub Hałun; license CC BY-SA 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "862aaf4ce53adcb1d78e006deb24bae52d6342a173204e1e54dfe83dd7b8fa4c",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sattais_Kacheri,_Amber_Fort,_Jaipur,_20191219_1017_9532.jpg",
+      "original_file": "Sattais Kacheri, Amber Fort, Jaipur, 20191219 1017 9532.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Jakub Hałun / Wikimedia Commons / CC BY-SA 4.0",
+      "width": 1280,
+      "height": 2047,
+      "match_method": "commons_exact_name_search",
+      "match_confidence": 0.95,
+      "downloaded_at": "2026-10-01T09:33:09.562919+00:00",
+      "local_path": "images/yc_in_rj_jaipur_sattais_kacheri/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_sattais_kacheri/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat",
+    "field": "images.primary",
+    "task_id": "research_a914a1697b1e9b4936f03b86",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Isar_lat.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Iswari Minar Swarga Sali (Isarlat); creator Manojmeena; license CC BY-SA 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "abbdccd3e0ca6781e46e330e6077cad3c4733d44116cdf75e08b826f1e4f9873",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Isar_lat.jpg",
+      "original_file": "Isar_lat.jpg",
+      "author": "Manojmeena",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Manojmeena / Wikimedia Commons / CC BY-SA 4.0",
+      "width": 3000,
+      "height": 4000,
+      "match_method": "research_import",
+      "match_confidence": 0.95,
+      "downloaded_at": "2026-10-03T17:46:50.090733+00:00",
+      "local_path": "images/yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_iswari_minar_swarga_sali_isarlat/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_ganesh_pol",
+    "field": "images.primary",
+    "task_id": "research_9c153f7c54a2fc5e4f5f2b54",
+    "input_sha256": "eb18ab3c449caf99d5320cbdda3c1bb4e3dbbd09d6f3fc26ead52d277a714446",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Ganesh_Pol,_Amber_Fort.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Ganesh Pol; creator Aparna Mandal; license CC BY-SA 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "474dd0ee112a290e2d7943b797b9544a8eddf0c5a2d877b8422d662cdf695e8f",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ganesh_Pol,_Amber_Fort.jpg",
+      "original_file": "Ganesh_Pol,_Amber_Fort.jpg",
+      "author": "Aparna Mandal",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Aparna Mandal / Wikimedia Commons / CC BY-SA 4.0",
+      "width": 4272,
+      "height": 2848,
+      "match_method": "research_import",
+      "match_confidence": 0.95,
+      "downloaded_at": "2026-10-03T17:47:36.200131+00:00",
+      "local_path": "images/yc_in_rj_jaipur_ganesh_pol/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_ganesh_pol/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_govind_devji_temple",
+    "field": "images.primary",
+    "task_id": "research_3a60571ce74994a0af12c78a",
+    "input_sha256": "321ed367f623da8b1c57dd7efe84ad106f68809f0577d6df1636d3a85f8ee479",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Govind_Dev_Ji_Temple,_Jaipur,_20191218_1059_9092.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T15:51:32.852668+00:00",
+        "source_text": "Wikimedia Commons file page for a photograph researched for Govind Devji Temple; creator Jakub Hałun; license CC BY-SA 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "f5c5445135064b799578258ae92651a1a7dfd4c8764753e890b330d39076d8ee",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Govind_Dev_Ji_Temple,_Jaipur,_20191218_1059_9092.jpg",
+      "original_file": "Govind Dev Ji Temple, Jaipur, 20191218 1059 9092.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Jakub Hałun / Wikimedia Commons / CC BY-SA 4.0",
+      "width": 1280,
+      "height": 851,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:17.332967+00:00",
+      "local_path": "images/yc_in_rj_jaipur_govind_devji_temple/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_govind_devji_temple/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T15:51:32.852668+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_anokhi_museum_of_hand_printing",
+    "field": "images.primary",
+    "task_id": "research_51a3cc7b0eb0bf08e07bfe7b",
+    "input_sha256": "bce49b0c66238c0d39a423638480db57a25c3e937fbb4127b01156db113e6abe",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Anokhi_Museum.jpg",
+        "source_id": null,
+        "source_name": "Wikimedia Commons",
+        "retrieved_at": "2026-10-03T19:18:11+00:00",
+        "source_text": "Wikimedia Commons identifies this as Anokhi, Jaipur; own work by Ketayun, Katz, licensed CC BY-SA 4.0.",
+        "quality": "CURATED_REFERENCE",
+        "confidence": 0.85
+      }
+    ],
+    "value": {
+      "image_type": "real",
+      "fallback_category": null,
+      "fallback_asset_id": null,
+      "content_sha256": "f5b7d9abbb517b2b427a77ff2b451d623dc6a09d7905422dd340c305128507fe",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Anokhi_Museum.jpg",
+      "original_file": "Anokhi Museum.jpg",
+      "author": "Ketayun, Katz",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Ketayun, Katz / Wikimedia Commons / CC BY-SA 4.0",
+      "width": 1280,
+      "height": 851,
+      "match_method": "wikidata_p18",
+      "match_confidence": 0.99,
+      "downloaded_at": "2026-10-01T09:32:12.638907+00:00",
+      "local_path": "images/yc_in_rj_jaipur_anokhi_museum_of_hand_printing/primary.webp",
+      "thumbnail_path": "images/yc_in_rj_jaipur_anokhi_museum_of_hand_printing/thumbnail.webp"
+    },
+    "retrieved_at": "2026-10-03T19:18:11+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+    "field": "alternate_names",
+    "before": [
+      "Surajpol Gate"
+    ],
+    "value": [
+      "Surajpol Gate",
+      "Surajpole Gate",
+      "Suraj Pol (Old Jaipur City)"
+    ],
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "suraj_osm",
+        "url": "https://www.openstreetmap.org/way/863303428",
+        "supports": "Exact old-city gate way; saved API geometry and historic=monument/name tags.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "suraj_wikidata",
+        "url": "https://www.wikidata.org/wiki/Q140770830",
+        "supports": "City gate labelled Suraj Pol Gate Jaipur; P625 agrees with the old-city coordinates. P1435 records a state-protected designation.",
+        "evidence_strength": "structured secondary",
+        "limitation": "Protection designation is a Wikidata claim; no gazette notification independently verified."
+      },
+      {
+        "id": "suraj_municipal",
+        "url": "https://pinkcity.jaipurmcheritage.org/Presentation/ExploreJaipur/OldGates.aspx",
+        "supports": "Surajpole is the eastern gateway of the old walled city, toward Galta and the Sun Temple.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "suraj_ignca",
+        "url": "https://ignca.gov.in/asi_reports/RJJPR_358.pdf",
+        "supports": "Government heritage documentation identifies Suraj Pol in Pink City as a gateway.",
+        "evidence_strength": "primary",
+        "limitation": "Protection field is blank. Coarse coordinates and approach/orientation text are unsuitable for exact geolocation; municipal evidence and exact OSM/Wikidata anchors take precedence."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+    "field": "description",
+    "before": null,
+    "value": "Suraj Pol, also called Surajpole Gate, is an eastern gateway of Jaipur's walled city on the route toward Galta and the Sun Temple.",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "suraj_osm",
+        "url": "https://www.openstreetmap.org/way/863303428",
+        "supports": "Exact old-city gate way; saved API geometry and historic=monument/name tags.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "suraj_wikidata",
+        "url": "https://www.wikidata.org/wiki/Q140770830",
+        "supports": "City gate labelled Suraj Pol Gate Jaipur; P625 agrees with the old-city coordinates. P1435 records a state-protected designation.",
+        "evidence_strength": "structured secondary",
+        "limitation": "Protection designation is a Wikidata claim; no gazette notification independently verified."
+      },
+      {
+        "id": "suraj_municipal",
+        "url": "https://pinkcity.jaipurmcheritage.org/Presentation/ExploreJaipur/OldGates.aspx",
+        "supports": "Surajpole is the eastern gateway of the old walled city, toward Galta and the Sun Temple.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "suraj_ignca",
+        "url": "https://ignca.gov.in/asi_reports/RJJPR_358.pdf",
+        "supports": "Government heritage documentation identifies Suraj Pol in Pink City as a gateway.",
+        "evidence_strength": "primary",
+        "limitation": "Protection field is blank. Coarse coordinates and approach/orientation text are unsuitable for exact geolocation; municipal evidence and exact OSM/Wikidata anchors take precedence."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_india_gate",
+    "field": "name",
+    "before": "India gate",
+    "value": "India Gate (Sitapura)",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "india_osm",
+        "url": "https://www.openstreetmap.org/node/3771356458",
+        "supports": "Exact India gate node at 26.7854254,75.8226628; historic=monument is an OSM contributor tag.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "india_transport",
+        "url": "https://transport.rajasthan.gov.in/content/dam/transport/metro/Project/Suggestion%20on%20DPR%20Phase%202%20%26%20Phase%201C/2020.07.09_Final_DPR_Phase%202.pdf",
+        "supports": "Official metro DPR identifies India Gate (SIA) along Tonk Road in the Sanganer/Sitapura context.",
+        "evidence_strength": "primary",
+        "limitation": "Supports local landmark name/context, not protected-monument status or attraction prominence; indexed DPR text reviewed, full 39 MB PDF not fetched."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_india_gate",
+    "field": "name_en",
+    "before": "India gate",
+    "value": "India Gate (Sitapura)",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "india_osm",
+        "url": "https://www.openstreetmap.org/node/3771356458",
+        "supports": "Exact India gate node at 26.7854254,75.8226628; historic=monument is an OSM contributor tag.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "india_transport",
+        "url": "https://transport.rajasthan.gov.in/content/dam/transport/metro/Project/Suggestion%20on%20DPR%20Phase%202%20%26%20Phase%201C/2020.07.09_Final_DPR_Phase%202.pdf",
+        "supports": "Official metro DPR identifies India Gate (SIA) along Tonk Road in the Sanganer/Sitapura context.",
+        "evidence_strength": "primary",
+        "limitation": "Supports local landmark name/context, not protected-monument status or attraction prominence; indexed DPR text reviewed, full 39 MB PDF not fetched."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_india_gate",
+    "field": "alternate_names",
+    "before": [],
+    "value": [
+      "India gate"
+    ],
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "india_osm",
+        "url": "https://www.openstreetmap.org/node/3771356458",
+        "supports": "Exact India gate node at 26.7854254,75.8226628; historic=monument is an OSM contributor tag.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "india_transport",
+        "url": "https://transport.rajasthan.gov.in/content/dam/transport/metro/Project/Suggestion%20on%20DPR%20Phase%202%20%26%20Phase%201C/2020.07.09_Final_DPR_Phase%202.pdf",
+        "supports": "Official metro DPR identifies India Gate (SIA) along Tonk Road in the Sanganer/Sitapura context.",
+        "evidence_strength": "primary",
+        "limitation": "Supports local landmark name/context, not protected-monument status or attraction prominence; indexed DPR text reviewed, full 39 MB PDF not fetched."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_india_gate",
+    "field": "description",
+    "before": null,
+    "value": "India Gate is a locally named landmark in the Sitapura/Tonk Road area of southern Jaipur.",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "india_osm",
+        "url": "https://www.openstreetmap.org/node/3771356458",
+        "supports": "Exact India gate node at 26.7854254,75.8226628; historic=monument is an OSM contributor tag.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "india_transport",
+        "url": "https://transport.rajasthan.gov.in/content/dam/transport/metro/Project/Suggestion%20on%20DPR%20Phase%202%20%26%20Phase%201C/2020.07.09_Final_DPR_Phase%202.pdf",
+        "supports": "Official metro DPR identifies India Gate (SIA) along Tonk Road in the Sanganer/Sitapura context.",
+        "evidence_strength": "primary",
+        "limitation": "Supports local landmark name/context, not protected-monument status or attraction prominence; indexed DPR text reviewed, full 39 MB PDF not fetched."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_india_gate",
+    "field": "tier",
+    "before": "core_destination",
+    "value": "recommended",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "india_osm",
+        "url": "https://www.openstreetmap.org/node/3771356458",
+        "supports": "Exact India gate node at 26.7854254,75.8226628; historic=monument is an OSM contributor tag.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "india_transport",
+        "url": "https://transport.rajasthan.gov.in/content/dam/transport/metro/Project/Suggestion%20on%20DPR%20Phase%202%20%26%20Phase%201C/2020.07.09_Final_DPR_Phase%202.pdf",
+        "supports": "Official metro DPR identifies India Gate (SIA) along Tonk Road in the Sanganer/Sitapura context.",
+        "evidence_strength": "primary",
+        "limitation": "Supports local landmark name/context, not protected-monument status or attraction prominence; indexed DPR text reviewed, full 39 MB PDF not fetched."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_india_gate",
+    "field": "media_policy",
+    "before": "REAL_REQUIRED",
+    "value": "REAL_PREFERRED",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "india_osm",
+        "url": "https://www.openstreetmap.org/node/3771356458",
+        "supports": "Exact India gate node at 26.7854254,75.8226628; historic=monument is an OSM contributor tag.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "india_transport",
+        "url": "https://transport.rajasthan.gov.in/content/dam/transport/metro/Project/Suggestion%20on%20DPR%20Phase%202%20%26%20Phase%201C/2020.07.09_Final_DPR_Phase%202.pdf",
+        "supports": "Official metro DPR identifies India Gate (SIA) along Tonk Road in the Sanganer/Sitapura context.",
+        "evidence_strength": "primary",
+        "limitation": "Supports local landmark name/context, not protected-monument status or attraction prominence; indexed DPR text reviewed, full 39 MB PDF not fetched."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+    "field": "name",
+    "before": "Rooftop view stairs",
+    "value": "Rooftop viewpoint access stairs (Chandpol Bazaar)",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "rooftop_other_osm",
+        "url": "https://www.openstreetmap.org/node/11533709370",
+        "supports": "Exact staircase node matches existing coordinates and English name.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "rooftop_osm",
+        "url": "https://www.openstreetmap.org/node/12367918008",
+        "supports": "Nearby rooftop viewpoint node is about 32 m from the stairs; current canonical ID points here despite staircase coordinates.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "wikivoyage",
+        "url": "https://en.wikivoyage.org/wiki/Jaipur",
+        "supports": "The originating Jain Mandir listing names Bara Padampura; a separate listing names Sanghiji. The monuments section describes rooftop access opposite Isarlat.",
+        "evidence_strength": "originating listing",
+        "limitation": "The Jain Mandir coordinates and 15-16 km directions are unreliable; identity comes from the explicit listing text."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+    "field": "name_en",
+    "before": "Rooftop view stairs",
+    "value": "Rooftop viewpoint access stairs (Chandpol Bazaar)",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "rooftop_other_osm",
+        "url": "https://www.openstreetmap.org/node/11533709370",
+        "supports": "Exact staircase node matches existing coordinates and English name.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "rooftop_osm",
+        "url": "https://www.openstreetmap.org/node/12367918008",
+        "supports": "Nearby rooftop viewpoint node is about 32 m from the stairs; current canonical ID points here despite staircase coordinates.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "wikivoyage",
+        "url": "https://en.wikivoyage.org/wiki/Jaipur",
+        "supports": "The originating Jain Mandir listing names Bara Padampura; a separate listing names Sanghiji. The monuments section describes rooftop access opposite Isarlat.",
+        "evidence_strength": "originating listing",
+        "limitation": "The Jain Mandir coordinates and 15-16 km directions are unreliable; identity comes from the explicit listing text."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+    "field": "description",
+    "before": null,
+    "value": "Metal-staircase access to a shopping-complex rooftop viewpoint across Chandpol Bazaar from Isarlat. Current public access should be checked before visiting.",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "rooftop_other_osm",
+        "url": "https://www.openstreetmap.org/node/11533709370",
+        "supports": "Exact staircase node matches existing coordinates and English name.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "rooftop_osm",
+        "url": "https://www.openstreetmap.org/node/12367918008",
+        "supports": "Nearby rooftop viewpoint node is about 32 m from the stairs; current canonical ID points here despite staircase coordinates.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "wikivoyage",
+        "url": "https://en.wikivoyage.org/wiki/Jaipur",
+        "supports": "The originating Jain Mandir listing names Bara Padampura; a separate listing names Sanghiji. The monuments section describes rooftop access opposite Isarlat.",
+        "evidence_strength": "originating listing",
+        "limitation": "The Jain Mandir coordinates and 15-16 km directions are unreliable; identity comes from the explicit listing text."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+    "field": "external_ids.osm_id",
+    "before": "node/12367918008",
+    "value": "node/11533709370",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "rooftop_other_osm",
+        "url": "https://www.openstreetmap.org/node/11533709370",
+        "supports": "Exact staircase node matches existing coordinates and English name.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "rooftop_osm",
+        "url": "https://www.openstreetmap.org/node/12367918008",
+        "supports": "Nearby rooftop viewpoint node is about 32 m from the stairs; current canonical ID points here despite staircase coordinates.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "wikivoyage",
+        "url": "https://en.wikivoyage.org/wiki/Jaipur",
+        "supports": "The originating Jain Mandir listing names Bara Padampura; a separate listing names Sanghiji. The monuments section describes rooftop access opposite Isarlat.",
+        "evidence_strength": "originating listing",
+        "limitation": "The Jain Mandir coordinates and 15-16 km directions are unreliable; identity comes from the explicit listing text."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+    "field": "tier",
+    "before": "core_destination",
+    "value": "discovery",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "rooftop_other_osm",
+        "url": "https://www.openstreetmap.org/node/11533709370",
+        "supports": "Exact staircase node matches existing coordinates and English name.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "rooftop_osm",
+        "url": "https://www.openstreetmap.org/node/12367918008",
+        "supports": "Nearby rooftop viewpoint node is about 32 m from the stairs; current canonical ID points here despite staircase coordinates.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "wikivoyage",
+        "url": "https://en.wikivoyage.org/wiki/Jaipur",
+        "supports": "The originating Jain Mandir listing names Bara Padampura; a separate listing names Sanghiji. The monuments section describes rooftop access opposite Isarlat.",
+        "evidence_strength": "originating listing",
+        "limitation": "The Jain Mandir coordinates and 15-16 km directions are unreliable; identity comes from the explicit listing text."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_rooftop_view_stairs",
+    "field": "media_policy",
+    "before": "REAL_REQUIRED",
+    "value": "FALLBACK_ALLOWED",
+    "source": "reviewed_manual_resolution",
+    "input_sha256": "d294cc1846d9f696ed1dbebee5978037d60fa8df5e2d6e4a9c7169f82696ef0d",
+    "sources": [
+      {
+        "id": "rooftop_other_osm",
+        "url": "https://www.openstreetmap.org/node/11533709370",
+        "supports": "Exact staircase node matches existing coordinates and English name.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "rooftop_osm",
+        "url": "https://www.openstreetmap.org/node/12367918008",
+        "supports": "Nearby rooftop viewpoint node is about 32 m from the stairs; current canonical ID points here despite staircase coordinates.",
+        "evidence_strength": "primary"
+      },
+      {
+        "id": "wikivoyage",
+        "url": "https://en.wikivoyage.org/wiki/Jaipur",
+        "supports": "The originating Jain Mandir listing names Bara Padampura; a separate listing names Sanghiji. The monuments section describes rooftop access opposite Isarlat.",
+        "evidence_strength": "originating listing",
+        "limitation": "The Jain Mandir coordinates and 15-16 km directions are unreliable; identity comes from the explicit listing text."
+      }
+    ],
+    "retrieved_at": "2026-10-04T04:48:47.811008+00:00",
+    "source_pack": "india/rajasthan/jaipur/v3-research-jaipur-images-03"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+    "field": "description",
+    "old_value": "Suraj Pol, also called Surajpole Gate, is an eastern gateway of Jaipur's walled city on the route toward Galta and the Sun Temple.",
+    "new_value": "City Lab offline repair verification: this place record has been reviewed. Check opening hours before visiting.",
+    "patch_id": "citylab-6db7e0c018124349bc3c7747636e8136",
+    "source": "citylab_manual",
+    "author": "City loop acceptance QA",
+    "timestamp": "2026-10-04T07:14:14.823597+00:00"
+  },
+  {
+    "place_id": "yc_in_rj_jaipur_suraj_pol_gate",
+    "field": "images",
+    "old_value": {
+      "primary": null,
+      "gallery": []
+    },
+    "new_value": {
+      "file": "media/yc_in_rj_jaipur_suraj_pol_gate.webp",
+      "media_class": "TEST_ONLY_REAL",
+      "source": "JaipurThruMyLens",
+      "source_page": "https://jaipurthrumylens.com/2016/10/06/history-old-city-gates-of-jaipur-architectural-design-elements/",
+      "author": "",
+      "license": "UNVERIFIED_TEST_ONLY",
+      "license_url": "",
+      "attribution": null,
+      "original_filename": "suraj_pol_qa.webp",
+      "contributor": "City loop acceptance QA",
+      "identity_confirmed": true,
+      "real_photograph_confirmed": true
+    },
+    "patch_id": "citylab-6db7e0c018124349bc3c7747636e8136",
+    "source": "citylab_manual",
+    "author": "City loop acceptance QA",
+    "timestamp": "2026-10-04T07:14:14.823597+00:00"
+  }
+]
