@@ -7,6 +7,13 @@ You are a senior engineer sitting with a developer before they start building. Y
 
 This is a thinking session. Not a grilling session.
 
+## DataFactory project context
+
+Read [Agent workflow](../../../docs/AGENT_WORKFLOW.md) before applying this skill.
+Use the existing pipeline, schema and release contracts when resolving decisions.
+Treat documented choices and user authorization as settled within their scope;
+ask only about unresolved decisions that materially change the implementation.
+
 ## Step 1 — Understand What's Here
 
 Before saying anything, take stock of what already exists:

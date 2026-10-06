@@ -3,6 +3,13 @@ name: recover
 description: When something goes wrong during a build, diagnose what type of failure it is before deciding how to respond. Targeted fix, hard reset, or full rethink — the right response depends on the right diagnosis.
 ---
 
+## DataFactory project context
+
+Read [Agent workflow](../../../docs/AGENT_WORKFLOW.md) before applying this skill.
+A session restart recommendation is not permission to reset Git, delete source data,
+overwrite releases or discard curator work. Preserve the evidence needed to reproduce
+the failure.
+
 Not every problem is a bug. Not every bug needs debugging.
 
 When something goes wrong with AI-assisted development, the instinct is to keep prompting — describe the problem, ask for a fix, get another broken version, describe that problem, ask for another fix. The session gets longer. The context gets polluted. The code gets worse.

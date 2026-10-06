@@ -3,6 +3,13 @@ name: remember
 description: Save what matters at the end of a session so the next session picks up exactly where you left off. Or restore context at the start of a new session so nothing is lost between them.
 ---
 
+## DataFactory project context
+
+Read [Agent workflow](../../../docs/AGENT_WORKFLOW.md) before applying this skill.
+On restore, also read the project guide and its relevant references. Reconcile saved
+paths, counts and next steps with current code and release heads. Keep memory redacted
+and preserve an existing handoff unless its replacement is authorized.
+
 AI has no memory between sessions. Every new session starts blank. This skill fixes that.
 
 Run it at the end of a session to save. Run it at the start of a new session to restore. That is all it does — but done consistently, it means nothing ever gets lost.

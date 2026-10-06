@@ -3,6 +3,12 @@ name: review
 description: After building a feature, verify it matches what was planned, respects the system architecture and design standards, and is ready for production. Reports issues clearly so the developer decides what to fix.
 ---
 
+## DataFactory project context
+
+Read [Agent workflow](../../../docs/AGENT_WORKFLOW.md) before applying this skill.
+Report code verification, dataset readiness and device acceptance separately. Passing
+review does not establish source readiness or certify a production pack.
+
 Building is not done when the code runs. It is done when the code is correct.
 
 AI moves fast. Fast means things get built that work on the surface but drift from the architecture, violate the design system, or miss edge cases that matter. This skill catches those things before they compound into bigger problems.

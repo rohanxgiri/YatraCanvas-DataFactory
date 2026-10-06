@@ -30,6 +30,9 @@ The safe handoff is always validate, review or dry-run, then publish a new immut
 existing release is never overwritten. See the [offline pack architecture](docs/OFFLINE_CITY_PACK_ARCHITECTURE.md)
 and [city-data developer loop](docs/CITY_DATA_DEV_LOOP.md) for the complete cross-repository flow.
 
+For the installed project skills and their DataFactory boundaries, see
+[Agent workflow](docs/AGENT_WORKFLOW.md).
+
 Given an input city such as `Jaipur, Rajasthan, India`, DataFactory automatically:
 1. Resolves administrative boundaries and coordinates (Nominatim / GeoNames).
 2. Extracts candidate places from Overture Maps Places GeoParquet and OpenStreetMap.

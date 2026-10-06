@@ -3,6 +3,12 @@ name: imprint
 description: After building any UI component, extract the visual patterns that matter for consistency and save them to ui-registry.md. So every component built after this one matches what came before.
 ---
 
+## DataFactory project context
+
+Read [Agent workflow](../../../docs/AGENT_WORKFLOW.md) before applying this skill.
+Use this skill for DataFactory report templates or preview UI. Pipeline, dataset and
+CLI-only changes do not require a UI registry.
+
 UI consistency does not happen by accident. It happens because every component is built with awareness of what already exists.
 
 The problem with AI-built interfaces is that each component gets built in isolation. The agent does not remember what it built three sessions ago. So spacing drifts. Colors vary slightly. Border radius is inconsistent. The app looks like it was built by multiple people with different tastes.
