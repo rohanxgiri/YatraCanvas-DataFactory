@@ -16,6 +16,20 @@ untouched. See [the architecture audit](docs/local-research-architecture.md) and
 
 An autonomous, multi-source open-data extraction, deduplication, enrichment, and validation pipeline for generating offline-ready, structured city travel datasets (City Packs).
 
+## Repository boundary
+
+DataFactory is the canonical data producer in the YatraCanvas city-pack workflow:
+
+| Repository | Owns | DataFactory handoff |
+| --- | --- | --- |
+| DataFactory | Source extraction, normalization, provenance, validation, immutable releases, and app-pack exports | Produces a new versioned release or validated Flutter app pack |
+| [YatraCanvas CityPack Lab](https://github.com/rohanxgiri/YatraCanvas-CityPack_lab) | Human corrections, evidence, manual QA, and release gates | Supplies a checksummed, base-bound repair ZIP for dry-run and apply |
+| [YatraCanvas](https://github.com/rohanxgiri/yatra_canvas) | Traveller app and local consumption of prepared packs | Syncs the validated app projection; it is not a canonical data editor |
+
+The safe handoff is always validate, review or dry-run, then publish a new immutable version. An
+existing release is never overwritten. See the [offline pack architecture](docs/OFFLINE_CITY_PACK_ARCHITECTURE.md)
+and [city-data developer loop](docs/CITY_DATA_DEV_LOOP.md) for the complete cross-repository flow.
+
 Given an input city such as `Jaipur, Rajasthan, India`, DataFactory automatically:
 1. Resolves administrative boundaries and coordinates (Nominatim / GeoNames).
 2. Extracts candidate places from Overture Maps Places GeoParquet and OpenStreetMap.
@@ -165,6 +179,18 @@ Run the complete test suite with `pytest`:
 pytest -v
 ```
 Tests cover schema validation, coordinate geometry, taxonomy mapping, rejection filters, spatial deduplication, durable curation precedence, quarantine logic, SQLite queries, and manifest checksums.
+
+Before handing a pack to CityPack Lab or YatraCanvas, validate the exact release or app pack that
+will be consumed:
+
+```powershell
+python -m datafactory validate releases/india/rajasthan/jaipur/<version>
+python -m datafactory app-pack --city Jaipur --dry-run
+```
+
+`app-pack --dry-run` does not replace a committed release. Use `citylab-import --dry-run` for a
+City Lab repair ZIP, and use `--apply` only with a new output version after reviewing every
+APPLY, REVIEW, and REJECT decision.
 
 ## Free-only offline assurance
 
